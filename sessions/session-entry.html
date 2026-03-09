@@ -1,0 +1,2180 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Session Entry</title>
+  <style>
+    :root {
+      --bg-0: #05080e;
+      --bg-1: #0d1320;
+      --bg-2: #182335;
+      --ink: #f3ece0;
+      --muted: #b9b1a6;
+      --line: rgba(255, 255, 255, 0.17);
+      --line-soft: rgba(255, 255, 255, 0.09);
+      --hot: #ff6b35;
+      --warm: #ffc19f;
+      --cool: #5ab3de;
+      --tilt-x: 0deg;
+      --tilt-y: 0deg;
+      --light-x: 50%;
+      --light-y: 48%;
+      --pulse: 0;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Hiragino Sans", "Yu Gothic", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1500px 740px at 81% -22%, rgba(255, 107, 53, 0.31), transparent 62%),
+        radial-gradient(980px 590px at 12% 14%, rgba(90, 179, 222, 0.19), transparent 68%),
+        linear-gradient(157deg, var(--bg-0), var(--bg-1) 53%, var(--bg-2));
+      overflow: hidden;
+      letter-spacing: 0.02em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.13;
+      mix-blend-mode: screen;
+      background-image:
+        repeating-linear-gradient(
+          to bottom,
+          transparent 0,
+          transparent 3px,
+          rgba(255, 255, 255, 0.05) 3px,
+          rgba(255, 255, 255, 0.05) 4px
+        );
+      animation: filmDrift 8s linear infinite;
+    }
+
+    .entry {
+      position: relative;
+      z-index: 2;
+      width: min(1480px, 96vw);
+      height: 100%;
+      margin: 0 auto;
+      padding: 14px 0 12px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 11px;
+    }
+
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      padding: 9px 14px;
+      background: linear-gradient(130deg, rgba(12, 16, 23, 0.86), rgba(31, 37, 50, 0.66));
+      backdrop-filter: blur(4px);
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.13em;
+      color: rgba(185, 177, 166, 0.95);
+    }
+
+    .topline strong {
+      color: rgba(243, 236, 224, 0.99);
+      font-weight: 800;
+      letter-spacing: 0.2em;
+    }
+
+    .portal {
+      position: relative;
+      overflow: hidden;
+      --dock-safe-zone: 132px;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      background:
+        radial-gradient(860px 480px at 50% 42%, rgba(255, 107, 53, 0.24), transparent 73%),
+        radial-gradient(700px 420px at 24% 64%, rgba(90, 179, 222, 0.18), transparent 72%),
+        linear-gradient(162deg, rgba(10, 15, 24, 0.98), rgba(24, 31, 46, 0.92));
+      box-shadow:
+        0 42px 112px rgba(0, 0, 0, 0.58),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+        inset 0 -82px 138px rgba(0, 0, 0, 0.39);
+      transform-style: flat;
+      isolation: isolate;
+      cursor: default;
+      contain: paint;
+    }
+
+    .portal::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 24;
+      background:
+        radial-gradient(
+          720px 410px at var(--light-x) var(--light-y),
+          rgba(255, 255, 255, 0.11),
+          rgba(255, 255, 255, 0.025) 56%,
+          transparent 81%
+        );
+      mix-blend-mode: screen;
+      clip-path: inset(0 0 var(--dock-safe-zone) 0);
+      display: none;
+    }
+
+    .portal::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 31;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.43) 78%),
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63) 97%);
+      clip-path: inset(0 0 var(--dock-safe-zone) 0);
+    }
+
+    .fx-layer {
+      position: absolute;
+      inset: 0;
+      bottom: var(--dock-safe-zone);
+      width: 100%;
+      height: auto;
+      pointer-events: none;
+      clip-path: inset(0 0 0 0);
+    }
+
+    #fx-bg {
+      z-index: 3;
+      mix-blend-mode: screen;
+      opacity: 0.92;
+    }
+
+    #fx-mid {
+      z-index: 16;
+      mix-blend-mode: screen;
+      opacity: 0.95;
+    }
+
+    .plasma {
+      position: absolute;
+      inset: -20% -20%;
+      bottom: calc(var(--dock-safe-zone) - 20%);
+      z-index: 4;
+      pointer-events: none;
+      background:
+        radial-gradient(52% 42% at 28% 36%, rgba(255, 107, 53, 0.24), rgba(255, 107, 53, 0) 74%),
+        radial-gradient(46% 38% at 76% 44%, rgba(90, 179, 222, 0.21), rgba(90, 179, 222, 0) 76%),
+        radial-gradient(40% 34% at 54% 70%, rgba(255, 193, 159, 0.2), rgba(255, 193, 159, 0) 78%);
+      filter: blur(52px) saturate(1.14);
+      mix-blend-mode: screen;
+      opacity: 0.48;
+      animation: plasmaDrift 16s ease-in-out infinite;
+      clip-path: inset(0 0 calc(var(--dock-safe-zone) + 20%) 0);
+    }
+
+    .hud-grid {
+      position: absolute;
+      bottom: var(--dock-safe-zone);
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255, 255, 255, 0.11) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+      background-size: 58px 58px;
+      z-index: 6;
+      clip-path: inset(0 0 0 0);
+    }
+
+    .hud-grid.back {
+      inset: -22% -12% 24%;
+      transform: translateZ(-250px) scale(1.36);
+      opacity: 0.24;
+      mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.14) 78%);
+    }
+
+    .hud-grid.floor {
+      inset: -10% -17% -40%;
+      transform: rotateX(78deg) translateY(188px) translateZ(-146px) scale(1.5);
+      transform-origin: center;
+      opacity: 0.43;
+      mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.08));
+    }
+
+    .hud-grid.side {
+      inset: 0 66% 0 -22%;
+      transform: rotateY(84deg) translateZ(-126px) translateX(-8px);
+      opacity: 0.18;
+      mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0));
+    }
+
+    .typo-orbits {
+      position: absolute;
+      inset: 0;
+      bottom: var(--dock-safe-zone);
+      z-index: 8;
+      pointer-events: none;
+      opacity: 0.72;
+      mix-blend-mode: screen;
+      display: grid;
+      place-items: center;
+      transform: translateZ(-36px);
+      clip-path: inset(0 0 0 0);
+    }
+
+    .typo-orbits svg {
+      width: min(92vw, 1140px);
+      aspect-ratio: 1;
+      overflow: visible;
+    }
+
+    .ring {
+      transform-origin: 500px 500px;
+    }
+
+    .ring circle {
+      fill: none;
+      stroke-width: 1;
+      opacity: 0.24;
+    }
+
+    .ring text {
+      font-family: "Avenir Next", "Yu Gothic", sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      fill: rgba(247, 241, 232, 0.3);
+    }
+
+    .ring-a {
+      animation: orbitCW 15s linear infinite;
+    }
+
+    .ring-a circle {
+      stroke: rgba(255, 107, 53, 0.72);
+    }
+
+    .ring-b {
+      animation: orbitCCW 11s linear infinite;
+    }
+
+    .ring-b circle {
+      stroke: rgba(90, 179, 222, 0.64);
+    }
+
+    .ring-c {
+      animation: orbitCW 8s linear infinite;
+    }
+
+    .ring-c circle {
+      stroke: rgba(255, 193, 159, 0.58);
+    }
+
+    .energy-rings {
+      position: absolute;
+      inset: 0;
+      bottom: var(--dock-safe-zone);
+      z-index: 9;
+      display: grid;
+      place-items: center;
+      pointer-events: none;
+      transform: translateZ(-32px);
+      clip-path: inset(0 0 0 0);
+    }
+
+    .energy-rings span {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      mix-blend-mode: screen;
+      transform-origin: center;
+    }
+
+    .energy-rings span:nth-child(1) {
+      width: min(82vw, 980px);
+      aspect-ratio: 1;
+      border-left-color: rgba(255, 107, 53, 0.94);
+      border-right-color: rgba(90, 179, 222, 0.88);
+      animation: orbitCW 16s linear infinite;
+    }
+
+    .energy-rings span:nth-child(2) {
+      width: min(66vw, 790px);
+      aspect-ratio: 1;
+      border-top-color: rgba(255, 193, 159, 0.9);
+      border-bottom-color: rgba(90, 179, 222, 0.74);
+      animation: orbitCCW 10.8s linear infinite;
+    }
+
+    .energy-rings span:nth-child(3) {
+      width: min(48vw, 570px);
+      aspect-ratio: 1;
+      border-left-color: rgba(255, 193, 159, 0.72);
+      border-right-color: rgba(255, 107, 53, 0.68);
+      animation: orbitCW 8.2s linear infinite;
+    }
+
+    .energy-rings span:nth-child(4) {
+      width: min(32vw, 380px);
+      aspect-ratio: 1;
+      border-top-color: rgba(90, 179, 222, 0.64);
+      border-bottom-color: rgba(255, 107, 53, 0.54);
+      animation: orbitCCW 5.8s linear infinite;
+    }
+
+    .beam-field {
+      position: absolute;
+      inset: 0;
+      bottom: var(--dock-safe-zone);
+      z-index: 10;
+      pointer-events: none;
+      opacity: 0.6;
+      mix-blend-mode: screen;
+      clip-path: inset(0 0 0 0);
+    }
+
+    .beam-field line {
+      stroke-width: 1.15;
+      stroke-dasharray: 12 16;
+      animation: beamDash 6.4s linear infinite;
+    }
+
+    .impact-core {
+      position: absolute;
+      left: 50%;
+      top: 44.5%;
+      width: min(72vw, 900px);
+      aspect-ratio: 1;
+      transform: translate(-50%, -50%);
+      z-index: 11;
+      pointer-events: none;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, rgba(255, 255, 255, 0.065), rgba(255, 255, 255, 0) 62%),
+        conic-gradient(
+          from 0deg,
+          rgba(255, 107, 53, 0.21),
+          rgba(90, 179, 222, 0.1),
+          rgba(255, 193, 159, 0.2),
+          rgba(90, 179, 222, 0.1),
+          rgba(255, 107, 53, 0.21)
+        );
+      mask-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 0) 74%);
+      mix-blend-mode: screen;
+      opacity: 0.78;
+      animation: corePulse 6s ease-in-out infinite;
+      clip-path: inset(0 0 calc(var(--dock-safe-zone) + 8px) 0);
+    }
+
+    .goji-shell {
+      position: absolute;
+      inset: 0 0 var(--dock-safe-zone) 0;
+      z-index: 12;
+      display: grid;
+      place-items: center;
+      pointer-events: none;
+      transform:
+        perspective(2000px)
+        rotateX(calc(12deg + var(--tilt-x)))
+        rotateY(calc(-8deg + var(--tilt-y)))
+        translateZ(28px);
+      transition: transform 0.16s ease-out;
+      animation: shellFloat 8.8s ease-in-out infinite;
+      clip-path: inset(0 0 0 0);
+    }
+
+    .goji-stage {
+      position: relative;
+      width: min(100%, 1400px);
+      transform: translateY(-2%);
+    }
+
+    .goji-svg {
+      width: 100%;
+      display: block;
+      filter:
+        drop-shadow(0 0 22px rgba(255, 107, 53, 0.37))
+        drop-shadow(0 0 66px rgba(90, 179, 222, 0.27));
+      transform: translateZ(0);
+    }
+
+    .goji-base,
+    .goji-hot,
+    .goji-cool,
+    .goji-main,
+    .goji-wire,
+    .goji-cut,
+    .goji-grid {
+      font-family: "Bebas Neue", "DIN Condensed", "Impact", sans-serif;
+      font-size: 390px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    .goji-base {
+      fill: rgba(6, 10, 15, 0.62);
+      transform: translate(10px, 12px);
+    }
+
+    .goji-main {
+      fill: url(#gojiGrad);
+      filter: url(#liquidWarp);
+      opacity: 0.99;
+    }
+
+    .goji-grid {
+      fill: url(#gridPattern);
+      opacity: 0.44;
+      mix-blend-mode: screen;
+    }
+
+    .goji-wire {
+      fill: none;
+      stroke: rgba(247, 241, 232, 0.94);
+      stroke-width: 2.6;
+      stroke-dasharray: 17 12;
+      animation: wireDash 3.7s linear infinite;
+    }
+
+    .goji-hot {
+      fill: rgba(255, 107, 53, 0.31);
+      transform: translate(-9px, 4px);
+      mix-blend-mode: screen;
+      animation: chromaHot 3.4s ease-in-out infinite;
+    }
+
+    .goji-cool {
+      fill: rgba(90, 179, 222, 0.31);
+      transform: translate(9px, -4px);
+      mix-blend-mode: screen;
+      animation: chromaCool 3.4s ease-in-out infinite;
+    }
+
+    .goji-cut {
+      fill: rgba(255, 255, 255, 0.085);
+      mix-blend-mode: screen;
+      clip-path: polygon(0 11%, 100% 9%, 100% 17%, 0 19%);
+      animation: cutSweep 2.8s ease-in-out infinite;
+    }
+
+    .slice-layer {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      display: block;
+      pointer-events: none;
+      mix-blend-mode: screen;
+      opacity: 0.5;
+    }
+
+    .slice-layer text {
+      font-family: "Bebas Neue", "DIN Condensed", "Impact", sans-serif;
+      font-size: 390px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      fill: currentColor;
+    }
+
+    .slice-a {
+      color: rgba(255, 107, 53, 0.48);
+      clip-path: inset(6% 0 68% 0);
+      animation: sliceDriftA 2.9s ease-in-out infinite;
+    }
+
+    .slice-b {
+      color: rgba(90, 179, 222, 0.45);
+      clip-path: inset(40% 0 36% 0);
+      animation: sliceDriftB 2.5s ease-in-out infinite;
+    }
+
+    .slice-c {
+      color: rgba(255, 193, 159, 0.41);
+      clip-path: inset(72% 0 8% 0);
+      animation: sliceDriftC 3.1s ease-in-out infinite;
+    }
+
+    .portrait-flash-layer {
+      position: absolute;
+      inset: 0;
+      bottom: var(--dock-safe-zone);
+      z-index: 15;
+      pointer-events: none;
+      overflow: hidden;
+      mix-blend-mode: lighten;
+      opacity: 0.98;
+      clip-path: inset(0 0 0 0);
+    }
+
+    .flash-portrait {
+      position: absolute;
+      width: 68px;
+      height: 68px;
+      transform: translate3d(-50%, -50%, 0) rotate(var(--rot, 0deg)) scale(0.82);
+      transform-origin: center;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.44);
+      background-size: cover;
+      background-position: center;
+      box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.28) inset,
+        0 0 8px rgba(255, 107, 53, 0.22),
+        0 0 12px rgba(90, 179, 222, 0.14);
+      opacity: 0;
+      filter: saturate(1.14) contrast(1.03) brightness(1.02);
+      will-change: transform, opacity;
+      contain: paint;
+      backface-visibility: hidden;
+    }
+
+    .flash-portrait::before,
+    .flash-portrait::after {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      border-radius: inherit;
+      pointer-events: none;
+    }
+
+    .flash-portrait::before {
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      opacity: 0.42;
+    }
+
+    .flash-portrait::after {
+      background: linear-gradient(140deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0) 64%);
+      mix-blend-mode: screen;
+      opacity: 0.5;
+    }
+
+    .flash-portrait.on-a {
+      animation: portraitFlashA var(--dur, 0.72s) cubic-bezier(0.18, 0.72, 0.12, 1) var(--delay, 0s) both;
+    }
+
+    .flash-portrait.on-b {
+      animation: portraitFlashB var(--dur, 0.72s) cubic-bezier(0.18, 0.72, 0.12, 1) var(--delay, 0s) both;
+    }
+
+    body[data-glitch="1"] .goji-main {
+      transform: translate(-3px, 1px);
+      opacity: 0.9;
+    }
+
+    body[data-glitch="1"] .goji-hot {
+      transform: translate(-26px, 6px);
+      opacity: 0.95;
+    }
+
+    body[data-glitch="1"] .goji-cool {
+      transform: translate(26px, -6px);
+      opacity: 0.95;
+    }
+
+    body[data-glitch="1"] .goji-cut {
+      clip-path: polygon(0 46%, 100% 41%, 100% 50%, 0 53%);
+    }
+
+    body[data-glitch="1"] .slice-a { transform: translateX(-38px) skewX(-10deg); opacity: 0.74; }
+    body[data-glitch="1"] .slice-b { transform: translateX(46px) skewX(12deg); opacity: 0.74; }
+    body[data-glitch="1"] .slice-c { transform: translateX(-28px) skewX(-8deg); opacity: 0.68; }
+
+    body[data-glitch="1"] .goji-svg {
+      filter:
+        drop-shadow(0 0 34px rgba(255, 107, 53, 0.48))
+        drop-shadow(0 0 80px rgba(90, 179, 222, 0.4))
+        hue-rotate(22deg);
+    }
+
+    body[data-pulse="1"] .impact-core { opacity: 0.98; }
+    body[data-pulse="1"] .plasma { opacity: 0.68; }
+    body[data-pulse="1"] .energy-rings { transform: translateZ(-32px) scale(1.045); }
+
+    body[data-surge="1"] .portal { box-shadow: 0 50px 130px rgba(0, 0, 0, 0.64), inset 0 0 0 1px rgba(255,255,255,0.04), inset 0 -90px 150px rgba(0,0,0,0.42); }
+    body[data-surge="1"] .goji-shell { transform: perspective(2000px) rotateX(calc(16deg + var(--tilt-x))) rotateY(calc(-5deg + var(--tilt-y))) translateZ(64px) scale(1.05); }
+    body[data-surge="1"] .typo-orbits { opacity: 0.94; }
+    body[data-surge="1"] #fx-mid { filter: brightness(1.35) saturate(1.16); }
+
+    .portal-labels {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 122px;
+      z-index: 42;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      pointer-events: none;
+      text-transform: uppercase;
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      color: rgba(183, 175, 163, 0.84);
+    }
+
+    .chip {
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: rgba(10, 13, 19, 0.58);
+      backdrop-filter: blur(3px);
+    }
+
+    .dock {
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      bottom: 14px;
+      z-index: 999;
+      isolation: isolate;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 14px;
+      background: linear-gradient(152deg, rgb(10, 13, 20), rgb(22, 28, 38));
+      backdrop-filter: none;
+      box-shadow: 0 16px 38px rgba(0, 0, 0, 0.37);
+      display: grid;
+      grid-template-columns: 1fr 1.7fr auto;
+      gap: 14px;
+      align-items: center;
+      transform: none;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      pointer-events: auto;
+    }
+
+    .dock::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      background:
+        linear-gradient(152deg, rgb(10, 13, 20), rgb(22, 28, 38)),
+        repeating-linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.01) 0,
+          rgba(255, 255, 255, 0.01) 2px,
+          rgb(10, 13, 20) 2px,
+          rgb(10, 13, 20) 4px
+        );
+      z-index: 0;
+    }
+
+    .meta-block {
+      min-width: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .label {
+      margin: 0 0 6px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .sid {
+      margin: 0 0 5px;
+      font-size: 14px;
+      line-height: 1.45;
+      word-break: break-all;
+      color: rgba(243, 236, 224, 0.98);
+      font-weight: 700;
+    }
+
+    .song {
+      margin: 0 0 4px;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+      color: rgba(243, 236, 224, 0.93);
+    }
+
+    .meta-line {
+      margin: 0;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    .summary {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.64;
+      color: rgba(209, 201, 189, 0.98);
+      border-left: 2px solid rgba(255, 107, 53, 0.62);
+      padding-left: 12px;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      max-height: none;
+      position: relative;
+      z-index: 1;
+    }
+
+    .actions {
+      display: grid;
+      justify-items: end;
+      gap: 6px;
+      align-self: end;
+      position: relative;
+      z-index: 1;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      border-radius: 12px;
+      height: 42px;
+      padding: 0 18px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #fff;
+      cursor: pointer;
+      background: linear-gradient(120deg, rgba(255, 107, 53, 0.97), rgba(90, 179, 222, 0.9));
+      transition: transform 0.22s ease, box-shadow 0.26s ease, filter 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 12px 30px rgba(255, 107, 53, 0.35);
+      filter: saturate(1.1);
+    }
+
+    .btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+      filter: none;
+    }
+
+    .hint {
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    body[data-stage="0"] .topline,
+    body[data-stage="0"] .dock {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+
+    body[data-stage="0"] .goji-svg,
+    body[data-stage="0"] .slice-layer {
+      opacity: 0.16;
+      transform: scale(0.84);
+      filter: blur(1.5px) drop-shadow(0 0 8px rgba(255, 107, 53, 0.22));
+    }
+
+    body[data-stage="0"] .hud-grid,
+    body[data-stage="0"] .typo-orbits,
+    body[data-stage="0"] .energy-rings,
+    body[data-stage="0"] .portrait-flash-layer,
+    body[data-stage="0"] .portal-labels,
+    body[data-stage="0"] .impact-core,
+    body[data-stage="0"] .plasma,
+    body[data-stage="0"] .beam-field,
+    body[data-stage="0"] #fx-bg,
+    body[data-stage="0"] #fx-mid {
+      opacity: 0;
+    }
+
+    body[data-stage="1"] .goji-svg,
+    body[data-stage="1"] .slice-layer,
+    body[data-stage="2"] .goji-svg,
+    body[data-stage="2"] .slice-layer {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 1s ease, transform 1s ease, filter 1s ease;
+    }
+
+    body[data-stage="1"] .hud-grid,
+    body[data-stage="1"] .typo-orbits,
+    body[data-stage="1"] .energy-rings,
+    body[data-stage="1"] .portrait-flash-layer,
+    body[data-stage="1"] .portal-labels,
+    body[data-stage="1"] .impact-core,
+    body[data-stage="1"] .plasma,
+    body[data-stage="1"] .beam-field,
+    body[data-stage="1"] #fx-bg,
+    body[data-stage="1"] #fx-mid,
+    body[data-stage="2"] .hud-grid,
+    body[data-stage="2"] .typo-orbits,
+    body[data-stage="2"] .energy-rings,
+    body[data-stage="2"] .portrait-flash-layer,
+    body[data-stage="2"] .portal-labels,
+    body[data-stage="2"] .impact-core,
+    body[data-stage="2"] .plasma,
+    body[data-stage="2"] .beam-field,
+    body[data-stage="2"] #fx-bg,
+    body[data-stage="2"] #fx-mid {
+      opacity: 1;
+      transition: opacity 0.84s ease;
+    }
+
+    body[data-stage="2"] .topline,
+    body[data-stage="2"] .dock {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.62s ease, transform 0.62s ease;
+    }
+
+    body[data-stage="2"] .btn {
+      animation: btnPulse 2.6s ease-in-out infinite;
+    }
+
+    body[data-lite="1"] .portal {
+      cursor: default;
+    }
+
+    body[data-lite="1"] .plasma,
+    body[data-lite="1"] .typo-orbits,
+    body[data-lite="1"] .beam-field,
+    body[data-lite="1"] .slice-layer,
+    body[data-lite="1"] .hud-grid.side {
+      display: none;
+    }
+
+    body[data-balanced="1"] .typo-orbits,
+    body[data-balanced="1"] .typo-orbits {
+      display: none;
+    }
+
+    body[data-balanced="1"] .energy-rings {
+      display: grid;
+      opacity: 0.62;
+    }
+
+    body[data-balanced="1"] .energy-rings span {
+      animation: none !important;
+      transform: none !important;
+      border-left-color: rgba(255, 107, 53, 0.74);
+      border-right-color: rgba(90, 179, 222, 0.68);
+      border-top-color: rgba(255, 193, 159, 0.7);
+      border-bottom-color: rgba(90, 179, 222, 0.6);
+    }
+
+    body[data-balanced="1"] .beam-field {
+      display: block;
+      opacity: 0.36;
+    }
+
+    body[data-balanced="1"] .beam-field line {
+      animation: none !important;
+      stroke-width: 1.05;
+    }
+
+    body[data-balanced="1"] .impact-core {
+      opacity: 0.86;
+      animation: corePulse 4.2s ease-in-out infinite;
+    }
+
+    body[data-balanced="1"] .goji-main,
+    body[data-lite="1"] .goji-main {
+      filter: none !important;
+    }
+
+    body[data-balanced="1"] .goji-grid,
+    body[data-lite="1"] .goji-grid {
+      display: none;
+    }
+
+    body[data-balanced="1"] .slice-layer,
+    body[data-lite="1"] .slice-layer {
+      display: none;
+    }
+
+    body[data-balanced="1"] .goji-shell {
+      transform: translateZ(0);
+      animation: none !important;
+    }
+
+    body[data-lite="1"] .goji-shell {
+      transform: translateZ(0);
+      animation: none !important;
+    }
+
+    body[data-balanced="1"] .goji-svg,
+    body[data-lite="1"] .goji-svg {
+      filter:
+        drop-shadow(0 0 14px rgba(255, 107, 53, 0.28))
+        drop-shadow(0 0 24px rgba(90, 179, 222, 0.18));
+    }
+
+    body[data-lite="1"] .topline,
+    body[data-lite="1"] .dock {
+      backdrop-filter: none;
+    }
+
+    body[data-lite="1"] .goji-shell,
+    body[data-lite="1"] .goji-wire,
+    body[data-lite="1"] .goji-hot,
+    body[data-lite="1"] .goji-cool,
+    body[data-lite="1"] .goji-cut,
+    body[data-lite="1"] .goji-grid,
+    body[data-lite="1"] .energy-rings span {
+      animation: none !important;
+    }
+
+    body[data-lite="1"] #fx-mid {
+      display: none;
+      opacity: 0 !important;
+    }
+
+    body[data-lite="1"] .flash-portrait {
+      border-radius: 7px;
+      box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.3) inset,
+        0 0 8px rgba(255, 107, 53, 0.22),
+        0 0 12px rgba(90, 179, 222, 0.14);
+    }
+
+    @keyframes plasmaDrift {
+      0%, 100% {
+        transform: translate3d(-2%, -1%, 0) scale(1.01);
+        opacity: 0.42;
+      }
+      50% {
+        transform: translate3d(2%, 1.4%, 0) scale(1.08);
+        opacity: 0.56;
+      }
+    }
+
+    @keyframes orbitCW {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes orbitCCW {
+      to { transform: rotate(-360deg); }
+    }
+
+    @keyframes shellFloat {
+      0%, 100% {
+        transform:
+          perspective(2000px)
+          rotateX(calc(12deg + var(--tilt-x)))
+          rotateY(calc(-8deg + var(--tilt-y)))
+          translateZ(28px)
+          translateY(0);
+      }
+      50% {
+        transform:
+          perspective(2000px)
+          rotateX(calc(15deg + var(--tilt-x)))
+          rotateY(calc(-5deg + var(--tilt-y)))
+          translateZ(44px)
+          translateY(-12px);
+      }
+    }
+
+    @keyframes wireDash {
+      to { stroke-dashoffset: -60; }
+    }
+
+    @keyframes beamDash {
+      to { stroke-dashoffset: -56; }
+    }
+
+    @keyframes chromaHot {
+      0%, 100% { transform: translate(-9px, 4px); }
+      50% { transform: translate(-2px, -1px); }
+    }
+
+    @keyframes chromaCool {
+      0%, 100% { transform: translate(9px, -4px); }
+      50% { transform: translate(2px, 1px); }
+    }
+
+    @keyframes corePulse {
+      0%, 100% { transform: translate(-50%, -50%) scale(0.94); opacity: 0.66; }
+      50% { transform: translate(-50%, -50%) scale(1.08); opacity: 0.92; }
+    }
+
+    @keyframes cutSweep {
+      0%, 100% { clip-path: polygon(0 11%, 100% 9%, 100% 17%, 0 19%); opacity: 0.16; }
+      50% { clip-path: polygon(0 64%, 100% 58%, 100% 68%, 0 70%); opacity: 0.28; }
+    }
+
+    @keyframes sliceDriftA {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-8px); }
+    }
+
+    @keyframes sliceDriftB {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(10px); }
+    }
+
+    @keyframes sliceDriftC {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-7px); }
+    }
+
+    @keyframes portraitFlashA {
+      0% {
+        opacity: 0;
+        transform: translate3d(-50%, -50%, 0) rotate(var(--rot, 0deg)) scale(0.42);
+      }
+      22% {
+        opacity: 0.82;
+        transform: translate3d(-50%, -50%, 0) rotate(calc(var(--rot, 0deg) - 0.8deg)) scale(0.96);
+      }
+      68% {
+        opacity: 0.44;
+        transform: translate3d(-50%, -50%, 0) rotate(calc(var(--rot, 0deg) + 0.6deg)) scale(1.05);
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(-50%, -50%, 0) rotate(var(--rot, 0deg)) scale(1.12);
+      }
+    }
+
+    @keyframes portraitFlashB {
+      0% {
+        opacity: 0;
+        transform: translate3d(-50%, -50%, 0) rotate(var(--rot, 0deg)) scale(0.46);
+      }
+      24% {
+        opacity: 0.76;
+        transform: translate3d(-50%, -50%, 0) rotate(calc(var(--rot, 0deg) + 0.8deg)) scale(0.99);
+      }
+      70% {
+        opacity: 0.42;
+        transform: translate3d(-50%, -50%, 0) rotate(calc(var(--rot, 0deg) - 0.6deg)) scale(1.04);
+      }
+      100% {
+        opacity: 0;
+        transform: translate3d(-50%, -50%, 0) rotate(var(--rot, 0deg)) scale(1.1);
+      }
+    }
+
+    @keyframes btnPulse {
+      0%, 100% { box-shadow: 0 0 0 rgba(255, 107, 53, 0.2); }
+      50% { box-shadow: 0 0 0 10px rgba(255, 107, 53, 0); }
+    }
+
+    @keyframes filmDrift {
+      0% { transform: translateY(-3px); }
+      100% { transform: translateY(3px); }
+    }
+
+    @media (max-width: 1260px) {
+      .entry { width: min(1040px, 96vw); }
+
+      .goji-base,
+      .goji-hot,
+      .goji-cool,
+      .goji-main,
+      .goji-wire,
+      .goji-cut,
+      .goji-grid,
+      .slice-layer text {
+        font-size: 318px;
+      }
+
+      .dock {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .actions { justify-items: start; }
+    }
+
+    @media (max-width: 820px) {
+      .entry { padding: 10px 0 10px; }
+
+      .topline {
+        flex-wrap: wrap;
+        gap: 6px 10px;
+      }
+
+      .portal { border-radius: 24px; }
+
+      .goji-base,
+      .goji-hot,
+      .goji-cool,
+      .goji-main,
+      .goji-wire,
+      .goji-cut,
+      .goji-grid,
+      .slice-layer text {
+        font-size: 220px;
+        letter-spacing: 0.1em;
+      }
+
+      .portal-labels { display: none; }
+      .typo-orbits { opacity: 0.56; }
+    }
+
+    @media (max-width: 520px) {
+      .goji-base,
+      .goji-hot,
+      .goji-cool,
+      .goji-main,
+      .goji-wire,
+      .goji-cut,
+      .goji-grid,
+      .slice-layer text {
+        font-size: 158px;
+        letter-spacing: 0.08em;
+      }
+
+      .summary { font-size: 13px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+    }
+  </style>
+</head>
+<body data-stage="0" data-glitch="0" data-surge="0" data-pulse="0">
+  <main class="entry">
+    <header class="topline">
+      <strong>GOJI SESSION ENTRY</strong>
+      <span id="top-meta">CINEMATIC PREPRODUCTION FLOW</span>
+    </header>
+
+    <section class="portal" id="portal">
+      <canvas id="fx-bg" class="fx-layer" aria-hidden="true"></canvas>
+      <canvas id="fx-mid" class="fx-layer" aria-hidden="true"></canvas>
+
+      <div class="plasma" aria-hidden="true"></div>
+
+      <div class="hud-grid back" aria-hidden="true"></div>
+      <div class="hud-grid floor" aria-hidden="true"></div>
+      <div class="hud-grid side" aria-hidden="true"></div>
+
+      <div class="typo-orbits" aria-hidden="true">
+        <svg viewBox="0 0 1000 1000" role="presentation">
+          <defs>
+            <path id="ringPathA" d="M500,500 m-380,0 a380,380 0 1,1 760,0 a380,380 0 1,1 -760,0" />
+            <path id="ringPathB" d="M500,500 m-300,0 a300,300 0 1,1 600,0 a300,300 0 1,1 -600,0" />
+            <path id="ringPathC" d="M500,500 m-220,0 a220,220 0 1,1 440,0 a220,220 0 1,1 -440,0" />
+          </defs>
+          <g class="ring ring-a">
+            <circle cx="500" cy="500" r="380"></circle>
+            <text>
+              <textPath href="#ringPathA">GOJI • VISUAL ORCHESTRA • ART DIRECTION GATE • GOJI • VISUAL ORCHESTRA • ART DIRECTION GATE • </textPath>
+            </text>
+          </g>
+          <g class="ring ring-b">
+            <circle cx="500" cy="500" r="300"></circle>
+            <text>
+              <textPath href="#ringPathB">SESSION ENTRY • CINEMATIC FLOW • SESSION ENTRY • CINEMATIC FLOW • </textPath>
+            </text>
+          </g>
+          <g class="ring ring-c">
+            <circle cx="500" cy="500" r="220"></circle>
+            <text>
+              <textPath href="#ringPathC">GOJI IMPACT MODE • GOJI IMPACT MODE • GOJI IMPACT MODE • </textPath>
+            </text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="energy-rings" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <svg class="beam-field" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="0" y1="12" x2="100" y2="7" stroke="rgba(255,107,53,0.28)" />
+        <line x1="0" y1="24" x2="100" y2="20" stroke="rgba(90,179,222,0.24)" />
+        <line x1="0" y1="36" x2="100" y2="33" stroke="rgba(255,193,159,0.23)" />
+        <line x1="0" y1="50" x2="100" y2="50" stroke="rgba(90,179,222,0.2)" />
+        <line x1="0" y1="64" x2="100" y2="67" stroke="rgba(255,107,53,0.24)" />
+        <line x1="0" y1="78" x2="100" y2="84" stroke="rgba(90,179,222,0.22)" />
+      </svg>
+
+      <div class="impact-core" aria-hidden="true"></div>
+
+      <div class="goji-shell" aria-hidden="true">
+        <div class="goji-stage">
+          <svg class="goji-svg" viewBox="0 0 2100 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GOJI">
+            <defs>
+              <linearGradient id="gojiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff6b35" />
+                <stop offset="48%" stop-color="#ffc19f" />
+                <stop offset="100%" stop-color="#5ab3de" />
+                <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="12s" repeatCount="indefinite" />
+              </linearGradient>
+
+              <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.8" />
+                <animateTransform attributeName="patternTransform" type="translate" values="0 0;20 0;0 0" dur="4s" repeatCount="indefinite" />
+              </pattern>
+
+              <filter id="liquidWarp" x="-24%" y="-24%" width="148%" height="148%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.007 0.02" numOctaves="2" seed="11" result="n">
+                  <animate attributeName="baseFrequency" dur="8s" values="0.007 0.02;0.011 0.03;0.007 0.02" repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="n" scale="26" xChannelSelector="R" yChannelSelector="G" />
+              </filter>
+            </defs>
+
+            <text x="50%" y="54%" class="goji-base">GOJI</text>
+            <text x="50%" y="54%" class="goji-hot">GOJI</text>
+            <text x="50%" y="54%" class="goji-cool">GOJI</text>
+            <text x="50%" y="54%" class="goji-main">GOJI</text>
+            <text x="50%" y="54%" class="goji-grid">GOJI</text>
+            <text x="50%" y="54%" class="goji-wire">GOJI</text>
+            <text x="50%" y="54%" class="goji-cut">GOJI</text>
+          </svg>
+
+          <svg class="slice-layer slice-a" viewBox="0 0 2100 1000" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="54%">GOJI</text>
+          </svg>
+          <svg class="slice-layer slice-b" viewBox="0 0 2100 1000" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="54%">GOJI</text>
+          </svg>
+          <svg class="slice-layer slice-c" viewBox="0 0 2100 1000" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="54%">GOJI</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="portrait-flash-layer" id="portrait-layer" aria-hidden="true"></div>
+
+      <div class="portal-labels" aria-hidden="true">
+        <span class="chip">VISUAL ORCHESTRA</span>
+        <span class="chip">ENTRY IMPACT MODE</span>
+      </div>
+    </section>
+
+    <section class="dock">
+      <div class="meta-block">
+        <p class="label">Session</p>
+        <p class="sid" id="sid">session</p>
+        <p class="song" id="song">♪ -</p>
+        <p class="meta-line" id="meta-line">clips: - / duration: -</p>
+      </div>
+
+      <p class="summary" id="summary">企画要約がありません。</p>
+
+      <div class="actions">
+        <button class="btn" id="enter-btn">Enter Session</button>
+        <span class="hint">Enterキーでも移動</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="./session_manifest.js"></script>
+  <script src="./persona_portrait_manifest.js"></script>
+  <script>
+    const p = new URLSearchParams(location.search);
+    const sidParam = String(p.get("sid") || "").trim();
+    const returnHash = String(p.get("return_hash") || "").trim();
+    const portraitScope = String(p.get("portrait_scope") || "all").trim().toLowerCase();
+    const fallbackSummary = p.get("summary") || "企画要約がありません。";
+    const fallbackTarget = p.get("target") || "";
+    const manifest = Array.isArray(window.SESSION_MANIFEST) ? window.SESSION_MANIFEST : [];
+    const allPortraitManifest = Array.isArray(window.PERSONA_PORTRAIT_MANIFEST) ? window.PERSONA_PORTRAIT_MANIFEST : [];
+
+    function normalizeTarget(v) {
+      if (!v) return "";
+      if (v.startsWith("./session-") || v.startsWith("session-")) return v;
+      if (v.includes("/assets/instructions/index.html")) return v;
+      return "";
+    }
+
+    const currentSession = manifest.find(x => String(x?.session_id || "").trim() === sidParam) || null;
+    const sid = (currentSession && currentSession.session_id) ? String(currentSession.session_id) : (sidParam || "session");
+    const summary = (currentSession && currentSession.summary) ? String(currentSession.summary) : fallbackSummary;
+    const song = (currentSession && (currentSession.song_file || currentSession.song_filename))
+      ? String(currentSession.song_file || currentSession.song_filename)
+      : "-";
+    const target = normalizeTarget((currentSession && currentSession.path) ? String(currentSession.path) : fallbackTarget);
+    const clipCount = Number.isFinite(currentSession?.clip_count) ? String(currentSession.clip_count) : "-";
+    const durationSec = Number.isFinite(currentSession?.duration_sec)
+      ? `${Math.round(currentSession.duration_sec * 10) / 10}s`
+      : "-";
+
+    const sidEl = document.getElementById("sid");
+    const songEl = document.getElementById("song");
+    const metaEl = document.getElementById("meta-line");
+    const summaryEl = document.getElementById("summary");
+    const enterBtn = document.getElementById("enter-btn");
+    const topMetaEl = document.getElementById("top-meta");
+
+    sidEl.textContent = sid;
+    songEl.textContent = `♪ ${song}`;
+    metaEl.textContent = `clips: ${clipCount} / duration: ${durationSec}`;
+    summaryEl.textContent = summary;
+    topMetaEl.textContent = `${clipCount} clips / ${durationSec}`;
+    document.title = `${sid} | GOJI`;
+
+    function withEntryParams(url) {
+      try {
+        const u = new URL(url, location.href);
+        u.searchParams.set("entry", "1");
+        if (sid) u.searchParams.set("sid", sid);
+        if (returnHash) u.hash = `#${returnHash}`;
+        return u.toString();
+      } catch (_e) {
+        const glue = url.includes("?") ? "&" : "?";
+        const hash = returnHash ? `#${encodeURIComponent(returnHash)}` : "";
+        return `${url}${glue}entry=1&sid=${encodeURIComponent(sid)}${hash}`;
+      }
+    }
+
+    function enterSession() {
+      if (!target) return;
+      location.href = withEntryParams(target);
+    }
+
+    if (!target) {
+      enterBtn.disabled = true;
+      summaryEl.textContent = "遷移先が見つかりませんでした。";
+    }
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const perfParam = String(p.get("perf") || "").trim().toLowerCase();
+    const perfMode = perfParam === "full" ? "full" : (perfParam === "lite" ? "lite" : "balanced");
+    const isFull = perfMode === "full";
+    const isLite = perfMode === "lite";
+    const isBalanced = perfMode === "balanced";
+    document.body.setAttribute("data-lite", isLite ? "1" : "0");
+    document.body.setAttribute("data-balanced", isBalanced ? "1" : "0");
+    const portal = document.getElementById("portal");
+    const bgCanvas = document.getElementById("fx-bg");
+    const midCanvas = document.getElementById("fx-mid");
+    const portraitLayer = document.getElementById("portrait-layer");
+    const bgCtx = bgCanvas.getContext("2d", { alpha: true });
+    const midCtx = midCanvas.getContext("2d", { alpha: true });
+
+    let dpr = Math.min(window.devicePixelRatio || 1, isFull ? 1.4 : (isBalanced ? 1.1 : 1));
+    let rafId = 0;
+    let lastTs = 0;
+    let lastDrawTs = 0;
+
+    const pointer = {
+      x: 0.5,
+      y: 0.5,
+      tx: 0.5,
+      ty: 0.5,
+      rx: 0,
+      ry: 0,
+      trx: 0,
+      try: 0
+    };
+
+    const state = {
+      particles: [],
+      sparks: [],
+      waves: [],
+      pulseUntil: 0,
+      pulseNext: 0,
+      pulseRaised: false
+    };
+
+    const portraits = {
+      urls: [],
+      nodes: [],
+      deck: [],
+      deckCursor: 0,
+      anchors: [],
+      anchorCursor: 0,
+      flashTimer: 0,
+      flashRaf: 0,
+      lastFlashRafTs: 0,
+      emitRemainder: 0,
+      remixTimer: 0,
+      lastFlashTs: 0
+    };
+
+    const MIN_PORTRAIT_VARIETY = 100;
+
+    const DEFAULT_PORTRAIT_PATHS = Object.freeze([
+      "./persona_pool_v2/portraits/persona-81bd5a5f.png",
+      "./persona_pool_v2/portraits/persona-7e69bc5e.png",
+      "./persona_pool_v2/portraits/persona-17c13d28.png",
+      "./persona_pool_v2/portraits/persona-e73f6de0.png",
+      "./persona_pool_v2/portraits/persona-2b0dce2e.png",
+      "./persona_pool_v2/portraits/persona-3645b179.png",
+      "./persona_pool_v2/portraits/persona-ce6d74f0.png",
+      "./persona_pool_v2/portraits/persona-597f3ad7.png",
+      "./persona_pool_v2/portraits/persona-cd4818e8.png",
+      "./persona_pool_v2/portraits/persona-63ab1cdf.png",
+      "./persona_pool_v2/portraits/persona-866b8dab.png",
+      "./persona_pool_v2/portraits/persona-4b4b8838.png"
+    ]);
+
+    function clamp(v, min, max) {
+      return Math.max(min, Math.min(max, v));
+    }
+
+    const rng = {
+      state: (
+        (
+          (Date.now() >>> 0) ^
+          ((sid.length * 2654435761) >>> 0) ^
+          ((summary.length * 1597334677) >>> 0)
+        ) >>> 0
+      ) || 2654435769
+    };
+
+    function nextRand() {
+      let x = rng.state >>> 0;
+      x ^= (x << 13);
+      x ^= (x >>> 17);
+      x ^= (x << 5);
+      rng.state = x >>> 0;
+      return (rng.state >>> 0) / 4294967296;
+    }
+
+    function randIndex(max) {
+      if (!Number.isFinite(max) || max <= 1) return 0;
+      return Math.floor(nextRand() * max);
+    }
+
+    function seedFx() {
+      state.particles = [];
+      state.sparks = [];
+      state.waves = [];
+
+      const area = bgCanvas.width * bgCanvas.height;
+      const pCount = isFull
+        ? Math.max(120, Math.min(240, Math.floor(area / 19000)))
+        : (isBalanced
+          ? Math.max(70, Math.min(130, Math.floor(area / 29000)))
+          : Math.max(44, Math.min(84, Math.floor(area / 42000))));
+      const sCount = isFull
+        ? Math.max(20, Math.min(64, Math.floor(area / 72000)))
+        : 0;
+      const maxR = Math.min(bgCanvas.width, bgCanvas.height) * 0.63;
+
+      for (let i = 0; i < pCount; i += 1) {
+        const t = Math.random();
+        state.particles.push({
+          radius: Math.pow(t, 0.7) * maxR,
+          angle: Math.random() * Math.PI * 2,
+          speed: (0.0008 + Math.random() * 0.0024) * (Math.random() > 0.5 ? 1 : -1),
+          squash: 0.55 + Math.random() * 0.65,
+          size: 0.7 + Math.random() * 2.8,
+          alpha: 0.2 + Math.random() * 0.72,
+          hue: Math.random() > 0.52 ? 16 + Math.random() * 18 : 194 + Math.random() * 20,
+          parallax: 0.3 + Math.random() * 1.4,
+          phase: Math.random() * Math.PI * 2,
+          twinkle: 0.7 + Math.random() * 2.6,
+          trail: Math.random() > 0.66
+        });
+      }
+
+      for (let i = 0; i < sCount; i += 1) {
+        state.sparks.push({
+          x: Math.random(),
+          y: Math.random(),
+          len: 40 + Math.random() * 130,
+          width: 0.8 + Math.random() * 2.2,
+          alpha: 0.08 + Math.random() * 0.2,
+          hue: Math.random() > 0.5 ? 16 + Math.random() * 16 : 196 + Math.random() * 18,
+          drift: (Math.random() - 0.5) * 0.0024,
+          speed: 0.0005 + Math.random() * 0.0012,
+          phase: Math.random() * Math.PI * 2
+        });
+      }
+    }
+
+    function toAbsoluteUrl(value, baseHref) {
+      if (typeof value !== "string") return "";
+      const v = value.trim();
+      if (!v) return "";
+      try {
+        if (/^sessions\//i.test(v)) {
+          const local = `./${v.replace(/^sessions\//i, "")}`;
+          return new URL(local, new URL("./", location.href)).toString();
+        }
+        if (/^\/?sessions\//i.test(v)) {
+          const local = `./${v.replace(/^\/?sessions\//i, "")}`;
+          return new URL(local, new URL("./", location.href)).toString();
+        }
+        if (/^persona_pool_v2\//i.test(v)) {
+          return new URL(`./${v}`, new URL("./", location.href)).toString();
+        }
+        return new URL(v, baseHref || location.href).toString();
+      } catch (_e) {
+        return "";
+      }
+    }
+
+    function pushPortrait(out, candidate, baseHref) {
+      if (typeof candidate !== "string") return;
+      const abs = toAbsoluteUrl(candidate, baseHref);
+      if (!abs) return;
+      const isLikelyImage = /(\.png|\.jpe?g|\.webp|\.gif|\.avif|^data:image\/|\/images?\/|portrait|avatar)/i.test(abs);
+      if (!isLikelyImage) return;
+      out.push(abs);
+    }
+
+    function collectPortraitUrlsDeep(input, baseHref, out, depth = 0) {
+      if (!input || depth > 6) return;
+      if (Array.isArray(input)) {
+        for (let i = 0; i < input.length; i += 1) {
+          collectPortraitUrlsDeep(input[i], baseHref, out, depth + 1);
+        }
+        return;
+      }
+      if (typeof input !== "object") return;
+
+      const entries = Object.entries(input);
+      for (let i = 0; i < entries.length; i += 1) {
+        const [k, v] = entries[i];
+        const key = String(k || "").toLowerCase();
+        if (typeof v === "string") {
+          if (
+            key.includes("portrait") ||
+            key.includes("avatar") ||
+            key === "image" ||
+            key === "image_url" ||
+            key === "thumbnail"
+          ) {
+            pushPortrait(out, v, baseHref);
+          }
+          continue;
+        }
+        if (v && typeof v === "object") {
+          collectPortraitUrlsDeep(v, baseHref, out, depth + 1);
+        }
+      }
+    }
+
+    function uniquePortraitUrls(items) {
+      const seen = new Set();
+      const out = [];
+      for (let i = 0; i < items.length; i += 1) {
+        const url = items[i];
+        if (!url || seen.has(url)) continue;
+        seen.add(url);
+        out.push(url);
+      }
+      return out;
+    }
+
+    function deriveInstructionsDataUrl(pathValue) {
+      const t = String(pathValue || "");
+      if (!t) return "";
+      const noHash = t.split("#")[0];
+      if (noHash.endsWith("instructions_data.json")) return noHash;
+      if (noHash.endsWith("index.html")) return noHash.replace(/index\.html$/, "instructions_data.json");
+      return "";
+    }
+
+    async function resolvePortraitUrls() {
+      const manifestAll = uniquePortraitUrls(
+        allPortraitManifest
+          .map((u) => toAbsoluteUrl(String(u || ""), location.href))
+          .filter(Boolean)
+      );
+      if (portraitScope === "all" && manifestAll.length > 0) {
+        return manifestAll;
+      }
+
+      const manifestUrls = [];
+      collectPortraitUrlsDeep(currentSession, location.href, manifestUrls);
+      let urls = uniquePortraitUrls(manifestUrls);
+
+      if (urls.length > 0) {
+        if (portraitScope === "session") return urls;
+        if (portraitScope === "mix" && manifestAll.length > 0) {
+          return uniquePortraitUrls(urls.concat(manifestAll));
+        }
+      }
+
+      const dataPath = deriveInstructionsDataUrl(target);
+      if (!dataPath) {
+        if (manifestAll.length > 0) return manifestAll;
+        const fallbackOnly = DEFAULT_PORTRAIT_PATHS.map((x) => toAbsoluteUrl(x, location.href)).filter(Boolean);
+        return uniquePortraitUrls(fallbackOnly);
+      }
+
+      try {
+        const resp = await fetch(dataPath, { cache: "no-store" });
+        if (!resp.ok) return [];
+        const data = await resp.json();
+        const baseHref = resp.url || toAbsoluteUrl(dataPath, location.href);
+        const found = [];
+        collectPortraitUrlsDeep(data, baseHref, found);
+        urls = uniquePortraitUrls(found);
+        if (urls.length > 0) {
+          if (portraitScope === "session") return urls;
+          if (portraitScope === "mix" && manifestAll.length > 0) {
+            return uniquePortraitUrls(urls.concat(manifestAll));
+          }
+        }
+      } catch (_e) {
+        // no-op
+      }
+
+      if (manifestAll.length > 0) {
+        return portraitScope === "mix"
+          ? uniquePortraitUrls(urls.concat(manifestAll))
+          : manifestAll;
+      }
+
+      const fallback = DEFAULT_PORTRAIT_PATHS.map((x) => toAbsoluteUrl(x, location.href)).filter(Boolean);
+      return uniquePortraitUrls(fallback);
+    }
+
+    function clearPortraitTimers() {
+      if (portraits.flashTimer) {
+        clearInterval(portraits.flashTimer);
+        portraits.flashTimer = 0;
+      }
+      if (portraits.flashRaf) {
+        cancelAnimationFrame(portraits.flashRaf);
+        portraits.flashRaf = 0;
+      }
+      if (portraits.remixTimer) {
+        clearInterval(portraits.remixTimer);
+        portraits.remixTimer = 0;
+      }
+      portraits.emitRemainder = 0;
+      portraits.lastFlashRafTs = 0;
+    }
+
+    function refillPortraitDeck() {
+      if (!portraits.urls.length) {
+        portraits.deck = [];
+        portraits.deckCursor = 0;
+        return;
+      }
+      portraits.deck = portraits.urls.slice();
+      for (let i = portraits.deck.length - 1; i > 0; i -= 1) {
+        const j = randIndex(i + 1);
+        const tmp = portraits.deck[i];
+        portraits.deck[i] = portraits.deck[j];
+        portraits.deck[j] = tmp;
+      }
+      portraits.deckCursor = 0;
+    }
+
+    function refillAnchorDeck() {
+      const cols = isFull ? 14 : (isBalanced ? 12 : 10);
+      const rows = isFull ? 9 : (isBalanced ? 8 : 7);
+      const anchors = [];
+      for (let r = 0; r < rows; r += 1) {
+        for (let c = 0; c < cols; c += 1) {
+          const bx = (c + 0.5) / cols;
+          const by = (r + 0.5) / rows;
+          const jitterX = (nextRand() - 0.5) * (0.84 / cols);
+          const jitterY = (nextRand() - 0.5) * (0.74 / rows);
+          anchors.push({
+            x: clamp((bx + jitterX) * 100, 2, 98),
+            y: clamp(4 + (by + jitterY) * 68, 4, 72)
+          });
+        }
+      }
+      for (let i = anchors.length - 1; i > 0; i -= 1) {
+        const j = randIndex(i + 1);
+        const tmp = anchors[i];
+        anchors[i] = anchors[j];
+        anchors[j] = tmp;
+      }
+      portraits.anchors = anchors;
+      portraits.anchorCursor = 0;
+    }
+
+    function nextAnchor() {
+      if (!portraits.anchors.length || portraits.anchorCursor >= portraits.anchors.length) {
+        refillAnchorDeck();
+      }
+      const base = portraits.anchors[portraits.anchorCursor] || { x: 50, y: 38 };
+      portraits.anchorCursor += 1;
+      return {
+        x: clamp(base.x + (nextRand() - 0.5) * 2.4, 2, 98),
+        y: clamp(base.y + (nextRand() - 0.5) * 1.8, 4, 72)
+      };
+    }
+
+    function randomPortraitUrl() {
+      if (!portraits.urls.length) return "";
+      if (!portraits.deck.length || portraits.deckCursor >= portraits.deck.length) {
+        refillPortraitDeck();
+      }
+      const idx = Math.min(portraits.deckCursor, portraits.deck.length - 1);
+      const out = portraits.deck[idx] || "";
+      portraits.deckCursor += 1;
+      return out;
+    }
+
+    function pickPortraitForNode(node) {
+      if (!node || !portraits.urls.length) return "";
+      const prev = String(node.dataset.lastUrl || "");
+      let url = randomPortraitUrl();
+      if (portraits.urls.length > 1 && url === prev) {
+        for (let i = 0; i < 8; i += 1) {
+          const alt = randomPortraitUrl();
+          if (alt && alt !== prev) {
+            url = alt;
+            break;
+          }
+        }
+      }
+      node.dataset.lastUrl = url;
+      return url;
+    }
+
+    function randomizePortraitPlacement(node) {
+      const p = nextAnchor();
+      const rot = (nextRand() - 0.5) * 42;
+      node.style.left = `${p.x.toFixed(3)}%`;
+      node.style.top = `${p.y.toFixed(3)}%`;
+      node.style.setProperty("--rot", `${rot.toFixed(2)}deg`);
+    }
+
+    function warmPortraitImages() {
+      if (!portraits.urls.length) return;
+      const sample = portraits.urls.slice(0, 18);
+      for (let i = 0; i < sample.length; i += 1) {
+        const img = new Image();
+        img.decoding = "async";
+        img.src = sample[i];
+      }
+    }
+
+    function buildPortraitNodes() {
+      if (!portraitLayer) return;
+      portraits.nodes = [];
+      portraitLayer.textContent = "";
+
+      if (!portraits.urls.length) return;
+
+      const rect = portal.getBoundingClientRect();
+      const density = (rect.width * rect.height) / 21000;
+      const count = isFull
+        ? Math.max(20, Math.min(48, Math.floor(density * 0.5)))
+        : (isBalanced
+          ? Math.max(14, Math.min(34, Math.floor(density * 0.38)))
+          : Math.max(10, Math.min(22, Math.floor(density * 0.28))));
+      refillAnchorDeck();
+
+      for (let i = 0; i < count; i += 1) {
+        const el = document.createElement("span");
+        el.className = "flash-portrait";
+        const size = 52 + nextRand() * 82;
+        el.style.width = `${size.toFixed(2)}px`;
+        el.style.height = `${size.toFixed(2)}px`;
+        randomizePortraitPlacement(el);
+        el.style.setProperty("--dur", `${(1.2 + nextRand() * 1.9).toFixed(3)}s`);
+        el.style.setProperty("--delay", `${(nextRand() * 0.06).toFixed(3)}s`);
+        el.dataset.lastUrl = "";
+        el.dataset.cooldownUntil = "0";
+        el.style.backgroundImage = `url("${pickPortraitForNode(el)}")`;
+
+        el.addEventListener("animationend", () => {
+          el.classList.remove("on-a", "on-b");
+        });
+
+        portraitLayer.appendChild(el);
+        portraits.nodes.push(el);
+      }
+    }
+
+    function remixPortraitSubset() {
+      if (!portraits.nodes.length || !portraits.urls.length) return;
+      const updates = Math.max(2, Math.floor(portraits.nodes.length * 0.04));
+      for (let i = 0; i < updates; i += 1) {
+        const node = portraits.nodes[randIndex(portraits.nodes.length)];
+        randomizePortraitPlacement(node);
+        if (nextRand() < 0.36) {
+          node.style.backgroundImage = `url("${randomPortraitUrl()}")`;
+        }
+      }
+    }
+
+    function flashPortraits(intensity = 1) {
+      if (!portraits.nodes.length || !portraits.urls.length) return;
+      const now = (typeof performance !== "undefined" && performance.now) ? performance.now() : Date.now();
+      const minGap = isFull ? 65 : (isBalanced ? 80 : 110);
+      if (now - portraits.lastFlashTs < minGap) return;
+      portraits.lastFlashTs = now;
+
+      const burst = Math.min(
+        portraits.nodes.length,
+        Math.max(2, Math.floor((2.2 + nextRand() * 1.2) * intensity))
+      );
+      const used = new Set();
+      for (let i = 0; i < burst; i += 1) {
+        let node = null;
+        for (let j = 0; j < 12; j += 1) {
+          const candidate = portraits.nodes[randIndex(portraits.nodes.length)];
+          const nextAt = Number(candidate?.dataset?.cooldownUntil || "0");
+          if (candidate && !used.has(candidate) && now >= nextAt) {
+            node = candidate;
+            break;
+          }
+        }
+        if (!node) {
+          for (let j = 0; j < 12; j += 1) {
+            const fallback = portraits.nodes[randIndex(portraits.nodes.length)];
+            if (fallback && !used.has(fallback)) {
+              node = fallback;
+              break;
+            }
+          }
+        }
+        if (!node) continue;
+        used.add(node);
+        randomizePortraitPlacement(node);
+        const portraitUrl = pickPortraitForNode(node);
+        if (portraitUrl) node.style.backgroundImage = `url("${portraitUrl}")`;
+        node.dataset.cooldownUntil = String(now + (isFull ? 740 : (isBalanced ? 820 : 940)));
+        const phase = node.dataset.phase === "a" ? "b" : "a";
+        node.dataset.phase = phase;
+        node.classList.remove("on-a", "on-b");
+        node.classList.add(phase === "a" ? "on-a" : "on-b");
+      }
+    }
+
+    function startPortraitEffects() {
+      if (!portraits.nodes.length || reduceMotion) return;
+      clearPortraitTimers();
+      const targetPerSec = isFull ? 2.625 : (isBalanced ? 2.5 : 1.75);
+      portraits.lastFlashRafTs = (typeof performance !== "undefined" && performance.now) ? performance.now() : Date.now();
+      portraits.emitRemainder = 0;
+      const tickFlash = (ts) => {
+        const prev = portraits.lastFlashRafTs || ts;
+        const dt = Math.max(0, Math.min(260, ts - prev));
+        portraits.lastFlashRafTs = ts;
+        portraits.emitRemainder += (dt * targetPerSec) / 1000;
+        let safety = 0;
+        while (portraits.emitRemainder >= 1 && safety < 4) {
+          flashPortraits(1);
+          portraits.emitRemainder -= 1;
+          safety += 1;
+        }
+        portraits.flashRaf = requestAnimationFrame(tickFlash);
+      };
+      portraits.flashRaf = requestAnimationFrame(tickFlash);
+      portraits.remixTimer = setInterval(() => {
+        remixPortraitSubset();
+      }, isFull ? 20800 : (isBalanced ? 26000 : 32000));
+      flashPortraits(isLite ? 2 : 3);
+    }
+
+    async function initPortraitEffects() {
+      portraits.urls = await resolvePortraitUrls();
+      if (portraits.urls.length < MIN_PORTRAIT_VARIETY) {
+        const allPool = uniquePortraitUrls(
+          allPortraitManifest
+            .map((u) => toAbsoluteUrl(String(u || ""), location.href))
+            .filter(Boolean)
+        );
+        if (allPool.length > portraits.urls.length) {
+          portraits.urls = uniquePortraitUrls(portraits.urls.concat(allPool));
+        }
+      }
+      if (!portraits.urls.length) return;
+      refillPortraitDeck();
+      warmPortraitImages();
+      buildPortraitNodes();
+      setTimeout(() => {
+        startPortraitEffects();
+      }, 480);
+    }
+
+    function resizeFx() {
+      dpr = Math.min(window.devicePixelRatio || 1, isFull ? 1.4 : (isBalanced ? 1.1 : 1));
+      const rect = bgCanvas.getBoundingClientRect();
+      const w = Math.max(1, Math.floor(rect.width * dpr));
+      const h = Math.max(1, Math.floor(rect.height * dpr));
+      bgCanvas.width = w;
+      bgCanvas.height = h;
+      midCanvas.width = w;
+      midCanvas.height = h;
+      seedFx();
+      if (portraits.urls.length) {
+        buildPortraitNodes();
+      }
+    }
+
+    function spawnWave(nx = 0.5, ny = 0.45, power = 1) {
+      state.waves.push({
+        x: nx,
+        y: ny,
+        life: 0,
+        maxLife: 460,
+        power
+      });
+    }
+
+    function triggerSurge() {
+      if (reduceMotion) return;
+      if (!isFull) {
+        flashPortraits(isBalanced ? 2.2 : 1.6);
+        return;
+      }
+      document.body.setAttribute("data-surge", "1");
+      setTimeout(() => {
+        document.body.setAttribute("data-surge", "0");
+      }, 190);
+      spawnWave(pointer.x, pointer.y, 1.35);
+      flashPortraits(5);
+    }
+
+    function scheduleGlitch() {
+      if (reduceMotion || !isFull) return;
+      const delay = 2200 + Math.random() * 2600;
+      setTimeout(() => {
+        document.body.setAttribute("data-glitch", "1");
+        flashPortraits(3);
+        setTimeout(() => {
+          document.body.setAttribute("data-glitch", "0");
+          scheduleGlitch();
+        }, 95 + Math.random() * 120);
+      }, delay);
+    }
+
+    function scheduleSurge() {
+      if (reduceMotion) return;
+      const delay = (isFull ? 4200 : 6200) + Math.random() * 4200;
+      setTimeout(() => {
+        triggerSurge();
+        scheduleSurge();
+      }, delay);
+    }
+
+    function drawFrame(ts) {
+      const frameLimit = isFull ? 32 : (isBalanced ? 74 : 108);
+      if (lastDrawTs && ts - lastDrawTs < frameLimit) {
+        rafId = requestAnimationFrame(drawFrame);
+        return;
+      }
+      lastDrawTs = ts;
+
+      const dt = lastTs ? Math.min(48, ts - lastTs) : 16;
+      lastTs = ts;
+
+      pointer.x += (pointer.tx - pointer.x) * 0.085;
+      pointer.y += (pointer.ty - pointer.y) * 0.085;
+      pointer.rx += (pointer.trx - pointer.rx) * 0.13;
+      pointer.ry += (pointer.try - pointer.ry) * 0.13;
+
+      pointer.tx = 0.5 + Math.sin(ts * 0.00019) * (isLite ? 0.012 : 0.02);
+      pointer.ty = 0.48 + Math.cos(ts * 0.00013) * (isLite ? 0.009 : 0.016);
+      pointer.trx = (0.5 - pointer.ty) * (isLite ? 4.4 : 6.2);
+      pointer.try = (pointer.tx - 0.5) * (isLite ? 5.3 : 7.4);
+
+      portal.style.setProperty("--light-x", `${(pointer.x * 100).toFixed(2)}%`);
+      portal.style.setProperty("--light-y", `${(pointer.y * 100).toFixed(2)}%`);
+      portal.style.setProperty("--tilt-x", `${pointer.rx.toFixed(2)}deg`);
+      portal.style.setProperty("--tilt-y", `${pointer.ry.toFixed(2)}deg`);
+
+      const w = bgCanvas.width;
+      const h = bgCanvas.height;
+      const cx = w * 0.5;
+      const cy = h * 0.435;
+
+      bgCtx.clearRect(0, 0, w, h);
+      if (isFull) midCtx.clearRect(0, 0, w, h);
+
+      let pulse = 0;
+      if (isFull) {
+        if (ts >= state.pulseNext) {
+          state.pulseUntil = ts + 260;
+          state.pulseNext = ts + 2000 + Math.random() * 2200;
+          spawnWave(0.5 + (Math.random() - 0.5) * 0.18, 0.43 + (Math.random() - 0.5) * 0.12, 1 + Math.random() * 0.5);
+          flashPortraits(2.5);
+        }
+
+        pulse = clamp((state.pulseUntil - ts) / 260, 0, 1);
+        document.body.setAttribute("data-pulse", pulse > 0 ? "1" : "0");
+        portal.style.setProperty("--pulse", pulse.toFixed(3));
+        if (pulse > 0.88 && !state.pulseRaised) {
+          state.pulseRaised = true;
+          flashPortraits(3.5);
+        }
+        if (pulse <= 0.12 && state.pulseRaised) {
+          state.pulseRaised = false;
+        }
+      } else if (isBalanced) {
+        pulse = 0.2 + ((Math.sin(ts * 0.00155) + 1) * 0.18);
+        portal.style.setProperty("--pulse", pulse.toFixed(3));
+      } else {
+        portal.style.setProperty("--pulse", "0");
+      }
+
+      const glow = bgCtx.createRadialGradient(
+        cx + (pointer.x - 0.5) * w * 0.22,
+        cy + (pointer.y - 0.5) * h * 0.19,
+        0,
+        cx,
+        cy,
+        Math.max(w, h) * 0.69
+      );
+      glow.addColorStop(0, `rgba(255,132,90,${(0.2 + pulse * 0.18).toFixed(3)})`);
+      glow.addColorStop(0.43, `rgba(90,179,222,${(0.12 + pulse * 0.1).toFixed(3)})`);
+      glow.addColorStop(1, "rgba(0,0,0,0)");
+      bgCtx.fillStyle = glow;
+      bgCtx.fillRect(0, 0, w, h);
+
+      for (let i = 0; i < (isFull ? 7 : (isBalanced ? 5 : 4)); i += 1) {
+        const spin = ts * 0.00016 * (i % 2 ? 1 : -1) + i * 0.58;
+        const rx = Math.min(w, h) * (0.16 + i * 0.05);
+        const ry = rx * (0.42 + (i % 3) * 0.08);
+        const start = spin;
+        const end = spin + Math.PI * (1.06 + (i % 2) * 0.32);
+
+        bgCtx.beginPath();
+        bgCtx.strokeStyle = i % 2
+          ? `rgba(255, 125, 80, ${(0.07 + i * 0.011 + pulse * 0.08).toFixed(3)})`
+          : `rgba(90, 179, 222, ${(0.06 + i * 0.01 + pulse * 0.06).toFixed(3)})`;
+        bgCtx.lineWidth = (1 + i * 0.2) * dpr;
+        bgCtx.ellipse(
+          cx + (pointer.x - 0.5) * w * 0.085,
+          cy + (pointer.y - 0.5) * h * 0.075,
+          rx,
+          ry,
+          spin,
+          start,
+          end
+        );
+        bgCtx.stroke();
+      }
+
+      for (let i = 0; i < state.particles.length; i += 1) {
+        const pItem = state.particles[i];
+        pItem.angle += pItem.speed;
+
+        const ox = Math.cos(pItem.angle + pItem.phase) * pItem.radius;
+        const oy = Math.sin(pItem.angle * pItem.squash) * pItem.radius * 0.58;
+
+        const x = cx + ox + (pointer.x - 0.5) * pItem.parallax * w * 0.12;
+        const y = cy + oy + (pointer.y - 0.5) * pItem.parallax * h * 0.12;
+
+        const tw = 0.5 + Math.sin(ts * 0.00125 * pItem.twinkle + pItem.phase) * 0.5;
+        const r = pItem.size * (0.72 + tw * 0.95) * dpr;
+
+        bgCtx.beginPath();
+        bgCtx.fillStyle = `hsla(${pItem.hue.toFixed(1)}, 92%, ${(54 + tw * 20).toFixed(1)}%, ${(pItem.alpha * (0.5 + tw * 0.5)).toFixed(3)})`;
+        bgCtx.arc(x, y, r, 0, Math.PI * 2);
+        bgCtx.fill();
+
+        if (pItem.trail && tw > 0.69) {
+          bgCtx.beginPath();
+          bgCtx.strokeStyle = `hsla(${pItem.hue.toFixed(1)}, 96%, 67%, ${(0.1 + tw * 0.17 + pulse * 0.14).toFixed(3)})`;
+          bgCtx.lineWidth = Math.max(1, r * 0.4);
+          bgCtx.moveTo(x, y);
+          bgCtx.lineTo(x - Math.cos(pItem.angle) * r * 13, y - Math.sin(pItem.angle) * r * 13);
+          bgCtx.stroke();
+        }
+      }
+
+      if (isFull) {
+        for (let i = state.waves.length - 1; i >= 0; i -= 1) {
+          const wv = state.waves[i];
+          wv.life += dt;
+          if (wv.life >= wv.maxLife) {
+            state.waves.splice(i, 1);
+            continue;
+          }
+
+          const t = wv.life / wv.maxLife;
+          const e = 1 - t;
+          const radius = (0.06 + t * 0.38) * Math.min(w, h) * wv.power;
+          const px = wv.x * w;
+          const py = wv.y * h;
+
+          midCtx.beginPath();
+          midCtx.strokeStyle = `rgba(255, 193, 159, ${(0.34 * e).toFixed(3)})`;
+          midCtx.lineWidth = (2 + e * 5) * dpr;
+          midCtx.ellipse(px, py, radius, radius * 0.54, 0, 0, Math.PI * 2);
+          midCtx.stroke();
+        }
+
+        for (let i = 0; i < state.sparks.length; i += 1) {
+          const s = state.sparks[i];
+          const theta = ts * s.speed + s.phase;
+          const x = (s.x + Math.sin(theta) * 0.03 + s.drift * ts) % 1;
+          const y = (s.y + Math.cos(theta * 0.7) * 0.03) % 1;
+
+          const px = ((x + 1) % 1) * w;
+          const py = ((y + 1) % 1) * h;
+          const len = (s.len + pulse * 38) * dpr;
+
+          midCtx.beginPath();
+          midCtx.strokeStyle = `hsla(${s.hue.toFixed(1)}, 95%, 66%, ${(s.alpha + pulse * 0.18).toFixed(3)})`;
+          midCtx.lineWidth = s.width * dpr;
+          midCtx.moveTo(px, py);
+          midCtx.lineTo(px + Math.cos(theta) * len, py + Math.sin(theta) * len * 0.42);
+          midCtx.stroke();
+        }
+      }
+
+      rafId = requestAnimationFrame(drawFrame);
+    }
+
+    function runIntro() {
+      requestAnimationFrame(() => {
+        document.body.setAttribute("data-stage", "1");
+      });
+      setTimeout(() => {
+        document.body.setAttribute("data-stage", "2");
+      }, 920);
+    }
+
+    enterBtn.addEventListener("click", enterSession);
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") enterSession();
+      if (e.key.toLowerCase() === " ") triggerSurge();
+    });
+
+    portal.addEventListener("click", triggerSurge);
+
+    window.addEventListener("resize", resizeFx);
+
+    resizeFx();
+    initPortraitEffects();
+
+    if (!reduceMotion && bgCtx && midCtx) {
+      state.pulseNext = isFull ? 1200 : Number.POSITIVE_INFINITY;
+      if (!isFull) {
+        const turbAnim = document.querySelector("#liquidWarp animate");
+        if (turbAnim && turbAnim.parentNode) turbAnim.parentNode.removeChild(turbAnim);
+        const disp = document.querySelector("#liquidWarp feDisplacementMap");
+        if (disp) disp.setAttribute("scale", isLite ? "12" : "16");
+        document.body.setAttribute("data-glitch", "0");
+        document.body.setAttribute("data-surge", "0");
+        document.body.setAttribute("data-pulse", "0");
+        portal.style.setProperty("--pulse", "0");
+      }
+      rafId = requestAnimationFrame(drawFrame);
+      if (isFull) scheduleGlitch();
+      if (isFull) scheduleSurge();
+    } else {
+      portal.style.setProperty("--light-x", "50%");
+      portal.style.setProperty("--light-y", "48%");
+      portal.style.setProperty("--tilt-x", "0deg");
+      portal.style.setProperty("--tilt-y", "0deg");
+      document.body.setAttribute("data-pulse", "0");
+    }
+
+    runIntro();
+
+    window.addEventListener("beforeunload", () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      clearPortraitTimers();
+    });
+  </script>
+</body>
+</html>
