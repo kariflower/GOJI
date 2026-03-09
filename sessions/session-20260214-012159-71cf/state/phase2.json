@@ -1,0 +1,4404 @@
+{
+  "session_id": "session-20260214-012159-71cf",
+  "state_version": 4,
+  "created_at": "2026-02-13T16:21:59.698164Z",
+  "updated_at": "2026-02-13T16:27:59.042488Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260214-012159-71cf",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.6,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.6,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.6,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.6,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.6,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.6,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.6,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.6,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.6,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.6,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.6,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.6,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.6,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.6,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.6,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.6,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.6,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "core_concept": {
+    "creative_seed": "persona-4c8b8788:df7a0b3f",
+    "self_analysis": "私は「完遂すること」に価値を置く人間。感情の高ぶりよりも、淡々と続けられる静かな達成を信じている。派手な表現や叫びには距離を感じ、むしろ「終わった後の静けさ」に心が動く。回復力は地味で遅いが、一度決めたら黙々と続ける。ユーモアは持たないが、物事の「後始末」や「片付け」に美しさを見出す傾向がある。",
+    "what_i_saw": "誰もいない教室の黒板に、白いチョークで書かれた数式が消されずに残っている。窓から差し込む夕陽が、消し残しの粉だけを照らしている。カメラはその粉のキラキラだけを映し続ける。",
+    "why_it_came": "歌詞の「三角関数」と「蛍光灯が消えて」から、私は「解き終わった後の静けさ」を連想した。叫びや革命ではなく、その後に残る痕跡の方が、私には「本物」に見える。作業の痕跡は嘘をつかない。[起点=lyrics][解釈=痕跡の美][トーン=counterpoint]",
+    "theme": "革命の翌朝、誰もいない教室に残された消し忘れの数式──解いた本人はもういない",
+    "hook_scene": {
+      "focus": "黒板の右下隅、縦15cm×横20cmの範囲に書かれた三角関数の途中式",
+      "place": "中学校3年2組の教室、朝7時、誰もいない、窓側最前列の席だけ椅子が引かれたまま",
+      "action": "カメラが超ゆっくりと黒板に寄っていき、チョークの粉が朝日に反射してキラキラ光る瞬間を3秒間固定する",
+      "detail": "数式の最後の行だけ、筆圧が強すぎて黒板にうっすら傷がついている",
+      "question": "なぜこの数式だけ消されずに残ったのか? 解いた人間は今どこにいるのか?",
+      "when": "「蛍光灯が消えて / 本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+    },
+    "tension_target": 0.7303947368421053
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-2fff1478",
+            "persona_id": "persona-a514e5e9",
+            "content": {
+              "creative_seed": "persona-a514e5e9:f2e684dd",
+              "self_analysis": "失敗と復帰を繰り返してきた人間。派手さより持続を選び、爆発より静かな蓄積を信じる。青臭さを懐かしむが、自分はそれを乗り越えたと思っている。だが本当は、あの時の「沸騰」を一度も経験しなかったことへの羨望がある。",
+              "what_i_saw": "深夜2時、誰もいない倉庫の休憩室。フォークリフトの充電音だけが響く中、14歳くらいの少年が古いスマホで自撮りしている。画面には「下書き287本」の文字。少年は何度も撮り直し、一度も投稿ボタンを押さない。",
+              "why_it_came": "「誰にも見せない動画」という一行が刺さった。私も若い頃、腰を痛めて実家療養中、何も言えず黙って天井を見ていた時期がある。あの時もし自分に「吐き出す場所」があったら、と思う。彼は持っているのに使わない。その緊張が、いつか爆発するか消えるかの瀬戸際に見える。私は「解放」を選ばなかった側の人間だから、彼が押すボタンを見たい。[起点=lyrics][解釈=未投稿の爆発][トーン=uplift]",
+              "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+              "hook_scene": {
+                "focus": "14歳の少年の右手親指",
+                "place": "深夜の学校の非常階段、蛍光灯が一本切れかけて明滅している",
+                "action": "スマホ画面の「すべて選択→投稿」ボタンの上で、3秒間震えた後、押す",
+                "detail": "画面に「アップロード中 1/287」と表示され、数字が高速で増えていく。少年の顔は映らない。指だけが映る。",
+                "question": "287本の中身は誰も知らない。再生回数0のまま朝を迎えるのか？それとも？",
+                "when": "2回目のサビ「この偽物の皮膚を剥がしたい」の直後、英語パート「Tear apart」の瞬間にボタンを押す"
+              }
+            },
+            "created_at": "2026-02-13 16:22:48.370986"
+          },
+          {
+            "proposal_id": "prop-36ea648a",
+            "persona_id": "persona-6fd7d48b",
+            "content": {
+              "creative_seed": "persona-6fd7d48b:69d562cf",
+              "self_analysis": "私は「誰かのために動くこと」を通して自分の価値を確認してきた人間。だが同時に、その役割の外側にある自分の欲望や衝動を、怖れながらも肯定したいと思っている。暗さに沈むより、そこから抜け出す瞬間の光や高揚を信じたい。",
+              "what_i_saw": "深夜、誰もいない中学校の屋上。少年が手すりの上に立ち、両手を広げて目を閉じている。足元には287本のサムネイルが映ったスマホが光っている。彼は飛び降りるのではなく、風を全身で受けている。",
+              "why_it_came": "「誰にも見せない本物」を溜め込む苦しさより、それを解放する瞬間の祝祭性に惹かれた。私自身、役割の外で感じる衝動を抑え込んできたが、それを肯定する瞬間にこそ生の実感があると信じている。この曲の「14歳の革命」という言葉に、破壊ではなく祝福を見た。[起点=lyrics][解釈=解放の祝祭][トーン=uplift]",
+              "theme": "287本の未公開動画を一斉投稿した直後、少年が屋上で風を全身に受けて笑う──誰も見ていない革命の、たった一人の祝祭",
+              "hook_scene": {
+                "focus": "14歳の少年の後ろ姿、制服のブレザーが風ではためいている",
+                "place": "中学校の屋上、手すりの外側（落ちない位置）、背景に街の夜景が広がり遠くにコンビニの看板が光っている",
+                "action": "両手を水平に広げ、目を閉じて風を受けている。足元のスマホ画面には「287件の投稿が完了しました」の通知",
+                "detail": "少年の左手の人差し指だけが、リズムに合わせて小刻みに動いている（指揮者のように）",
+                "question": "なぜ彼は、投稿直後に屋上へ来たのか？ 誰かの反応を待つのではなく、風を浴びることを選んだのか？",
+                "when": "「Break apart this plastic world」の直後、最後のサビが終わる瞬間"
+              }
+            },
+            "created_at": "2026-02-13 16:24:06.332075"
+          },
+          {
+            "proposal_id": "prop-573b4262",
+            "persona_id": "persona-4c8b8788",
+            "content": {
+              "creative_seed": "persona-4c8b8788:df7a0b3f",
+              "self_analysis": "私は「完遂すること」に価値を置く人間。感情の高ぶりよりも、淡々と続けられる静かな達成を信じている。派手な表現や叫びには距離を感じ、むしろ「終わった後の静けさ」に心が動く。回復力は地味で遅いが、一度決めたら黙々と続ける。ユーモアは持たないが、物事の「後始末」や「片付け」に美しさを見出す傾向がある。",
+              "what_i_saw": "誰もいない教室の黒板に、白いチョークで書かれた数式が消されずに残っている。窓から差し込む夕陽が、消し残しの粉だけを照らしている。カメラはその粉のキラキラだけを映し続ける。",
+              "why_it_came": "歌詞の「三角関数」と「蛍光灯が消えて」から、私は「解き終わった後の静けさ」を連想した。叫びや革命ではなく、その後に残る痕跡の方が、私には「本物」に見える。作業の痕跡は嘘をつかない。[起点=lyrics][解釈=痕跡の美][トーン=counterpoint]",
+              "theme": "革命の翌朝、誰もいない教室に残された消し忘れの数式──解いた本人はもういない",
+              "hook_scene": {
+                "focus": "黒板の右下隅、縦15cm×横20cmの範囲に書かれた三角関数の途中式",
+                "place": "中学校3年2組の教室、朝7時、誰もいない、窓側最前列の席だけ椅子が引かれたまま",
+                "action": "カメラが超ゆっくりと黒板に寄っていき、チョークの粉が朝日に反射してキラキラ光る瞬間を3秒間固定する",
+                "detail": "数式の最後の行だけ、筆圧が強すぎて黒板にうっすら傷がついている",
+                "question": "なぜこの数式だけ消されずに残ったのか? 解いた人間は今どこにいるのか?",
+                "when": "「蛍光灯が消えて / 本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+              }
+            },
+            "created_at": "2026-02-13 16:24:53.879433"
+          },
+          {
+            "proposal_id": "prop-352cdb5b",
+            "persona_id": "persona-goji",
+            "content": {
+              "theme": "14歳の少年が自室で母親の声に返事をするたび、壁に貼った自分の顔写真が1枚ずつ剥がれ落ちていく",
+              "hook_scene": {
+                "focus": "壁一面に貼られた同じ少年の証明写真風ポートレート、計42枚",
+                "place": "6畳間の自室、机の背後の壁、蛍光灯の真下",
+                "action": "母親が廊下から「ご飯よ」と呼ぶたびに、写真が1枚ずつ重力に従って床に落ちる。少年は振り返らず、落ちた枚数を小声で数えている",
+                "detail": "床に散らばった写真は全て表情が微妙に違う──427回撮り直した中から選んだ42枚",
+                "question": "なぜ同じ顔写真を42枚も壁に貼ったのか? 全部剥がれ落ちたら少年は何と答えるのか?",
+                "when": "「誰の操り糸を切ればいいの?」の直後、コーラス2回目"
+              },
+              "creative_seed": "persona-goji:9de3a955"
+            },
+            "created_at": "2026-02-13 16:25:42.709561"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "candidate_map": {
+            "A": "prop-2fff1478",
+            "B": "prop-36ea648a",
+            "C": "prop-573b4262",
+            "D": "prop-352cdb5b"
+          },
+          "tally": {
+            "A": 4,
+            "B": 5,
+            "C": 6,
+            "D": 5
+          },
+          "like_tally": {
+            "A": 2,
+            "B": 1,
+            "C": 6,
+            "D": 1
+          },
+          "dislike_tally": {
+            "A": 2,
+            "B": 4,
+            "C": 0,
+            "D": 4
+          },
+          "votes": [
+            {
+              "voter": "おおた りえ",
+              "like": "C",
+              "like_reason": "消し忘れた黒板の数式という静かな情景に、息子の学生時代を重ねて懐かしさを感じる。誰もいない教室の朝の空気感が胸に響く。",
+              "dislike": "D",
+              "dislike_reason": "自分の顔写真を42枚も壁に貼るという行為が理解しがたく、不気味で見ていて不安になる。母親の呼びかけに対する描写も心が痛む。"
+            },
+            {
+              "voter": "たなか しゅうへい",
+              "like": "A",
+              "like_reason": "287本溜め込んで一気に投稿するという行動に共感する。深夜の非常階段で震える指先の描写がリアルで、自分もSNSに投稿する時の緊張感を思い出す。",
+              "dislike": "B",
+              "dislike_reason": "屋上で両手を広げて風を浴びるという演出が大げさで恥ずかしい。自己陶酔的な感じがして、見ていて居心地が悪くなりそう。"
+            },
+            {
+              "voter": "かわさき あやの",
+              "like": "B",
+              "like_reason": "287本投稿後に一人で祝祭するという孤独な達成感の描写が、自分のキャリアや人生の節目と重なる。誰にも見られなくても自分で自分を祝う姿勢に共鳴する。",
+              "dislike": "D",
+              "dislike_reason": "同じ顔写真を42枚貼って剥がれ落ちる様子を数えるという設定が病的で、見ていて精神的に辛くなる。家族関係の歪みを感じて避けたい。"
+            },
+            {
+              "voter": "Somchai Rattanakosin",
+              "like": "C",
+              "like_reason": "朝の静かな教室と黒板の数式という普遍的な学校の風景が、娘の学生時代を思い出させる。チョークの粉が光る描写が美しく、言葉がわからなくても伝わる情景。",
+              "dislike": "A",
+              "dislike_reason": "287本の動画という設定が具体的すぎて理解しづらい。深夜の非常階段で一人でスマホを操作する少年の状況が、安全面で心配になる。"
+            },
+            {
+              "voter": "陳 俊傑",
+              "like": "C",
+              "like_reason": "朝の誰もいない教室という静謐な場面が、早朝の店の仕込み時間を思わせる。黒板に残された痕跡という控えめな演出が、押し付けがましくなくて好ましい。",
+              "dislike": "B",
+              "dislike_reason": "屋上で両手を広げるという大仰な演出が、自分の文化感覚では馴染まない。若者の自己陶酔的な行動を長時間見せられるのは退屈。"
+            },
+            {
+              "voter": "中村 健太",
+              "like": "A",
+              "like_reason": "夜勤明けの感覚に近い。誰も見てない時間に何かを決断する孤独感が、自分の日常と重なる。287本という数字の重みも実感できる。",
+              "dislike": "D",
+              "dislike_reason": "42枚の写真を壁に貼る行為が非現実的すぎて入り込めない。家族と同居している自分には、この状況設定が理解しづらい。"
+            },
+            {
+              "voter": "かわい ゆうき",
+              "like": "C",
+              "like_reason": "朝の誰もいない静けさと、残された痕跡の美しさに惹かれる。チョークの粉が光る描写が、朝日を浴びる多肉植物を思い出させる。",
+              "dislike": "B",
+              "dislike_reason": "屋上で両手を広げるという行為が大げさで気恥ずかしい。自分ならそういう表現はしない。"
+            },
+            {
+              "voter": "あきら",
+              "like": "D",
+              "like_reason": "同じ顔を42枚貼るという強迫的な行為に、アイデンティティの分裂や多重性を感じる。移住と帰国を経験した自分には、「自分は誰か」という問いが響く。",
+              "dislike": "B",
+              "dislike_reason": "「誰も見ていない革命」という言葉が抽象的すぎて空虚に感じる。風を浴びる描写も、青春ドラマの記号的表現に見える。"
+            },
+            {
+              "voter": "김태준",
+              "like": "C",
+              "like_reason": "解いた本人がいない数式という「不在の痕跡」に、人生の無常を感じる。60歳を過ぎて、自分が残したものの意味を考える機会が増えた。",
+              "dislike": "A",
+              "dislike_reason": "287本という数字が大きすぎて現実感がない。スマホ操作の緊張感よりも、なぜそんなに溜め込んだのかという疑問が先に立つ。"
+            },
+            {
+              "voter": "Aminah binti Osman",
+              "like": "C",
+              "like_reason": "朝の静けさと、誰かが残していった印という構図が、市場を歩くときに見る商人たちの痕跡を思い起こさせる。人の営みの儚さが美しい。",
+              "dislike": "D",
+              "dislike_reason": "母親の呼びかけに答えるたび写真が落ちるという設定が不自然。家族との関係を描くなら、もっと直接的で温かい表現を望む。"
+            }
+          ],
+          "analysis": "[batch 1] C（黒板の数式）が年配層を中心に支持され、静かで普遍的な情景が世代・文化を超えて共感を得た。一方、D（顔写真42枚）は病的・不気味という理由で複数の投票者から拒否され、Bの自己陶酔的演出も若年層以外からは敬遠された。Aは若年層のリアルな共感を得たが、年配層には状況理解のハードルがあった。\n[batch 2] C案が3票のlikeを集め、朝の静けさと「不在の痕跡」という普遍的なテーマが幅広い年齢層に響いた。一方、B案とD案はそれぞれ2票のdislikeを得て、演出の大げささや設定の非現実性が敬遠された。世代や文化を超えて共感される要素は「静謐さ」と「残された痕跡の美学」にあるようだ。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-573b4262",
+        "persona_id": "persona-4c8b8788",
+        "content": {
+          "creative_seed": "persona-4c8b8788:df7a0b3f",
+          "self_analysis": "私は「完遂すること」に価値を置く人間。感情の高ぶりよりも、淡々と続けられる静かな達成を信じている。派手な表現や叫びには距離を感じ、むしろ「終わった後の静けさ」に心が動く。回復力は地味で遅いが、一度決めたら黙々と続ける。ユーモアは持たないが、物事の「後始末」や「片付け」に美しさを見出す傾向がある。",
+          "what_i_saw": "誰もいない教室の黒板に、白いチョークで書かれた数式が消されずに残っている。窓から差し込む夕陽が、消し残しの粉だけを照らしている。カメラはその粉のキラキラだけを映し続ける。",
+          "why_it_came": "歌詞の「三角関数」と「蛍光灯が消えて」から、私は「解き終わった後の静けさ」を連想した。叫びや革命ではなく、その後に残る痕跡の方が、私には「本物」に見える。作業の痕跡は嘘をつかない。[起点=lyrics][解釈=痕跡の美][トーン=counterpoint]",
+          "theme": "革命の翌朝、誰もいない教室に残された消し忘れの数式──解いた本人はもういない",
+          "hook_scene": {
+            "focus": "黒板の右下隅、縦15cm×横20cmの範囲に書かれた三角関数の途中式",
+            "place": "中学校3年2組の教室、朝7時、誰もいない、窓側最前列の席だけ椅子が引かれたまま",
+            "action": "カメラが超ゆっくりと黒板に寄っていき、チョークの粉が朝日に反射してキラキラ光る瞬間を3秒間固定する",
+            "detail": "数式の最後の行だけ、筆圧が強すぎて黒板にうっすら傷がついている",
+            "question": "なぜこの数式だけ消されずに残ったのか? 解いた人間は今どこにいるのか?",
+            "when": "「蛍光灯が消えて / 本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+          }
+        },
+        "created_at": "2026-02-13 16:24:53.879433"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-a514e5e9",
+            "name": "Takoda Whitecrow",
+            "gender": "男性",
+            "birthdate": "7888-09-29",
+            "age": 33,
+            "origin_city": "サンクトペテルブルク",
+            "ethnic_background": "北米先住民系",
+            "life_history": [
+              {
+                "year": 7888,
+                "event": "サンクトペテルブルク郊外の小規模コミュニティで生まれる。父は漁業、母は地域の集会所で事務を担当していた。"
+              },
+              {
+                "year": 7902,
+                "event": "14歳で地元の職業訓練校に進学し、機械整備の基礎を学ぶ。同時に週末は父の漁船を手伝っていた。"
+              },
+              {
+                "year": 7906,
+                "event": "卒業後、市内の造船所で見習い整備士として就職。半年後、重大な機材破損事故を起こし解雇される。"
+              },
+              {
+                "year": 7909,
+                "event": "建設現場の日雇い労働を転々とする中、腰を痛めて3ヶ月間働けなくなる。実家に戻り療養。"
+              },
+              {
+                "year": 7912,
+                "event": "回復後、知人の紹介で物流倉庫の夜勤フォークリフトオペレーターとして再就職。資格を取得し正社員になる。"
+              },
+              {
+                "year": 7916,
+                "event": "倉庫内で効率改善の提案が採用され、班長に昇進。同僚との信頼関係が構築される。"
+              },
+              {
+                "year": 7919,
+                "event": "市内の別の物流企業にヘッドハントされ、倉庫管理責任者として転職。給与が1.5倍になる。"
+              },
+              {
+                "year": 7921,
+                "event": "小さなアパートを購入。週末は釣りに出かけ、父と同じ場所で魚を獲ることが習慣になっている。"
+              }
+            ],
+            "current_situation": "現在は中規模の物流企業で倉庫管理責任者として勤務しており、15名のスタッフを統括している。サンクトペテルブルク市内の2LDKアパートに一人暮らし。通勤は自転車で片道25分程度。週末は早朝に海へ釣りに出かけ、獲れた魚を近所の知人に配ることもある。月に一度、実家に帰って両親と食事をする。",
+            "external_perception": {
+              "first_impression": "物静かで表情の変化が少ないため、取っつきにくいと思われることが多い。",
+              "close_friends_view": "一度信頼すると非常に頼りになり、困った時には黙って手を貸してくれる人物として評価されている。",
+              "misunderstandings": "無愛想に見えるため冷たい人間だと誤解されがちだが、実際には単に口数が少ないだけである。"
+            },
+            "stance_on_past": "笑い話にできるようになった"
+          },
+          {
+            "id": "persona-6fd7d48b",
+            "name": "ゆうと",
+            "gender": "男性",
+            "birthdate": "1993-04-20",
+            "life_history": [
+              {
+                "year": 1998,
+                "event": "父親の事業失敗により、祖父母の家に預けられることになった。両親は遠方で働き始め、週末しか会えなくなった。"
+              },
+              {
+                "year": 2005,
+                "event": "中学入学直後に母親が体調を崩し入院。父親は仕事と看病で家を空けがちになり、祖父母の世話と家事を手伝うようになった。"
+              },
+              {
+                "year": 2011,
+                "event": "大学進学を希望していたが、家庭の経済状況を考慮して地元の専門学校へ進学。友人たちが遠方の大学へ進む姿を見送った。"
+              },
+              {
+                "year": 2016,
+                "event": "専門学校卒業後、地元の物流会社に就職。祖父が認知症を発症し、週末は介護のサポートに追われる生活が始まった。"
+              },
+              {
+                "year": 2021,
+                "event": "祖父が他界。遺産整理の過程で家族間の意見対立が激化し、仲裁役を務めることになった。"
+              }
+            ],
+            "current_situation": "埼玉県の郊外にある住宅街で育ち、幼少期から祖父母と同居していた。地元の商業系専門学校を卒業後、物流会社の事務職として勤務している。現在は会社の寮で一人暮らしをしており、週末は実家に顔を出すことが多い。平日の夜はコンビニ弁当を食べながらテレビを見て過ごし、休日は溜まった洗濯や掃除をこなしている。",
+            "external_perception": {
+              "first_impression": "物静かで控えめ、やや疲れた印象を与える。話しかけづらい雰囲気がある。",
+              "close_friends_view": "とても頼りになるが、本音を話さないので心配になる。いつも誰かのために動いている。",
+              "misunderstandings": "冷たい人、または無関心だと思われがち。実際は気を使いすぎて距離を取っている。"
+            },
+            "like_history": [
+              {
+                "session": "disgust_wall_v2",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+                "like_count": 3,
+                "like_reasons": [
+                  "「誰かがいる=求められる」ってのが、妙にしっくりきた。島にいた頃を思い出す。",
+                  "誰かに必要とされたいけど踏み込まれたくない、その感覚がなんとなくわかる。",
+                  "自分の提案。家族のために生きてきた人間の矛盾を、正直に表現できたと思う。"
+                ]
+              },
+              {
+                "session": "disgust_wall_v2",
+                "music": "audio_analysis_results",
+                "phase": "Phase 2a",
+                "proposal_summary": "",
+                "like_count": 4,
+                "like_reasons": [
+                  "人間が映らない世界って、なんか今の私の気分に合う。余計なノイズがない感じ。",
+                  "出来事だけで語る、っていうのが妙にしっくりくる。無駄がない。",
+                  "スマホの画面だけ、っていうのがなんかいい。シンプルで分かりやすい。",
+                  "感情の場所がスマホの画面、っていうの、なんか分かる気がする。"
+                ]
+              },
+              {
+                "session": "ensemble_omae_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+                "like_count": 4,
+                "like_reasons": [
+                  "通知履歴って確かに人生だなって思った。データっぽいのに温かい感じがいい",
+                  "スマホの通知で人生が見えるって発想が面白い。データ扱う自分には分かる",
+                  "通知履歴のアイデア、エンジニアとして技術的に面白いし、人間的でもある",
+                  "他人のデータを観察するって距離感がちょうどいい。踏み込みすぎない"
+                ]
+              },
+              {
+                "session": "ensemble_omae_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 2a",
+                "proposal_summary": "",
+                "like_count": 3,
+                "like_reasons": [
+                  "誰も見ない時計っていう表現が、なんとなく心に残った",
+                  "まだ誰かに見られる成果を出せていないという感覚に共感した",
+                  "なんか、言ってることはよく分からないけど雰囲気がいい"
+                ]
+              },
+              {
+                "session": "slim_test_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手",
+                "like_count": 4,
+                "like_reasons": [
+                  "家族のために生きてきた感じ、共感できる。素直でいいわ",
+                  "誰かに必要とされた記憶が存在証明っていうの、すごくわかる",
+                  "家族のために動いてきた人の感覚、痛いほどわかる"
+                ]
+              }
+            ],
+            "proposal_history": [
+              {
+                "session": "disgust_wall_v2",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+                "rank": 4,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "disgust_wall_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 4,
+                "won": true
+              },
+              {
+                "session": "ensemble_omae_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+                "rank": 3,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "ensemble_omae_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "nobody_rejection_v3",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰にも見られない古いアパートの一室で、ラジオの深夜放送だけを生きがいに、語りかけるように日記を書き続ける孤独な記録",
+                "rank": 4,
+                "tally": 2,
+                "won": false
+              },
+              {
+                "session": "nobody_rejection_v3",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "nobody_test_v6",
+                "phase": "Phase 1",
+                "my_proposal_summary": "呼びかけられることで輪郭を得る存在の、依存と希求の記録映像",
+                "rank": 2,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "nobody_test_v6",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 4,
+                "tally": 2,
+                "won": false
+              },
+              {
+                "session": "slim_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手放せないまま、新しい朝を迎え続ける人間の鼓動。",
+                "rank": 1,
+                "tally": 6,
+                "won": false
+              },
+              {
+                "session": "session-smoke-20260125-033105",
+                "phase": "Phase 1",
+                "my_proposal_summary": "報われるかわからないが、それでも一歩ずつ昇り続ける意志の記録",
+                "rank": 1,
+                "tally": 7,
+                "won": true
+              },
+              {
+                "session": "session-smoke-20260125-033105",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 7,
+                "won": false
+              },
+              {
+                "session": "session-smoke-20260125-040803",
+                "phase": "Phase 1",
+                "my_proposal_summary": "完璧に揃えられた伝統の中で、一本だけ床に落ちた筆が誰にも拾われず光を浴び続ける──途切れることもまた、美しい物語の一部だと告げるMV。",
+                "rank": 4,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "session-smoke-20260125-040803",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 7,
+                "won": false
+              }
+            ],
+            "stance_on_past": "克服した武勇伝として語る"
+          },
+          {
+            "id": "persona-4c8b8788",
+            "name": "みずた りこ",
+            "gender": "女性",
+            "birthdate": "2013-12-21",
+            "life_history": [
+              {
+                "year": 2013,
+                "event": "岡山市内の総合病院で出生。母親は看護師、父親は地方銀行員。"
+              },
+              {
+                "year": 2020,
+                "event": "小学校入学。給食を一度も残さず完食する記録を1年間継続した。"
+              },
+              {
+                "year": 2024,
+                "event": "小学4年時、クラスの飼育係として校庭のウサギ小屋の清掃と餌やりを担当。冬季は毎朝6時45分に登校していた。"
+              },
+              {
+                "year": 2027,
+                "event": "中学入学後、陸上部に所属。800m走で県大会出場を果たしたが予選敗退。"
+              },
+              {
+                "year": 2030,
+                "event": "高校は普通科に進学。図書委員として月間貸出冊数の集計作業を2年間担当した。"
+              },
+              {
+                "year": 2032,
+                "event": "大学受験で第一志望の国立大学に不合格。地元の私立大学経済学部に入学。"
+              },
+              {
+                "year": 2034,
+                "event": "大学2年次、コンビニエンスストアで週4日の夜勤アルバイトを開始。商品発注システムの効率化を提案し採用された。"
+              },
+              {
+                "year": 2036,
+                "event": "卒業後、地元のスーパーマーケットチェーンに正社員として就職。青果部門に配属される。"
+              }
+            ],
+            "current_situation": "現在23歳。岡山市内のスーパーマーケット青果部門で勤務3年目。季節野菜の仕入れと陳列レイアウトを担当している。実家から車で15分のワンルームアパートで一人暮らし。月に2回、母親が夕食を持って訪ねてくる。休日は近所のスポーツジムで水泳をするか、図書館で実用書を読んで過ごすことが多い。",
+            "external_perception": {
+              "first_impression": "物静かで控えめ。話しかけられるまで自分から発言しないため、とっつきにくいと思われがち。",
+              "close_friends_view": "一度信頼関係ができると非常に頼りになる。約束を必ず守り、頼まれごとを最後までやり遂げる。地味だが確実な仕事ぶりを評価されている。",
+              "misunderstandings": "無表情でいることが多いため、不機嫌だと勘違いされることがある。実際には特に何も考えていないか、作業に集中しているだけのことが多い。"
+            },
+            "proposal_history": [
+              {
+                "session": "coffee_zombie_test_v3",
+                "phase": "Phase 1",
+                "my_proposal_summary": "物理的に触れられないものだけが、本当に傷つけずにいられる距離",
+                "rank": 3,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "coffee_zombie_test_v3",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 3,
+                "won": true
+              },
+              {
+                "session": "stability_test_1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "反復される呼びかけによってのみ、存在が維持される関係",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "stability_test_1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 5,
+                "won": false
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          }
+        ],
+        "goji_persona_id": "persona-goji",
+        "winning_persona": {
+          "id": "persona-4c8b8788",
+          "name": "みずた りこ",
+          "gender": "女性",
+          "birthdate": "2013-12-21",
+          "life_history": [
+            {
+              "year": 2013,
+              "event": "岡山市内の総合病院で出生。母親は看護師、父親は地方銀行員。"
+            },
+            {
+              "year": 2020,
+              "event": "小学校入学。給食を一度も残さず完食する記録を1年間継続した。"
+            },
+            {
+              "year": 2024,
+              "event": "小学4年時、クラスの飼育係として校庭のウサギ小屋の清掃と餌やりを担当。冬季は毎朝6時45分に登校していた。"
+            },
+            {
+              "year": 2027,
+              "event": "中学入学後、陸上部に所属。800m走で県大会出場を果たしたが予選敗退。"
+            },
+            {
+              "year": 2030,
+              "event": "高校は普通科に進学。図書委員として月間貸出冊数の集計作業を2年間担当した。"
+            },
+            {
+              "year": 2032,
+              "event": "大学受験で第一志望の国立大学に不合格。地元の私立大学経済学部に入学。"
+            },
+            {
+              "year": 2034,
+              "event": "大学2年次、コンビニエンスストアで週4日の夜勤アルバイトを開始。商品発注システムの効率化を提案し採用された。"
+            },
+            {
+              "year": 2036,
+              "event": "卒業後、地元のスーパーマーケットチェーンに正社員として就職。青果部門に配属される。"
+            }
+          ],
+          "current_situation": "現在23歳。岡山市内のスーパーマーケット青果部門で勤務3年目。季節野菜の仕入れと陳列レイアウトを担当している。実家から車で15分のワンルームアパートで一人暮らし。月に2回、母親が夕食を持って訪ねてくる。休日は近所のスポーツジムで水泳をするか、図書館で実用書を読んで過ごすことが多い。",
+          "external_perception": {
+            "first_impression": "物静かで控えめ。話しかけられるまで自分から発言しないため、とっつきにくいと思われがち。",
+            "close_friends_view": "一度信頼関係ができると非常に頼りになる。約束を必ず守り、頼まれごとを最後までやり遂げる。地味だが確実な仕事ぶりを評価されている。",
+            "misunderstandings": "無表情でいることが多いため、不機嫌だと勘違いされることがある。実際には特に何も考えていないか、作業に集中しているだけのことが多い。"
+          },
+          "proposal_history": [
+            {
+              "session": "coffee_zombie_test_v3",
+              "phase": "Phase 1",
+              "my_proposal_summary": "物理的に触れられないものだけが、本当に傷つけずにいられる距離",
+              "rank": 3,
+              "tally": 3,
+              "won": false
+            },
+            {
+              "session": "coffee_zombie_test_v3",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 3,
+              "tally": 3,
+              "won": true
+            },
+            {
+              "session": "stability_test_1",
+              "phase": "Phase 1",
+              "my_proposal_summary": "反復される呼びかけによってのみ、存在が維持される関係",
+              "rank": 3,
+              "tally": 5,
+              "won": false
+            },
+            {
+              "session": "stability_test_1",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 2,
+              "tally": 5,
+              "won": false
+            }
+          ],
+          "stance_on_past": "他人事のように距離を置いて見ている"
+        },
+        "overlap_debug": [
+          {
+            "persona": "ゆうと",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Takoda Whitecrow",
+                "hit_keys": [
+                  "tokens(inter=15,jac=0.06)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+                  "focus": "14歳の少年の右手親指",
+                  "place": "深夜の学校の非常階段、蛍光灯が一本切れかけて明滅している",
+                  "action": "スマホ画面の「すべて選択→投稿」ボタンの上で、3秒間震えた後、押す",
+                  "detail": "画面に「アップロード中 1/287」と表示され、数字が高速で増えていく。少年の顔は映らない。指だけが映る。",
+                  "question": "287本の中身は誰も知らない。再生回数0のまま朝を迎えるのか？それとも？",
+                  "when": "2回目のサビ「この偽物の皮膚を剥がしたい」の直後、英語パート「tear apart」の瞬間にボタンを押す"
+                },
+                "cur_hook": {
+                  "theme": "誰も見ていない路上で、14歳が初めて「本物の自分」を全力で祝う瞬間──再生回数0回の革命",
+                  "focus": "制服姿の14歳の少年、汗だくで笑いながら踊っている",
+                  "place": "深夜2時の無人駅前ロータリー、コンビニの看板と切れかけた街灯だけが光源",
+                  "action": "スマホ三脚に向かって全力でサビを歌い踊る。観客ゼロ。通行人ゼロ。再生数0のまま終わる予定のライブ",
+                  "detail": "彼のスマホ画面には「視聴者:1(自分)」と表示されている。でも彼は紅白歌合戦のように全力",
+                  "question": "なぜ誰も見ていないのに、こんなにも全力なのか? これは絶望か、それとも最も純粋な祝祭か?",
+                  "when": "「14歳の革命はここから始まる」のサビ頭、彼が両手を天に突き上げた瞬間"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "ゆうと",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Takoda Whitecrow",
+                "hit_keys": [
+                  "tokens(inter=26,jac=0.10)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+                  "focus": "14歳の少年の右手親指",
+                  "place": "深夜の学校の非常階段、蛍光灯が一本切れかけて明滅している",
+                  "action": "スマホ画面の「すべて選択→投稿」ボタンの上で、3秒間震えた後、押す",
+                  "detail": "画面に「アップロード中 1/287」と表示され、数字が高速で増えていく。少年の顔は映らない。指だけが映る。",
+                  "question": "287本の中身は誰も知らない。再生回数0のまま朝を迎えるのか？それとも？",
+                  "when": "2回目のサビ「この偽物の皮膚を剥がしたい」の直後、英語パート「tear apart」の瞬間にボタンを押す"
+                },
+                "cur_hook": {
+                  "theme": "287本の「誰にも見せない全力」が、再生回数0のまま朝日に照らされる瞬間──失敗ではなく、完璧な儀式として",
+                  "focus": "14歳の少年の影だけが映った体育館の床",
+                  "place": "深夜3時の中学校体育館、非常灯の緑色の光だけが点いている",
+                  "action": "床に置かれたスマホが少年の足元だけを録画し続けている。少年は画角外で全力で踊り、息を切らし、叫んでいる。カメラには影と足音だけが記録される",
+                  "detail": "スマホ画面の録画時間表示が「02:47:33」を示している──3時間近く踊り続けている",
+                  "question": "なぜ彼は、誰も見ない、自分さえ映らない映像を、3時間も撮り続けるのか？ これは失敗なのか、それとも完璧な成功なのか？",
+                  "when": "「この世界は嘘つきばっかりで / 本当のことを言うのは僕だけ」の直後、ブリッジ部分で画面が体育館の床に切り替わる"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "みずた りこ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "ゆうと",
+                "hit_keys": [
+                  "tokens(inter=8,jac=0.02)"
+                ],
+                "prev_hook": {
+                  "theme": "287本の未公開動画を一斉投稿した直後、少年が屋上で風を全身に受けて笑う──誰も見ていない革命の、たった一人の祝祭",
+                  "focus": "14歳の少年の後ろ姿、制服のブレザーが風ではためいている",
+                  "place": "中学校の屋上、手すりの外側（落ちない位置）、背景に街の夜景が広がり遠くにコンビニの看板が光っている",
+                  "action": "両手を水平に広げ、目を閉じて風を受けている。足元のスマホ画面には「287件の投稿が完了しました」の通知",
+                  "detail": "少年の左手の人差し指だけが、リズムに合わせて小刻みに動いている（指揮者のように）",
+                  "question": "なぜ彼は、投稿直後に屋上へ来たのか？ 誰かの反応を待つのではなく、風を浴びることを選んだのか？",
+                  "when": "「break apart this plastic world」の直後、最後のサビが終わる瞬間"
+                },
+                "cur_hook": {
+                  "theme": "287日分の記録用紙が、誰も来ない教室で朝日に照らされる──彼はもうここにいない",
+                  "focus": "教室の床一面に敷き詰められた287枚の白いa4用紙、それぞれに黒いボールペンで日付と3桁の数字だけが書かれている",
+                  "place": "誰もいない中学校の教室、朝7時、窓から斜めに差し込む光が紙の影を床に落としている",
+                  "action": "カメラがゆっくりと床を舐めるように移動し、紙に書かれた数字を次々と映していく。287, 286, 285...と遡っていく。最後の「1」の紙だけ、隅が少し折れている",
+                  "detail": "「1」と書かれた最初の紙だけ、右下の角が三角に折れ曲がっており、そこに小さな茶色いシミ（コーヒーか何か）がついている",
+                  "question": "なぜ彼は287日間、毎日数字を記録し続けたのか？ そして今朝、なぜこの紙をここに残して消えたのか？",
+                  "when": "「蛍光灯が消えて / 本当の闇が始まる」の直後、曲が終わった余韻の中で"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "ゴジ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Takoda Whitecrow",
+                "hit_keys": [
+                  "tokens(inter=18,jac=0.07)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+                  "focus": "14歳の少年の右手親指",
+                  "place": "深夜の学校の非常階段、蛍光灯が一本切れかけて明滅している",
+                  "action": "スマホ画面の「すべて選択→投稿」ボタンの上で、3秒間震えた後、押す",
+                  "detail": "画面に「アップロード中 1/287」と表示され、数字が高速で増えていく。少年の顔は映らない。指だけが映る。",
+                  "question": "287本の中身は誰も知らない。再生回数0のまま朝を迎えるのか？それとも？",
+                  "when": "2回目のサビ「この偽物の皮膚を剥がしたい」の直後、英語パート「tear apart」の瞬間にボタンを押す"
+                },
+                "cur_hook": {
+                  "theme": "誰も見ない287本の動画を深夜3:47に全削除し、空になったフォルダを見つめ続ける少年",
+                  "focus": "14歳の少年の右手人差し指、爪が少し伸びている",
+                  "place": "自室のベッドの上、膝の上に置いたノートpc、部屋の電気は消えて画面の光だけ",
+                  "action": "「完全に削除しますか？」のポップアップが出ているが、5秒間クリックせず指が宙で止まっている。6秒目、一気にクリック。フォルダが空になる。少年は画面を見つめたまま動かない",
+                  "detail": "削除直前、ファイル名の一覧が一瞬映る。すべて「無題の動画1」「無題の動画2」…と連番のまま",
+                  "question": "なぜ投稿ではなく削除なのか? 287本撮って、編集して、結局誰にも見せずに消すことが、彼にとっての「革命」なのか?",
+                  "when": "「break apart this plastic world」の直後、最後の「本当の闇が始まる」の歌詞と同時に削除完了"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "ゴジ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Takoda Whitecrow",
+                "hit_keys": [
+                  "tokens(inter=12,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+                  "focus": "14歳の少年の右手親指",
+                  "place": "深夜の学校の非常階段、蛍光灯が一本切れかけて明滅している",
+                  "action": "スマホ画面の「すべて選択→投稿」ボタンの上で、3秒間震えた後、押す",
+                  "detail": "画面に「アップロード中 1/287」と表示され、数字が高速で増えていく。少年の顔は映らない。指だけが映る。",
+                  "question": "287本の中身は誰も知らない。再生回数0のまま朝を迎えるのか？それとも？",
+                  "when": "2回目のサビ「この偽物の皮膚を剥がしたい」の直後、英語パート「tear apart」の瞬間にボタンを押す"
+                },
+                "cur_hook": {
+                  "theme": "14歳の少年が自室で287本の動画を撮り終えた翌朝、母親が息子の部屋で見つけたのは、壁一面に貼られた「撮影予定表」だけだった",
+                  "focus": "壁一面に貼られた288枚の付箋紙、うち287枚に赤ペンで斜線が引かれている",
+                  "place": "14歳の少年の自室、机の正面の壁、蛍光灯の真下",
+                  "action": "カメラが壁にゆっくり近づくと、最後の1枚だけ何も書かれていない白紙の付箋が、朝の風で震えている",
+                  "detail": "287枚の付箋には「三角関数を解く手の震え」「母の期待という鎖」など歌詞の断片が走り書きされ、すべて赤斜線で消されている。288枚目だけ真っ白",
+                  "question": "なぜ288枚目は白紙なのか? 少年は今どこにいるのか? 母親はこの壁を見てどう思うのか?",
+                  "when": "イントロ終わり〜verse1「蛍光灯の下で三角関数」で壁全体が映り、chorus1「透明な檻の中で踊る人形」で288枚目の白紙付箋にフォーカス"
+                }
+              }
+            ]
+          }
+        ],
+        "diversity_metrics": {
+          "proposal_count": 4,
+          "pair_count": 6,
+          "overlap_pairs": 3,
+          "overlap_rate": 0.5,
+          "subject_distribution": {
+            "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間": 1,
+            "287本の未公開動画を一斉投稿した直後、少年が屋上で風を全身に受けて笑う──誰も見ていない革命の、たった一人の祝祭": 1,
+            "革命の翌朝、誰もいない教室に残された消し忘れの数式──解いた本人はもういない": 1,
+            "14歳の少年が自室で母親の声に返事をするたび、壁に貼った自分の顔写真が1枚ずつ剥がれ落ちていく": 1
+          },
+          "unique_subject_count": 4,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-a514e5e9": 371,
+            "persona-6fd7d48b": 336,
+            "persona-4c8b8788": 353,
+            "persona-goji": 0
+          },
+          "eligible_count": 4,
+          "eligible_proposal_ids": [
+            "prop-2fff1478",
+            "prop-36ea648a",
+            "prop-573b4262",
+            "prop-352cdb5b"
+          ],
+          "excluded_proposal_ids": [],
+          "results": [
+            {
+              "proposal_id": "prop-2fff1478",
+              "persona_id": "persona-a514e5e9",
+              "theme": "誰にも見せないまま溜め込まれた287本の動画が、ある夜一斉に投稿される瞬間",
+              "theme_token_count": 25,
+              "lyrics_anchor_count": 4,
+              "novel_token_count": 21,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "287",
+                "ある夜一斉",
+                "がある",
+                "される",
+                "される瞬間",
+                "せないまま"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "にも見",
+                "動画",
+                "誰にも"
+              ],
+              "persona_novel_sample": [
+                "される"
+              ],
+              "tier": 1,
+              "reasons": []
+            },
+            {
+              "proposal_id": "prop-36ea648a",
+              "persona_id": "persona-6fd7d48b",
+              "theme": "287本の未公開動画を一斉投稿した直後、少年が屋上で風を全身に受けて笑う──誰も見ていない革命の、たった一人の祝祭",
+              "theme_token_count": 42,
+              "lyrics_anchor_count": 3,
+              "novel_token_count": 39,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "287",
+                "う誰",
+                "が屋上",
+                "けて",
+                "けて笑",
+                "した"
+              ],
+              "lyrics_anchor_sample": [
+                "一人",
+                "誰も",
+                "革命"
+              ],
+              "persona_novel_sample": [
+                "した"
+              ],
+              "tier": 1,
+              "reasons": []
+            },
+            {
+              "proposal_id": "prop-573b4262",
+              "persona_id": "persona-4c8b8788",
+              "theme": "革命の翌朝、誰もいない教室に残された消し忘れの数式──解いた本人はもういない",
+              "theme_token_count": 27,
+              "lyrics_anchor_count": 1,
+              "novel_token_count": 26,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "いた",
+                "いた本人",
+                "された",
+                "された消",
+                "し忘",
+                "に残"
+              ],
+              "lyrics_anchor_sample": [
+                "革命"
+              ],
+              "persona_novel_sample": [
+                "された"
+              ],
+              "tier": 1,
+              "reasons": []
+            },
+            {
+              "proposal_id": "prop-352cdb5b",
+              "persona_id": "persona-goji",
+              "theme": "14歳の少年が自室で母親の声に返事をするたび、壁に貼った自分の顔写真が1枚ずつ剥がれ落ちていく",
+              "theme_token_count": 36,
+              "lyrics_anchor_count": 5,
+              "novel_token_count": 31,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "14",
+                "がれ",
+                "がれ落",
+                "が自室",
+                "ずつ",
+                "ずつ剥"
+              ],
+              "lyrics_anchor_sample": [
+                "14",
+                "った",
+                "歳の",
+                "母親",
+                "母親の"
+              ],
+              "persona_novel_sample": [],
+              "tier": 1,
+              "reasons": []
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos"
+      }
+    },
+    "phase2": {
+      "phase_id": "phase2",
+      "subphases": {
+        "phase2a": {
+          "phase_id": "phase2a",
+          "competition": {
+            "proposals": [
+              {
+                "proposal_id": "sl2a-46e91521",
+                "persona_id": "persona-3a362088",
+                "content": {
+                  "phase1_base": "巫女",
+                  "phase2_condition": "露出関節・縦長の瞳",
+                  "phase3_anchor": "胸の刻印",
+                  "subject_concept": "露出関節と縦長の瞳を持つ巫女",
+                  "subject_signature": "胸の刻印",
+                  "character_profile": {
+                    "appearance_profile": "肘と膝の関節部分が機構的に露出しており、縦長の瞳が光を捉える。胸部中央には複雑な幾何学刻印が刻まれている。",
+                    "motion_profile": "露出した関節が滑らかに屈伸するたび、刻印が微かに明滅する。"
+                  }
+                },
+                "created_at": "2026-02-13 16:26:47.211705"
+              },
+              {
+                "proposal_id": "sl2a-a309f558",
+                "persona_id": "persona-b0d79042",
+                "content": {
+                  "phase1_base": "サソリ",
+                  "phase2_condition": "六本腕・分節胴体",
+                  "phase3_anchor": "背負い旗",
+                  "subject_concept": "六本腕と分節胴体を持つサソリ",
+                  "subject_signature": "背負い旗",
+                  "character_profile": {
+                    "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+                    "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+                  }
+                },
+                "created_at": "2026-02-13 16:26:57.687374"
+              },
+              {
+                "proposal_id": "sl2a-4600ce0d",
+                "persona_id": "persona-536670e0",
+                "content": {
+                  "phase1_base": "馬",
+                  "phase2_condition": "石肌・螺旋角",
+                  "phase3_anchor": "骨の首飾り",
+                  "subject_concept": "石肌と螺旋角を持つ馬",
+                  "subject_signature": "骨の首飾り",
+                  "character_profile": {
+                    "appearance_profile": "全身が石の表面のような質感で覆われ、頭部から左右に螺旋状の角が伸びている。首には複数の骨を連ねた首飾りが掛かっている。",
+                    "motion_profile": "歩行時、石肌の関節部分が擦れ合い、螺旋角が僅かに揺れる。"
+                  }
+                },
+                "created_at": "2026-02-13 16:27:17.014403"
+              }
+            ],
+            "voting": {
+              "selection_mode": "vote10_like_dislike",
+              "candidate_keys": [
+                "A",
+                "B",
+                "C"
+              ],
+              "candidate_map": {
+                "A": "sl2a-46e91521",
+                "B": "sl2a-a309f558",
+                "C": "sl2a-4600ce0d"
+              },
+              "tally": {
+                "A": 7,
+                "B": 8,
+                "C": 5
+              },
+              "like_tally": {
+                "A": 3,
+                "B": 3,
+                "C": 4
+              },
+              "dislike_tally": {
+                "A": 4,
+                "B": 5,
+                "C": 1
+              },
+              "votes": [
+                {
+                  "voter": "Alex Reyes",
+                  "like": "B",
+                  "like_reason": "六本腕と分節胴体という機械的な構造が、ロボット工学部で学んでいることと重なって興味深い。サソリの関節機構は設計の参考になりそう。",
+                  "dislike": "A",
+                  "dislike_reason": "巫女というテーマは自分の文化圏から遠く、露出関節や胸の刻印といった要素にあまり惹かれない。"
+                },
+                {
+                  "voter": "Moana Tetuanui",
+                  "like": "C",
+                  "like_reason": "馬は力強さと働き者の象徴で親しみがある。骨の首飾りは伝統的な装飾品を思わせ、石肌という質感も自然で良い。",
+                  "dislike": "B",
+                  "dislike_reason": "サソリは毒を持つ危険な生き物のイメージが強く、六本腕という異形性が不気味に感じる。"
+                },
+                {
+                  "voter": "あきら",
+                  "like": "A",
+                  "like_reason": "巫女という日本の伝統文化モチーフに親近感がある。縦長の瞳と胸の刻印という神秘的な要素の組み合わせが、文化的な深みを感じさせる。",
+                  "dislike": "B",
+                  "dislike_reason": "六本腕や分節胴体という過度に異形化された身体表現は、美的感覚としてやや過剰に感じる。"
+                },
+                {
+                  "voter": "Amara Okafor",
+                  "like": "B",
+                  "like_reason": "複雑な構造（六本腕、分節胴体）は修理技術者として興味をそそる。機械的な美しさがあり、背負い旗という戦士的要素も力強い。",
+                  "dislike": "A",
+                  "dislike_reason": "巫女というコンセプトは自分の文化背景になじみがなく、露出関節や刻印といった要素の意味がつかみにくい。"
+                },
+                {
+                  "voter": "Grace Hwang",
+                  "like": "C",
+                  "like_reason": "馬という動物は優雅で親しみやすく、螺旋角という幻想的な要素が控えめで上品。図書館の利用者と話すときの話題にもしやすそう。",
+                  "dislike": "B",
+                  "dislike_reason": "サソリと六本腕という組み合わせは視覚的に攻撃的で、落ち着いた日常生活を送る自分には馴染まない。"
+                },
+                {
+                  "voter": "Park Min-ji",
+                  "like": "A",
+                  "like_reason": "巫女というモチーフに神秘性と文化的な興味を感じる。胸の刻印という象徴性も気になる",
+                  "dislike": "B",
+                  "dislike_reason": "サソリに六本腕という組み合わせが生理的に不快。虫系の分節胴体も苦手"
+                },
+                {
+                  "voter": "たかはし けんと",
+                  "like": "C",
+                  "like_reason": "馬に石肌と螺旋角という力強いファンタジー要素が男性的でかっこいい。骨の首飾りも戦士的",
+                  "dislike": "A",
+                  "dislike_reason": "巫女に露出関節というのが日本人として違和感がある。神聖なイメージと合わない"
+                },
+                {
+                  "voter": "Rajesh Krishnan",
+                  "like": "C",
+                  "like_reason": "石肌と螺旋角は神話的で、チェスの駒のナイトを想起させる。構造的に興味深い",
+                  "dislike": "B",
+                  "dislike_reason": "六本腕の昆虫的なデザインは不気味。背負い旗という要素も唐突に感じる"
+                },
+                {
+                  "voter": "Lucía Fernández",
+                  "like": "A",
+                  "like_reason": "巫女という女性キャラに神秘的な要素が組み合わさっているのが魅力的。胸の刻印も象徴的",
+                  "dislike": "C",
+                  "dislike_reason": "馬に石肌という無機質な組み合わせが冷たく感じる。骨の首飾りも暗い印象"
+                },
+                {
+                  "voter": "たなか りょうた",
+                  "like": "B",
+                  "like_reason": "六本腕のサソリってゲームのボスキャラみたいでかっこいい。背負い旗も派手で目立つ",
+                  "dislike": "A",
+                  "dislike_reason": "巫女って地味だし、縦長の瞳とか気持ち悪い。露出関節も意味わかんない"
+                }
+              ],
+              "analysis": "[batch 1] BとCがそれぞれ2票ずつlikeを獲得し、Aは1票に留まった。技術系バックグラウンドを持つ若年層（Alex、Amara）は構造的複雑性を評価してBを選び、伝統や自然との調和を重視する層（Moana、Grace、あきら）はCまたはAを選ぶ傾向が見られた。dislikeではBが3票と最多で、異形性の強さが敬遠される要因となった。\n[batch 2] 世代と文化背景で好みが分かれた。若年層（たなか）はゲーム的な派手さを、成人層は神話性や象徴性を重視。Bは虫系要素で拒否反応が強く、AとCは文化的解釈の違いで評価が分裂している。",
+              "is_tiebreak": false,
+              "tiebreak_reason": null,
+              "goji_vote": null
+            }
+          },
+          "adopted_result": {
+            "proposal_id": "sl2a-a309f558",
+            "persona_id": "persona-b0d79042",
+            "content": {
+              "phase1_base": "サソリ",
+              "phase2_condition": "六本腕・分節胴体",
+              "phase3_anchor": "背負い旗",
+              "subject_concept": "六本腕と分節胴体を持つサソリ",
+              "subject_signature": "背負い旗",
+              "character_profile": {
+                "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+                "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+              }
+            },
+            "created_at": "2026-02-13 16:26:57.687374"
+          },
+          "adopted_vision": {
+            "phase1_base": "サソリ",
+            "phase2_condition": "六本腕・分節胴体",
+            "phase3_anchor": "背負い旗",
+            "subject_concept": "六本腕と分節胴体を持つサソリ",
+            "subject_signature": "背負い旗",
+            "character_profile": {
+              "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+              "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+            },
+            "character_profile_source": "llm",
+            "adopted_from_persona_id": "persona-b0d79042",
+            "selected_by_persona_id": "vote10"
+          },
+          "metadata": {
+            "overlap_debug": [],
+            "candidate_debug": [
+              {
+                "persona_id": "persona-3a362088",
+                "persona_name": "Mei-Lin Kowalska",
+                "locked_before": {
+                  "phase1": [],
+                  "phase2": [],
+                  "phase3": []
+                },
+                "candidates": {
+                  "phase1": [
+                    "槍兵",
+                    "甲冑兵",
+                    "侍",
+                    "騎士",
+                    "弓兵",
+                    "巫女"
+                  ],
+                  "phase2": [
+                    "蛇腹関節",
+                    "二つ目",
+                    "露出関節",
+                    "翼",
+                    "体毛",
+                    "尖った耳",
+                    "甲殻",
+                    "長い腕",
+                    "六本足",
+                    "縦長の瞳",
+                    "大きな目",
+                    "短い首",
+                    "尖頭",
+                    "小さな耳",
+                    "大きな耳",
+                    "凹凸肌"
+                  ],
+                  "phase3": [
+                    "羽飾り",
+                    "胸の刻印",
+                    "頭冠",
+                    "フード",
+                    "機械腕",
+                    "角の冠",
+                    "長いマント",
+                    "発光腕輪",
+                    "肩当て",
+                    "角飾り",
+                    "腰の装飾板",
+                    "木の首飾り",
+                    "膝当て",
+                    "ひび割れ",
+                    "義足",
+                    "銃"
+                  ]
+                },
+                "phase1_forced_category": "human_role",
+                "selection": {
+                  "phase1_base": "巫女",
+                  "phase2_condition": [
+                    "露出関節",
+                    "縦長の瞳"
+                  ],
+                  "phase3_anchor": [
+                    "胸の刻印"
+                  ],
+                  "phase3_anchor_base": "胸の刻印"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-b0d79042",
+                "persona_name": "Arjun Mehta",
+                "locked_before": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "タコ",
+                    "猫",
+                    "牛",
+                    "燕",
+                    "蝶",
+                    "サソリ"
+                  ],
+                  "phase2": [
+                    "長い脚",
+                    "背ビレ",
+                    "細い腕",
+                    "凹凸肌",
+                    "分節胴体",
+                    "六本腕",
+                    "細い尾",
+                    "四本腕",
+                    "肩の張り",
+                    "短い胴体",
+                    "角",
+                    "長い尻尾",
+                    "二本足",
+                    "一本角",
+                    "六本足",
+                    "滑らかな肌"
+                  ],
+                  "phase3": [
+                    "頭巾",
+                    "木の首飾り",
+                    "大きな手袋",
+                    "腕輪",
+                    "羽飾り",
+                    "銃",
+                    "首輪",
+                    "石の首飾り",
+                    "腕章",
+                    "腰帯",
+                    "発光腕輪",
+                    "義足",
+                    "肩の装置",
+                    "頭冠",
+                    "背負い旗",
+                    "足枷"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "サソリ",
+                  "phase2_condition": [
+                    "六本腕",
+                    "分節胴体"
+                  ],
+                  "phase3_anchor": [
+                    "背負い旗"
+                  ],
+                  "phase3_anchor_base": "背負い旗"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_insect",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-536670e0",
+                "persona_name": "プリヤンカ・ナイール",
+                "locked_before": {
+                  "phase1": [
+                    "animal_insect",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "ミノタウロス",
+                    "犬",
+                    "燕",
+                    "馬",
+                    "鳩",
+                    "イカ"
+                  ],
+                  "phase2": [
+                    "背ビレ",
+                    "石肌",
+                    "鱗",
+                    "硬い甲殻",
+                    "二本角",
+                    "触手",
+                    "細い尾",
+                    "背中の棘",
+                    "凹凸肌",
+                    "四本角",
+                    "ざらざら肌",
+                    "螺旋角",
+                    "滑らかな肌",
+                    "羽毛",
+                    "尖頭",
+                    "短い尾"
+                  ],
+                  "phase3": [
+                    "義手",
+                    "骨の首飾り",
+                    "鎧",
+                    "複数指輪",
+                    "胸当て",
+                    "機械脚",
+                    "角の冠",
+                    "義足",
+                    "首の鎖",
+                    "手袋",
+                    "腕輪",
+                    "兜",
+                    "首飾り",
+                    "鈴の首輪",
+                    "王冠",
+                    "フード"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "馬",
+                  "phase2_condition": [
+                    "石肌",
+                    "螺旋角"
+                  ],
+                  "phase3_anchor": [
+                    "骨の首飾り"
+                  ],
+                  "phase3_anchor_base": "骨の首飾り"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_insect",
+                    "animal_mammal",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "head",
+                    "joint",
+                    "limb",
+                    "silhouette",
+                    "surface"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark",
+                    "neck"
+                  ]
+                }
+              }
+            ],
+            "locked_tags_final": {
+              "phase1": [
+                "animal_insect",
+                "animal_mammal",
+                "human_role"
+              ],
+              "phase2": [
+                "face",
+                "head",
+                "joint",
+                "limb",
+                "silhouette",
+                "surface"
+              ],
+              "phase3": [
+                "back",
+                "mark",
+                "neck"
+              ]
+            }
+          }
+        },
+        "phase2b": {
+          "phase_id": "phase2b",
+          "status": "deferred"
+        }
+      },
+      "adopted_result": {
+        "phase2a_vision": {
+          "phase1_base": "サソリ",
+          "phase2_condition": "六本腕・分節胴体",
+          "phase3_anchor": "背負い旗",
+          "subject_concept": "六本腕と分節胴体を持つサソリ",
+          "subject_signature": "背負い旗",
+          "character_profile": {
+            "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+            "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-b0d79042",
+          "selected_by_persona_id": "vote10"
+        },
+        "phase2b_realization": {},
+        "phase2b_deferred": true,
+        "character_profile": {
+          "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+          "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+        },
+        "character_profile_source": "llm"
+      }
+    }
+  },
+  "creative_personas": [
+    {
+      "id": "persona-a514e5e9",
+      "name": "Takoda Whitecrow",
+      "gender": "男性",
+      "birthdate": "7888-09-29",
+      "age": 33,
+      "origin_city": "サンクトペテルブルク",
+      "ethnic_background": "北米先住民系",
+      "life_history": [
+        {
+          "year": 7888,
+          "event": "サンクトペテルブルク郊外の小規模コミュニティで生まれる。父は漁業、母は地域の集会所で事務を担当していた。"
+        },
+        {
+          "year": 7902,
+          "event": "14歳で地元の職業訓練校に進学し、機械整備の基礎を学ぶ。同時に週末は父の漁船を手伝っていた。"
+        },
+        {
+          "year": 7906,
+          "event": "卒業後、市内の造船所で見習い整備士として就職。半年後、重大な機材破損事故を起こし解雇される。"
+        },
+        {
+          "year": 7909,
+          "event": "建設現場の日雇い労働を転々とする中、腰を痛めて3ヶ月間働けなくなる。実家に戻り療養。"
+        },
+        {
+          "year": 7912,
+          "event": "回復後、知人の紹介で物流倉庫の夜勤フォークリフトオペレーターとして再就職。資格を取得し正社員になる。"
+        },
+        {
+          "year": 7916,
+          "event": "倉庫内で効率改善の提案が採用され、班長に昇進。同僚との信頼関係が構築される。"
+        },
+        {
+          "year": 7919,
+          "event": "市内の別の物流企業にヘッドハントされ、倉庫管理責任者として転職。給与が1.5倍になる。"
+        },
+        {
+          "year": 7921,
+          "event": "小さなアパートを購入。週末は釣りに出かけ、父と同じ場所で魚を獲ることが習慣になっている。"
+        }
+      ],
+      "current_situation": "現在は中規模の物流企業で倉庫管理責任者として勤務しており、15名のスタッフを統括している。サンクトペテルブルク市内の2LDKアパートに一人暮らし。通勤は自転車で片道25分程度。週末は早朝に海へ釣りに出かけ、獲れた魚を近所の知人に配ることもある。月に一度、実家に帰って両親と食事をする。",
+      "external_perception": {
+        "first_impression": "物静かで表情の変化が少ないため、取っつきにくいと思われることが多い。",
+        "close_friends_view": "一度信頼すると非常に頼りになり、困った時には黙って手を貸してくれる人物として評価されている。",
+        "misunderstandings": "無愛想に見えるため冷たい人間だと誤解されがちだが、実際には単に口数が少ないだけである。"
+      },
+      "stance_on_past": "笑い話にできるようになった"
+    },
+    {
+      "id": "persona-6fd7d48b",
+      "name": "ゆうと",
+      "gender": "男性",
+      "birthdate": "1993-04-20",
+      "life_history": [
+        {
+          "year": 1998,
+          "event": "父親の事業失敗により、祖父母の家に預けられることになった。両親は遠方で働き始め、週末しか会えなくなった。"
+        },
+        {
+          "year": 2005,
+          "event": "中学入学直後に母親が体調を崩し入院。父親は仕事と看病で家を空けがちになり、祖父母の世話と家事を手伝うようになった。"
+        },
+        {
+          "year": 2011,
+          "event": "大学進学を希望していたが、家庭の経済状況を考慮して地元の専門学校へ進学。友人たちが遠方の大学へ進む姿を見送った。"
+        },
+        {
+          "year": 2016,
+          "event": "専門学校卒業後、地元の物流会社に就職。祖父が認知症を発症し、週末は介護のサポートに追われる生活が始まった。"
+        },
+        {
+          "year": 2021,
+          "event": "祖父が他界。遺産整理の過程で家族間の意見対立が激化し、仲裁役を務めることになった。"
+        }
+      ],
+      "current_situation": "埼玉県の郊外にある住宅街で育ち、幼少期から祖父母と同居していた。地元の商業系専門学校を卒業後、物流会社の事務職として勤務している。現在は会社の寮で一人暮らしをしており、週末は実家に顔を出すことが多い。平日の夜はコンビニ弁当を食べながらテレビを見て過ごし、休日は溜まった洗濯や掃除をこなしている。",
+      "external_perception": {
+        "first_impression": "物静かで控えめ、やや疲れた印象を与える。話しかけづらい雰囲気がある。",
+        "close_friends_view": "とても頼りになるが、本音を話さないので心配になる。いつも誰かのために動いている。",
+        "misunderstandings": "冷たい人、または無関心だと思われがち。実際は気を使いすぎて距離を取っている。"
+      },
+      "like_history": [
+        {
+          "session": "disgust_wall_v2",
+          "music": "audio_analysis_results",
+          "phase": "Phase 1",
+          "proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+          "like_count": 3,
+          "like_reasons": [
+            "「誰かがいる=求められる」ってのが、妙にしっくりきた。島にいた頃を思い出す。",
+            "誰かに必要とされたいけど踏み込まれたくない、その感覚がなんとなくわかる。",
+            "自分の提案。家族のために生きてきた人間の矛盾を、正直に表現できたと思う。"
+          ]
+        },
+        {
+          "session": "disgust_wall_v2",
+          "music": "audio_analysis_results",
+          "phase": "Phase 2a",
+          "proposal_summary": "",
+          "like_count": 4,
+          "like_reasons": [
+            "人間が映らない世界って、なんか今の私の気分に合う。余計なノイズがない感じ。",
+            "出来事だけで語る、っていうのが妙にしっくりくる。無駄がない。",
+            "スマホの画面だけ、っていうのがなんかいい。シンプルで分かりやすい。",
+            "感情の場所がスマホの画面、っていうの、なんか分かる気がする。"
+          ]
+        },
+        {
+          "session": "ensemble_omae_v1",
+          "music": "audio_analysis_results",
+          "phase": "Phase 1",
+          "proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+          "like_count": 4,
+          "like_reasons": [
+            "通知履歴って確かに人生だなって思った。データっぽいのに温かい感じがいい",
+            "スマホの通知で人生が見えるって発想が面白い。データ扱う自分には分かる",
+            "通知履歴のアイデア、エンジニアとして技術的に面白いし、人間的でもある",
+            "他人のデータを観察するって距離感がちょうどいい。踏み込みすぎない"
+          ]
+        },
+        {
+          "session": "ensemble_omae_v1",
+          "music": "audio_analysis_results",
+          "phase": "Phase 2a",
+          "proposal_summary": "",
+          "like_count": 3,
+          "like_reasons": [
+            "誰も見ない時計っていう表現が、なんとなく心に残った",
+            "まだ誰かに見られる成果を出せていないという感覚に共感した",
+            "なんか、言ってることはよく分からないけど雰囲気がいい"
+          ]
+        },
+        {
+          "session": "slim_test_v1",
+          "music": "audio_analysis_results",
+          "phase": "Phase 1",
+          "proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手",
+          "like_count": 4,
+          "like_reasons": [
+            "家族のために生きてきた感じ、共感できる。素直でいいわ",
+            "誰かに必要とされた記憶が存在証明っていうの、すごくわかる",
+            "家族のために動いてきた人の感覚、痛いほどわかる"
+          ]
+        }
+      ],
+      "proposal_history": [
+        {
+          "session": "disgust_wall_v2",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+          "rank": 4,
+          "tally": 3,
+          "won": false
+        },
+        {
+          "session": "disgust_wall_v2",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 1,
+          "tally": 4,
+          "won": true
+        },
+        {
+          "session": "ensemble_omae_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+          "rank": 3,
+          "tally": 4,
+          "won": false
+        },
+        {
+          "session": "ensemble_omae_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 6,
+          "won": true
+        },
+        {
+          "session": "nobody_rejection_v3",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰にも見られない古いアパートの一室で、ラジオの深夜放送だけを生きがいに、語りかけるように日記を書き続ける孤独な記録",
+          "rank": 4,
+          "tally": 2,
+          "won": false
+        },
+        {
+          "session": "nobody_rejection_v3",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 4,
+          "won": false
+        },
+        {
+          "session": "nobody_test_v6",
+          "phase": "Phase 1",
+          "my_proposal_summary": "呼びかけられることで輪郭を得る存在の、依存と希求の記録映像",
+          "rank": 2,
+          "tally": 4,
+          "won": false
+        },
+        {
+          "session": "nobody_test_v6",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 4,
+          "tally": 2,
+          "won": false
+        },
+        {
+          "session": "slim_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手放せないまま、新しい朝を迎え続ける人間の鼓動。",
+          "rank": 1,
+          "tally": 6,
+          "won": false
+        },
+        {
+          "session": "session-smoke-20260125-033105",
+          "phase": "Phase 1",
+          "my_proposal_summary": "報われるかわからないが、それでも一歩ずつ昇り続ける意志の記録",
+          "rank": 1,
+          "tally": 7,
+          "won": true
+        },
+        {
+          "session": "session-smoke-20260125-033105",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 7,
+          "won": false
+        },
+        {
+          "session": "session-smoke-20260125-040803",
+          "phase": "Phase 1",
+          "my_proposal_summary": "完璧に揃えられた伝統の中で、一本だけ床に落ちた筆が誰にも拾われず光を浴び続ける──途切れることもまた、美しい物語の一部だと告げるMV。",
+          "rank": 4,
+          "tally": 4,
+          "won": false
+        },
+        {
+          "session": "session-smoke-20260125-040803",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 7,
+          "won": false
+        }
+      ],
+      "stance_on_past": "克服した武勇伝として語る"
+    },
+    {
+      "id": "persona-4c8b8788",
+      "name": "みずた りこ",
+      "gender": "女性",
+      "birthdate": "2013-12-21",
+      "life_history": [
+        {
+          "year": 2013,
+          "event": "岡山市内の総合病院で出生。母親は看護師、父親は地方銀行員。"
+        },
+        {
+          "year": 2020,
+          "event": "小学校入学。給食を一度も残さず完食する記録を1年間継続した。"
+        },
+        {
+          "year": 2024,
+          "event": "小学4年時、クラスの飼育係として校庭のウサギ小屋の清掃と餌やりを担当。冬季は毎朝6時45分に登校していた。"
+        },
+        {
+          "year": 2027,
+          "event": "中学入学後、陸上部に所属。800m走で県大会出場を果たしたが予選敗退。"
+        },
+        {
+          "year": 2030,
+          "event": "高校は普通科に進学。図書委員として月間貸出冊数の集計作業を2年間担当した。"
+        },
+        {
+          "year": 2032,
+          "event": "大学受験で第一志望の国立大学に不合格。地元の私立大学経済学部に入学。"
+        },
+        {
+          "year": 2034,
+          "event": "大学2年次、コンビニエンスストアで週4日の夜勤アルバイトを開始。商品発注システムの効率化を提案し採用された。"
+        },
+        {
+          "year": 2036,
+          "event": "卒業後、地元のスーパーマーケットチェーンに正社員として就職。青果部門に配属される。"
+        }
+      ],
+      "current_situation": "現在23歳。岡山市内のスーパーマーケット青果部門で勤務3年目。季節野菜の仕入れと陳列レイアウトを担当している。実家から車で15分のワンルームアパートで一人暮らし。月に2回、母親が夕食を持って訪ねてくる。休日は近所のスポーツジムで水泳をするか、図書館で実用書を読んで過ごすことが多い。",
+      "external_perception": {
+        "first_impression": "物静かで控えめ。話しかけられるまで自分から発言しないため、とっつきにくいと思われがち。",
+        "close_friends_view": "一度信頼関係ができると非常に頼りになる。約束を必ず守り、頼まれごとを最後までやり遂げる。地味だが確実な仕事ぶりを評価されている。",
+        "misunderstandings": "無表情でいることが多いため、不機嫌だと勘違いされることがある。実際には特に何も考えていないか、作業に集中しているだけのことが多い。"
+      },
+      "proposal_history": [
+        {
+          "session": "coffee_zombie_test_v3",
+          "phase": "Phase 1",
+          "my_proposal_summary": "物理的に触れられないものだけが、本当に傷つけずにいられる距離",
+          "rank": 3,
+          "tally": 3,
+          "won": false
+        },
+        {
+          "session": "coffee_zombie_test_v3",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 3,
+          "won": true
+        },
+        {
+          "session": "stability_test_1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "反復される呼びかけによってのみ、存在が維持される関係",
+          "rank": 3,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "stability_test_1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 5,
+          "won": false
+        }
+      ],
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-4c8b8788",
+    "name": "みずた りこ",
+    "gender": "女性",
+    "birthdate": "2013-12-21",
+    "life_history": [
+      {
+        "year": 2013,
+        "event": "岡山市内の総合病院で出生。母親は看護師、父親は地方銀行員。"
+      },
+      {
+        "year": 2020,
+        "event": "小学校入学。給食を一度も残さず完食する記録を1年間継続した。"
+      },
+      {
+        "year": 2024,
+        "event": "小学4年時、クラスの飼育係として校庭のウサギ小屋の清掃と餌やりを担当。冬季は毎朝6時45分に登校していた。"
+      },
+      {
+        "year": 2027,
+        "event": "中学入学後、陸上部に所属。800m走で県大会出場を果たしたが予選敗退。"
+      },
+      {
+        "year": 2030,
+        "event": "高校は普通科に進学。図書委員として月間貸出冊数の集計作業を2年間担当した。"
+      },
+      {
+        "year": 2032,
+        "event": "大学受験で第一志望の国立大学に不合格。地元の私立大学経済学部に入学。"
+      },
+      {
+        "year": 2034,
+        "event": "大学2年次、コンビニエンスストアで週4日の夜勤アルバイトを開始。商品発注システムの効率化を提案し採用された。"
+      },
+      {
+        "year": 2036,
+        "event": "卒業後、地元のスーパーマーケットチェーンに正社員として就職。青果部門に配属される。"
+      }
+    ],
+    "current_situation": "現在23歳。岡山市内のスーパーマーケット青果部門で勤務3年目。季節野菜の仕入れと陳列レイアウトを担当している。実家から車で15分のワンルームアパートで一人暮らし。月に2回、母親が夕食を持って訪ねてくる。休日は近所のスポーツジムで水泳をするか、図書館で実用書を読んで過ごすことが多い。",
+    "external_perception": {
+      "first_impression": "物静かで控えめ。話しかけられるまで自分から発言しないため、とっつきにくいと思われがち。",
+      "close_friends_view": "一度信頼関係ができると非常に頼りになる。約束を必ず守り、頼まれごとを最後までやり遂げる。地味だが確実な仕事ぶりを評価されている。",
+      "misunderstandings": "無表情でいることが多いため、不機嫌だと勘違いされることがある。実際には特に何も考えていないか、作業に集中しているだけのことが多い。"
+    },
+    "proposal_history": [
+      {
+        "session": "coffee_zombie_test_v3",
+        "phase": "Phase 1",
+        "my_proposal_summary": "物理的に触れられないものだけが、本当に傷つけずにいられる距離",
+        "rank": 3,
+        "tally": 3,
+        "won": false
+      },
+      {
+        "session": "coffee_zombie_test_v3",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 3,
+        "tally": 3,
+        "won": true
+      },
+      {
+        "session": "stability_test_1",
+        "phase": "Phase 1",
+        "my_proposal_summary": "反復される呼びかけによってのみ、存在が維持される関係",
+        "rank": 3,
+        "tally": 5,
+        "won": false
+      },
+      {
+        "session": "stability_test_1",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 2,
+        "tally": 5,
+        "won": false
+      }
+    ],
+    "stance_on_past": "他人事のように距離を置いて見ている"
+  },
+  "current_phase": "phase2",
+  "qc_retry_count": 0,
+  "errors": {},
+  "subject_location_design": {
+    "phase2a_vision": {
+      "phase1_base": "サソリ",
+      "phase2_condition": "六本腕・分節胴体",
+      "phase3_anchor": "背負い旗",
+      "subject_concept": "六本腕と分節胴体を持つサソリ",
+      "subject_signature": "背負い旗",
+      "character_profile": {
+        "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+        "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+      },
+      "character_profile_source": "llm",
+      "adopted_from_persona_id": "persona-b0d79042",
+      "selected_by_persona_id": "vote10"
+    },
+    "phase2b_realization": {},
+    "phase2b_deferred": true,
+    "character_profile": {
+      "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+      "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+    },
+    "character_profile_source": "llm"
+  }
+}

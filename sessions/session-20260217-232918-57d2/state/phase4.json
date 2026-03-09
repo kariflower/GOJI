@@ -1,0 +1,5528 @@
+{
+  "session_id": "session-20260217-232918-57d2",
+  "state_version": 6,
+  "created_at": "2026-02-17T14:29:18.894416Z",
+  "updated_at": "2026-02-17T16:08:06.975450Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260217-232918-57d2",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.4875,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.37763157894736843,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.38026315789473686,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.3828947368421053,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6855263157894737,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6881578947368421,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6907894736842105,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.39342105263157895,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.3960526315789474,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.3986842105263158,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.7013157894736841,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.7039473684210525,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.706578947368421,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.20921052631578949,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.21184210526315791,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.7144736842105263,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.7171052631578947,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.7197368421052631,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.4723684210526316,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.525,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "core_concept": {
+    "creative_seed": "persona-aa543b71:94dccb1b",
+    "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+    "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+    "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+    "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+    "hook_scene": {
+      "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+      "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+      "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+      "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+      "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+      "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+    },
+    "tension_target": 0.7303947368421053
+  },
+  "subject_location_design": {
+    "phase2a_vision": {
+      "phase1_base": "鹿",
+      "phase2_condition": "逆関節・露出関節",
+      "phase3_anchor": "割れた兜",
+      "subject_concept": "逆関節と露出関節を持つ鹿",
+      "subject_signature": "割れた兜",
+      "character_profile": {
+        "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+        "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+      },
+      "character_profile_source": "llm",
+      "adopted_from_persona_id": "persona-72d11933",
+      "selected_by_persona_id": "vote10"
+    },
+    "phase2b_realization": {},
+    "phase2b_deferred": true,
+    "character_profile": {
+      "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+      "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+    },
+    "character_profile_source": "llm"
+  },
+  "world_setting": {
+    "premise": "この世界では、時間は人と場所に不均等に流れる。ある者は一日に三十年を生き、ある船着き場では百年前の朝が今も続いている。",
+    "rules": [
+      "時間流速は場所ごとに固有の値を持ち、霧の門をくぐるたびに流速域が切り替わる",
+      "移動ホームに乗って居続ける者だけが複数の時間流速を横断できる",
+      "浮遊標識が指す方向は空間ではなく時間密度を示す。標識が激しく揺れる場所は時間が急速に圧縮されている",
+      "同じ場所に留まるほど時間流速に同化し、外から来た者の目には老化または逆老化として映る"
+    ],
+    "society": "時間流速の違いを利用して利益を得る「流速商人」が経済を支配する。遅い流速域で製造された品は長寿命で高値が付き、速い流速域では一夜にして職人が生涯分の技術を習得できる。政府は存在せず、船着き場ごとの流速管理組合が実質的な権力を握る。",
+    "daily_life": "朝に別れた家族が夕方には数十年を経て帰還することは珍しくない。待つことと追うことが日常の主な行為であり、移動ホームの時刻表は時間流速込みで印刷される。手紙は届く頃には書いた本人が存在しないことがある。",
+    "values": "「流れに乗る」ことが最高の美徳とされ、時間流速に逆らおうとする者は忌避される。年齢は意味を持たず、いくつの流速域を経験したかが社会的地位を決める。時間を止めようとする行為は最大の禁忌。",
+    "visual_signifiers": [
+      "浮遊標識が空中に多数漂い、それぞれ異なる速度で回転している",
+      "霧の門の両側で同じ人物が異なる年齢で同時に立っている",
+      "船着き場の木材が半分だけ朽ちて半分だけ新しい、という非対称な老化",
+      "移動ホームの窓から見える風景だけが正常な速度で流れ、外の世界はスローまたは早送りに見える"
+    ],
+    "limits": "時間流速を自らの意志で生成・変更することは不可能。霧の門が存在しない場所では流速域を移動できない。時間を巻き戻す手段は存在しない。",
+    "freedom": "移動ホームの中だけは外部の時間流速から完全に切り離されており、乗客は自分のペースで時を刻む。創作・思索・感情は流速に支配されず、どの域にいても同じ速度で進む。",
+    "parts": [
+      {
+        "key": "premise",
+        "kind": "text",
+        "text": "この世界では、時間は人と場所に不均等に流れる。ある者は一日に三十年を生き、ある船着き場では百年前の朝が今も続いている。"
+      },
+      {
+        "key": "rules",
+        "kind": "list",
+        "items": [
+          "時間流速は場所ごとに固有の値を持ち、霧の門をくぐるたびに流速域が切り替わる",
+          "移動ホームに乗って居続ける者だけが複数の時間流速を横断できる",
+          "浮遊標識が指す方向は空間ではなく時間密度を示す。標識が激しく揺れる場所は時間が急速に圧縮されている",
+          "同じ場所に留まるほど時間流速に同化し、外から来た者の目には老化または逆老化として映る"
+        ]
+      },
+      {
+        "key": "society",
+        "kind": "text",
+        "text": "時間流速の違いを利用して利益を得る「流速商人」が経済を支配する。遅い流速域で製造された品は長寿命で高値が付き、速い流速域では一夜にして職人が生涯分の技術を習得できる。政府は存在せず、船着き場ごとの流速管理組合が実質的な権力を握る。"
+      },
+      {
+        "key": "daily_life",
+        "kind": "text",
+        "text": "朝に別れた家族が夕方には数十年を経て帰還することは珍しくない。待つことと追うことが日常の主な行為であり、移動ホームの時刻表は時間流速込みで印刷される。手紙は届く頃には書いた本人が存在しないことがある。"
+      },
+      {
+        "key": "values",
+        "kind": "text",
+        "text": "「流れに乗る」ことが最高の美徳とされ、時間流速に逆らおうとする者は忌避される。年齢は意味を持たず、いくつの流速域を経験したかが社会的地位を決める。時間を止めようとする行為は最大の禁忌。"
+      },
+      {
+        "key": "visual_signifiers",
+        "kind": "list",
+        "items": [
+          "浮遊標識が空中に多数漂い、それぞれ異なる速度で回転している",
+          "霧の門の両側で同じ人物が異なる年齢で同時に立っている",
+          "船着き場の木材が半分だけ朽ちて半分だけ新しい、という非対称な老化",
+          "移動ホームの窓から見える風景だけが正常な速度で流れ、外の世界はスローまたは早送りに見える"
+        ]
+      },
+      {
+        "key": "limits",
+        "kind": "text",
+        "text": "時間流速を自らの意志で生成・変更することは不可能。霧の門が存在しない場所では流速域を移動できない。時間を巻き戻す手段は存在しない。"
+      },
+      {
+        "key": "freedom",
+        "kind": "text",
+        "text": "移動ホームの中だけは外部の時間流速から完全に切り離されており、乗客は自分のペースで時を刻む。創作・思索・感情は流速に支配されず、どの域にいても同じ速度で進む。"
+      }
+    ]
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-f698f6b5",
+            "persona_id": "persona-bd8fd017",
+            "content": {
+              "creative_seed": "persona-bd8fd017:62f8ff4b",
+              "self_analysis": "私は計画と前進を好む人間で、過去を引きずるより次の手を考える。複数の文化圏を渡り歩いてきたせいか、「どこにも完全には属さない」状態を不安より面白さとして受け取る癖がある。14歳の苦悩を読んでも、共感より『ああ、あの面倒な時期ね』という距離感が出る。ユーモアは乾いた観察型で、劇的な叫びより滑稽な構図に反応する。暗さより仕掛けに引っかかる。",
+              "what_i_saw": "蛍光灯の白い光の中、制服の少年が数学のノートを丸めてマイクスタンド代わりに握り、ベッドの上でYouTube風の自撮り配信をしているが、その画角の外——カメラが捉えていない側——には母親が用意した模擬試験の問題用紙が扇状に散らばっている。少年は真剣な顔で口を動かしているが、声は一切聞こえない。",
+              "why_it_came": "歌詞の中で最も面白いズレは『夜中にこっそり撮る動画』と『誰にも見せない』の組み合わせ——誰も見ないのに撮る、という行為の滑稽さと切実さが同居している点だ。私は計画を立てる側の人間として、『目的のない行為』の純粋さをむしろ軽やかに面白いと感じる。暗さに正面から乗るより、その行為の構造的なおかしさ（一人のための放送）を映像の核にした方が目が止まる。[起点=lyrics][解釈=誰も見ない放送][トーン=playful]",
+              "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+              "hook_scene": {
+                "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+              }
+            },
+            "created_at": "2026-02-17 14:30:12.615230"
+          },
+          {
+            "proposal_id": "prop-b9eadcf8",
+            "persona_id": "persona-aa543b71",
+            "content": {
+              "creative_seed": "persona-aa543b71:94dccb1b",
+              "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+              "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+              "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+              "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+              "hook_scene": {
+                "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+                "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+                "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+                "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+                "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+                "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+              }
+            },
+            "created_at": "2026-02-17 14:31:42.712183"
+          },
+          {
+            "proposal_id": "prop-25596453",
+            "persona_id": "persona-536670e0",
+            "content": {
+              "creative_seed": "persona-536670e0:75f1270a",
+              "self_analysis": "私は損失の痛みを知りながらも、毎月食事会を開いて人を集め続ける人間だ。傷が癒えないまま前に進む、それが私の回復力の形。ユーモアは防衛でなく武器——笑えるうちは負けじゃないと思っている。他人の「本音」が出た瞬間に体が反応する。取り繕った言葉より、崩れた声の方がずっとリアルに聞こえる。この曲の14歳の怒鳴り声は、私には「生きてる証拠」に聞こえた。",
+              "what_i_saw": "廃工場かどこかの高い天井の下、一人の少年が段ボール箱の上に立って両手を広げている。カメラは真下から仰角で撮っていて、彼の足の裏だけが見える。彼は叫んでいるのか笑っているのか、表情が逆光で判別できない。でも足が——ぶるぶると細かく震えながら、それでも踏みしめている。",
+              "why_it_came": "「編集してる時の僕の目はきっと生きてるって言えるんだ」という一行が刺さった。私が引っかかったのは『諦め』ではなく『そこにしか本物がない、という発見』の瞬間。暗さの歌に見えて、実はこの子は自分だけの座標をすでに見つけている。だから映像は墜落でなく、飛ぼうとしている瞬間——失敗するかもしれないが本気の跳躍前の静止。仰角と逆光で判別不能にするのは、「美しいか醜いかどっちでもいい、本物ならそれでいい」という歌詞の体現。[起点=lyrics][解釈=発見・跳躍・本物][トーン=uplift]",
+              "theme": "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。",
+              "hook_scene": {
+                "focus": "制服のズボンだけ着た少年（上半身は白Tシャツ、裸足）——足裏が画面の中央を占拠している",
+                "place": "解体寸前の旧工場の大空間。天窓から差し込む一本の光柱の真下。床には散乱した段ボール片。",
+                "action": "崩れかけた段ボールの山の頂点に立ち、両腕を水平に広げたまま微動だにしない——ただし足首だけが小刻みに震え続けている",
+                "detail": "右足の裏に油性マジックで何か書いてある（文字が読めそうで読めない角度）",
+                "question": "彼は今から飛ぶのか、すでに着地した後なのか——どちらの読み方もできる静止だが、足の震えだけが時間の経過を証明している",
+                "when": "「透明な檻を蹴り破る音が」の歌詞直前——サビ最後の溜め"
+              }
+            },
+            "created_at": "2026-02-17 14:33:24.100116"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A"
+          ],
+          "candidate_map": {
+            "A": "prop-b9eadcf8"
+          },
+          "tally": {
+            "A": 0
+          },
+          "like_tally": {
+            "A": 0
+          },
+          "dislike_tally": {
+            "A": 0
+          },
+          "votes": [],
+          "analysis": "single_candidate",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-b9eadcf8",
+        "persona_id": "persona-aa543b71",
+        "content": {
+          "creative_seed": "persona-aa543b71:94dccb1b",
+          "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+          "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+          "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+          "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+          "hook_scene": {
+            "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+            "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+            "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+            "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+            "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+            "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+          }
+        },
+        "created_at": "2026-02-17 14:31:42.712183"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-bd8fd017",
+            "name": "Suphatra Weidmann",
+            "gender": "クエスチョニング",
+            "birthdate": "1951-11-13",
+            "age": 36,
+            "origin_city": "ミュンヘン",
+            "ethnic_background": "東南アジア系",
+            "life_history": [
+              {
+                "year": 1951,
+                "event": "西ドイツ・ミュンヘンにて、タイ人の父とドイツ人の母の間に生まれる。父はミュンヘン大学に留学中の農学研究者だった。"
+              },
+              {
+                "year": 1957,
+                "event": "父の帰国に伴い家族でバンコクへ移住。ミュンヘンでの幼少期に習得したドイツ語を維持するため、毎週土曜日にドイツ人学校の補習クラスに通った。"
+              },
+              {
+                "year": 1965,
+                "event": "バンコクの私立中学校を卒業後、奨学金を得てシンガポールの寄宿制高校へ進学。英語・タイ語・ドイツ語の三言語を日常的に使用する環境に置かれた。"
+              },
+              {
+                "year": 1969,
+                "event": "高校卒業後、西ドイツへ渡航しミュンヘン工科大学の工学部に入学。機械工学を専攻し、初年度から工作機械の研究室に配属された。"
+              },
+              {
+                "year": 1972,
+                "event": "大学在学中に自動車部品メーカーのインターンシップへ参加し、エンジン冷却系の試作設計に携わった。同年、大学の国際学生会で事務局長を務めた。"
+              },
+              {
+                "year": 1975,
+                "event": "工学部を修了後、ミュンヘン郊外の精密機器メーカーに正社員として入社。生産ラインの設備保全部門に配属された。"
+              },
+              {
+                "year": 1979,
+                "event": "社内公募で海外事業開発チームへ異動し、マレーシア・クアラルンプールへの工場設立プロジェクトに参加。現地視察のため年間で延べ8か月を東南アジアで過ごした。"
+              },
+              {
+                "year": 1984,
+                "event": "クアラルンプール支社の立ち上げ責任者としてマレーシアへ赴任。現地採用スタッフ12名の研修体制を整備し、翌年には量産ラインの稼働を実現した。"
+              },
+              {
+                "year": 1987,
+                "event": "マレーシア永住権の申請手続きを開始。クアラルンプール市内のコンドミニアムを購入し、拠点を正式にドイツからマレーシアへ移した。"
+              }
+            ],
+            "current_situation": "1988年現在、クアラルンプール市内のコンドミニアムに単身で居住している。精密機器メーカーのマレーシア支社において現地法人の運営管理職を務めており、週の大半を工場と事務所で過ごしている。業務の傍ら、夜間の経営学講座に週二回通い始めた。タイ・ドイツ・マレーシアにそれぞれ親族や旧知の知人が点在しており、年に数回それらの国を訪問している。",
+            "external_perception": {
+              "first_impression": "物静かで礼儀正しく、どこの国の人か判断しにくいと言われることが多い。",
+              "close_friends_view": "次の計画や行動の話ばかりで、過去の苦労をほとんど語らない人物だと見られている。",
+              "misunderstandings": "無口で感情を出さないように見えるため、周囲の意見に関心がないと誤解されることがある。"
+            },
+            "stance_on_past": "あまり振り返らず前を向いている"
+          },
+          {
+            "id": "persona-aa543b71",
+            "name": "Graham Fletcher",
+            "gender": "男性",
+            "birthdate": "1981-11-06",
+            "origin_city": "ブリスベン",
+            "ethnic_background": "欧州系",
+            "life_history": [
+              {
+                "year": 1981,
+                "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+              },
+              {
+                "year": 1999,
+                "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+              },
+              {
+                "year": 2004,
+                "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+              },
+              {
+                "year": 2008,
+                "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+              },
+              {
+                "year": 2010,
+                "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+              },
+              {
+                "year": 2015,
+                "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+              },
+              {
+                "year": 2019,
+                "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+              },
+              {
+                "year": 2023,
+                "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+              }
+            ],
+            "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+            "external_perception": {
+              "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+              "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+              "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+            },
+            "proposal_history": [
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "goji_creator_test_v2",
+                "phase": "Phase 1",
+                "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+                "rank": 2,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "goji_creator_test_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 17,
+                "won": false
+              },
+              {
+                "session": "phase2_ref_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "full_pipeline_test_20260104_154048",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+                "rank": 1,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "full_pipeline_test_20260104_154048",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 6,
+                "won": false
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          },
+          {
+            "id": "persona-536670e0",
+            "name": "プリヤンカ・ナイール",
+            "gender": "女性",
+            "birthdate": "9245-05-07",
+            "age": 57,
+            "origin_city": "高雄",
+            "ethnic_background": "南アジア系",
+            "life_history": [
+              {
+                "year": 9250,
+                "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+              },
+              {
+                "year": 9263,
+                "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+              },
+              {
+                "year": 9267,
+                "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+              },
+              {
+                "year": 9270,
+                "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+              },
+              {
+                "year": 9278,
+                "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+              },
+              {
+                "year": 9286,
+                "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+              },
+              {
+                "year": 9295,
+                "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+              },
+              {
+                "year": 9301,
+                "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+              }
+            ],
+            "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+            "external_perception": {
+              "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+              "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+              "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+            },
+            "stance_on_past": "まだ傷として残っている",
+            "proposal_history": [
+              {
+                "session": "20260118_040633",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 21,
+                "won": true
+              }
+            ]
+          }
+        ],
+        "goji_persona_id": null,
+        "winning_persona": {
+          "id": "persona-aa543b71",
+          "name": "Graham Fletcher",
+          "gender": "男性",
+          "birthdate": "1981-11-06",
+          "origin_city": "ブリスベン",
+          "ethnic_background": "欧州系",
+          "life_history": [
+            {
+              "year": 1981,
+              "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+            },
+            {
+              "year": 1999,
+              "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+            },
+            {
+              "year": 2004,
+              "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+            },
+            {
+              "year": 2008,
+              "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+            },
+            {
+              "year": 2010,
+              "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+            },
+            {
+              "year": 2015,
+              "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+            },
+            {
+              "year": 2019,
+              "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+            },
+            {
+              "year": 2023,
+              "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+            }
+          ],
+          "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+          "external_perception": {
+            "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+            "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+            "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+          },
+          "proposal_history": [
+            {
+              "session": "phase2a_new_v1",
+              "phase": "Phase 1",
+              "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+              "rank": 0,
+              "tally": 0,
+              "won": false
+            },
+            {
+              "session": "phase2a_new_v1",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+              "rank": 0,
+              "tally": 0,
+              "won": false
+            },
+            {
+              "session": "goji_creator_test_v2",
+              "phase": "Phase 1",
+              "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+              "rank": 2,
+              "tally": 5,
+              "won": false
+            },
+            {
+              "session": "goji_creator_test_v2",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 3,
+              "tally": 17,
+              "won": false
+            },
+            {
+              "session": "phase2_ref_test_v1",
+              "phase": "Phase 1",
+              "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+              "rank": 3,
+              "tally": 5,
+              "won": false
+            },
+            {
+              "session": "full_pipeline_test_20260104_154048",
+              "phase": "Phase 1",
+              "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+              "rank": 1,
+              "tally": 6,
+              "won": true
+            },
+            {
+              "session": "full_pipeline_test_20260104_154048",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 2,
+              "tally": 6,
+              "won": false
+            }
+          ],
+          "stance_on_past": "他人事のように距離を置いて見ている"
+        },
+        "overlap_debug": [
+          {
+            "persona": "Graham Fletcher",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=22,jac=0.08)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "消す直前まで行って、消さなかった——それが唯一の、誰にも届かない宣言。",
+                  "focus": "編集ソフトの画面に映り込んだ少年の目だけ——顔の輪郭も体も見えない",
+                  "place": "深夜の部屋、机の上に置かれたノートpcだけが光源。背後は完全に黒",
+                  "action": "タイムライン上の自分の声のクリップに、削除ショートカットのキーを押しかけて——止まっている",
+                  "detail": "画面右下の時刻表示が「03:14」で静止している（点滅もしていない）",
+                  "question": "彼はなぜ削除できないのか——そしてそのクリップの中で、彼は何を言っていたのか",
+                  "when": "chorus1直前（「誰も知らない狂った旋律」の余韻が消えた一瞬の無音）"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "Graham Fletcher",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=16,jac=0.05)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "叫び終えた後に残る部屋だけが、彼がそこにいたことの証明になる。",
+                  "focus": "誰もいない勉強机の椅子——背もたれに制服の上着が引っかかったまま",
+                  "place": "深夜の子供部屋。蛍光灯が消えた直後で、目が慣れるまでの数秒間の暗さ。窓の外に街灯の薄い光だけ",
+                  "action": "カメラがゆっくりズームインしていく。机の上の三角関数のプリント、赤いバツ印だらけ。その右端に小さく「本物」と書かれた走り書き。スマホの画面が最後の光を放ってロック画面になる",
+                  "detail": "椅子の座面に、丸く圧迫された跡だけが残っている——さっきまで誰かがそこに座っていた形が、クッションに刻まれている",
+                  "question": "なぜ制服だけが置いていかれているのか——この部屋の主はどこへ行ったのか、それとも「14歳の自分」を脱いでいったのか",
+                  "when": "「蛍光灯が消えて」の歌詞と同時に画面が暗転し、目が慣れてきた頃に椅子の跡だけが見えてくる"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=16,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "誰にも見せていないのに、もう始まっている——少年が初めて自分の動画の「再生」ボタンを押す、その0.5秒の革命。",
+                  "focus": "スマホの編集アプリのタイムライン画面——10本以上の細いクリップが並んでいて、最後の一本がたった今ドロップされたばかり",
+                  "place": "電気を消した自室、机の上。蛍光灯は切れているか消されており、唯一の光源がスマホ画面の青白い光だけ。壁に教科書と丸めたプリントが見える",
+                  "action": "少年の親指が「▶」ボタンの上で一瞬だけ止まる——押すか押さないか、その刹那。画面には彼が一人で撮り続けてきた映像の断片が並んでいる",
+                  "detail": "タイムラインの一番左端のクリップに、蛍光灯が点灯した状態の部屋が映っている——それが最も古い素材で、今の暗闇と対になっている",
+                  "question": "再生ボタンを押した後、彼はその動画を誰かに送るのか——それとも消すのか",
+                  "when": "「透明な檻を蹴り破る音が／今夜の僕のテーマソング」の直前、サビ転換の0.5秒前"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=14,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "「革命」と宣言した夜の翌朝、少年はただ窓の外を見ていた——それだけで十分だった。",
+                  "focus": "制服姿の中学生男子——右手だけがわずかに震えている",
+                  "place": "始業30分前の無人教室。窓際の一番前の席。黒板には前日の数式が半分消えたまま残っている",
+                  "action": "スマホの画面を下向きに机へ置き、両手を膝に乗せて、ゆっくりと窓の外を見る。カメラは真横から固定で、少年の横顔と窓の外の青空だけを映し続ける",
+                  "detail": "机の端に置かれた進路希望調査票——白紙のまま、四つ折りにされてセロテープで封をされている",
+                  "question": "彼は昨夜、あの調査票に何かを書いて、なぜ封をしたのか——開けるつもりがないのか、それとも誰かに渡すつもりなのか",
+                  "when": "「でもそれでも生きていたい」の直後、サビ落ち——bpm133のビートが一瞬だけ抜けるような静寂のタイミング"
+                }
+              }
+            ]
+          }
+        ],
+        "diversity_metrics": {
+          "proposal_count": 3,
+          "pair_count": 3,
+          "overlap_pairs": 3,
+          "overlap_rate": 1.0,
+          "subject_distribution": {
+            "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。": 1,
+            "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。": 1,
+            "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。": 1
+          },
+          "unique_subject_count": 3,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-bd8fd017": 491,
+            "persona-aa543b71": 447,
+            "persona-536670e0": 535
+          },
+          "eligible_count": 1,
+          "eligible_proposal_ids": [
+            "prop-b9eadcf8"
+          ],
+          "excluded_proposal_ids": [
+            "prop-f698f6b5",
+            "prop-25596453"
+          ],
+          "results": [
+            {
+              "proposal_id": "prop-f698f6b5",
+              "persona_id": "persona-bd8fd017",
+              "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+              "theme_token_count": 28,
+              "lyrics_anchor_count": 4,
+              "novel_token_count": 24,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "かない",
+                "かない電波",
+                "ける",
+                "ける少年",
+                "し続",
+                "で発信"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "一人",
+                "今夜",
+                "誰にも"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-b9eadcf8",
+              "persona_id": "persona-aa543b71",
+              "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+              "theme_token_count": 36,
+              "lyrics_anchor_count": 1,
+              "novel_token_count": 35,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "14",
+                "える",
+                "える教室",
+                "かが",
+                "かが起",
+                "かに"
+              ],
+              "lyrics_anchor_sample": [
+                "14"
+              ],
+              "persona_novel_sample": [
+                "える"
+              ],
+              "tier": 1,
+              "reasons": []
+            },
+            {
+              "proposal_id": "prop-25596453",
+              "persona_id": "persona-536670e0",
+              "theme": "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。",
+              "theme_token_count": 32,
+              "lyrics_anchor_count": 7,
+              "novel_token_count": 25,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "がはじめて",
+                "がはじめて目撃",
+                "しかった",
+                "しかったその",
+                "する夜",
+                "せていない"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "にも見",
+                "の中",
+                "世界",
+                "動画",
+                "本当"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos"
+      }
+    },
+    "phase2": {
+      "phase_id": "phase2",
+      "subphases": {
+        "phase2a": {
+          "phase_id": "phase2a",
+          "competition": {
+            "proposals": [
+              {
+                "proposal_id": "sl2a-ca13e7de",
+                "persona_id": "persona-f0540cb8",
+                "content": {
+                  "phase1_base": "槍兵",
+                  "phase2_condition": "細長い胴体・長い脚",
+                  "phase3_anchor": "割れた額の刻印",
+                  "subject_concept": "細長い胴体と長い脚を持つ槍兵",
+                  "subject_signature": "割れた額の刻印",
+                  "character_profile": {
+                    "appearance_profile": "胴体が異様に細長く、脚の比率が上半身の倍近くある槍兵。額の中央に縦に走る刻印が顔の左右を分断するように刻まれている。",
+                    "motion_profile": "長い脚で踏み込むたびに細長い胴体が前傾し、額の刻印が真正面から一瞬だけ視線に射貫く角度で止まる。"
+                  }
+                },
+                "created_at": "2026-02-17 14:33:37.884693"
+              },
+              {
+                "proposal_id": "sl2a-4ba1dede",
+                "persona_id": "persona-4f1c2f07",
+                "content": {
+                  "phase1_base": "天狗",
+                  "phase2_condition": "翼・縦長の瞳",
+                  "phase3_anchor": "背負い旗",
+                  "subject_concept": "翼と縦長の瞳を持つ天狗",
+                  "subject_signature": "背負い旗",
+                  "character_profile": {
+                    "appearance_profile": "大きな翼を背面に折り畳み、虹彩が縦に細長く裂けた双眸を持つ天狗。背中の旗竿は脊椎に沿って固定され、旗面は無文様の矩形布が垂れる。",
+                    "motion_profile": "翼を広げるたびに背負い旗が張力で水平に跳ね上がり、縦長の瞳が対象を捉えた瞬間に瞬きなく静止する。"
+                  }
+                },
+                "created_at": "2026-02-17 14:33:48.152632"
+              },
+              {
+                "proposal_id": "sl2a-12ad2ac2",
+                "persona_id": "persona-72d11933",
+                "content": {
+                  "phase1_base": "鹿",
+                  "phase2_condition": "逆関節・露出関節",
+                  "phase3_anchor": "割れた兜",
+                  "subject_concept": "逆関節と露出関節を持つ鹿",
+                  "subject_signature": "割れた兜",
+                  "character_profile": {
+                    "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+                    "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+                  }
+                },
+                "created_at": "2026-02-17 14:33:59.465654"
+              }
+            ],
+            "voting": {
+              "selection_mode": "vote10_like_dislike",
+              "candidate_keys": [
+                "A",
+                "B",
+                "C"
+              ],
+              "candidate_map": {
+                "A": "sl2a-ca13e7de",
+                "B": "sl2a-4ba1dede",
+                "C": "sl2a-12ad2ac2"
+              },
+              "tally": {
+                "A": 6,
+                "B": 5,
+                "C": 9
+              },
+              "like_tally": {
+                "A": 2,
+                "B": 4,
+                "C": 4
+              },
+              "dislike_tally": {
+                "A": 4,
+                "B": 1,
+                "C": 5
+              },
+              "votes": [
+                {
+                  "voter": "Moana Tetuanui",
+                  "like": "C",
+                  "like_reason": "鹿という動物的な親しみやすさと、逆関節・露出関節という野性的な体つきが自然の力強さを感じさせ、漁師として海や自然と向き合う自分の感覚に響く。割れた兜も歴戦の傷跡として好ましい。",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵という記号的な人間キャラクターに魅力を感じない。細長い胴体も生き物としての存在感が薄く、額の刻印も儀式的すぎて距離を感じる。"
+                },
+                {
+                  "voter": "しまだ あかり",
+                  "like": "B",
+                  "like_reason": "天狗×翼という和の妖怪ベースが好きで、縦長の瞳に神秘的な色気がある。背負い旗もキャラクターとしての個性が立っていてビジュアル的にかっこいい。",
+                  "dislike": "C",
+                  "dislike_reason": "逆関節・露出関節はグロテスクな印象があってあまり見たくない。鹿モチーフ自体は嫌いではないが、デザインが痛々しく感じてしまう。"
+                },
+                {
+                  "voter": "たけし",
+                  "like": "A",
+                  "like_reason": "槍兵という王道のファンタジー戦士像が分かりやすく、細長い胴体と長い脚はスタイリッシュでかっこいいと思う。割れた額の刻印も強さの証として納得感がある。",
+                  "dislike": "C",
+                  "dislike_reason": "鹿ベースのキャラクターは戦士として弱そうに見える。逆関節や露出関節という設定も、何を表したいのかピンとこない。"
+                },
+                {
+                  "voter": "いとう みお",
+                  "like": "C",
+                  "like_reason": "鹿モチーフが動物好きとして一番惹かれる。逆関節は実際の鹿の脚の構造にも近くて生物学的なリアリティがある。割れた兜から覗く顔が想像できて、守られた動物的な表情が見えそう。",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵は純粋に人間的すぎて、ファンタジーキャラとしての面白みを感じない。細長い胴体・長い脚という条件もただ人間のスタイルを誇張しただけに見える。"
+                },
+                {
+                  "voter": "おおたに けんじ",
+                  "like": "B",
+                  "like_reason": "天狗は日本の伝統的な妖怪で、輸入雑貨を扱う立場から見ても日本独自のモチーフは世界に出しても面白いと思う。背負い旗は南米の祭りの旗飾りを連想させ、個人的にも親しみが持てる。",
+                  "dislike": "C",
+                  "dislike_reason": "露出関節や割れた兜という設定が不完全・損傷系のデザインで、ポジティブなエネルギーを感じない。朝のジョギングで清々しい気分を大切にしている自分には合わない。"
+                },
+                {
+                  "voter": "Amara van der Berg",
+                  "like": "C",
+                  "like_reason": "鹿の逆関節と露出関節は生命の脆さと力強さを同時に感じさせ、介護の現場で人体と向き合う自分には深く刺さる。割れた兜も傷を抱えながら立つ姿に共感できる。",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵は記号的すぎて個性が薄く、細長い胴体も機能的な印象が強くて感情移入しにくい。"
+                },
+                {
+                  "voter": "かわむら ゆうき",
+                  "like": "B",
+                  "like_reason": "天狗は日本的で親しみがあるし、翼と縦長の瞳は映像映えしそう。背負い旗もゲームのキャラクターっぽくてカッコいい。",
+                  "dislike": "C",
+                  "dislike_reason": "鹿の逆関節は正直グロテスクな感じがして、あまり見たくない。"
+                },
+                {
+                  "voter": "Miguel Alejandro Torres",
+                  "like": "A",
+                  "like_reason": "槍兵はシンプルで強い。細長いシルエットは戦士として決まってるし、額の刻印は物語性を感じる。夜中に見るならこういう骨太なやつがいい。",
+                  "dislike": "C",
+                  "dislike_reason": "鹿ベースのキャラクターは弱そうに見えて、戦士として説得力がない。"
+                },
+                {
+                  "voter": "たなか りょうた",
+                  "like": "B",
+                  "like_reason": "天狗めちゃくちゃかっこいい！翼あって縦長の目とか絶対強キャラじゃん。背負い旗もアニメっぽくてテンション上がる。",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵はなんか普通すぎる。ゲームとかでよく見るし、わざわざ見たいって感じがしない。"
+                },
+                {
+                  "voter": "しおり",
+                  "like": "C",
+                  "like_reason": "鹿の逆関節と露出関節は異質さと繊細さが共存していて、ビジュアルとしての完成度が高そう。割れた兜もただの装飾でなく、歴史や傷跡を感じさせる点が好き。",
+                  "dislike": "B",
+                  "dislike_reason": "天狗は日本的なモチーフとして面白いけど、背負い旗がベタすぎて記号に収まってしまう印象がある。"
+                }
+              ],
+              "analysis": "[batch 1] CはLike2票・Dislike2票と評価が二極化しており、動物好きや自然志向のペルソナには刺さるが、グロテスク・弱そうという印象から忌避されるケースも多い。BはLike2票・Dislike0票と安定した支持を得ており、和の妖怪モチーフと個性的なアクセサリーが幅広い年代に受け入れられやすい。AはLike1票・Dislike2票と最も不人気で、王道すぎてキャラクター的な面白みに欠けると判断されている。\n[batch 2] BとCが拮抗する結果となった。Bは天狗という日本的・ゲーム的なビジュアルが若い層（りょうた）や親しみ重視層（ゆうき）に支持された一方、Cは生命感・異形性・物語性を求める層（Amara・しおり）から票を集めた。Aは強さや骨太さを好む層（Miguel）に支持されたが、「無難すぎる」という理由で dislike も受けており、個性の薄さが課題として浮かび上がった。",
+              "is_tiebreak": false,
+              "tiebreak_reason": null,
+              "goji_vote": null
+            }
+          },
+          "adopted_result": {
+            "proposal_id": "sl2a-12ad2ac2",
+            "persona_id": "persona-72d11933",
+            "content": {
+              "phase1_base": "鹿",
+              "phase2_condition": "逆関節・露出関節",
+              "phase3_anchor": "割れた兜",
+              "subject_concept": "逆関節と露出関節を持つ鹿",
+              "subject_signature": "割れた兜",
+              "character_profile": {
+                "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+                "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+              }
+            },
+            "created_at": "2026-02-17 14:33:59.465654"
+          },
+          "adopted_vision": {
+            "phase1_base": "鹿",
+            "phase2_condition": "逆関節・露出関節",
+            "phase3_anchor": "割れた兜",
+            "subject_concept": "逆関節と露出関節を持つ鹿",
+            "subject_signature": "割れた兜",
+            "character_profile": {
+              "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+              "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+            },
+            "character_profile_source": "llm",
+            "adopted_from_persona_id": "persona-72d11933",
+            "selected_by_persona_id": "vote10"
+          },
+          "metadata": {
+            "overlap_debug": [],
+            "candidate_debug": [
+              {
+                "persona_id": "persona-f0540cb8",
+                "persona_name": "عمر الحمادي (Omar Al Hammadi)",
+                "locked_before": {
+                  "phase1": [],
+                  "phase2": [],
+                  "phase3": []
+                },
+                "candidates": {
+                  "phase1": [
+                    "弓兵",
+                    "盗賊",
+                    "修道士",
+                    "甲冑兵",
+                    "侍",
+                    "槍兵"
+                  ],
+                  "phase2": [
+                    "滑らかな肌",
+                    "横裂けの口",
+                    "球体胴体",
+                    "小さな耳",
+                    "ひび割れ肌",
+                    "平たい鼻",
+                    "長い脚",
+                    "細長い胴体",
+                    "太い手",
+                    "輪状胴体",
+                    "扁平胴体",
+                    "八本足",
+                    "長い尻尾",
+                    "短い尾",
+                    "細い腕",
+                    "細い口"
+                  ],
+                  "phase3": [
+                    "マント",
+                    "膝当て",
+                    "頭冠",
+                    "首輪",
+                    "腰の鎖",
+                    "杖",
+                    "顔の刻印",
+                    "義足",
+                    "肩当て",
+                    "石の首飾り",
+                    "鈴の首輪",
+                    "鎖の首輪",
+                    "額の刻印",
+                    "肩章",
+                    "脛当て",
+                    "帯"
+                  ]
+                },
+                "phase1_forced_category": "human_role",
+                "selection": {
+                  "phase1_base": "槍兵",
+                  "phase2_condition": [
+                    "細長い胴体",
+                    "長い脚"
+                  ],
+                  "phase3_anchor": [
+                    "額の刻印"
+                  ],
+                  "phase3_anchor_base": "額の刻印"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-4f1c2f07",
+                "persona_name": "Karim Haddad",
+                "locked_before": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "天狗",
+                    "鴉",
+                    "狐",
+                    "イカ",
+                    "トカゲ",
+                    "イルカ"
+                  ],
+                  "phase2": [
+                    "くちばし",
+                    "触手",
+                    "横長の口",
+                    "硬い甲殻",
+                    "滑らかな肌",
+                    "扇状尾",
+                    "尖った耳",
+                    "硬い肌",
+                    "大きな耳",
+                    "蝶番関節",
+                    "二つ目",
+                    "縦長の瞳",
+                    "蛇腹関節",
+                    "小さな目",
+                    "ざらざら肌",
+                    "翼"
+                  ],
+                  "phase3": [
+                    "腰帯",
+                    "首輪",
+                    "鎖の首輪",
+                    "肩当て",
+                    "角の冠",
+                    "兜飾り",
+                    "帯",
+                    "斧",
+                    "発光腕輪",
+                    "マント",
+                    "頭冠",
+                    "頭巾",
+                    "剣",
+                    "背負い旗",
+                    "皮革のベルト",
+                    "鈴の首輪"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "天狗",
+                  "phase2_condition": [
+                    "翼",
+                    "縦長の瞳"
+                  ],
+                  "phase3_anchor": [
+                    "背負い旗"
+                  ],
+                  "phase3_anchor_base": "背負い旗"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "human_role",
+                    "yokai"
+                  ],
+                  "phase2": [
+                    "appendage",
+                    "face",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-72d11933",
+                "persona_name": "Alex Reyes",
+                "locked_before": {
+                  "phase1": [
+                    "human_role",
+                    "yokai"
+                  ],
+                  "phase2": [
+                    "appendage",
+                    "face",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "リス",
+                    "犬",
+                    "蛾",
+                    "蜂",
+                    "イカ",
+                    "鹿"
+                  ],
+                  "phase2": [
+                    "甲殻",
+                    "石肌",
+                    "金属肌",
+                    "羽毛",
+                    "一本角",
+                    "二重関節",
+                    "鱗",
+                    "機械関節",
+                    "露出関節",
+                    "滑らかな肌",
+                    "ざらざら肌",
+                    "逆関節",
+                    "ひび割れ肌",
+                    "二本角",
+                    "螺旋角",
+                    "硬い甲殻"
+                  ],
+                  "phase3": [
+                    "牙の首飾り",
+                    "斧",
+                    "膝当て",
+                    "角飾り",
+                    "義手",
+                    "指輪",
+                    "旗印",
+                    "鎧",
+                    "発光腕輪",
+                    "腕章",
+                    "脚帯",
+                    "マント",
+                    "大きな手袋",
+                    "複数指輪",
+                    "足枷",
+                    "兜"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "鹿",
+                  "phase2_condition": [
+                    "逆関節",
+                    "露出関節"
+                  ],
+                  "phase3_anchor": [
+                    "兜"
+                  ],
+                  "phase3_anchor_base": "兜"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_mammal",
+                    "human_role",
+                    "yokai"
+                  ],
+                  "phase2": [
+                    "appendage",
+                    "face",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "head",
+                    "mark"
+                  ]
+                }
+              }
+            ],
+            "locked_tags_final": {
+              "phase1": [
+                "animal_mammal",
+                "human_role",
+                "yokai"
+              ],
+              "phase2": [
+                "appendage",
+                "face",
+                "joint",
+                "limb",
+                "silhouette"
+              ],
+              "phase3": [
+                "back",
+                "head",
+                "mark"
+              ]
+            }
+          }
+        },
+        "phase2b": {
+          "phase_id": "phase2b",
+          "status": "deferred"
+        }
+      },
+      "adopted_result": {
+        "phase2a_vision": {
+          "phase1_base": "鹿",
+          "phase2_condition": "逆関節・露出関節",
+          "phase3_anchor": "割れた兜",
+          "subject_concept": "逆関節と露出関節を持つ鹿",
+          "subject_signature": "割れた兜",
+          "character_profile": {
+            "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+            "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-72d11933",
+          "selected_by_persona_id": "vote10"
+        },
+        "phase2b_realization": {},
+        "phase2b_deferred": true,
+        "character_profile": {
+          "appearance_profile": "後方に折れた逆関節の脚と、皮膚の外に張り出した関節骨が随所に見える鹿の体躯。頭部には中央から縦に割れた兜を被り、その隙間から枝角が貫通している。",
+          "motion_profile": "歩くたびに逆関節が大きく跳ね上がり、露出した関節が光を受けて鋭く浮き上がる。"
+        },
+        "character_profile_source": "llm"
+      }
+    },
+    "phase3": {
+      "phase_id": "phase3",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "world-910cff7f",
+            "persona_id": "persona-cd4818e8",
+            "content": {
+              "world_setting": {
+                "premise": "重力が「信仰」によって局所的に書き換えられる世界。石像や封印石に祈りが蓄積すると、その周辺だけ空中浮遊台が自然発生する。",
+                "rules": [
+                  "祈りの密度が高い場所ほど重力が弱まり、物体と人が浮く",
+                  "封印石が砕けると、その区画の重力は永久に反転する",
+                  "石像は信仰の受け皿であり、無視・破壊は即座に重力異常を引き起こす",
+                  "空中浮遊台は意思を持たないが、強い感情に引き寄せられる"
+                ],
+                "society": "都市は「浮遊高度」で階層が決まる。高く浮ける者ほど信仰力が強いとされ、地面を歩く者は信仰の薄い下層とみなされる。街路灯と結界柱が行政の支配領域を示し、その外は無法の砂利道が続く。",
+                "daily_life": "人々は朝晩、石像の前で短い祈りを捧げることで通勤・移動の浮遊許可を得る。吊り灯が点灯している路地は安全区域の目印。食料や荷物は木樽に乗せて浮かせて運ぶ。",
+                "values": "「地に足をつける」は最大の侮辱。逆に「どこまでも浮いた者」は聖人とされる。封印石を壊すことは世界最大の禁忌であり、破った者は重力地獄（地面に縫い付けられる呪い）に処される。",
+                "visual_signifiers": [
+                  "封印石の周囲だけ砂利や木樽がゆっくりと浮遊している",
+                  "石像の目が信仰量に応じて発光する",
+                  "空中浮遊台が感情の高まりに反応してぐらりと傾く"
+                ],
+                "limits": "機械動力による飛行は不可能。信仰なき者は浮けず、空中区画への立ち入りを物理的に拒絶される。封印石のない場所では浮遊台は存在できない。",
+                "freedom": "封印石が一つも存在しない廃域では重力のルールが完全に崩壊しており、上下左右の概念がなく、どんな動きも等しく許される。"
+              }
+            },
+            "created_at": "2026-02-17 14:35:12.403318"
+          },
+          {
+            "proposal_id": "world-b7be470a",
+            "persona_id": "persona-6f997e33",
+            "content": {
+              "world_setting": {
+                "premise": "この世界では、音が「場所」を記憶する。誰かが同じ場所で同じ感情を繰り返すと、空間そのものが音を帯び始め、やがて光柱として可視化される。",
+                "rules": [
+                  "光柱が立った場所は「聖域」となり、石柱やルーン柱が自然に地面から押し出されてくる",
+                  "光柱の強度は感情の純度に比例し、嘘や演技では柱は生まれない",
+                  "浮遊岩は光柱の周囲にのみ発生し、記憶の密度が高いほど岩の数が増える",
+                  "貯水槽の水は聖域の音を吸収しており、飲むと過去の感情の残響が聴こえる",
+                  "光柱が消えると、そこにあった石柱や浮遊岩も一夜で崩れ落ちる"
+                ],
+                "society": "各地域の権力は「光柱の数」で測られる。柱が多い集落が外交で優位に立ち、柱の記録を管理するルーン柱職人が事実上の官僚層を形成している。貯水槽の水の売買は国家が独占する。",
+                "daily_life": "人々は荷車置き場の前や石板の刻まれた辻で立ち止まり、毎朝「残響の確認」をするのが習慣。巨岩の陰や草ぶき小屋の軒下に鉄灯籠が吊るされ、光柱の発生を近隣に知らせる早期警報として機能している。",
+                "values": "「嘘をつかない」ことが最高の美徳とされ、感情を偽る行為は光柱を汚す冒涜として忌避される。逆に「深く傷つくこと」は聖性の証とされ、悲しみや怒りを公に示す者が尊敬を集める。",
+                "visual_signifiers": [
+                  "地面から押し出されかけている石柱やルーン柱が、傾いたまま街中に散在している",
+                  "光柱の根元だけ地面が黒く焼けており、そこだけ草が生えない円形の焦げ跡がある",
+                  "浮遊岩がクラスター状に空中で静止し、岩と岩の間に光の糸が張られている",
+                  "貯水槽の水面が夜だけ淡く発光し、集落ごとに色が異なる"
+                ],
+                "limits": "光柱は意図的に生成・消去・移動できない。人工的に柱を作ろうとした者は、その場所の記憶ごと消去されるとされており、そうした試みは社会的タブーとして禁じられている。",
+                "freedom": "光柱が一本もない「無音地帯」では、いかなる感情も記録されず、何をしても痕跡が残らない。そこは法も倫理も及ばない完全な自由地帯として存在するが、誰もその場所を地図に記さない。"
+              }
+            },
+            "created_at": "2026-02-17 14:40:01.093860"
+          },
+          {
+            "proposal_id": "world-ca7887d3",
+            "persona_id": "persona-3645b179",
+            "content": {
+              "world_setting": {
+                "premise": "この世界では、時間は人と場所に不均等に流れる。ある者は一日に三十年を生き、ある船着き場では百年前の朝が今も続いている。",
+                "rules": [
+                  "時間流速は場所ごとに固有の値を持ち、霧の門をくぐるたびに流速域が切り替わる",
+                  "移動ホームに乗って居続ける者だけが複数の時間流速を横断できる",
+                  "浮遊標識が指す方向は空間ではなく時間密度を示す。標識が激しく揺れる場所は時間が急速に圧縮されている",
+                  "同じ場所に留まるほど時間流速に同化し、外から来た者の目には老化または逆老化として映る"
+                ],
+                "society": "時間流速の違いを利用して利益を得る「流速商人」が経済を支配する。遅い流速域で製造された品は長寿命で高値が付き、速い流速域では一夜にして職人が生涯分の技術を習得できる。政府は存在せず、船着き場ごとの流速管理組合が実質的な権力を握る。",
+                "daily_life": "朝に別れた家族が夕方には数十年を経て帰還することは珍しくない。待つことと追うことが日常の主な行為であり、移動ホームの時刻表は時間流速込みで印刷される。手紙は届く頃には書いた本人が存在しないことがある。",
+                "values": "「流れに乗る」ことが最高の美徳とされ、時間流速に逆らおうとする者は忌避される。年齢は意味を持たず、いくつの流速域を経験したかが社会的地位を決める。時間を止めようとする行為は最大の禁忌。",
+                "visual_signifiers": [
+                  "浮遊標識が空中に多数漂い、それぞれ異なる速度で回転している",
+                  "霧の門の両側で同じ人物が異なる年齢で同時に立っている",
+                  "船着き場の木材が半分だけ朽ちて半分だけ新しい、という非対称な老化",
+                  "移動ホームの窓から見える風景だけが正常な速度で流れ、外の世界はスローまたは早送りに見える"
+                ],
+                "limits": "時間流速を自らの意志で生成・変更することは不可能。霧の門が存在しない場所では流速域を移動できない。時間を巻き戻す手段は存在しない。",
+                "freedom": "移動ホームの中だけは外部の時間流速から完全に切り離されており、乗客は自分のペースで時を刻む。創作・思索・感情は流速に支配されず、どの域にいても同じ速度で進む。"
+              }
+            },
+            "created_at": "2026-02-17 14:42:47.010543"
+          }
+        ],
+        "vote": {
+          "winner_key": "C",
+          "tally": {
+            "A": 6,
+            "B": 5,
+            "C": 9
+          },
+          "like_tally": {
+            "A": 3,
+            "B": 4,
+            "C": 3
+          },
+          "dislike_tally": {
+            "A": 3,
+            "B": 1,
+            "C": 6
+          },
+          "votes": [
+            {
+              "voter": "Lucía Fernández",
+              "like": "B",
+              "like_reason": "音が場所を記憶するというコンセプトが詩的で美しい。光柱の数で権力が決まる社会構造が、会計士として「数値が支配する現実」に重なり親近感を覚える。",
+              "dislike": "C",
+              "dislike_reason": "時間の不均等な流れは概念的に複雑すぎて、視覚的に何が起きているのか追いにくそう。霧の門や流速商人など設定が盛りすぎで散漫な印象。"
+            },
+            {
+              "voter": "しまだ あかり",
+              "like": "A",
+              "like_reason": "信仰が高度として可視化され、社会階層に直結するというシンプルな構造が分かりやすい。浮遊台が感情に反応して傾くという映像的な動きも好き。",
+              "dislike": "C",
+              "dislike_reason": "時間流速の設定は面白いけど、視覚的にどう表現されるのかピンとこない。同じ人物が異なる年齢で同時に立っているという描写が少し怖い。"
+            },
+            {
+              "voter": "みずき",
+              "like": "C",
+              "like_reason": "時間が場所によって違う速さで流れるという設定がSFっぽくてかっこいい。浮遊標識が時間密度を示すという独自のルールが面白くて惹かれる。",
+              "dislike": "A",
+              "dislike_reason": "信仰で重力が変わるのは分かるけど、石像とか封印石とか古くさいイメージが強くて自分的にはあまりテンションが上がらない。"
+            },
+            {
+              "voter": "Catalina van der Meer",
+              "like": "B",
+              "like_reason": "光柱の記録を管理するルーン柱職人が官僚層を形成するという設定が、自分の仕事（古い記録の分類・管理）と重なり、非常にリアルに感じられる。記録が権力を生む世界観に強く共感する。",
+              "dislike": "C",
+              "dislike_reason": "政府が存在せず組合が権力を握るという設定は理解できるが、時間流速の概念が港湾管理の現実感とかけ離れており、映像として想像しにくい。"
+            },
+            {
+              "voter": "かわぐち けんた",
+              "like": "A",
+              "like_reason": "浮遊高度で社会階層が決まるというのが、努力しても這い上がれない現実社会と重なって刺さる。信仰＝力という分かりやすい構造が見ていて気持ちいい。",
+              "dislike": "B",
+              "dislike_reason": "音が場所を記憶するというのはおしゃれだけど、自分にはちょっとふわっとしすぎていてイメージが湧きにくい。光柱職人が官僚というのも現実的すぎてドラマ感が薄い。"
+            },
+            {
+              "voter": "おおた さゆり",
+              "like": "A",
+              "like_reason": "信仰が階層を決めるという設定が、日常の格差や努力が報われない感覚と重なって共感しやすい。石像や封印石という身近なイメージも親しみやすい。",
+              "dislike": "C",
+              "dislike_reason": "時間が不均等に流れるという概念が複雑すぎて、読んでいて頭が疲れる。流速商人など経済の話が難しくついていけない。"
+            },
+            {
+              "voter": "陳素華 (Chen Su-hua)",
+              "like": "C",
+              "like_reason": "流速商人が経済を支配するという設定が、貿易の世界に生きる自分には非常にリアルに響く。時間差を利用した取引の概念が面白く、物語の幅が広い。",
+              "dislike": "A",
+              "dislike_reason": "信仰による階層制度は宗教的な色が強く、実務的な世界観の中で生きてきた自分には感情移入しにくい。"
+            },
+            {
+              "voter": "Kailani Mahelona",
+              "like": "B",
+              "like_reason": "場所が感情と音を記憶するという発想が、土地や先祖の記憶を大切にする自分たちの暮らしの感覚に近い。光柱の根元に草が生えないという具体的なイメージも力強い。",
+              "dislike": "C",
+              "dislike_reason": "時間がバラバラに流れる世界は、家族と一緒に生きる日常の感覚から遠すぎる。夫や娘と同じ時間を生きられない恐怖を想像してしまう。"
+            },
+            {
+              "voter": "Rajesh Krishnan",
+              "like": "C",
+              "like_reason": "時間密度という概念はデータやシステム思考に近く、論理的に掘り下げられる設定が好み。浮遊標識が空間ではなく時間密度を示すというルールが特に知的に面白い。",
+              "dislike": "A",
+              "dislike_reason": "信仰が物理法則を書き換えるというファンタジーは好みだが、階層社会の描写がやや単純で、複雑な世界設定を好む自分には物足りない。"
+            },
+            {
+              "voter": "Lakshmi Fernandes",
+              "like": "B",
+              "like_reason": "光柱が感情の純度から生まれ、嘘では作れないというルールが、誠実さを大切にする自分の信念と重なる。毎日の祈りや感情が世界を形作るという考えが美しい。",
+              "dislike": "C",
+              "dislike_reason": "時間がバラバラに流れる世界は、家族や隣人との繋がりを何より大切にする自分には受け入れがたい。政府が存在しない無秩序な社会も不安を覚える。"
+            }
+          ],
+          "analysis": "[batch 1] Aは社会階層との連動がシンプルで共感を得やすく、特に現実の格差意識と重ねやすいペルソナから支持された。Bは「記録が権力を生む」という構造が知的職業層に響き、詩的な世界観が評価された。Cは設定の斬新さでSF志向のペルソナには刺さったが、視覚的な複雑さや概念の難解さで他層から敬遠される傾向があった。dislikeの集中度ではCが最多となり、映像作品としての直感的な分かりやすさが重要な評価軸になっていることが読み取れる。\n[batch 2] BとCが拮抗する展開となり、Aへのlikeは1票にとどまった。感情・記憶・土地との結びつきを重視するペルソナ（Kailani、Lakshmi）はBを支持し、論理的・経済的思考を持つペルソナ（陳素華、Rajesh）はCを評価した。Cへのdislikeは3票と最多で、「家族や共同体と同じ時間を生きられない」という情緒的な拒絶反応が複数ペルソナに共通して見られた点が特徴的。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "world-ca7887d3",
+        "persona_id": "persona-3645b179",
+        "content": {
+          "world_setting": {
+            "premise": "この世界では、時間は人と場所に不均等に流れる。ある者は一日に三十年を生き、ある船着き場では百年前の朝が今も続いている。",
+            "rules": [
+              "時間流速は場所ごとに固有の値を持ち、霧の門をくぐるたびに流速域が切り替わる",
+              "移動ホームに乗って居続ける者だけが複数の時間流速を横断できる",
+              "浮遊標識が指す方向は空間ではなく時間密度を示す。標識が激しく揺れる場所は時間が急速に圧縮されている",
+              "同じ場所に留まるほど時間流速に同化し、外から来た者の目には老化または逆老化として映る"
+            ],
+            "society": "時間流速の違いを利用して利益を得る「流速商人」が経済を支配する。遅い流速域で製造された品は長寿命で高値が付き、速い流速域では一夜にして職人が生涯分の技術を習得できる。政府は存在せず、船着き場ごとの流速管理組合が実質的な権力を握る。",
+            "daily_life": "朝に別れた家族が夕方には数十年を経て帰還することは珍しくない。待つことと追うことが日常の主な行為であり、移動ホームの時刻表は時間流速込みで印刷される。手紙は届く頃には書いた本人が存在しないことがある。",
+            "values": "「流れに乗る」ことが最高の美徳とされ、時間流速に逆らおうとする者は忌避される。年齢は意味を持たず、いくつの流速域を経験したかが社会的地位を決める。時間を止めようとする行為は最大の禁忌。",
+            "visual_signifiers": [
+              "浮遊標識が空中に多数漂い、それぞれ異なる速度で回転している",
+              "霧の門の両側で同じ人物が異なる年齢で同時に立っている",
+              "船着き場の木材が半分だけ朽ちて半分だけ新しい、という非対称な老化",
+              "移動ホームの窓から見える風景だけが正常な速度で流れ、外の世界はスローまたは早送りに見える"
+            ],
+            "limits": "時間流速を自らの意志で生成・変更することは不可能。霧の門が存在しない場所では流速域を移動できない。時間を巻き戻す手段は存在しない。",
+            "freedom": "移動ホームの中だけは外部の時間流速から完全に切り離されており、乗客は自分のペースで時を刻む。創作・思索・感情は流速に支配されず、どの域にいても同じ速度で進む。"
+          }
+        },
+        "created_at": "2026-02-17 14:42:47.010543"
+      },
+      "visual_medium_constraint": false,
+      "metadata": {
+        "creator_personas": [
+          {
+            "persona_id": "persona-cd4818e8",
+            "persona_name": "しまだ あかり",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-6f997e33",
+            "persona_name": "たかはし けんじ",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-3645b179",
+            "persona_name": "みさき",
+            "persona_type": "amateur"
+          }
+        ],
+        "overlap_debug": [
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "しまだ あかり",
+                "hit_keys": [
+                  "tokens(inter=23,jac=0.03)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が「信仰」によって局所的に書き換えられる世界。石像や封印石に祈りが蓄積すると、その周辺だけ空中浮遊台が自然発生する。",
+                  "rules": "祈りの密度が高い場所ほど重力が弱まり、物体と人が浮く/封印石が砕けると、その区画の重力は永久に反転する/石像は信仰の受け皿であり、無視・破壊は即座に重力異常を引き起こす/空中浮遊台は意思を持たないが、強い感情に引き寄せられる",
+                  "society": "都市は「浮遊高度」で階層が決まる。高く浮ける者ほど信仰力が強いとされ、地面を歩く者は信仰の薄い下層とみなされる。街路灯と結界柱が行政の支配領域を示し、その外は無法の砂利道が続く。",
+                  "values": "「地に足をつける」は最大の侮辱。逆に「どこまでも浮いた者」は聖人とされる。封印石を壊すことは世界最大の禁忌であり、破った者は重力地獄（地面に縫い付けられる呪い）に処される。",
+                  "visuals": "封印石の周囲だけ砂利や木樽がゆっくりと浮遊している/石像の目が信仰量に応じて発光する/空中浮遊台が感情の高まりに反応してぐらりと傾く"
+                },
+                "cur_sig": {
+                  "premise": "この世界では「音」が物理法則を書き換える。特定の周波数が継続すると、その空間の重力・摩擦・時間速度が局所的に変容し、水路の水が逆流し、石畳の上の荷物が空中に静止する。",
+                  "rules": "音が止まると物理法則は即座に元に戻る。浮いていた物体は落下し、逆流していた水は正方向に戻る/人間の声が最も強力な触媒で、楽器音はその補助にしかならない/同じ周波数を同じ場所で繰り返すほど、変容の閾値が下がり、より少ない音量でより大きな変容が起きる（場所が『慣れる』）/変容中の空間に入った人間は、その周波数を無意識に口ずさみ始める/水路の水と空中レールの電流は音の変容に最も敏感に反応する物質として知られている",
+                  "society": "音の変容を制御できる者（唄師）が都市インフラを管理している。水路の水を逆流させて高台に水を送る唄師、空中レールの電力変動を歌声で安定させる唄師が存在し、彼らはギルド制で組織される。変圧器や配電箱のそばには必ず唄師のための足場と木製看板（今日の推奨周波数が書かれている）が設置されている。",
+                  "values": "声を持つことは能力ではなく責任とされ、公共の場で無意味な歌を歌うことは軽犯罪。変容が起きている空間を意図的に壊すことは重犯罪。美意識として『変容の瞬間』を鑑賞する文化があり、唄師の演奏会は水路の逆流や荷物の浮遊を伴うパフォーマンスとして貴族・庶民問わず観覧される。",
+                  "visuals": "水路の水が一部だけ逆流・停止しており、魚がその境界で混乱している/空中レールの電流が音に反応して可視化され、青白い光の波紋が軌道に沿って走る/木製看板に今日の推奨周波数が楽譜形式で書かれ、住民がそれを見て口ずさむ/荷揚げ滑車の荷物が紐なしで中空に静止し、唄師が歌っている間だけその状態を維持する"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "しまだ あかり",
+                "hit_keys": [
+                  "tokens(inter=36,jac=0.04)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が「信仰」によって局所的に書き換えられる世界。石像や封印石に祈りが蓄積すると、その周辺だけ空中浮遊台が自然発生する。",
+                  "rules": "祈りの密度が高い場所ほど重力が弱まり、物体と人が浮く/封印石が砕けると、その区画の重力は永久に反転する/石像は信仰の受け皿であり、無視・破壊は即座に重力異常を引き起こす/空中浮遊台は意思を持たないが、強い感情に引き寄せられる",
+                  "society": "都市は「浮遊高度」で階層が決まる。高く浮ける者ほど信仰力が強いとされ、地面を歩く者は信仰の薄い下層とみなされる。街路灯と結界柱が行政の支配領域を示し、その外は無法の砂利道が続く。",
+                  "values": "「地に足をつける」は最大の侮辱。逆に「どこまでも浮いた者」は聖人とされる。封印石を壊すことは世界最大の禁忌であり、破った者は重力地獄（地面に縫い付けられる呪い）に処される。",
+                  "visuals": "封印石の周囲だけ砂利や木樽がゆっくりと浮遊している/石像の目が信仰量に応じて発光する/空中浮遊台が感情の高まりに反応してぐらりと傾く"
+                },
+                "cur_sig": {
+                  "premise": "この世界では、電力と古代呪式が融合した「導電魔術」が社会基盤を支えており、送電鉄塔の脚柱にルーン柱が刻まれることで電流が魔力網へ変換される。電線が途絶えた先では物理法則が緩み、浮遊街灯が群れをなして漂流し始める。",
+                  "rules": "送電鉄塔に刻まれたルーン柱が電流を魔力へ変換し、その網の目が都市の物理法則を安定させている。網の密度が低い周縁部では重力・時間・物質の境界が曖昧になる。/幻光標識は「呪式密度」をリアルタイムで可視化しており、白に近いほど法則が安定、紫に近いほど境界が溶けている警告域を示す。標識の変色は自然現象として扱われ、住民は標識を見て安全な経路を判断する。/人が死ぬと電荷として導電網に還元され、古いルーン柱ほど過去の記憶と死者の残留思念を蓄積している。古いルーン柱に触れると過去の記憶の断片が感覚として流れ込む。/導電網の外に出ることは法的には禁じられていないが、帰還した者の記憶が「電荷換算」されてわずかに書き換わるため、事実上の禁忌として定着している。/浮遊街灯は導電網の安定域では整然と並ぶが、送電区画の境界や廃線沿いでは電線から切り離されて漂流する。住民はこの現象を「灯の迷子」と呼び、不吉な前兆として扱う。",
+                  "society": "都市は「送電区」単位で行政区画が決まり、区画を跨ぐには幻光標識の認証が必要。導電呪式を管理する「網守」が実質的な権力を持ち、電力会社と古代寺社が合併した法人が国家に近い機能を担う。貧困層は導電網の末端、呪式密度の低い不安定ゾーンに押し込まれており、幻光標識が常に紫寄りの色で点滅する区域で生活する。ルーン柱の刻印職人は特権的な身分として遇され、刻み方の秘伝は一子相伝で継承される。",
+                  "values": "電力の浪費は死者の記憶を消費することと同義とされ、節電は宗教的な倫理に近い意味を持つ。古いルーン柱の保全は共同体の義務であり、刻まれた文字を削ることは最大の禁忌に相当する。美意識は「通電の瞬間の美」に集中しており、ルーン柱に電流が走る際の青白い光と古代文字の重なりが最高の審美対象とされる。幻光標識が白く安定している区域に居住していることは社会的成功の証とみなされる。",
+                  "visuals": "送電鉄塔の脚元に刻まれた発光するルーン柱。電流に同期して低速で明滅し、夜間は都市全体が格子状の光の脈動に包まれる。/都市の交差点に浮かぶ幻光標識。道路標識に形状は近いが、表示面が古代文字と現代語の混合で、呪式密度に応じて白から紫へとゆっくり変色し続ける。/電線から独立して漂流する浮遊街灯の群れ。送電区画の境界や廃線沿いに出現し、風もないのにゆっくりと流れていく光の集団は、導電網の綻びを直接的に示す。/住民が窓辺に貼る「灯留め札」。家ごとにデザインが異なり、そこで暮らした世代数と死者数が文様として刻まれている。"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "みさき",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "しまだ あかり",
+                "hit_keys": [
+                  "tokens(inter=12,jac=0.02)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が「信仰」によって局所的に書き換えられる世界。石像や封印石に祈りが蓄積すると、その周辺だけ空中浮遊台が自然発生する。",
+                  "rules": "祈りの密度が高い場所ほど重力が弱まり、物体と人が浮く/封印石が砕けると、その区画の重力は永久に反転する/石像は信仰の受け皿であり、無視・破壊は即座に重力異常を引き起こす/空中浮遊台は意思を持たないが、強い感情に引き寄せられる",
+                  "society": "都市は「浮遊高度」で階層が決まる。高く浮ける者ほど信仰力が強いとされ、地面を歩く者は信仰の薄い下層とみなされる。街路灯と結界柱が行政の支配領域を示し、その外は無法の砂利道が続く。",
+                  "values": "「地に足をつける」は最大の侮辱。逆に「どこまでも浮いた者」は聖人とされる。封印石を壊すことは世界最大の禁忌であり、破った者は重力地獄（地面に縫い付けられる呪い）に処される。",
+                  "visuals": "封印石の周囲だけ砂利や木樽がゆっくりと浮遊している/石像の目が信仰量に応じて発光する/空中浮遊台が感情の高まりに反応してぐらりと傾く"
+                },
+                "cur_sig": {
+                  "premise": "この世界では「時間」は流体として存在し、水路や運河を通じて都市間を流通している。時間そのものを汲み上げ、分配し、消費することで文明が成り立っている。",
+                  "rules": "時間は魔力井戸から採掘され、水路網によって各地区へ配給される/個人が消費できる時間量は社会階層によって割り当てが異なる/時間の流れが止まった区画（時間枯渇区）は廃墟となり、住人ごと凍結する/光の帯は時間密度を可視化したもので、色が濃いほど時間が豊富に流れている/時間を不正に蓄積・横流しすることは最重罪であり、時間没収刑が課される/死とは個人の時間割当がゼロになることであり、生物学的な消滅とは別概念",
+                  "society": "時間管理局が水路インフラを独占支配し、貴族層は潤沢な時間割当を受けて長寿と余暇を享受する。底辺層は最低限の時間しか与えられず、労働の多くを時間採掘や水路保全に費やす。中間層は時間の先物取引で富を得ようとするが、投機的失敗で時間破産する者も多い。",
+                  "values": "「時間を無駄にしない」ことが最高の美徳とされ、思索・芸術・恋愛は贅沢品として軽視される。しかし地下文化では時間を意図的に浪費する行為が反骨の象徴となっており、「溢れさせる者」と呼ばれる芸術家集団が時間を意図的に流出させる儀式的パフォーマンスを行う。",
+                  "visuals": "光の帯が水路の上を流れ、時間密度によって青から金色に変色している/魔力井戸の周囲だけ植物が異常な速度で生育・枯死を繰り返している/時間枯渇区の住人は動きが極端にゆっくりとなり、やがて彫像のように静止する/裕福な地区の建物は常に新築の状態を保ち、貧困区は急速に朽ちていく"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "みさき",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "しまだ あかり",
+                "hit_keys": [
+                  "tokens(inter=27,jac=0.04)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が「信仰」によって局所的に書き換えられる世界。石像や封印石に祈りが蓄積すると、その周辺だけ空中浮遊台が自然発生する。",
+                  "rules": "祈りの密度が高い場所ほど重力が弱まり、物体と人が浮く/封印石が砕けると、その区画の重力は永久に反転する/石像は信仰の受け皿であり、無視・破壊は即座に重力異常を引き起こす/空中浮遊台は意思を持たないが、強い感情に引き寄せられる",
+                  "society": "都市は「浮遊高度」で階層が決まる。高く浮ける者ほど信仰力が強いとされ、地面を歩く者は信仰の薄い下層とみなされる。街路灯と結界柱が行政の支配領域を示し、その外は無法の砂利道が続く。",
+                  "values": "「地に足をつける」は最大の侮辱。逆に「どこまでも浮いた者」は聖人とされる。封印石を壊すことは世界最大の禁忌であり、破った者は重力地獄（地面に縫い付けられる呪い）に処される。",
+                  "visuals": "封印石の周囲だけ砂利や木樽がゆっくりと浮遊している/石像の目が信仰量に応じて発光する/空中浮遊台が感情の高まりに反応してぐらりと傾く"
+                },
+                "cur_sig": {
+                  "premise": "この世界では、死者の記憶が「水」に溶け込む。川や桶に触れると、かつてそこで生きた者の感情が皮膚から流れ込み、自分と他者の境界が一時的に溶ける。",
+                  "rules": "水に触れた者は、その水が通過したすべての人間の感情断片を受け取る（望むと望まざるとにかかわらず）/記憶の濃度が高い水は発光し、古いほど青白く、新しいほど橙色を帯びる/木桶や製粉機の水車など、長年人が使い続けた水道具には人格に近い何かが宿り、使用者に特定の感情を「押しつける」ことがある/水路の合流地点は記憶が混濁する危険地帯とされ、繋留ロープと石臼で封鎖されている/発光苔が生えた場所は記憶密度が極めて高く、そこに立つと過去の他人として数秒間行動してしまう",
+                  "society": "記憶の読み取り能力に長けた「水読み師」が行政・司法・医療を独占する。犯罪の証明も遺言の確認も、水に残された記憶が証拠となる。貧困層は薄い記憶しか残せず、死後も社会的に無視される。",
+                  "values": "「水を汚さない」ことが最高の倫理とされる。激しい感情のまま水に触れることは禁忌で、それは後世の他人に感情暴力を振るうと見なされる。逆に、穏やかな記憶を水に残して死ぬことが最も美しい生涯とされる。",
+                  "visuals": "水路沿いに連なる吊り灯が、水の記憶濃度に応じて青白〜橙のグラデーションで光っている/水車の羽根に触れた人間が一瞬だけ他人の表情をする/石臼の周囲だけ地面が常に濡れており、そこだけ発光苔が異常繁殖している/桟橋の係留ロープに皮の手袋が大量に結び付けられている（水没した死者への追悼）"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "phase4": {
+      "phase_id": "phase4",
+      "status": "completed",
+      "adopted_result": {
+        "duration_sec": 213.599979,
+        "has_project_concept": true,
+        "has_visual_language": true,
+        "has_ir_structure": true,
+        "has_integration": true,
+        "has_hook_design": true,
+        "has_synopsis": true,
+        "has_storyline": true,
+        "has_timeline_summary": true,
+        "has_section_outline": true
+      },
+      "metadata": {
+        "blueprint_trace": {},
+        "blueprint_trace_attempts": [],
+        "blueprint_lint_issues": [],
+        "repair_trace": {
+          "source": "skip",
+          "phase": "phase4_repair",
+          "reason": "not_weak"
+        },
+        "repair_trace_attempts": [
+          {
+            "source": "skip",
+            "phase": "phase4_repair",
+            "reason": "not_weak"
+          }
+        ],
+        "treatment_trace": {
+          "source": "llm",
+          "phase": "phase4_treatment",
+          "attempt": 1,
+          "grounding_vocab_head": [
+            "割れた兜の内側が一瞬だけ映るショット",
+            "逆関節の跳ね上がりとビートの同期",
+            "椅子が一脚だけずれた翌朝の教室の固定ショット",
+            "時間層が剥がれた床の痕",
+            "割れた兜の隙間から漏れる光",
+            "逆関節が跳ね上がる瞬間の露出骨の輝き",
+            "床に残る時間層の剥がれ痕",
+            "浮遊標識の異なる回転速度"
+          ],
+          "grounded_summary_count": 4,
+          "summary_count": 8,
+          "status": "ok",
+          "synopsis_len": 621,
+          "section_count": 8
+        },
+        "treatment_trace_attempts": [
+          {
+            "source": "llm",
+            "phase": "phase4_treatment",
+            "attempt": 1,
+            "grounding_vocab_head": [
+              "割れた兜の内側が一瞬だけ映るショット",
+              "逆関節の跳ね上がりとビートの同期",
+              "椅子が一脚だけずれた翌朝の教室の固定ショット",
+              "時間層が剥がれた床の痕",
+              "割れた兜の隙間から漏れる光",
+              "逆関節が跳ね上がる瞬間の露出骨の輝き",
+              "床に残る時間層の剥がれ痕",
+              "浮遊標識の異なる回転速度"
+            ],
+            "grounded_summary_count": 4,
+            "summary_count": 8,
+            "status": "ok",
+            "synopsis_len": 621,
+            "section_count": 8
+          }
+        ],
+        "section_outline_trace": {
+          "source": "llm",
+          "phase": "phase4_section_outline",
+          "attempt": 1,
+          "status": "ok",
+          "section_count": 8
+        },
+        "section_outline_trace_attempts": [
+          {
+            "source": "llm",
+            "phase": "phase4_section_outline",
+            "attempt": 1,
+            "status": "ok",
+            "section_count": 8
+          }
+        ],
+        "ir_structure_source": "phase4_ir_structure_fallback",
+        "ir_structure_trace": {
+          "source": "fallback",
+          "mode": "structure_fallback",
+          "scene_count": 9,
+          "sequence_count": 6,
+          "block_count": 6
+        },
+        "ir_structure_trace_attempts": [
+          {
+            "source": "llm",
+            "mode": "structure",
+            "duration_bounds_sec": {
+              "min": 213.599979,
+              "max": 223.599979
+            },
+            "scene_block_unique_scenes": 9,
+            "scene_block_most_common_scene_id": "scene_1",
+            "scene_block_most_common_ratio": 0.16666666666666666,
+            "scene_block_max_consecutive": 2,
+            "target_duration_total_sec": 226.6,
+            "parse_error": "scene_block_duration_out_of_bounds",
+            "attempt": 1
+          },
+          {
+            "source": "llm",
+            "mode": "structure",
+            "duration_bounds_sec": {
+              "min": 213.599979,
+              "max": 223.599979
+            },
+            "retry_note": "scene_blocks[].target_duration_sec を全て正の数にし、合計を duration_bounds_sec(min〜max) に収める。",
+            "scene_block_unique_scenes": 9,
+            "scene_block_most_common_scene_id": "scene_2",
+            "scene_block_most_common_ratio": 0.16666666666666666,
+            "scene_block_max_consecutive": 2,
+            "target_duration_total_sec": 179.7,
+            "parse_error": "scene_block_duration_out_of_bounds",
+            "attempt": 2
+          },
+          {
+            "source": "fallback",
+            "mode": "structure_fallback",
+            "scene_count": 9,
+            "sequence_count": 6,
+            "block_count": 6
+          }
+        ],
+        "ir_structure_counts": {
+          "sequences": 6,
+          "scenes": 9,
+          "scene_blocks": 6
+        },
+        "creator_personas": [
+          {
+            "persona_name": "Rashid ibn Khalil",
+            "persona_id": "persona-7f39e24c"
+          },
+          {
+            "persona_name": "Mei-Lin Kowalska",
+            "persona_id": "persona-3a362088"
+          },
+          {
+            "persona_name": "Kalani Tuiasosopo",
+            "persona_id": "persona-5c55a0f3"
+          }
+        ],
+        "pool_sampled": 9,
+        "pool_attempted": 3,
+        "overlap_debug": [
+          {
+            "persona": "Mei-Lin Kowalska",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Rashid ibn Khalil",
+                "hit_keys": [
+                  "tokens(inter=68,jac=0.10)"
+                ]
+              }
+            ]
+          },
+          {
+            "persona": "Mei-Lin Kowalska",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Rashid ibn Khalil",
+                "hit_keys": [
+                  "tokens(inter=57,jac=0.12)"
+                ]
+              }
+            ]
+          },
+          {
+            "persona": "Kalani Tuiasosopo",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Rashid ibn Khalil",
+                "hit_keys": [
+                  "tokens(inter=47,jac=0.10)"
+                ]
+              }
+            ]
+          },
+          {
+            "persona": "Kalani Tuiasosopo",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Rashid ibn Khalil",
+                "hit_keys": [
+                  "tokens(inter=46,jac=0.09)"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "competition": {
+        "proposals": [
+          {
+            "persona_name": "Rashid ibn Khalil",
+            "persona_id": "persona-7f39e24c",
+            "summary": "企画: 逆関節の鹿が教室から時間の異なる複数空間を歩き続ける追跡型一人称映像であり、兜の割れ目が広がるごとに新しい空間が開扉し視聴者が次の扉を予測しながら追う構造\n展開: 鹿が蛍光灯の教室に立ち尽くす → 兜の割れ目が広がり、鏡面が現れる → 逆関節が跳ね上がるたびに床の時間層が剥がれる → 割れた兜の隙間から昨夜の光が漏れ出す → 朝の静寂の教室に鹿の影だけが残り、椅子が一脚だけ動いている\n冒頭: 蛍光灯の教室で逆関節が跳ね上がり、露出した関節骨が白く光る鹿の後ろ姿\n問い: 割れた兜の内側に何が入っているか\n場面: 黒板と机が整列した昼間の公立中学校教室, 学校廊下の突き当たりに霧の門が出現した空間, 校舎屋上の上空に漂う複数の浮遊標識が連なる空間, 木材が半分朽ちて半分新しいという非対称な老化を持つ水辺の船着き場, 走り続ける移動ホームの内部、窓の外だけが正常速度で流れる\nカメラ: 遠景固定から始まり、逆関節の跳ね上がりごとに近接し、クライマックスで兜の割れ目の超接写に至る\nカット哲学: 前半はhard_cutでビートに合わせた断絶を積み上げ、中盤のsmash_cutで時間層の剥離を表現し、クライマックスではmatch_cutで兜の割れと空間の開扉を接続する",
+            "issues": []
+          },
+          {
+            "persona_name": "Mei-Lin Kowalska",
+            "persona_id": "persona-3a362088",
+            "summary": "企画: 時間が歪む世界を漂う鹿の一夜を、空間の移動と身体の変容で語る一人称的旅程\n展開: 鹿が時間の止まった船着き場に佇む → 鹿が霧の門をくぐり、異なる時間層を往来しようとする → 露出した関節が光を受け、鹿の内側が外側へ溢れ始める → 割れた兜の隙間から枝角が伸び、船着き場の木材が一瞬だけ新しくなる → 鹿は朝の教室に相当する静かな岸に戻り、逆関節で静止する\n冒頭: 水中から見上げた逆関節の脚が画面いっぱいに現れ、鹿が桟橋を踏む振動だけが聞こえる（0-3秒）\n問い: 兜の亀裂から何かが覗いているが、何かは分からないまま場面が変わる\n場面: 百年前の朝が続く船着き場, 霧の門——両側に同人物の異年齢が同時に立つ境界, 浮遊標識が乱立する空中広場, 時間が歪んだ廃教室——机が浮き、黒板だけが現在の時刻を示す, 露出関節が鏡面に映る閉じた白い部屋\nカメラ: 序盤は固定・遠景で鹿を観察対象として置く。中盤から手持ちが近づき身体の細部を侵食する。157秒以降は鹿の視点に同化する主観ショット\nカット哲学: 感情の句読点でカットする。音楽のビートカットは使わず、呼吸の間で切る",
+            "issues": []
+          },
+          {
+            "persona_name": "Kalani Tuiasosopo",
+            "persona_id": "persona-5c55a0f3",
+            "summary": "企画: 鹿の身体が刻む傷跡を追いながら、時間の歪みが教室にどう作用するかを観客が検証する一夜\n展開: 鹿が蛍光灯の下の机に座っている → 逆関節が机の角に引っかかり、鹿が身動きできない → 割れた兜の隙間から角が伸び、天井を貫く → 教室の時間が止まり、鹿だけが動き続ける → 翌朝、教室は元通りだが机に角の痕が残る\n冒頭: 蛍光灯の下、机の列に逆関節の鹿が一頭だけ座っている極ローアングル\n問い: 割れた兜：その隙間から何が出てくるのか\n場面: 整列した30脚の木製机と白い蛍光灯, 両側で異なる年齢の同一人物が立つ石造りの門, 半分朽ちて半分新しい木造の桟橋, 高度を異にして漂う錆びた道路標識群, 走行中の古い木造ホームの車内\nカメラ: 固定ロングから手持ちクローズアップへ、ピーク後に再び固定ロング\nカット哲学: 抑制されたロングカットで封じ込めを示し、覚醒区間でのみジャンプカットを解禁する",
+            "issues": []
+          }
+        ],
+        "vote": {
+          "winner_key": "A",
+          "tally": {
+            "A": 8,
+            "B": 6,
+            "C": 6
+          },
+          "like_tally": {
+            "A": 3,
+            "B": 4,
+            "C": 3
+          },
+          "dislike_tally": {
+            "A": 5,
+            "B": 2,
+            "C": 3
+          },
+          "votes": [
+            {
+              "voter": "Elias Bergström",
+              "like": "A",
+              "like_reason": "扉の予測構造がゲーム的で、次を見たい衝動が持続する。ビートに合わせたhard_cutのリズムが映像体験として完結している。",
+              "dislike": "C",
+              "dislike_reason": "机に引っかかって身動きできないという展開が静的すぎて、展開の推進力が弱い。5分持たない気がする。"
+            },
+            {
+              "voter": "Eulàlia Ribas",
+              "like": "B",
+              "like_reason": "水中からの脚の冒頭が詩的で引き込まれる。霧の門で異なる年齢の同一人物が並ぶ場面は物語として美しい。",
+              "dislike": "A",
+              "dislike_reason": "兜の割れ目と時間層の剥離が説明なく続くと頭がついていけない。追跡型というより混乱型に感じる。"
+            },
+            {
+              "voter": "陳 永輝",
+              "like": "B",
+              "like_reason": "呼吸の間でカットするという哲学が落ち着いていて、じっくり見ていられる。旅程の構造が分かりやすい。",
+              "dislike": "A",
+              "dislike_reason": "smash_cutやmatch_cutを多用する設計は目が疲れる。高齢者には刺激が強すぎて離脱しそう。"
+            },
+            {
+              "voter": "Fiamma Corsini de Medina",
+              "like": "C",
+              "like_reason": "机と蛍光灯という閉じた空間で角が天井を貫く場面は聖性と異形の混合があり、版画のような固定美がある。",
+              "dislike": "B",
+              "dislike_reason": "主観ショットへの移行が中盤以降とのことだが、157秒まで待つのは長い。序盤で離脱するかもしれない。"
+            },
+            {
+              "voter": "Adrian Pembroke",
+              "like": "C",
+              "like_reason": "翌朝に机の傷だけが残るという結末の静けさが好み。派手でなく、後から意味が染みてくる構造。",
+              "dislike": "A",
+              "dislike_reason": "次の扉を予測させる構造は疲れる。映像を楽しみたいのに推理させられている感じがして落ち着かない。"
+            },
+            {
+              "voter": "Amara Okafor",
+              "like": "A",
+              "like_reason": "扉が開くたびに次を予測するという構造が修理の診断プロセスに似ていて、画面に引き込まれる感覚がある。ビートと映像の断絶が明快で飽きない。",
+              "dislike": "C",
+              "dislike_reason": "鹿が机に座って身動きできないというシーンが長そうで、展開が停滞する印象。仕事で疲れた後に見るには重たい。"
+            },
+            {
+              "voter": "しまだ あかり",
+              "like": "B",
+              "like_reason": "呼吸の間でカットするという静かなテンポが、帰宅後に一人で見る気分に合っている。水辺の船着き場の映像が穏やかそうで、落ち着いて見られる。",
+              "dislike": "A",
+              "dislike_reason": "smash_cutやhard_cutの連続は疲れた日には刺激が強すぎる。ビートに合わせた断絶の積み重ねが少し息苦しい。"
+            },
+            {
+              "voter": "Grace Chen",
+              "like": "A",
+              "like_reason": "次の扉を予測しながら追う構造はSNSのリール文化に慣れた世代に刺さる。冒頭の白く光る関節骨というビジュアルが一瞬でサムネイルとして強い。",
+              "dislike": "C",
+              "dislike_reason": "固定ロングで封じ込めを示すという演出は映画的すぎて、YouTubeで途中離脱しやすい。展開が遅く感じそう。"
+            },
+            {
+              "voter": "Kwesi Liang",
+              "like": "B",
+              "like_reason": "霧の門の両側に同じ人物の異年齢が立つという場面は、老人が語り継いできた境界の物語に近く、心に響く。旅程という構造は昔話の型に近くて自然に見ていられる。",
+              "dislike": "A",
+              "dislike_reason": "時間層の剥離やsmash_cutという技巧が先に立ちすぎて、話の芯が見えにくい。技を見せられている感じがして距離を感じる。"
+            },
+            {
+              "voter": "Amara Osei",
+              "like": "C",
+              "like_reason": "翌朝には元通りだが痕だけが残るという結末が、疲弊した日常に静かに刺さる。派手な演出がない分、短い空き時間に集中して見られそう。",
+              "dislike": "B",
+              "dislike_reason": "157秒以降に主観ショットへ移行するというのは、疲れているときに没入を強制される感じがしんどい。睡眠5時間の身には主観映像の長さが負担。"
+            }
+          ],
+          "analysis": "[batch 1] Bは詩的・旅程的な構造と穏やかなカット哲学が支持を集めたが、序盤の掴みの弱さへの不安も指摘された。Aは視聴維持の仕掛けとリズムで若い世代に響いた一方、情報過多・刺激過多として中高年層から敬遠された。Cは閉鎖空間の美学と静的な結末が一部のペルソナに刺さったが、展開の推進力不足を弱点と見る声もあり、評価が割れた。\n[batch 2] Aは視覚的インパクトと予測構造の強さでSNS世代（Grace）と実用的思考の投票者（Amara Okafor）から支持を集めた一方、カット過多で疲労感を与えるとして複数から嫌われた。Bは静かな旅程型の構造が落ち着いた視聴環境を好む投票者に響き、語り継ぎの文化を持つKwesiからも支持されたが、主観ショットへの強制移行が過労ペルソナには不評だった。Cは抑制された演出と余韻のある結末が疲弊した生活者（Amara Osei）の共感を呼んだが、展開の遅さがYouTube視聴文化に馴染まないとして離脱懸念が高かった。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      }
+    }
+  },
+  "creative_personas": [
+    {
+      "id": "persona-bd8fd017",
+      "name": "Suphatra Weidmann",
+      "gender": "クエスチョニング",
+      "birthdate": "1951-11-13",
+      "age": 36,
+      "origin_city": "ミュンヘン",
+      "ethnic_background": "東南アジア系",
+      "life_history": [
+        {
+          "year": 1951,
+          "event": "西ドイツ・ミュンヘンにて、タイ人の父とドイツ人の母の間に生まれる。父はミュンヘン大学に留学中の農学研究者だった。"
+        },
+        {
+          "year": 1957,
+          "event": "父の帰国に伴い家族でバンコクへ移住。ミュンヘンでの幼少期に習得したドイツ語を維持するため、毎週土曜日にドイツ人学校の補習クラスに通った。"
+        },
+        {
+          "year": 1965,
+          "event": "バンコクの私立中学校を卒業後、奨学金を得てシンガポールの寄宿制高校へ進学。英語・タイ語・ドイツ語の三言語を日常的に使用する環境に置かれた。"
+        },
+        {
+          "year": 1969,
+          "event": "高校卒業後、西ドイツへ渡航しミュンヘン工科大学の工学部に入学。機械工学を専攻し、初年度から工作機械の研究室に配属された。"
+        },
+        {
+          "year": 1972,
+          "event": "大学在学中に自動車部品メーカーのインターンシップへ参加し、エンジン冷却系の試作設計に携わった。同年、大学の国際学生会で事務局長を務めた。"
+        },
+        {
+          "year": 1975,
+          "event": "工学部を修了後、ミュンヘン郊外の精密機器メーカーに正社員として入社。生産ラインの設備保全部門に配属された。"
+        },
+        {
+          "year": 1979,
+          "event": "社内公募で海外事業開発チームへ異動し、マレーシア・クアラルンプールへの工場設立プロジェクトに参加。現地視察のため年間で延べ8か月を東南アジアで過ごした。"
+        },
+        {
+          "year": 1984,
+          "event": "クアラルンプール支社の立ち上げ責任者としてマレーシアへ赴任。現地採用スタッフ12名の研修体制を整備し、翌年には量産ラインの稼働を実現した。"
+        },
+        {
+          "year": 1987,
+          "event": "マレーシア永住権の申請手続きを開始。クアラルンプール市内のコンドミニアムを購入し、拠点を正式にドイツからマレーシアへ移した。"
+        }
+      ],
+      "current_situation": "1988年現在、クアラルンプール市内のコンドミニアムに単身で居住している。精密機器メーカーのマレーシア支社において現地法人の運営管理職を務めており、週の大半を工場と事務所で過ごしている。業務の傍ら、夜間の経営学講座に週二回通い始めた。タイ・ドイツ・マレーシアにそれぞれ親族や旧知の知人が点在しており、年に数回それらの国を訪問している。",
+      "external_perception": {
+        "first_impression": "物静かで礼儀正しく、どこの国の人か判断しにくいと言われることが多い。",
+        "close_friends_view": "次の計画や行動の話ばかりで、過去の苦労をほとんど語らない人物だと見られている。",
+        "misunderstandings": "無口で感情を出さないように見えるため、周囲の意見に関心がないと誤解されることがある。"
+      },
+      "stance_on_past": "あまり振り返らず前を向いている"
+    },
+    {
+      "id": "persona-aa543b71",
+      "name": "Graham Fletcher",
+      "gender": "男性",
+      "birthdate": "1981-11-06",
+      "origin_city": "ブリスベン",
+      "ethnic_background": "欧州系",
+      "life_history": [
+        {
+          "year": 1981,
+          "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+        },
+        {
+          "year": 1999,
+          "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+        },
+        {
+          "year": 2004,
+          "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+        },
+        {
+          "year": 2008,
+          "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+        },
+        {
+          "year": 2010,
+          "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+        },
+        {
+          "year": 2015,
+          "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+        },
+        {
+          "year": 2019,
+          "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+        },
+        {
+          "year": 2023,
+          "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+        }
+      ],
+      "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+      "external_perception": {
+        "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+        "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+        "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+      },
+      "proposal_history": [
+        {
+          "session": "phase2a_new_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "phase2a_new_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "goji_creator_test_v2",
+          "phase": "Phase 1",
+          "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+          "rank": 2,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "goji_creator_test_v2",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 17,
+          "won": false
+        },
+        {
+          "session": "phase2_ref_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+          "rank": 3,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "full_pipeline_test_20260104_154048",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+          "rank": 1,
+          "tally": 6,
+          "won": true
+        },
+        {
+          "session": "full_pipeline_test_20260104_154048",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 6,
+          "won": false
+        }
+      ],
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    },
+    {
+      "id": "persona-536670e0",
+      "name": "プリヤンカ・ナイール",
+      "gender": "女性",
+      "birthdate": "9245-05-07",
+      "age": 57,
+      "origin_city": "高雄",
+      "ethnic_background": "南アジア系",
+      "life_history": [
+        {
+          "year": 9250,
+          "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+        },
+        {
+          "year": 9263,
+          "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+        },
+        {
+          "year": 9267,
+          "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+        },
+        {
+          "year": 9270,
+          "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+        },
+        {
+          "year": 9278,
+          "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+        },
+        {
+          "year": 9286,
+          "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+        },
+        {
+          "year": 9295,
+          "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+        },
+        {
+          "year": 9301,
+          "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+        }
+      ],
+      "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+      "external_perception": {
+        "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+        "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+        "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+      },
+      "stance_on_past": "まだ傷として残っている",
+      "proposal_history": [
+        {
+          "session": "20260118_040633",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 1,
+          "tally": 21,
+          "won": true
+        }
+      ]
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-aa543b71",
+    "name": "Graham Fletcher",
+    "gender": "男性",
+    "birthdate": "1981-11-06",
+    "origin_city": "ブリスベン",
+    "ethnic_background": "欧州系",
+    "life_history": [
+      {
+        "year": 1981,
+        "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+      },
+      {
+        "year": 1999,
+        "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+      },
+      {
+        "year": 2004,
+        "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+      },
+      {
+        "year": 2008,
+        "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+      },
+      {
+        "year": 2010,
+        "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+      },
+      {
+        "year": 2015,
+        "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+      },
+      {
+        "year": 2019,
+        "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+      },
+      {
+        "year": 2023,
+        "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+      }
+    ],
+    "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+    "external_perception": {
+      "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+      "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+      "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+    },
+    "proposal_history": [
+      {
+        "session": "phase2a_new_v1",
+        "phase": "Phase 1",
+        "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+        "rank": 0,
+        "tally": 0,
+        "won": false
+      },
+      {
+        "session": "phase2a_new_v1",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+        "rank": 0,
+        "tally": 0,
+        "won": false
+      },
+      {
+        "session": "goji_creator_test_v2",
+        "phase": "Phase 1",
+        "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+        "rank": 2,
+        "tally": 5,
+        "won": false
+      },
+      {
+        "session": "goji_creator_test_v2",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 3,
+        "tally": 17,
+        "won": false
+      },
+      {
+        "session": "phase2_ref_test_v1",
+        "phase": "Phase 1",
+        "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+        "rank": 3,
+        "tally": 5,
+        "won": false
+      },
+      {
+        "session": "full_pipeline_test_20260104_154048",
+        "phase": "Phase 1",
+        "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+        "rank": 1,
+        "tally": 6,
+        "won": true
+      },
+      {
+        "session": "full_pipeline_test_20260104_154048",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 2,
+        "tally": 6,
+        "won": false
+      }
+    ],
+    "stance_on_past": "他人事のように距離を置いて見ている"
+  },
+  "current_phase": "phase4",
+  "qc_retry_count": 0,
+  "errors": {},
+  "rough_blueprint": {
+    "version": 3,
+    "duration_sec": 213.599979,
+    "core": {
+      "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+      "world": "この世界では、時間は人と場所に不均等に流れる。ある者は一日に三十年を生き、ある船着き場では百年前の朝が今も続いている。",
+      "character": "逆関節と露出関節を持つ鹿（割れた兜）",
+      "integration": "時間が不均等に流れる教室で、割れた兜から枝角を覗かせた逆関節の鹿が、昨夜の叫びの残滓を身体に刻みながら朝の静寂を歩き続ける——その一歩ごとに露出した関節が光を跳ね返し、教室の時間だけがわずかにずれていく。",
+      "narrative_spine": {
+        "setup": {
+          "action": "鹿が蛍光灯の教室に立ち尽くす",
+          "viewer_hook": "この異形の存在がなぜこの場所にいるのかという違和感と引力"
+        },
+        "question": {
+          "action": "兜の割れ目が広がり、鏡面が現れる",
+          "viewer_hook": "鏡の中に何が映っているのかを見たいという欲求"
+        },
+        "escalation": {
+          "action": "逆関節が跳ね上がるたびに床の時間層が剥がれる",
+          "viewer_hook": "破壊が止まらないという緊迫と、何かが壊れることへの期待"
+        },
+        "reveal": {
+          "action": "割れた兜の隙間から昨夜の光が漏れ出す",
+          "viewer_hook": "あの叫びがまだ消えていないという安堵と驚き"
+        },
+        "payoff": {
+          "action": "朝の静寂の教室に鹿の影だけが残り、椅子が一脚だけ動いている",
+          "viewer_hook": "何かが確かに変わったという余韻と問いの残存"
+        }
+      }
+    },
+    "emotion_read": {
+      "beats": [
+        {
+          "label": "蛍光灯の朝",
+          "inner_emotion": "麻痺した存在感",
+          "visible_indicator": "蛍光灯がちらつき、鹿の露出関節だけが鋭く光を反射している",
+          "pressure_source": "昨夜の叫びを知らないふりをする教室の無音",
+          "viewer_impact": "何かが起きる直前の不穏な静けさへの感覚"
+        },
+        {
+          "label": "ピエロの認知",
+          "inner_emotion": "自己嫌悪の急浮上",
+          "visible_indicator": "兜の割れ目から滲む赤い光、逆関節が内側に折れ込む",
+          "pressure_source": "自分だけが異形であることへの気づき",
+          "viewer_impact": "見ていてはいけないものを見てしまったという罪悪感"
+        },
+        {
+          "label": "檻の発見",
+          "inner_emotion": "閉塞と怒りの同居",
+          "visible_indicator": "教室の窓枠が浮遊標識に変わり、鹿が壁を手で押す",
+          "pressure_source": "逃げ場のない空間と不均等に流れる時間の圧力",
+          "viewer_impact": "この場から出たいという身体的な焦燥"
+        },
+        {
+          "label": "操り糸の切断",
+          "inner_emotion": "決意と恐怖の混在",
+          "visible_indicator": "枝角が兜を完全に貫通し、光の筋が床に落ちる",
+          "pressure_source": "自分を縛る構造が可視化された瞬間の認識",
+          "viewer_impact": "何かが取り返しのつかない形で変わるという予感"
+        },
+        {
+          "label": "翌朝の残骸",
+          "inner_emotion": "疲弊と静かな確信",
+          "visible_indicator": "鹿が床に座り込み、露出関節が朝光を受けて静止している",
+          "pressure_source": "叫んだ後の世界が変わっていないという現実",
+          "viewer_impact": "それでも何かが変わったという根拠のない確信への共鳴"
+        }
+      ]
+    },
+    "narrative_design": {
+      "goal": "割れた兜の隙間から漏れる昨夜の光を、朝の教室に一秒でも留まらせること",
+      "progress_meter": {
+        "stages": [
+          {
+            "stage_id": "stage_1",
+            "state_before": "兜が完全に閉じており、鹿は教室の端に立ち尽くしている",
+            "state_after": "兜の割れ目が指一本分開き、そこから赤い光が漏れ始める"
+          },
+          {
+            "stage_id": "stage_2",
+            "state_before": "教室の時間が均一に流れ、窓の外と中が同じ速度にある",
+            "state_after": "鹿が歩いた軌跡だけ床の時間層が剥がれ、二重の時間が重なって見える"
+          },
+          {
+            "stage_id": "stage_3",
+            "state_before": "逆関節が静止しており、露出関節は蛍光灯の下で鈍く光っている",
+            "state_after": "逆関節が跳ね上がるたびに枝角が兜をさらに押し広げ、光の量が増す"
+          },
+          {
+            "stage_id": "stage_4",
+            "state_before": "教室の椅子がすべて整列しており、昨夜の痕跡がない",
+            "state_after": "一脚の椅子だけが数センチずれており、朝光の中に鹿の影だけが残っている"
+          }
+        ]
+      }
+    },
+    "setpieces": [
+      {
+        "id": "set_1",
+        "space_descriptor": "黒板と机が整列した昼間の公立中学校教室",
+        "function_for_story": "叫んだ翌朝の静寂を体現する出発点であり、何も変わっていないように見えるが椅子のずれだけが変化を証言する",
+        "anchor_props": [
+          "ちらつく蛍光灯管",
+          "黒板の消し残したチョーク文字",
+          "一脚だけずれた椅子"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_2",
+        "space_descriptor": "学校廊下の突き当たりに霧の門が出現した空間",
+        "function_for_story": "時間の不均等が可視化される通過地点であり、鹿が自分の過去と現在を同時に目撃する",
+        "anchor_props": [
+          "霧の門の左右に立つ同一人物の異年齢版",
+          "廊下の時計が二つあり逆方向に回転",
+          "割れた兜の内側が一瞬だけ映るショット"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_3",
+        "space_descriptor": "校舎屋上の上空に漂う複数の浮遊標識が連なる空間",
+        "function_for_story": "規則の圧力が物理的に具現化された場所であり、鹿が方向を失う",
+        "anchor_props": [
+          "異なる速度で回転する標識群",
+          "標識に刻まれた消えかけた数式",
+          "逆関節の跳ね上がりとビートの同期"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_4",
+        "space_descriptor": "木材が半分朽ちて半分新しいという非対称な老化を持つ水辺の船着き場",
+        "function_for_story": "百年前の朝が今も続いている停滞の極点であり、鹿が時間の不均等を身体で感じる",
+        "anchor_props": [
+          "半朽ちと新材が接合する境界線",
+          "水面に映る百年前の朝の光",
+          "椅子が一脚だけずれた翌朝の教室の固定ショット"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_5",
+        "space_descriptor": "走り続ける移動ホームの内部、窓の外だけが正常速度で流れる",
+        "function_for_story": "外の世界だけが動き続け、内側の時間が凍る逆転空間であり、鹿の内省が最も深まる",
+        "anchor_props": [
+          "正常速度で流れる窓の外の風景",
+          "車内で止まったままのカレンダー",
+          "時間層が剥がれた床の痕"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_6",
+        "space_descriptor": "鏡面状の水が張られた地下の水路空間",
+        "function_for_story": "本当の自分と製造された自分が同時に映る自己対峙の場であり、兜の割れ目が最大になる",
+        "anchor_props": [
+          "水面に映る鹿の人間形の影",
+          "壁に貼りついた無数の普通という文字",
+          "割れた兜の隙間から漏れる光"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_7",
+        "space_descriptor": "透明な糸が縦横に張り巡らされた屋外広場",
+        "function_for_story": "操り糸を切るという行為が物理的に可能な唯一の空間であり、物語の転換点となる",
+        "anchor_props": [
+          "天井から下がる切れかけた透明な糸",
+          "糸に吊るされた空の制服",
+          "逆関節が跳ね上がる瞬間の露出骨の輝き"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_8",
+        "space_descriptor": "兜が完全に割れた瞬間に現れる光の収束空間",
+        "function_for_story": "昨夜の叫びが身体から外に出る瞬間を体現し、物語のクライマックスを刻む",
+        "anchor_props": [
+          "床に落ちた兜の破片群",
+          "枝角から放射する昨夜の光の残滓",
+          "床に残る時間層の剥がれ痕"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      },
+      {
+        "id": "set_9",
+        "space_descriptor": "朝光が差し込む無人の教室、鹿の影だけが残っている",
+        "function_for_story": "何も変わっていないように見えるが椅子のずれと足跡が確かな変化を証言するエンディング空間",
+        "anchor_props": [
+          "窓から差し込む朝の斜光",
+          "床に残る逆関節の足跡の痕",
+          "浮遊標識の異なる回転速度"
+        ],
+        "entry_condition": null,
+        "exit_state": null
+      }
+    ],
+    "music_read": {
+      "tempo_profile": "BPM133の高速で一定したドライブ感、停止を知らない前進",
+      "energy_profile": "arousalが157秒でピークに達し、その後も高水準を維持する後半集中型の爆発",
+      "vocal_presence": "日本語と英語が交互に現れ、内省と叫びが言語ごとに役割分担されている",
+      "lyric_focus": "自己の製造性と閉塞への認識が前半に集積し、後半で破壊への意志が英語で炸裂する",
+      "dynamic_shifts": "valenceの低域から高域への揺動が繰り返され、感情の不安定さが楽曲構造に内蔵されている"
+    },
+    "project_concept": {
+      "format": "逆関節の鹿が教室から時間の異なる複数空間を歩き続ける追跡型一人称映像であり、兜の割れ目が広がるごとに新しい空間が開扉し視聴者が次の扉を予測しながら追う構造",
+      "driver": "兜の割れ目が開くたびに何が出てくるかという次の扉への期待と、昨夜の叫びがどこに行ったかという未回収の問い",
+      "presentation": "鹿の逆関節の跳ね上がりをビートに同期させ、露出関節が光を受ける瞬間をカット点とする身体同期映像",
+      "progression": "閉じた兜から割れた兜へ、教室の静寂から枝角の光放射へ、製造された型から朝に残る足跡へ",
+      "audience_contract": "最後まで見れば兜の内側に何があったかが一瞬だけ映る"
+    },
+    "shooting_grammar": {
+      "camera_progression": "遠景固定から始まり、逆関節の跳ね上がりごとに近接し、クライマックスで兜の割れ目の超接写に至る",
+      "motion_progression": "静止カメラから手持ちブレへ、157秒のピーク後に再び固定に戻る鎮静の弧",
+      "lighting_progression": "蛍光灯の均質な白から露出関節が反射する点光源へ、終盤で朝光の斜光に収束する",
+      "cut_philosophy": "前半はhard_cutでビートに合わせた断絶を積み上げ、中盤のsmash_cutで時間層の剥離を表現し、クライマックスではmatch_cutで兜の割れと空間の開扉を接続する",
+      "framing_philosophy": "establishingで鹿と空間の異質な共存を提示し、focusで露出関節と兜の割れ目に絞り込み、impactで枝角の貫通と光の放射を正面から受け止め、releaseで朝光の静寂に引き渡すサイクルを2回転させる",
+      "key_visual_moments": [
+        {
+          "timing_hint": "開始3秒以内",
+          "technique": "smash_cut",
+          "intent": "蛍光灯下の逆関節の跳ね上がりを一撃で提示し、異形の身体への釘付けを作る"
+        },
+        {
+          "timing_hint": "80秒付近の霧の門通過",
+          "technique": "match_cut",
+          "intent": "廊下の突き当たりから霧の門への接続で、時間の不均等が身体移動と一致する快感"
+        },
+        {
+          "timing_hint": "157秒のarousalピーク",
+          "technique": "hard_cut連打からsmash_cut",
+          "intent": "枝角が兜を完全に貫通する瞬間を暴力的な切断で刻み、クライマックスの身体的インパクトを最大化"
+        },
+        {
+          "timing_hint": "終盤200秒以降",
+          "technique": "insert_cut",
+          "intent": "椅子のずれと床の足跡を短く差し込み、変化の証拠を視聴者に手渡す"
+        }
+      ]
+    },
+    "visual_language": {
+      "motifs": [
+        "割れた兜の隙間から漏れる光",
+        "逆関節が跳ね上がる瞬間の露出骨の輝き",
+        "床に残る時間層の剥がれ痕",
+        "浮遊標識の異なる回転速度"
+      ],
+      "palette": "蛍光灯の青白から船着き場の腐食した黄褐色を経由し、枝角の光放射で高彩度の赤橙に至り、翌朝の斜光で淡い灰青に着地する",
+      "lighting_bias": "点光源と面光源の衝突、露出関節が常に最も明るい部位になるよう設計された反射照明優先",
+      "camera_language": "逆関節の跳ね上がりに追随する低位アップショット、兜の割れ目を覗き込む超接写マクロ",
+      "texture": "木材の非対称な老化面、蛍光灯管のガラス越しの拡散光、露出関節の骨質表面の乾いた光沢",
+      "forbidden": [
+        "柔らかいボケ背景による感傷的な美化",
+        "対称構図による安定感の演出",
+        "笑顔や感情の直接的な顔のアップ"
+      ]
+    },
+    "hook_design": {
+      "thumbstop": "蛍光灯の教室で逆関節が跳ね上がり、露出した関節骨が白く光る鹿の後ろ姿",
+      "open_loop": "割れた兜の内側に何が入っているか",
+      "payoff": "157秒で枝角が兜を完全に押し広げた瞬間、割れた内側から昨夜の光の残滓が床に落ちる"
+    },
+    "rules": {
+      "must_include": [
+        "割れた兜の内側が一瞬だけ映るショット",
+        "逆関節の跳ね上がりとビートの同期",
+        "椅子が一脚だけずれた翌朝の教室の固定ショット",
+        "時間層が剥がれた床の痕"
+      ],
+      "must_avoid": [
+        "歌詞の文字テロップの使用",
+        "鹿以外の新しい主要キャラクターの導入",
+        "時間の不均等を説明するナレーションや字幕",
+        "感情を直接示す顔のクローズアップ"
+      ],
+      "notes": "逆関節の動きは常にビートの強拍に合わせること。BPM133の周期に身体運動を厳密に接続することで音楽と映像の物理的な一体感を優先する。霧の門の通過は楽曲の中間転換点に配置し、時間の加速を映像の空間切り替えで代替する。"
+    },
+    "mv_structure": {
+      "track_strategy": "concept_only",
+      "concept_track": {
+        "description": "逆関節の鹿が時間の不均等な複数空間を歩き続ける追跡型コンセプト映像。兜の割れ目が徐々に広がることで空間が開扉し、各setpieceでの鹿の行動がnarrativeのstageを一つずつ進める。キャラクターのパフォーマンス映像は一切含まず、…",
+        "spaces": [
+          "蛍光灯教室",
+          "霧の門廊下",
+          "操り糸の広場",
+          "枝角の破砕点"
+        ]
+      }
+    },
+    "synopsis": "蛍光灯がちらつく公立中学校の教室に、割れた兜をかぶり逆関節を持つ鹿が立ち尽くしている。兜の割れ目はまだ指一本分しか開かず、その隙間から赤い光が漏れているが、教室は何事もなかったように整列した机と椅子を保っている。鹿が一歩踏み出すたびに床の時間層が剥がれ、歩いた軌跡だけが二重の時間を重ねて見せる——昨夜の叫びが床に刻まれているのだと、視聴者はここで気づく。廊下の突き当たりに霧の門が開き、両側に同じ人物の異なる年齢が同時に立っているその光景を、鹿はmatch_cutで通過する。屋上へ続く空間では浮遊標識が異なる速度で回転し、逆関節の跳ね上がりがビートの強拍と物理的に接続されるたびに、兜の割れ目がさらに押し広げられていく。船着き場では木材が半分朽ちて半分新しいという非対称な老化の前に鹿が立ち止まり、水面に映る百年前の朝の光と現在の自分を同時に見る。移動ホームの車内で時間が凍る逆転空間を経由し、鏡面状の水路空間では水面に映る人間形の影と対峙した鹿の枝角が兜を完全に貫通する——157秒の瞬間、床に落ちた兜の破片と昨夜の光の残滓が光の収束空間を満たす。透明な糸が張り巡らされた屋外広場で切れかけた糸に吊るされた空の制服が揺れる中、鹿は跳ね上がった逆関節で糸を断ち切る。そして再び、朝光が差し込む無人の教室に戻る。鹿の姿はなく、影だけが残り、一脚の椅子が数センチずれている——床の逆関節の足跡が、叫びが確かにここを通過したことを証言している。",
+    "storyline": "割れた兜から赤い光が漏れる鹿が、昨夜の叫びをまだ身体に刻んだまま朝の教室に立つ。歩くたびに床の時間層が剥がれ、霧の門・浮遊標識・船着き場・水路と空間を渡るたびに兜の割れ目が広がり、昨夜の光が少しずつ外に漏れ出す。157秒で枝角が兜を完全に貫通し、床に落ちた兜の破片と光の残滓がクライマックスを刻む。透明な糸を断ち切った後、鹿は朝の教室に戻らず影だけを残す。一脚だけずれた椅子と床の足跡が、変化の証拠として視聴者に手渡される。問いは回収されない——兜の内側に何があったかは157秒の一瞬だけ映り、それが何だったかは視聴者に委ねられる。",
+    "timeline_summary": [
+      {
+        "section_id": "sec-001",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "summary": "蛍光灯がちらつく教室の奥に逆関節の鹿が後ろ向きに立ち尽くし、露出した関節骨が白く光を反射している。割れた兜の隙間はまだ閉じに近く、赤い光は内側に留まっている。"
+      },
+      {
+        "section_id": "sec-002",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "summary": "鹿が蛍光灯の下を歩き始め、逆関節が跳ね上がるたびに床の時間層が剥がれて歩いた軌跡に二重の時間が重なって見える。兜の割れ目が指一本分開き、赤い光が漏れ始めると同時に、整列していた机と椅子が微細なずれを見せる。"
+      },
+      {
+        "section_id": "sec-003",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "summary": "廊下の突き当たりに霧の門が出現し、両側に同一人物の異年齢版が同時に立っている光景を鹿がmatch_cutで通過する。廊下の二つの時計が逆方向に回転し、割れた兜の内側が一瞬だけ映るショットが差し込まれる。"
+      },
+      {
+        "section_id": "sec-004",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "summary": "屋上上空に漂う浮遊標識群が異なる速度で回転する中、逆関節の跳ね上がりがBPM133の強拍に厳密に接続され、跳ね上がるたびに枝角が兜をさらに押し広げて光の量が増す。標識に刻まれた消えかけた数式が鹿の動きに反応して揺れる。"
+      },
+      {
+        "section_id": "sec-005",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "summary": "半分朽ちて半分新しいという非対称な老化を持つ船着き場の境界線に鹿が立ち、水面に映る百年前の朝の光と現在の自分を同時に目撃する。移動ホームの車内では止まったままのカレンダーと時間層が剥がれた床の痕が静止し、窓の外だけが正常速度で流れている。"
+      },
+      {
+        "section_id": "sec-006",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "summary": "鏡面状の水が張られた地下水路で水面に映る鹿の人間形の影と対峙し、壁に貼りついた無数の「普通」という文字を背景に兜の割れ目が最大に達する。hard_cut連打からsmash_cutへの切り替えで、枝角が兜を完全に貫通し床に昨夜の光の残滓が落ちる157秒のクライマックスに至る。"
+      },
+      {
+        "section_id": "sec-007",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "summary": "透明な糸が縦横に張り巡らされた屋外広場で、天井から下がる切れかけた糸に吊るされた空の制服が揺れる中、鹿が逆関節を跳ね上げて糸を断ち切る。床に落ちた兜の破片群と枝角から放射する光の残滓が、物語の転換を光の収束として刻む。"
+      },
+      {
+        "section_id": "sec-008",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "summary": "朝光が差し込む無人の教室に鹿の影だけが残り、一脚だけずれた椅子と床に残る逆関節の足跡の痕がinsert_cutで差し込まれ、変化の証拠として視聴者に手渡される。窓から差し込む斜光の中で浮遊標識が静止に近い速度で回り、兜の内側に何があったかという問いだけが画面の外に残る。"
+      }
+    ],
+    "section_outline": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "beat_word": "静止と予兆",
+        "retention_hook": "逆関節の鹿が後ろ向きに立ち尽くす異形の後ろ姿が、蛍光灯のちらつきで断続的に可視化され、次の動きへの期待を宙吊りにする。",
+        "variation_commitments": [
+          "小物:割れた兜の内側が一瞬だけ映るショット",
+          "蛍光灯管が完全点灯から半滅状態へ切り替わり、鹿の露出関節骨が光る瞬間と消える瞬間が交互に生じる",
+          "割れた兜の隙間が閉じに近い状態から指一本分の開口へ微変化し、内側の赤い光が初めて漏れ始める",
+          "整列した机と椅子のうち一脚だけが静止画的な固定フレームの中でわずかにずれており、その差が画面後半で初めて視認できる距離になる",
+          "鹿の影が床に落ちる角度が蛍光灯のちらつきに連動して伸縮し、影の輪郭が人間形に近づく瞬間が一度だけ挿入される"
+        ]
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "beat_word": "剥離と軌跡",
+        "retention_hook": "逆関節が跳ね上がるたびに床の時間層が剥がれて歩いた軌跡に二重の時間が重なり、鹿がどこへ向かうのかという方向への問いが生まれる。",
+        "variation_commitments": [
+          "逆関節の跳ね上がり動作がBPM133の強拍に一致し始め、最初の数歩は拍からずれていたものが中盤で同期する瞬間が生じる",
+          "床の時間層が剥がれた痕が歩を重ねるごとに形状を変え、単なる足跡から二重輪郭の剥離痕へと変質する",
+          "兜の割れ目が閉じに近い状態から指一本分の開口に達し、赤い光の漏れ量が目視で倍増する",
+          "整列していた机と椅子群が鹿の通過後に微細なずれを蓄積し、最終カットでは一脚だけが明確に列から外れている",
+          "ちらつく蛍光灯管が鹿の歩行速度と無関係に明滅していたものが、逆関節の着地タイミングと一致して点滅するよう変化する"
+        ]
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "beat_word": "門と通過",
+        "retention_hook": "霧の門の両側に立つ同一人物の異年齢版という視覚的矛盾を鹿がmatch_cutで通過することで、門の向こうに何があるかという次の空間への期待が発生する。",
+        "variation_commitments": [
+          "廊下の二つの時計が逆方向に回転しており、鹿が通過する前は時計の針が重なっていたものが通過後に最大角度で開く",
+          "霧の門の両側に立つ同一人物の異年齢版が、鹿のmatch_cut通過の瞬間だけ互いを認識したように視線を交差させる",
+          "割れた兜の内側が一瞬だけ映るショットが差し込まれ、内側に何があるかの情報が光の輪郭のみで提示され即座に遮断される",
+          "浮遊標識が廊下空間に初出現し、静止していた標識が鹿の通過後から回転を開始する変化が生じる",
+          "床に残る時間層の剥がれ痕が廊下の石床の目地に沿って広がり、教室内の痕とは異なる伝播パターンを示す"
+        ]
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "beat_word": "同期と増幅",
+        "retention_hook": "浮遊標識の異なる回転速度の中で逆関節の跳ね上がりがBPM133の強拍に厳密に接続され、身体と音楽の機械的な一致が次の跳ね上がりへの予測欲求を生む。",
+        "variation_commitments": [
+          "浮遊標識群がそれぞれ異なる速度で回転しており、鹿の逆関節跳ね上がりの強拍タイミングで最も高速な標識のみが一瞬停止する",
+          "標識に刻まれた消えかけた数式が鹿の動きに反応して揺れ、跳ね上がりの着地後に数式の一部が完全に消滅する",
+          "枝角が兜をさらに押し広げる量が跳ね上がりごとに計測可能な形で増加し、光の漏れが割れ目の長さに比例して拡大する",
+          "露出関節骨が屋上の自然光を受けて蛍光灯下とは異なる色温度の輝きを放ち、白から淡い黄橙へと反射色が変化する",
+          "床に残る時間層の剥がれ痕が屋上の床面素材と反応し、教室と廊下とは異なる形状——放射状の亀裂——として出現する"
+        ]
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "beat_word": "境界と静止",
+        "retention_hook": "半分朽ちて半分新しいという非対称な船着き場の境界線に鹿が立ち、水面に映る百年前の朝の光と現在の自分を同時に目撃するという二重の時間体験が次の空間への移行を予告する。",
+        "variation_commitments": [
+          "半朽ちと新材が接合する境界線を鹿が踏むたびに、朽ちた側の木材が沈み込み新材側が浮き上がるという非対称な重力反応が生じる",
+          "水面に映る百年前の朝の光が現在の自然光と混在し、鹿の水面の影が現在形と百年前形の二種類で同時に映り込む",
+          "移動ホームの車内で止まったままのカレンダーの日付が、窓の外の正常速度で流れる風景のみによって間接的に更新されていく様子が映る",
+          "時間層が剥がれた床の痕が移動ホーム車内の床に初めて室内垂直面——壁——へ伝播する変化が起きる",
+          "割れた兜の隙間から漏れる光が船着き場の水面に落ち、水中で拡散する前に消滅するという光の短命性が初めて示される"
+        ]
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "beat_word": "対峙と貫通",
+        "retention_hook": "水面に映る鹿の人間形の影との対峙が「普通」という文字の壁を背景に行われ、兜の割れ目が最大に達する157秒のクライマックスへの不可逆的なカウントダウンを生成する。",
+        "variation_commitments": [
+          "小物:逆関節が跳ね上がる瞬間の露出骨の輝き",
+          "壁に貼りついた無数の「普通」という文字が鹿の接近につれて剥離し始め、剥がれた文字が水面に落ちて溶解する",
+          "水面に映る鹿の人間形の影が鹿本体の動きと0.5秒のずれで追従し、そのずれがbridge終盤に完全に消滅して完全同期する",
+          "hard_cut連打からsmash_cutへの切り替えで映像の時間知覚が断絶し、smash_cut後の最初のフレームが無音に近い静止感を帯びる",
+          "枝角が兜を完全に貫通する瞬間に露出関節骨が過去最大の輝度で光を跳ね返し、その輝きが水面の影にも同時に発生する"
+        ]
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "beat_word": "断絶と収束",
+        "retention_hook": "透明な糸が切れかけた屋外広場で鹿が逆関節を跳ね上げて糸を断ち切り、空の制服が落下する瞬間が物語の転換点として提示され、兜の破片が何を意味するかという最後の問いへ誘導する。",
+        "variation_commitments": [
+          "小物:床に残る時間層の剥がれ痕",
+          "天井から下がる切れかけた透明な糸が鹿の逆関節跳ね上がりの風圧で揺れ、最も細く傷んだ糸から順番に断ち切られていく連鎖が生じる",
+          "空の制服が糸から解放されて落下する際に、制服の形状が一瞬だけ人物を内包しているかのような立体性を帯びた後に平面に戻る",
+          "床に落ちた兜の破片群が落下地点から光の収束空間を形成し、破片の配置が枝角の放射方向と対応した幾何学的パターンをなす",
+          "枝角から放射する昨夜の光の残滓が屋外の自然光と混合し、蛍光灯青白・船着き場黄褐を経由してきた色温度が高彩度の赤橙へ初めて到達する"
+        ]
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "beat_word": "残骸と余韻",
+        "retention_hook": "一脚だけずれた椅子と床に残る逆関節の足跡の痕がinsert_cutで手渡され、変化の証拠を視聴者自身が検証する時間が与えられることで、兜の内側への問いが画面の外へ持ち越される。",
+        "variation_commitments": [
+          "窓から差し込む朝の斜光が蛍光灯の青白とは異なる淡い灰青の色温度で教室を満たし、露出関節骨の反射色がこれまでの全空間と異なる最終色に落ち着く",
+          "床に残る逆関節の足跡の痕がinsert_cutで接近提示され、足跡の形状が人間の靴跡と鹿の蹄の中間的な形であることが初めて判別できる距離で映される",
+          "浮遊標識が静止に近い速度で回転しており、高速回転だったverse2・verse3の状態との落差が速度の絶対的な低下として視認できる",
+          "椅子が一脚だけずれた翌朝の教室の固定ショットが長回しで維持され、フレーム内で何も動かない時間が意図的に引き延ばされる",
+          "鹿の影だけが床に残存し、影の輪郭がbridgeの水面で見た人間形の影と同一の輪郭であることが重ね合わせで示唆される形で静止する"
+        ]
+      }
+    ]
+  },
+  "ir": {
+    "semantic": {
+      "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+      "source": "phase4_ir_structure_fallback"
+    },
+    "sequences": [
+      {
+        "id": "seq_01",
+        "time_descriptor": "閉じた兜から割れた兜へ",
+        "tags": []
+      },
+      {
+        "id": "seq_02",
+        "time_descriptor": "教室の静寂から枝角の光放射へ",
+        "tags": []
+      },
+      {
+        "id": "seq_03",
+        "time_descriptor": "製造された型から朝に残る足跡へ",
+        "tags": []
+      },
+      {
+        "id": "seq_04",
+        "time_descriptor": "蛍光灯の教室で逆関節が跳ね上がり",
+        "tags": []
+      },
+      {
+        "id": "seq_05",
+        "time_descriptor": "露出した関節骨が白く光る鹿の後ろ姿",
+        "tags": []
+      },
+      {
+        "id": "seq_06",
+        "time_descriptor": "割れた兜の内側に何が入っているか",
+        "tags": []
+      }
+    ],
+    "scene_blocks": [
+      {
+        "id": "block_001",
+        "sequence_id": "seq_01",
+        "scene_id": "scene_1",
+        "target_duration_sec": 48.5,
+        "start_state": "兜が完全に閉じており、鹿は教室の端に立ち尽くしている",
+        "end_state": "兜の割れ目が指一本分開き、そこから赤い光が漏れ始める",
+        "track_type": "concept",
+        "tags": [
+          "stage_1"
+        ]
+      },
+      {
+        "id": "block_002",
+        "sequence_id": "seq_02",
+        "scene_id": "scene_2",
+        "target_duration_sec": 31.8,
+        "start_state": "兜が完全に閉じており、鹿は教室の端に立ち尽くしている",
+        "end_state": "兜の割れ目が指一本分開き、そこから赤い光が漏れ始める",
+        "track_type": "concept",
+        "tags": [
+          "stage_1"
+        ]
+      },
+      {
+        "id": "block_003",
+        "sequence_id": "seq_03",
+        "scene_id": "scene_4",
+        "target_duration_sec": 31.8,
+        "start_state": "教室の時間が均一に流れ、窓の外と中が同じ速度にある",
+        "end_state": "鹿が歩いた軌跡だけ床の時間層が剥がれ、二重の時間が重なって見える",
+        "track_type": "concept",
+        "tags": [
+          "stage_2"
+        ]
+      },
+      {
+        "id": "block_004",
+        "sequence_id": "seq_04",
+        "scene_id": "scene_5",
+        "target_duration_sec": 48.1,
+        "start_state": "逆関節が静止しており、露出関節は蛍光灯の下で鈍く光っている",
+        "end_state": "逆関節が跳ね上がるたびに枝角が兜をさらに押し広げ、光の量が増す",
+        "track_type": "concept",
+        "tags": [
+          "stage_3"
+        ]
+      },
+      {
+        "id": "block_005",
+        "sequence_id": "seq_05",
+        "scene_id": "scene_7",
+        "target_duration_sec": 26.7,
+        "start_state": "逆関節が静止しており、露出関節は蛍光灯の下で鈍く光っている",
+        "end_state": "逆関節が跳ね上がるたびに枝角が兜をさらに押し広げ、光の量が増す",
+        "track_type": "concept",
+        "tags": [
+          "stage_3"
+        ]
+      },
+      {
+        "id": "block_006",
+        "sequence_id": "seq_06",
+        "scene_id": "scene_8",
+        "target_duration_sec": 26.7,
+        "start_state": "教室の椅子がすべて整列しており、昨夜の痕跡がない",
+        "end_state": "一脚の椅子だけが数センチずれており、朝光の中に鹿の影だけが残っている",
+        "track_type": "concept",
+        "tags": [
+          "stage_4"
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_1",
+        "label": "loc_1",
+        "space_descriptor": "黒板と机が整列した昼間の公立中学校教室",
+        "openness": null,
+        "entities": [
+          "ちらつく蛍光灯管",
+          "黒板の消し残したチョーク文字",
+          "一脚だけずれた椅子"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_2",
+        "label": "loc_2",
+        "space_descriptor": "学校廊下の突き当たりに霧の門が出現した空間",
+        "openness": null,
+        "entities": [
+          "霧の門の左右に立つ同一人物の異年齢版",
+          "廊下の時計が二つあり逆方向に回転",
+          "割れた兜の内側が一瞬だけ映るショット"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_3",
+        "label": "loc_3",
+        "space_descriptor": "校舎屋上の上空に漂う複数の浮遊標識が連なる空間",
+        "openness": null,
+        "entities": [
+          "異なる速度で回転する標識群",
+          "標識に刻まれた消えかけた数式",
+          "逆関節の跳ね上がりとビートの同期"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_4",
+        "label": "loc_4",
+        "space_descriptor": "木材が半分朽ちて半分新しいという非対称な老化を…",
+        "openness": null,
+        "entities": [
+          "半朽ちと新材が接合する境界線",
+          "水面に映る百年前の朝の光",
+          "椅子が一脚だけずれた翌朝の教室の固定ショット"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_5",
+        "label": "loc_5",
+        "space_descriptor": "走り続ける移動ホームの内部、窓の外だけが正常速…",
+        "openness": null,
+        "entities": [
+          "正常速度で流れる窓の外の風景",
+          "車内で止まったままのカレンダー",
+          "時間層が剥がれた床の痕"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_6",
+        "label": "loc_6",
+        "space_descriptor": "鏡面状の水が張られた地下の水路空間",
+        "openness": null,
+        "entities": [
+          "水面に映る鹿の人間形の影",
+          "壁に貼りついた無数の普通という文字",
+          "割れた兜の隙間から漏れる光"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_7",
+        "label": "loc_7",
+        "space_descriptor": "透明な糸が縦横に張り巡らされた屋外広場",
+        "openness": null,
+        "entities": [
+          "天井から下がる切れかけた透明な糸",
+          "糸に吊るされた空の制服",
+          "逆関節が跳ね上がる瞬間の露出骨の輝き"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_8",
+        "label": "loc_8",
+        "space_descriptor": "兜が完全に割れた瞬間に現れる光の収束空間",
+        "openness": null,
+        "entities": [
+          "床に落ちた兜の破片群",
+          "枝角から放射する昨夜の光の残滓",
+          "床に残る時間層の剥がれ痕"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_9",
+        "label": "loc_9",
+        "space_descriptor": "朝光が差し込む無人の教室、鹿の影だけが残っている",
+        "openness": null,
+        "entities": [
+          "窓から差し込む朝の斜光",
+          "床に残る逆関節の足跡の痕",
+          "浮遊標識の異なる回転速度"
+        ],
+        "constraints": []
+      }
+    ],
+    "shot_intents": [],
+    "timeline": []
+  }
+}

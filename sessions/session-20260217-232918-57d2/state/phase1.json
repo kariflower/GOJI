@@ -1,0 +1,3533 @@
+{
+  "session_id": "session-20260217-232918-57d2",
+  "state_version": 3,
+  "created_at": "2026-02-17T14:29:18.894416Z",
+  "updated_at": "2026-02-17T14:33:24.180843Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260217-232918-57d2",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.4875,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.37763157894736843,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.38026315789473686,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.3828947368421053,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6855263157894737,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6881578947368421,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6907894736842105,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.39342105263157895,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.3960526315789474,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.3986842105263158,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.7013157894736841,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.7039473684210525,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.706578947368421,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.20921052631578949,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.21184210526315791,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.7144736842105263,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.7171052631578947,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.7197368421052631,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.4723684210526316,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.525,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-f698f6b5",
+            "persona_id": "persona-bd8fd017",
+            "content": {
+              "creative_seed": "persona-bd8fd017:62f8ff4b",
+              "self_analysis": "私は計画と前進を好む人間で、過去を引きずるより次の手を考える。複数の文化圏を渡り歩いてきたせいか、「どこにも完全には属さない」状態を不安より面白さとして受け取る癖がある。14歳の苦悩を読んでも、共感より『ああ、あの面倒な時期ね』という距離感が出る。ユーモアは乾いた観察型で、劇的な叫びより滑稽な構図に反応する。暗さより仕掛けに引っかかる。",
+              "what_i_saw": "蛍光灯の白い光の中、制服の少年が数学のノートを丸めてマイクスタンド代わりに握り、ベッドの上でYouTube風の自撮り配信をしているが、その画角の外——カメラが捉えていない側——には母親が用意した模擬試験の問題用紙が扇状に散らばっている。少年は真剣な顔で口を動かしているが、声は一切聞こえない。",
+              "why_it_came": "歌詞の中で最も面白いズレは『夜中にこっそり撮る動画』と『誰にも見せない』の組み合わせ——誰も見ないのに撮る、という行為の滑稽さと切実さが同居している点だ。私は計画を立てる側の人間として、『目的のない行為』の純粋さをむしろ軽やかに面白いと感じる。暗さに正面から乗るより、その行為の構造的なおかしさ（一人のための放送）を映像の核にした方が目が止まる。[起点=lyrics][解釈=誰も見ない放送][トーン=playful]",
+              "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+              "hook_scene": {
+                "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+              }
+            },
+            "created_at": "2026-02-17 14:30:12.615230"
+          },
+          {
+            "proposal_id": "prop-b9eadcf8",
+            "persona_id": "persona-aa543b71",
+            "content": {
+              "creative_seed": "persona-aa543b71:94dccb1b",
+              "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+              "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+              "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+              "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+              "hook_scene": {
+                "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+                "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+                "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+                "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+                "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+                "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+              }
+            },
+            "created_at": "2026-02-17 14:31:42.712183"
+          },
+          {
+            "proposal_id": "prop-25596453",
+            "persona_id": "persona-536670e0",
+            "content": {
+              "creative_seed": "persona-536670e0:75f1270a",
+              "self_analysis": "私は損失の痛みを知りながらも、毎月食事会を開いて人を集め続ける人間だ。傷が癒えないまま前に進む、それが私の回復力の形。ユーモアは防衛でなく武器——笑えるうちは負けじゃないと思っている。他人の「本音」が出た瞬間に体が反応する。取り繕った言葉より、崩れた声の方がずっとリアルに聞こえる。この曲の14歳の怒鳴り声は、私には「生きてる証拠」に聞こえた。",
+              "what_i_saw": "廃工場かどこかの高い天井の下、一人の少年が段ボール箱の上に立って両手を広げている。カメラは真下から仰角で撮っていて、彼の足の裏だけが見える。彼は叫んでいるのか笑っているのか、表情が逆光で判別できない。でも足が——ぶるぶると細かく震えながら、それでも踏みしめている。",
+              "why_it_came": "「編集してる時の僕の目はきっと生きてるって言えるんだ」という一行が刺さった。私が引っかかったのは『諦め』ではなく『そこにしか本物がない、という発見』の瞬間。暗さの歌に見えて、実はこの子は自分だけの座標をすでに見つけている。だから映像は墜落でなく、飛ぼうとしている瞬間——失敗するかもしれないが本気の跳躍前の静止。仰角と逆光で判別不能にするのは、「美しいか醜いかどっちでもいい、本物ならそれでいい」という歌詞の体現。[起点=lyrics][解釈=発見・跳躍・本物][トーン=uplift]",
+              "theme": "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。",
+              "hook_scene": {
+                "focus": "制服のズボンだけ着た少年（上半身は白Tシャツ、裸足）——足裏が画面の中央を占拠している",
+                "place": "解体寸前の旧工場の大空間。天窓から差し込む一本の光柱の真下。床には散乱した段ボール片。",
+                "action": "崩れかけた段ボールの山の頂点に立ち、両腕を水平に広げたまま微動だにしない——ただし足首だけが小刻みに震え続けている",
+                "detail": "右足の裏に油性マジックで何か書いてある（文字が読めそうで読めない角度）",
+                "question": "彼は今から飛ぶのか、すでに着地した後なのか——どちらの読み方もできる静止だが、足の震えだけが時間の経過を証明している",
+                "when": "「透明な檻を蹴り破る音が」の歌詞直前——サビ最後の溜め"
+              }
+            },
+            "created_at": "2026-02-17 14:33:24.100116"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A"
+          ],
+          "candidate_map": {
+            "A": "prop-b9eadcf8"
+          },
+          "tally": {
+            "A": 0
+          },
+          "like_tally": {
+            "A": 0
+          },
+          "dislike_tally": {
+            "A": 0
+          },
+          "votes": [],
+          "analysis": "single_candidate",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-b9eadcf8",
+        "persona_id": "persona-aa543b71",
+        "content": {
+          "creative_seed": "persona-aa543b71:94dccb1b",
+          "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+          "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+          "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+          "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+          "hook_scene": {
+            "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+            "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+            "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+            "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+            "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+            "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+          }
+        },
+        "created_at": "2026-02-17 14:31:42.712183"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-bd8fd017",
+            "name": "Suphatra Weidmann",
+            "gender": "クエスチョニング",
+            "birthdate": "1951-11-13",
+            "age": 36,
+            "origin_city": "ミュンヘン",
+            "ethnic_background": "東南アジア系",
+            "life_history": [
+              {
+                "year": 1951,
+                "event": "西ドイツ・ミュンヘンにて、タイ人の父とドイツ人の母の間に生まれる。父はミュンヘン大学に留学中の農学研究者だった。"
+              },
+              {
+                "year": 1957,
+                "event": "父の帰国に伴い家族でバンコクへ移住。ミュンヘンでの幼少期に習得したドイツ語を維持するため、毎週土曜日にドイツ人学校の補習クラスに通った。"
+              },
+              {
+                "year": 1965,
+                "event": "バンコクの私立中学校を卒業後、奨学金を得てシンガポールの寄宿制高校へ進学。英語・タイ語・ドイツ語の三言語を日常的に使用する環境に置かれた。"
+              },
+              {
+                "year": 1969,
+                "event": "高校卒業後、西ドイツへ渡航しミュンヘン工科大学の工学部に入学。機械工学を専攻し、初年度から工作機械の研究室に配属された。"
+              },
+              {
+                "year": 1972,
+                "event": "大学在学中に自動車部品メーカーのインターンシップへ参加し、エンジン冷却系の試作設計に携わった。同年、大学の国際学生会で事務局長を務めた。"
+              },
+              {
+                "year": 1975,
+                "event": "工学部を修了後、ミュンヘン郊外の精密機器メーカーに正社員として入社。生産ラインの設備保全部門に配属された。"
+              },
+              {
+                "year": 1979,
+                "event": "社内公募で海外事業開発チームへ異動し、マレーシア・クアラルンプールへの工場設立プロジェクトに参加。現地視察のため年間で延べ8か月を東南アジアで過ごした。"
+              },
+              {
+                "year": 1984,
+                "event": "クアラルンプール支社の立ち上げ責任者としてマレーシアへ赴任。現地採用スタッフ12名の研修体制を整備し、翌年には量産ラインの稼働を実現した。"
+              },
+              {
+                "year": 1987,
+                "event": "マレーシア永住権の申請手続きを開始。クアラルンプール市内のコンドミニアムを購入し、拠点を正式にドイツからマレーシアへ移した。"
+              }
+            ],
+            "current_situation": "1988年現在、クアラルンプール市内のコンドミニアムに単身で居住している。精密機器メーカーのマレーシア支社において現地法人の運営管理職を務めており、週の大半を工場と事務所で過ごしている。業務の傍ら、夜間の経営学講座に週二回通い始めた。タイ・ドイツ・マレーシアにそれぞれ親族や旧知の知人が点在しており、年に数回それらの国を訪問している。",
+            "external_perception": {
+              "first_impression": "物静かで礼儀正しく、どこの国の人か判断しにくいと言われることが多い。",
+              "close_friends_view": "次の計画や行動の話ばかりで、過去の苦労をほとんど語らない人物だと見られている。",
+              "misunderstandings": "無口で感情を出さないように見えるため、周囲の意見に関心がないと誤解されることがある。"
+            },
+            "stance_on_past": "あまり振り返らず前を向いている"
+          },
+          {
+            "id": "persona-aa543b71",
+            "name": "Graham Fletcher",
+            "gender": "男性",
+            "birthdate": "1981-11-06",
+            "origin_city": "ブリスベン",
+            "ethnic_background": "欧州系",
+            "life_history": [
+              {
+                "year": 1981,
+                "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+              },
+              {
+                "year": 1999,
+                "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+              },
+              {
+                "year": 2004,
+                "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+              },
+              {
+                "year": 2008,
+                "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+              },
+              {
+                "year": 2010,
+                "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+              },
+              {
+                "year": 2015,
+                "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+              },
+              {
+                "year": 2019,
+                "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+              },
+              {
+                "year": 2023,
+                "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+              }
+            ],
+            "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+            "external_perception": {
+              "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+              "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+              "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+            },
+            "proposal_history": [
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "goji_creator_test_v2",
+                "phase": "Phase 1",
+                "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+                "rank": 2,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "goji_creator_test_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 17,
+                "won": false
+              },
+              {
+                "session": "phase2_ref_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "full_pipeline_test_20260104_154048",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+                "rank": 1,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "full_pipeline_test_20260104_154048",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 6,
+                "won": false
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          },
+          {
+            "id": "persona-536670e0",
+            "name": "プリヤンカ・ナイール",
+            "gender": "女性",
+            "birthdate": "9245-05-07",
+            "age": 57,
+            "origin_city": "高雄",
+            "ethnic_background": "南アジア系",
+            "life_history": [
+              {
+                "year": 9250,
+                "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+              },
+              {
+                "year": 9263,
+                "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+              },
+              {
+                "year": 9267,
+                "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+              },
+              {
+                "year": 9270,
+                "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+              },
+              {
+                "year": 9278,
+                "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+              },
+              {
+                "year": 9286,
+                "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+              },
+              {
+                "year": 9295,
+                "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+              },
+              {
+                "year": 9301,
+                "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+              }
+            ],
+            "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+            "external_perception": {
+              "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+              "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+              "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+            },
+            "stance_on_past": "まだ傷として残っている",
+            "proposal_history": [
+              {
+                "session": "20260118_040633",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 21,
+                "won": true
+              }
+            ]
+          }
+        ],
+        "goji_persona_id": null,
+        "winning_persona": {
+          "id": "persona-aa543b71",
+          "name": "Graham Fletcher",
+          "gender": "男性",
+          "birthdate": "1981-11-06",
+          "origin_city": "ブリスベン",
+          "ethnic_background": "欧州系",
+          "life_history": [
+            {
+              "year": 1981,
+              "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+            },
+            {
+              "year": 1999,
+              "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+            },
+            {
+              "year": 2004,
+              "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+            },
+            {
+              "year": 2008,
+              "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+            },
+            {
+              "year": 2010,
+              "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+            },
+            {
+              "year": 2015,
+              "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+            },
+            {
+              "year": 2019,
+              "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+            },
+            {
+              "year": 2023,
+              "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+            }
+          ],
+          "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+          "external_perception": {
+            "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+            "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+            "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+          },
+          "proposal_history": [
+            {
+              "session": "phase2a_new_v1",
+              "phase": "Phase 1",
+              "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+              "rank": 0,
+              "tally": 0,
+              "won": false
+            },
+            {
+              "session": "phase2a_new_v1",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+              "rank": 0,
+              "tally": 0,
+              "won": false
+            },
+            {
+              "session": "goji_creator_test_v2",
+              "phase": "Phase 1",
+              "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+              "rank": 2,
+              "tally": 5,
+              "won": false
+            },
+            {
+              "session": "goji_creator_test_v2",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 3,
+              "tally": 17,
+              "won": false
+            },
+            {
+              "session": "phase2_ref_test_v1",
+              "phase": "Phase 1",
+              "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+              "rank": 3,
+              "tally": 5,
+              "won": false
+            },
+            {
+              "session": "full_pipeline_test_20260104_154048",
+              "phase": "Phase 1",
+              "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+              "rank": 1,
+              "tally": 6,
+              "won": true
+            },
+            {
+              "session": "full_pipeline_test_20260104_154048",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: ? / 場所: ?",
+              "rank": 2,
+              "tally": 6,
+              "won": false
+            }
+          ],
+          "stance_on_past": "他人事のように距離を置いて見ている"
+        },
+        "overlap_debug": [
+          {
+            "persona": "Graham Fletcher",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=22,jac=0.08)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "消す直前まで行って、消さなかった——それが唯一の、誰にも届かない宣言。",
+                  "focus": "編集ソフトの画面に映り込んだ少年の目だけ——顔の輪郭も体も見えない",
+                  "place": "深夜の部屋、机の上に置かれたノートpcだけが光源。背後は完全に黒",
+                  "action": "タイムライン上の自分の声のクリップに、削除ショートカットのキーを押しかけて——止まっている",
+                  "detail": "画面右下の時刻表示が「03:14」で静止している（点滅もしていない）",
+                  "question": "彼はなぜ削除できないのか——そしてそのクリップの中で、彼は何を言っていたのか",
+                  "when": "chorus1直前（「誰も知らない狂った旋律」の余韻が消えた一瞬の無音）"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "Graham Fletcher",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=16,jac=0.05)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "叫び終えた後に残る部屋だけが、彼がそこにいたことの証明になる。",
+                  "focus": "誰もいない勉強机の椅子——背もたれに制服の上着が引っかかったまま",
+                  "place": "深夜の子供部屋。蛍光灯が消えた直後で、目が慣れるまでの数秒間の暗さ。窓の外に街灯の薄い光だけ",
+                  "action": "カメラがゆっくりズームインしていく。机の上の三角関数のプリント、赤いバツ印だらけ。その右端に小さく「本物」と書かれた走り書き。スマホの画面が最後の光を放ってロック画面になる",
+                  "detail": "椅子の座面に、丸く圧迫された跡だけが残っている——さっきまで誰かがそこに座っていた形が、クッションに刻まれている",
+                  "question": "なぜ制服だけが置いていかれているのか——この部屋の主はどこへ行ったのか、それとも「14歳の自分」を脱いでいったのか",
+                  "when": "「蛍光灯が消えて」の歌詞と同時に画面が暗転し、目が慣れてきた頃に椅子の跡だけが見えてくる"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=16,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "誰にも見せていないのに、もう始まっている——少年が初めて自分の動画の「再生」ボタンを押す、その0.5秒の革命。",
+                  "focus": "スマホの編集アプリのタイムライン画面——10本以上の細いクリップが並んでいて、最後の一本がたった今ドロップされたばかり",
+                  "place": "電気を消した自室、机の上。蛍光灯は切れているか消されており、唯一の光源がスマホ画面の青白い光だけ。壁に教科書と丸めたプリントが見える",
+                  "action": "少年の親指が「▶」ボタンの上で一瞬だけ止まる——押すか押さないか、その刹那。画面には彼が一人で撮り続けてきた映像の断片が並んでいる",
+                  "detail": "タイムラインの一番左端のクリップに、蛍光灯が点灯した状態の部屋が映っている——それが最も古い素材で、今の暗闇と対になっている",
+                  "question": "再生ボタンを押した後、彼はその動画を誰かに送るのか——それとも消すのか",
+                  "when": "「透明な檻を蹴り破る音が／今夜の僕のテーマソング」の直前、サビ転換の0.5秒前"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Suphatra Weidmann",
+                "hit_keys": [
+                  "tokens(inter=14,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+                  "focus": "14歳の少年——丸めた数学のノートをマイク代わりに持ち、スマホの自撮りカメラに向かって真顔で口を動かしている",
+                  "place": "深夜の勉強部屋、机の上にスマホが立てかけられ、画面には『視聴者数: 0』の表示が光っている",
+                  "action": "誰も見ていないライブ配信の途中で、突然カメラに向かってノートを広げ、三角関数の解答を解説し始める——まるで本物の授業のように、でも完全に一人で",
+                  "detail": "スマホ画面に映る『視聴者数: 0』の数字が、画面右上にずっと点滅している",
+                  "question": "なぜ彼は誰も見ていない配信を止めないのか——そしてカメラの外に散らばった模擬試験の紙は、本当に『失敗』なのか？",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直前、verse2終盤"
+                },
+                "cur_hook": {
+                  "theme": "「革命」と宣言した夜の翌朝、少年はただ窓の外を見ていた——それだけで十分だった。",
+                  "focus": "制服姿の中学生男子——右手だけがわずかに震えている",
+                  "place": "始業30分前の無人教室。窓際の一番前の席。黒板には前日の数式が半分消えたまま残っている",
+                  "action": "スマホの画面を下向きに机へ置き、両手を膝に乗せて、ゆっくりと窓の外を見る。カメラは真横から固定で、少年の横顔と窓の外の青空だけを映し続ける",
+                  "detail": "机の端に置かれた進路希望調査票——白紙のまま、四つ折りにされてセロテープで封をされている",
+                  "question": "彼は昨夜、あの調査票に何かを書いて、なぜ封をしたのか——開けるつもりがないのか、それとも誰かに渡すつもりなのか",
+                  "when": "「でもそれでも生きていたい」の直後、サビ落ち——bpm133のビートが一瞬だけ抜けるような静寂のタイミング"
+                }
+              }
+            ]
+          }
+        ],
+        "diversity_metrics": {
+          "proposal_count": 3,
+          "pair_count": 3,
+          "overlap_pairs": 3,
+          "overlap_rate": 1.0,
+          "subject_distribution": {
+            "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。": 1,
+            "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。": 1,
+            "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。": 1
+          },
+          "unique_subject_count": 3,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-bd8fd017": 491,
+            "persona-aa543b71": 447,
+            "persona-536670e0": 535
+          },
+          "eligible_count": 1,
+          "eligible_proposal_ids": [
+            "prop-b9eadcf8"
+          ],
+          "excluded_proposal_ids": [
+            "prop-f698f6b5",
+            "prop-25596453"
+          ],
+          "results": [
+            {
+              "proposal_id": "prop-f698f6b5",
+              "persona_id": "persona-bd8fd017",
+              "theme": "誰にも届かない電波を、今夜も一人で発信し続ける少年の、真剣な道化。",
+              "theme_token_count": 28,
+              "lyrics_anchor_count": 4,
+              "novel_token_count": 24,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "かない",
+                "かない電波",
+                "ける",
+                "ける少年",
+                "し続",
+                "で発信"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "一人",
+                "今夜",
+                "誰にも"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-b9eadcf8",
+              "persona_id": "persona-aa543b71",
+              "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+              "theme_token_count": 36,
+              "lyrics_anchor_count": 1,
+              "novel_token_count": 35,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "14",
+                "える",
+                "える教室",
+                "かが",
+                "かが起",
+                "かに"
+              ],
+              "lyrics_anchor_sample": [
+                "14"
+              ],
+              "persona_novel_sample": [
+                "える"
+              ],
+              "tier": 1,
+              "reasons": []
+            },
+            {
+              "proposal_id": "prop-25596453",
+              "persona_id": "persona-536670e0",
+              "theme": "誰にも見せていない動画の中だけで、少年は本当に美しかった——その瞬間を、世界がはじめて目撃する夜。",
+              "theme_token_count": 32,
+              "lyrics_anchor_count": 7,
+              "novel_token_count": 25,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "がはじめて",
+                "がはじめて目撃",
+                "しかった",
+                "しかったその",
+                "する夜",
+                "せていない"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "にも見",
+                "の中",
+                "世界",
+                "動画",
+                "本当"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos"
+      }
+    }
+  },
+  "current_phase": "phase1",
+  "qc_retry_count": 0,
+  "errors": {},
+  "core_concept": {
+    "creative_seed": "persona-aa543b71:94dccb1b",
+    "self_analysis": "俺は口数が少ない。でも黙ってるのは何も感じてないからじゃない。感じすぎて言葉が追いつかないだけだ。14歳の頃の自分を思い出すと、正直あいつのことがよくわからない——遠い他人みたいに見える。それが俺の見方だ。あの時代の感情を今の俺が解釈しようとすると、痛みより先に『可笑しさ』が来る。必死だったな、と。笑えるくらいに真剣だった。俺の回復力は劇的なものじゃなくて、ただ時間が経って振り返ったら『そういうもんだったな』と思えるやつだ。",
+    "what_i_saw": "誰もいない廊下に一台の業務用掃除機が止まっている。その横のゴミ箱に、くしゃくしゃに丸められた紙が一枚。拾って広げると、そこには三角関数の解答用紙——でも答えではなく、余白いっぱいに同じ文字が繰り返し書かれている。誰かの名前か、記号か、判別できない。蛍光灯は半分消えかけて、チカチカしている。",
+    "why_it_came": "歌詞を読んで最初に引っかかったのは『壊れた僕の方が美しい』という行じゃなくて、その直後の沈黙の感触だった。叫んでいるように見えて、実は誰にも聞こえていない声。廊下の掃除機はそのメタファーとして浮かんだ——誰かがいた痕跡だけが残って、当人はいない。進路希望調査票の空欄も同じ構造だ。感情の爆発よりも、その『後』の静けさに俺は目が行く。[起点=lyrics][解釈=痕跡/不在/余韻][トーン=counterpoint]",
+    "theme": "14歳が全力で叫んだ夜の、翌朝の静けさ——何も変わっていないように見える教室に、確かに何かが起きた。",
+    "hook_scene": {
+      "focus": "机の上に置かれた一枚の進路希望調査票——『将来の夢』の欄に、何かが書かれてから消された跡（修正液の白い痕）だけが残っている。本人はフレームの外",
+      "place": "朝のホームルーム直前の教室。窓際の席。外はまだ逆光で、室内の蛍光灯だけが白く光っている",
+      "action": "カメラは机の上の調査票を真上から静止したまま映し続ける。ページが風でわずかに浮き上がり、また落ちる。それだけ",
+      "detail": "修正液の白い矩形の上に、かすかにボールペンの圧痕が残っていて、光の角度によって『YOU』という文字が読めるか読めないか、という瞬間がある",
+      "question": "何が書かれていたのか——そして誰がそれを消したのか、本人か、誰か別の人間か",
+      "when": "2番Aメロ冒頭『進路希望調査票の空欄』の歌詞と完全同期"
+    },
+    "tension_target": 0.7303947368421053
+  },
+  "creative_personas": [
+    {
+      "id": "persona-bd8fd017",
+      "name": "Suphatra Weidmann",
+      "gender": "クエスチョニング",
+      "birthdate": "1951-11-13",
+      "age": 36,
+      "origin_city": "ミュンヘン",
+      "ethnic_background": "東南アジア系",
+      "life_history": [
+        {
+          "year": 1951,
+          "event": "西ドイツ・ミュンヘンにて、タイ人の父とドイツ人の母の間に生まれる。父はミュンヘン大学に留学中の農学研究者だった。"
+        },
+        {
+          "year": 1957,
+          "event": "父の帰国に伴い家族でバンコクへ移住。ミュンヘンでの幼少期に習得したドイツ語を維持するため、毎週土曜日にドイツ人学校の補習クラスに通った。"
+        },
+        {
+          "year": 1965,
+          "event": "バンコクの私立中学校を卒業後、奨学金を得てシンガポールの寄宿制高校へ進学。英語・タイ語・ドイツ語の三言語を日常的に使用する環境に置かれた。"
+        },
+        {
+          "year": 1969,
+          "event": "高校卒業後、西ドイツへ渡航しミュンヘン工科大学の工学部に入学。機械工学を専攻し、初年度から工作機械の研究室に配属された。"
+        },
+        {
+          "year": 1972,
+          "event": "大学在学中に自動車部品メーカーのインターンシップへ参加し、エンジン冷却系の試作設計に携わった。同年、大学の国際学生会で事務局長を務めた。"
+        },
+        {
+          "year": 1975,
+          "event": "工学部を修了後、ミュンヘン郊外の精密機器メーカーに正社員として入社。生産ラインの設備保全部門に配属された。"
+        },
+        {
+          "year": 1979,
+          "event": "社内公募で海外事業開発チームへ異動し、マレーシア・クアラルンプールへの工場設立プロジェクトに参加。現地視察のため年間で延べ8か月を東南アジアで過ごした。"
+        },
+        {
+          "year": 1984,
+          "event": "クアラルンプール支社の立ち上げ責任者としてマレーシアへ赴任。現地採用スタッフ12名の研修体制を整備し、翌年には量産ラインの稼働を実現した。"
+        },
+        {
+          "year": 1987,
+          "event": "マレーシア永住権の申請手続きを開始。クアラルンプール市内のコンドミニアムを購入し、拠点を正式にドイツからマレーシアへ移した。"
+        }
+      ],
+      "current_situation": "1988年現在、クアラルンプール市内のコンドミニアムに単身で居住している。精密機器メーカーのマレーシア支社において現地法人の運営管理職を務めており、週の大半を工場と事務所で過ごしている。業務の傍ら、夜間の経営学講座に週二回通い始めた。タイ・ドイツ・マレーシアにそれぞれ親族や旧知の知人が点在しており、年に数回それらの国を訪問している。",
+      "external_perception": {
+        "first_impression": "物静かで礼儀正しく、どこの国の人か判断しにくいと言われることが多い。",
+        "close_friends_view": "次の計画や行動の話ばかりで、過去の苦労をほとんど語らない人物だと見られている。",
+        "misunderstandings": "無口で感情を出さないように見えるため、周囲の意見に関心がないと誤解されることがある。"
+      },
+      "stance_on_past": "あまり振り返らず前を向いている"
+    },
+    {
+      "id": "persona-aa543b71",
+      "name": "Graham Fletcher",
+      "gender": "男性",
+      "birthdate": "1981-11-06",
+      "origin_city": "ブリスベン",
+      "ethnic_background": "欧州系",
+      "life_history": [
+        {
+          "year": 1981,
+          "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+        },
+        {
+          "year": 1999,
+          "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+        },
+        {
+          "year": 2004,
+          "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+        },
+        {
+          "year": 2008,
+          "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+        },
+        {
+          "year": 2010,
+          "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+        },
+        {
+          "year": 2015,
+          "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+        },
+        {
+          "year": 2019,
+          "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+        },
+        {
+          "year": 2023,
+          "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+        }
+      ],
+      "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+      "external_perception": {
+        "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+        "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+        "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+      },
+      "proposal_history": [
+        {
+          "session": "phase2a_new_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "phase2a_new_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "goji_creator_test_v2",
+          "phase": "Phase 1",
+          "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+          "rank": 2,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "goji_creator_test_v2",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 17,
+          "won": false
+        },
+        {
+          "session": "phase2_ref_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+          "rank": 3,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "full_pipeline_test_20260104_154048",
+          "phase": "Phase 1",
+          "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+          "rank": 1,
+          "tally": 6,
+          "won": true
+        },
+        {
+          "session": "full_pipeline_test_20260104_154048",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 2,
+          "tally": 6,
+          "won": false
+        }
+      ],
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    },
+    {
+      "id": "persona-536670e0",
+      "name": "プリヤンカ・ナイール",
+      "gender": "女性",
+      "birthdate": "9245-05-07",
+      "age": 57,
+      "origin_city": "高雄",
+      "ethnic_background": "南アジア系",
+      "life_history": [
+        {
+          "year": 9250,
+          "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+        },
+        {
+          "year": 9263,
+          "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+        },
+        {
+          "year": 9267,
+          "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+        },
+        {
+          "year": 9270,
+          "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+        },
+        {
+          "year": 9278,
+          "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+        },
+        {
+          "year": 9286,
+          "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+        },
+        {
+          "year": 9295,
+          "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+        },
+        {
+          "year": 9301,
+          "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+        }
+      ],
+      "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+      "external_perception": {
+        "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+        "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+        "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+      },
+      "stance_on_past": "まだ傷として残っている",
+      "proposal_history": [
+        {
+          "session": "20260118_040633",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 1,
+          "tally": 21,
+          "won": true
+        }
+      ]
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-aa543b71",
+    "name": "Graham Fletcher",
+    "gender": "男性",
+    "birthdate": "1981-11-06",
+    "origin_city": "ブリスベン",
+    "ethnic_background": "欧州系",
+    "life_history": [
+      {
+        "year": 1981,
+        "event": "ブリスベン郊外の公営住宅で、建設作業員の父とスーパーマーケット店員の母のもとに生まれた。"
+      },
+      {
+        "year": 1999,
+        "event": "高校卒業後、地元の配管工見習いとして就職。週4日は現場作業、週1日は職業訓練校に通った。"
+      },
+      {
+        "year": 2004,
+        "event": "配管工の資格を取得し、独立を目指して小規模な設備会社に転職。3年間で顧客リストを構築した。"
+      },
+      {
+        "year": 2008,
+        "event": "金融危機の影響で勤務先が倒産。失業保険を受給しながら日雇い労働を繰り返す日々が1年半続いた。"
+      },
+      {
+        "year": 2010,
+        "event": "大手建設会社の下請け業者として再就職。商業ビルや学校の配管工事に従事し、安定した収入を得るようになった。"
+      },
+      {
+        "year": 2015,
+        "event": "職場の同僚の紹介で知り合った看護師と結婚。ブリスベン近郊のローガン市に中古住宅を購入した。"
+      },
+      {
+        "year": 2019,
+        "event": "長男が誕生。妻の産休中は残業を増やして家計を支えた。週末は義理の両親に子守を頼むことが多かった。"
+      },
+      {
+        "year": 2023,
+        "event": "勤続13年で現場監督に昇進。5人のチームを率いて大型商業施設の改修プロジェクトを担当している。"
+      }
+    ],
+    "current_situation": "ローガン市の住宅地で妻と5歳の息子と暮らしている。平日は朝6時に家を出て建設現場に向かい、夕方6時頃帰宅する。週末は息子を近所の公園に連れて行くか、自宅の庭の手入れをすることが多い。住宅ローンの返済はあと18年残っており、妻はパートタイムで復職している。月に一度、職場の同僚と地元のパブでビールを飲む。",
+    "external_perception": {
+      "first_impression": "物静かで真面目そうな印象を与える。作業服姿が板についており、職人気質が外見からも伝わる。",
+      "close_friends_view": "困った時には黙って手を貸してくれる頼れる存在。自分の苦労話はあまりしないが、聞き上手で相談しやすい。",
+      "misunderstandings": "無口で社交的でないように見られがちだが、実際には少人数の集まりでは饒舌になる。仕事一筋で家庭を顧みないタイプだと誤解されることもある。"
+    },
+    "proposal_history": [
+      {
+        "session": "phase2a_new_v1",
+        "phase": "Phase 1",
+        "my_proposal_summary": "毎朝同じ道を通う男の、繰り返しの中に刻まれた人生の軌跡。誰も見ていない瞬間に、過去と未来が重なり続けている。",
+        "rank": 0,
+        "tally": 0,
+        "won": false
+      },
+      {
+        "session": "phase2a_new_v1",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: 45歳の自分（今朝、作業服を着て車に乗り込む姿） / 場所: ローガン市の自宅から職場への通勤路（片側一車線の州道、朝日が正面から差し込む東向きの道）",
+        "rank": 0,
+        "tally": 0,
+        "won": false
+      },
+      {
+        "session": "goji_creator_test_v2",
+        "phase": "Phase 1",
+        "my_proposal_summary": "繰り返しの中でだけ存在できる、誰かの呼吸",
+        "rank": 2,
+        "tally": 5,
+        "won": false
+      },
+      {
+        "session": "goji_creator_test_v2",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 3,
+        "tally": 17,
+        "won": false
+      },
+      {
+        "session": "phase2_ref_test_v1",
+        "phase": "Phase 1",
+        "my_proposal_summary": "誰かの呼吸が聞こえないと、自分の輪郭も消えてしまう人間の、存在確認の儀式",
+        "rank": 3,
+        "tally": 5,
+        "won": false
+      },
+      {
+        "session": "full_pipeline_test_20260104_154048",
+        "phase": "Phase 1",
+        "my_proposal_summary": "誰かが帰ってくるまで、同じ場所で同じ動作を繰り返すことでしか時間を耐えられない人間の、儀式的な待機",
+        "rank": 1,
+        "tally": 6,
+        "won": true
+      },
+      {
+        "session": "full_pipeline_test_20260104_154048",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: ? / 場所: ?",
+        "rank": 2,
+        "tally": 6,
+        "won": false
+      }
+    ],
+    "stance_on_past": "他人事のように距離を置いて見ている"
+  }
+}

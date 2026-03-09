@@ -1,0 +1,169 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-4095071d",
+      "persona_id": "persona-4cc4afe4",
+      "content": {
+        "phase1_base": "巫女",
+        "phase2_condition": "四本角・分節胴体",
+        "phase3_anchor": "額の刻印",
+        "subject_concept": "四本角と分節胴体を持つ巫女",
+        "subject_signature": "額の刻印",
+        "character_profile": {
+          "appearance_profile": "頭部に四本の角が生え、胴体が複数の節で構成されている。額には幾何学的な刻印が刻まれている。",
+          "motion_profile": "分節された胴体を滑らかに屈曲させながら移動する。"
+        }
+      },
+      "created_at": "2026-02-16 03:44:05.220875"
+    },
+    {
+      "proposal_id": "sl2a-e042e04b",
+      "persona_id": "persona-42d8f602",
+      "content": {
+        "phase1_base": "ワニ",
+        "phase2_condition": "蛇腹関節・縦長の瞳",
+        "phase3_anchor": "鉄の仮面",
+        "subject_concept": "蛇腹関節を持つ縦長瞳のワニ",
+        "subject_signature": "鉄の仮面",
+        "character_profile": {
+          "appearance_profile": "胴体と四肢に蛇腹状の関節を持ち、縦長の瞳が覗く。顔全体を覆う鉄の仮面は目の部分だけが開いている。",
+          "motion_profile": "蛇腹関節が伸縮するたび、仮面の奥で縦長の瞳が左右に揺れる。"
+        }
+      },
+      "created_at": "2026-02-16 03:44:14.199832"
+    },
+    {
+      "proposal_id": "sl2a-afac7da3",
+      "persona_id": "persona-de0bd179",
+      "content": {
+        "phase1_base": "蜂",
+        "phase2_condition": "多関節脚・長い指",
+        "phase3_anchor": "鎖の首輪",
+        "subject_concept": "多関節脚と長い指を持つ蜂",
+        "subject_signature": "鎖の首輪",
+        "character_profile": {
+          "appearance_profile": "蜂の胴体に多関節脚が生え、先端に人間のような長い指が付いている。首には鎖の首輪が巻かれている。",
+          "motion_profile": "長い指を開閉させながら多関節脚を屈伸させて移動する。"
+        }
+      },
+      "created_at": "2026-02-16 03:44:22.602698"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-4095071d",
+      "B": "sl2a-e042e04b",
+      "C": "sl2a-afac7da3"
+    },
+    "tally": {
+      "A": 7,
+      "B": 6,
+      "C": 7
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "votes": [
+      {
+        "voter": "Kim Soo-min",
+        "like": "C",
+        "like_reason": "蜂と多関節脚の組み合わせが不気味だけど美しそう。鎖の首輪に物語性を感じる。学校で話題になりそう。",
+        "dislike": "B",
+        "dislike_reason": "ワニに鉄の仮面は怖すぎて見ていられない。悪夢に出てきそう。"
+      },
+      {
+        "voter": "Amara Osei",
+        "like": "A",
+        "like_reason": "巫女という精神性のあるモチーフに惹かれる。額の刻印が運命や責任を象徴していそうで共感できる。",
+        "dislike": "C",
+        "dislike_reason": "蜂と鎖の首輪の組み合わせが抑圧的で見ていて息苦しい。今の生活で十分重荷を感じているので避けたい。"
+      },
+      {
+        "voter": "たなか りさ",
+        "like": "C",
+        "like_reason": "蜂の多関節脚と長い指が動きとして面白そう。スイミングで体の動きを研究しているので、非人間的な動作に興味がある。",
+        "dislike": "A",
+        "dislike_reason": "巫女は学校の歴史で習ったけど、四本角と分節胴体の組み合わせがイメージしにくくて退屈そう。"
+      },
+      {
+        "voter": "Élise Beaumont",
+        "like": "A",
+        "like_reason": "巫女というテーマに知的な深みと文化的背景を感じる。額の刻印が象徴として洗練されている。静謐な美しさがある。",
+        "dislike": "B",
+        "dislike_reason": "ワニと鉄の仮面は攻撃的で粗野な印象。蛇腹関節という機械的な要素も美的に洗練されていない。"
+      },
+      {
+        "voter": "Marisol Vargas",
+        "like": "B",
+        "like_reason": "ワニの蛇腹関節と縦長の瞳という機械的・生物的ハイブリッドがエンジニアとして興味深い。鉄の仮面に力強さを感じる。",
+        "dislike": "A",
+        "dislike_reason": "巫女は伝統的すぎて新鮮味がない。四本角と分節胴体の組み合わせも技術的な面白みに欠ける。"
+      },
+      {
+        "voter": "김태준 (Kim Tae-jun)",
+        "like": "A",
+        "like_reason": "巫女の神聖さと額の刻印という象徴性が、伝統的な価値観に共鳴する。精神性を重んじる世代として惹かれる。",
+        "dislike": "B",
+        "dislike_reason": "ワニに鉄の仮面という組み合わせが暴力的で不穏。穏やかな日常を好む今の生活に合わない。"
+      },
+      {
+        "voter": "Priya Okonkwo",
+        "like": "C",
+        "like_reason": "蜂の勤勉さと多関節という異質な組み合わせが興味深い。自分の複数の仕事を掛け持ちする生活と重なる。",
+        "dislike": "B",
+        "dislike_reason": "鉄の仮面という抑圧的なイメージが、既に制約の多い日々の中で見たくない。"
+      },
+      {
+        "voter": "Rashid ibn Khalil",
+        "like": "B",
+        "like_reason": "ワニの力強さと鉄の仮面の威厳が、商人として必要な強さを象徴している。蛇腹関節の柔軟性も商売に通じる。",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪は奴隷や囚人を連想させ、自由な商業活動を阻む不吉な印象がある。"
+      },
+      {
+        "voter": "Lucía Fernández",
+        "like": "C",
+        "like_reason": "蜂の組織性と長い指の精密さが、会計業務の正確さと効率性を想起させる。現代的で洗練された印象。",
+        "dislike": "A",
+        "dislike_reason": "巫女や刻印といった神秘的要素が古臭く、自分の合理的な仕事観と相容れない。"
+      },
+      {
+        "voter": "Graham Fletcher",
+        "like": "A",
+        "like_reason": "巫女の保護的なイメージと四本角の独特さが、家族を守る自分の役割と響き合う。息子が喜びそうな不思議さもある。",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪が束縛や制約を感じさせ、週末の自由な時間を大切にする自分には合わない。"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "A",
+        "like_reason": "額の刻印という一点集中の記号性が強く、巫女の神聖性と分節胴体の異形性のコントラストが映像で際立つ",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪は「束縛」の記号として安易で、蜂+多関節+長指で既に異形性が飽和しているのに更に記号を追加する過剰設計"
+      }
+    ],
+    "analysis": "[batch 1] Cが若年層(Kim, たなか)から支持され、動きや視覚的インパクトが評価された。Aは中高年層(Amara, Élise)が精神性と象徴性を評価。Bは賛否が分かれ、Marisolのみが技術的興味で支持したが、他の投票者は暴力性や粗野さを理由に忌避した。年齢層と価値観の違いが明確に現れた投票結果となった。\n[batch 2] Aは伝統・精神性を重視する層から支持され、Cは現代的・実務的な価値観を持つ層に響いている。Bは力強さを評価する一方、鉄の仮面の抑圧性が複数から忌避された。世代・職業・生活環境が投票傾向を明確に分けている。",
+    "is_tiebreak": true,
+    "tiebreak_reason": null,
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "A",
+      "like_reason": "額の刻印という一点集中の記号性が強く、巫女の神聖性と分節胴体の異形性のコントラストが映像で際立つ",
+      "dislike": "C",
+      "dislike_reason": "鎖の首輪は「束縛」の記号として安易で、蜂+多関節+長指で既に異形性が飽和しているのに更に記号を追加する過剰設計"
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-3bf635a1",
+      "persona_id": "persona-d330a2c5",
+      "content": {
+        "phase1_base": "忍者",
+        "phase2_condition": "球体関節・八本足",
+        "phase3_anchor": "鉄の仮面",
+        "subject_concept": "球体関節と八本足を持つ忍者",
+        "subject_signature": "鉄の仮面",
+        "character_profile": {
+          "appearance_profile": "球体関節で繋がった胴体と四肢を持ち、腰から八本の細い足が生えている。顔全体を覆う鉄の仮面には小さな穴が複数開いている。",
+          "motion_profile": "八本の足を同時に動かして壁面を這い上がり、球体関節が軋む音を立てながら不規則な軌道で跳躍する。"
+        }
+      },
+      "created_at": "2026-02-13 17:36:26.919340"
+    },
+    {
+      "proposal_id": "sl2a-3283f9b6",
+      "persona_id": "persona-5caf3621",
+      "content": {
+        "phase1_base": "孔雀",
+        "phase2_condition": "箱型胴体・細い瞳",
+        "phase3_anchor": "背中の盾",
+        "subject_concept": "箱型胴体と細い瞳を持つ孔雀",
+        "subject_signature": "背中の盾",
+        "character_profile": {
+          "appearance_profile": "胴体部分が箱型の構造体で構成され、細く鋭い瞳孔を持つ孔雀。背中に金属製の盾を装着している。",
+          "motion_profile": "箱型胴体を軸に首を伸ばし、背中の盾を左右に揺らしながら歩行する。"
+        }
+      },
+      "created_at": "2026-02-13 17:36:43.008579"
+    },
+    {
+      "proposal_id": "sl2a-3cabd8fb",
+      "persona_id": "persona-c4dc6019",
+      "content": {
+        "phase1_base": "鮫",
+        "phase2_condition": "背ビレ・硬い肌",
+        "phase3_anchor": "腰の鎖",
+        "subject_concept": "背ビレと硬い肌を持つ鮫",
+        "subject_signature": "腰の鎖",
+        "character_profile": {
+          "appearance_profile": "背中に鋭い背ビレが連なり、全身が硬い肌で覆われた鮫。腰には金属の鎖が巻きついている。",
+          "motion_profile": "背ビレを左右に揺らしながら、腰の鎖を引きずるように移動する。"
+        }
+      },
+      "created_at": "2026-02-13 17:37:00.445941"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-3bf635a1",
+      "B": "sl2a-3283f9b6",
+      "C": "sl2a-3cabd8fb"
+    },
+    "tally": {
+      "A": 6,
+      "B": 8,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 2,
+      "B": 4,
+      "C": 4
+    },
+    "votes": [
+      {
+        "voter": "陳素華 (Chen Su-hua)",
+        "like": "A",
+        "like_reason": "忍者の俊敏さと鉄の仮面の神秘性が、貿易業務で培った異文化への好奇心を刺激する。球体関節の機構も興味深い。",
+        "dislike": "C",
+        "dislike_reason": "鮫と鎖の組み合わせが攻撃的で、日々の穏やかな事務作業の価値観と合わない。"
+      },
+      {
+        "voter": "Rajendra Iyer",
+        "like": "B",
+        "like_reason": "孔雀はインド文化で尊ばれる鳥であり、箱型胴体と背中の盾という構造的な要素が実務家として理解しやすい。",
+        "dislike": "C",
+        "dislike_reason": "鮫の荒々しさと腰の鎖という束縛的なイメージが、秩序ある商業活動を重んじる価値観に反する。"
+      },
+      {
+        "voter": "Eulàlia Ribas",
+        "like": "B",
+        "like_reason": "孔雀の華やかさは絹織物商の娘として親しみがあり、細い瞳の優雅さと背中の盾の装飾性が魅力的。",
+        "dislike": "A",
+        "dislike_reason": "忍者という暗殺者のイメージと八本足の不気味さが、社交的な日常生活に馴染まない。"
+      },
+      {
+        "voter": "Graham Fletcher",
+        "like": "A",
+        "like_reason": "忍者のかっこよさは息子も喜びそうで、鉄の仮面の力強さが建設現場で働く自分の価値観と合う。",
+        "dislike": "B",
+        "dislike_reason": "孔雀は派手すぎて実用的でなく、箱型胴体という設定も現実的な感覚から遠い。"
+      },
+      {
+        "voter": "陳 永輝",
+        "like": "C",
+        "like_reason": "鮫の生命力と硬い肌の実用性、腰の鎖という歴史的なモチーフが、長年の移民経験で培った現実主義と共鳴する。",
+        "dislike": "B",
+        "dislike_reason": "孔雀の装飾性は過剰で、細い瞳や背中の盾といった要素が教育者として求める簡潔さに欠ける。"
+      },
+      {
+        "voter": "ミン・チェン",
+        "like": "A",
+        "like_reason": "忍者という文化的アイコンに親近感があり、鉄の仮面という神秘的な要素が興味深い。球体関節と八本足の組み合わせも視覚的に興味を引く。",
+        "dislike": "C",
+        "dislike_reason": "鮫に腰の鎖という組み合わせが理解しづらく、背ビレと硬い肌だけでは新鮮味に欠ける。全体的に地味な印象。"
+      },
+      {
+        "voter": "たなか りさ",
+        "like": "B",
+        "like_reason": "孔雀がきれいで好き。箱型胴体と細い瞳という不思議な組み合わせが面白そう。背中の盾もかっこいい。",
+        "dislike": "C",
+        "dislike_reason": "鮫は怖いイメージがあるし、腰の鎖とか背ビレとか全体的に暗くて重そう。あまり見たくない。"
+      },
+      {
+        "voter": "Youssef Tanaka",
+        "like": "A",
+        "like_reason": "忍者はゲームやアニメでよく見るからかっこいい。八本足で動く忍者とか面白そう。鉄の仮面も強そう。",
+        "dislike": "B",
+        "dislike_reason": "孔雀は派手すぎて男っぽくない。箱型胴体とか意味がわからないし、盾も地味。"
+      },
+      {
+        "voter": "かわむら ゆうき",
+        "like": "C",
+        "like_reason": "鮫のシャープなフォルムが好み。硬い肌と背ビレという現実的な特徴に腰の鎖という異質な要素が加わる対比が興味深い。",
+        "dislike": "B",
+        "dislike_reason": "孔雀に箱型胴体という組み合わせが違和感しかない。細い瞳も不気味で、全体的にちぐはぐな印象が強い。"
+      },
+      {
+        "voter": "たなか ふみこ",
+        "like": "B",
+        "like_reason": "孔雀は縁起が良く美しい鳥。背中の盾という守りの要素に安心感がある。細い瞳は少し気になるが、全体的に優雅な印象。",
+        "dislike": "A",
+        "dislike_reason": "八本足の忍者という組み合わせが不気味で落ち着かない。球体関節も人形のようで生々しく、あまり見たくない。"
+      }
+    ],
+    "analysis": "[batch 1] 5人の投票は文化背景と職業で明確に分かれた。インド・スペイン系の商業従事者は孔雀(B)の装飾性を支持し、中国系事務職と労働者階級は忍者(A)の機能美を、退職教育者は鮫(C)の実用性を選んだ。鮫(C)は3票のdislikeを集め、攻撃性と束縛のイメージが幅広く忌避された。\n[batch 2] 年齢や背景によって好みが明確に分かれた。若年層（中学生）と中年層では忍者や孔雀といった文化的イメージへの反応が異なり、Cは硬派な印象が一部に支持されたものの、全体的には地味で魅力に欠けると評価された。Bは美的要素で高齢者と若年女性の支持を集めたが、違和感を指摘する声も多い。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

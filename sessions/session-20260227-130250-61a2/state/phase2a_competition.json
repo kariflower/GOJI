@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-72a5699d",
+      "persona_id": "persona-6f997e33",
+      "content": {
+        "phase1_base": "巫女",
+        "phase2_condition": "扁平胴体・露出関節",
+        "phase3_anchor": "口枷",
+        "subject_concept": "扁平胴体と露出関節を持つ巫女",
+        "subject_signature": "口枷",
+        "character_profile": {
+          "appearance_profile": "胴体が板状に薄く潰れた構造で、肩・肘・膝の関節部が皮膚から突出している。顔の下半分を金属製の口枷が覆い、固定されている。",
+          "motion_profile": "扁平な胴体をほぼ動かさず、露出した関節だけが先行して動くような、節のある動き方をする。"
+        }
+      },
+      "created_at": "2026-02-27 04:06:06.459117"
+    },
+    {
+      "proposal_id": "sl2a-8aecba40",
+      "persona_id": "persona-129b4411",
+      "content": {
+        "phase1_base": "鷺",
+        "phase2_condition": "横長の瞳・長い指",
+        "phase3_anchor": "牙の首飾り",
+        "subject_concept": "横長の瞳と長い指を持つ鷺",
+        "subject_signature": "牙の首飾り",
+        "character_profile": {
+          "appearance_profile": "横長の瞳が顔の中央で鋭く光り、異様に長い指が羽根の縁から伸びる。首元には大粒の牙を連ねた首飾りが揺れる。",
+          "motion_profile": "長い指をゆっくり広げるたびに牙の首飾りが鳴り、横長の瞳が動体を捉えて微動だにしない。"
+        }
+      },
+      "created_at": "2026-02-27 04:06:43.717696"
+    },
+    {
+      "proposal_id": "sl2a-a2ffa76b",
+      "persona_id": "persona-bf06ecbf",
+      "content": {
+        "phase1_base": "ヒドラ",
+        "phase2_condition": "扁平頭・霜肌",
+        "phase3_anchor": "角の冠",
+        "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+        "subject_signature": "角の冠",
+        "character_profile": {
+          "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+          "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+        }
+      },
+      "created_at": "2026-02-27 04:06:52.057599"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-72a5699d",
+      "B": "sl2a-8aecba40",
+      "C": "sl2a-a2ffa76b"
+    },
+    "tally": {
+      "A": 6,
+      "B": 6,
+      "C": 8
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 1,
+      "C": 6
+    },
+    "votes": [
+      {
+        "voter": "Lina Tan Wei Ling",
+        "like": "B",
+        "like_reason": "鷺の優雅さと横長の瞳・長い指という異形の組み合わせが、東南アジアの神話的存在を連想させ、翻訳者として異文化の象徴に惹かれる。",
+        "dislike": "C",
+        "dislike_reason": "ヒドラ＋扁平頭・霜肌は攻撃的すぎて、日常の疲れを癒すビジュアルを求める自分には重すぎる。"
+      },
+      {
+        "voter": "かわさき あやの",
+        "like": "A",
+        "like_reason": "巫女という和の原型に口枷という異物が組み合わさる緊張感が、帰国子女として日本文化を外側から見てきた自分の感覚と共鳴する。",
+        "dislike": "C",
+        "dislike_reason": "ヒドラ系の禍々しさより、もう少し人間的な輪郭のあるキャラクターが好みで、霜肌という質感も生理的に受け付けない。"
+      },
+      {
+        "voter": "Rodrigo Bautista Serrano",
+        "like": "C",
+        "like_reason": "角の冠と霜肌は海を渡った先で見聞きした北方の怪物譚を思い起こさせ、老齢の自分には馴染み深い神話的重厚さがある。",
+        "dislike": "A",
+        "dislike_reason": "巫女に口枷という組み合わせは、宗教的敬意を損なうように映り、信仰を重んじる自分には不快に感じられる。"
+      },
+      {
+        "voter": "ゆうき",
+        "like": "B",
+        "like_reason": "鷺という知的で静的な生き物に牙の首飾りという矛盾した要素が加わる構造的な面白さが、論理的に物を考える癖のある自分には刺さる。",
+        "dislike": "A",
+        "dislike_reason": "扁平胴体・露出関節という身体描写と口枷の組み合わせは過剰に感じられ、将棋指導で培った「無駄を削ぐ」美意識に反する。"
+      },
+      {
+        "voter": "Alex Dubois",
+        "like": "B",
+        "like_reason": "鷺＋横長の瞳・長い指はゲストハウスに来る欧州系旅行者が好むダークファンタジーの美意識に近く、ビジュアルとして映えると直感した。",
+        "dislike": "C",
+        "dislike_reason": "ヒドラ・扁平頭・霜肌はホラー寄りすぎて、宿泊客に勧めたくなるような楽しい映像にはなりにくいと感じる。"
+      },
+      {
+        "voter": "陳素華 (Chen Su-hua)",
+        "like": "B",
+        "like_reason": "鷺は中国文化でも馴染みのある鳥で、横長の瞳や長い指という細部の美しさに惹かれる。牙の首飾りというアクセントも異国の港町で培った審美眼に合う。",
+        "dislike": "C",
+        "dislike_reason": "ヒドラの扁平頭・霜肌という組み合わせは不吉な印象が強く、貿易の縁起を重んじる感覚として敬遠したい。"
+      },
+      {
+        "voter": "Jean-Baptiste Whitehorse",
+        "like": "C",
+        "like_reason": "ヒドラという複数の頭を持つ存在と霜肌・角の冠という組み合わせは機械部品の複雑な構造を連想させて面白い。壊れたものを直す視点から、こういう異形の美に惹かれる。",
+        "dislike": "A",
+        "dislike_reason": "巫女に口枷というのは拘束のイメージが強すぎて居心地が悪い。修理作業の合間に眺めるには重たすぎる。"
+      },
+      {
+        "voter": "Eulàlia Ribas",
+        "like": "A",
+        "like_reason": "巫女という聖なる存在と口枷という世俗的な抑圧の対比は、女性の置かれた立場を語っているようで胸に刺さる。絹の質感を扱う者として扁平胴体・露出関節の造形美も気になる。",
+        "dislike": "C",
+        "dislike_reason": "ヒドラの霜肌と角の冠は冷たすぎて、市場の活気や人の温もりとかけ離れた世界に感じる。"
+      },
+      {
+        "voter": "Lakshmi Fernandes",
+        "like": "B",
+        "like_reason": "鷺は水辺の市場でよく見る鳥で親しみがある。牙の首飾りは香辛料の市場で見かける護符や装飾品を思わせ、長い指という特徴も魚を扱う手を連想させて生き生きしている。",
+        "dislike": "C",
+        "dislike_reason": "霜肌というのは熱帯の市場で生きる者には遠すぎる感覚で、どうにも実感が湧かない。角の冠も仕入れ交渉の相手として会いたくない風貌だ。"
+      },
+      {
+        "voter": "みずき",
+        "like": "A",
+        "like_reason": "巫女×口枷という組み合わせはSNSのイラストでよく見るやつで普通に好き。扁平胴体・露出関節もデザインとして映えそうで推せる。",
+        "dislike": "B",
+        "dislike_reason": "鷺をベースにした横長の瞳・長い指ってちょっと不気味系すぎてホラーっぽい。夜の仕事終わりに見たくないかも。"
+      }
+    ],
+    "analysis": "[batch 1] B（鷺・横長の瞳・牙の首飾り）が3票のlikeを集め最も支持が高く、異文化的な優雅さと知的な矛盾構造が幅広いペルソナに響いた。C（ヒドラ・霜肌・角の冠）は唯一Rodrigoのみがlikeを投じたが、他の4人からdislikeを受け最も不人気で、重厚・禍々しすぎるという評価が共通した。A（巫女・口枷）はayanoが強く支持した一方、宗教的不快感や過剰さを理由にdislikeも集まり二極化した。\n[batch 2] BとAが2票ずつlikeを獲得し拮抗した。Cはlikeが1票（Jean-Baptiste）にとどまり、dislikeでは3票を集めて最も不評だった。Cの「冷たさ・不吉さ・遠さ」が多様な文化的背景を持つ投票者に共通して引っかかった一方、Aの「聖と抑圧の対比」はEulàliaやみずきの感性に刺さり、Bの「親しみある生物モチーフ＋装飾美」は陳素華とLakshmiの実生活感覚に訴えた。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-5aaa2032",
+      "persona_id": "persona-4b4b8838",
+      "content": {
+        "phase1_base": "甲冑兵",
+        "phase2_condition": "蛇腹関節・短い尾",
+        "phase3_anchor": "背中の機械",
+        "subject_concept": "蛇腹関節と短い尾を持つ甲冑兵",
+        "subject_signature": "背中の機械",
+        "character_profile": {
+          "appearance_profile": "肘と膝に蛇腹状の金属関節を持ち、腰から短い尾が伸びる甲冑兵。背中には歯車とパイプで構成された機械装置が取り付けられている。",
+          "motion_profile": "蛇腹関節が伸縮するたびに金属音を立て、尾は常に左右に小刻みに揺れ続ける。"
+        }
+      },
+      "created_at": "2026-02-15 15:27:17.791630"
+    },
+    {
+      "proposal_id": "sl2a-3e46d2ed",
+      "persona_id": "persona-7afe683b",
+      "content": {
+        "phase1_base": "イルカ",
+        "phase2_condition": "巨大な頭・細い口",
+        "phase3_anchor": "額の刻印",
+        "subject_concept": "巨大な頭と細い口を持つイルカ",
+        "subject_signature": "額の刻印",
+        "character_profile": {
+          "appearance_profile": "頭部が胴体の二倍近い大きさで、口先は極端に細く尖っている。額の中央には複雑な幾何学模様の刻印が刻まれている。",
+          "motion_profile": "巨大な頭を左右にゆっくり振りながら、細い口先で水中の何かを探るように動く。"
+        }
+      },
+      "created_at": "2026-02-15 15:27:26.229276"
+    },
+    {
+      "proposal_id": "sl2a-1f568289",
+      "persona_id": "persona-6d7657b0",
+      "content": {
+        "phase1_base": "鷲",
+        "phase2_condition": "細い指・長い指",
+        "phase3_anchor": "鉄の仮面",
+        "subject_concept": "細く長い指を持つ鷲",
+        "subject_signature": "鉄の仮面",
+        "character_profile": {
+          "appearance_profile": "細く長い指を持つ鷲で、顔面全体を覆う鉄の仮面を着けている。指は通常の鳥類より著しく細く、関節が多く見える。",
+          "motion_profile": "細い指を一本ずつ折り曲げる動作を繰り返す。"
+        }
+      },
+      "created_at": "2026-02-15 15:27:36.109956"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-5aaa2032",
+      "B": "sl2a-3e46d2ed",
+      "C": "sl2a-1f568289"
+    },
+    "tally": {
+      "A": 7,
+      "B": 8,
+      "C": 5
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "votes": [
+      {
+        "voter": "Eulàlia Ribas",
+        "like": "A",
+        "like_reason": "甲冑の装飾性と職人技に親しみがある。絹織物店で扱う細工物との共通性を感じる",
+        "dislike": "B",
+        "dislike_reason": "海の生物は内陸のバルセロナ旧市街では馴染みが薄く、想像しにくい"
+      },
+      {
+        "voter": "Élise Beaumont",
+        "like": "C",
+        "like_reason": "鷲の優雅さと鉄の仮面という対比が知的で興味深い。読書好きとして象徴性に惹かれる",
+        "dislike": "A",
+        "dislike_reason": "甲冑兵は軍事的で攻撃的な印象が強く、平和な日常を好む性格に合わない"
+      },
+      {
+        "voter": "かわぐち けんた",
+        "like": "B",
+        "like_reason": "イルカのフォルムはシンプルで親しみやすい。額の刻印というSF要素も面白そう",
+        "dislike": "C",
+        "dislike_reason": "鷲に鉄の仮面は威圧的で近寄りがたい。細い指という描写も不気味に感じる"
+      },
+      {
+        "voter": "Alex Dubois",
+        "like": "A",
+        "like_reason": "甲冑兵の機械的な背中というビジュアルが強烈で記憶に残る。ゲストとの話題にしやすい",
+        "dislike": "B",
+        "dislike_reason": "イルカベースは可愛らしすぎて印象が弱い。巨大な頭という特徴も地味"
+      },
+      {
+        "voter": "Абрам Петрович Ганнибал",
+        "like": "A",
+        "like_reason": "軍人としての経験から甲冑の構造に関心がある。蛇腹関節は工学的に興味深い機構",
+        "dislike": "B",
+        "dislike_reason": "イルカは軟弱な印象。内陸の領地で暮らす身には海洋生物への関心が乏しい"
+      },
+      {
+        "voter": "Kim Soo-min",
+        "like": "C",
+        "like_reason": "鷲と鉄の仮面の組み合わせがかっこいい。ダークファンタジーっぽくて学校の友達と話題にできそう",
+        "dislike": "A",
+        "dislike_reason": "甲冑兵は普通すぎる。背中の機械も何のためにあるのかよく分からない"
+      },
+      {
+        "voter": "Takoda Whitecrow",
+        "like": "A",
+        "like_reason": "蛇腹関節と短い尾という機能的な構造が実用的で興味深い。倉庫作業の機械を見慣れているせいか親近感がある",
+        "dislike": "B",
+        "dislike_reason": "イルカに巨大な頭と細い口という組み合わせが不気味。海釣りが好きだが、これは見たくない"
+      },
+      {
+        "voter": "林美華",
+        "like": "B",
+        "like_reason": "イルカは穏やかで親しみやすい。額の刻印という神秘的な要素も薬学的なシンボルを連想させて興味深い",
+        "dislike": "C",
+        "dislike_reason": "鷲に鉄の仮面は攻撃的で怖い印象。日常生活で安らぎを求めているので避けたい"
+      },
+      {
+        "voter": "Rami Khoury",
+        "like": "B",
+        "like_reason": "イルカは知的で優しいイメージがある。リハビリの仕事で患者に癒しを提供する立場として共感できる",
+        "dislike": "A",
+        "dislike_reason": "甲冑兵は戦争を連想させて暴力的。植物療法の理念と相反する"
+      },
+      {
+        "voter": "かわさき あやの",
+        "like": "C",
+        "like_reason": "鷲の細く長い指という繊細さと鉄の仮面の硬質さの対比が面白い。ビジネスとプライベートの使い分けに似ている",
+        "dislike": "B",
+        "dislike_reason": "イルカに巨大な頭と細い口というアンバランスさが生理的に受け付けない。デザインとして中途半端"
+      }
+    ],
+    "analysis": "[batch 1] A（甲冑兵）が3票のlikeを獲得し最多。職人的視点・工学的関心・視覚的インパクトという異なる理由で支持された。B（イルカ）は3票のdislikeを集め、「馴染みが薄い」「印象が弱い」という評価。世代や地域を超えて、具体的で技術的な要素が好まれる傾向が見られた。\n[batch 2] Cが2票、Bが2票、Aが1票を獲得。若年層と経験豊富な層でCを支持、ケア職や穏やかな性格の層がBを支持する傾向が見られた。Aは機能性を評価する実務家に支持されたが、戦闘的イメージが敬遠された。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

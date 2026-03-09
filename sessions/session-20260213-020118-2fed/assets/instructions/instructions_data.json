@@ -1,0 +1,3370 @@
+{
+  "meta": {
+    "generated_at": "2026-02-13T04:08:33.831682Z",
+    "version": "mvp-1",
+    "clip_count": 8,
+    "hook_curve_source": "music_analysis.emotional_arc",
+    "media_cache": {
+      "enabled": false,
+      "cache_remote": false,
+      "cache_video": false,
+      "timeout_sec": 20.0,
+      "dir": null,
+      "version": 1
+    }
+  },
+  "timeline": {
+    "min_sec": 0.0,
+    "max_sec": 213.6,
+    "duration_sec": 213.6,
+    "px_per_sec": 24
+  },
+  "sections": [
+    {
+      "section_id": "sec-001",
+      "label": "intro",
+      "start_sec": 0.0,
+      "end_sec": 10.68
+    },
+    {
+      "section_id": "sec-002",
+      "label": "verse1",
+      "start_sec": 10.68,
+      "end_sec": 48.5
+    },
+    {
+      "section_id": "sec-003",
+      "label": "chorus1",
+      "start_sec": 48.5,
+      "end_sec": 80.4
+    },
+    {
+      "section_id": "sec-004",
+      "label": "verse2",
+      "start_sec": 80.4,
+      "end_sec": 112.1
+    },
+    {
+      "section_id": "sec-005",
+      "label": "chorus2",
+      "start_sec": 112.1,
+      "end_sec": 143.3
+    },
+    {
+      "section_id": "sec-006",
+      "label": "bridge",
+      "start_sec": 143.3,
+      "end_sec": 160.2
+    },
+    {
+      "section_id": "sec-007",
+      "label": "verse3",
+      "start_sec": 160.2,
+      "end_sec": 192.24
+    },
+    {
+      "section_id": "sec-008",
+      "label": "outro",
+      "start_sec": 192.24,
+      "end_sec": 213.6
+    }
+  ],
+  "hook_curve": [
+    {
+      "time_sec": 0.0,
+      "arousal": 0.3,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 11.242104157894735,
+      "arousal": 0.3789473684210526,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 22.48420831578947,
+      "arousal": 0.45789473684210524,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 33.72631247368421,
+      "arousal": 0.5368421052631579,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 44.96841663157894,
+      "arousal": 0.6157894736842104,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 56.21052078947368,
+      "arousal": 0.6947368421052631,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 67.45262494736842,
+      "arousal": 0.7578947368421053,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 78.69472910526315,
+      "arousal": 0.7842105263157895,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 89.93683326315788,
+      "arousal": 0.8105263157894737,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 101.17893742105262,
+      "arousal": 0.8368421052631578,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 112.42104157894735,
+      "arousal": 0.8631578947368421,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 123.66314573684211,
+      "arousal": 0.8894736842105263,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 134.90524989473684,
+      "arousal": 0.9157894736842105,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 146.14735405263158,
+      "arousal": 0.9421052631578948,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 157.3894582105263,
+      "arousal": 0.95,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 168.63156236842104,
+      "arousal": 0.95,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 179.87366652631576,
+      "arousal": 0.95,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 191.11577068421053,
+      "arousal": 0.8157894736842104,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 202.35787484210525,
+      "arousal": 0.6578947368421053,
+      "valence": 0.6
+    },
+    {
+      "time_sec": 213.599979,
+      "arousal": 0.4999999999999999,
+      "valence": 0.6
+    }
+  ],
+  "rough_blueprint": {
+    "duration_sec": 213.599979,
+    "core": {
+      "theme": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+      "world": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。",
+      "character": "長い尻尾と背中の棘を持つ天狗（石の首飾り）",
+      "integration": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。",
+      "narrative_spine": {
+        "setup": "天狗が貯水槽の下層で配給された樹液カメラを受け取る",
+        "question": "何度撮り直しても光ガードが赤く点滅し続けるのはなぜか",
+        "escalation": "天狗が鉄塔へ登り、光ガードの配線を直接操作し始める",
+        "reveal": "光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく",
+        "payoff": "全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る"
+      }
+    },
+    "project_concept": {
+      "format": "監視網からの離脱カウントダウン：光ガードの消灯数を進捗として提示",
+      "driver": "天狗が鉄塔を登り、配線を引き抜くたびに光ガードが消え、都市が暗くなる過程",
+      "presentation": "俯瞰と主観の交互切り替え：天狗の視点（配線を掴む手）と都市全景（光が消える様）を対比",
+      "progression": "配給→撮影→拒絶→侵入→切断→発見→孤立の7段階を、光ガードの色と数で可視化",
+      "audience_contract": "視聴者は「次の光ガードがいつ消えるか」を追い、最後に天狗が何を撮るかを見届ける"
+    },
+    "visual_language": {
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "lighting_bias": "人工光源が主体、自然光は結晶樹からの発光のみ、影は常に多重（複数の光ガードから）",
+      "camera_language": "固定ワイドで全体監視を示し、ハンドヘルド追従で天狗の主体性を強調、クレーン俯瞰で都市の変化を俯瞰、マクロ寄りで最終行為の孤独を刻む",
+      "texture": "貯水槽の半透明ガラス質、鉄塔の錆と剥離塗装、結晶樹の透明と虹色屈折、空中橋の透過床材",
+      "forbidden": [
+        "歌詞の文言を画面に表示する",
+        "天狗以外の主要キャラクターを登場させる",
+        "結晶樹以外の自然物を配置する",
+        "光ガード以外の監視装置を追加する"
+      ]
+    },
+    "music_read": {
+      "tempo_profile": "BPM 133、16分ハイハットで駆動する焦燥感、サビでキックが2拍目に強打",
+      "energy_profile": "Aメロは低エネルギー持続、Bメロで徐々に上昇、サビで爆発、157秒でピーク到達後に一旦沈黙",
+      "vocal_presence": "Aメロは吐息混じり、サビで叫びに近い発声、英語パートは乾いたデリバリー",
+      "lyric_focus": "規範/編集/操り糸/型/闇といった語が感情の変曲点を示す",
+      "dynamic_shifts": "14秒でドロップ、62秒で英語切り替え、157秒でブレイク後の再構築、199秒で最終爆発"
+    },
+    "hook_design": {
+      "thumbstop": "貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+      "open_loop": "天狗が樹液カメラで自分を撮るが、光ガードが全て赤く点滅し続ける理由は何か",
+      "payoff": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）"
+    },
+    "rules": {
+      "must_include": [
+        "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+        "光ガードが一つずつ消えていく過程の俯瞰カット",
+        "貯水槽内の液体に浮かぶ複数の顔",
+        "結晶樹の根元で天狗が樹液カメラを構える最終カット",
+        "石の首飾りが発光する瞬間"
+      ],
+      "must_avoid": [
+        "歌詞の文言を画面にテキスト表示する",
+        "天狗以外の主要キャラクターを新規登場させる",
+        "結晶樹や貯水槽以外の自然物/水源を追加する",
+        "光ガード以外の監視装置や審査システムを発明する",
+        "過去回想や夢オチの構造を導入する"
+      ],
+      "notes": "retry_note対応：camera_languageを固定ワイドだけでなく、ハンドヘルド追従・クレーン俯瞰・マクロ寄りの4種類を明記し、カメラ挙動の多様性を確保した。"
+    },
+    "narrative_design": {
+      "goal": "全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する",
+      "progress_meter": {
+        "stages": [
+          {
+            "stage_id": "stage_1",
+            "state_before": "貯水槽の下層で待機する天狗の群れ",
+            "state_after": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+          },
+          {
+            "stage_id": "stage_2",
+            "state_before": "貯水槽内の液体スクリーンが白紙状態",
+            "state_after": "スクリーンに映像が映るが、光ガードが全て赤く点滅"
+          },
+          {
+            "stage_id": "stage_3",
+            "state_before": "天狗が地上から鉄塔を見上げる",
+            "state_after": "天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える"
+          },
+          {
+            "stage_id": "stage_4",
+            "state_before": "貯水槽内の液体が静止している",
+            "state_after": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+          },
+          {
+            "stage_id": "stage_5",
+            "state_before": "全ての光ガードが消え、都市が暗闇に包まれる",
+            "state_after": "結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する"
+          }
+        ]
+      }
+    },
+    "emotion_read": {
+      "beats": [
+        {
+          "label": "beat_1",
+          "inner_emotion": "規範への従属",
+          "visible_indicator": "天狗の尻尾が貯水槽の床に張り付き動かない",
+          "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す"
+        },
+        {
+          "label": "beat_2",
+          "inner_emotion": "自己像の拒絶",
+          "visible_indicator": "背中の棘が逆立ち、石の首飾りが発光し始める",
+          "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く"
+        },
+        {
+          "label": "beat_3",
+          "inner_emotion": "制御系への疑念",
+          "visible_indicator": "天狗が鉄塔の配線を引き抜き、手に持って見つめる",
+          "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する"
+        },
+        {
+          "label": "beat_4",
+          "inner_emotion": "他者性の発見",
+          "visible_indicator": "貯水槽内の液体が渦を巻き、複数の顔が浮かび上がる",
+          "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流"
+        },
+        {
+          "label": "beat_5",
+          "inner_emotion": "孤立の選択",
+          "visible_indicator": "全ての光ガードが消え、天狗だけが結晶樹の根元で発光する",
+          "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音"
+        }
+      ]
+    },
+    "setpieces": [
+      {
+        "space_descriptor": "貯水槽下層の配給ドック",
+        "anchor_props": [
+          "天井から垂れ下がる樹液供給チューブ、床に刻まれ…",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "天狗が樹液カメラを受け取り、監視網への参加を強いられる起点"
+      },
+      {
+        "space_descriptor": "貯水槽内部の液体スクリーン空間",
+        "anchor_props": [
+          "渦巻く発光液体、浮遊する再生装置の群れ",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "撮影した映像が承認/拒絶される審査空間"
+      },
+      {
+        "space_descriptor": "鉄塔の頂上プラットフォーム",
+        "anchor_props": [
+          "光ガードの配線接続箱、錆びた足場、風で揺れる信…",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "天狗が監視網の物理構造を直接操作し、制御を奪う場"
+      },
+      {
+        "space_descriptor": "空中橋の透明床区間",
+        "anchor_props": [
+          "下界が透けて見える床材、手すりに絡む結晶樹の蔓",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "天狗が鉄塔へ向かう移動路、高度と不安定性を視覚化"
+      },
+      {
+        "space_descriptor": "倒木の根元（結晶樹発生源）",
+        "anchor_props": [
+          "地面に横たわる巨大倒木、そこから垂直に伸びる結…",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "監視網外で初めて自己撮影が成立する唯一の聖域"
+      },
+      {
+        "space_descriptor": "光ガード切断後の暗転都市",
+        "anchor_props": [
+          "消えた鉄塔の列、停止した貯水槽の液体、沈黙する…",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "全ての監視が停止し、天狗が孤立を選んだ結果の視覚的証明"
+      },
+      {
+        "space_descriptor": "貯水槽内の顔出現空間",
+        "anchor_props": [
+          "液体中に浮かぶ複数の顔、顔の間を走る光のパルス",
+          "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+          "光ガードが一つずつ消えていく過程の俯瞰カット"
+        ],
+        "function_for_story": "天狗が撮影していた自分の顔が実は他者だったことを暴露する転換点"
+      }
+    ],
+    "shooting_grammar": {
+      "camera_progression": "固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+      "motion_progression": "整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止",
+      "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源"
+    },
+    "synopsis": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。 目標は全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する。 天狗が貯水槽の下層で配給された樹液カメラを受け取る。 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか。 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める。 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく。 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る。",
+    "storyline": "天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る",
+    "timeline_summary": [
+      {
+        "section_id": "sec-001",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "summary": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+      },
+      {
+        "section_id": "sec-002",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "summary": "貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+      },
+      {
+        "section_id": "sec-003",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "summary": "鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅"
+      },
+      {
+        "section_id": "sec-004",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "summary": "空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅"
+      },
+      {
+        "section_id": "sec-005",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "summary": "倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える"
+      },
+      {
+        "section_id": "sec-006",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "summary": "光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+      },
+      {
+        "section_id": "sec-007",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "summary": "貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+      },
+      {
+        "section_id": "sec-008",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "summary": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する"
+      }
+    ],
+    "section_outline": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+        "retention_hook": "貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+        "variation_commitments": [
+          "小物:天井から垂れ下がる樹液供給チューブ、床…",
+          "場所:貯水槽下層の配給ドック",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+        "retention_hook": "天狗が樹液カメラで自分を撮るが、光ガードが全て赤く点滅し続ける理由は何か",
+        "variation_commitments": [
+          "小物:渦巻く発光液体、浮遊する再生装置の群れ",
+          "場所:貯水槽内部の液体スクリーン空間",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+        "retention_hook": null,
+        "variation_commitments": [
+          "小物:光ガードの配線接続箱、錆びた足場、風で…",
+          "場所:鉄塔の頂上プラットフォーム",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+        "retention_hook": null,
+        "variation_commitments": [
+          "小物:下界が透けて見える床材、手すりに絡む結…",
+          "場所:空中橋の透明床区間",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "beat_word": "天狗が鉄塔の頂上で配線を引き抜き、光ガードが一…",
+        "retention_hook": null,
+        "variation_commitments": [
+          "小物:地面に横たわる巨大倒木、そこから垂直に…",
+          "場所:倒木の根元（結晶樹発生源）",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+        "retention_hook": null,
+        "variation_commitments": [
+          "小物:消えた鉄塔の列、停止した貯水槽の液体、…",
+          "場所:光ガード切断後の暗転都市",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+        "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+        "variation_commitments": [
+          "小物:液体中に浮かぶ複数の顔、顔の間を走る光…",
+          "場所:貯水槽内の顔出現空間",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "beat_word": "結晶樹の根元で天狗が自分だけの映像を撮り、新し…",
+        "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+        "variation_commitments": [
+          "小物:天井から垂れ下がる樹液供給チューブ、床…",
+          "場所:貯水槽下層の配給ドック",
+          "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+        ]
+      }
+    ]
+  },
+  "ir_summary": {
+    "counts": {
+      "scenes": 1,
+      "shot_intents": 8,
+      "timeline": 8
+    },
+    "scenes": [
+      {
+        "id": "scene_main",
+        "space_descriptor": "scene",
+        "entities": [
+          "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない"
+        ]
+      }
+    ],
+    "shot_intents": [
+      {
+        "id": "shot_sec-001",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "wide",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      },
+      {
+        "id": "shot_sec-002",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "wide",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      },
+      {
+        "id": "shot_sec-003",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "wide",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      },
+      {
+        "id": "shot_sec-004",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "medium",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      },
+      {
+        "id": "shot_sec-005",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "medium",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      },
+      {
+        "id": "shot_sec-006",
+        "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "framing": "close_up",
+        "orientation": "eye_level",
+        "space": "scene_main"
+      }
+    ],
+    "timeline": [
+      {
+        "slot_id": "slot_sec-001",
+        "shot_intent_id": "shot_sec-001",
+        "duration": 10.68,
+        "start": 0.0,
+        "section_ref": "sec-001"
+      },
+      {
+        "slot_id": "slot_sec-002",
+        "shot_intent_id": "shot_sec-002",
+        "duration": 37.82,
+        "start": 10.68,
+        "section_ref": "sec-002"
+      },
+      {
+        "slot_id": "slot_sec-003",
+        "shot_intent_id": "shot_sec-003",
+        "duration": 31.900000000000006,
+        "start": 48.5,
+        "section_ref": "sec-003"
+      },
+      {
+        "slot_id": "slot_sec-004",
+        "shot_intent_id": "shot_sec-004",
+        "duration": 31.69999999999999,
+        "start": 80.4,
+        "section_ref": "sec-004"
+      },
+      {
+        "slot_id": "slot_sec-005",
+        "shot_intent_id": "shot_sec-005",
+        "duration": 31.200000000000017,
+        "start": 112.1,
+        "section_ref": "sec-005"
+      },
+      {
+        "slot_id": "slot_sec-006",
+        "shot_intent_id": "shot_sec-006",
+        "duration": 16.899999999999977,
+        "start": 143.3,
+        "section_ref": "sec-006"
+      },
+      {
+        "slot_id": "slot_sec-007",
+        "shot_intent_id": "shot_sec-007",
+        "duration": 32.04000000000002,
+        "start": 160.2,
+        "section_ref": "sec-007"
+      },
+      {
+        "slot_id": "slot_sec-008",
+        "shot_intent_id": "shot_sec-008",
+        "duration": 21.359999999999985,
+        "start": 192.24,
+        "section_ref": "sec-008"
+      }
+    ]
+  },
+  "ir_projection_policy": {
+    "storyboard_mode_default": "auto",
+    "use_reference_images_default": true,
+    "max_reference_images": 3,
+    "always_include_location_main": false,
+    "auto_location_variant_from_camera": true,
+    "allow_reverse_angle": false
+  },
+  "clips": [
+    {
+      "clip_id": "slot_sec-001",
+      "order": 10,
+      "section_id": "sec-001",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68
+      },
+      "hook_y": 0.3375000036867981,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+      "narrative_purpose": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "wide",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 10.68,
+        "aspect_ratio": "16:9",
+        "seed": 1738584896,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 10.68,
+          "aspect_ratio": "16:9",
+          "seed": 1738584896
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-10.7s\":\n    \"visual\": \"composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"wide\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 10.68",
+      "timeline": {
+        "0-10.7s": {
+          "visual": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+          "camera": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-001",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 10.68,
+          "aspect_ratio": "16:9",
+          "seed": 1738584896,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-001",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 2,
+              "max_step_sec": 10.0,
+              "duration_sec": 10.68
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-002",
+      "order": 20,
+      "section_id": "sec-002",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82
+      },
+      "hook_y": 0.5077949642495049,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+      "narrative_purpose": "貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "wide",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 37.82,
+        "aspect_ratio": "16:9",
+        "seed": 1380112149,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 37.82,
+          "aspect_ratio": "16:9",
+          "seed": 1380112149
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-37.8s\":\n    \"visual\": \"composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"wide\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 37.82",
+      "timeline": {
+        "0-37.8s": {
+          "visual": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+          "camera": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-002",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 37.82,
+          "aspect_ratio": "16:9",
+          "seed": 1380112149,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-002",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 4,
+              "max_step_sec": 10.0,
+              "duration_sec": 37.82
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-003",
+      "order": 30,
+      "section_id": "sec-003",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006
+      },
+      "hook_y": 0.7410260557040697,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+      "narrative_purpose": "鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "wide",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 31.900000000000006,
+        "aspect_ratio": "16:9",
+        "seed": 2115581428,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 31.900000000000006,
+          "aspect_ratio": "16:9",
+          "seed": 2115581428
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-31.9s\":\n    \"visual\": \"composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"wide\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 31.900000000000006",
+      "timeline": {
+        "0-31.9s": {
+          "visual": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+          "camera": {
+            "shot_size": "wide",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-003",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 31.900000000000006,
+          "aspect_ratio": "16:9",
+          "seed": 2115581428,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-003",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 4,
+              "max_step_sec": 10.0,
+              "duration_sec": 31.900000000000006
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-004",
+      "order": 40,
+      "section_id": "sec-004",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999
+      },
+      "hook_y": 0.8253043292668114,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+      "narrative_purpose": "空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "medium",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 31.69999999999999,
+        "aspect_ratio": "16:9",
+        "seed": 1610437035,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 31.69999999999999,
+          "aspect_ratio": "16:9",
+          "seed": 1610437035
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-31.7s\":\n    \"visual\": \"composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"medium\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 31.69999999999999",
+      "timeline": {
+        "0-31.7s": {
+          "visual": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+          "camera": {
+            "shot_size": "medium",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-004",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 31.69999999999999,
+          "aspect_ratio": "16:9",
+          "seed": 1610437035,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-004",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 4,
+              "max_step_sec": 10.0,
+              "duration_sec": 31.69999999999999
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-005",
+      "order": 50,
+      "section_id": "sec-005",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017
+      },
+      "hook_y": 0.8989232503623046,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push",
+      "narrative_purpose": "倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "medium",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 31.200000000000017,
+        "aspect_ratio": "16:9",
+        "seed": 37548870,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 31.200000000000017,
+          "aspect_ratio": "16:9",
+          "seed": 37548870
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-31.2s\":\n    \"visual\": \"composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"medium\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 31.200000000000017",
+      "timeline": {
+        "0-31.2s": {
+          "visual": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push",
+          "camera": {
+            "shot_size": "medium",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-005",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 31.200000000000017,
+          "aspect_ratio": "16:9",
+          "seed": 37548870,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-005",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 4,
+              "max_step_sec": 10.0,
+              "duration_sec": 31.200000000000017
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-006",
+      "order": 60,
+      "section_id": "sec-006",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977
+      },
+      "hook_y": 0.9460397059234779,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+      "narrative_purpose": "光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "close_up",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 16.899999999999977,
+        "aspect_ratio": "16:9",
+        "seed": 1469726110,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 16.899999999999977,
+          "aspect_ratio": "16:9",
+          "seed": 1469726110
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-16.9s\":\n    \"visual\": \"composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"close_up\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 16.899999999999977",
+      "timeline": {
+        "0-16.9s": {
+          "visual": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+          "camera": {
+            "shot_size": "close_up",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-006",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 16.899999999999977,
+          "aspect_ratio": "16:9",
+          "seed": 1469726110,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-006",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 2,
+              "max_step_sec": 10.0,
+              "duration_sec": 16.899999999999977
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-007",
+      "order": 70,
+      "section_id": "sec-007",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002
+      },
+      "hook_y": 0.95,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+      "narrative_purpose": "貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "close_up",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 32.04000000000002,
+        "aspect_ratio": "16:9",
+        "seed": 176124011,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 32.04000000000002,
+          "aspect_ratio": "16:9",
+          "seed": 176124011
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-32s\":\n    \"visual\": \"composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"close_up\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 32.04000000000002",
+      "timeline": {
+        "0-32s": {
+          "visual": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+          "camera": {
+            "shot_size": "close_up",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-007",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 32.04000000000002,
+          "aspect_ratio": "16:9",
+          "seed": 176124011,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-007",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 4,
+              "max_step_sec": 10.0,
+              "duration_sec": 32.04000000000002
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    },
+    {
+      "clip_id": "slot_sec-008",
+      "order": 80,
+      "section_id": "sec-008",
+      "intent": "narrative",
+      "timing": {
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985
+      },
+      "hook_y": 0.6499997198033428,
+      "layer_index": 0,
+      "is_key_clip": false,
+      "key_clip_reason": null,
+      "storyboard_url": null,
+      "thumb_url": null,
+      "preview_url": null,
+      "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+      "motion_description": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push",
+      "narrative_purpose": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
+      "free_notes": null,
+      "camera": {
+        "shot_size": "close_up",
+        "angle": "eye_level",
+        "movement": "slow_push",
+        "composition": null
+      },
+      "lighting": {},
+      "effects": [],
+      "transitions": {
+        "in": null,
+        "out": null
+      },
+      "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
+      "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+      "model_options": {},
+      "references": {
+        "reference_image_url": null,
+        "first_frame_image_url": null,
+        "end_frame_image_url": null,
+        "input_video_url": null,
+        "audio_clip_url": null
+      },
+      "generation": {
+        "task_type": "i2v",
+        "duration_sec": 21.359999999999985,
+        "aspect_ratio": "16:9",
+        "seed": 1561666361,
+        "server_id": null
+      },
+      "request_payload": {
+        "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
+        "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+        "generation": {
+          "task_type": "i2v",
+          "duration_sec": 21.359999999999985,
+          "aspect_ratio": "16:9",
+          "seed": 1561666361
+        }
+      },
+      "timeline_yaml": "\"timeline\":\n  \"0-21.4s\":\n    \"visual\": \"composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene\"\n    \"action\": \"motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push\"\n    \"camera\":\n      \"shot_size\": \"close_up\"\n      \"angle\": \"eye_level\"\n      \"movement\": \"slow_push\"\n      \"composition\": null\n    \"lighting\":\n      \"style\": null\n      \"direction\": null\n      \"color_temp\": null\n    \"effects\":\n[]\n    \"notes\": null\n\"intent\": \"narrative\"\n\"duration_sec\": 21.359999999999985",
+      "timeline": {
+        "0-21.4s": {
+          "visual": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
+          "action": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push",
+          "camera": {
+            "shot_size": "close_up",
+            "angle": "eye_level",
+            "movement": "slow_push",
+            "composition": null
+          },
+          "lighting": {
+            "style": null,
+            "direction": null,
+            "color_temp": null
+          },
+          "effects": [],
+          "notes": null
+        }
+      },
+      "qc_spec": {
+        "tier0": {
+          "expected_duration_sec": null
+        },
+        "storyboard_gate": {}
+      },
+      "v2v": {
+        "plan": null,
+        "blocks": []
+      },
+      "method": {
+        "clip_id": "slot_sec-008",
+        "storyboard": {
+          "method_id": "storyboard.stub",
+          "status": null,
+          "server_id": null,
+          "storyboard_url": null
+        },
+        "base_generation": {
+          "method_id": "i2v.single",
+          "task_type": "i2v",
+          "i2v_method": null,
+          "reference_image_url": null,
+          "first_frame_image_url": null,
+          "end_frame_image_url": null,
+          "duration_sec": 21.359999999999985,
+          "aspect_ratio": "16:9",
+          "seed": 1561666361,
+          "source": {
+            "requested_task_type": "i2v",
+            "qc_priority": "standard",
+            "regen_budget": 0,
+            "seed_key": "slot_sec-008",
+            "seed_basis": "clip_id",
+            "multi_step": {
+              "step_count": 3,
+              "max_step_sec": 10.0,
+              "duration_sec": 21.359999999999985
+            }
+          }
+        },
+        "refine": [],
+        "flags": {
+          "lip_sync": false,
+          "v2v_motion_control": null,
+          "storyboard_intent": "narrative"
+        }
+      }
+    }
+  ],
+  "competition_data": {
+    "session_id": "session-20260213-020118-2fed",
+    "exported_from": "pipeline_state",
+    "phase1": {
+      "proposals": [
+        {
+          "proposal_id": "prop-893c6a62",
+          "persona_id": "persona-10ced470",
+          "content": {
+            "creative_seed": "persona-10ced470:7a5d2f2d",
+            "self_analysis": "私は長年、他人の期待に応えることを諦めた人間だ。だから誰かが「型を破る」と叫ぶのを見ると、むしろその叫び方の稚拙さに目が行く。けれど同時に、その不器用さに妙な愛嬌を感じてしまう。真面目すぎる反抗は、どこか滑稽で、それでいて愛おしい。私は冷めているが、冷笑はしない。ただ、少し離れたところから、微笑みながら見ている。",
+            "what_i_saw": "深夜2時のコンビニ。蛍光灯の下で、14歳くらいの少年が床に正座して、無数の進路希望調査票を並べている。全部「YouTuber」と書いてある。店員は掃除の手を止めて、呆れた顔で見ているが、止めようともしない。少年は真剣な顔で、一枚一枚にハンコを押している。",
+            "why_it_came": "私は「革命」という言葉を信じていないが、本気で小さな反抗をする人の不器用さは好きだ。この歌詞の少年は、あまりにも真面目に「本物」を求めすぎている。その真面目さが、逆に可笑しい。コンビニという日常の場所で、一人で無意味な儀式をする姿に、滑稽さと健気さが同居する。私はそういう「ズレ」に惹かれる。[起点=lyrics][解釈=真面目な滑稽さ][トーン=playful]",
+            "theme": "本気の反抗は、いつも少しズレている",
+            "hook_scene": {
+              "focus": "制服姿の少年（14歳くらい、リュックを背負ったまま）",
+              "place": "深夜のコンビニ、床の雑誌コーナー前",
+              "action": "正座して、50枚以上の進路希望調査票全てに「YouTuber」と書き、一枚ずつ丁寧にハンコ（シャチハタ）を押している",
+              "detail": "少年の手元には、コンビニで買ったと思われる「肉まん」が一個、まだ袋に入ったまま転がっている",
+              "question": "なぜ一人で、こんな夜中に、こんなことをしているのか？",
+              "when": "「14歳の革命はここから始まる」の直後"
+            }
+          },
+          "created_at": "2026-02-12 17:02:04.034395"
+        },
+        {
+          "proposal_id": "prop-21c4b6b8",
+          "persona_id": "persona-8afda743",
+          "content": {
+            "creative_seed": "persona-8afda743:e2f621c5",
+            "self_analysis": "私は「頼まれごとを断れず、自分の話はしない」人間だが、それは諦めではなく、他者の期待に応えることで自分の居場所を確保する戦略だった。だから私は、誰かが「期待を裏切る」瞬間に、恐怖ではなく憧れを感じる。自分にはできなかった選択をする人間に、密かな祝福を送る癖がある。",
+            "what_i_saw": "真夜中の教室。誰もいない。黒板いっぱいに、チョークで書かれた「YouTuberになりたい」の文字。その下に、何度も何度も書き直した跡がある。消しゴムの粉が床に積もっている。最後の一行だけ、文字が震えていない。",
+            "why_it_came": "「書く勇気がない」という歌詞から、逆に「誰も見ていない場所でなら、本当のことを書けるのでは？」という希望を見た。私は誰かに言えないことを、夜中に一人で確認する行為に、弱さではなく強さを感じる。震えなくなった最後の一行は、彼が自分の答えを見つけた証拠だ。[起点=lyrics][解釈=孤独な練習][トーン=uplift]",
+            "theme": "本当の答えは、誰もいない場所で何度も書き直した末に震えなくなる",
+            "hook_scene": {
+              "focus": "14歳の少年の手、チョークを握っている",
+              "place": "深夜2時の中学校、3年2組の教室、月明かりだけが差し込んでいる",
+              "action": "黒板に「YouTuberになりたい」と書いては消し、また書いている。50回目くらいで、ついに消さずに立ち止まる。",
+              "detail": "床に積もった白いチョークの粉が、月光で光っている。最後に書いた一行だけ、文字の太さが違う。",
+              "question": "なぜ彼は、誰も見ていないこの場所で、こんなに何度も書き直す必要があったのか？そしてなぜ今、消さずに立ち止まったのか？",
+              "when": "「でも夜中にこっそり撮る動画 / 誰にも見せないそれだけが本物」の直後"
+            }
+          },
+          "created_at": "2026-02-12 17:03:12.354929"
+        },
+        {
+          "proposal_id": "prop-63588b06",
+          "persona_id": "persona-d330a2c5",
+          "content": {
+            "creative_seed": "persona-d330a2c5:78d31521",
+            "self_analysis": "私は「解放された後の姿」に惹かれる人間です。緊張と抑圧の中で生きてきた経験から、自由になった瞬間の美しさ、特に「やりきった後の脱力」に強い共感を覚えます。誰も見ていない場所で自分を解放する行為、義務から逃れて本能に従う瞬間に、人間の本質が現れると信じています。私のユーモアは「真面目さの裏返し」―完璧を求められる世界で、あえて無駄なことに全力を注ぐ姿に笑いと尊厳を見出します。回復力は「一人の時間」から来ます。",
+            "what_i_saw": "深夜3時の屋外プール（閉鎖中、水は抜かれている）。乾いた青いタイルの底に、一人の少年が大の字で寝転がっている。制服は脱いで丸めて頭の下に置き、白いTシャツ姿。手には空になったエナジードリンクの缶。周囲には破り捨てられた紙片（進路希望調査票）が風で舞っている。彼の表情は笑っていないが、体全体が脱力している。月明かりだけが彼を照らし、プールの底という「誰も来ない場所」で、彼は完全に重力に身を任せている。",
+            "why_it_came": "「蛍光灯が消えて 本当の闇が始まる」という歌詞から、私は「逃げた後の静けさ」を連想しました。反抗や破壊ではなく、その後の「空っぽになった瞬間」。プールの底は、社会の視線が届かない「穴」であり、そこに落ちることで初めて重力から解放される逆説。私自身が、義務を終えた深夜に一人で何もしない時間を必要としてきたから、この「やりきった後の脱力」に視聴維持の力を感じます。暗さではなく、解放の美しさ。 [起点=lyrics][解釈=重力からの解放][トーン=counterpoint]",
+            "theme": "本当の自由は、誰もいない穴の底で重力に身を任せる瞬間に訪れる",
+            "hook_scene": {
+              "focus": "14歳の少年、白いTシャツ姿、制服は脱いで丸めて枕にしている",
+              "place": "深夜3時の市民プール（閉鎖中、水抜き済み）、深さ2メートルの青いタイルの底",
+              "action": "大の字で完全に脱力して寝転がっている。破り捨てた進路希望調査票の紙片が風で舞い、彼の体の周りに落ちてくる。彼は目を開けたまま、月を見上げている。",
+              "detail": "右手に握られた空のエナジードリンク缶（潰れていない、まだ形を保っている）が、彼が「力を抜いている」証拠として転がっている",
+              "question": "なぜ彼は、わざわざプールの底まで降りて、ここで寝転がっているのか？この「落ちた場所」で彼は何を手に入れたのか？",
+              "when": "「蛍光灯が消えて 本当の闇が始まる」（曲の最後、213秒付近）―全てが終わった後"
+            }
+          },
+          "created_at": "2026-02-12 17:04:29.777788"
+        },
+        {
+          "proposal_id": "prop-a6023a8c",
+          "persona_id": "persona-goji",
+          "content": {
+            "theme": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+            "hook_scene": {
+              "focus": "14歳の少年、顔に血管が浮き出るほど絞り出した表情",
+              "place": "深夜2時47分の自室、ベッド下の狭い空間、毛布で囲んだ即席防音室",
+              "action": "スマホで自分の顔を至近距離から撮影し続け、47テイク目の「お母さん、ごめん」を無音で口パクで繰り返している。画面は録画されておらず、プレビュー表示のまま",
+              "detail": "スマホ画面に映る彼の顔には、前の46テイクで流した涙の跡が乾いた塩の結晶として光っている",
+              "question": "なぜ録画ボタンを押さないのか？なぜ47回も同じ言葉を無音で繰り返すのか？誰に見せるつもりもないのに、なぜこんなに顔を歪め続けるのか？",
+              "when": "「お母さん、ごめん / 僕は君が望む息子になれない」の歌詞が始まる瞬間"
+            },
+            "creative_seed": "persona-goji:d6f1d289"
+          },
+          "created_at": "2026-02-12 17:05:04.701917"
+        }
+      ],
+      "voting": {
+        "selection_mode": "vote10_like_dislike",
+        "candidate_keys": [
+          "A"
+        ],
+        "candidate_map": {
+          "A": "prop-a6023a8c"
+        },
+        "tally": {
+          "A": 0
+        },
+        "like_tally": {
+          "A": 0
+        },
+        "dislike_tally": {
+          "A": 0
+        },
+        "votes": [],
+        "analysis": "single_candidate",
+        "is_tiebreak": false,
+        "tiebreak_reason": null,
+        "goji_vote": null
+      }
+    },
+    "phase2a": {
+      "proposals": [
+        {
+          "proposal_id": "sl2a-395eac72",
+          "persona_id": "persona-1b96b458",
+          "content": {
+            "phase1_base": "道化師",
+            "phase2_condition": "巨大な頭・短い首",
+            "phase3_anchor": "顔の刻印",
+            "subject_concept": "巨大な頭と短い首を持つ道化師",
+            "subject_signature": "顔の刻印",
+            "character_profile": {
+              "appearance_profile": "胴体に対して2倍以上ある頭部が短い首の上に載り、両頬と額に幾何学模様の刻印が刻まれている。刻印は皮膚に食い込むように彫られており、光の角度で溝の深さが変わる。",
+              "motion_profile": "頭部の重さで常に首が左右にわずかに揺れ、刻印が光を反射しながら表情とは無関係に明滅する。"
+            }
+          },
+          "created_at": "2026-02-12 17:05:14.825440"
+        },
+        {
+          "proposal_id": "sl2a-3796125d",
+          "persona_id": "persona-ce2a5bbd",
+          "content": {
+            "phase1_base": "カメレオン",
+            "phase2_condition": "縦長の瞳・細い指",
+            "phase3_anchor": "発光腕輪",
+            "subject_concept": "縦長の瞳と細い指を持つカメレオン",
+            "subject_signature": "発光腕輪",
+            "character_profile": {
+              "appearance_profile": "縦長の瞳が鋭く獲物を捉え、細い指の先端が枝に食い込んでいる。両前脚に巻かれた発光腕輪が明滅を繰り返す。",
+              "motion_profile": "細い指を一本ずつ慎重に動かしながら、縦長の瞳だけが独立して別方向を見つめ続ける。"
+            }
+          },
+          "created_at": "2026-02-12 17:05:22.088425"
+        },
+        {
+          "proposal_id": "sl2a-d8e7ea0b",
+          "persona_id": "persona-5c55a0f3",
+          "content": {
+            "phase1_base": "天狗",
+            "phase2_condition": "長い尻尾・背中の棘",
+            "phase3_anchor": "石の首飾り",
+            "subject_concept": "長い尻尾と背中の棘を持つ天狗",
+            "subject_signature": "石の首飾り",
+            "character_profile": {
+              "appearance_profile": "背中に棘が並び、長い尻尾が地面に届く天狗。首には石の首飾りが掛かっている。",
+              "motion_profile": "尻尾を左右に振りながら、背中の棘を揺らして歩く。"
+            }
+          },
+          "created_at": "2026-02-12 17:05:36.898315"
+        }
+      ],
+      "voting": {
+        "selection_mode": "vote10_like_dislike",
+        "candidate_keys": [
+          "A",
+          "B",
+          "C"
+        ],
+        "candidate_map": {
+          "A": "sl2a-395eac72",
+          "B": "sl2a-3796125d",
+          "C": "sl2a-d8e7ea0b"
+        },
+        "tally": {
+          "A": 6,
+          "B": 7,
+          "C": 7
+        },
+        "like_tally": {
+          "A": 1,
+          "B": 5,
+          "C": 4
+        },
+        "dislike_tally": {
+          "A": 5,
+          "B": 2,
+          "C": 3
+        },
+        "votes": [
+          {
+            "voter": "김태준",
+            "like": "C",
+            "like_reason": "天狗は東アジア文化に馴染みがあり、石の首飾りという実物感のあるアンカーが安定感を与える。長い尻尾や背中の棘も視覚的にわかりやすい。",
+            "dislike": "A",
+            "dislike_reason": "道化師は子供っぽく感じられ、巨大な頭という要素が不快感を与える。ビジネス経験者として洗練されたデザインを好む。"
+          },
+          {
+            "voter": "Rami Khoury",
+            "like": "B",
+            "like_reason": "カメレオンは自然界の生物で親しみやすい。発光腕輪という要素が幻想的で、植物園や自然を愛する自分の感性に合う。",
+            "dislike": "A",
+            "dislike_reason": "道化師は人工的で不気味。巨大な頭や短い首という身体変形的な要素が生理的に受け入れがたい。"
+          },
+          {
+            "voter": "Arjun Mehta",
+            "like": "B",
+            "like_reason": "カメレオンの縦長の瞳や細い指は技術的に興味深く、発光腕輪はテクノロジー的な要素を感じさせる。データベース管理者として論理的な構造美を評価。",
+            "dislike": "C",
+            "dislike_reason": "天狗は文化的に馴染みが薄く、背中の棘という要素が攻撃的で好ましくない。石の首飾りも古臭い印象。"
+          },
+          {
+            "voter": "ラクシュミ・ナラヤナン",
+            "like": "C",
+            "like_reason": "石の首飾りは寺院の供物や伝統的な装飾品を思わせ、親しみがある。天狗という霊的存在も信仰心のある自分には受け入れやすい。",
+            "dislike": "B",
+            "dislike_reason": "カメレオンは爬虫類で不吉な印象。発光腕輪という現代的な要素が自分の生活感覚から遠く、理解しがたい。"
+          },
+          {
+            "voter": "チェ・ミンジュ",
+            "like": "A",
+            "like_reason": "道化師は文学や芸術作品でよく扱われるモチーフで知的好奇心をそそる。顔の刻印という象徴的な要素が物語性を感じさせる。",
+            "dislike": "C",
+            "dislike_reason": "天狗は伝統的すぎて新鮮味がない。背中の棘や長い尻尾という要素が単調で、読書会で扱う現代文学の感性に合わない。"
+          },
+          {
+            "voter": "ちづる",
+            "like": "C",
+            "like_reason": "天狗は日本の伝統的な存在で親しみがある。石の首飾りという具体的なアイテムに医療従事者として安定感を感じる",
+            "dislike": "A",
+            "dislike_reason": "道化師は不気味で、巨大な頭という身体的特徴が患者の異常所見を連想させて辛い"
+          },
+          {
+            "voter": "李秋蓮",
+            "like": "B",
+            "like_reason": "カメレオンは変化と適応の象徴。発光腕輪は夜道を照らす実用的な道具に思える",
+            "dislike": "A",
+            "dislike_reason": "道化師は不吉で、顔の刻印という永続的な印は奴隷制を思い起こさせる"
+          },
+          {
+            "voter": "たなか しゅうへい",
+            "like": "B",
+            "like_reason": "カメレオンかっこいいし、発光腕輪とかゲームやアニメっぽくて見てみたい。縦長の瞳も異世界感ある",
+            "dislike": "C",
+            "dislike_reason": "天狗は古臭い感じがする。石の首飾りも地味で面白くなさそう"
+          },
+          {
+            "voter": "Siti Noor",
+            "like": "B",
+            "like_reason": "カメレオンは多文化適応の象徴として共感できる。発光腕輪は希望や導きを感じさせる",
+            "dislike": "A",
+            "dislike_reason": "道化師は西洋的で馴染みがなく、顔の刻印は身体への強制的な変更で倫理的に抵抗がある"
+          },
+          {
+            "voter": "Adrian Pembroke",
+            "like": "C",
+            "like_reason": "天狗は東洋の神秘性があり興味深い。長い尻尾と背中の棘という特徴が伝統的な怪物譚を思わせる",
+            "dislike": "B",
+            "dislike_reason": "カメレオンは爬虫類で生理的に苦手。縦長の瞳も不気味に感じる"
+          },
+          {
+            "voter": "ゴジ",
+            "like": "B",
+            "like_reason": "カメレオンは変化する存在として、呼びかけに応じて色を変える=輪郭を得るという依存関係を視覚的に表現しやすい。発光腕輪という光るアンカーも、声や認識によって「点灯する」演出と相性が良く、抽象的になりすぎない",
+            "dislike": "C",
+            "dislike_reason": "天狗は神話的・説話的で概念が強すぎる。背中の棘や長い尻尾という身体的特徴が、この曲の「呼ばれることでしか存在できない」という脆さや透明性と合わない。石の首飾りも重く、静謐さより威圧感が先に立つ"
+          }
+        ],
+        "analysis": "[batch 1] 投票は見事に分散し、各候補が少なくとも1票以上のlikeを獲得。世代・文化背景・職業によって美的価値観が大きく異なることが明確に表れた。特に道化師(A)は若い知識層には支持されたが、高齢層や自然志向の投票者からは拒否反応が強かった。\n[batch 2] Bが3票のlikeを獲得し最多支持。若年層と多文化背景を持つ投票者がモダンで象徴的な要素を好む傾向。Aは4票のdislikeを集め、道化師と顔の刻印が文化横断的に不快感を与えている。Cは伝統重視層に支持されたが若年層には響かなかった。",
+        "is_tiebreak": true,
+        "tiebreak_reason": null,
+        "goji_vote": {
+          "voter": "ゴジ",
+          "like": "B",
+          "like_reason": "カメレオンは変化する存在として、呼びかけに応じて色を変える=輪郭を得るという依存関係を視覚的に表現しやすい。発光腕輪という光るアンカーも、声や認識によって「点灯する」演出と相性が良く、抽象的になりすぎない",
+          "dislike": "C",
+          "dislike_reason": "天狗は神話的・説話的で概念が強すぎる。背中の棘や長い尻尾という身体的特徴が、この曲の「呼ばれることでしか存在できない」という脆さや透明性と合わない。石の首飾りも重く、静謐さより威圧感が先に立つ"
+        }
+      }
+    },
+    "phase3": {
+      "proposals": [
+        {
+          "proposal_id": "world-0f122fbf",
+          "persona_id": "persona-f0540cb8",
+          "content": {
+            "world_setting": {
+              "premise": "魔力を通す水が街全体を巡り、その流れによって結界と照明が維持される水魔法都市。水車が回り続ける限り、街は守られる。",
+              "rules": [
+                "魔力水路を流れる水は透明だが、魔力が高まると青白く発光する",
+                "結界柱は必ず水路の交差点に設置され、柱が倒れると区画の結界が消失する",
+                "石畳の下には透過床があり、水路の流れを監視できる場所が点在する",
+                "配電箱のような魔力分配器が街路灯や空中足場に魔力を送る"
+              ],
+              "society": "水車技師ギルドが最高権力を持ち、魔力水路の管理権が貴族の地位を決める。水源を制する者が都市を制する。",
+              "daily_life": "住民は毎朝、自宅前の石畳を洗い流すことで魔力水路に感謝を示す。移動は石畳の道と空中足場を併用。夜は鉄灯籠が水路から魔力を吸い上げて発光し、街を照らす。",
+              "values": "水を汚すことは最大の罪。流れを止めないこと、循環を尊ぶことが美徳。停滞は悪とされる。",
+              "visual_signifiers": [
+                "街中を縦横に走る青白く光る魔力水路",
+                "交差点ごとに立つ結界柱（透明な膜が見える）",
+                "回転し続ける巨大水車（複数）",
+                "石畳の隙間から見える透過床と水の流れ",
+                "空中に浮かぶ足場と、そこへ魔力を送る配電箱"
+              ],
+              "limits": "水路を私的に操作すること、結界柱を無許可で移動させること、水車を止めることは死罪。",
+              "freedom": ""
+            }
+          },
+          "created_at": "2026-02-12 17:06:47.793696"
+        },
+        {
+          "proposal_id": "world-fff2ffe8",
+          "persona_id": "persona-5e640a83",
+          "content": {
+            "world_setting": {
+              "premise": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。",
+              "rules": [
+                "結晶樹の樹液を採取できるのは、倒木に触れた者のみ",
+                "送電鉄塔間の光のガードを横切ると記憶が一時的に消える",
+                "浮遊ドックは日没と共に自動で地上へ降下する",
+                "貯水槽の水位が一定以下になると城壁が透明化し始める"
+              ],
+              "society": "樹液採取権を持つ「触樹民」が上位階級を形成し、浮遊ドックの管理組合が物流と情報を独占。送電鉄塔の保守を担う技師集団が実質的な権力を握る。",
+              "daily_life": "住民は空中橋を渡って移動し、通行ゲートで階級認証を受ける。食事は結晶樹の副産物である光る果実が主食。荷揚げ滑車で日用品を上層へ運び、妖精灯の明滅パターンで時刻を知る。",
+              "values": "倒木への敬意が最高の美徳とされ、結晶樹を無駄にすることは重罪。光のガードを意図的に消すことは禁忌中の禁忌。",
+              "visual_signifiers": [
+                "空中に浮かぶ半透明の巨大貯水槽（内部で光る液体が渦巻く）",
+                "地平線まで続く送電鉄塔の列と、塔間を結ぶ青白い光のガード",
+                "倒木から垂直に伸びる透明な結晶樹（枝先が虹色に発光）",
+                "浮遊ドックに繋がる空中橋（半透明の床材で下界が透けて見える）",
+                "城壁全体に走る発光する柱頭飾りのパターン"
+              ],
+              "limits": "結晶樹を人工的に育てることは不可能。光のガードを物理的に破壊する手段は存在しない。貯水槽の水源は誰も知らず、調査も禁じられている。",
+              "freedom": ""
+            }
+          },
+          "created_at": "2026-02-12 17:07:51.817163"
+        },
+        {
+          "proposal_id": "world-838cf60a",
+          "persona_id": "persona-73f1d5af",
+          "content": {
+            "world_setting": {
+              "premise": "石畳と運河が張り巡らされた古都に、磁気レールが浮遊し、街路灯と鉄灯籠が混在する。製粉機は今も稼働し、浮遊島が空に点在する。",
+              "rules": [
+                "磁気レールは石畳の上を一定高度で浮遊し、接触すると微弱な電流が流れる",
+                "浮遊島は運河の水位が上がると高度を増し、水位が下がると降下する",
+                "街路灯と鉄灯籠は同時に点灯せず、片方が消えるともう片方が灯る",
+                "製粉機の回転速度が都市全体の時刻基準となっており、止まると時間感覚が狂う"
+              ],
+              "society": "製粉ギルドが時刻と物流を管理し、浮遊島の高度記録者が天候予測を独占。磁気レール技師は世襲制で、運河の水位調整権を持つ者が実質的な権力者。",
+              "daily_life": "住民は石畳を歩き、浮遊ドックで荷を受け取る。食事は製粉機で挽いた穀物が中心。移動は磁気レールに物を載せて浮遊させるか、運河の小舟。夜は街路灯か鉄灯籠のどちらかの光で過ごす。",
+              "values": "「二つの光を同時に求めない」ことが美徳とされ、欲張りは恥。浮遊島の高度を正確に読める者は尊敬される。水を汚す行為は重罪。",
+              "visual_signifiers": [
+                "石畳の上を無数の磁気レールが青白く光りながら浮遊している",
+                "運河に沿って街路灯と鉄灯籠が交互に立ち並び、片方だけが灯っている",
+                "空中に大小の浮遊島が静止し、浮遊ドックが島の下に吊り下がっている",
+                "古い製粉機の水車がゆっくりと回り続け、周囲に粉塵が舞っている"
+              ],
+              "limits": "磁気レールに生身で長時間触れること、浮遊島に無許可で着陸すること、製粉機を止めること、運河の水を私的に抜くこと",
+              "freedom": ""
+            }
+          },
+          "created_at": "2026-02-12 17:08:58.788859"
+        }
+      ],
+      "vote": {
+        "winner_key": "B",
+        "tally": {
+          "A": 7,
+          "B": 7,
+          "C": 6
+        },
+        "like_tally": {
+          "A": 5,
+          "B": 1,
+          "C": 4
+        },
+        "dislike_tally": {
+          "A": 2,
+          "B": 6,
+          "C": 2
+        },
+        "votes": [
+          {
+            "voter": "かわぐち けんた",
+            "like": "C",
+            "like_reason": "石畳と運河の古都という親しみやすい要素に、磁気レールや浮遊島といったSF要素が加わっているバランスが良い。製粉ギルドや世襲制など、社会システムが具体的で想像しやすい。",
+            "dislike": "B",
+            "dislike_reason": "空中貯水槽や結晶樹など、抽象的で難解な要素が多すぎる。触樹民や記憶が消えるガードなど、ルールが複雑で理解しづらい。"
+          },
+          {
+            "voter": "Grace Chen",
+            "like": "A",
+            "like_reason": "水路と結界という明確なビジュアルイメージがあり、水車技師ギルドの権力構造が社会学的に興味深い。インフラと権力の関係性がリアルで、現実の都市問題との接点を感じる。",
+            "dislike": "B",
+            "dislike_reason": "浮遊貯水槽や送電鉄塔の光のガードなど、視覚的に整理しづらい要素が詰め込まれすぎている。設定の複雑さに対して、世界観の一貫性が弱い。"
+          },
+          {
+            "voter": "박진수",
+            "like": "A",
+            "like_reason": "水路と水車という伝統的な要素が中心で、理解しやすい。結界柱や魔力水路の発光など、視覚的に明確で、シンプルな美しさがある。",
+            "dislike": "C",
+            "dislike_reason": "磁気レール、浮遊島、製粉機、運河など、要素が多すぎて焦点がぼやけている。街路灯と鉄灯籠の交互点灯など、細かいルールが煩雑。"
+          },
+          {
+            "voter": "Derek Chen",
+            "like": "C",
+            "like_reason": "石畳の古都に浮遊技術が混在する世界観が、古いものと新しいものの共存を感じさせて興味深い。製粉機が今も稼働しているという実用性が良い。",
+            "dislike": "B",
+            "dislike_reason": "空中貯水槽や結晶樹など、現実感が薄すぎる。樹液採取権や記憶が消える設定など、日常生活が想像しにくい。"
+          },
+          {
+            "voter": "チェ・ミンジュ",
+            "like": "A",
+            "like_reason": "水路を通じた魔力循環という一貫したコンセプトが美しい。水車技師ギルドの権力構造が明確で、社会の在り方として説得力がある。青白い光の水路という詩的なイメージも良い。",
+            "dislike": "C",
+            "dislike_reason": "磁気レール、浮遊島、運河、製粉機など、異なる時代や技術の要素が混在しすぎて、世界観の統一感に欠ける。何を中心に据えたいのかが不明瞭。"
+          },
+          {
+            "voter": "Rashid ibn Khalil",
+            "like": "A",
+            "like_reason": "水路と水車という仕組みは、父の交易で見てきた灌漑システムに似ていて理解しやすい。実用的で美しい街の姿が想像できる。",
+            "dislike": "B",
+            "dislike_reason": "空中の貯水槽や記憶が消えるガードなど、あまりに現実離れしていて商人として信用できない。危険すぎる。"
+          },
+          {
+            "voter": "김태준",
+            "like": "C",
+            "like_reason": "伝統と技術が共存する様子が、韓国の発展過程を思わせる。磁気レールと古都の組み合わせは観光地として魅力的だ。",
+            "dislike": "A",
+            "dislike_reason": "水車とギルドという設定が古風すぎて、ビジネス的な発展性が見えない。革新性に欠ける。"
+          },
+          {
+            "voter": "Élise Beaumont",
+            "like": "C",
+            "like_reason": "運河と石畳はブリュッセルやブルージュを思わせる。伝統的な景観に新技術を組み込むバランスが欧州的で好ましい。",
+            "dislike": "B",
+            "dislike_reason": "システムが複雑すぎて、中小企業が参入できる余地が見えない。権力構造も不透明で不安定に思える。"
+          },
+          {
+            "voter": "ラクシュミ・ナラヤナン",
+            "like": "A",
+            "like_reason": "水が街を守り、巡るという考えは神聖で美しい。結界柱と水路の交差点は寺院の構造を思わせ、秩序がある。",
+            "dislike": "B",
+            "dislike_reason": "倒木から生える樹という設定が不吉に感じる。死から生まれるものを中心に据えるのは縁起が悪い。"
+          },
+          {
+            "voter": "Kim Soo-min",
+            "like": "B",
+            "like_reason": "浮遊する貯水槽や虹色に光る結晶樹がビジュアル的にかっこいい。SNSで映える景色が多そうで、友達に見せたい。",
+            "dislike": "A",
+            "dislike_reason": "水車とギルドって地味すぎる。ファンタジーなのに普通の中世みたいで、わくわくしない。"
+          },
+          {
+            "voter": "ゴジ",
+            "like": "A",
+            "like_reason": "水路と水車という具体的で視覚的に明快な要素が、街全体を巡る動的なシステムとして機能している。透過床や結界柱など、映像として「何が映るか」が明確で、抽象的すぎない",
+            "dislike": "B",
+            "dislike_reason": "空中浮遊貯水槽、送電鉄塔の光のガード、結晶樹など、要素が多すぎて焦点がぼやけている。「光のガードを横切ると記憶が消える」など、設定が複雑で技術的すぎて一般視聴者には伝わりにくい"
+          }
+        ],
+        "analysis": "[batch 1] Aが3票のlikeを獲得し、水路と水車という明確で一貫したコンセプトが幅広い層に支持された。Bは3票のdislikeを集め、抽象性と複雑さが敬遠される結果に。Cは要素の多様性が評価を二分した。\n[batch 2] 世代と文化背景で評価が明確に分かれた。高齢者層は実用性と秩序を重視しAを支持、中年層は伝統と革新の調和を求めCを選択、若年層は視覚的インパクトを優先しBを評価。Bは極端に評価が分かれ、実用主義者からは敬遠された。",
+        "is_tiebreak": true,
+        "tiebreak_reason": null,
+        "goji_vote": {
+          "voter": "ゴジ",
+          "like": "A",
+          "like_reason": "水路と水車という具体的で視覚的に明快な要素が、街全体を巡る動的なシステムとして機能している。透過床や結界柱など、映像として「何が映るか」が明確で、抽象的すぎない",
+          "dislike": "B",
+          "dislike_reason": "空中浮遊貯水槽、送電鉄塔の光のガード、結晶樹など、要素が多すぎて焦点がぼやけている。「光のガードを横切ると記憶が消える」など、設定が複雑で技術的すぎて一般視聴者には伝わりにくい"
+        }
+      }
+    }
+  },
+  "phase_data": {
+    "phase0": {
+      "title_en": "Phase 0 / Music Analysis",
+      "title_ja": "Phase 0 / 楽曲解析",
+      "summary_items": [
+        {
+          "label_en": "Duration",
+          "label_ja": "尺",
+          "value": "213.6s"
+        },
+        {
+          "label_en": "Sections",
+          "label_ja": "セクション数",
+          "value": "8"
+        },
+        {
+          "label_en": "Beats",
+          "label_ja": "ビート数",
+          "value": "479"
+        },
+        {
+          "label_en": "Emotional arc",
+          "label_ja": "感情曲線点数",
+          "value": "20"
+        },
+        {
+          "label_en": "Tempo",
+          "label_ja": "テンポ",
+          "value": "133.85274222572133"
+        }
+      ],
+      "summary_bullets": [],
+      "raw": {
+        "duration_sec": 213.599979,
+        "tempo_bpm": 133.85274222572133,
+        "sections_preview": [
+          {
+            "section_id": "sec-001",
+            "label": "intro",
+            "start_sec": 0.0,
+            "end_sec": 10.68,
+            "duration_sec": 10.68,
+            "confidence": 0.3,
+            "source": "estimated"
+          },
+          {
+            "section_id": "sec-002",
+            "label": "verse1",
+            "start_sec": 10.68,
+            "end_sec": 48.5,
+            "duration_sec": 37.82,
+            "confidence": 0.3,
+            "source": "estimated"
+          },
+          {
+            "section_id": "sec-003",
+            "label": "chorus1",
+            "start_sec": 48.5,
+            "end_sec": 80.4,
+            "duration_sec": 31.900000000000006,
+            "confidence": 1.0,
+            "source": "sidecar"
+          },
+          {
+            "section_id": "sec-004",
+            "label": "verse2",
+            "start_sec": 80.4,
+            "end_sec": 112.1,
+            "duration_sec": 31.69999999999999,
+            "confidence": 0.3,
+            "source": "estimated"
+          },
+          {
+            "section_id": "sec-005",
+            "label": "chorus2",
+            "start_sec": 112.1,
+            "end_sec": 143.3,
+            "duration_sec": 31.200000000000017,
+            "confidence": 0.9565517241379309,
+            "source": "sidecar"
+          },
+          {
+            "section_id": "sec-006",
+            "label": "bridge",
+            "start_sec": 143.3,
+            "end_sec": 160.2,
+            "duration_sec": 16.899999999999977,
+            "confidence": 0.3,
+            "source": "estimated"
+          }
+        ],
+        "beat_count": 479,
+        "emotional_arc_preview": [
+          {
+            "time_sec": 0.0,
+            "valence": 0.6,
+            "arousal": 0.3
+          },
+          {
+            "time_sec": 11.242104157894735,
+            "valence": 0.6,
+            "arousal": 0.3789473684210526
+          },
+          {
+            "time_sec": 22.48420831578947,
+            "valence": 0.6,
+            "arousal": 0.45789473684210524
+          },
+          {
+            "time_sec": 33.72631247368421,
+            "valence": 0.6,
+            "arousal": 0.5368421052631579
+          },
+          {
+            "time_sec": 44.96841663157894,
+            "valence": 0.6,
+            "arousal": 0.6157894736842104
+          },
+          {
+            "time_sec": 56.21052078947368,
+            "valence": 0.6,
+            "arousal": 0.6947368421052631
+          }
+        ]
+      }
+    },
+    "phase1": {
+      "title_en": "Phase 1 / Core Concept",
+      "title_ja": "Phase 1 / テーマ設定",
+      "summary_items": [
+        {
+          "label_en": "Theme",
+          "label_ja": "テーマ",
+          "value": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない"
+        }
+      ],
+      "summary_bullets": [],
+      "raw": {
+        "theme": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+        "hook_scene": {
+          "focus": "14歳の少年、顔に血管が浮き出るほど絞り出した表情",
+          "place": "深夜2時47分の自室、ベッド下の狭い空間、毛布で囲んだ即席防音室",
+          "action": "スマホで自分の顔を至近距離から撮影し続け、47テイク目の「お母さん、ごめん」を無音で口パクで繰り返している。画面は録画されておらず、プレビュー表示のまま",
+          "detail": "スマホ画面に映る彼の顔には、前の46テイクで流した涙の跡が乾いた塩の結晶として光っている",
+          "question": "なぜ録画ボタンを押さないのか？なぜ47回も同じ言葉を無音で繰り返すのか？誰に見せるつもりもないのに、なぜこんなに顔を歪め続けるのか？",
+          "when": "「お母さん、ごめん / 僕は君が望む息子になれない」の歌詞が始まる瞬間"
+        },
+        "creative_seed": "persona-goji:d6f1d289",
+        "tension_target": 0.7303947368421053
+      }
+    },
+    "phase2": {
+      "title_en": "Phase 2 / Subject & Location",
+      "title_ja": "Phase 2 / 被写体設定",
+      "summary_items": [
+        {
+          "label_en": "Character",
+          "label_ja": "キャラクター",
+          "value": "背中に棘が並び、長い尻尾が地面に届く天狗。首には石の首飾りが掛かっている。"
+        },
+        {
+          "label_en": "Character concept",
+          "label_ja": "キャラクター原型",
+          "value": "長い尻尾と背中の棘を持つ天狗"
+        }
+      ],
+      "summary_bullets": [
+        {
+          "text_en": "Motion profile: 尻尾を左右に振りながら、背中の棘を揺らして歩く。",
+          "text_ja": "動作プロファイル: 尻尾を左右に振りながら、背中の棘を揺らして歩く。"
+        },
+        {
+          "text_en": "Profile source: llm",
+          "text_ja": "プロフィール生成元: llm"
+        },
+        {
+          "text_en": "Subject signature: 石の首飾り",
+          "text_ja": "被写体シグネチャ: 石の首飾り"
+        },
+        {
+          "text_en": "Phase2b character detail was not generated in this run.",
+          "text_ja": "この実行では Phase2b のキャラクター詳細は未生成です。"
+        }
+      ],
+      "raw": {
+        "phase2a": {
+          "phase1_base": "天狗",
+          "phase2_condition": "長い尻尾・背中の棘",
+          "phase3_anchor": "石の首飾り",
+          "subject_concept": "長い尻尾と背中の棘を持つ天狗",
+          "subject_signature": "石の首飾り",
+          "character_profile": {
+            "appearance_profile": "背中に棘が並び、長い尻尾が地面に届く天狗。首には石の首飾りが掛かっている。",
+            "motion_profile": "尻尾を左右に振りながら、背中の棘を揺らして歩く。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-5c55a0f3",
+          "selected_by_persona_id": "vote10"
+        },
+        "character_profile": {
+          "appearance_profile": "背中に棘が並び、長い尻尾が地面に届く天狗。首には石の首飾りが掛かっている。",
+          "motion_profile": "尻尾を左右に振りながら、背中の棘を揺らして歩く。"
+        },
+        "phase2b_realization": {
+          "visual_medium": {},
+          "characters_preview": [],
+          "locations_preview": []
+        }
+      }
+    },
+    "phase3": {
+      "title_en": "Phase 3 / World Setting",
+      "title_ja": "Phase 3 / 世界観設定",
+      "summary_items": [
+        {
+          "label_en": "Premise",
+          "label_ja": "前提",
+          "value": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。"
+        }
+      ],
+      "summary_bullets": [
+        {
+          "text_en": "Visual signifiers: 空中に浮かぶ半透明の巨大貯水槽（内部で光る液体が渦巻く）, 地平線まで続く送電鉄塔の列と、塔間を結ぶ青白い光のガード, 倒木から垂直に伸びる透明な結晶樹（枝先が虹色に発光）, 浮遊ドックに繋がる空中橋（半透明の床材で下界が透けて見える）",
+          "text_ja": "視覚記号: 空中に浮かぶ半透明の巨大貯水槽（内部で光る液体が渦巻く）、地平線まで続く送電鉄塔の列と、塔間を結ぶ青白い光のガード、倒木から垂直に伸びる透明な結晶樹（枝先が虹色に発光）、浮遊ドックに繋がる空中橋（半透明の床材で下界が透けて見える）"
+        }
+      ],
+      "raw": {
+        "premise": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。",
+        "rules": [
+          "結晶樹の樹液を採取できるのは、倒木に触れた者のみ",
+          "送電鉄塔間の光のガードを横切ると記憶が一時的に消える",
+          "浮遊ドックは日没と共に自動で地上へ降下する",
+          "貯水槽の水位が一定以下になると城壁が透明化し始める"
+        ],
+        "society": "樹液採取権を持つ「触樹民」が上位階級を形成し、浮遊ドックの管理組合が物流と情報を独占。送電鉄塔の保守を担う技師集団が実質的な権力を握る。",
+        "daily_life": "住民は空中橋を渡って移動し、通行ゲートで階級認証を受ける。食事は結晶樹の副産物である光る果実が主食。荷揚げ滑車で日用品を上層へ運び、妖精灯の明滅パターンで時刻を知る。",
+        "values": "倒木への敬意が最高の美徳とされ、結晶樹を無駄にすることは重罪。光のガードを意図的に消すことは禁忌中の禁忌。",
+        "visual_signifiers": [
+          "空中に浮かぶ半透明の巨大貯水槽（内部で光る液体が渦巻く）",
+          "地平線まで続く送電鉄塔の列と、塔間を結ぶ青白い光のガード",
+          "倒木から垂直に伸びる透明な結晶樹（枝先が虹色に発光）",
+          "浮遊ドックに繋がる空中橋（半透明の床材で下界が透けて見える）",
+          "城壁全体に走る発光する柱頭飾りのパターン"
+        ],
+        "limits": "結晶樹を人工的に育てることは不可能。光のガードを物理的に破壊する手段は存在しない。貯水槽の水源は誰も知らず、調査も禁じられている。",
+        "freedom": "",
+        "parts": [
+          {
+            "key": "premise",
+            "kind": "text",
+            "text": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。"
+          },
+          {
+            "key": "rules",
+            "kind": "list",
+            "items": [
+              "結晶樹の樹液を採取できるのは、倒木に触れた者のみ",
+              "送電鉄塔間の光のガードを横切ると記憶が一時的に消える",
+              "浮遊ドックは日没と共に自動で地上へ降下する",
+              "貯水槽の水位が一定以下になると城壁が透明化し始める"
+            ]
+          },
+          {
+            "key": "society",
+            "kind": "text",
+            "text": "樹液採取権を持つ「触樹民」が上位階級を形成し、浮遊ドックの管理組合が物流と情報を独占。送電鉄塔の保守を担う技師集団が実質的な権力を握る。"
+          },
+          {
+            "key": "daily_life",
+            "kind": "text",
+            "text": "住民は空中橋を渡って移動し、通行ゲートで階級認証を受ける。食事は結晶樹の副産物である光る果実が主食。荷揚げ滑車で日用品を上層へ運び、妖精灯の明滅パターンで時刻を知る。"
+          },
+          {
+            "key": "values",
+            "kind": "text",
+            "text": "倒木への敬意が最高の美徳とされ、結晶樹を無駄にすることは重罪。光のガードを意図的に消すことは禁忌中の禁忌。"
+          },
+          {
+            "key": "visual_signifiers",
+            "kind": "list",
+            "items": [
+              "空中に浮かぶ半透明の巨大貯水槽（内部で光る液体が渦巻く）",
+              "地平線まで続く送電鉄塔の列と、塔間を結ぶ青白い光のガード",
+              "倒木から垂直に伸びる透明な結晶樹（枝先が虹色に発光）",
+              "浮遊ドックに繋がる空中橋（半透明の床材で下界が透けて見える）",
+              "城壁全体に走る発光する柱頭飾りのパターン"
+            ]
+          },
+          {
+            "key": "limits",
+            "kind": "text",
+            "text": "結晶樹を人工的に育てることは不可能。光のガードを物理的に破壊する手段は存在しない。貯水槽の水源は誰も知らず、調査も禁じられている。"
+          },
+          {
+            "key": "freedom",
+            "kind": "text",
+            "text": ""
+          }
+        ]
+      }
+    },
+    "phase4": {
+      "title_en": "Phase 4 / Rough Blueprint",
+      "title_ja": "Phase 4 / 荒い設計図",
+      "summary_items": [
+        {
+          "label_en": "Duration",
+          "label_ja": "全体尺",
+          "value": "213.6s"
+        },
+        {
+          "label_en": "Theme",
+          "label_ja": "テーマ",
+          "value": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない"
+        },
+        {
+          "label_en": "World",
+          "label_ja": "世界観",
+          "value": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。"
+        },
+        {
+          "label_en": "Character",
+          "label_ja": "キャラクター",
+          "value": "長い尻尾と背中の棘を持つ天狗（石の首飾り）"
+        },
+        {
+          "label_en": "Goal",
+          "label_ja": "目標",
+          "value": "全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影す…"
+        },
+        {
+          "label_en": "Setpieces",
+          "label_ja": "場面数",
+          "value": "7"
+        },
+        {
+          "label_en": "Progress stages",
+          "label_ja": "進捗段数",
+          "value": "5"
+        }
+      ],
+      "summary_bullets": [
+        {
+          "text_en": "Format: 監視網からの離脱カウントダウン：光ガードの消灯数を進捗として提示",
+          "text_ja": "形式: 監視網からの離脱カウントダウン：光ガードの消灯数を進捗として提示"
+        },
+        {
+          "text_en": "Thumbstop: 貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+          "text_ja": "引き: 貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）"
+        },
+        {
+          "text_en": "Narrative spine: 天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る",
+          "text_ja": "ナラティブの芯: 天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る"
+        }
+      ],
+      "raw": {
+        "duration_sec": 213.599979,
+        "core": {
+          "theme": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+          "world": "空中に浮かぶ巨大な貯水槽群が都市の中心を成し、送電鉄塔と光のガードが結界を張り巡らせている。倒木から生える結晶樹が唯一の自然であり、その樹液が全ての動力源となる。",
+          "character": "長い尻尾と背中の棘を持つ天狗（石の首飾り）",
+          "integration": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。",
+          "narrative_spine": {
+            "setup": "天狗が貯水槽の下層で配給された樹液カメラを受け取る",
+            "question": "何度撮り直しても光ガードが赤く点滅し続けるのはなぜか",
+            "escalation": "天狗が鉄塔へ登り、光ガードの配線を直接操作し始める",
+            "reveal": "光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく",
+            "payoff": "全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る"
+          }
+        },
+        "project_concept": {
+          "format": "監視網からの離脱カウントダウン：光ガードの消灯数を進捗として提示",
+          "driver": "天狗が鉄塔を登り、配線を引き抜くたびに光ガードが消え、都市が暗くなる過程",
+          "presentation": "俯瞰と主観の交互切り替え：天狗の視点（配線を掴む手）と都市全景（光が消える様）を対比",
+          "progression": "配給→撮影→拒絶→侵入→切断→発見→孤立の7段階を、光ガードの色と数で可視化",
+          "audience_contract": "視聴者は「次の光ガードがいつ消えるか」を追い、最後に天狗が何を撮るかを見届ける"
+        },
+        "visual_language": {
+          "motifs": [
+            "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+            "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+            "貯水槽内の液体の渦の速度で審査の圧力を表現",
+            "結晶樹の枝先の発光数で都市の生命力を測る"
+          ],
+          "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+          "lighting_bias": "人工光源が主体、自然光は結晶樹からの発光のみ、影は常に多重（複数の光ガードから）",
+          "camera_language": "固定ワイドで全体監視を示し、ハンドヘルド追従で天狗の主体性を強調、クレーン俯瞰で都市の変化を俯瞰、マクロ寄りで最終行為の孤独を刻む",
+          "texture": "貯水槽の半透明ガラス質、鉄塔の錆と剥離塗装、結晶樹の透明と虹色屈折、空中橋の透過床材",
+          "forbidden": [
+            "歌詞の文言を画面に表示する",
+            "天狗以外の主要キャラクターを登場させる",
+            "結晶樹以外の自然物を配置する",
+            "光ガード以外の監視装置を追加する"
+          ]
+        },
+        "music_read": {
+          "tempo_profile": "BPM 133、16分ハイハットで駆動する焦燥感、サビでキックが2拍目に強打",
+          "energy_profile": "Aメロは低エネルギー持続、Bメロで徐々に上昇、サビで爆発、157秒でピーク到達後に一旦沈黙",
+          "vocal_presence": "Aメロは吐息混じり、サビで叫びに近い発声、英語パートは乾いたデリバリー",
+          "lyric_focus": "規範/編集/操り糸/型/闇といった語が感情の変曲点を示す",
+          "dynamic_shifts": "14秒でドロップ、62秒で英語切り替え、157秒でブレイク後の再構築、199秒で最終爆発"
+        },
+        "hook_design": {
+          "thumbstop": "貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+          "open_loop": "天狗が樹液カメラで自分を撮るが、光ガードが全て赤く点滅し続ける理由は何か",
+          "payoff": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）"
+        },
+        "rules": {
+          "must_include": [
+            "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+            "光ガードが一つずつ消えていく過程の俯瞰カット",
+            "貯水槽内の液体に浮かぶ複数の顔",
+            "結晶樹の根元で天狗が樹液カメラを構える最終カット",
+            "石の首飾りが発光する瞬間"
+          ],
+          "must_avoid": [
+            "歌詞の文言を画面にテキスト表示する",
+            "天狗以外の主要キャラクターを新規登場させる",
+            "結晶樹や貯水槽以外の自然物/水源を追加する",
+            "光ガード以外の監視装置や審査システムを発明する",
+            "過去回想や夢オチの構造を導入する"
+          ],
+          "notes": "retry_note対応：camera_languageを固定ワイドだけでなく、ハンドヘルド追従・クレーン俯瞰・マクロ寄りの4種類を明記し、カメラ挙動の多様性を確保した。"
+        },
+        "narrative_design": {
+          "goal": "全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する",
+          "progress_meter": {
+            "stages": [
+              {
+                "stage_id": "stage_1",
+                "state_before": "貯水槽の下層で待機する天狗の群れ",
+                "state_after": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+              },
+              {
+                "stage_id": "stage_2",
+                "state_before": "貯水槽内の液体スクリーンが白紙状態",
+                "state_after": "スクリーンに映像が映るが、光ガードが全て赤く点滅"
+              },
+              {
+                "stage_id": "stage_3",
+                "state_before": "天狗が地上から鉄塔を見上げる",
+                "state_after": "天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える"
+              },
+              {
+                "stage_id": "stage_4",
+                "state_before": "貯水槽内の液体が静止している",
+                "state_after": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+              },
+              {
+                "stage_id": "stage_5",
+                "state_before": "全ての光ガードが消え、都市が暗闇に包まれる",
+                "state_after": "結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する"
+              }
+            ]
+          }
+        },
+        "emotion_read": {
+          "beats": [
+            {
+              "label": "beat_1",
+              "inner_emotion": "規範への従属",
+              "visible_indicator": "天狗の尻尾が貯水槽の床に張り付き動かない",
+              "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す"
+            },
+            {
+              "label": "beat_2",
+              "inner_emotion": "自己像の拒絶",
+              "visible_indicator": "背中の棘が逆立ち、石の首飾りが発光し始める",
+              "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く"
+            },
+            {
+              "label": "beat_3",
+              "inner_emotion": "制御系への疑念",
+              "visible_indicator": "天狗が鉄塔の配線を引き抜き、手に持って見つめる",
+              "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する"
+            },
+            {
+              "label": "beat_4",
+              "inner_emotion": "他者性の発見",
+              "visible_indicator": "貯水槽内の液体が渦を巻き、複数の顔が浮かび上がる",
+              "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流"
+            },
+            {
+              "label": "beat_5",
+              "inner_emotion": "孤立の選択",
+              "visible_indicator": "全ての光ガードが消え、天狗だけが結晶樹の根元で発光する",
+              "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音"
+            }
+          ]
+        },
+        "setpieces": [
+          {
+            "space_descriptor": "貯水槽下層の配給ドック",
+            "anchor_props": [
+              "天井から垂れ下がる樹液供給チューブ、床に刻まれ…",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "天狗が樹液カメラを受け取り、監視網への参加を強いられる起点"
+          },
+          {
+            "space_descriptor": "貯水槽内部の液体スクリーン空間",
+            "anchor_props": [
+              "渦巻く発光液体、浮遊する再生装置の群れ",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "撮影した映像が承認/拒絶される審査空間"
+          },
+          {
+            "space_descriptor": "鉄塔の頂上プラットフォーム",
+            "anchor_props": [
+              "光ガードの配線接続箱、錆びた足場、風で揺れる信…",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "天狗が監視網の物理構造を直接操作し、制御を奪う場"
+          },
+          {
+            "space_descriptor": "空中橋の透明床区間",
+            "anchor_props": [
+              "下界が透けて見える床材、手すりに絡む結晶樹の蔓",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "天狗が鉄塔へ向かう移動路、高度と不安定性を視覚化"
+          },
+          {
+            "space_descriptor": "倒木の根元（結晶樹発生源）",
+            "anchor_props": [
+              "地面に横たわる巨大倒木、そこから垂直に伸びる結…",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "監視網外で初めて自己撮影が成立する唯一の聖域"
+          },
+          {
+            "space_descriptor": "光ガード切断後の暗転都市",
+            "anchor_props": [
+              "消えた鉄塔の列、停止した貯水槽の液体、沈黙する…",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "全ての監視が停止し、天狗が孤立を選んだ結果の視覚的証明"
+          },
+          {
+            "space_descriptor": "貯水槽内の顔出現空間",
+            "anchor_props": [
+              "液体中に浮かぶ複数の顔、顔の間を走る光のパルス",
+              "天狗が鉄塔の配線を引き抜く瞬間のクローズアップ",
+              "光ガードが一つずつ消えていく過程の俯瞰カット"
+            ],
+            "function_for_story": "天狗が撮影していた自分の顔が実は他者だったことを暴露する転換点"
+          }
+        ],
+        "shooting_grammar": {
+          "camera_progression": "固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+          "motion_progression": "整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止",
+          "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源"
+        },
+        "synopsis": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。 目標は全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する。 天狗が貯水槽の下層で配給された樹液カメラを受け取る。 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか。 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める。 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく。 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る。",
+        "storyline": "天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る",
+        "timeline_summary": [
+          {
+            "section_id": "sec-001",
+            "time_range_sec": [
+              0.0,
+              10.68
+            ],
+            "summary": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+          },
+          {
+            "section_id": "sec-002",
+            "time_range_sec": [
+              10.68,
+              48.5
+            ],
+            "summary": "貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る"
+          },
+          {
+            "section_id": "sec-003",
+            "time_range_sec": [
+              48.5,
+              80.4
+            ],
+            "summary": "鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅"
+          },
+          {
+            "section_id": "sec-004",
+            "time_range_sec": [
+              80.4,
+              112.1
+            ],
+            "summary": "空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅"
+          },
+          {
+            "section_id": "sec-005",
+            "time_range_sec": [
+              112.1,
+              143.3
+            ],
+            "summary": "倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える"
+          },
+          {
+            "section_id": "sec-006",
+            "time_range_sec": [
+              143.3,
+              160.2
+            ],
+            "summary": "光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+          },
+          {
+            "section_id": "sec-007",
+            "time_range_sec": [
+              160.2,
+              192.24
+            ],
+            "summary": "貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる"
+          },
+          {
+            "section_id": "sec-008",
+            "time_range_sec": [
+              192.24,
+              213.6
+            ],
+            "summary": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する"
+          }
+        ],
+        "section_outline": [
+          {
+            "section_id": "sec-001",
+            "label": "intro",
+            "time_range_sec": [
+              0.0,
+              10.68
+            ],
+            "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+            "retention_hook": "貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+            "variation_commitments": [
+              "小物:天井から垂れ下がる樹液供給チューブ、床…",
+              "場所:貯水槽下層の配給ドック",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-002",
+            "label": "verse1",
+            "time_range_sec": [
+              10.68,
+              48.5
+            ],
+            "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+            "retention_hook": "天狗が樹液カメラで自分を撮るが、光ガードが全て赤く点滅し続ける理由は何か",
+            "variation_commitments": [
+              "小物:渦巻く発光液体、浮遊する再生装置の群れ",
+              "場所:貯水槽内部の液体スクリーン空間",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-003",
+            "label": "chorus1",
+            "time_range_sec": [
+              48.5,
+              80.4
+            ],
+            "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+            "retention_hook": null,
+            "variation_commitments": [
+              "小物:光ガードの配線接続箱、錆びた足場、風で…",
+              "場所:鉄塔の頂上プラットフォーム",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-004",
+            "label": "verse2",
+            "time_range_sec": [
+              80.4,
+              112.1
+            ],
+            "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+            "retention_hook": null,
+            "variation_commitments": [
+              "小物:下界が透けて見える床材、手すりに絡む結…",
+              "場所:空中橋の透明床区間",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-005",
+            "label": "chorus2",
+            "time_range_sec": [
+              112.1,
+              143.3
+            ],
+            "beat_word": "天狗が鉄塔の頂上で配線を引き抜き、光ガードが一…",
+            "retention_hook": null,
+            "variation_commitments": [
+              "小物:地面に横たわる巨大倒木、そこから垂直に…",
+              "場所:倒木の根元（結晶樹発生源）",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-006",
+            "label": "bridge",
+            "time_range_sec": [
+              143.3,
+              160.2
+            ],
+            "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+            "retention_hook": null,
+            "variation_commitments": [
+              "小物:消えた鉄塔の列、停止した貯水槽の液体、…",
+              "場所:光ガード切断後の暗転都市",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-007",
+            "label": "verse3",
+            "time_range_sec": [
+              160.2,
+              192.24
+            ],
+            "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+            "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+            "variation_commitments": [
+              "小物:液体中に浮かぶ複数の顔、顔の間を走る光…",
+              "場所:貯水槽内の顔出現空間",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          },
+          {
+            "section_id": "sec-008",
+            "label": "outro",
+            "time_range_sec": [
+              192.24,
+              213.6
+            ],
+            "beat_word": "結晶樹の根元で天狗が自分だけの映像を撮り、新し…",
+            "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+            "variation_commitments": [
+              "小物:天井から垂れ下がる樹液供給チューブ、床…",
+              "場所:貯水槽下層の配給ドック",
+              "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+              "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+            ]
+          }
+        ]
+      }
+    },
+    "phase5": {
+      "title_en": "Phase 5 / IR Draft",
+      "title_ja": "Phase 5 / IR下書き",
+      "summary_items": [
+        {
+          "label_en": "Scenes",
+          "label_ja": "シーン数",
+          "value": "1"
+        },
+        {
+          "label_en": "Shots",
+          "label_ja": "ショット数",
+          "value": "8"
+        },
+        {
+          "label_en": "Timeline",
+          "label_ja": "タイムライン数",
+          "value": "8"
+        }
+      ],
+      "summary_bullets": [],
+      "raw": {
+        "ir_summary": {
+          "counts": {
+            "scenes": 1,
+            "shot_intents": 8,
+            "timeline": 8
+          },
+          "scenes": [
+            {
+              "id": "scene_main",
+              "space_descriptor": "scene",
+              "entities": [
+                "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない"
+              ]
+            }
+          ],
+          "shot_intents": [
+            {
+              "id": "shot_sec-001",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-002",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-003",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-004",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "medium",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-005",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "medium",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-006",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "close_up",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            }
+          ],
+          "timeline": [
+            {
+              "slot_id": "slot_sec-001",
+              "shot_intent_id": "shot_sec-001",
+              "duration": 10.68,
+              "start": 0.0,
+              "section_ref": "sec-001"
+            },
+            {
+              "slot_id": "slot_sec-002",
+              "shot_intent_id": "shot_sec-002",
+              "duration": 37.82,
+              "start": 10.68,
+              "section_ref": "sec-002"
+            },
+            {
+              "slot_id": "slot_sec-003",
+              "shot_intent_id": "shot_sec-003",
+              "duration": 31.900000000000006,
+              "start": 48.5,
+              "section_ref": "sec-003"
+            },
+            {
+              "slot_id": "slot_sec-004",
+              "shot_intent_id": "shot_sec-004",
+              "duration": 31.69999999999999,
+              "start": 80.4,
+              "section_ref": "sec-004"
+            },
+            {
+              "slot_id": "slot_sec-005",
+              "shot_intent_id": "shot_sec-005",
+              "duration": 31.200000000000017,
+              "start": 112.1,
+              "section_ref": "sec-005"
+            },
+            {
+              "slot_id": "slot_sec-006",
+              "shot_intent_id": "shot_sec-006",
+              "duration": 16.899999999999977,
+              "start": 143.3,
+              "section_ref": "sec-006"
+            },
+            {
+              "slot_id": "slot_sec-007",
+              "shot_intent_id": "shot_sec-007",
+              "duration": 32.04000000000002,
+              "start": 160.2,
+              "section_ref": "sec-007"
+            },
+            {
+              "slot_id": "slot_sec-008",
+              "shot_intent_id": "shot_sec-008",
+              "duration": 21.359999999999985,
+              "start": 192.24,
+              "section_ref": "sec-008"
+            }
+          ]
+        }
+      }
+    },
+    "phase6": {
+      "title_en": "Phase 6 / Detailed Blueprint",
+      "title_ja": "Phase 6 / 詳細設計図",
+      "summary_items": [
+        {
+          "label_en": "Primary style",
+          "label_ja": "主スタイル",
+          "value": "industrial-luminescence"
+        },
+        {
+          "label_en": "Direction tone",
+          "label_ja": "演出トーン",
+          "value": "静謐な巨大感と、禁忌への緊張感が同居する。人物よりも構造物と光が主役。"
+        },
+        {
+          "label_en": "Scenes",
+          "label_ja": "シーン数",
+          "value": "1"
+        },
+        {
+          "label_en": "Shots",
+          "label_ja": "ショット数",
+          "value": "8"
+        }
+      ],
+      "summary_bullets": [],
+      "raw": {
+        "expression_design": {
+          "art_style": {
+            "primary": "industrial-luminescence",
+            "secondary": "crystalline-decay",
+            "description": "逆光を基調とした高コントラストの画面。送電鉄塔と光のガードが放つ青白い発光が主光源となり、被写体の輪郭を強調する。質感は金属の酸化とガラスの透過が混在し、レンズは広角気味で空間の奥行きを強調。カメラ距離は中景〜遠景が中心で、浮遊する貯水槽の巨大さを常に意識させる構図。結晶樹の虹色発光のみが暖色として機能し、画面全体の冷たさに対する唯一の救済となる。",
+            "references": [
+              "Blade Runner 2049の産業廃墟",
+              "Ghost in the Shellの都市夜景",
+              "水晶洞窟の内部照明"
+            ]
+          },
+          "color_palette": {
+            "primary_colors": [
+              "#0A1828",
+              "#1E3A5F",
+              "#2C5F7C"
+            ],
+            "accent_colors": [
+              "#00D9FF",
+              "#7FDBFF",
+              "#B967FF"
+            ],
+            "gradient_direction": "deep-shadow-to-neon-edge",
+            "section_variations": [
+              {
+                "section_type": "intro",
+                "colors": [
+                  "#0A1828",
+                  "#1E3A5F",
+                  "#00D9FF"
+                ]
+              },
+              {
+                "section_type": "climax",
+                "colors": [
+                  "#2C5F7C",
+                  "#00D9FF",
+                  "#B967FF"
+                ]
+              },
+              {
+                "section_type": "bridge",
+                "colors": [
+                  "#1E3A5F",
+                  "#7FDBFF",
+                  "#FFD700"
+                ]
+              },
+              {
+                "section_type": "outro",
+                "colors": [
+                  "#0A1828",
+                  "#2C5F7C",
+                  "#7FDBFF"
+                ]
+              }
+            ]
+          },
+          "typography": {
+            "lyric_font_style": "極細ゴシック、字間+200%、画面下部1/4に左寄せ配置、文字の輪郭に微細な青白発光",
+            "title_font_style": "極太コンデンス、字間-10%、画面中央に大きく配置、文字内部に結晶のようなテクスチャ",
+            "animation_style": "文字が光のガードのように左右から収束して現れ、消える際は結晶化して粉砕される"
+          },
+          "direction_tone": {
+            "overall": "静謐な巨大感と、禁忌への緊張感が同居する。人物よりも構造物と光が主役。",
+            "pacing": "カット密度は低め（1カット3〜8秒）。カメラは緩やかなクレーンアップとドリーで空間の垂直性を強調。急激な動きは結晶樹の発光瞬間のみ。",
+            "transition_style": "光のガードが画面を横切ることでワイプ遷移。貯水槽内部の液体渦がディゾルブの起点となり、次のカットが渦の中心から湧き出る。"
+          },
+          "visual_effects": {
+            "primary": [
+              "送電鉄塔から放射される青白い光線のフレア",
+              "貯水槽内部の発光液体の渦巻きパーティクル",
+              "結晶樹の枝先から滴る虹色の樹液ドリップ"
+            ],
+            "climax": [
+              "光のガードが画面全体を覆い尽くすブルーム",
+              "結晶樹が一斉に発光し画面が虹色に染まるフラッシュ",
+              "貯水槽が連鎖的に明滅する波紋エフェクト"
+            ],
+            "ambient": [
+              "空中橋の床材越しに見える下界のボケ",
+              "倒木表面の微細な苔とカビのディテールマップ",
+              "金属酸化による錆と腐食のグランジテクスチャ"
+            ]
+          }
+        },
+        "ir_summary": {
+          "counts": {
+            "scenes": 1,
+            "shot_intents": 8,
+            "timeline": 8
+          },
+          "scenes": [
+            {
+              "id": "scene_main",
+              "space_descriptor": "scene",
+              "entities": [
+                "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない"
+              ]
+            }
+          ],
+          "shot_intents": [
+            {
+              "id": "shot_sec-001",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-002",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-003",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "wide",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-004",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "medium",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-005",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "medium",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            },
+            {
+              "id": "shot_sec-006",
+              "subject": "本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない",
+              "framing": "close_up",
+              "orientation": "eye_level",
+              "space": "scene_main"
+            }
+          ],
+          "timeline": [
+            {
+              "slot_id": "slot_sec-001",
+              "shot_intent_id": "shot_sec-001",
+              "duration": 10.68,
+              "start": 0.0,
+              "section_ref": "sec-001"
+            },
+            {
+              "slot_id": "slot_sec-002",
+              "shot_intent_id": "shot_sec-002",
+              "duration": 37.82,
+              "start": 10.68,
+              "section_ref": "sec-002"
+            },
+            {
+              "slot_id": "slot_sec-003",
+              "shot_intent_id": "shot_sec-003",
+              "duration": 31.900000000000006,
+              "start": 48.5,
+              "section_ref": "sec-003"
+            },
+            {
+              "slot_id": "slot_sec-004",
+              "shot_intent_id": "shot_sec-004",
+              "duration": 31.69999999999999,
+              "start": 80.4,
+              "section_ref": "sec-004"
+            },
+            {
+              "slot_id": "slot_sec-005",
+              "shot_intent_id": "shot_sec-005",
+              "duration": 31.200000000000017,
+              "start": 112.1,
+              "section_ref": "sec-005"
+            },
+            {
+              "slot_id": "slot_sec-006",
+              "shot_intent_id": "shot_sec-006",
+              "duration": 16.899999999999977,
+              "start": 143.3,
+              "section_ref": "sec-006"
+            },
+            {
+              "slot_id": "slot_sec-007",
+              "shot_intent_id": "shot_sec-007",
+              "duration": 32.04000000000002,
+              "start": 160.2,
+              "section_ref": "sec-007"
+            },
+            {
+              "slot_id": "slot_sec-008",
+              "shot_intent_id": "shot_sec-008",
+              "duration": 21.359999999999985,
+              "start": 192.24,
+              "section_ref": "sec-008"
+            }
+          ]
+        }
+      }
+    },
+    "phase7": {
+      "title_en": "Phase 7 / Instruction Pack",
+      "title_ja": "Phase 7 / 指示書",
+      "summary_items": [
+        {
+          "label_en": "Clip count",
+          "label_ja": "クリップ数",
+          "value": "8"
+        },
+        {
+          "label_en": "Timeline duration",
+          "label_ja": "タイムライン尺",
+          "value": "213.6s"
+        }
+      ],
+      "summary_bullets": [],
+      "raw": {
+        "clip_count": 8,
+        "timeline": {
+          "min_sec": 0.0,
+          "max_sec": 213.6,
+          "duration_sec": 213.6
+        }
+      }
+    }
+  }
+}

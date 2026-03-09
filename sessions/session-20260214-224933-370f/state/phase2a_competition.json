@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-51dc9722",
+      "persona_id": "persona-093e640a",
+      "content": {
+        "phase1_base": "忍者",
+        "phase2_condition": "甲殻・細い腕",
+        "phase3_anchor": "背中の装置付き鎧",
+        "subject_concept": "甲殻と細い腕を持つ忍者",
+        "subject_signature": "背中の装置付き鎧",
+        "character_profile": {
+          "appearance_profile": "胴体と腕の一部に硬質な甲殻が露出し、両腕は関節部分が目立つほど細い。背中には複数の留め具を持つ装置が鎧と一体化している。",
+          "motion_profile": "細い腕を素早く畳むように動かし、背中の装置が微かに揺れる。"
+        }
+      },
+      "created_at": "2026-02-14 13:54:15.972252"
+    },
+    {
+      "proposal_id": "sl2a-4d5b7845",
+      "persona_id": "persona-89b66c63",
+      "content": {
+        "phase1_base": "蝶",
+        "phase2_condition": "機械関節・扁平胴体",
+        "phase3_anchor": "額の刻印",
+        "subject_concept": "機械関節と扁平胴体を持つ蝶",
+        "subject_signature": "額の刻印",
+        "character_profile": {
+          "appearance_profile": "胴体は薄く平らで、脚の付け根に金属の関節構造が露出している。頭部の額には幾何学模様の刻印が刻まれている。",
+          "motion_profile": "関節を折り畳むように脚を曲げ、胴体を傾けながら移動する。"
+        }
+      },
+      "created_at": "2026-02-14 13:54:23.794232"
+    },
+    {
+      "proposal_id": "sl2a-39665253",
+      "persona_id": "persona-ce3b4ea8",
+      "content": {
+        "phase1_base": "河童",
+        "phase2_condition": "長い鼻・背ビレ",
+        "phase3_anchor": "鎖の首輪",
+        "subject_concept": "長い鼻と背ビレを持つ河童",
+        "subject_signature": "鎖の首輪",
+        "character_profile": {
+          "appearance_profile": "鼻先まで30センチほど伸びた管状の鼻と、背中の中央を走る三角形の背ビレを持つ。首には錆びた鎖の首輪が食い込んでいる。",
+          "motion_profile": "長い鼻を左右に振りながら、背ビレを小刻みに震わせて歩く。"
+        }
+      },
+      "created_at": "2026-02-14 13:54:32.540710"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-51dc9722",
+      "B": "sl2a-4d5b7845",
+      "C": "sl2a-39665253"
+    },
+    "tally": {
+      "A": 6,
+      "B": 6,
+      "C": 8
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "いとう みお",
+        "like": "B",
+        "like_reason": "蝶のモチーフが優しく、動物好きな自分の感性に合う。機械的な部分も現代的でかっこいい",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪が拘束を連想させて痛々しい。動物福祉の観点から見たくない"
+      },
+      {
+        "voter": "Siriwan Andersen",
+        "like": "A",
+        "like_reason": "忍者は実用的で無駄がなく、長年の職人仕事に通じるものを感じる。装甲も防護的で好感",
+        "dislike": "B",
+        "dislike_reason": "蝶は装飾的すぎて実用性に欠ける。扁平な胴体も不安定に見える"
+      },
+      {
+        "voter": "Henrik Vandenberg",
+        "like": "C",
+        "like_reason": "河童は懐かしい民話を思い出させる。長い鼻や背ビレという特徴が明確で覚えやすい",
+        "dislike": "A",
+        "dislike_reason": "忍者は戦闘的で攻撃的な印象。平和な日常を好む自分には合わない"
+      },
+      {
+        "voter": "Lakshmi Fernandes",
+        "like": "B",
+        "like_reason": "蝶は変容と再生の象徴。額の刻印は精神的な意味を感じさせて神秘的",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪は奴隷制を想起させ不快。歴史的な痛みを思い出す"
+      },
+      {
+        "voter": "Adrian Pembroke",
+        "like": "A",
+        "like_reason": "忍者の規律と技術は英国的な職人精神に通じる。背中の装置も機能美を感じる",
+        "dislike": "C",
+        "dislike_reason": "河童は馴染みがなく奇妙。鎖の首輪も品位に欠ける"
+      },
+      {
+        "voter": "ちづる",
+        "like": "C",
+        "like_reason": "河童は島根の民話に登場し、幼少期の記憶と繋がる。医療従事者として、首輪の拘束イメージには社会的弱者への共感を覚える。",
+        "dislike": "B",
+        "dislike_reason": "蝶の機械関節や扁平胴体は生理的に不快。看護師として人体構造への違和感が強い。"
+      },
+      {
+        "voter": "Vanida MacLeod",
+        "like": "A",
+        "like_reason": "忍者の機動性と背中の装置は空港の物流システムを連想させ、職業的親近感がある。実用的なデザインが好み。",
+        "dislike": "C",
+        "dislike_reason": "鎖の首輪は拘束の象徴で、事故後のリハビリ期間の無力感を思い出させる。見たくない。"
+      },
+      {
+        "voter": "ミン・チェン",
+        "like": "B",
+        "like_reason": "蝶の変態プロセスと額の刻印は、中印間を行き来する自分のアイデンティティの変容を象徴している。機械関節は物流の効率性を想起。",
+        "dislike": "A",
+        "dislike_reason": "忍者は日本文化の記号で、中国輸入代行業者として職業的に距離を感じる。個人的興味も薄い。"
+      },
+      {
+        "voter": "かわむら ゆうき",
+        "like": "A",
+        "like_reason": "忍者は子供の頃から親しんだ日本のポップカルチャー。背中の装置はSF的でゲームや海外ドラマの世界観に通じる。",
+        "dislike": "C",
+        "dislike_reason": "河童に特別な思い入れはなく、鎖の首輪は暗い印象。ファンタジーとしても魅力を感じない。"
+      },
+      {
+        "voter": "Yanis Benali",
+        "like": "C",
+        "like_reason": "鎖の首輪は植民地支配や移民の歴史的抑圧を想起させ、社会正義の文脈で議論価値がある。河童という異文化要素も学術的興味を引く。",
+        "dislike": "B",
+        "dislike_reason": "蝶の機械化は自然の美を損なう産業主義の象徴。額の刻印も管理社会を連想し、人権意識から受け入れがたい。"
+      }
+    ],
+    "analysis": "[batch 1] 投票は分散し、A（忍者）とB（蝶）が各2票のlikeを獲得。C（河童）は鎖の首輪要素が3票のdislikeを集め強い拒否反応を示された。文化的背景と個人の価値観が投票に大きく影響している。\n[batch 2] 世代・地域・職業が異なる5人は、各自の生活経験を通じて候補を解釈している。ちづるとYanisは社会的文脈でCを支持、Vanidaとゆうきはポップカルチャー的親近感でAを、ミン・チェンは自己投影でBを選択。dislikeは拘束イメージ（C）と生理的違和感（B）に二分された。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

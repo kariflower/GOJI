@@ -1,0 +1,169 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-a92b6f7c",
+      "persona_id": "persona-89b66c63",
+      "content": {
+        "phase1_base": "修道士",
+        "phase2_condition": "六本腕・細長い首",
+        "phase3_anchor": "首の鎖",
+        "subject_concept": "六本腕と細長い首を持つ修道士",
+        "subject_signature": "首の鎖",
+        "character_profile": {
+          "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+          "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+        }
+      },
+      "created_at": "2026-02-14 13:40:38.071104"
+    },
+    {
+      "proposal_id": "sl2a-c0cf1e23",
+      "persona_id": "persona-0b1a9590",
+      "content": {
+        "phase1_base": "アンドロイド",
+        "phase2_condition": "蛇腹関節・縦長の瞳",
+        "phase3_anchor": "背中の旗",
+        "subject_concept": "蛇腹関節と縦長の瞳を持つアンドロイド",
+        "subject_signature": "背中の旗",
+        "character_profile": {
+          "appearance_profile": "首と四肢に蛇腹状の関節部を持ち、縦長の瞳が光る。背中には一本の旗が立っている。",
+          "motion_profile": "蛇腹関節が伸縮しながら移動し、旗が風になびく。"
+        }
+      },
+      "created_at": "2026-02-14 13:40:59.199048"
+    },
+    {
+      "proposal_id": "sl2a-e348ef8b",
+      "persona_id": "persona-7f39e24c",
+      "content": {
+        "phase1_base": "蛾",
+        "phase2_condition": "扁平頭・四本角",
+        "phase3_anchor": "額の紋章",
+        "subject_concept": "扁平頭と四本角を持つ蛾",
+        "subject_signature": "額の紋章",
+        "character_profile": {
+          "appearance_profile": "頭部が左右に平たく広がり、そこから四本の角が斜め上方へ伸びている。扁平な額の中央には幾何学模様の紋章が刻まれている。",
+          "motion_profile": "四本角が微細に揺れながら、扁平頭を左右に傾ける動作を繰り返す。"
+        }
+      },
+      "created_at": "2026-02-14 13:41:07.377464"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-a92b6f7c",
+      "B": "sl2a-c0cf1e23",
+      "C": "sl2a-e348ef8b"
+    },
+    "tally": {
+      "A": 7,
+      "B": 6,
+      "C": 7
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "たかはし めぐみ",
+        "like": "A",
+        "like_reason": "修道士という人間的なベースが親しみやすく、宗教的な荘厳さに惹かれる。首の鎖という象徴も分かりやすい",
+        "dislike": "C",
+        "dislike_reason": "蛾というベースが虫で生理的に受け付けにくい。扁平頭や四本角も不気味すぎる"
+      },
+      {
+        "voter": "Grace Hwang",
+        "like": "B",
+        "like_reason": "アンドロイドという概念が未来的で知的好奇心をそそる。背中の旗という視覚要素も興味深い",
+        "dislike": "C",
+        "dislike_reason": "蛾は苦手な虫の一つ。扁平頭や四本角といった特徴も不快感がある"
+      },
+      {
+        "voter": "ゆうき",
+        "like": "C",
+        "like_reason": "蛾という非人間的なベースが斬新で、四本角や額の紋章といった幻想的な要素に魅力を感じる。将棋の駒のような象徴性",
+        "dislike": "B",
+        "dislike_reason": "アンドロイドや蛇腹関節という機械的要素が無機質で、感情移入しづらい"
+      },
+      {
+        "voter": "Karim Haddad",
+        "like": "B",
+        "like_reason": "エンジニアとして機械構造に興味がある。蛇腹関節の可動性や縦長の瞳という精密な設計が評価できる",
+        "dislike": "A",
+        "dislike_reason": "修道士という宗教的モチーフに個人的な関心が薄い。六本腕も過剰に感じる"
+      },
+      {
+        "voter": "みずき",
+        "like": "A",
+        "like_reason": "修道士のミステリアスな雰囲気が好き。六本腕という異形性と首の鎖という拘束イメージの組み合わせが面白い",
+        "dislike": "C",
+        "dislike_reason": "蛾は夜に飛んでくるイメージで怖い。扁平頭も気持ち悪く感じる"
+      },
+      {
+        "voter": "Takoda Whitecrow",
+        "like": "B",
+        "like_reason": "アンドロイドの機械的な合理性と背中の旗という象徴性に、物流管理の秩序と労働者の連帯を重ねて共感した",
+        "dislike": "C",
+        "dislike_reason": "蛾の扁平頭と四本角という組み合わせが生理的に不快で、倉庫で見る害虫を連想させる"
+      },
+      {
+        "voter": "Adrian Pembroke",
+        "like": "A",
+        "like_reason": "修道士という伝統的なモチーフに安心感を覚え、首の鎖という象徴が人生の束縛と解放のテーマを想起させた",
+        "dislike": "B",
+        "dislike_reason": "アンドロイドと旗という無機質な組み合わせが冷たく感じられ、人間味が欠けている"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "C",
+        "like_reason": "蛾の夜行性と額の紋章が、港の夜仕事や身分の証という自分の経験と重なり、奇妙な親近感を抱いた",
+        "dislike": "A",
+        "dislike_reason": "修道士と六本腕という組み合わせが不吉で、宗教的な戒律の押し付けを感じさせる"
+      },
+      {
+        "voter": "ちづる",
+        "like": "A",
+        "like_reason": "修道士の献身性と六本腕の多忙さが、看護師としての自分の人生と重なり、首の鎖に長年の責任の重さを見た",
+        "dislike": "C",
+        "dislike_reason": "蛾という儚く不気味な生物に扁平頭と角という要素が加わり、医療現場で見た病の象徴を思い出させる"
+      },
+      {
+        "voter": "Inês de Carvalho",
+        "like": "B",
+        "like_reason": "アンドロイドの蛇腹関節に刺繍の繊細な作業を、背中の旗に家族を守る意志の象徴を見出した",
+        "dislike": "A",
+        "dislike_reason": "修道士という宗教的権威の象徴が、貧しい女性への抑圧を連想させ、六本腕の異形性が恐怖を誘う"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "C",
+        "like_reason": "蛾という生物ベースは具体的で映像として想像しやすい。額の紋章という視覚的アンカーも明確",
+        "dislike": "A",
+        "dislike_reason": "修道士は人間的すぎて「呼ばれることでしか存在できない」という抽象的な依存関係が説教臭く感じる。六本腕も設定が凝りすぎて技術的"
+      }
+    ],
+    "analysis": "[batch 1] AとBがそれぞれ2票のlikeを獲得し拮抗。Cは1票のlikeに対し3票のdislikeを集め、虫ベースへの生理的抵抗が顕著。年齢・職業・文化背景により、宗教的/機械的/生物的モチーフへの反応が分かれた。\n[batch 2] 時代・文化・職業背景が異なる5人の投票は見事に分散し、Aが2票、Bが2票、Cが1票のlikeを獲得した。dislikeでは各候補が複数票を集めており、「宗教的権威への警戒」「機械的冷淡さへの拒否」「生物的不気味さへの嫌悪」という3つの明確な拒絶理由が浮かび上がった。",
+    "is_tiebreak": true,
+    "tiebreak_reason": null,
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "C",
+      "like_reason": "蛾という生物ベースは具体的で映像として想像しやすい。額の紋章という視覚的アンカーも明確",
+      "dislike": "A",
+      "dislike_reason": "修道士は人間的すぎて「呼ばれることでしか存在できない」という抽象的な依存関係が説教臭く感じる。六本腕も設定が凝りすぎて技術的"
+    }
+  }
+}

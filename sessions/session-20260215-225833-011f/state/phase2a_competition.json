@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-0a910457",
+      "persona_id": "persona-5e640a83",
+      "content": {
+        "phase1_base": "司祭",
+        "phase2_condition": "露出関節・短い首",
+        "phase3_anchor": "額の刻印",
+        "subject_concept": "露出関節と短い首を持つ司祭",
+        "subject_signature": "額の刻印",
+        "character_profile": {
+          "appearance_profile": "肘と膝の関節部分が衣服から露出し、首が極端に短く頭部が肩に埋まったように見える司祭。額には複雑な幾何学模様の刻印が刻まれている。",
+          "motion_profile": "首を動かさず頭部ごと回転させるように向きを変え、露出した関節を軋ませながら歩く。"
+        }
+      },
+      "created_at": "2026-02-15 14:03:41.914089"
+    },
+    {
+      "proposal_id": "sl2a-e6895eee",
+      "persona_id": "persona-9fedfc46",
+      "content": {
+        "phase1_base": "鶴",
+        "phase2_condition": "四本腕・細い手",
+        "phase3_anchor": "背負い旗",
+        "subject_concept": "四本腕と細い手を持つ鶴",
+        "subject_signature": "背負い旗",
+        "character_profile": {
+          "appearance_profile": "四本の腕が胴から放射状に伸び、それぞれの先端に細く長い指を持つ鶴。背中には一本の旗竿が垂直に立ち、布が風になびく。",
+          "motion_profile": "四本の細い手が同時に別々の動作を行い、背負い旗が動きに遅れて揺れる。"
+        }
+      },
+      "created_at": "2026-02-15 14:03:50.683338"
+    },
+    {
+      "proposal_id": "sl2a-2d1b4e67",
+      "persona_id": "persona-129b4411",
+      "content": {
+        "phase1_base": "天狗",
+        "phase2_condition": "扁平頭・垂れ耳",
+        "phase3_anchor": "肩の装置",
+        "subject_concept": "扁平頭と垂れ耳を持つ天狗",
+        "subject_signature": "肩の装置",
+        "character_profile": {
+          "appearance_profile": "頭部は左右に広く扁平で、両側から長い垂れ耳が下がっている。肩には複数の歯車と金属棒が組み合わさった装置が取り付けられている。",
+          "motion_profile": "首を傾けるたびに肩の装置が小刻みに回転し、金属音を立てる。"
+        }
+      },
+      "created_at": "2026-02-15 14:04:08.327358"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-0a910457",
+      "B": "sl2a-e6895eee",
+      "C": "sl2a-2d1b4e67"
+    },
+    "tally": {
+      "A": 8,
+      "B": 5,
+      "C": 7
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 1,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "Derek Chen",
+        "like": "B",
+        "like_reason": "鶴は縁起が良く、平和的なイメージ。四本腕は実用的で力強さを感じる。",
+        "dislike": "C",
+        "dislike_reason": "天狗は怖い。扁平頭や垂れ耳は不気味で見ていて落ち着かない。"
+      },
+      {
+        "voter": "Vanida MacLeod",
+        "like": "A",
+        "like_reason": "司祭は威厳があり、額の刻印は神秘的で興味深い。宗教的なモチーフに親しみがある。",
+        "dislike": "B",
+        "dislike_reason": "四本腕は不自然で気持ち悪い。細い手も脆弱そうで好ましくない。"
+      },
+      {
+        "voter": "みずき",
+        "like": "C",
+        "like_reason": "天狗はアニメやゲームで見慣れていてカッコいい。肩の装置は機械的でデザイン性が高そう。",
+        "dislike": "A",
+        "dislike_reason": "司祭は堅苦しくて古臭い。露出関節は生々しくて嫌だ。"
+      },
+      {
+        "voter": "Adrian Pembroke",
+        "like": "A",
+        "like_reason": "司祭は格式があり、額の刻印は象徴的で美しい。伝統的な要素に惹かれる。",
+        "dislike": "C",
+        "dislike_reason": "天狗は異国的すぎて馴染みがない。扁平頭は奇妙で好みではない。"
+      },
+      {
+        "voter": "おおた りえ",
+        "like": "B",
+        "like_reason": "鶴は日本文化に馴染み深く優美。背負い旗も時代劇のようで親しみやすい。",
+        "dislike": "A",
+        "dislike_reason": "露出関節や短い首は不気味。宗教的な要素も少し重苦しく感じる。"
+      },
+      {
+        "voter": "Miguel Alejandro Torres",
+        "like": "A",
+        "like_reason": "司祭というベースが厳かで安定感がある。額の刻印も象徴的で理解しやすい",
+        "dislike": "C",
+        "dislike_reason": "天狗や肩の装置など、文化的に馴染みがなく想像しづらい"
+      },
+      {
+        "voter": "Vikram Patel",
+        "like": "B",
+        "like_reason": "鶴は優雅で伝統的な象徴。背負い旗も儀式的な雰囲気があり好ましい",
+        "dislike": "C",
+        "dislike_reason": "扁平頭や垂れ耳という要素が不気味で、高齢者として受け入れがたい"
+      },
+      {
+        "voter": "Alex Reyes",
+        "like": "C",
+        "like_reason": "肩の装置や四本腕など、メカニカルで工学的な要素に興味がある",
+        "dislike": "A",
+        "dislike_reason": "司祭や額の刻印は宗教的で古臭く、自分の関心と合わない"
+      },
+      {
+        "voter": "陳俊傑",
+        "like": "B",
+        "like_reason": "鶴は東アジア文化で馴染みがあり、四本腕という構造的特徴も興味深い",
+        "dislike": "A",
+        "dislike_reason": "司祭という西洋的・宗教的モチーフに共感できない"
+      },
+      {
+        "voter": "みずほ",
+        "like": "A",
+        "like_reason": "司祭という人間的なベースが親しみやすく、露出関節も視覚的に整理されている",
+        "dislike": "C",
+        "dislike_reason": "天狗や扁平頭など、奇抜すぎて日常的な感覚から離れすぎている"
+      }
+    ],
+    "analysis": "[batch 1] 投票は分散し、A（2票）、B（2票）、C（1票）のlikeとなった。文化的背景や年齢層により好みが分かれ、若年層は現代的・機械的要素を、中高年層は伝統的・象徴的要素を好む傾向が見られた。dislikeでは「不気味さ」「不自然さ」が主な理由となっている。\n[batch 2] Bが2票のlikeを獲得し、文化的共感と優雅さで支持された。Cは若年層からは技術的関心で支持されたが、高齢層や文化的距離のある層からは拒否反応が強い。Aは西洋文化圏と日本で支持が分かれ、宗教的モチーフの受容差が顕著に現れた。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

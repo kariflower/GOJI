@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-46e91521",
+      "persona_id": "persona-3a362088",
+      "content": {
+        "phase1_base": "巫女",
+        "phase2_condition": "露出関節・縦長の瞳",
+        "phase3_anchor": "胸の刻印",
+        "subject_concept": "露出関節と縦長の瞳を持つ巫女",
+        "subject_signature": "胸の刻印",
+        "character_profile": {
+          "appearance_profile": "肘と膝の関節部分が機構的に露出しており、縦長の瞳が光を捉える。胸部中央には複雑な幾何学刻印が刻まれている。",
+          "motion_profile": "露出した関節が滑らかに屈伸するたび、刻印が微かに明滅する。"
+        }
+      },
+      "created_at": "2026-02-13 16:26:47.211705"
+    },
+    {
+      "proposal_id": "sl2a-a309f558",
+      "persona_id": "persona-b0d79042",
+      "content": {
+        "phase1_base": "サソリ",
+        "phase2_condition": "六本腕・分節胴体",
+        "phase3_anchor": "背負い旗",
+        "subject_concept": "六本腕と分節胴体を持つサソリ",
+        "subject_signature": "背負い旗",
+        "character_profile": {
+          "appearance_profile": "胴体は複数の節で区切られ、それぞれが独立して動く構造を持つ。六本の腕は左右非対称に配置され、背中には縦長の旗を背負っている。",
+          "motion_profile": "旗を背負ったまま分節胴体をうねらせ、六本の腕で地面を掴みながら這うように移動する。"
+        }
+      },
+      "created_at": "2026-02-13 16:26:57.687374"
+    },
+    {
+      "proposal_id": "sl2a-4600ce0d",
+      "persona_id": "persona-536670e0",
+      "content": {
+        "phase1_base": "馬",
+        "phase2_condition": "石肌・螺旋角",
+        "phase3_anchor": "骨の首飾り",
+        "subject_concept": "石肌と螺旋角を持つ馬",
+        "subject_signature": "骨の首飾り",
+        "character_profile": {
+          "appearance_profile": "全身が石の表面のような質感で覆われ、頭部から左右に螺旋状の角が伸びている。首には複数の骨を連ねた首飾りが掛かっている。",
+          "motion_profile": "歩行時、石肌の関節部分が擦れ合い、螺旋角が僅かに揺れる。"
+        }
+      },
+      "created_at": "2026-02-13 16:27:17.014403"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-46e91521",
+      "B": "sl2a-a309f558",
+      "C": "sl2a-4600ce0d"
+    },
+    "tally": {
+      "A": 7,
+      "B": 8,
+      "C": 5
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 5,
+      "C": 1
+    },
+    "votes": [
+      {
+        "voter": "Alex Reyes",
+        "like": "B",
+        "like_reason": "六本腕と分節胴体という機械的な構造が、ロボット工学部で学んでいることと重なって興味深い。サソリの関節機構は設計の参考になりそう。",
+        "dislike": "A",
+        "dislike_reason": "巫女というテーマは自分の文化圏から遠く、露出関節や胸の刻印といった要素にあまり惹かれない。"
+      },
+      {
+        "voter": "Moana Tetuanui",
+        "like": "C",
+        "like_reason": "馬は力強さと働き者の象徴で親しみがある。骨の首飾りは伝統的な装飾品を思わせ、石肌という質感も自然で良い。",
+        "dislike": "B",
+        "dislike_reason": "サソリは毒を持つ危険な生き物のイメージが強く、六本腕という異形性が不気味に感じる。"
+      },
+      {
+        "voter": "あきら",
+        "like": "A",
+        "like_reason": "巫女という日本の伝統文化モチーフに親近感がある。縦長の瞳と胸の刻印という神秘的な要素の組み合わせが、文化的な深みを感じさせる。",
+        "dislike": "B",
+        "dislike_reason": "六本腕や分節胴体という過度に異形化された身体表現は、美的感覚としてやや過剰に感じる。"
+      },
+      {
+        "voter": "Amara Okafor",
+        "like": "B",
+        "like_reason": "複雑な構造（六本腕、分節胴体）は修理技術者として興味をそそる。機械的な美しさがあり、背負い旗という戦士的要素も力強い。",
+        "dislike": "A",
+        "dislike_reason": "巫女というコンセプトは自分の文化背景になじみがなく、露出関節や刻印といった要素の意味がつかみにくい。"
+      },
+      {
+        "voter": "Grace Hwang",
+        "like": "C",
+        "like_reason": "馬という動物は優雅で親しみやすく、螺旋角という幻想的な要素が控えめで上品。図書館の利用者と話すときの話題にもしやすそう。",
+        "dislike": "B",
+        "dislike_reason": "サソリと六本腕という組み合わせは視覚的に攻撃的で、落ち着いた日常生活を送る自分には馴染まない。"
+      },
+      {
+        "voter": "Park Min-ji",
+        "like": "A",
+        "like_reason": "巫女というモチーフに神秘性と文化的な興味を感じる。胸の刻印という象徴性も気になる",
+        "dislike": "B",
+        "dislike_reason": "サソリに六本腕という組み合わせが生理的に不快。虫系の分節胴体も苦手"
+      },
+      {
+        "voter": "たかはし けんと",
+        "like": "C",
+        "like_reason": "馬に石肌と螺旋角という力強いファンタジー要素が男性的でかっこいい。骨の首飾りも戦士的",
+        "dislike": "A",
+        "dislike_reason": "巫女に露出関節というのが日本人として違和感がある。神聖なイメージと合わない"
+      },
+      {
+        "voter": "Rajesh Krishnan",
+        "like": "C",
+        "like_reason": "石肌と螺旋角は神話的で、チェスの駒のナイトを想起させる。構造的に興味深い",
+        "dislike": "B",
+        "dislike_reason": "六本腕の昆虫的なデザインは不気味。背負い旗という要素も唐突に感じる"
+      },
+      {
+        "voter": "Lucía Fernández",
+        "like": "A",
+        "like_reason": "巫女という女性キャラに神秘的な要素が組み合わさっているのが魅力的。胸の刻印も象徴的",
+        "dislike": "C",
+        "dislike_reason": "馬に石肌という無機質な組み合わせが冷たく感じる。骨の首飾りも暗い印象"
+      },
+      {
+        "voter": "たなか りょうた",
+        "like": "B",
+        "like_reason": "六本腕のサソリってゲームのボスキャラみたいでかっこいい。背負い旗も派手で目立つ",
+        "dislike": "A",
+        "dislike_reason": "巫女って地味だし、縦長の瞳とか気持ち悪い。露出関節も意味わかんない"
+      }
+    ],
+    "analysis": "[batch 1] BとCがそれぞれ2票ずつlikeを獲得し、Aは1票に留まった。技術系バックグラウンドを持つ若年層（Alex、Amara）は構造的複雑性を評価してBを選び、伝統や自然との調和を重視する層（Moana、Grace、あきら）はCまたはAを選ぶ傾向が見られた。dislikeではBが3票と最多で、異形性の強さが敬遠される要因となった。\n[batch 2] 世代と文化背景で好みが分かれた。若年層（たなか）はゲーム的な派手さを、成人層は神話性や象徴性を重視。Bは虫系要素で拒否反応が強く、AとCは文化的解釈の違いで評価が分裂している。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

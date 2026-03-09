@@ -1,0 +1,6264 @@
+{
+  "session_id": "session-20260227-130250-61a2",
+  "state_version": 6,
+  "created_at": "2026-02-27T04:02:50.646067Z",
+  "updated_at": "2026-02-27T05:52:01.188404Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260227-130250-61a2",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.4875,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.37763157894736843,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.38026315789473686,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.3828947368421053,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6855263157894737,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6881578947368421,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6907894736842105,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.39342105263157895,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.3960526315789474,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.3986842105263158,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.7013157894736841,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.7039473684210525,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.706578947368421,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.20921052631578949,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.21184210526315791,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.7144736842105263,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.7171052631578947,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.7197368421052631,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.4723684210526316,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.525,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "music_analysis_manifest": {
+    "version": "1",
+    "scalar_keys": [
+      "bpm",
+      "bpm_confidence",
+      "key",
+      "mode",
+      "genre",
+      "subgenre",
+      "duration_sec",
+      "detection_method"
+    ],
+    "arrays": {
+      "sections": {
+        "count": 8,
+        "chunk_size": 16,
+        "chunk_count": 1,
+        "chunks": [
+          {
+            "id": "sections:0",
+            "index": 0,
+            "start": 0,
+            "end": 8,
+            "count": 8,
+            "start_sec": 0.0,
+            "end_sec": 213.6
+          }
+        ]
+      },
+      "emotional_arc": {
+        "count": 20,
+        "chunk_size": 32,
+        "chunk_count": 1,
+        "chunks": [
+          {
+            "id": "emotional_arc:0",
+            "index": 0,
+            "start": 0,
+            "end": 20,
+            "count": 20,
+            "start_sec": 0.0,
+            "end_sec": 213.599979
+          }
+        ]
+      },
+      "beats": {
+        "count": 479,
+        "chunk_size": 128,
+        "chunk_count": 4,
+        "chunks": [
+          {
+            "id": "beats:0",
+            "index": 0,
+            "start": 0,
+            "end": 128,
+            "count": 128,
+            "start_sec": 2.943604,
+            "end_sec": 58.148876
+          },
+          {
+            "id": "beats:1",
+            "index": 1,
+            "start": 128,
+            "end": 256,
+            "count": 128,
+            "start_sec": 58.564709,
+            "end_sec": 114.004913
+          },
+          {
+            "id": "beats:2",
+            "index": 2,
+            "start": 256,
+            "end": 384,
+            "count": 128,
+            "start_sec": 114.421753,
+            "end_sec": 170.930359
+          },
+          {
+            "id": "beats:3",
+            "index": 3,
+            "start": 384,
+            "end": 479,
+            "count": 95,
+            "start_sec": 171.346817,
+            "end_sec": 213.149002
+          }
+        ]
+      }
+    }
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "core_concept": {
+    "creative_seed": "persona-400d5ebd:eb14d2b0",
+    "self_analysis": "私は物事を遠くから眺める癖がある。感情的になることを避けるのではなく、距離を置くことで全体が見えると知っている。ユーモアは自己防衛ではなく、ずれを楽しむためのもの。回復力は「立ち直る」ではなく「そのまま続ける」という感覚に近い。翻訳の仕事で鍛えられた癖として、同じ言葉でも角度を変えると全然別の意味になることを知っている。だから暗い歌詞を見ても「そうとも読める」と思う前に「もっと別の読み方はないか」を探してしまう。",
+    "what_i_saw": "体育館の壇上。卒業式か入学式か、とにかく全員が椅子に整列させられている場面。でも一人だけ——最前列の端の生徒が、椅子ごとゆっくり、ほんの数センチだけ外側に向けて回転している。誰も気づいていない。本人も気づいていないかのような顔をしている。でも足元だけが、けっこうな速さで貧乏ゆすりをしている。",
+    "why_it_came": "BPM133のC majorで感情カーブが最初から最後まで高エネルギーを維持するこの曲は、実は「爆発の曲」ではなく「ずっと沸騰している曲」だと思った。歌詞の「14歳の血が沸騰してる」「革命はここから始まる」という言葉を祝祭として読んだ——誰も傷つけない、ただ自分だけが知っている小さな儀式として。暗さより、その静かな反抗の可笑しさと誇らしさに引っ張られた。[起点=lyrics][解釈=静かな祝祭][トーン=playful]",
+    "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+    "hook_scene": {
+      "focus": "制服を着た10代の生徒——ただし胸ポケットに折り紙で作った小さな旗が一本だけ刺さっている",
+      "place": "卒業式か何かの式典中の体育館。全席が埋まり、来賓がスピーチしている。照明はフラットな白色灯。",
+      "action": "整列した椅子の中でほんの数センチだけ外に向けて体ごと回転しており、正面を向いているように見えるが実は斜め45度を向いている。口元は真一文字。でも足だけが曲に合わせてリズムを刻んでいる。",
+      "detail": "胸ポケットの折り紙の旗——色は赤と金、5センチほど。校則違反ではないギリギリのサイズ。誰も見ていない。",
+      "question": "あの旗はいつ折ったのか？ 今日のためだけに作ったのか、それとも毎日持ち歩いているのか？",
+      "when": "chorus1冒頭（48.5秒）——「透明な檻の中で踊る人形」の歌い出しに合わせてカメラがゆっくり寄る"
+    },
+    "tension_target": 0.7303947368421053
+  },
+  "subject_location_design": {
+    "phase2a_vision": {
+      "phase1_base": "ヒドラ",
+      "phase2_condition": "扁平頭・霜肌",
+      "phase3_anchor": "角の冠",
+      "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+      "subject_signature": "角の冠",
+      "character_profile": {
+        "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+        "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+      },
+      "character_profile_source": "llm",
+      "adopted_from_persona_id": "persona-bf06ecbf",
+      "selected_by_persona_id": "vote10"
+    },
+    "phase2b_realization": {},
+    "phase2b_deferred": true,
+    "character_profile": {
+      "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+      "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+    },
+    "character_profile_source": "llm"
+  },
+  "world_setting": {
+    "premise": "重力が「層」で区切られた都市では、石畳の路面と空中の足場が同じ日常として並存し、人々は電柱と反重力石柱の両方に道標を貼る。",
+    "rules": [
+      "重力層は高さによって方向が反転する。地上層と空中層では落下方向が逆になる",
+      "層の境界は光の帯として目視できる。境界を越えると感覚が一瞬白く飛ぶ",
+      "魔力水路が重力層を安定させている。水路が干上がると層が崩壊し始める",
+      "物体は層を跨いで静止できない。境界に置かれたものは必ずどちらかに弾かれる"
+    ],
+    "society": "地上層の自治区と空中層の管理区が分断統治しており、魔力水路の管理権を持つ者が事実上の権力を握る。行き来できる者は少数で、層間移動者は両勢力から警戒される。",
+    "daily_life": "地上では石畳と鉄灯籠が並ぶ路地に市場が立ち、空中層では浮遊足場に洗濯物が翻る。移動は層内の路面標識に従い、カーブミラーは層の境界確認に使われる。",
+    "values": "「根を張る」ことが美徳とされる地上文化と、「浮き続ける」ことを誇る空中文化が互いを軽蔑し合う。境界を越える行為は禁忌ではないが、社会的な裏切りと見なされる。",
+    "visual_signifiers": [
+      "電柱と反重力石柱が同じ路地に混在し、それぞれ逆方向に看板が向いている",
+      "光の帯が空中に水平に走り、その上下で雨粒が逆方向に落ちている",
+      "石畳の地面と、その真上の空中足場の両方に白線と路面標識が描かれている",
+      "魔力水路が建物の壁面を垂直に流れ、空中層では天井を這うように走っている"
+    ],
+    "limits": "重力層の境界そのものを移動させることは不可能。水路の増設も百年単位の工事を要し、現存する水路網は不変の前提として扱われている。",
+    "freedom": "層の内部では物理法則は完全に均質で、魔法も機械も制限なく使える。重力方向さえ把握していれば、建築・移動・表現のすべてに制約はない。",
+    "parts": [
+      {
+        "key": "premise",
+        "kind": "text",
+        "text": "重力が「層」で区切られた都市では、石畳の路面と空中の足場が同じ日常として並存し、人々は電柱と反重力石柱の両方に道標を貼る。"
+      },
+      {
+        "key": "rules",
+        "kind": "list",
+        "items": [
+          "重力層は高さによって方向が反転する。地上層と空中層では落下方向が逆になる",
+          "層の境界は光の帯として目視できる。境界を越えると感覚が一瞬白く飛ぶ",
+          "魔力水路が重力層を安定させている。水路が干上がると層が崩壊し始める",
+          "物体は層を跨いで静止できない。境界に置かれたものは必ずどちらかに弾かれる"
+        ]
+      },
+      {
+        "key": "society",
+        "kind": "text",
+        "text": "地上層の自治区と空中層の管理区が分断統治しており、魔力水路の管理権を持つ者が事実上の権力を握る。行き来できる者は少数で、層間移動者は両勢力から警戒される。"
+      },
+      {
+        "key": "daily_life",
+        "kind": "text",
+        "text": "地上では石畳と鉄灯籠が並ぶ路地に市場が立ち、空中層では浮遊足場に洗濯物が翻る。移動は層内の路面標識に従い、カーブミラーは層の境界確認に使われる。"
+      },
+      {
+        "key": "values",
+        "kind": "text",
+        "text": "「根を張る」ことが美徳とされる地上文化と、「浮き続ける」ことを誇る空中文化が互いを軽蔑し合う。境界を越える行為は禁忌ではないが、社会的な裏切りと見なされる。"
+      },
+      {
+        "key": "visual_signifiers",
+        "kind": "list",
+        "items": [
+          "電柱と反重力石柱が同じ路地に混在し、それぞれ逆方向に看板が向いている",
+          "光の帯が空中に水平に走り、その上下で雨粒が逆方向に落ちている",
+          "石畳の地面と、その真上の空中足場の両方に白線と路面標識が描かれている",
+          "魔力水路が建物の壁面を垂直に流れ、空中層では天井を這うように走っている"
+        ]
+      },
+      {
+        "key": "limits",
+        "kind": "text",
+        "text": "重力層の境界そのものを移動させることは不可能。水路の増設も百年単位の工事を要し、現存する水路網は不変の前提として扱われている。"
+      },
+      {
+        "key": "freedom",
+        "kind": "text",
+        "text": "層の内部では物理法則は完全に均質で、魔法も機械も制限なく使える。重力方向さえ把握していれば、建築・移動・表現のすべてに制約はない。"
+      }
+    ]
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-83bd2b9a",
+            "persona_id": "persona-212879db",
+            "content": {
+              "creative_seed": "persona-212879db:67350730",
+              "self_analysis": "私は人と人の間にある「静けさの質」に敏感な人間だ。賑やかな場所でも、ふと会話が途切れた瞬間の空気を読んでいる。誰かが本音を言いかけて飲み込む瞬間——そこに一番目が向く。ユーモアは道具として持っているが、今回は要らない。膝の痛みを人に言わないように、他人も言葉にしない痛みを持っていると知っている。回復力は「前を向く」ではなく「今夜も窓を開ける」という地味な行為の積み重ねで成立している。",
+              "what_i_saw": "蛍光灯が消えた直後の教室。暗転してから2秒ほど、何も見えない。その黒の中に、スマートフォンのカメラUIだけが光っている。録画ボタンを押しているが、何も映していない——画面は自分自身の顔に向いているのに、目を閉じている。",
+              "why_it_came": "歌詞の終盤「蛍光灯が消えて/本当の闇が始まる」を読んだ瞬間、この曲全体が「消灯後の0.5秒」を引き延ばした構造だと気づいた。BPM133の高エネルギーが最後まで続くのに、歌詞の終着点は静寂への降下——その矛盾が「静けさから逆算する」という読み方を呼んだ。自分が感じる本音は往々にしてノイズが消えた後にしか現れない。録画しているのに目を閉じているというアクションは「見せること」と「感じること」の断絶を一枚に圧縮できる。[起点=lyrics][解釈=消灯後の解放][トーン=counterpoint]",
+              "theme": "「本物である」とは、記録されることではなく、記録をやめた瞬間に始まる",
+              "hook_scene": {
+                "focus": "14歳くらいの少年——スマートフォンを顔の高さに持ち上げているが、目は固く閉じている",
+                "place": "完全消灯した夜の教室。窓から街灯の橙色が斜めに差し込み、机の列が薄く浮かぶ",
+                "action": "録画中のスマートフォン画面が自分の顔を映しているが、少年は目を閉じたまま微動だにしない。カメラは起動しているのに、何も「撮ろう」としていない",
+                "detail": "スマートフォン画面の赤い録画ドット——それだけが教室で唯一の動くものとして点滅している",
+                "question": "なぜ録画を止めないのか？　目を開けることを拒んでいるのか、それとも今この瞬間だけは「映像にならない自分」でいたいのか？",
+                "when": "アウトロ冒頭——「蛍光灯が消えて」の歌詞と同時に画面が暗転し、赤い点滅だけが残るカット"
+              }
+            },
+            "created_at": "2026-02-27 04:03:49.547511"
+          },
+          {
+            "proposal_id": "prop-a263f63e",
+            "persona_id": "persona-400d5ebd",
+            "content": {
+              "creative_seed": "persona-400d5ebd:eb14d2b0",
+              "self_analysis": "私は物事を遠くから眺める癖がある。感情的になることを避けるのではなく、距離を置くことで全体が見えると知っている。ユーモアは自己防衛ではなく、ずれを楽しむためのもの。回復力は「立ち直る」ではなく「そのまま続ける」という感覚に近い。翻訳の仕事で鍛えられた癖として、同じ言葉でも角度を変えると全然別の意味になることを知っている。だから暗い歌詞を見ても「そうとも読める」と思う前に「もっと別の読み方はないか」を探してしまう。",
+              "what_i_saw": "体育館の壇上。卒業式か入学式か、とにかく全員が椅子に整列させられている場面。でも一人だけ——最前列の端の生徒が、椅子ごとゆっくり、ほんの数センチだけ外側に向けて回転している。誰も気づいていない。本人も気づいていないかのような顔をしている。でも足元だけが、けっこうな速さで貧乏ゆすりをしている。",
+              "why_it_came": "BPM133のC majorで感情カーブが最初から最後まで高エネルギーを維持するこの曲は、実は「爆発の曲」ではなく「ずっと沸騰している曲」だと思った。歌詞の「14歳の血が沸騰してる」「革命はここから始まる」という言葉を祝祭として読んだ——誰も傷つけない、ただ自分だけが知っている小さな儀式として。暗さより、その静かな反抗の可笑しさと誇らしさに引っ張られた。[起点=lyrics][解釈=静かな祝祭][トーン=playful]",
+              "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+              "hook_scene": {
+                "focus": "制服を着た10代の生徒——ただし胸ポケットに折り紙で作った小さな旗が一本だけ刺さっている",
+                "place": "卒業式か何かの式典中の体育館。全席が埋まり、来賓がスピーチしている。照明はフラットな白色灯。",
+                "action": "整列した椅子の中でほんの数センチだけ外に向けて体ごと回転しており、正面を向いているように見えるが実は斜め45度を向いている。口元は真一文字。でも足だけが曲に合わせてリズムを刻んでいる。",
+                "detail": "胸ポケットの折り紙の旗——色は赤と金、5センチほど。校則違反ではないギリギリのサイズ。誰も見ていない。",
+                "question": "あの旗はいつ折ったのか？ 今日のためだけに作ったのか、それとも毎日持ち歩いているのか？",
+                "when": "chorus1冒頭（48.5秒）——「透明な檻の中で踊る人形」の歌い出しに合わせてカメラがゆっくり寄る"
+              }
+            },
+            "created_at": "2026-02-27 04:04:15.161024"
+          },
+          {
+            "proposal_id": "prop-27464c92",
+            "persona_id": "persona-6cb92cbf",
+            "content": {
+              "creative_seed": "persona-6cb92cbf:7730a43f",
+              "self_analysis": "データを扱う人間として、「系統」より「外れ値」の方が気になる性質がある。300株の多肉植物を育てながら、変異株を探している感覚——正常な個体より歪んだものに目が行く。感情より観察が先に来るが、観察が深まった後で遅れて感情が来る。ユーモアは「ずれの発見」にある。回復力は「分類できた」という感覚から来る。暗さに引きずられず、むしろ暗いものを標本瓶に入れて棚に並べる側の人間。",
+              "what_i_saw": "7cb92の文字列を見た瞬間、なぜかIDカードのバーコードが浮かんだ。そこから——給食の配膳列で整然と並ぶ生徒たちの中に、ひとりだけ自分のIDカードを光に透かして見ているやつがいる映像。でもそのIDカードには、印刷された名前と違う何かが透けて見えている。",
+              "why_it_came": "「14歳の血が沸騰してる」という歌詞は、抑圧と噴出の物理的な緊張だと読んだ。透明な容器の中で圧力が上がっていく現象——それを外から観察している視点が欲しかった。系が崩壊する直前の静けさの方が、崩壊後の爆発より怖い。その「静けさの中の圧力」を具体物に置き換えたかった。[起点=lyrics][解釈=圧力・臨界・観察][トーン=counterpoint]",
+              "theme": "爆発は轟音と共に来るのではなく、ある静かな行為の完了によって始まる",
+              "hook_scene": {
+                "focus": "制服姿の10代の少年——ただし手元だけにフォーカス。顔は一切映らない",
+                "place": "病院か学校かわからない、白い蛍光灯だけが灯る廊下。壁には名前付きの下駄箱か、ロッカーが延々と並んでいる",
+                "action": "自分の名前が書かれたネームプレートを、爪で静かに、ゆっくりと、ロッカーから引き剥がしている。乱暴ではなく、まるで剥製の標本ラベルを外すような、丁寧すぎる手つきで",
+                "detail": "剥がしたネームプレートを捨てずに、制服の内ポケットにそっと入れる。外側には何も変わっていない——名前の欄だけが白く、空になっている",
+                "question": "なぜ捨てないのか？ 名前を返却しているのか、それとも盗んでいるのか",
+                "when": "verse1後半「本当の僕はもっと醜くて」の直前——まだ静寂の中にいる最後の瞬間"
+              }
+            },
+            "created_at": "2026-02-27 04:04:40.284030"
+          },
+          {
+            "proposal_id": "prop-03463f38",
+            "persona_id": "persona-goji",
+            "content": {
+              "theme": "壊れることを選んだ夜、蛍光灯が消えた後に初めて本物の顔が現れる",
+              "hook_scene": {
+                "focus": "制服を着た14歳の少年——ただし制服のシャツだけ、ボタンが一つだけ外れている",
+                "place": "蛍光灯が一本だけ点滅し続ける夜の学校トイレ。鏡の前。床に進路希望調査票が一枚落ちている",
+                "action": "スマートフォンのインカメラで自分を撮影しながら、もう片方の手でゆっくりと鏡に触れている——鏡の中の自分と、画面の中の自分と、本物の自分が三層に重なる瞬間",
+                "detail": "進路希望調査票の「希望職業」欄だけが映り込み、そこには何も書かれていない",
+                "question": "なぜ鏡を撮らず、鏡越しに自分を撮っているのか——どちらが本物の顔を記録しているのか",
+                "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」直前"
+              },
+              "creative_seed": "persona-goji:0e3968c5"
+            },
+            "created_at": "2026-02-27 04:04:51.744964"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "candidate_map": {
+            "A": "prop-83bd2b9a",
+            "B": "prop-a263f63e",
+            "C": "prop-27464c92",
+            "D": "prop-03463f38"
+          },
+          "tally": {
+            "A": 4,
+            "B": 6,
+            "C": 5,
+            "D": 5
+          },
+          "like_tally": {
+            "A": 2,
+            "B": 2,
+            "C": 3,
+            "D": 3
+          },
+          "dislike_tally": {
+            "A": 2,
+            "B": 4,
+            "C": 2,
+            "D": 2
+          },
+          "votes": [
+            {
+              "voter": "ゆうき",
+              "like": "C",
+              "like_reason": "名前プレートを「丁寧すぎる手つきで」剥がす行為に、進路や将来に悩む高校生の内面が静かに凝縮されている。数学教員として生徒の「見えない決断」を日常的に目撃しているからこそ、この沈黙の爆発に強くリアリティを感じる。",
+              "dislike": "B",
+              "dislike_reason": "「こっそり革命を祝う」というテーマ設定が若干ロマンチックすぎて、自分が実際に接している生徒の複雑さとズレる。折り紙の旗や足のリズムといった記号が説明的に感じられ、映像としての緊張感が弱い。"
+            },
+            {
+              "voter": "おおた さゆり",
+              "like": "D",
+              "like_reason": "蛍光灯が点滅するトイレ、床に落ちた進路希望調査票——生きることの重さが日用品のレベルで伝わってくる。鏡と画面と本物の三層という問いかけが、自分が何者かわからなくなった夜のことを思い出させる。",
+              "dislike": "C",
+              "dislike_reason": "顔が一切映らない設定は映像的には面白いかもしれないが、感情移入する「入口」が見えづらい。何かを丁寧に剥がす行為の意味を考えるより先に、置いてけぼりにされそうな気がする。"
+            },
+            {
+              "voter": "Rodrigo Bautista Serrano",
+              "like": "A",
+              "like_reason": "目を閉じたまま録画を続ける少年の姿に、記録と実在の矛盾を見る。港で書面のやり取りを続けながらも、何が「本物の取引」かを問い続けてきた自分の経験と重なる。記録することが実在を殺すという逆説は、時代を超えて人間の本質に触れる。",
+              "dislike": "B",
+              "dislike_reason": "「革命を祝う」という言葉が軽すぎる。革命とは血と混乱と喪失を伴うものであり、体育館での足のリズムをそう呼ぶことには違和感がある。18世紀に生きた者として、この言葉の使い方には抵抗がある。"
+            },
+            {
+              "voter": "Karim Haddad",
+              "like": "B",
+              "like_reason": "",
+              "dislike": "A",
+              "dislike_reason": "目を閉じたまま録画するという設定が抽象的すぎて、映像として何が起きているのかを把握するのに時間がかかる。エンジニアリングの観点からも、コンセプトが先行して視覚的な明瞭さが犠牲になっている印象。"
+            },
+            {
+              "voter": "陳 花玉 (Chén Huāyù)",
+              "like": "D",
+              "like_reason": "蛍光灯が点滅する場所で少年が鏡に触れる——この場面には魂がある。古い時代から、鏡とは自分と霊の境界だった。三層に重なる「自分」という問いは、長く生きた者にはよくわかる。",
+              "dislike": "C",
+              "dislike_reason": "名前を剥がす行為は不吉で縁起が悪い。名前とは家や先祖とつながるものであり、それを剥がして「盗む」という表現は不安を呼び込む。若者に見せるものとして気になる。"
+            },
+            {
+              "voter": "陳 永輝",
+              "like": "B",
+              "like_reason": "「誰にも見えない革命」という静かな抵抗は、移民として社会の周縁で生きてきた自分の経験と重なる。足だけがリズムを刻むという描写に、内側の自由を守る人間の尊厳を感じる。",
+              "dislike": "D",
+              "dislike_reason": "三層の鏡という演出は概念的すぎて、具体的な生活感がない。進路希望調査票という小道具も、自分の文化的背景からは距離感がある。"
+            },
+            {
+              "voter": "ちづる",
+              "like": "C",
+              "like_reason": "病院の廊下、名前のプレート、丁寧に剥がす手——看護師として何度も見てきた「静かに何かが終わる瞬間」に似ている。顔が映らないことで、誰の話にもなれる普遍性がある。",
+              "dislike": "A",
+              "dislike_reason": "目を閉じたまま録画するという行為が観念的すぎて、感情移入しにくい。シングルマザーとして忙しく生きてきた立場からは、詩的すぎて遠い。"
+            },
+            {
+              "voter": "陳素華 (Chen Su-hua)",
+              "like": "C",
+              "like_reason": "名前を「返却するのか、盗むのか」という問いは、移民・商人として名前と身分の意味を深く考えてきた自分には刺さる。静かな行為に革命的な含意がある点が優れている。",
+              "dislike": "B",
+              "dislike_reason": "折り紙の旗や式典の設定は文化的に限定的すぎる。1907年生まれとして見てきた本物の政治的緊張と比べると、この「こっそりした革命」の描写は軽薄に映る。"
+            },
+            {
+              "voter": "Vanida MacLeod",
+              "like": "A",
+              "like_reason": "録画しているのに目を閉じているという矛盾に、現代の若者のSNS疲れとオーセンティシティへの渇望が凝縮されている。シフトマネージャーとして常に「見られる・記録される」側にいる自分には刺さる。",
+              "dislike": "D",
+              "dislike_reason": "点滅する蛍光灯や鏡の三層構造は演出過剰で作為的。事故の後遺症を抱えながら日々を淡々と生きている自分には、こういう「壊れることを選ぶ」という美学が受け入れにくい。"
+            },
+            {
+              "voter": "Sida Phan",
+              "like": "D",
+              "like_reason": "鏡・画面・本物という三層のアイデンティティのテーマは、オンラインとオフラインの間で自分を分裂させながら生きているEC事業者の自分に響く。「どちらが本物か」という問いはリアル。",
+              "dislike": "B",
+              "dislike_reason": "式典でこっそりリズムを刻むという設定は、コミュニティから距離を置いて個人として生きることを選んだ自分には共感しにくい。集団の中での小さな反抗というモチーフが好みではない。"
+            }
+          ],
+          "analysis": "[batch 1] DとCが拮抗する構図で、Dは感情の具体性と日用品レベルのリアリティが幅広い層（さゆり・花玉）に刺さった。Cは数学教員ゆうきに深く響いた一方、顔が映らない抽象性がさゆりや花玉には入口の見えにくさとして機能した。Bは体制への微細な抵抗というテーマでカリムに支持されたが、ロドリゴには「革命」という言葉の軽さが強い拒否感を生んだ。Aはロドリゴの哲学的共感を得たが、映像的な曖昧さがカリムのような実務的思考者には障壁になった。\n[batch 2] CとAが拮抗する投票結果となった。Cは「静かな行為の完了が爆発を生む」という構造と顔を映さない普遍性が、看護師・貿易商という実務的なペルソナから支持を集めた。Aは現代のデジタル監視とオーセンティシティのテーマで共感を得た。DはSNS時代のアイデンティティ分裂という現代的テーマで若い世代から支持される一方、演出の過剰さで敬遠もされた。Bは「静かな抵抗」への普遍的共感がある反面、文化的特殊性と軽さへの批判も出た。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-a263f63e",
+        "persona_id": "persona-400d5ebd",
+        "content": {
+          "creative_seed": "persona-400d5ebd:eb14d2b0",
+          "self_analysis": "私は物事を遠くから眺める癖がある。感情的になることを避けるのではなく、距離を置くことで全体が見えると知っている。ユーモアは自己防衛ではなく、ずれを楽しむためのもの。回復力は「立ち直る」ではなく「そのまま続ける」という感覚に近い。翻訳の仕事で鍛えられた癖として、同じ言葉でも角度を変えると全然別の意味になることを知っている。だから暗い歌詞を見ても「そうとも読める」と思う前に「もっと別の読み方はないか」を探してしまう。",
+          "what_i_saw": "体育館の壇上。卒業式か入学式か、とにかく全員が椅子に整列させられている場面。でも一人だけ——最前列の端の生徒が、椅子ごとゆっくり、ほんの数センチだけ外側に向けて回転している。誰も気づいていない。本人も気づいていないかのような顔をしている。でも足元だけが、けっこうな速さで貧乏ゆすりをしている。",
+          "why_it_came": "BPM133のC majorで感情カーブが最初から最後まで高エネルギーを維持するこの曲は、実は「爆発の曲」ではなく「ずっと沸騰している曲」だと思った。歌詞の「14歳の血が沸騰してる」「革命はここから始まる」という言葉を祝祭として読んだ——誰も傷つけない、ただ自分だけが知っている小さな儀式として。暗さより、その静かな反抗の可笑しさと誇らしさに引っ張られた。[起点=lyrics][解釈=静かな祝祭][トーン=playful]",
+          "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+          "hook_scene": {
+            "focus": "制服を着た10代の生徒——ただし胸ポケットに折り紙で作った小さな旗が一本だけ刺さっている",
+            "place": "卒業式か何かの式典中の体育館。全席が埋まり、来賓がスピーチしている。照明はフラットな白色灯。",
+            "action": "整列した椅子の中でほんの数センチだけ外に向けて体ごと回転しており、正面を向いているように見えるが実は斜め45度を向いている。口元は真一文字。でも足だけが曲に合わせてリズムを刻んでいる。",
+            "detail": "胸ポケットの折り紙の旗——色は赤と金、5センチほど。校則違反ではないギリギリのサイズ。誰も見ていない。",
+            "question": "あの旗はいつ折ったのか？ 今日のためだけに作ったのか、それとも毎日持ち歩いているのか？",
+            "when": "chorus1冒頭（48.5秒）——「透明な檻の中で踊る人形」の歌い出しに合わせてカメラがゆっくり寄る"
+          }
+        },
+        "created_at": "2026-02-27 04:04:15.161024"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-212879db",
+            "name": "Soraya Ngundy-Macintosh",
+            "gender": "Xジェンダー",
+            "birthdate": "2036-12-06",
+            "age": 77,
+            "origin_city": "パース",
+            "ethnic_background": "ミックス（複合的ルーツ）",
+            "life_history": [
+              {
+                "year": 2042,
+                "event": "パース郊外のノースブリッジ地区で育つ。父方はコンゴ系オーストラリア人、母方はスコットランド系とヌンガー先住民の混血で、幼少期から大家族の集まりが頻繁にあった。"
+              },
+              {
+                "year": 2055,
+                "event": "パース市内のカーティン総合学校に進学し、学年委員に選出される。クラスメート60名以上の誕生日を記憶していたと教師記録に残っている。"
+              },
+              {
+                "year": 2061,
+                "event": "マードック大学の公衆衛生学部に入学。寮の自治会長を2年連続で務め、異なる学部の学生間の交流イベントを月次で企画・運営した。"
+              },
+              {
+                "year": 2067,
+                "event": "西オーストラリア州保健省の地域医療調整官として採用され、農村部と都市部をつなぐ医療アクセス改善プログラムの現場担当者となった。"
+              },
+              {
+                "year": 2074,
+                "event": "パートナーのDelmar Osei-Wusuと正式にパートナーシップを登録。両家族・友人ら200名近くが集まる形式で祝賀会が開催された。"
+              },
+              {
+                "year": 2083,
+                "event": "インド洋島嶼諸国との地域保健協力プログラムの豪州代表調整官に任命され、モーリシャス・コモロ・マダガスカルを年数回往来する勤務体制に移行した。"
+              },
+              {
+                "year": 2097,
+                "event": "定年退職後、パース北部のジュンダルップに移住。地域の多文化交流センターの運営委員会に加わった。"
+              },
+              {
+                "year": 2109,
+                "event": "パートナーのDelmarが急性心不全で死去。葬儀には6か国から330名以上が参列した。"
+              }
+            ],
+            "current_situation": "2113年現在、ジュンダルップの集合住宅に単身で居住している。週3日は多文化交流センターに出向き、新移民向けの行政手続き案内を無報酬で担当している。近隣住民との夕食会を月2回自室で開いており、常時10〜15名が参加する。膝関節の人工置換手術を2111年に受けており、長距離移動は控えているが、市内交通は自力で利用している。",
+            "external_perception": {
+              "first_impression": "名前をすぐに覚えようとする姿勢が目立ち、会話の主導権を自然に持つように見える。",
+              "close_friends_view": "連絡を絶やさず、相手の近況を具体的に把握している。頼み事を断ることがほとんどない。",
+              "misunderstandings": "常に元気で悩みがないと思われることが多いが、実際には体調管理に相当の努力を要している。"
+            },
+            "stance_on_past": "あまり振り返らず前を向いている"
+          },
+          {
+            "id": "persona-400d5ebd",
+            "name": "Lina Tan Wei Ling",
+            "gender": "女性",
+            "birthdate": "1993-06-16",
+            "origin_city": "シンガポール",
+            "ethnic_background": "ミックス（複合的ルーツ）",
+            "life_history": [
+              {
+                "year": 1993,
+                "event": "シンガポールのタンジョンパガー地区で、中国系の父とマレー系の母の間に生まれた。"
+              },
+              {
+                "year": 2005,
+                "event": "父の転職に伴い家族でジョホールバルに転居。毎日国境を越えてシンガポールの学校に通学した。"
+              },
+              {
+                "year": 2011,
+                "event": "シンガポールのポリテクニックに進学。ビジネス・ロジスティクスを専攻した。"
+              },
+              {
+                "year": 2015,
+                "event": "港湾物流会社に就職。文書管理とデータ入力を担当した。"
+              },
+              {
+                "year": 2018,
+                "event": "母が病気で倒れ、父と交代で看病するため半年間休職した。"
+              },
+              {
+                "year": 2020,
+                "event": "パンデミックで勤務先が人員削減を実施。リモートワーク体制に移行し、カスタマーサポート部門に異動した。"
+              },
+              {
+                "year": 2022,
+                "event": "会社を退職し、フリーランスの翻訳業務（英語・マレー語・中国語）を始めた。"
+              }
+            ],
+            "current_situation": "現在はシンガポール郊外のHDB（公営住宅）で一人暮らしをしている。フリーランスで企業向けの多言語翻訳業務を受注しており、月によって収入が変動する。週に3日ほど近所のカフェで作業をし、残りは自宅で仕事をする。母は回復したが父の仕事が不安定なため、時折実家に仕送りをしている。",
+            "external_perception": {
+              "first_impression": "物静かで控えめ。会話では相手の話をよく聞く姿勢を見せる。",
+              "close_friends_view": "真面目で責任感が強い。頼まれると断れないタイプで、自分のことは後回しにしがち。",
+              "misunderstandings": "無表情に見えることが多いため、冷たい人だと思われることがある。実際には単に疲れているだけのことが多い。"
+            },
+            "proposal_history": [
+              {
+                "session": "lookatme_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 港湾作業員の男性。彼の手は荷役用のロープで擦り切れている / 場所: ジョホールバルとシンガポールを繋ぐコーズウェイ（堤防道路）。朝5時の薄暗い中、渋滞している車列",
+                "rank": 2,
+                "tally": 10,
+                "won": true
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          },
+          {
+            "id": "persona-6cb92cbf",
+            "name": "きたがわ ひろき",
+            "gender": "男性",
+            "birthdate": "1994-01-26",
+            "life_history": [
+              {
+                "year": 1994,
+                "event": "両親の仕事の都合でベルギーのブリュッセルで生まれる。父は商社勤務、母は現地の日本人学校で事務職。"
+              },
+              {
+                "year": 2000,
+                "event": "6歳で日本に帰国。横浜市の公立小学校に編入。給食のシステムや運動会の練習に戸惑う日々が続く。"
+              },
+              {
+                "year": 2006,
+                "event": "中学入学後、図書委員会に所属。週に3回は図書室で過ごし、百科事典を端から読む習慣がつく。"
+              },
+              {
+                "year": 2012,
+                "event": "高校3年の夏、父の転勤で家族が名古屋に引っ越すが、本人は大学受験のため横浜の親戚宅に下宿。"
+              },
+              {
+                "year": 2013,
+                "event": "私立大学の理学部生物学科に進学。研究室に入り浸り、キノコの分類研究に没頭する。"
+              },
+              {
+                "year": 2017,
+                "event": "大学卒業後、製薬会社の品質管理部門に就職。検査データの分析と報告書作成が主な業務となる。"
+              },
+              {
+                "year": 2020,
+                "event": "コロナ禍で完全在宅勤務となる。自宅のベランダで多肉植物の栽培を始め、300株以上に増やす。"
+              },
+              {
+                "year": 2023,
+                "event": "会社の配置転換で倉庫管理システムの運用担当となる。データベース操作を独学で習得し、業務効率化ツールを自作。"
+              }
+            ],
+            "current_situation": "現在は横浜市内の1DKアパートで一人暮らし。製薬会社の物流部門で倉庫管理システムの運用を担当している。週3日はリモート勤務。ベランダには多肉植物の棚が3段あり、週末は植え替えや交配記録の更新に時間を費やす。月に一度、大学時代の研究室OB会にオンラインで参加している。",
+            "external_perception": {
+              "first_impression": "物静かで話しかけづらい印象。目を合わせる時間が短く、返事が簡潔すぎるため冷たく見られることがある。",
+              "close_friends_view": "一度信頼関係ができると、専門知識を惜しみなく共有してくれる人。質問には必ず根拠を添えて答える。約束を忘れたことがない。",
+              "misunderstandings": "無表情で黙って作業しているため「機嫌が悪い」「興味がない」と誤解されやすい。実際は集中しているだけで、話しかければ丁寧に応答する。"
+            },
+            "proposal_history": [
+              {
+                "session": "nobody_test_v6",
+                "phase": "Phase 1",
+                "my_proposal_summary": "認識されることで存在を獲得する、観察者依存の生命体が宿る標本室",
+                "rank": 3,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "nobody_test_v6",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 3,
+                "won": true
+              },
+              {
+                "session": "goji_fix_verification",
+                "phase": "Phase 1",
+                "my_proposal_summary": "観察されることで初めて存在を獲得する、依存的な生命のリズム",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "goji_fix_verification",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 7,
+                "won": false
+              }
+            ],
+            "stance_on_past": "笑い話にできるようになった"
+          }
+        ],
+        "goji_persona_id": "persona-goji",
+        "winning_persona": {
+          "id": "persona-400d5ebd",
+          "name": "Lina Tan Wei Ling",
+          "gender": "女性",
+          "birthdate": "1993-06-16",
+          "origin_city": "シンガポール",
+          "ethnic_background": "ミックス（複合的ルーツ）",
+          "life_history": [
+            {
+              "year": 1993,
+              "event": "シンガポールのタンジョンパガー地区で、中国系の父とマレー系の母の間に生まれた。"
+            },
+            {
+              "year": 2005,
+              "event": "父の転職に伴い家族でジョホールバルに転居。毎日国境を越えてシンガポールの学校に通学した。"
+            },
+            {
+              "year": 2011,
+              "event": "シンガポールのポリテクニックに進学。ビジネス・ロジスティクスを専攻した。"
+            },
+            {
+              "year": 2015,
+              "event": "港湾物流会社に就職。文書管理とデータ入力を担当した。"
+            },
+            {
+              "year": 2018,
+              "event": "母が病気で倒れ、父と交代で看病するため半年間休職した。"
+            },
+            {
+              "year": 2020,
+              "event": "パンデミックで勤務先が人員削減を実施。リモートワーク体制に移行し、カスタマーサポート部門に異動した。"
+            },
+            {
+              "year": 2022,
+              "event": "会社を退職し、フリーランスの翻訳業務（英語・マレー語・中国語）を始めた。"
+            }
+          ],
+          "current_situation": "現在はシンガポール郊外のHDB（公営住宅）で一人暮らしをしている。フリーランスで企業向けの多言語翻訳業務を受注しており、月によって収入が変動する。週に3日ほど近所のカフェで作業をし、残りは自宅で仕事をする。母は回復したが父の仕事が不安定なため、時折実家に仕送りをしている。",
+          "external_perception": {
+            "first_impression": "物静かで控えめ。会話では相手の話をよく聞く姿勢を見せる。",
+            "close_friends_view": "真面目で責任感が強い。頼まれると断れないタイプで、自分のことは後回しにしがち。",
+            "misunderstandings": "無表情に見えることが多いため、冷たい人だと思われることがある。実際には単に疲れているだけのことが多い。"
+          },
+          "proposal_history": [
+            {
+              "session": "lookatme_v2",
+              "phase": "Phase 2a",
+              "my_proposal_summary": "誰: 港湾作業員の男性。彼の手は荷役用のロープで擦り切れている / 場所: ジョホールバルとシンガポールを繋ぐコーズウェイ（堤防道路）。朝5時の薄暗い中、渋滞している車列",
+              "rank": 2,
+              "tally": 10,
+              "won": true
+            }
+          ],
+          "stance_on_past": "他人事のように距離を置いて見ている"
+        },
+        "overlap_debug": [],
+        "diversity_metrics": {
+          "proposal_count": 4,
+          "pair_count": 6,
+          "overlap_pairs": 0,
+          "overlap_rate": 0.0,
+          "subject_distribution": {
+            "「本物である」とは、記録されることではなく、記録をやめた瞬間に始まる": 1,
+            "誰にも見えないところで、今夜もこっそり革命を祝っている": 1,
+            "爆発は轟音と共に来るのではなく、ある静かな行為の完了によって始まる": 1,
+            "壊れることを選んだ夜、蛍光灯が消えた後に初めて本物の顔が現れる": 1
+          },
+          "unique_subject_count": 4,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona+min2_fallback_all",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-212879db": 434,
+            "persona-400d5ebd": 308,
+            "persona-6cb92cbf": 409,
+            "persona-goji": 0
+          },
+          "eligible_count": 4,
+          "eligible_proposal_ids": [
+            "prop-83bd2b9a",
+            "prop-a263f63e",
+            "prop-27464c92",
+            "prop-03463f38"
+          ],
+          "excluded_proposal_ids": [],
+          "results": [
+            {
+              "proposal_id": "prop-83bd2b9a",
+              "persona_id": "persona-212879db",
+              "theme": "「本物である」とは、記録されることではなく、記録をやめた瞬間に始まる",
+              "theme_token_count": 18,
+              "lyrics_anchor_count": 3,
+              "novel_token_count": 15,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "されることではなく",
+                "されることではなく記録",
+                "である",
+                "であるとは",
+                "とは",
+                "とは記録"
+              ],
+              "lyrics_anchor_sample": [
+                "まる",
+                "始まる",
+                "本物"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-a263f63e",
+              "persona_id": "persona-400d5ebd",
+              "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+              "theme_token_count": 15,
+              "lyrics_anchor_count": 5,
+              "novel_token_count": 10,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "えないところで",
+                "えないところで今夜",
+                "っている",
+                "にも",
+                "にも見",
+                "もこっそり"
+              ],
+              "lyrics_anchor_sample": [
+                "にも",
+                "にも見",
+                "今夜",
+                "誰にも",
+                "革命"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-27464c92",
+              "persona_id": "persona-6cb92cbf",
+              "theme": "爆発は轟音と共に来るのではなく、ある静かな行為の完了によって始まる",
+              "theme_token_count": 24,
+              "lyrics_anchor_count": 2,
+              "novel_token_count": 22,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "ある静",
+                "かな",
+                "かな行為",
+                "と共",
+                "によって",
+                "によって始"
+              ],
+              "lyrics_anchor_sample": [
+                "まる",
+                "始まる"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-03463f38",
+              "persona_id": "persona-goji",
+              "theme": "壊れることを選んだ夜、蛍光灯が消えた後に初めて本物の顔が現れる",
+              "theme_token_count": 25,
+              "lyrics_anchor_count": 4,
+              "novel_token_count": 21,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "えた",
+                "えた後",
+                "が消",
+                "が現",
+                "に初",
+                "の顔"
+              ],
+              "lyrics_anchor_sample": [
+                "が消",
+                "本物",
+                "蛍光灯",
+                "蛍光灯が"
+              ],
+              "persona_novel_sample": [],
+              "tier": 1,
+              "reasons": []
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos",
+        "disgust_wall_update": {
+          "updated": true,
+          "error": null,
+          "added": 10,
+          "trimmed": 17,
+          "before_count": 455,
+          "after_count": 448,
+          "captured_reason_count": 10,
+          "input_vote_count": 10
+        },
+        "min_candidates_target": 2,
+        "synthetic_challenger_added": false
+      }
+    },
+    "phase2": {
+      "phase_id": "phase2",
+      "subphases": {
+        "phase2a": {
+          "phase_id": "phase2a",
+          "competition": {
+            "proposals": [
+              {
+                "proposal_id": "sl2a-72a5699d",
+                "persona_id": "persona-6f997e33",
+                "content": {
+                  "phase1_base": "巫女",
+                  "phase2_condition": "扁平胴体・露出関節",
+                  "phase3_anchor": "口枷",
+                  "subject_concept": "扁平胴体と露出関節を持つ巫女",
+                  "subject_signature": "口枷",
+                  "character_profile": {
+                    "appearance_profile": "胴体が板状に薄く潰れた構造で、肩・肘・膝の関節部が皮膚から突出している。顔の下半分を金属製の口枷が覆い、固定されている。",
+                    "motion_profile": "扁平な胴体をほぼ動かさず、露出した関節だけが先行して動くような、節のある動き方をする。"
+                  }
+                },
+                "created_at": "2026-02-27 04:06:06.459117"
+              },
+              {
+                "proposal_id": "sl2a-8aecba40",
+                "persona_id": "persona-129b4411",
+                "content": {
+                  "phase1_base": "鷺",
+                  "phase2_condition": "横長の瞳・長い指",
+                  "phase3_anchor": "牙の首飾り",
+                  "subject_concept": "横長の瞳と長い指を持つ鷺",
+                  "subject_signature": "牙の首飾り",
+                  "character_profile": {
+                    "appearance_profile": "横長の瞳が顔の中央で鋭く光り、異様に長い指が羽根の縁から伸びる。首元には大粒の牙を連ねた首飾りが揺れる。",
+                    "motion_profile": "長い指をゆっくり広げるたびに牙の首飾りが鳴り、横長の瞳が動体を捉えて微動だにしない。"
+                  }
+                },
+                "created_at": "2026-02-27 04:06:43.717696"
+              },
+              {
+                "proposal_id": "sl2a-a2ffa76b",
+                "persona_id": "persona-bf06ecbf",
+                "content": {
+                  "phase1_base": "ヒドラ",
+                  "phase2_condition": "扁平頭・霜肌",
+                  "phase3_anchor": "角の冠",
+                  "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+                  "subject_signature": "角の冠",
+                  "character_profile": {
+                    "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+                    "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+                  }
+                },
+                "created_at": "2026-02-27 04:06:52.057599"
+              }
+            ],
+            "voting": {
+              "selection_mode": "vote10_like_dislike",
+              "candidate_keys": [
+                "A",
+                "B",
+                "C"
+              ],
+              "candidate_map": {
+                "A": "sl2a-72a5699d",
+                "B": "sl2a-8aecba40",
+                "C": "sl2a-a2ffa76b"
+              },
+              "tally": {
+                "A": 6,
+                "B": 6,
+                "C": 8
+              },
+              "like_tally": {
+                "A": 3,
+                "B": 5,
+                "C": 2
+              },
+              "dislike_tally": {
+                "A": 3,
+                "B": 1,
+                "C": 6
+              },
+              "votes": [
+                {
+                  "voter": "Lina Tan Wei Ling",
+                  "like": "B",
+                  "like_reason": "鷺の優雅さと横長の瞳・長い指という異形の組み合わせが、東南アジアの神話的存在を連想させ、翻訳者として異文化の象徴に惹かれる。",
+                  "dislike": "C",
+                  "dislike_reason": "ヒドラ＋扁平頭・霜肌は攻撃的すぎて、日常の疲れを癒すビジュアルを求める自分には重すぎる。"
+                },
+                {
+                  "voter": "かわさき あやの",
+                  "like": "A",
+                  "like_reason": "巫女という和の原型に口枷という異物が組み合わさる緊張感が、帰国子女として日本文化を外側から見てきた自分の感覚と共鳴する。",
+                  "dislike": "C",
+                  "dislike_reason": "ヒドラ系の禍々しさより、もう少し人間的な輪郭のあるキャラクターが好みで、霜肌という質感も生理的に受け付けない。"
+                },
+                {
+                  "voter": "Rodrigo Bautista Serrano",
+                  "like": "C",
+                  "like_reason": "角の冠と霜肌は海を渡った先で見聞きした北方の怪物譚を思い起こさせ、老齢の自分には馴染み深い神話的重厚さがある。",
+                  "dislike": "A",
+                  "dislike_reason": "巫女に口枷という組み合わせは、宗教的敬意を損なうように映り、信仰を重んじる自分には不快に感じられる。"
+                },
+                {
+                  "voter": "ゆうき",
+                  "like": "B",
+                  "like_reason": "鷺という知的で静的な生き物に牙の首飾りという矛盾した要素が加わる構造的な面白さが、論理的に物を考える癖のある自分には刺さる。",
+                  "dislike": "A",
+                  "dislike_reason": "扁平胴体・露出関節という身体描写と口枷の組み合わせは過剰に感じられ、将棋指導で培った「無駄を削ぐ」美意識に反する。"
+                },
+                {
+                  "voter": "Alex Dubois",
+                  "like": "B",
+                  "like_reason": "鷺＋横長の瞳・長い指はゲストハウスに来る欧州系旅行者が好むダークファンタジーの美意識に近く、ビジュアルとして映えると直感した。",
+                  "dislike": "C",
+                  "dislike_reason": "ヒドラ・扁平頭・霜肌はホラー寄りすぎて、宿泊客に勧めたくなるような楽しい映像にはなりにくいと感じる。"
+                },
+                {
+                  "voter": "陳素華 (Chen Su-hua)",
+                  "like": "B",
+                  "like_reason": "鷺は中国文化でも馴染みのある鳥で、横長の瞳や長い指という細部の美しさに惹かれる。牙の首飾りというアクセントも異国の港町で培った審美眼に合う。",
+                  "dislike": "C",
+                  "dislike_reason": "ヒドラの扁平頭・霜肌という組み合わせは不吉な印象が強く、貿易の縁起を重んじる感覚として敬遠したい。"
+                },
+                {
+                  "voter": "Jean-Baptiste Whitehorse",
+                  "like": "C",
+                  "like_reason": "ヒドラという複数の頭を持つ存在と霜肌・角の冠という組み合わせは機械部品の複雑な構造を連想させて面白い。壊れたものを直す視点から、こういう異形の美に惹かれる。",
+                  "dislike": "A",
+                  "dislike_reason": "巫女に口枷というのは拘束のイメージが強すぎて居心地が悪い。修理作業の合間に眺めるには重たすぎる。"
+                },
+                {
+                  "voter": "Eulàlia Ribas",
+                  "like": "A",
+                  "like_reason": "巫女という聖なる存在と口枷という世俗的な抑圧の対比は、女性の置かれた立場を語っているようで胸に刺さる。絹の質感を扱う者として扁平胴体・露出関節の造形美も気になる。",
+                  "dislike": "C",
+                  "dislike_reason": "ヒドラの霜肌と角の冠は冷たすぎて、市場の活気や人の温もりとかけ離れた世界に感じる。"
+                },
+                {
+                  "voter": "Lakshmi Fernandes",
+                  "like": "B",
+                  "like_reason": "鷺は水辺の市場でよく見る鳥で親しみがある。牙の首飾りは香辛料の市場で見かける護符や装飾品を思わせ、長い指という特徴も魚を扱う手を連想させて生き生きしている。",
+                  "dislike": "C",
+                  "dislike_reason": "霜肌というのは熱帯の市場で生きる者には遠すぎる感覚で、どうにも実感が湧かない。角の冠も仕入れ交渉の相手として会いたくない風貌だ。"
+                },
+                {
+                  "voter": "みずき",
+                  "like": "A",
+                  "like_reason": "巫女×口枷という組み合わせはSNSのイラストでよく見るやつで普通に好き。扁平胴体・露出関節もデザインとして映えそうで推せる。",
+                  "dislike": "B",
+                  "dislike_reason": "鷺をベースにした横長の瞳・長い指ってちょっと不気味系すぎてホラーっぽい。夜の仕事終わりに見たくないかも。"
+                }
+              ],
+              "analysis": "[batch 1] B（鷺・横長の瞳・牙の首飾り）が3票のlikeを集め最も支持が高く、異文化的な優雅さと知的な矛盾構造が幅広いペルソナに響いた。C（ヒドラ・霜肌・角の冠）は唯一Rodrigoのみがlikeを投じたが、他の4人からdislikeを受け最も不人気で、重厚・禍々しすぎるという評価が共通した。A（巫女・口枷）はayanoが強く支持した一方、宗教的不快感や過剰さを理由にdislikeも集まり二極化した。\n[batch 2] BとAが2票ずつlikeを獲得し拮抗した。Cはlikeが1票（Jean-Baptiste）にとどまり、dislikeでは3票を集めて最も不評だった。Cの「冷たさ・不吉さ・遠さ」が多様な文化的背景を持つ投票者に共通して引っかかった一方、Aの「聖と抑圧の対比」はEulàliaやみずきの感性に刺さり、Bの「親しみある生物モチーフ＋装飾美」は陳素華とLakshmiの実生活感覚に訴えた。",
+              "is_tiebreak": false,
+              "tiebreak_reason": null,
+              "goji_vote": null
+            }
+          },
+          "adopted_result": {
+            "proposal_id": "sl2a-a2ffa76b",
+            "persona_id": "persona-bf06ecbf",
+            "content": {
+              "phase1_base": "ヒドラ",
+              "phase2_condition": "扁平頭・霜肌",
+              "phase3_anchor": "角の冠",
+              "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+              "subject_signature": "角の冠",
+              "character_profile": {
+                "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+                "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+              }
+            },
+            "created_at": "2026-02-27 04:06:52.057599"
+          },
+          "adopted_vision": {
+            "phase1_base": "ヒドラ",
+            "phase2_condition": "扁平頭・霜肌",
+            "phase3_anchor": "角の冠",
+            "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+            "subject_signature": "角の冠",
+            "character_profile": {
+              "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+              "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+            },
+            "character_profile_source": "llm",
+            "adopted_from_persona_id": "persona-bf06ecbf",
+            "selected_by_persona_id": "vote10"
+          },
+          "metadata": {
+            "overlap_debug": [],
+            "candidate_debug": [
+              {
+                "persona_id": "persona-6f997e33",
+                "persona_name": "たかはし けんじ",
+                "locked_before": {
+                  "phase1": [],
+                  "phase2": [],
+                  "phase3": []
+                },
+                "locked_before_count": {
+                  "phase1": 0,
+                  "phase2": 0,
+                  "phase3": 0
+                },
+                "candidates": {
+                  "phase1": [
+                    "剣士",
+                    "忍者",
+                    "騎士",
+                    "弓兵",
+                    "巫女",
+                    "槍兵"
+                  ],
+                  "phase2": [
+                    "短い首",
+                    "横裂けの口",
+                    "くちばし",
+                    "二つ目",
+                    "人型",
+                    "短い脚",
+                    "短い胴体",
+                    "小さな耳",
+                    "細い手",
+                    "露出関節",
+                    "大きな口",
+                    "扁平胴体",
+                    "二重関節",
+                    "太い腕",
+                    "螺旋角",
+                    "巨大な頭"
+                  ],
+                  "phase3": [
+                    "首輪",
+                    "口枷",
+                    "鎌",
+                    "胸の徽章",
+                    "背負い筒",
+                    "皮革のベルト",
+                    "王冠",
+                    "背翼骨格",
+                    "旗印",
+                    "蹄鉄",
+                    "機械腕",
+                    "胸の刻印",
+                    "顎当て",
+                    "複数指輪",
+                    "前腕装甲",
+                    "鞭"
+                  ]
+                },
+                "lock_modes": {
+                  "phase1": "category",
+                  "phase2": "tag",
+                  "phase3": "tag"
+                },
+                "pool_stats": {
+                  "phase1": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 0,
+                    "softening_level_used": 0
+                  },
+                  "phase2": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 0,
+                    "softening_level_used": 0
+                  },
+                  "phase3": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 0,
+                    "softening_level_used": 0
+                  }
+                },
+                "phase1_forced_category": "human_role",
+                "selection": {
+                  "phase1_base": "巫女",
+                  "phase2_condition": [
+                    "扁平胴体",
+                    "露出関節"
+                  ],
+                  "phase3_anchor": [
+                    "口枷"
+                  ],
+                  "phase3_anchor_base": "口枷"
+                },
+                "lock_summary": {
+                  "before_counts": {
+                    "phase1": 0,
+                    "phase2": 0,
+                    "phase3": 0
+                  },
+                  "after_counts": {
+                    "phase1": 1,
+                    "phase2": 8,
+                    "phase3": 3
+                  },
+                  "added_counts": {
+                    "phase1": 1,
+                    "phase2": 8,
+                    "phase3": 3
+                  }
+                },
+                "locked_after": {
+                  "phase1": [
+                    "category:human_role"
+                  ],
+                  "phase2": [
+                    "tag:cat:joint",
+                    "tag:cat:silhouette",
+                    "tag:function:silhouette_break",
+                    "tag:label:扁平胴体",
+                    "tag:label:露出関節",
+                    "tag:region:joint",
+                    "tag:region:silhouette",
+                    "tag:shape:jointed"
+                  ],
+                  "phase3": [
+                    "tag:cat:face",
+                    "tag:label:口枷",
+                    "tag:region:face"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-129b4411",
+                "persona_name": "Eulàlia Ribas",
+                "locked_before": {
+                  "phase1": [
+                    "category:human_role"
+                  ],
+                  "phase2": [
+                    "tag:cat:joint",
+                    "tag:cat:silhouette",
+                    "tag:function:silhouette_break",
+                    "tag:label:扁平胴体",
+                    "tag:label:露出関節",
+                    "tag:region:joint",
+                    "tag:region:silhouette",
+                    "tag:shape:jointed"
+                  ],
+                  "phase3": [
+                    "tag:cat:face",
+                    "tag:label:口枷",
+                    "tag:region:face"
+                  ]
+                },
+                "locked_before_count": {
+                  "phase1": 1,
+                  "phase2": 8,
+                  "phase3": 3
+                },
+                "candidates": {
+                  "phase1": [
+                    "イカ",
+                    "カマキリ",
+                    "からかさお化け",
+                    "ロボット",
+                    "鬼",
+                    "鷺"
+                  ],
+                  "phase2": [
+                    "四つ目",
+                    "石肌",
+                    "触手",
+                    "枝角",
+                    "滑らかな肌",
+                    "平たい鼻",
+                    "ざらざら肌",
+                    "細い指",
+                    "一本角",
+                    "垂れ耳",
+                    "油膜肌",
+                    "横長の瞳",
+                    "三本尾",
+                    "八本足",
+                    "長い指",
+                    "二つ目"
+                  ],
+                  "phase3": [
+                    "石の首飾り",
+                    "牙の首飾り",
+                    "義手",
+                    "蹄鉄",
+                    "背中の機械",
+                    "旗印",
+                    "背中の装置",
+                    "大きな手袋",
+                    "首輪",
+                    "肩当て",
+                    "前腕装甲",
+                    "指先装甲",
+                    "長いマント",
+                    "鎧",
+                    "胸の刻印",
+                    "体の紋章"
+                  ]
+                },
+                "lock_modes": {
+                  "phase1": "category",
+                  "phase2": "tag",
+                  "phase3": "tag"
+                },
+                "pool_stats": {
+                  "phase1": {
+                    "excluded_by_category_count": 12,
+                    "excluded_by_tag_count": 0,
+                    "softening_level_used": 0
+                  },
+                  "phase2": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 37,
+                    "softening_level_used": 0
+                  },
+                  "phase3": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 11,
+                    "softening_level_used": 0
+                  }
+                },
+                "selection": {
+                  "phase1_base": "鷺",
+                  "phase2_condition": [
+                    "横長の瞳",
+                    "長い指"
+                  ],
+                  "phase3_anchor": [
+                    "牙の首飾り"
+                  ],
+                  "phase3_anchor_base": "牙の首飾り"
+                },
+                "lock_summary": {
+                  "before_counts": {
+                    "phase1": 1,
+                    "phase2": 8,
+                    "phase3": 3
+                  },
+                  "after_counts": {
+                    "phase1": 2,
+                    "phase2": 14,
+                    "phase3": 7
+                  },
+                  "added_counts": {
+                    "phase1": 1,
+                    "phase2": 6,
+                    "phase3": 4
+                  }
+                },
+                "locked_after": {
+                  "phase1": [
+                    "category:animal_bird",
+                    "category:human_role"
+                  ],
+                  "phase2": [
+                    "tag:cat:face",
+                    "tag:cat:joint",
+                    "tag:cat:limb",
+                    "tag:cat:silhouette",
+                    "tag:function:silhouette_break",
+                    "tag:label:扁平胴体",
+                    "tag:label:横長の瞳",
+                    "tag:label:長い指",
+                    "tag:label:露出関節",
+                    "tag:region:face",
+                    "tag:region:joint",
+                    "tag:region:limb",
+                    "tag:region:silhouette",
+                    "tag:shape:jointed"
+                  ],
+                  "phase3": [
+                    "tag:cat:face",
+                    "tag:cat:neck",
+                    "tag:label:口枷",
+                    "tag:label:牙の首飾り",
+                    "tag:region:face",
+                    "tag:region:neck",
+                    "tag:shape:fang"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-bf06ecbf",
+                "persona_name": "Derek Chen",
+                "locked_before": {
+                  "phase1": [
+                    "category:animal_bird",
+                    "category:human_role"
+                  ],
+                  "phase2": [
+                    "tag:cat:face",
+                    "tag:cat:joint",
+                    "tag:cat:limb",
+                    "tag:cat:silhouette",
+                    "tag:function:silhouette_break",
+                    "tag:label:扁平胴体",
+                    "tag:label:横長の瞳",
+                    "tag:label:長い指",
+                    "tag:label:露出関節",
+                    "tag:region:face",
+                    "tag:region:joint",
+                    "tag:region:limb",
+                    "tag:region:silhouette",
+                    "tag:shape:jointed"
+                  ],
+                  "phase3": [
+                    "tag:cat:face",
+                    "tag:cat:neck",
+                    "tag:label:口枷",
+                    "tag:label:牙の首飾り",
+                    "tag:region:face",
+                    "tag:region:neck",
+                    "tag:shape:fang"
+                  ]
+                },
+                "locked_before_count": {
+                  "phase1": 2,
+                  "phase2": 14,
+                  "phase3": 7
+                },
+                "candidates": {
+                  "phase1": [
+                    "鼠",
+                    "ヒドラ",
+                    "ヤモリ",
+                    "狼",
+                    "雪女",
+                    "マネキン"
+                  ],
+                  "phase2": [
+                    "一本角",
+                    "二本角",
+                    "尖頭",
+                    "斑点肌",
+                    "石肌",
+                    "油膜肌",
+                    "小さな翼",
+                    "霜肌",
+                    "四本角",
+                    "角",
+                    "翼",
+                    "扁平頭",
+                    "滑らかな肌",
+                    "泥肌",
+                    "羽毛",
+                    "太い尾"
+                  ],
+                  "phase3": [
+                    "鞭",
+                    "腕章",
+                    "羽飾り",
+                    "機械脚",
+                    "指輪",
+                    "背中の旗",
+                    "兜",
+                    "肩鎖",
+                    "角の冠",
+                    "肘当て",
+                    "背負い筒",
+                    "前腕装甲",
+                    "頭冠",
+                    "背中の刻印",
+                    "腰の装飾板",
+                    "顔の刻印"
+                  ]
+                },
+                "lock_modes": {
+                  "phase1": "category",
+                  "phase2": "tag",
+                  "phase3": "tag"
+                },
+                "pool_stats": {
+                  "phase1": {
+                    "excluded_by_category_count": 22,
+                    "excluded_by_tag_count": 0,
+                    "softening_level_used": 0
+                  },
+                  "phase2": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 84,
+                    "softening_level_used": 0
+                  },
+                  "phase3": {
+                    "excluded_by_category_count": 0,
+                    "excluded_by_tag_count": 20,
+                    "softening_level_used": 0
+                  }
+                },
+                "selection": {
+                  "phase1_base": "ヒドラ",
+                  "phase2_condition": [
+                    "扁平頭",
+                    "霜肌"
+                  ],
+                  "phase3_anchor": [
+                    "角の冠"
+                  ],
+                  "phase3_anchor_base": "角の冠"
+                },
+                "lock_summary": {
+                  "before_counts": {
+                    "phase1": 2,
+                    "phase2": 14,
+                    "phase3": 7
+                  },
+                  "after_counts": {
+                    "phase1": 3,
+                    "phase2": 21,
+                    "phase3": 11
+                  },
+                  "added_counts": {
+                    "phase1": 1,
+                    "phase2": 7,
+                    "phase3": 4
+                  }
+                },
+                "locked_after": {
+                  "phase1": [
+                    "category:animal_bird",
+                    "category:human_role",
+                    "category:myth_fixed"
+                  ],
+                  "phase2": [
+                    "tag:cat:face",
+                    "tag:cat:head",
+                    "tag:cat:joint",
+                    "tag:cat:limb",
+                    "tag:cat:silhouette",
+                    "tag:cat:surface",
+                    "tag:function:silhouette_break",
+                    "tag:label:扁平胴体",
+                    "tag:label:扁平頭",
+                    "tag:label:横長の瞳",
+                    "tag:label:長い指",
+                    "tag:label:霜肌",
+                    "tag:label:露出関節",
+                    "tag:region:face",
+                    "tag:region:head",
+                    "tag:region:joint",
+                    "tag:region:limb",
+                    "tag:region:silhouette",
+                    "tag:region:surface",
+                    "tag:shape:jointed",
+                    "tag:surface:textured"
+                  ],
+                  "phase3": [
+                    "tag:cat:face",
+                    "tag:cat:head",
+                    "tag:cat:neck",
+                    "tag:label:口枷",
+                    "tag:label:牙の首飾り",
+                    "tag:label:角の冠",
+                    "tag:region:face",
+                    "tag:region:head",
+                    "tag:region:neck",
+                    "tag:shape:fang",
+                    "tag:shape:horned"
+                  ]
+                }
+              }
+            ],
+            "locked_tags_final": {
+              "phase1": [
+                "category:animal_bird",
+                "category:human_role",
+                "category:myth_fixed"
+              ],
+              "phase2": [
+                "tag:cat:face",
+                "tag:cat:head",
+                "tag:cat:joint",
+                "tag:cat:limb",
+                "tag:cat:silhouette",
+                "tag:cat:surface",
+                "tag:function:silhouette_break",
+                "tag:label:扁平胴体",
+                "tag:label:扁平頭",
+                "tag:label:横長の瞳",
+                "tag:label:長い指",
+                "tag:label:霜肌",
+                "tag:label:露出関節",
+                "tag:region:face",
+                "tag:region:head",
+                "tag:region:joint",
+                "tag:region:limb",
+                "tag:region:silhouette",
+                "tag:region:surface",
+                "tag:shape:jointed",
+                "tag:surface:textured"
+              ],
+              "phase3": [
+                "tag:cat:face",
+                "tag:cat:head",
+                "tag:cat:neck",
+                "tag:label:口枷",
+                "tag:label:牙の首飾り",
+                "tag:label:角の冠",
+                "tag:region:face",
+                "tag:region:head",
+                "tag:region:neck",
+                "tag:shape:fang",
+                "tag:shape:horned"
+              ]
+            },
+            "locked_tokens_final": {
+              "phase1": [
+                "category:animal_bird",
+                "category:human_role",
+                "category:myth_fixed"
+              ],
+              "phase2": [
+                "tag:cat:face",
+                "tag:cat:head",
+                "tag:cat:joint",
+                "tag:cat:limb",
+                "tag:cat:silhouette",
+                "tag:cat:surface",
+                "tag:function:silhouette_break",
+                "tag:label:扁平胴体",
+                "tag:label:扁平頭",
+                "tag:label:横長の瞳",
+                "tag:label:長い指",
+                "tag:label:霜肌",
+                "tag:label:露出関節",
+                "tag:region:face",
+                "tag:region:head",
+                "tag:region:joint",
+                "tag:region:limb",
+                "tag:region:silhouette",
+                "tag:region:surface",
+                "tag:shape:jointed",
+                "tag:surface:textured"
+              ],
+              "phase3": [
+                "tag:cat:face",
+                "tag:cat:head",
+                "tag:cat:neck",
+                "tag:label:口枷",
+                "tag:label:牙の首飾り",
+                "tag:label:角の冠",
+                "tag:region:face",
+                "tag:region:head",
+                "tag:region:neck",
+                "tag:shape:fang",
+                "tag:shape:horned"
+              ]
+            },
+            "lock_modes": {
+              "phase1": "category",
+              "phase2": "tag",
+              "phase3": "tag"
+            },
+            "lock_softening_stats": {
+              "phase2": {
+                "0": 3
+              },
+              "phase3": {
+                "0": 3
+              }
+            },
+            "disgust_wall_update": {
+              "updated": true,
+              "error": null,
+              "added": 10,
+              "trimmed": 12,
+              "before_count": 448,
+              "after_count": 446,
+              "captured_reason_count": 10,
+              "input_vote_count": 10
+            },
+            "min_candidates_target": 2,
+            "synthetic_challenger_added": false
+          }
+        },
+        "phase2b": {
+          "phase_id": "phase2b",
+          "status": "deferred"
+        }
+      },
+      "adopted_result": {
+        "phase2a_vision": {
+          "phase1_base": "ヒドラ",
+          "phase2_condition": "扁平頭・霜肌",
+          "phase3_anchor": "角の冠",
+          "subject_concept": "扁平頭と霜肌を持つヒドラ型の冠持ち",
+          "subject_signature": "角の冠",
+          "character_profile": {
+            "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+            "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-bf06ecbf",
+          "selected_by_persona_id": "vote10"
+        },
+        "phase2b_realization": {},
+        "phase2b_deferred": true,
+        "character_profile": {
+          "appearance_profile": "複数の首それぞれに扁平な頭部を持ち、全身が霜で覆われたような粗い表面構造を持つ多頭体。中央の首だけが角の冠を戴いている。",
+          "motion_profile": "角の冠を頂く首が先導するように動き、他の首がわずかに遅れて同じ方向へ追従する。"
+        },
+        "character_profile_source": "llm"
+      }
+    },
+    "phase3": {
+      "phase_id": "phase3",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "world-b005f3a6",
+            "persona_id": "persona-acfb1ab6",
+            "content": {
+              "world_setting": {
+                "premise": "重力が「層」で区切られた都市では、石畳の路面と空中の足場が同じ日常として並存し、人々は電柱と反重力石柱の両方に道標を貼る。",
+                "rules": [
+                  "重力層は高さによって方向が反転する。地上層と空中層では落下方向が逆になる",
+                  "層の境界は光の帯として目視できる。境界を越えると感覚が一瞬白く飛ぶ",
+                  "魔力水路が重力層を安定させている。水路が干上がると層が崩壊し始める",
+                  "物体は層を跨いで静止できない。境界に置かれたものは必ずどちらかに弾かれる"
+                ],
+                "society": "地上層の自治区と空中層の管理区が分断統治しており、魔力水路の管理権を持つ者が事実上の権力を握る。行き来できる者は少数で、層間移動者は両勢力から警戒される。",
+                "daily_life": "地上では石畳と鉄灯籠が並ぶ路地に市場が立ち、空中層では浮遊足場に洗濯物が翻る。移動は層内の路面標識に従い、カーブミラーは層の境界確認に使われる。",
+                "values": "「根を張る」ことが美徳とされる地上文化と、「浮き続ける」ことを誇る空中文化が互いを軽蔑し合う。境界を越える行為は禁忌ではないが、社会的な裏切りと見なされる。",
+                "visual_signifiers": [
+                  "電柱と反重力石柱が同じ路地に混在し、それぞれ逆方向に看板が向いている",
+                  "光の帯が空中に水平に走り、その上下で雨粒が逆方向に落ちている",
+                  "石畳の地面と、その真上の空中足場の両方に白線と路面標識が描かれている",
+                  "魔力水路が建物の壁面を垂直に流れ、空中層では天井を這うように走っている"
+                ],
+                "limits": "重力層の境界そのものを移動させることは不可能。水路の増設も百年単位の工事を要し、現存する水路網は不変の前提として扱われている。",
+                "freedom": "層の内部では物理法則は完全に均質で、魔法も機械も制限なく使える。重力方向さえ把握していれば、建築・移動・表現のすべてに制約はない。"
+              },
+              "_phase3_keyword_debug": {
+                "candidate_sets": [
+                  {
+                    "set_id": "A",
+                    "keywords": [
+                      "浮遊石",
+                      "跳ね橋",
+                      "河原石",
+                      "空中足場",
+                      "旗布",
+                      "砥石台",
+                      "配電箱",
+                      "ルーン柱",
+                      "作業台",
+                      "石門",
+                      "浅瀬",
+                      "発光段差",
+                      "骨の杭",
+                      "石段",
+                      "木桶",
+                      "空中橋",
+                      "苔岩",
+                      "巨岩",
+                      "磁気レール",
+                      "縁石"
+                    ],
+                    "lead_era": "primitive",
+                    "era_counts": {
+                      "isekai": 4,
+                      "medieval": 2,
+                      "primitive": 6,
+                      "early_modern": 2,
+                      "modern": 2,
+                      "ancient": 2,
+                      "future": 2
+                    },
+                    "alignment_score": 0.75
+                  },
+                  {
+                    "set_id": "B",
+                    "keywords": [
+                      "ガードレール",
+                      "石壁",
+                      "磁気レール",
+                      "電線",
+                      "石柱",
+                      "石器束",
+                      "石の導水管",
+                      "発光苔",
+                      "アーチ壁",
+                      "倒木",
+                      "蔵の土壁",
+                      "グレーチング",
+                      "吊り滑車",
+                      "浮遊足場",
+                      "運河",
+                      "壁掛け灯",
+                      "ゴミ箱",
+                      "石橋",
+                      "鉄格子門",
+                      "魔力水路"
+                    ],
+                    "lead_era": "ancient",
+                    "era_counts": {
+                      "modern": 4,
+                      "ancient": 6,
+                      "future": 2,
+                      "primitive": 2,
+                      "isekai": 2,
+                      "early_modern": 2,
+                      "medieval": 2
+                    },
+                    "alignment_score": 0.3
+                  },
+                  {
+                    "set_id": "C",
+                    "keywords": [
+                      "提灯",
+                      "つる植物",
+                      "石橋",
+                      "路面標識",
+                      "アーチ壁",
+                      "井戸",
+                      "石畳",
+                      "鉄灯籠",
+                      "城郭櫓",
+                      "浮き樽",
+                      "魔力水路",
+                      "浮遊柵",
+                      "木の骨組み",
+                      "反重力石柱",
+                      "光の帯",
+                      "電柱",
+                      "石壁",
+                      "白線",
+                      "カーブミラー",
+                      "オベリスク"
+                    ],
+                    "lead_era": "ancient",
+                    "era_counts": {
+                      "early_modern": 2,
+                      "primitive": 2,
+                      "ancient": 6,
+                      "modern": 4,
+                      "medieval": 2,
+                      "isekai": 2,
+                      "future": 2
+                    },
+                    "alignment_score": 0.225
+                  }
+                ],
+                "selected_set_id": "C",
+                "selected_lead_era": "ancient",
+                "selected_era_counts": {
+                  "early_modern": 2,
+                  "primitive": 2,
+                  "ancient": 6,
+                  "modern": 4,
+                  "medieval": 2,
+                  "isekai": 2,
+                  "future": 2
+                },
+                "selected_overlap": [
+                  "路面標識",
+                  "石畳",
+                  "鉄灯籠",
+                  "魔力水路",
+                  "反重力石柱",
+                  "光の帯",
+                  "電柱",
+                  "白線",
+                  "カーブミラー"
+                ],
+                "persona_alignment_score": 0.225
+              }
+            },
+            "created_at": "2026-02-27 04:08:04.460948"
+          },
+          {
+            "proposal_id": "world-b6168eae",
+            "persona_id": "persona-734ac207",
+            "content": {
+              "world_setting": {
+                "premise": "この世界では、死者は「霧の門」を抜けるまで生者の街に留まり続け、骨の杭と結界柱が霧の侵食を食い止める境界線を成している。生と死の区画は石門ひとつで隣接しており、住民はどちら側にいるかを常に意識しながら暮らす。",
+                "rules": [
+                  "霧の門は日没後にしか開かない。夜明け前に通過できなかった死者は翌日まで生者区に留まる",
+                  "結界柱が発光している間は死者は石門を越えられない。柱の光が消えると境界が崩れる",
+                  "骨の杭を抜いた者は、自分の死後に霧の門へのルートを失う",
+                  "生者が死者区に入ることは禁じられていないが、戻れなくなった者の記録が松明の数だけ残る"
+                ],
+                "society": "街は「生者区」と「死者区」に大きく分かれ、境界管理を担う門番ギルドが唯一の公権力として機能する。魔力井戸の水が結界柱に供給されており、その管理権が政治的な力の源泉になっている。",
+                "daily_life": "住民は吊り灯が灯る夕方になると自然と帰路を急ぐ。死者区に近い路地では魔力井戸の水を汲んで結界柱に注ぐことが日課で、子どもでも当たり前のようにこなす。",
+                "values": "「柱の光を守ること」が最高の善とされ、光を消す行為は殺人と同等の罪として扱われる。死者を憎まない文化が根付いており、境界を越えた対話は美しいとされる一方、死者区に長居することは自殺的な行為として忌避される。",
+                "visual_signifiers": [
+                  "街灯代わりの結界柱が青白く脈打ちながら路地に等間隔に立ち並ぶ",
+                  "石門の前だけ地面に停止線のような発光路面が走り、踏むと足元が一瞬透ける",
+                  "霧の侵食が進んだ壁面に発光苔が繁殖し、死者区に近いほど苔が濃く輝く",
+                  "骨の杭が境界沿いにランダムに刺さっており、杭ごとに名前が刻まれている"
+                ],
+                "limits": "霧の門を強制的に閉じ続けることは不可能。どれだけ結界を強化しても、死者の数が一定を超えると霧が溢れ出す均衡がある。また、死者区の奥深くに何があるかは生者には観測できない。",
+                "freedom": "死者区の内部には世界のルールが一切適用されない。重力も時間経過も物理法則も、そこでは観測されないため、死者が何をしているかは完全に自由であり未定義である。"
+              },
+              "_phase3_keyword_debug": {
+                "candidate_sets": [
+                  {
+                    "set_id": "A",
+                    "keywords": [
+                      "石垣",
+                      "側溝",
+                      "電柱",
+                      "空中足場",
+                      "空中浮遊台",
+                      "浮遊岩",
+                      "草ぶき小屋",
+                      "倉庫扉",
+                      "反重力石柱",
+                      "鉄灯籠",
+                      "断片地形",
+                      "石段",
+                      "封印石",
+                      "魔法陣床",
+                      "自転車レーン",
+                      "露岩",
+                      "横断帯",
+                      "石畳",
+                      "通行ゲート",
+                      "暖簾"
+                    ],
+                    "lead_era": "isekai",
+                    "era_counts": {
+                      "medieval": 2,
+                      "modern": 4,
+                      "isekai": 6,
+                      "future": 2,
+                      "primitive": 2,
+                      "early_modern": 2,
+                      "ancient": 2
+                    },
+                    "alignment_score": 0.3
+                  },
+                  {
+                    "set_id": "B",
+                    "keywords": [
+                      "荷車置き場",
+                      "石の噴水",
+                      "格子戸",
+                      "マンホール",
+                      "石像門",
+                      "皮の天幕",
+                      "鉄灯籠",
+                      "電線",
+                      "吊り灯",
+                      "浮遊柵",
+                      "井桁",
+                      "充電柱",
+                      "骨の杭",
+                      "木槍立て",
+                      "燧石山",
+                      "石柱",
+                      "吊り滑車",
+                      "空中橋",
+                      "見張り塔",
+                      "城壁階段"
+                    ],
+                    "lead_era": "medieval",
+                    "era_counts": {
+                      "medieval": 6,
+                      "ancient": 2,
+                      "early_modern": 2,
+                      "modern": 2,
+                      "isekai": 2,
+                      "primitive": 4,
+                      "future": 2
+                    },
+                    "alignment_score": 0.3
+                  },
+                  {
+                    "set_id": "C",
+                    "keywords": [
+                      "貯水槽",
+                      "繋留ロープ",
+                      "充電柱",
+                      "吊り灯",
+                      "横断帯",
+                      "配電箱",
+                      "停止線",
+                      "霧の門",
+                      "岩の裂け目",
+                      "蔵の土壁",
+                      "発光路面",
+                      "網",
+                      "発光苔",
+                      "変圧器",
+                      "グレーチング",
+                      "通信箱",
+                      "石門",
+                      "松明",
+                      "魔力井戸",
+                      "結界柱"
+                    ],
+                    "lead_era": "modern",
+                    "era_counts": {
+                      "ancient": 2,
+                      "early_modern": 2,
+                      "future": 2,
+                      "medieval": 2,
+                      "modern": 6,
+                      "isekai": 4,
+                      "primitive": 2
+                    },
+                    "alignment_score": 1.65
+                  }
+                ],
+                "selected_set_id": "C",
+                "selected_lead_era": "modern",
+                "selected_era_counts": {
+                  "ancient": 2,
+                  "early_modern": 2,
+                  "future": 2,
+                  "medieval": 2,
+                  "modern": 6,
+                  "isekai": 4,
+                  "primitive": 2
+                },
+                "selected_overlap": [
+                  "吊り灯",
+                  "停止線",
+                  "霧の門",
+                  "発光路面",
+                  "発光苔",
+                  "石門",
+                  "松明",
+                  "魔力井戸",
+                  "結界柱"
+                ],
+                "persona_alignment_score": 1.65
+              }
+            },
+            "created_at": "2026-02-27 04:08:29.140487"
+          },
+          {
+            "proposal_id": "world-ed6d6bfa",
+            "persona_id": "persona-400d5ebd",
+            "content": {
+              "world_setting": {
+                "premise": "この世界では、感情が「熱」として物質に蓄積し、強い感情を持った人間が触れた道具や建物は永続的に発光または発熱し続ける。街は人々の感情史の堆積そのものだ。",
+                "rules": [
+                  "怒りや悲しみが染み込んだ物体は赤橙色に、愛や歓喜が染み込んだ物体は青白く発光する",
+                  "感情が濃く蓄積した場所では鍛造炉や石臼が誰も触れていないのに動作し続ける",
+                  "水車と木桶は感情熱を「冷却・中和」する装置として機能し、街の要所に設置されている",
+                  "発光が消えた建物は感情的に死んだ場所とみなされ、立ち入りを忌避される",
+                  "感情熱が飽和した物体は爆発的に砕けるため、古い石橋や石碑には定期的な「放熱儀式」が義務付けられている"
+                ],
+                "society": "感情熱の「読み取り師」が最高権力を持ち、建物の発光色で地区の感情履歴を管理する。高発光地区は高価値とされ、無発光地区は貧困層が住む。感情を意図的に操作して物体に価値を吹き込む「熱師」という職業が存在し、芸術家兼職人として尊崇される。",
+                "daily_life": "人々は自分の感情が漏れないよう皮の天幕で体を覆い、大切な道具には感情を込めて育てる。街灯代わりに感情の染み込んだ浮遊街灯が路地を照らし、水車の回転音が街の至る所で聞こえる。石碑は先祖の感情を保存するタイムカプセルとして墓標の役割を果たす。",
+                "values": "「感情を物に残すこと」が人生の意義とされ、何も染め上げられなかった人間は死後に何も残さないと蔑まれる。逆に感情を暴力的に爆発させ物を砕く行為は最大の禁忌であり「破熱」と呼ばれる犯罪。美意識は発光の繊細なグラデーションにあり、単色より複雑な混色を持つ建物ほど美しいとされる。",
+                "visual_signifiers": [
+                  "石橋や石碑の表面が複数色のグラデーションで静かに脈打つように発光している",
+                  "水車と木桶が街角に設置され、その周囲だけ発光が消えた「無色の静寂エリア」が広がる",
+                  "皮の天幕を羽織った人々が歩く路地に、浮遊街灯が青白・赤橙まだら模様で浮かんでいる",
+                  "鍛造炉が無人なのに燃え続け、炉の前に誰かの感情が残した道具が散乱している"
+                ],
+                "limits": "感情熱を完全に消去することは不可能。一度染まった物体から熱を抜くには水車による長年の冷却しかなく、記憶を物理的に抹消する手段は存在しない。",
+                "freedom": "感情の種類や強度に制限はなく、世界はあらゆる感情の混在を前提として成立している。何を感じるかは完全に自由であり、その自由こそが街の多様な発光景観を生み出している。"
+              },
+              "_phase3_keyword_debug": {
+                "candidate_sets": [
+                  {
+                    "set_id": "A",
+                    "keywords": [
+                      "変圧器",
+                      "光の帯",
+                      "草ぶき小屋",
+                      "倉庫扉",
+                      "馬留め杭",
+                      "空中橋",
+                      "貯水槽",
+                      "通り灯",
+                      "浮遊コンテナ",
+                      "石臼",
+                      "木桶",
+                      "皮の天幕",
+                      "ガードレール",
+                      "燧石山",
+                      "石の囲い",
+                      "浮遊岩",
+                      "木製看板",
+                      "オベリスク",
+                      "黄線",
+                      "消火栓"
+                    ],
+                    "lead_era": "primitive",
+                    "era_counts": {
+                      "modern": 4,
+                      "future": 2,
+                      "primitive": 6,
+                      "early_modern": 2,
+                      "medieval": 2,
+                      "isekai": 2,
+                      "ancient": 2
+                    },
+                    "alignment_score": 0.3
+                  },
+                  {
+                    "set_id": "B",
+                    "keywords": [
+                      "磁気レール",
+                      "配電箱",
+                      "送電鉄塔",
+                      "工具棚",
+                      "見張り塔",
+                      "浮上ホーム",
+                      "断片地形",
+                      "グレーチング",
+                      "かがり火",
+                      "壁掛け灯",
+                      "排水口",
+                      "自転車レーン",
+                      "乾燥棚",
+                      "反重力石柱",
+                      "炉の跡",
+                      "木槍立て",
+                      "貯水槽",
+                      "城郭櫓",
+                      "監視カメラ",
+                      "石畳"
+                    ],
+                    "lead_era": "modern",
+                    "era_counts": {
+                      "future": 2,
+                      "modern": 6,
+                      "early_modern": 2,
+                      "medieval": 4,
+                      "isekai": 2,
+                      "primitive": 2,
+                      "ancient": 2
+                    },
+                    "alignment_score": 0.9
+                  },
+                  {
+                    "set_id": "C",
+                    "keywords": [
+                      "浮遊街灯",
+                      "魔法陣床",
+                      "石垣",
+                      "木桶",
+                      "グレーチング",
+                      "発光路面",
+                      "通り灯",
+                      "小さな煙突",
+                      "石橋",
+                      "監視カメラ",
+                      "船着き場",
+                      "砦壁",
+                      "磁気レール",
+                      "石碑",
+                      "鍛造炉",
+                      "浮遊足場",
+                      "空中橋",
+                      "水車",
+                      "草ぶき小屋",
+                      "製粉機"
+                    ],
+                    "lead_era": "early_modern",
+                    "era_counts": {
+                      "future": 4,
+                      "isekai": 2,
+                      "medieval": 2,
+                      "primitive": 2,
+                      "modern": 2,
+                      "early_modern": 6,
+                      "ancient": 2
+                    },
+                    "alignment_score": 0.75
+                  }
+                ],
+                "selected_set_id": "C",
+                "selected_lead_era": "early_modern",
+                "selected_era_counts": {
+                  "future": 4,
+                  "isekai": 2,
+                  "medieval": 2,
+                  "primitive": 2,
+                  "modern": 2,
+                  "early_modern": 6,
+                  "ancient": 2
+                },
+                "selected_overlap": [
+                  "浮遊街灯",
+                  "木桶",
+                  "石橋",
+                  "石碑",
+                  "鍛造炉",
+                  "水車"
+                ],
+                "persona_alignment_score": 0.75
+              }
+            },
+            "created_at": "2026-02-27 04:08:58.632814"
+          }
+        ],
+        "vote": {
+          "winner_key": "A",
+          "tally": {
+            "A": 8,
+            "B": 6,
+            "C": 6
+          },
+          "like_tally": {
+            "A": 4,
+            "B": 4,
+            "C": 2
+          },
+          "dislike_tally": {
+            "A": 4,
+            "B": 2,
+            "C": 4
+          },
+          "votes": [
+            {
+              "voter": "Kwame al-Fahd",
+              "like": "A",
+              "like_reason": "層による分断統治と層間移動者への警戒は、自分が日々感じる階層格差や管理される側の息苦しさと重なる。地上層の自治区という概念に親近感がある。",
+              "dislike": "C",
+              "dislike_reason": "感情が権力の根拠になる世界は、感情を外に出す余裕のない自分には不利に働く。感情熱の読み取りで管理される社会は抑圧的に感じる。"
+            },
+            {
+              "voter": "Eulàlia Ribas",
+              "like": "B",
+              "like_reason": "死者が街に留まり生者と隣り合って存在するという発想は、先祖や亡くなった隣人への敬意が日常にある18世紀の感覚に自然に馴染む。門番ギルドという公権力の形も理解しやすい。",
+              "dislike": "A",
+              "dislike_reason": "重力の反転という概念が日常感覚から遠すぎて像を結べない。石畳の路地は親しみやすいが、空中足場と混在する世界は生活実感を失わせる。"
+            },
+            {
+              "voter": "Vikram Patel",
+              "like": "B",
+              "like_reason": "死者が去りきれずに留まるという世界観は、長年のコミュニティの記憶や亡くなった仲間への思いと共鳴する。生と死が隣接しながら共存するという設定に温かみを感じる。",
+              "dislike": "C",
+              "dislike_reason": "感情が測定・管理されて権力構造になる世界は、穏やかなコミュニティ活動を大切にする自分の価値観と相容れない。感情を数値化して序列化する発想が好きではない。"
+            },
+            {
+              "voter": "Layla al-Mahmoud",
+              "like": "A",
+              "like_reason": "層ごとに異なるルールと管理体制が存在する都市構造は、物流システムのオペレーターとして複雑なレイヤー管理を扱う自分の仕事感覚と親和性がある。視覚的にも整理されていて映像として鮮明に想像できる。",
+              "dislike": "B",
+              "dislike_reason": "死者が街に漂い続けるという設定は、効率と実務を重視する自分には処理しにくい曖昧さがある。境界が霧で不確かなまま存在する世界観が落ち着かない。"
+            },
+            {
+              "voter": "Aminah binti Osman",
+              "like": "C",
+              "like_reason": "建物に感情の歴史が蓄積し発光するという発想は、長年使い込まれた建物や道具に価値を見出す商家の感覚と合致する。所有する建物が感情履歴を持つという設定に商人として興味を覚える。",
+              "dislike": "A",
+              "dislike_reason": "重力が反転する層構造は、港の地の利を活かして商売してきた自分の現実的な空間感覚と合わない。足場の不安定な世界では商売の見通しが立たない。"
+            },
+            {
+              "voter": "たかはし けんと",
+              "like": "A",
+              "like_reason": "重力が逆転する都市構造は視覚的にインパクトがあり、地上層と空中層の権力分断という社会設計がリアルで面白い。商社マンとして「管理権＝権力」という構図に共感できる。",
+              "dislike": "C",
+              "dislike_reason": "感情が物質に蓄積するという設定は詩的すぎて、ロジックの輪郭がぼやけている。ビジネス志向の自分には世界のルールが掴みにくく、没入しにくい。"
+            },
+            {
+              "voter": "かすが",
+              "like": "B",
+              "like_reason": "生と死が石門ひとつで隣り合う設定は、島の暮らしの中で感じる「あの世との近さ」に通じる。骨の杭や発光苔など、素朴な素材感が身近に感じられる。",
+              "dislike": "A",
+              "dislike_reason": "重力層や反重力石柱といった概念は頭で理解しにくく、映像を想像しても混乱してしまう。賑やかな都市的な世界観は自分の日常感覚と遠い。"
+            },
+            {
+              "voter": "陳俊傑",
+              "like": "A",
+              "like_reason": "重力のルールが高さという明確なパラメータで定義されており、エンジニアとして世界の物理法則がロジカルに整理されているのが好印象。層間移動者が両勢力から警戒されるという構造も興味深い。",
+              "dislike": "C",
+              "dislike_reason": "感情熱の「読み取り師」が権力を持つ設定は、定量化の根拠が曖昧で世界のルールとして信頼性が低い。エンジニア視点では仕様が不明確に感じる。"
+            },
+            {
+              "voter": "Valentina Quiroga",
+              "like": "C",
+              "like_reason": "感情が熱として物質に蓄積するという概念は、環境材料工学の視点から素材の記憶・履歴を想起させて知的に刺激的。感情熱の冷却装置として水車が機能するという設計も材料科学的に面白い着想。",
+              "dislike": "B",
+              "dislike_reason": "生と死の区画分けは世界観として王道すぎて新鮮味が薄い。霧の門や結界柱のデザインも既存のファンタジー文法の範囲内に収まっており、独自性を感じにくい。"
+            },
+            {
+              "voter": "Somchai Rattanakosin",
+              "like": "B",
+              "like_reason": "死者が街に留まり続けるという設定は、故郷タイの文化的な死生観に近く感情移入しやすい。門番ギルドが唯一の公権力という社会構造も、移民として「境界を管理する者の権力」を肌で知っているので刺さる。",
+              "dislike": "A",
+              "dislike_reason": "重力が層で逆転する都市は映像として面白そうだが、日常的な疲労の中で見るには設定が複雑すぎる。路面標識が上下に並存するビジュアルはかえって混乱を招きそう。"
+            }
+          ],
+          "analysis": "[batch 1] BとAが各2票のlikeを獲得し、Cは1票のlikeにとどまった。dislikeはCとAとBで分散しているが、CとAへの忌避がやや強い傾向がある。時代が古いペルソナ（Eulàlia、Aminah）は生活感覚に根ざした世界観（BとC）に惹かれ、現代・近未来のペルソナ（Kwame、Layla）は構造的・視覚的に整理された世界観Aを支持する傾向が見られた。\n[batch 2] BとAがそれぞれ2票のlikeを獲得し、Cは1票にとどまった。Bは生と死の隣接という感情的・文化的に普遍的なテーマが幅広い層に響いており、特に死生観が身近なペルソナに支持された。Aはルールの論理的明快さでエンジニア・ビジネス系のペルソナに評価された一方、概念の複雑さでdislikeも2票集めた。Cは材料工学専攻のValentinaには独自性が高く評価されたが、ルールの曖昧さがdislikeの主因となり支持が分散した。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "world-b005f3a6",
+        "persona_id": "persona-acfb1ab6",
+        "content": {
+          "world_setting": {
+            "premise": "重力が「層」で区切られた都市では、石畳の路面と空中の足場が同じ日常として並存し、人々は電柱と反重力石柱の両方に道標を貼る。",
+            "rules": [
+              "重力層は高さによって方向が反転する。地上層と空中層では落下方向が逆になる",
+              "層の境界は光の帯として目視できる。境界を越えると感覚が一瞬白く飛ぶ",
+              "魔力水路が重力層を安定させている。水路が干上がると層が崩壊し始める",
+              "物体は層を跨いで静止できない。境界に置かれたものは必ずどちらかに弾かれる"
+            ],
+            "society": "地上層の自治区と空中層の管理区が分断統治しており、魔力水路の管理権を持つ者が事実上の権力を握る。行き来できる者は少数で、層間移動者は両勢力から警戒される。",
+            "daily_life": "地上では石畳と鉄灯籠が並ぶ路地に市場が立ち、空中層では浮遊足場に洗濯物が翻る。移動は層内の路面標識に従い、カーブミラーは層の境界確認に使われる。",
+            "values": "「根を張る」ことが美徳とされる地上文化と、「浮き続ける」ことを誇る空中文化が互いを軽蔑し合う。境界を越える行為は禁忌ではないが、社会的な裏切りと見なされる。",
+            "visual_signifiers": [
+              "電柱と反重力石柱が同じ路地に混在し、それぞれ逆方向に看板が向いている",
+              "光の帯が空中に水平に走り、その上下で雨粒が逆方向に落ちている",
+              "石畳の地面と、その真上の空中足場の両方に白線と路面標識が描かれている",
+              "魔力水路が建物の壁面を垂直に流れ、空中層では天井を這うように走っている"
+            ],
+            "limits": "重力層の境界そのものを移動させることは不可能。水路の増設も百年単位の工事を要し、現存する水路網は不変の前提として扱われている。",
+            "freedom": "層の内部では物理法則は完全に均質で、魔法も機械も制限なく使える。重力方向さえ把握していれば、建築・移動・表現のすべてに制約はない。"
+          },
+          "_phase3_keyword_debug": {
+            "candidate_sets": [
+              {
+                "set_id": "A",
+                "keywords": [
+                  "浮遊石",
+                  "跳ね橋",
+                  "河原石",
+                  "空中足場",
+                  "旗布",
+                  "砥石台",
+                  "配電箱",
+                  "ルーン柱",
+                  "作業台",
+                  "石門",
+                  "浅瀬",
+                  "発光段差",
+                  "骨の杭",
+                  "石段",
+                  "木桶",
+                  "空中橋",
+                  "苔岩",
+                  "巨岩",
+                  "磁気レール",
+                  "縁石"
+                ],
+                "lead_era": "primitive",
+                "era_counts": {
+                  "isekai": 4,
+                  "medieval": 2,
+                  "primitive": 6,
+                  "early_modern": 2,
+                  "modern": 2,
+                  "ancient": 2,
+                  "future": 2
+                },
+                "alignment_score": 0.75
+              },
+              {
+                "set_id": "B",
+                "keywords": [
+                  "ガードレール",
+                  "石壁",
+                  "磁気レール",
+                  "電線",
+                  "石柱",
+                  "石器束",
+                  "石の導水管",
+                  "発光苔",
+                  "アーチ壁",
+                  "倒木",
+                  "蔵の土壁",
+                  "グレーチング",
+                  "吊り滑車",
+                  "浮遊足場",
+                  "運河",
+                  "壁掛け灯",
+                  "ゴミ箱",
+                  "石橋",
+                  "鉄格子門",
+                  "魔力水路"
+                ],
+                "lead_era": "ancient",
+                "era_counts": {
+                  "modern": 4,
+                  "ancient": 6,
+                  "future": 2,
+                  "primitive": 2,
+                  "isekai": 2,
+                  "early_modern": 2,
+                  "medieval": 2
+                },
+                "alignment_score": 0.3
+              },
+              {
+                "set_id": "C",
+                "keywords": [
+                  "提灯",
+                  "つる植物",
+                  "石橋",
+                  "路面標識",
+                  "アーチ壁",
+                  "井戸",
+                  "石畳",
+                  "鉄灯籠",
+                  "城郭櫓",
+                  "浮き樽",
+                  "魔力水路",
+                  "浮遊柵",
+                  "木の骨組み",
+                  "反重力石柱",
+                  "光の帯",
+                  "電柱",
+                  "石壁",
+                  "白線",
+                  "カーブミラー",
+                  "オベリスク"
+                ],
+                "lead_era": "ancient",
+                "era_counts": {
+                  "early_modern": 2,
+                  "primitive": 2,
+                  "ancient": 6,
+                  "modern": 4,
+                  "medieval": 2,
+                  "isekai": 2,
+                  "future": 2
+                },
+                "alignment_score": 0.225
+              }
+            ],
+            "selected_set_id": "C",
+            "selected_lead_era": "ancient",
+            "selected_era_counts": {
+              "early_modern": 2,
+              "primitive": 2,
+              "ancient": 6,
+              "modern": 4,
+              "medieval": 2,
+              "isekai": 2,
+              "future": 2
+            },
+            "selected_overlap": [
+              "路面標識",
+              "石畳",
+              "鉄灯籠",
+              "魔力水路",
+              "反重力石柱",
+              "光の帯",
+              "電柱",
+              "白線",
+              "カーブミラー"
+            ],
+            "persona_alignment_score": 0.225
+          }
+        },
+        "created_at": "2026-02-27 04:08:04.460948"
+      },
+      "visual_medium_constraint": false,
+      "metadata": {
+        "creator_personas": [
+          {
+            "persona_id": "persona-acfb1ab6",
+            "persona_name": "Alex Dubois",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-734ac207",
+            "persona_name": "ちづる",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-400d5ebd",
+            "persona_name": "Lina Tan Wei Ling",
+            "persona_type": "amateur"
+          }
+        ],
+        "keyword_selection_debug": [
+          {
+            "persona_id": "persona-acfb1ab6",
+            "persona_name": "Alex Dubois",
+            "proposal_id": "world-b005f3a6",
+            "selected_set_id": "C",
+            "selected_lead_era": "ancient",
+            "selected_era_counts": {
+              "early_modern": 2,
+              "primitive": 2,
+              "ancient": 6,
+              "modern": 4,
+              "medieval": 2,
+              "isekai": 2,
+              "future": 2
+            },
+            "selected_overlap_count": 9,
+            "persona_alignment_score": 0.225
+          },
+          {
+            "persona_id": "persona-734ac207",
+            "persona_name": "ちづる",
+            "proposal_id": "world-b6168eae",
+            "selected_set_id": "C",
+            "selected_lead_era": "modern",
+            "selected_era_counts": {
+              "ancient": 2,
+              "early_modern": 2,
+              "future": 2,
+              "medieval": 2,
+              "modern": 6,
+              "isekai": 4,
+              "primitive": 2
+            },
+            "selected_overlap_count": 9,
+            "persona_alignment_score": 1.65
+          },
+          {
+            "persona_id": "persona-400d5ebd",
+            "persona_name": "Lina Tan Wei Ling",
+            "proposal_id": "world-ed6d6bfa",
+            "selected_set_id": "C",
+            "selected_lead_era": "early_modern",
+            "selected_era_counts": {
+              "future": 4,
+              "isekai": 2,
+              "medieval": 2,
+              "primitive": 2,
+              "modern": 2,
+              "early_modern": 6,
+              "ancient": 2
+            },
+            "selected_overlap_count": 6,
+            "persona_alignment_score": 0.75
+          }
+        ],
+        "used_keyword_eras": [
+          "ancient",
+          "early_modern",
+          "modern"
+        ],
+        "disgust_wall_update": {
+          "updated": true,
+          "error": null,
+          "added": 10,
+          "trimmed": 14,
+          "before_count": 446,
+          "after_count": 442,
+          "captured_reason_count": 10,
+          "input_vote_count": 10
+        },
+        "min_candidates_target": 2,
+        "synthetic_challenger_added": false,
+        "phase3_keyword_set_id": "C",
+        "phase3_keyword_era_mix": {
+          "early_modern": 2,
+          "primitive": 2,
+          "ancient": 6,
+          "modern": 4,
+          "medieval": 2,
+          "isekai": 2,
+          "future": 2
+        },
+        "persona_alignment_score": 0.225
+      }
+    },
+    "phase4": {
+      "phase_id": "phase4",
+      "status": "completed",
+      "failure_stage": null,
+      "parse_error": null,
+      "retry_count": 0,
+      "last_prompt_hash": null,
+      "adopted_result": {
+        "duration_sec": 213.599979,
+        "has_project_concept": true,
+        "has_visual_language": true,
+        "has_ir_structure": true,
+        "has_integration": true,
+        "has_hook_design": true,
+        "has_synopsis": true,
+        "has_storyline": true,
+        "has_timeline_summary": true,
+        "has_section_outline": true
+      },
+      "metadata": {
+        "blueprint_trace": {},
+        "blueprint_trace_attempts": [],
+        "blueprint_lint_issues": [],
+        "failure_stage": null,
+        "parse_error": null,
+        "retry_count": 0,
+        "last_prompt_hash": null,
+        "repair_trace": {
+          "source": "skip",
+          "phase": "phase4_repair",
+          "reason": "not_weak"
+        },
+        "repair_trace_attempts": [
+          {
+            "source": "skip",
+            "phase": "phase4_repair",
+            "reason": "not_weak"
+          }
+        ],
+        "treatment_trace": {
+          "source": "fallback",
+          "phase": "phase4_treatment",
+          "field": "timeline_summary"
+        },
+        "treatment_trace_attempts": [
+          {
+            "source": "llm",
+            "phase": "phase4_treatment",
+            "attempt": 1,
+            "grounding_vocab_head": [
+              "各セクション最低1枚の道標が剥がれる映像",
+              "霜肌の亀裂が段階的に広がる変化",
+              "誰も見ていない空間でのキャラの独立した行為",
+              "剥がれかけた道標",
+              "霜肌の亀裂パターン",
+              "反重力石柱の光線",
+              "霜に覆われた石畳の細い路地",
+              "等間隔に並ぶ霜柱"
+            ],
+            "grounded_summary_count": 5,
+            "summary_count": 8,
+            "parse_error": "storyline_not_grounded"
+          },
+          {
+            "source": "llm",
+            "phase": "phase4_treatment",
+            "attempt": 2,
+            "retry_note": "storyline が抽象/汎用に寄りすぎています。setpieces.anchor_props / motifs / visual_signifiers / must_include の具体名詞を最低1つ入れ、視聴者が追う問いと回収が見える短文(2-6行)にする。",
+            "grounding_vocab_head": [
+              "各セクション最低1枚の道標が剥がれる映像",
+              "霜肌の亀裂が段階的に広がる変化",
+              "誰も見ていない空間でのキャラの独立した行為",
+              "剥がれかけた道標",
+              "霜肌の亀裂パターン",
+              "反重力石柱の光線",
+              "霜に覆われた石畳の細い路地",
+              "等間隔に並ぶ霜柱"
+            ],
+            "grounded_summary_count": 3,
+            "summary_count": 8,
+            "parse_error": "timeline_summary_not_grounded"
+          },
+          {
+            "source": "fallback",
+            "phase": "phase4_treatment",
+            "field": "synopsis"
+          },
+          {
+            "source": "fallback",
+            "phase": "phase4_treatment",
+            "field": "storyline"
+          },
+          {
+            "source": "fallback",
+            "phase": "phase4_treatment",
+            "field": "timeline_summary"
+          }
+        ],
+        "section_outline_trace": {
+          "source": "llm",
+          "phase": "phase4_section_outline",
+          "attempt": 1,
+          "status": "ok",
+          "section_count": 8
+        },
+        "section_outline_trace_attempts": [
+          {
+            "source": "llm",
+            "phase": "phase4_section_outline",
+            "attempt": 1,
+            "status": "ok",
+            "section_count": 8
+          }
+        ],
+        "ir_structure_source": "phase4_ir_structure_fallback",
+        "ir_structure_trace": {
+          "source": "fallback",
+          "mode": "structure_fallback",
+          "scene_count": 7,
+          "sequence_count": 6,
+          "block_count": 6
+        },
+        "ir_structure_trace_attempts": [
+          {
+            "source": "llm",
+            "mode": "structure",
+            "duration_bounds_sec": {
+              "min": 213.599979,
+              "max": 223.599979
+            },
+            "direction_fallback": {
+              "fallback_applied": true,
+              "direction_filled": 0,
+              "framing_filled": 0,
+              "visual_strategy_filled": 0,
+              "camera_language_filled": 0,
+              "hook_tagged": 5
+            },
+            "scene_block_unique_scenes": 7,
+            "scene_block_most_common_scene_id": "scene_5",
+            "scene_block_most_common_ratio": 0.25,
+            "scene_block_max_consecutive": 2,
+            "target_duration_total_sec": 198.0,
+            "parse_error": "scene_block_duration_out_of_bounds",
+            "attempt": 1
+          },
+          {
+            "source": "llm",
+            "mode": "structure",
+            "duration_bounds_sec": {
+              "min": 213.599979,
+              "max": 223.599979
+            },
+            "retry_note": "scene_blocks[].target_duration_sec を全て正の数にし、合計を duration_bounds_sec(min〜max) に収める。",
+            "llm_error": "Failed to parse JSON from LLM response: Expecting ',' delimiter: line 1 column 10311 (char 10310)\nText: {\"sequences\":[{\"id\":\"seq_seal\",\"time_descriptor\":\"静止から微動へ——密度が凝固した封印の時間\",\"visual_strategy\":\"極低角度固定フレームで石畳の霜面を画面いっぱいに充填し、わずかな変化を最大の緊張として読ませる\",\"tags\":[\"energy_low\",\"pacing_slow\",\"封印期\"]},{\"id\":\"seq_breach\",\"time_descriptor\":\"境界接触から越境へ——光帯と手持ち不安定の疾走\",\"visual_strategy\":\"手持ち背後追随と逆光シルエットで越境の寸前感を持続させ、match_cutで越境の瞬間を連結する\",\"tags\":[\"亀裂期\",\"hook_open_loop\"]},{\"id\":\"seq_scatter\",\"time_descriptor\":\"加速から分裂へ——ドローン俯瞰と水面リフレクションの対比\",\"visual_strategy\":\"ドローン俯瞰と急降下の交互切替から水面リフレクションの静止へ転換し、外的疾走と内的分裂を並行させる\",\"tags\":[\"ene...",
+            "attempt": 2
+          },
+          {
+            "source": "fallback",
+            "mode": "structure_fallback",
+            "scene_count": 7,
+            "sequence_count": 6,
+            "block_count": 6
+          }
+        ],
+        "ir_structure_counts": {
+          "sequences": 6,
+          "scenes": 7,
+          "scene_blocks": 6
+        },
+        "phase1_input_contract": "theme_only",
+        "creator_personas": [
+          {
+            "persona_name": "Miguel Alejandro Torres",
+            "persona_id": "persona-1f409db6"
+          },
+          {
+            "persona_name": "ゆうと",
+            "persona_id": "persona-6fd7d48b"
+          },
+          {
+            "persona_name": "しおり",
+            "persona_id": "persona-0824f395"
+          }
+        ],
+        "pool_sampled": 9,
+        "pool_attempted": 3,
+        "disgust_wall_update": {
+          "updated": true,
+          "error": null,
+          "added": 10,
+          "trimmed": 15,
+          "before_count": 442,
+          "after_count": 437,
+          "captured_reason_count": 10,
+          "input_vote_count": 11
+        },
+        "min_candidates_target": 2,
+        "synthetic_challenger_added": false
+      },
+      "competition": {
+        "proposals": [
+          {
+            "persona_name": "Miguel Alejandro Torres",
+            "persona_id": "persona-1f409db6",
+            "summary": "企画: 層をまたぐ不可視の革命——境界空白帯でのみ起きる出来事を目撃者として追う観察構造\n展開: 角の冠を戴く中央の首が石畳層から空中足場層を静かに見上げる → 他の首たちが各々の層の道標を指差すが、中央の首だけが層の境界を見つめている → 霜肌が光を受けるたびに石畳と足場の両方の反射を同時に映す → 層の境界線に立ち、角の冠が境界の光を屈折させて見えない空間を照らす → 誰もいない境界空間でヒドラの首が一斉に同じ方向を向き、角の冠だけが光を発する\n冒頭: 0-3秒：石畳の白線を踏むヒドラの霜肌の足、その影が前後左右の四方向に同時に伸びている\n問い: 角の冠を持つ首（境界を向く中央の首）が光を当てようとしている対象の正体\n場面: 電柱と反重力石柱が隣り合う路地の交差点、看板が互いに逆方向を示している, 空中に水平に走る光の帯、帯の上では雨粒が上昇し帯の下では雨粒が落下している, 石畳に白線と路面標識が描かれた地面層、空中足場の影が石畳に落ちている, 建物の壁面を垂直に流れる魔力水路、空中層では天井を這うように走っている, 地面から浮いた空中足場、石畳と同じ白線と路面標識が描かれ住民が歩いている\nカメラ: intro固定低位置→verse手持ち近接追跡→chorus俯瞰スライド→bridge極接写固定→outro手持ち引き\nカット哲学: verse部はmatch_cutで身体の部位と建築物の形状を接続し、chorus部はsmash_cutで層の境界を衝突させ、bridgeはjump_cutで複数の首の視線を切り飛ばし、outroはinsert_cutで影の完成を静かに差し込む",
+            "issues": []
+          },
+          {
+            "persona_name": "ゆうと",
+            "persona_id": "persona-6fd7d48b",
+            "summary": "企画: キャラクタードキュメント型MV。多頭体の行動を第三者視点で追跡し、視聴者が目撃者として儀式に巻き込まれる参与構造\n展開: 霜肌の多頭体が石畳の路地裏で静止し、重力層の境界線を仰ぐ → 複数の首がそれぞれ異なる道標を向き、中央の冠頭だけが上層を指す → 多頭体が重力層の裂け目を経由して上層へ侵入し、秘密の空間を発見する → 空中足場の奥で光帯に照らされ、全首が一斉に冠を仰ぐ儀式的な姿が露わになる → 霜肌が光を受けて微かに溶け、石畳層へ戻る多頭体の背に見えない祝砲が鳴る\n冒頭: 冒頭3秒、石畳のローアングル固定ショット。霜で覆われた複数の脚が画角下部に現れ、中央の首だけが画角外上方を向いている角の冠の先端が見切れる\n問い: 中央の冠頭が向く上層には何があるのか、他の首はなぜ従っていないのかという二重の未解決疑問を序盤から提示し続ける\n場面: 電柱と反重力石柱が同一の路地に並び、それぞれ逆方向に看板が伸びる三叉の袋小路, 光の帯が空中を水平に走り、その上下で雨粒が逆方向に落下する透明な境界膜, 建物外壁を垂直に流れる魔力水路。水が壁を這い上がり、空中層では天井を逆流する, 重力層が局所的に崩壊した隙間。石畳片と空中足場の破片が無重力で浮遊する暗渠, 複数の足場が不規則に組み上がった広場。石畳層からは見えない高さに位置する秘密の平場\nカメラ: 石畳層では固定ローアングル中心、重力層越境後は手持ちに切替、空中層では俯瞰ドローンを導入し、最終的に仰角固定に収束する\nカット哲学: 感情転換点でのみsmash_cutとmatch_cutを使用し、歌詞の空白期間は長回しで緊張を維持する。ビート同期のjump_cutは空中層への侵入成功後に限定する",
+            "issues": []
+          },
+          {
+            "persona_name": "しおり",
+            "persona_id": "persona-0824f395",
+            "summary": "企画: 一人称追跡から神視点への切り替えで革命の孤独と達成を対比する短編MV\n展開: 霜に覆われた石畳の路地でキャラが静止し、足元の層境界線を見下ろす → 道標の貼られた電柱と石柱の間をキャラが通り過ぎ、誰にも気づかれない → 足場と石畳を行き来しながらキャラの動きが加速し、道標が次々と剥がれ落ちる → 層間天井の直下でキャラが立ち止まり、冠が発光し霜肌に亀裂が走る → 逆重力広場でキャラが独り、誰も見ていない中で冠を掲げ静かに佇む\n冒頭: 霜に覆われた扁平頭の冠が画面全面を埋め尽くし、ひとつの目が開く瞬間\n問い: 剥がされ続ける道標——最後の1枚が残る場所はどこか\n場面: 霜に覆われた石畳の細い路地, 地上層と空中層の境界を走る光の帯状領域, 最上層に連なる反重力石柱の足場群, 建物外壁を流れる水路が廊下状に続く通路, 石畳が天地逆転して浮遊する開けた広場\nカメラ: intro低置き固定→verse手持ち不安定→chorus流動的移動→bridge圧迫固定→verse3解放的広角\nカット哲学: verse系はhard_cutで拍に合わせ、bridge直前はsmash_cutで衝撃を与え、outroはabstract_cutで余韻を作る",
+            "issues": []
+          }
+        ],
+        "vote": {
+          "winner_key": "C",
+          "tally": {
+            "A": 8,
+            "B": 4,
+            "C": 8
+          },
+          "like_tally": {
+            "A": 4,
+            "B": 4,
+            "C": 2
+          },
+          "dislike_tally": {
+            "A": 4,
+            "B": 0,
+            "C": 6
+          },
+          "votes": [
+            {
+              "voter": "Alex Reyes",
+              "like": "B",
+              "like_reason": "目撃者として儀式に巻き込まれる参与構造がゲームっぽくてワクワクする。上層に何があるのかって謎が気になって最後まで見たくなる。",
+              "dislike": "A",
+              "dislike_reason": "「境界空白帯の観察構造」とか難しすぎてついていけなさそう。何が起きてるか分からないまま終わりそう。"
+            },
+            {
+              "voter": "さやか",
+              "like": "C",
+              "like_reason": "一人称から神視点への切り替えって映画みたいで分かりやすいし、孤独な達成感っていうテーマが刺さる。最後に誰も見ていない中で冠を掲げる場面が好き。",
+              "dislike": "A",
+              "dislike_reason": "「不可視の革命」「観察構造」って概念が抽象的すぎて映像として何が見えるのか想像しにくい。途中で集中力が切れそう。"
+            },
+            {
+              "voter": "李俊豪",
+              "like": "B",
+              "like_reason": "多頭体が層を越えて秘密空間を発見するという動きがはっきりしていて追いやすい。忙しい日々の中でも気軽に見られそう。",
+              "dislike": "C",
+              "dislike_reason": "冒頭の「目が開く瞬間」が唐突でとっつきにくい。疲れているときに見ると意味がよく分からないまま終わりそう。"
+            },
+            {
+              "voter": "Rodrigo Bautista Serrano",
+              "like": "A",
+              "like_reason": "境界と空白、見えない空間を照らすという詩的な構造が好ましい。港で積荷の行き来を見てきた者として、層をまたぐ「目撃者」の視点には共感を覚える。",
+              "dislike": "C",
+              "dislike_reason": "一人称追跡から神視点への切り替えは手法として目新しくない。道標が剥がれる場面も、何を語りたいのか今ひとつ掴みきれない。"
+            },
+            {
+              "voter": "Rashid ibn Khalil",
+              "like": "A",
+              "like_reason": "影が四方に伸びる冒頭の映像が力強い。角の冠が照らそうとする「対象の正体」という問いは、交易路の謎めいた商品を追うときの感覚に似ていて興が乗る。",
+              "dislike": "C",
+              "dislike_reason": "道標が剥がれ落ちる展開は独り善がりに映る。誰にも見られずに冠を掲げるという結末は、労苦が報われない虚しさを感じさせて好きになれない。"
+            },
+            {
+              "voter": "みずた りこ",
+              "like": "B",
+              "like_reason": "ローアングルの足元から始まるシーンや、目撃者として追う視点が映画みたいで引き込まれる。儀式のくだりも怖いけど続きが気になる。",
+              "dislike": "A",
+              "dislike_reason": "境界とか不可視の革命とか抽象的すぎて何が起きてるのか分からなくなりそう。見てて疲れる。"
+            },
+            {
+              "voter": "かわい ゆうき",
+              "like": "C",
+              "like_reason": "冠が画面を埋めて目が開くファーストショットが強い。道標が剥がれ落ちる流れも植物の枯れと再生みたいで個人的に刺さる。",
+              "dislike": "A",
+              "dislike_reason": "カット哲学の説明が多すぎて、実際に見たときに理屈っぽくなりそう。自然に楽しめる気がしない。"
+            },
+            {
+              "voter": "Amara van der Berg",
+              "like": "B",
+              "like_reason": "キャラクターの行動を追いながら空間を発見していく構造が分かりやすく、感情移入しやすい。多頭体という異形の存在を丁寧に見せてくれる点も好き。",
+              "dislike": "C",
+              "dislike_reason": "一人称から神視点への切り替えは面白いが、『誰も見ていない中で達成』というエンディングが孤独すぎて後味が暗い。疲れた日には見たくない。"
+            },
+            {
+              "voter": "Henrik Vandenberg",
+              "like": "A",
+              "like_reason": "境界空間という概念は哲学的で興味深い。影が四方向に伸びる冒頭は詩的で、年を取ってから好きになったアート映像に近い雰囲気がある。",
+              "dislike": "C",
+              "dislike_reason": "冠が画面を埋め尽くすオープニングは生理的に少し苦手。展開が速すぎて目が追いつかない気がする。"
+            },
+            {
+              "voter": "Абрам Петрович Ганнибал",
+              "like": "A",
+              "like_reason": "層を隔てた空間構造と不可視の権力関係の描写が、要塞設計や軍事地図の論理に似ており知的好奇心をそそる。光の屈折で見えない空間を照らす意匠は幾何学的に美しい。",
+              "dislike": "C",
+              "dislike_reason": "一人で冠を掲げる結末は革命の文脈として軽薄に映る。孤独な達成を讃えるより、構造そのものへの洞察が欲しかった。"
+            },
+            {
+              "voter": "ゴジ",
+              "like": "A",
+              "like_reason": "層と境界という視覚的な仕掛けがカット哲学まで一貫しており、match_cut/smash_cutの使い分けで映像的驚きが続く設計になっている",
+              "dislike": "C",
+              "dislike_reason": "一人称追跡→神視点という構造は分かりやすいが、「剥がれ落ちる道標」「独りで冠を掲げる」という展開が孤独の説明に終始し、嫌いログにある『何も起こらなさそう』『映像的フックが弱い』という懸念を払拭できていない"
+            }
+          ],
+          "analysis": "[batch 1] BとAが好まれる傾向が見られた。Bは「謎の提示と解決」という明快な動線が幅広い層に支持され、Aは詩的・抽象的な世界観を好む年長・歴史的バックグラウンドの投票者に評価された。Cは孤独な達成感というテーマ自体には共感を集めたものの、冒頭の唐突さや手法の既視感から「見たくない」票も受け、評価が割れた。\n[batch 2] BとAが支持を集め、Cは冒頭インパクトは評価されつつも結末の孤独さや展開の速さで敬遠された。Bは『目撃者として追う』構造が多様なペルソナに受け入れられやすく最多like票を獲得。Aは抽象度の高さで若い層や日常的な視聴者から敬遠される一方、知識人・高齢者層には哲学的な深みとして響いた。dislike票はAに集中しており、難解すぎる設計が一般視聴者の離脱リスクを高めていることを示す。",
+          "is_tiebreak": true,
+          "tiebreak_reason": null,
+          "goji_vote": {
+            "voter": "ゴジ",
+            "like": "A",
+            "like_reason": "層と境界という視覚的な仕掛けがカット哲学まで一貫しており、match_cut/smash_cutの使い分けで映像的驚きが続く設計になっている",
+            "dislike": "C",
+            "dislike_reason": "一人称追跡→神視点という構造は分かりやすいが、「剥がれ落ちる道標」「独りで冠を掲げる」という展開が孤独の説明に終始し、嫌いログにある『何も起こらなさそう』『映像的フックが弱い』という懸念を払拭できていない"
+          }
+        }
+      }
+    }
+  },
+  "creative_personas": [
+    {
+      "id": "persona-212879db",
+      "name": "Soraya Ngundy-Macintosh",
+      "gender": "Xジェンダー",
+      "birthdate": "2036-12-06",
+      "age": 77,
+      "origin_city": "パース",
+      "ethnic_background": "ミックス（複合的ルーツ）",
+      "life_history": [
+        {
+          "year": 2042,
+          "event": "パース郊外のノースブリッジ地区で育つ。父方はコンゴ系オーストラリア人、母方はスコットランド系とヌンガー先住民の混血で、幼少期から大家族の集まりが頻繁にあった。"
+        },
+        {
+          "year": 2055,
+          "event": "パース市内のカーティン総合学校に進学し、学年委員に選出される。クラスメート60名以上の誕生日を記憶していたと教師記録に残っている。"
+        },
+        {
+          "year": 2061,
+          "event": "マードック大学の公衆衛生学部に入学。寮の自治会長を2年連続で務め、異なる学部の学生間の交流イベントを月次で企画・運営した。"
+        },
+        {
+          "year": 2067,
+          "event": "西オーストラリア州保健省の地域医療調整官として採用され、農村部と都市部をつなぐ医療アクセス改善プログラムの現場担当者となった。"
+        },
+        {
+          "year": 2074,
+          "event": "パートナーのDelmar Osei-Wusuと正式にパートナーシップを登録。両家族・友人ら200名近くが集まる形式で祝賀会が開催された。"
+        },
+        {
+          "year": 2083,
+          "event": "インド洋島嶼諸国との地域保健協力プログラムの豪州代表調整官に任命され、モーリシャス・コモロ・マダガスカルを年数回往来する勤務体制に移行した。"
+        },
+        {
+          "year": 2097,
+          "event": "定年退職後、パース北部のジュンダルップに移住。地域の多文化交流センターの運営委員会に加わった。"
+        },
+        {
+          "year": 2109,
+          "event": "パートナーのDelmarが急性心不全で死去。葬儀には6か国から330名以上が参列した。"
+        }
+      ],
+      "current_situation": "2113年現在、ジュンダルップの集合住宅に単身で居住している。週3日は多文化交流センターに出向き、新移民向けの行政手続き案内を無報酬で担当している。近隣住民との夕食会を月2回自室で開いており、常時10〜15名が参加する。膝関節の人工置換手術を2111年に受けており、長距離移動は控えているが、市内交通は自力で利用している。",
+      "external_perception": {
+        "first_impression": "名前をすぐに覚えようとする姿勢が目立ち、会話の主導権を自然に持つように見える。",
+        "close_friends_view": "連絡を絶やさず、相手の近況を具体的に把握している。頼み事を断ることがほとんどない。",
+        "misunderstandings": "常に元気で悩みがないと思われることが多いが、実際には体調管理に相当の努力を要している。"
+      },
+      "stance_on_past": "あまり振り返らず前を向いている"
+    },
+    {
+      "id": "persona-400d5ebd",
+      "name": "Lina Tan Wei Ling",
+      "gender": "女性",
+      "birthdate": "1993-06-16",
+      "origin_city": "シンガポール",
+      "ethnic_background": "ミックス（複合的ルーツ）",
+      "life_history": [
+        {
+          "year": 1993,
+          "event": "シンガポールのタンジョンパガー地区で、中国系の父とマレー系の母の間に生まれた。"
+        },
+        {
+          "year": 2005,
+          "event": "父の転職に伴い家族でジョホールバルに転居。毎日国境を越えてシンガポールの学校に通学した。"
+        },
+        {
+          "year": 2011,
+          "event": "シンガポールのポリテクニックに進学。ビジネス・ロジスティクスを専攻した。"
+        },
+        {
+          "year": 2015,
+          "event": "港湾物流会社に就職。文書管理とデータ入力を担当した。"
+        },
+        {
+          "year": 2018,
+          "event": "母が病気で倒れ、父と交代で看病するため半年間休職した。"
+        },
+        {
+          "year": 2020,
+          "event": "パンデミックで勤務先が人員削減を実施。リモートワーク体制に移行し、カスタマーサポート部門に異動した。"
+        },
+        {
+          "year": 2022,
+          "event": "会社を退職し、フリーランスの翻訳業務（英語・マレー語・中国語）を始めた。"
+        }
+      ],
+      "current_situation": "現在はシンガポール郊外のHDB（公営住宅）で一人暮らしをしている。フリーランスで企業向けの多言語翻訳業務を受注しており、月によって収入が変動する。週に3日ほど近所のカフェで作業をし、残りは自宅で仕事をする。母は回復したが父の仕事が不安定なため、時折実家に仕送りをしている。",
+      "external_perception": {
+        "first_impression": "物静かで控えめ。会話では相手の話をよく聞く姿勢を見せる。",
+        "close_friends_view": "真面目で責任感が強い。頼まれると断れないタイプで、自分のことは後回しにしがち。",
+        "misunderstandings": "無表情に見えることが多いため、冷たい人だと思われることがある。実際には単に疲れているだけのことが多い。"
+      },
+      "proposal_history": [
+        {
+          "session": "lookatme_v2",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: 港湾作業員の男性。彼の手は荷役用のロープで擦り切れている / 場所: ジョホールバルとシンガポールを繋ぐコーズウェイ（堤防道路）。朝5時の薄暗い中、渋滞している車列",
+          "rank": 2,
+          "tally": 10,
+          "won": true
+        }
+      ],
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    },
+    {
+      "id": "persona-6cb92cbf",
+      "name": "きたがわ ひろき",
+      "gender": "男性",
+      "birthdate": "1994-01-26",
+      "life_history": [
+        {
+          "year": 1994,
+          "event": "両親の仕事の都合でベルギーのブリュッセルで生まれる。父は商社勤務、母は現地の日本人学校で事務職。"
+        },
+        {
+          "year": 2000,
+          "event": "6歳で日本に帰国。横浜市の公立小学校に編入。給食のシステムや運動会の練習に戸惑う日々が続く。"
+        },
+        {
+          "year": 2006,
+          "event": "中学入学後、図書委員会に所属。週に3回は図書室で過ごし、百科事典を端から読む習慣がつく。"
+        },
+        {
+          "year": 2012,
+          "event": "高校3年の夏、父の転勤で家族が名古屋に引っ越すが、本人は大学受験のため横浜の親戚宅に下宿。"
+        },
+        {
+          "year": 2013,
+          "event": "私立大学の理学部生物学科に進学。研究室に入り浸り、キノコの分類研究に没頭する。"
+        },
+        {
+          "year": 2017,
+          "event": "大学卒業後、製薬会社の品質管理部門に就職。検査データの分析と報告書作成が主な業務となる。"
+        },
+        {
+          "year": 2020,
+          "event": "コロナ禍で完全在宅勤務となる。自宅のベランダで多肉植物の栽培を始め、300株以上に増やす。"
+        },
+        {
+          "year": 2023,
+          "event": "会社の配置転換で倉庫管理システムの運用担当となる。データベース操作を独学で習得し、業務効率化ツールを自作。"
+        }
+      ],
+      "current_situation": "現在は横浜市内の1DKアパートで一人暮らし。製薬会社の物流部門で倉庫管理システムの運用を担当している。週3日はリモート勤務。ベランダには多肉植物の棚が3段あり、週末は植え替えや交配記録の更新に時間を費やす。月に一度、大学時代の研究室OB会にオンラインで参加している。",
+      "external_perception": {
+        "first_impression": "物静かで話しかけづらい印象。目を合わせる時間が短く、返事が簡潔すぎるため冷たく見られることがある。",
+        "close_friends_view": "一度信頼関係ができると、専門知識を惜しみなく共有してくれる人。質問には必ず根拠を添えて答える。約束を忘れたことがない。",
+        "misunderstandings": "無表情で黙って作業しているため「機嫌が悪い」「興味がない」と誤解されやすい。実際は集中しているだけで、話しかければ丁寧に応答する。"
+      },
+      "proposal_history": [
+        {
+          "session": "nobody_test_v6",
+          "phase": "Phase 1",
+          "my_proposal_summary": "認識されることで存在を獲得する、観察者依存の生命体が宿る標本室",
+          "rank": 3,
+          "tally": 3,
+          "won": false
+        },
+        {
+          "session": "nobody_test_v6",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 3,
+          "won": true
+        },
+        {
+          "session": "goji_fix_verification",
+          "phase": "Phase 1",
+          "my_proposal_summary": "観察されることで初めて存在を獲得する、依存的な生命のリズム",
+          "rank": 3,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "goji_fix_verification",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 7,
+          "won": false
+        }
+      ],
+      "stance_on_past": "笑い話にできるようになった"
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-400d5ebd",
+    "name": "Lina Tan Wei Ling",
+    "gender": "女性",
+    "birthdate": "1993-06-16",
+    "origin_city": "シンガポール",
+    "ethnic_background": "ミックス（複合的ルーツ）",
+    "life_history": [
+      {
+        "year": 1993,
+        "event": "シンガポールのタンジョンパガー地区で、中国系の父とマレー系の母の間に生まれた。"
+      },
+      {
+        "year": 2005,
+        "event": "父の転職に伴い家族でジョホールバルに転居。毎日国境を越えてシンガポールの学校に通学した。"
+      },
+      {
+        "year": 2011,
+        "event": "シンガポールのポリテクニックに進学。ビジネス・ロジスティクスを専攻した。"
+      },
+      {
+        "year": 2015,
+        "event": "港湾物流会社に就職。文書管理とデータ入力を担当した。"
+      },
+      {
+        "year": 2018,
+        "event": "母が病気で倒れ、父と交代で看病するため半年間休職した。"
+      },
+      {
+        "year": 2020,
+        "event": "パンデミックで勤務先が人員削減を実施。リモートワーク体制に移行し、カスタマーサポート部門に異動した。"
+      },
+      {
+        "year": 2022,
+        "event": "会社を退職し、フリーランスの翻訳業務（英語・マレー語・中国語）を始めた。"
+      }
+    ],
+    "current_situation": "現在はシンガポール郊外のHDB（公営住宅）で一人暮らしをしている。フリーランスで企業向けの多言語翻訳業務を受注しており、月によって収入が変動する。週に3日ほど近所のカフェで作業をし、残りは自宅で仕事をする。母は回復したが父の仕事が不安定なため、時折実家に仕送りをしている。",
+    "external_perception": {
+      "first_impression": "物静かで控えめ。会話では相手の話をよく聞く姿勢を見せる。",
+      "close_friends_view": "真面目で責任感が強い。頼まれると断れないタイプで、自分のことは後回しにしがち。",
+      "misunderstandings": "無表情に見えることが多いため、冷たい人だと思われることがある。実際には単に疲れているだけのことが多い。"
+    },
+    "proposal_history": [
+      {
+        "session": "lookatme_v2",
+        "phase": "Phase 2a",
+        "my_proposal_summary": "誰: 港湾作業員の男性。彼の手は荷役用のロープで擦り切れている / 場所: ジョホールバルとシンガポールを繋ぐコーズウェイ（堤防道路）。朝5時の薄暗い中、渋滞している車列",
+        "rank": 2,
+        "tally": 10,
+        "won": true
+      }
+    ],
+    "stance_on_past": "他人事のように距離を置いて見ている"
+  },
+  "current_phase": "phase4",
+  "qc_retry_count": 0,
+  "errors": {},
+  "rough_blueprint": {
+    "version": 3,
+    "duration_sec": 213.599979,
+    "core": {
+      "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+      "world": "重力が「層」で区切られた都市では、石畳の路面と空中の足場が同じ日常として並存し、人々は電柱と反重力石柱の両方に道標を貼る。",
+      "character": "扁平頭と霜肌を持つヒドラ型の冠持ち（角の冠）",
+      "integration": "層境界を越える者だけが革命を目撃し、冠は見えない勝利の証として霜肌に刻まれる",
+      "narrative_spine": {
+        "setup": {
+          "action": "霜に覆われた石畳の路地でキャラが静止し、足元の層境界線を見下ろす",
+          "viewer_hook": "この存在は何者で、なぜ動かないのか"
+        },
+        "question": {
+          "action": "道標の貼られた電柱と石柱の間をキャラが通り過ぎ、誰にも気づかれない",
+          "viewer_hook": "周囲に気づかれないまま、何を始めようとしているのか"
+        },
+        "escalation": {
+          "action": "足場と石畳を行き来しながらキャラの動きが加速し、道標が次々と剥がれ落ちる",
+          "viewer_hook": "秩序が壊れていく中でキャラは止まるのか進むのか"
+        },
+        "reveal": {
+          "action": "層間天井の直下でキャラが立ち止まり、冠が発光し霜肌に亀裂が走る",
+          "viewer_hook": "破壊か変容か、この瞬間に何が決まるのか"
+        },
+        "payoff": {
+          "action": "逆重力広場でキャラが独り、誰も見ていない中で冠を掲げ静かに佇む",
+          "viewer_hook": "誰にも見えない勝利を目撃した視聴者だけが意味を知る"
+        }
+      }
+    },
+    "emotion_read": {
+      "beats": [
+        {
+          "label": "封印期",
+          "inner_emotion": "抑圧された静けさ、外側に漏れない抵抗感",
+          "visible_indicator": "霜に覆われた冠、動かない複数の頭部",
+          "pressure_source": "規則正しく並ぶ道標の列",
+          "viewer_impact": "不穏な静寂に引き込まれる緊張感"
+        },
+        {
+          "label": "亀裂期",
+          "inner_emotion": "内部からの衝動、制御と逸脱の綱引き",
+          "visible_indicator": "霜肌に走る微細なひび、冠が僅かに傾く",
+          "pressure_source": "貼り替えられる道標、変化する層境界の光",
+          "viewer_impact": "何かが起きる予感、目が離せない焦燥"
+        },
+        {
+          "label": "葛藤期",
+          "inner_emotion": "激しい内的矛盾、複数の自己が衝突する",
+          "visible_indicator": "ヒドラの複数頭部が異なる方向を向く",
+          "pressure_source": "反重力石柱と電柱の間で交差する光帯",
+          "viewer_impact": "引き裂かれる緊張と共感的な苦しさ"
+        },
+        {
+          "label": "決裂期",
+          "inner_emotion": "臨界点の爆発、製造された自己の崩壊",
+          "visible_indicator": "霜が砕けて飛散し冠が一瞬外れかける",
+          "pressure_source": "層間天井からの圧力光、収束する影",
+          "viewer_impact": "カタルシス直前の頂点、息を呑む瞬間"
+        },
+        {
+          "label": "解放期",
+          "inner_emotion": "静かな確信、見えない勝利の達成感",
+          "visible_indicator": "霜肌が透明に輝き冠が安定して輝く",
+          "pressure_source": "消えた道標の跡、空になった電柱",
+          "viewer_impact": "静かな高揚感と深い余韻"
+        }
+      ]
+    },
+    "narrative_design": {
+      "goal": "逆重力広場でキャラが独りで冠を掲げる——誰も見ていない空間に革命の痕跡が刻まれた状態",
+      "progress_meter": {
+        "stages": [
+          {
+            "stage_id": "stage_1",
+            "state_before": "キャラが石畳に静止し冠は霜で完全に覆われている",
+            "state_after": "キャラが層境界線を踏み越え最初の道標が揺れる"
+          },
+          {
+            "stage_id": "stage_2",
+            "state_before": "道標は電柱に全て貼られたまま秩序が保たれている",
+            "state_after": "足場と石畳を往復するたびに道標が1枚ずつ剥がれ落ちる"
+          },
+          {
+            "stage_id": "stage_3",
+            "state_before": "複数の頭部が異なる方向を向き霜肌に亀裂が広がっている",
+            "state_after": "層間天井の直下で全頭部が同一方向を向き冠が発光する"
+          },
+          {
+            "stage_id": "stage_4",
+            "state_before": "逆重力広場は空で道標も光帯も存在しない",
+            "state_after": "キャラが冠を掲げ霜肌が透明に輝く——革命の痕跡のみが残る"
+          }
+        ]
+      }
+    },
+    "setpieces": [
+      {
+        "id": "set_1",
+        "space_descriptor": "霜に覆われた石畳の細い路地",
+        "function_for_story": "キャラの出発点——抑圧された日常の外皮",
+        "anchor_props": [
+          "等間隔に並ぶ霜柱",
+          "道標の剥がれた跡が残る古い電柱",
+          "各セクション最低1枚の道標が剥がれる映像"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "低角度ローリングショットで石畳の霜と層境界線を強調し閉塞感を演出する"
+      },
+      {
+        "id": "set_2",
+        "space_descriptor": "地上層と空中層の境界を走る光の帯状領域",
+        "function_for_story": "越えるべき閾値——規制と自由の分界線",
+        "anchor_props": [
+          "電柱と石柱の間に張られた光の索",
+          "層番号を示す発光プレート",
+          "霜肌の亀裂が段階的に広がる変化"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "光帯を背光にしたシルエット構図で越境の瞬間を静止フレームに近いスローで切り取る"
+      },
+      {
+        "id": "set_3",
+        "space_descriptor": "最上層に連なる反重力石柱の足場群",
+        "function_for_story": "加速の舞台——秩序崩壊の可視化空間",
+        "anchor_props": [
+          "石柱頂部の反重力指標石",
+          "風化した道標の束",
+          "誰も見ていない空間でのキャラの独立した行為"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "ドローン視点から俯瞰と急降下を交互に用い高度感と疾走感を対比させる"
+      },
+      {
+        "id": "set_4",
+        "space_descriptor": "建物外壁を流れる水路が廊下状に続く通路",
+        "function_for_story": "内的葛藤の鏡——水面反射でヒドラの分裂を映す",
+        "anchor_props": [
+          "壁面に貼られた水没した道標",
+          "石柱の側面を伝う反重力水流",
+          "剥がれかけた道標"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "水面リフレクションと実像を同フレームに収め複数頭部の方向性の乖離を視覚化する"
+      },
+      {
+        "id": "set_5",
+        "space_descriptor": "石畳が天地逆転して浮遊する開けた広場",
+        "function_for_story": "解放の舞台——誰も見ない革命の達成地点",
+        "anchor_props": [
+          "逆さに立つ電柱",
+          "宙吊りの空白の道標枠",
+          "霜肌の亀裂パターン"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "広角ワンショットで空間の広さと孤独を強調しキャラの小さな動作を際立たせる"
+      },
+      {
+        "id": "set_6",
+        "space_descriptor": "道標が密集して林立する石柱群の迷路",
+        "function_for_story": "規範の可視化——型にはまることを強いる構造の具現",
+        "anchor_props": [
+          "互いに矛盾する方向を指す道標",
+          "古い石柱に刻まれた層番号",
+          "反重力石柱の光線"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "密集した道標の間を手持ちカメラで縫うように撮り圧迫と迷走感を同時に与える"
+      },
+      {
+        "id": "set_7",
+        "space_descriptor": "地上層と上層の間に挟まれた低い天井空間",
+        "function_for_story": "葛藤の頂点——物理的圧力がキャラの内的崩壊と同期する場",
+        "anchor_props": [
+          "天井面に張り付いた逆さの道標",
+          "収束する圧力光の筋",
+          "扁平頭と霜肌を持つヒドラ型の冠持ち（角の冠）"
+        ],
+        "entry_condition": null,
+        "exit_state": null,
+        "visual_approach": "天井スレスレのタイトフレームでキャラを圧迫し光の収束とともにカットを加速させる"
+      }
+    ],
+    "music_read": {
+      "tempo_profile": "BPM133の均等な4つ打ち、拍が地面を踏む足音のように明確に刻まれる",
+      "energy_profile": "intro低熱量から始まりchorus1で急上昇、bridge付近で緊張の頂点に達しverse3で解放、outroで静かに減衰",
+      "vocal_presence": "前半は囁くように抑制、chorusで突き抜け、bridgeで刻むように断言する",
+      "lyric_focus": "透明な型への抵抗と製造された自己の破棄、孤独な革命の継続",
+      "dynamic_shifts": "bridge後半157秒でアルージャルピークに達し、verse3への転換で質感が解放的に変わる"
+    },
+    "project_concept": {
+      "format": "一人称追跡から神視点への切り替えで革命の孤独と達成を対比する短編MV",
+      "driver": "キャラが各セクションで1枚ずつ道標を剥がし続けるという単純な反復行為の蓄積",
+      "presentation": "暗示と省略を多用し視聴者に革命の意味を自ら完成させる余白を残す",
+      "progression": "封印→亀裂→葛藤→決裂→解放の5段階を8セクションに対応させた感情弧主導の展開",
+      "audience_contract": "画面に誰も見ていない革命を、視聴者だけが目撃者として最後まで見届ける"
+    },
+    "shooting_grammar": {
+      "camera_progression": "intro低置き固定→verse手持ち不安定→chorus流動的移動→bridge圧迫固定→verse3解放的広角",
+      "motion_progression": "intro静止→verse歩行→chorus走行→bridge停止→verse3浮遊感のある軽い動き",
+      "lighting_progression": "intro青白い冷光→chorus対比の強い光帯→bridge収束する圧力光→outro拡散する柔らかい輝き",
+      "cut_philosophy": "verse系はhard_cutで拍に合わせ、bridge直前はsmash_cutで衝撃を与え、outroはabstract_cutで余韻を作る",
+      "framing_philosophy": "establishing→focus→impact→releaseのサイクルを各セクション単位で回し、bridgeのimpactを最大化する",
+      "key_visual_moments": [
+        {
+          "timing_hint": "intro / 0-10秒",
+          "technique": "低角度固定フレーム、霜路地の石畳全面充填",
+          "intent": "静寂への没入と不穏な期待感の生成"
+        },
+        {
+          "timing_hint": "chorus1 / 48-80秒",
+          "technique": "match_cut、光帯越境の瞬間にカット連結",
+          "intent": "越境の解放感と高揚感の瞬間的伝達"
+        },
+        {
+          "timing_hint": "bridge / 143-160秒",
+          "technique": "smash_cut + 天井スレスレタイトフレーム、冠発光インサート",
+          "intent": "葛藤の頂点で視聴者の息を止める"
+        },
+        {
+          "timing_hint": "verse3 / 160-192秒",
+          "technique": "広角ワンショット、逆重力広場の全景",
+          "intent": "孤独な解放の静けさと広大な余白で高揚感を完結させる"
+        }
+      ]
+    },
+    "visual_language": {
+      "motifs": [
+        "剥がれかけた道標",
+        "霜肌の亀裂パターン",
+        "反重力石柱の光線"
+      ],
+      "palette": "霜白・深夜青・層境界の橙光の三色軸、bridgeのみ緋色を単発で挿入",
+      "lighting_bias": "逆光と下からの冷光を基本とし、キャラ正面光は解放期のみ使用",
+      "camera_language": "手持ち近接フォローとドローン俯瞰の二極、急速ズームインは禁止",
+      "texture": "霜・石・発光する水の三質感を繰り返し、有機物と無機物の境界を曖昧にする",
+      "forbidden": [
+        "暖色ベースの照明全般",
+        "群衆や観客を示す人物の映り込み"
+      ]
+    },
+    "hook_design": {
+      "thumbstop": "霜に覆われた扁平頭の冠が画面全面を埋め尽くし、ひとつの目が開く瞬間",
+      "open_loop": "剥がされ続ける道標——最後の1枚が残る場所はどこか",
+      "payoff": "逆重力広場の空の道標枠の前でキャラが冠を掲げ、枠が空のまま輝く瞬間"
+    },
+    "rules": {
+      "must_include": [
+        "各セクション最低1枚の道標が剥がれる映像",
+        "霜肌の亀裂が段階的に広がる変化",
+        "誰も見ていない空間でのキャラの独立した行為"
+      ],
+      "must_avoid": [
+        "他者がキャラの行為に反応または承認するシーン",
+        "歌詞テキストの画面表示"
+      ],
+      "notes": "道標の剥離は革命の進捗計器として機能させ、視聴者が現在地を直感できるよう枚数を視覚的に管理する"
+    },
+    "mv_structure": {
+      "track_strategy": "concept_only",
+      "concept_track": {
+        "description": "キャラの革命行為の連鎖——道標剥離という単一行為を5つの感情フェーズで展開するナラティブトラック",
+        "spaces": [
+          "霜路地",
+          "光帯境界",
+          "空中足場頂",
+          "壁面水路廊"
+        ]
+      }
+    },
+    "synopsis": "層境界を越える者だけが革命を目撃し、冠は見えない勝利の証として霜肌に刻まれる。 目標は逆重力広場でキャラが独りで冠を掲げる——誰も見ていない空間に革命の痕跡が刻まれた状態。 霜に覆われた石畳の路地でキャラが静止し、足元の層境界線を見下ろす。 道標の貼られた電柱と石柱の間をキャラが通り過ぎ、誰にも気づかれない。 足場と石畳を行き来しながらキャラの動きが加速し、道標が次々と剥がれ落ちる。 層間天井の直下でキャラが立ち止まり、冠が発光し霜肌に亀裂が走る。 逆重力広場でキャラが独り、誰も見ていない中で冠を掲げ静かに佇む。",
+    "storyline": "霜に覆われた石畳の路地でキャラが静止し、足元の層境界線を見下ろす → 道標の貼られた電柱と石柱の間をキャラが通り過ぎ、誰にも気づかれない → 足場と石畳を行き来しながらキャラの動きが加速し、道標が次々と剥がれ落ちる → 層間天井の直下でキャラが立ち止まり、冠が発光し霜肌に亀裂が走る → 逆重力広場でキャラが独り、誰も見ていない中で冠を掲げ静かに佇む",
+    "timeline_summary": [
+      {
+        "section_id": "sec-001",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "summary": "霜に覆われた石畳の細い路地 / 等間隔に並ぶ霜柱 / キャラが層境界線を踏み越え最初の道標が揺れる"
+      },
+      {
+        "section_id": "sec-002",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "summary": "地上層と空中層の境界を走る光の帯状領域 / 電柱と石柱の間に張られた光の索 / キャラが層境界線を踏み越え最初の道標が揺れる"
+      },
+      {
+        "section_id": "sec-003",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "summary": "最上層に連なる反重力石柱の足場群 / 石柱頂部の反重力指標石 / 足場と石畳を往復するたびに道標が1枚ずつ剥がれ落ちる"
+      },
+      {
+        "section_id": "sec-004",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "summary": "建物外壁を流れる水路が廊下状に続く通路 / 壁面に貼られた水没した道標 / 足場と石畳を往復するたびに道標が1枚ずつ剥がれ落ちる"
+      },
+      {
+        "section_id": "sec-005",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "summary": "石畳が天地逆転して浮遊する開けた広場 / 逆さに立つ電柱 / 層間天井の直下で全頭部が同一方向を向き冠が発光する"
+      },
+      {
+        "section_id": "sec-006",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "summary": "道標が密集して林立する石柱群の迷路 / 互いに矛盾する方向を指す道標 / 層間天井の直下で全頭部が同一方向を向き冠が発光する"
+      },
+      {
+        "section_id": "sec-007",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "summary": "地上層と上層の間に挟まれた低い天井空間 / 天井面に張り付いた逆さの道標 / キャラが冠を掲げ霜肌が透明に輝く——革命の痕跡のみが残る"
+      },
+      {
+        "section_id": "sec-008",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "summary": "霜に覆われた石畳の細い路地 / 等間隔に並ぶ霜柱 / キャラが冠を掲げ霜肌が透明に輝く——革命の痕跡のみが残る"
+      }
+    ],
+    "section_outline": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "time_range_sec": [
+          0.0,
+          10.68
+        ],
+        "beat_word": "霜の封印",
+        "emotion_target": "霜で完全に覆われた冠を持つキャラが石畳に静止し、複数の頭部がすべて下を向いたまま微動だにしない",
+        "viewer_emotion": "不穏な緊張",
+        "retention_hook": "扁平頭の冠が画面を埋め尽くす中、ひとつの目だけがゆっくりと開く瞬間で視聴者を釘付けにする",
+        "variation_commitments": [
+          "小物:各セクション最低1枚の道標が剥がれる映像",
+          "霜柱が等間隔に並ぶ石畳を極低角度で捉え、フレーム内の奥行きが消えていく",
+          "冠の霜が画面手前から奥へ向かって微かに結晶化し、封印の強度が増す",
+          "層境界線が石畳に青白く浮かび上がり、キャラの足元だけを縁取る",
+          "電柱の古い剥がれ跡が固定フレーム内で静止したまま強調される"
+        ],
+        "visual_direction": "極低角度の固定フレームで石畳の霜と層境界線を画面いっぱいに充填し、動きを排除することで静寂の圧力を最大化する",
+        "framing_approach": "extreme_closeup から extreme_wide へ"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "time_range_sec": [
+          10.68,
+          48.5
+        ],
+        "beat_word": "境界を踏む",
+        "emotion_target": "霜肌に微細なひびが一本走り、冠が数ミリ傾いた状態でキャラが光の帯状領域に足を踏み入れる",
+        "viewer_emotion": "焦燥と予感",
+        "retention_hook": "電柱と石柱の間に張られた光の索が、キャラが通過した直後に一瞬だけ振動して消える",
+        "variation_commitments": [
+          "小物:霜肌の亀裂が段階的に広がる変化",
+          "電柱と反重力石柱の間に張られた光の索がキャラの通過で断ち切られ床に崩れ落ちる",
+          "霜肌の亀裂が肩から首筋へと一本伸び、前セクションから可視的に進行する",
+          "層境界の光帯が足元で揺れ、地面と空中で反対方向に輝度変化する",
+          "電柱の道標が1枚、キャラが脇を通り過ぎた直後に静かに剥がれ落ちる"
+        ],
+        "visual_direction": "手持ちカメラがキャラの背後を不安定に追随し、光帯の明暗差を逆光として使いながら越境の寸前感を持続させる",
+        "framing_approach": "medium_shot から medium_closeup へ"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "time_range_sec": [
+          48.5,
+          80.4
+        ],
+        "beat_word": "道標が剥がれる",
+        "emotion_target": "反重力石柱の足場と石畳を往復するたびに道標が1枚ずつ剥がれ落ち、キャラの動きが加速する",
+        "viewer_emotion": "高揚と解放",
+        "retention_hook": "剥がれ落ちた道標が逆重力で上方へ舞い上がり、どこへ向かうのかが見えないまま画面外に消える",
+        "variation_commitments": [
+          "石柱頂部の反重力指標石が道標の剥落に連動して輝度を増し、空間が明るくなる",
+          "キャラの走行速度が拍ごとに段階的に上がり、ドローン俯瞰ショットとの速度差が生まれる",
+          "match_cutで光帯越境の瞬間を連結し、複数の越境が同一動作として繋がって見える",
+          "足場から石畳への着地点ごとに霜が砕け、着地パターンが蓄積して道標なき道になる",
+          "風化した道標の束がひとかたまりで剥落し、石柱の素の表面が初めて露出する"
+        ],
+        "visual_direction": "ドローン俯瞰と急降下を交互に切り替え、足場群の高度感と疾走感を対比させながらmatch_cutで越境の連続性を強調する",
+        "framing_approach": "extreme_wide から close_up へ"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "time_range_sec": [
+          80.4,
+          112.1
+        ],
+        "beat_word": "水面の分裂",
+        "emotion_target": "建物壁面を垂直に流れる水路の水面に複数頭部が映り込み、それぞれが異なる方向を向いた実像と鏡像が同フレームに共存する",
+        "viewer_emotion": "共感的な苦しさ",
+        "retention_hook": "水没した道標が壁面の水路の中で浮き沈みを繰り返し、次に浮かび上がる時に文字が消えている",
+        "variation_commitments": [
+          "小物:剥がれかけた道標",
+          "壁面の魔力水路が通常の下向きと逆向き（天井這い）の流れに分岐し、水面が二重になる",
+          "霜肌の亀裂が前セクションより広がり、肩から胸部へと複数本に分岐する",
+          "水没した道標が1枚ずつ溶けて読めなくなり、残り枚数が水中に沈んでいく",
+          "複数頭部のひとつだけが水面の鏡像と目線を合わせ、他の頭部と乖離を起こす"
+        ],
+        "visual_direction": "手持ちカメラを水路面すれすれに固定し、水面リフレクションと実像を同フレームに収めることで複数頭部の方向性の乖離を視覚的に確定させる",
+        "framing_approach": "medium_closeup から close_up へ"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "time_range_sec": [
+          112.1,
+          143.3
+        ],
+        "beat_word": "逆転広場の孤独",
+        "emotion_target": "天地逆転した浮遊広場で全頭部が初めて同一方向を向き、冠が微かに発光し始めるがまだ霜が残っている",
+        "viewer_emotion": "期待と緊張",
+        "retention_hook": "宙吊りの空白の道標枠が画面に映るたびに1つずつ枠だけが増え、何が埋まるのかを予感させる",
+        "variation_commitments": [
+          "逆さに立つ電柱から道標が重力に逆らって上方（画面下）へ剥がれ落ち、chorus1とは逆方向の剥落を見せる",
+          "霜肌の亀裂が複数頭部の首元で合流し、冠の根元付近で一瞬発光する",
+          "広角ワンショットでキャラが広場中央に孤立した小さなシルエットとして映り、空間の広さが強調される",
+          "宙吊りの空白の道標枠が前景に複数映り込み、キャラを囲む空虚な構図を作る"
+        ],
+        "visual_direction": "広角固定ショットでキャラを広場中央に小さく配置し、逆さ電柱と空白の道標枠が前景に多重レイヤーとして重なる構図でchorus1の疾走と対比した静的な高揚を演出する",
+        "framing_approach": "extreme_wide から medium_shot へ"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "time_range_sec": [
+          143.3,
+          160.2
+        ],
+        "beat_word": "冠が燃える",
+        "emotion_target": "霜が砕けて四方に飛散し、冠が一瞬外れかけた直後に全頭部が収束して冠が強く発光する",
+        "viewer_emotion": "息を呑む頂点",
+        "retention_hook": "smash_cutで天井スレスレのタイトフレームに切り替わり、冠の発光が収束する圧力光と衝突する瞬間で視聴者の呼吸を止める",
+        "variation_commitments": [
+          "互いに矛盾する方向を指す道標が一斉に回転し、全て同一方向を向いた瞬間にキャラの冠が最大輝度に達する",
+          "霜肌の亀裂が胸部から全身に広がり、砕けた霜の破片が層境界の緋色の光を反射して飛散する",
+          "天井面に張り付いた逆さの道標が圧力光に照らされてすべて剥落し、天井が初めて素の状態になる",
+          "収束する圧力光の筋が複数本から1本に絞られ、冠の頂点に集束する瞬間をsmash_cutで切り取る",
+          "石柱に刻まれた古い層番号が発光し、今まで見えていなかった序数が初めて読める状態になる"
+        ],
+        "visual_direction": "天井スレスレのタイトフレームでsmash_cutを連射し、冠発光インサートと圧力光の収束を交互に切り替えることで物理的圧迫とカタルシス直前の緊張を頂点に達させる",
+        "framing_approach": "extreme_closeup で固定"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "time_range_sec": [
+          160.2,
+          192.24
+        ],
+        "beat_word": "霜肌が輝く",
+        "emotion_target": "低い天井空間から逆重力広場へ移行し、霜肌が透明に輝いた状態でキャラが冠を静かに掲げる",
+        "viewer_emotion": "静かな高揚",
+        "retention_hook": "消えた道標の跡だけが電柱に残り、その空白の輪郭が発光しながら道標の総枚数を逆算させる",
+        "variation_commitments": [
+          "小物:霜に覆われた石畳の細い路地",
+          "霜肌の亀裂が輝きに変換され、傷の跡が光の地図として全身に残る",
+          "空になった電柱が広角フレームに複数本映り込み、剥落の軌跡として沈黙の証拠になる",
+          "キャラの動きが走行から浮遊感のある軽い歩行に落ち、BPMと動作が意図的にずれ始める",
+          "冠の発光が周囲の霜柱に反射し、誰もいない路地に静かな光のネットワークが広がる"
+        ],
+        "visual_direction": "広角ワンショットを基軸にキャラの小さな動作を広大な空間の中に孤立させ、浮遊感のある緩やかな移動ショットでbridge直後の解放感と孤独の静けさを対比させる",
+        "framing_approach": "extreme_wide から medium_closeup へ"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "time_range_sec": [
+          192.24,
+          213.6
+        ],
+        "beat_word": "誰も見ていない",
+        "emotion_target": "霜に覆われた石畳の路地に戻り、霜肌が透明に輝いたまま冠を掲げたキャラが静止し、周囲には誰もいない",
+        "viewer_emotion": "深い余韻",
+        "retention_hook": "intro冒頭と同じ構図で路地が映るが、電柱に道標が一枚も残っておらず視聴者だけが変化の総量を知っている",
+        "variation_commitments": [
+          "小物:等間隔に並ぶ霜柱",
+          "霜柱が等間隔に並ぶ路地がintroと同構図で映るが、電柱の道標が全て消えた空白の跡だけが残る",
+          "霜肌の亀裂が輝く光の模様に変わり、革命の証跡として霜の傷跡が視覚的に固定される",
+          "abstract_cutで光帯の残像と石畳の霜が交互に溶け合い、どちらの層にいるか判別できない状態になる",
+          "冠の輝きがフェードアウトする最後の瞬間だけ、キャラがカメラ方向に視線を向ける"
+        ],
+        "visual_direction": "intro冒頭と同構図の低角度固定フレームに戻しながらabstract_cutで石畳と光帯を溶け合わせ、道標の消えた電柱を無音の証拠として残すことで視聴者だけが革命の目撃者になる余韻を作る",
+        "framing_approach": "medium_closeup から extreme_wide へ"
+      }
+    ]
+  },
+  "ir": {
+    "semantic": {
+      "theme": "誰にも見えないところで、今夜もこっそり革命を祝っている",
+      "source": "phase4_ir_structure_fallback"
+    },
+    "sequences": [
+      {
+        "id": "seq_01",
+        "time_descriptor": "封印",
+        "tags": []
+      },
+      {
+        "id": "seq_02",
+        "time_descriptor": "亀裂",
+        "tags": []
+      },
+      {
+        "id": "seq_03",
+        "time_descriptor": "葛藤",
+        "tags": []
+      },
+      {
+        "id": "seq_04",
+        "time_descriptor": "決裂",
+        "tags": []
+      },
+      {
+        "id": "seq_05",
+        "time_descriptor": "解放の5段階を8セクションに対応させた感情弧主…",
+        "tags": []
+      },
+      {
+        "id": "seq_06",
+        "time_descriptor": "霜に覆われた扁平頭の冠が画面全面を埋め尽くし",
+        "tags": []
+      }
+    ],
+    "scene_blocks": [
+      {
+        "id": "block_001",
+        "sequence_id": "seq_01",
+        "scene_id": "scene_1",
+        "target_duration_sec": 48.5,
+        "start_state": "キャラが石畳に静止し冠は霜で完全に覆われている",
+        "end_state": "キャラが層境界線を踏み越え最初の道標が揺れる",
+        "track_type": "concept",
+        "tags": [
+          "stage_1"
+        ]
+      },
+      {
+        "id": "block_002",
+        "sequence_id": "seq_02",
+        "scene_id": "scene_2",
+        "target_duration_sec": 31.8,
+        "start_state": "地上層と空中層の境界を走る光の帯状領域のキャラが石畳に静止し冠は霜で完全に覆われている#2",
+        "end_state": "キャラが層境界線を踏み越え最初の道標が揺れる",
+        "track_type": "concept",
+        "tags": [
+          "stage_1"
+        ]
+      },
+      {
+        "id": "block_003",
+        "sequence_id": "seq_03",
+        "scene_id": "scene_3",
+        "target_duration_sec": 31.8,
+        "start_state": "道標は電柱に全て貼られたまま秩序が保たれている",
+        "end_state": "足場と石畳を往復するたびに道標が1枚ずつ剥がれ落ちる",
+        "track_type": "concept",
+        "tags": [
+          "stage_2"
+        ]
+      },
+      {
+        "id": "block_004",
+        "sequence_id": "seq_04",
+        "scene_id": "scene_4",
+        "target_duration_sec": 48.1,
+        "start_state": "複数の頭部が異なる方向を向き霜肌に亀裂が広がっている",
+        "end_state": "層間天井の直下で全頭部が同一方向を向き冠が発光する",
+        "track_type": "concept",
+        "tags": [
+          "stage_3"
+        ]
+      },
+      {
+        "id": "block_005",
+        "sequence_id": "seq_05",
+        "scene_id": "scene_5",
+        "target_duration_sec": 26.7,
+        "start_state": "石畳が天地逆転して浮遊する開けた広場の複数の頭部が異なる方向を向き霜肌に亀裂が広がっている#2",
+        "end_state": "層間天井の直下で全頭部が同一方向を向き冠が発光する",
+        "track_type": "concept",
+        "tags": [
+          "stage_3"
+        ]
+      },
+      {
+        "id": "block_006",
+        "sequence_id": "seq_06",
+        "scene_id": "scene_6",
+        "target_duration_sec": 26.7,
+        "start_state": "逆重力広場は空で道標も光帯も存在しない",
+        "end_state": "キャラが冠を掲げ霜肌が透明に輝く——革命の痕跡のみが残る",
+        "track_type": "concept",
+        "tags": [
+          "stage_4"
+        ]
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene_1",
+        "label": "loc_1",
+        "space_descriptor": "霜に覆われた石畳の細い路地",
+        "openness": null,
+        "entities": [
+          "等間隔に並ぶ霜柱",
+          "道標の剥がれた跡が残る古い電柱",
+          "各セクション最低1枚の道標が剥がれる映像"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_2",
+        "label": "loc_2",
+        "space_descriptor": "地上層と空中層の境界を走る光の帯状領域",
+        "openness": null,
+        "entities": [
+          "電柱と石柱の間に張られた光の索",
+          "層番号を示す発光プレート",
+          "霜肌の亀裂が段階的に広がる変化"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_3",
+        "label": "loc_3",
+        "space_descriptor": "最上層に連なる反重力石柱の足場群",
+        "openness": null,
+        "entities": [
+          "石柱頂部の反重力指標石",
+          "風化した道標の束",
+          "誰も見ていない空間でのキャラの独立した行為"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_4",
+        "label": "loc_4",
+        "space_descriptor": "建物外壁を流れる水路が廊下状に続く通路",
+        "openness": null,
+        "entities": [
+          "壁面に貼られた水没した道標",
+          "石柱の側面を伝う反重力水流",
+          "剥がれかけた道標"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_5",
+        "label": "loc_5",
+        "space_descriptor": "石畳が天地逆転して浮遊する開けた広場",
+        "openness": null,
+        "entities": [
+          "逆さに立つ電柱",
+          "宙吊りの空白の道標枠",
+          "霜肌の亀裂パターン"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_6",
+        "label": "loc_6",
+        "space_descriptor": "道標が密集して林立する石柱群の迷路",
+        "openness": null,
+        "entities": [
+          "互いに矛盾する方向を指す道標",
+          "古い石柱に刻まれた層番号",
+          "反重力石柱の光線"
+        ],
+        "constraints": []
+      },
+      {
+        "id": "scene_7",
+        "label": "loc_7",
+        "space_descriptor": "地上層と上層の間に挟まれた低い天井空間",
+        "openness": null,
+        "entities": [
+          "天井面に張り付いた逆さの道標",
+          "収束する圧力光の筋",
+          "扁平頭と霜肌を持つヒドラ型の冠持ち（角の冠）"
+        ],
+        "constraints": []
+      }
+    ],
+    "shot_intents": [],
+    "timeline": []
+  }
+}

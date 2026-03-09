@@ -1,0 +1,5487 @@
+{
+  "session_id": "session-20260214-223537-5ddb",
+  "state_version": 5,
+  "created_at": "2026-02-14T13:35:37.450954Z",
+  "updated_at": "2026-02-14T13:45:18.979661Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260214-223537-5ddb",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.4875,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.37763157894736843,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.38026315789473686,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.3828947368421053,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6855263157894737,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6881578947368421,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6907894736842105,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.39342105263157895,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.3960526315789474,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.3986842105263158,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.7013157894736841,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.7039473684210525,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.706578947368421,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.20921052631578949,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.21184210526315791,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.7144736842105263,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.7171052631578947,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.7197368421052631,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.4723684210526316,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.525,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "core_concept": {
+    "theme": "誰も見ていない深夜、自分の葬式のリハーサルを一人で執り行う14歳",
+    "hook_scene": {
+      "focus": "14歳の少年、制服のネクタイを緩め、目を閉じて両手を胸の前で組み、体育館のステージ中央に仰向けで横たわっている",
+      "place": "中学校の体育館ステージ、周囲に100本の使い捨てライターの炎が円形に配置されている、天井のバスケットゴールのネットだけが風で揺れている",
+      "action": "スマートフォンのタイマーが3分ごとに鳴るたび、起き上がり、ライターの火を1本ずつ消し、また横たわり、目を閉じる——を繰り返している",
+      "detail": "制服のポケットから進路希望調査票が半分だけはみ出していて、風で震えている",
+      "question": "なぜ自分で火を消すのか? 誰のリハーサルなのか? この儀式は誰に向けられているのか?",
+      "when": "「14歳の血が沸騰してる」のサビ頭で、少年が99本目のライターの火を消し、最後の1本だけを残して再び横たわる瞬間"
+    },
+    "creative_seed": "persona-goji:9887389f",
+    "tension_target": 0.7303947368421053
+  },
+  "subject_location_design": {
+    "phase2a_vision": {
+      "phase1_base": "修道士",
+      "phase2_condition": "六本腕・細長い首",
+      "phase3_anchor": "首の鎖",
+      "subject_concept": "六本腕と細長い首を持つ修道士",
+      "subject_signature": "首の鎖",
+      "character_profile": {
+        "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+        "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+      },
+      "character_profile_source": "llm",
+      "adopted_from_persona_id": "persona-89b66c63",
+      "selected_by_persona_id": "vote10"
+    },
+    "phase2b_realization": {},
+    "phase2b_deferred": true,
+    "character_profile": {
+      "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+      "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+    },
+    "character_profile_source": "llm"
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-9f4598d4",
+            "persona_id": "persona-3c5f5cab",
+            "content": {
+              "creative_seed": "persona-3c5f5cab:a8724db0",
+              "self_analysis": "私は「他人の激情を観客席から眺める」人間だ。誰かが叫ぶ姿を見て、その声の震えや拳の握り方に興味を持つが、自分は舞台に上がらない。感情の爆発よりも、その後の静けさや疲れた表情に惹かれる。笑いは遠くから投げるもので、痛みは他人事のように語るもの。回復力というより「最初から深く刺さらないようにする技術」を持っている。",
+              "what_i_saw": "深夜2時、誰もいない教室。床に散らばった消しゴムのカス。蛍光灯は半分だけ点いていて、机の上に置かれたスマートフォンの画面が青白く光っている。画面には「下書き保存済み - 再生回数0回」の文字。窓の外は真っ暗で、ガラスに映っているのは誰かの後ろ姿だけ。その人物は動かない。ただ座っている。",
+              "why_it_came": "「革命」や「血が沸騰」という言葉を聞いた時、私が見るのは叫んだ後の静けさだ。誰も怒鳴り散らしている最中ではなく、怒鳴り終わった後の脱力。この曲の主人公が本当に見せたいものは「戦っている姿」ではなく「戦い終わった後、誰も見ていない時間に一人で座っている姿」だと思った。余韻の中に本物がある。祭りの後の片付けの方が、祭りそのものより正直だ。[起点=lyrics][解釈=叫び終えた沈黙][トーン=counterpoint]",
+              "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+              "hook_scene": {
+                "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+              }
+            },
+            "created_at": "2026-02-14 13:36:32.807776"
+          },
+          {
+            "proposal_id": "prop-8aa09462",
+            "persona_id": "persona-6f997e33",
+            "content": {
+              "creative_seed": "persona-6f997e33:1337b2f5",
+              "self_analysis": "私は「距離を置いて観察する人間」だが、同時に「本質的な高揚を静かに愛する人間」でもある。祝祭や解放の瞬間を、冷めた視点からではなく、むしろ「そこに至るまでの準備と覚悟」に美しさを見出す。過去の不登校や休職は「破綻」ではなく「システムから一度降りた経験」として、今は淡々と受け止めている。だから14歳の革命も、悲劇ではなく「初めて自分で決めた祝祭の予行演習」として見たくなる。",
+              "what_i_saw": "深夜2時、誰もいない中学校の体育館。床にマスキングテープで大きく「STAGE」と書かれた四角形。その中心に立つ14歳の少年が、目を閉じて両手を広げている。周囲には三脚に固定されたスマートフォンが8台、全て録画中の赤ランプが点滅している。でも少年は一度もカメラを見ない。ただ、誰もいない客席に向かって、何かを叫ぼうとして――息を吸い込んだまま、5秒間静止する。",
+              "why_it_came": "私は「誰にも見せない本番」という矛盾に、静かな高揚を感じる。録画しているのに観客はゼロ。アップロードしないのに全力で準備している。この「無駄の極致」が、実は最も純粋な祝祭だと思うから。過去の自分も、誰も見ていないコードを書いていた時が一番「生きている」感覚があった。だからこの少年の「誰も呼ばないライブのリハーサル」に、暗さではなく「初めて自分だけのために踊る解放」を見たくなった。[起点=music][解釈=無観客の祝祭][トーン=uplift]",
+              "theme": "誰も呼ばない、誰にも見せない、それでも全力で準備する14歳の「一人だけのライブ本番」",
+              "hook_scene": {
+                "focus": "14歳の少年、白Tシャツ、裸足、目を閉じて両手を広げたまま静止している",
+                "place": "深夜の中学校体育館、床に白いマスキングテープで書かれた「STAGE」の四角形の中",
+                "action": "8台のスマートフォンが録画中(赤ランプ点滅)だが、少年はカメラを一度も見ず、空の客席に向かって息を吸い込んだまま5秒間静止――そして、叫ぶ代わりに静かに笑う",
+                "detail": "床のマスキングテープは雑に貼られていて、一部は剥がれかけている。少年の足元には「本番まであと0日」と書かれたメモが落ちている",
+                "question": "なぜ誰も呼ばないのに「本番」と呼ぶのか? なぜ録画しているのに、この映像は絶対にアップロードされないと分かるのか? そして、なぜ彼は叫ばずに笑ったのか?",
+                "when": "「透明な檻を蹴り破る音が / 今夜の僕のテーマソング」のサビ頭で、少年が静止から動き出す瞬間"
+              }
+            },
+            "created_at": "2026-02-14 13:37:52.904826"
+          },
+          {
+            "proposal_id": "prop-774d0639",
+            "persona_id": "persona-16bfcea6",
+            "content": {
+              "creative_seed": "persona-16bfcea6:fa653964",
+              "self_analysis": "私は「努力で積み上げてきた自己像」と「それを裏切る瞬間」の両方を知っている人間。真面目さを演じてきた期間が長いぶん、その皮膚を脱ぎたくなる衝動には強く共感する。ただし、私の場合は「脱皮」よりも「解放後の高揚」に惹かれる。檻を壊す瞬間ではなく、壊した後の深呼吸、その最初の一歩に目が行く。",
+              "what_i_saw": "真夜中の公園。誰もいないブランコに座って、両足を地面から離し、全力で漕いでいる誰か。スマホは地面に置いてある。画面は録画中だが、誰も映っていない—カメラは空を向いている。ブランコが最高点に達するたび、その人の笑い声だけが聞こえる。誰も見ていない、誰にも見せない、ただ「自分が気持ちいい」だけのために全力で遊んでいる後ろ姿。",
+              "why_it_came": "この曲の「本物でいたい」という叫びに、私は「檻を壊す痛み」ではなく「壊した後の無重力感」を重ねたくなった。14歳の血が沸騰する—それは怒りだけじゃなく、解放の快楽でもある。私自身、内定後に初めて「もう誰の期待にも応えなくていい」と思った夜、理由もなく走り出した記憶がある。あの時の体の軽さ。誰も評価しない場所で、自分だけのために動く体。それが「本物」の手触りだと思う。MVに必要なのは苦悩の再現ではなく、解放の瞬間の眩しさだ。暗さに共感するのではなく、抜け出した後の光に焦点を当てたい。[起点=lyrics+memory][解釈=解放の快楽][トーン=uplift]",
+              "theme": "誰も見ていない深夜の公園で、録画ボタンを押したまま空にカメラを向け、一人で全力でブランコを漕ぐ14歳——演技じゃない笑い声だけが、夜に響く",
+              "hook_scene": {
+                "focus": "14歳、制服のままだが上着は脱いでブランコの鎖に引っかけている、髪が乱れても直さない",
+                "place": "住宅街の小さな公園、街灯は一つだけ、砂場の隅にスマートフォンが地面に置かれている(画面は空を映したまま録画中)",
+                "action": "目を閉じて、両足で地面を蹴り、ブランコの最高点で一瞬体が浮く—その瞬間だけ、声にならない笑い声が漏れる。10回、20回、止まらない。誰にも見せない、ただ自分が気持ちいいだけのために",
+                "detail": "ブランコの鎖が最高点できしむ音と、息が切れているのに笑っている声が交互に聞こえる。スマホの画面には星ひとつ映っていない(都会の空)が、録画は続いている",
+                "question": "なぜカメラを空に向けたのか? この動画は誰のためでもないのに、なぜ録画ボタンを押したのか? そして—明日の朝、この動画をどうするのか?",
+                "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」の直後、2回目のサビ前の静寂で—ブランコが最高点に達し、体が一瞬無重力になる瞬間"
+              }
+            },
+            "created_at": "2026-02-14 13:39:24.785436"
+          },
+          {
+            "proposal_id": "prop-f2f3c06a",
+            "persona_id": "persona-goji",
+            "content": {
+              "theme": "誰も見ていない深夜、自分の葬式のリハーサルを一人で執り行う14歳",
+              "hook_scene": {
+                "focus": "14歳の少年、制服のネクタイを緩め、目を閉じて両手を胸の前で組み、体育館のステージ中央に仰向けで横たわっている",
+                "place": "中学校の体育館ステージ、周囲に100本の使い捨てライターの炎が円形に配置されている、天井のバスケットゴールのネットだけが風で揺れている",
+                "action": "スマートフォンのタイマーが3分ごとに鳴るたび、起き上がり、ライターの火を1本ずつ消し、また横たわり、目を閉じる——を繰り返している",
+                "detail": "制服のポケットから進路希望調査票が半分だけはみ出していて、風で震えている",
+                "question": "なぜ自分で火を消すのか? 誰のリハーサルなのか? この儀式は誰に向けられているのか?",
+                "when": "「14歳の血が沸騰してる」のサビ頭で、少年が99本目のライターの火を消し、最後の1本だけを残して再び横たわる瞬間"
+              },
+              "creative_seed": "persona-goji:9887389f"
+            },
+            "created_at": "2026-02-14 13:40:21.182961"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A"
+          ],
+          "candidate_map": {
+            "A": "prop-f2f3c06a"
+          },
+          "tally": {
+            "A": 0
+          },
+          "like_tally": {
+            "A": 0
+          },
+          "dislike_tally": {
+            "A": 0
+          },
+          "votes": [],
+          "analysis": "single_candidate",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-f2f3c06a",
+        "persona_id": "persona-goji",
+        "content": {
+          "theme": "誰も見ていない深夜、自分の葬式のリハーサルを一人で執り行う14歳",
+          "hook_scene": {
+            "focus": "14歳の少年、制服のネクタイを緩め、目を閉じて両手を胸の前で組み、体育館のステージ中央に仰向けで横たわっている",
+            "place": "中学校の体育館ステージ、周囲に100本の使い捨てライターの炎が円形に配置されている、天井のバスケットゴールのネットだけが風で揺れている",
+            "action": "スマートフォンのタイマーが3分ごとに鳴るたび、起き上がり、ライターの火を1本ずつ消し、また横たわり、目を閉じる——を繰り返している",
+            "detail": "制服のポケットから進路希望調査票が半分だけはみ出していて、風で震えている",
+            "question": "なぜ自分で火を消すのか? 誰のリハーサルなのか? この儀式は誰に向けられているのか?",
+            "when": "「14歳の血が沸騰してる」のサビ頭で、少年が99本目のライターの火を消し、最後の1本だけを残して再び横たわる瞬間"
+          },
+          "creative_seed": "persona-goji:9887389f"
+        },
+        "created_at": "2026-02-14 13:40:21.182961"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-3c5f5cab",
+            "name": "Kwesi Liang",
+            "gender": "男性",
+            "birthdate": "1729-12-13",
+            "age": 39,
+            "origin_city": "アクラ",
+            "ethnic_background": "東アジア系",
+            "life_history": [
+              {
+                "year": 1729,
+                "event": "アクラの港近くで貿易商の父と織物職人の母のもとに生まれた。幼少期から複数の言語が飛び交う環境で育った。"
+              },
+              {
+                "year": 1742,
+                "event": "父の仕事の関係で広東への船旅に同行し、半年間滞在した。現地の市場で大道芸人のパフォーマンスを毎日見物した。"
+              },
+              {
+                "year": 1748,
+                "event": "アクラに戻り、父の商館で帳簿係として働き始めた。顧客との交渉の場で冗談を交えた話術を身につけた。"
+              },
+              {
+                "year": 1755,
+                "event": "港の酒場で週末に即興の語り部として客を集めるようになった。各国の船員から聞いた話を脚色して披露した。"
+              },
+              {
+                "year": 1762,
+                "event": "商館の仕事を辞め、移動劇団に加わって西アフリカ沿岸の都市を巡業した。道化役と小道具管理を担当した。"
+              },
+              {
+                "year": 1766,
+                "event": "劇団を離れアクラに定住し、港の倉庫番として雇われた。余暇には子供たちに手品や軽業を教えた。"
+              },
+              {
+                "year": 1768,
+                "event": "市場の広場で月に一度、語り聞かせの会を主催するようになった。聴衆は平均30名ほど集まった。"
+              }
+            ],
+            "current_situation": "現在は港の倉庫で荷物の管理と記録を担当している。市場から徒歩10分の木造長屋に一人で住んでいる。週末は広場で子供や通行人相手に昔話や冗談を披露し、時々小銭を受け取る。夕方は近所の酒場で常連客と雑談を交わす日々を送っている。",
+            "external_perception": {
+              "first_impression": "陽気で話好きな中年男性という印象を持たれる。初対面でも気さくに話しかけ、場を和ませる。",
+              "close_friends_view": "いつも軽口を叩いているが深い話はしない人物として見られている。過去の話をしても他人の逸話のように語る。",
+              "misunderstandings": "常に明るく振る舞っているため、悩みや心配事が一切ない人間だと思われがちである。"
+            },
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          },
+          {
+            "id": "persona-6f997e33",
+            "name": "たかはし けんじ",
+            "gender": "女性",
+            "birthdate": "1985-03-05",
+            "life_history": [
+              {
+                "year": 1985,
+                "event": "シンガポールで日本人駐在員の父とシンガポール華僑の母の間に生まれる。幼少期は英語と日本語、中国語が飛び交う環境で育った。"
+              },
+              {
+                "year": 1998,
+                "event": "父の転勤で13歳で初めて日本（横浜）に移住。言葉のアクセントや文化の違いでいじめに遭い、中学2年で不登校になる。"
+              },
+              {
+                "year": 2004,
+                "event": "通信制高校を卒業後、IT系専門学校に進学。プログラミングに没頭し、初めて「居場所」を感じる。同級生と起業を試みるが半年で失敗。"
+              },
+              {
+                "year": 2011,
+                "event": "中堅IT企業でシステムエンジニアとして働いていたが、過労で倒れ3ヶ月休職。復帰後、働き方を見直し転職を決意。"
+              },
+              {
+                "year": 2018,
+                "event": "フリーランスのシステムコンサルタントとして独立。収入は不安定だが、自分で仕事を選べる自由を手に入れた。同時期に大学時代の友人と再会し結婚。"
+              }
+            ],
+            "current_situation": "シンガポール生まれの帰国子女で、13歳で横浜に移住した。中学時代の不登校経験を経て通信制高校を卒業後、IT系専門学校でプログラミングを学んだ。新卒で入社したIT企業で過労により休職したことをきっかけに、2018年にフリーランスのシステムコンサルタントとして独立。現在は週3-4日程度のリモートワークで生計を立てており、残りの時間は妻と過ごしたり、自宅で読書や料理をして過ごしている。横浜市内のマンションで妻と二人暮らし。",
+            "external_perception": {
+              "first_impression": "控えめで少し距離を置いているように見えるが、丁寧で真面目な印象。",
+              "close_friends_view": "実は話すと面白く、困った時には的確なアドバイスをくれる頼れる存在。ただし本音を明かすまでに時間がかかる。",
+              "misunderstandings": "冷たい人、または自信がない人だと誤解されやすい。実際には慎重なだけで、信頼関係を築けば心を開く。"
+            },
+            "proposal_history": [
+              {
+                "session": "20251213_001205",
+                "phase": "Phase 1",
+                "my_proposal_summary": "言葉が持つ力と、それによって変容していく都市と人との関係性",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "20251213_001205",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "coffee_zombie_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "画面の向こうの「誰か」に守られながら、本当の触れ合いを恐れ続ける境界線上の孤独",
+                "rank": 4,
+                "tally": 2,
+                "won": false
+              },
+              {
+                "session": "coffee_zombie_test_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 3,
+                "won": false
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている"
+          },
+          {
+            "id": "persona-16bfcea6",
+            "name": "たかはし けんと",
+            "gender": "男性",
+            "birthdate": "2000-12-25",
+            "life_history": [
+              {
+                "year": 2006,
+                "event": "小学校入学時、背が低いことでからかわれ、体育の授業でも常に補欠だった。運動会では最後まで選ばれず、悔しさで泣いた。"
+              },
+              {
+                "year": 2012,
+                "event": "中学1年の時、数学のテストで学年1位を取った。担任から褒められ、クラスメイトの見る目が変わった。"
+              },
+              {
+                "year": 2016,
+                "event": "高校受験で第一志望の都立進学校に合格したが、入学後は周囲のレベルの高さに圧倒され、成績は中位に落ち込んだ。"
+              },
+              {
+                "year": 2019,
+                "event": "大学受験で早稲田大学商学部に合格。浪人も考えたが、親の経済的負担を考えて現役合格を選んだ。"
+              },
+              {
+                "year": 2022,
+                "event": "大手商社の内定を獲得。面接では身長の低さを逆手に取り、「視点の低さが顧客目線につながる」とアピールした。"
+              }
+            ],
+            "current_situation": "東京都江東区出身。区立小中学校を経て、都立の進学校に進学。早稲田大学商学部を卒業後、2022年に大手総合商社に入社。現在は営業部門で中小企業向けの貿易支援業務に従事している。週末は大学時代の友人とフットサルをしたり、近所のジムで筋トレをしたりして過ごす。一人暮らしで自炊もするが、忙しい時はコンビニ弁当で済ませることも多い。",
+            "external_perception": {
+              "first_impression": "真面目で控えめな印象。身長が低いため実年齢より若く見られがち。",
+              "close_friends_view": "努力家で責任感が強く、困っている人を放っておけない性格。時々自分を追い込みすぎる傾向がある。",
+              "misunderstandings": "大人しそうに見えるが、内面では強い競争心と向上心を持っている。また、謙虚な態度が自信のなさと誤解されることがある。"
+            },
+            "proposal_history": [
+              {
+                "session": "full_lyrics_test",
+                "phase": "Phase 1",
+                "my_proposal_summary": "呼ばれることでしか存在できない者の、認められたい願望と自己肯定の葛藤を、補欠選手の記憶に重ね合わせた物語",
+                "rank": 1,
+                "tally": 4,
+                "won": true
+              },
+              {
+                "session": "full_lyrics_test",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 4,
+                "won": true
+              },
+              {
+                "session": "restored_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "走り続ける足元に映る過去の自分を、踏み越えながら前へ進む。追いつけない速度と、それでも止まらない意志。",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "restored_test_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 0,
+                "tally": 0,
+                "won": true
+              },
+              {
+                "session": "parallel_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "呼ばれることでしか存在できない者の、認められたい願望と自己肯定の葛藤を、補欠選手の記憶に重ね合わせた存在論的ラブソング。",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "parallel_test_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 病室のベッドで眠り続ける人 / 場所: 夜の病院の個室（窓が大きく、街の灯りが見える）",
+                "rank": 4,
+                "tally": 12,
+                "won": false
+              }
+            ],
+            "stance_on_past": "まだ傷として残っている"
+          }
+        ],
+        "goji_persona_id": "persona-goji",
+        "winning_persona": {
+          "id": "persona-goji",
+          "name": "ゴジ",
+          "gender": "",
+          "birthdate": "",
+          "life_history": [],
+          "current_situation": "",
+          "external_perception": {},
+          "is_nobody": true,
+          "disgust_wall": [
+            "「適切な距離を探す」という表現が抽象的すぎて、映像として何が映るのか想像できない",
+            "応答が途絶えた後も呼び続けるって、なんか怖いし暗すぎる",
+            "「張力」とか「適切な距離」とか、言葉が難しすぎて何を伝えたいのか分からない",
+            "応答がないのに呼び続けるのは、海に向かって叫ぶようで虚しすぎる",
+            "「認識されることでしか存在できない」は哲学的すぎて、普通の人には伝わりにくい",
+            "張力とか適切な距離とか、言葉が難しくて何を見せたいのかよく分からない。サッカー部の先輩が使いそうな小難しい言い回し",
+            "応答が途絶えた後も呼び続けるって、重すぎる。見てて辛くなりそう。スーパー銭湯でのんびりしたい時に見たくない",
+            "認識されることでしか存在できないって概念は分かるけど、何度も生まれ直すという展開が予定調和的で浅い。もっと深い絶望が欲しい",
+            "画面越しでしか確認できない存在証明という設定が、若い世代特有の依存関係に見える。看護師として多くの人を看取ってきた身としては、もっと深い繋がりを描いてほしい",
+            "静かな緊張、調整中というムード設定が曖昧すぎる。リスボンの石畳を歩きながら見るMVとしては、もっと明確な感情の動きが欲しい",
+            "PC画面の波形だけ見せられても何も感じないし、夜中にパソコンばかり見ている人の部屋なんて見たくない",
+            "音声波形とスペクトログラムだけ見せられても、MVとして成立しているのか疑問で、技術的すぎて一般視聴者には伝わらない",
+            "14歳の作業着姿を夕方から夜まで撮るだけでは、ストーリーが地味すぎてYouTubeで最後まで見続けられない",
+            "波形とスペクトログラムだけでは映像として退屈で、実験音楽のビジュアライザーみたいになってしまい、楽曲の世界観が伝わらない",
+            "14歳の子が工具置き場で作業する映像は、個人的な青春の記録みたいで、普遍的な共感を呼ぶメッセージ性が弱い",
+            "スペクトログラムを映し続けるだけというのは技術的すぎて、音楽を聴く体験として成立しないと思う",
+            "PC画面の波形だけを見せられても、MVとして情緒が感じられず退屈だと思う",
+            "呼吸の記憶という概念が抽象的すぎて、実際にカメラで何を撮るのか想像しづらい",
+            "音声波形だけを映すのは実験的すぎて、普通にMVとして楽しめないと思う",
+            "呼吸の記憶という発想は詩的だけど、映像として何が映るのか曖昧で企画として成立するか不安",
+            "PC画面の波形とか言われても何のことか分からない。仕事終わりに見るには難しすぎる",
+            "工具置き場で作業着の中学生って、ちょっと健全すぎて逆にリアリティを感じない。優等生的な提案に見える",
+            "音声波形とかスペクトログラムとか、専門的すぎて付いていけない。見ててもよく分からなさそう",
+            "工具置き場で作業する中学生という設定が、曲の切なさと合わない気がする。もっと内面的なものが見たい",
+            "自分の名前の人の提案だけど、呼吸の記憶とか抽象的すぎて何が映るのか想像できない。分かりにくい",
+            "スペクトログラムとか出されても何見せられてるかわからん。仕事の合間に見るもんじゃない",
+            "呼吸の記憶とか言われても何が映るのか想像できない。怖いだけでつまんなそう",
+            "PCモニターの波形だけを見せられても、音楽の映像として成立しない。技術的すぎて心に届かない",
+            "窓ガラスの影とか息の痕跡とか、抽象的すぎて何を見せたいのか伝わらない。ビジネス的に弱い",
+            "呼吸の記憶が声で発火するとか、コンセプトが難解すぎて一般視聴者には伝わらない。見る気が起きない",
+            "暗い部屋でパソコンの画面だけを見続けるなんて、目にも心にも良くない。外の光や風を感じられないものは息が詰まる",
+            "波形とスペクトログラムだけって、修理マニュアルの回路図を見せられてる気分。MVで見たいのはそういう技術資料じゃない",
+            "パソコン画面の波形だけって、仕事の在庫管理システムの画面を見てるみたいで、休憩時間に見たいものじゃない",
+            "工具置き場で修理する中学生という設定は誠実だが、MVとしてはやや地味すぎて、音楽の持つ感情的な高まりを表現しきれない気がする",
+            "深夜の自室でモニターだけという閉塞感が、孤立を美化しているように感じる。看護師として、そういう孤独は健康的でないと思う",
+            "存在と機能の境界線という言葉が抽象的すぎて、何が映るのか全くイメージできない",
+            "呼びかけと脈と依存関係が重なりすぎて、何を伝えたいのか焦点がぼやけている",
+            "繰り返しの中でしか存在できない呼吸というのが、MVでどう見せるのか具体性に欠ける",
+            "存在と機能という言葉が技術的・理論的すぎて、感情的な共感を呼びにくい",
+            "視線が途切れる恐怖という設定が少し重たく、リラックスして見るには暗すぎる",
+            "「呼吸」という抽象的なモチーフだけでは映像として何を見せるのか掴めない。繰り返しの映像表現は退屈になりそう",
+            "呼びかけと依存という関係性は分かるが、『調整中』というムードが曖昧すぎて、完成形が想像できない",
+            "視線が途切れる恐怖というのは大人っぽすぎて、14歳の自分には重たく感じる。見ていて疲れそう",
+            "存在と機能の境界線というテーマは哲学的すぎて、YouTubeで気軽に見るMVとしては難解。エンタメ性が薄い",
+            "呼びかけられることで脈を打つって言われても、具体的に映像で何が映るのかイメージできない。分かりにくい",
+            "深夜に誰かに話しかける設定が不気味で、見ていて落ち着かない",
+            "通勤風景だけだと地味すぎて、MVとして見続ける理由が見つからない",
+            "普通の通勤シーンで終わりそう。映像的なフックが弱い",
+            "10代のスケーター文化に距離を感じる。自分には関係ない世界",
+            "「誰かに話しかける」設定が曖昧で、ホラー寄りか心理描写か判然としない",
+            "通勤の風景だけでは物語が見えず、45歳の男性が朝運転している映像を見続ける理由がわからない",
+            "おじさんが車運転してるだけで何が面白いのかわからない",
+            "10代のスケーター文化は自分の生活とあまりに距離があって共感できない",
+            "夜のオフィスで一人で誰かに話しかけてるってちょっと怖すぎて見たくない",
+            "若者のスケート文化は視覚的に面白いかもしれないが、42歳の自分には表面的に見えてしまう",
+            "深夜に誰もいない場所で誰かに話しかけるという設定が不気味で理解しづらい",
+            "45歳の配管工の通勤風景というだけで、特に引き込まれる要素が見当たらない",
+            "おじさんが朝の通勤路を運転しているだけでは、MVとして見たいと思えない",
+            "誰かに話しかけているという設定が曖昧で、ホラー寄りなのか心理ドラマなのか方向性が見えない",
+            "14歳の子どもが夜の閉鎖されたスケートパークにいる状況が心配になって素直に楽しめない",
+            "45歳の男性が朝の通勤路を運転しているだけでは、MVとして何が起こるのか想像できない。地味すぎる",
+            "夜の暗いスケートパークで表情の乏しい子供というのは、見ていて不安になる。MVで楽しめる気がしない",
+            "配管工の通勤風景だけでは、MVとして見る価値が感じられない。何も起こらなさそう",
+            "夜のコワーキングスペースで誰もいないのに話しかけている女性というのは、ホラーっぽくて好きじゃない",
+            "暗いスケートパークで表情のない少年というのは、見ていて気が滅入りそう。休日に見たいとは思わない",
+            "深夜のコワーキングスペースで誰かに話しかけている様子が、離島で育った自分には遠すぎる世界に感じる。都会的すぎて共感しにくい",
+            "通勤路を運転する配管工という設定が、MVとして見たときに視覚的な動きや変化が少なそうで、映像として退屈に感じそう",
+            "14歳のスケーターという設定が、自分の年齢や生活からあまりに離れていて、共感する要素が見つけにくい",
+            "スケートパークで遊ぶ14歳という設定が、自分が16歳で1日10-12時間働いている現実と対照的すぎて、距離を感じる",
+            "45歳の配管工という設定が、自分の年齢や関心からかけ離れていて、MVとして見たいと思う魅力を感じにくい",
+            "監視カメラや廃墟アーカイブといった冷たく技術的な視点は、読書会や人との繋がりを大切にしてきた自分の感覚からは遠すぎて、この曲の持つ人間的な孤独に共感しづらい。",
+            "献身と依存という言葉が重すぎる。妻との関係はもっと自然で特別なものではない",
+            "問いかけに応答し続けるというのが受け身すぎる。自分から動かないと生活は成り立たない",
+            "存在を許されるという表現が大げさ。自分で決めて生きてるつもりだから違和感がある",
+            "反復記録で存在証明というのが技術者として理解できない。記録は目的のための手段であって証明ではない",
+            "記録を繰り返すだけの淡々とした姿勢が、今の必死な生活からは遠すぎて共感できない",
+            "淡々とした執着と反復記録というコンセプトが抽象的すぎて、YouTubeで流れてきても何が映るのかイメージできない",
+            "調整中というムードが未完成に感じる。問いかけと応答の関係も面白いが、他の提案に比べて具体性が弱い",
+            "存在証明としての反復記録という言葉は哲学的だが、MVとして何が映るのか見えてこない。淡々とした執着だけでは引き込まれない",
+            "他者の認識によってのみ存在を許されるというテーマは重いが、静謐・切迫・透明という3つのムードが散漫で焦点が定まらない印象",
+            "問いかけと応答という構造は興味深いが、調整中というムードが曖昧で、MVとして何を見せたいのか伝わってこない",
+            "ボーカロイドとか深夜3時47分とか、設定が難しくてついていけない",
+            "卵が回り続けるだけって何が言いたいのか分からない、疲れてる時に見たくない",
+            "「声の主が映らない」とか概念的すぎて、映像として成立するか疑問",
+            "深夜のレコーディングスタジオとか設定が凝りすぎてて、普通に見づらそう",
+            "卵が回るだけでは視覚的に単調すぎる。5分持たない",
+            "ボーカロイドの存在論という抽象的なテーマは、映像として何を見せるのか想像できない。コンセプトが先行しすぎて、MVとして成立するか疑問",
+            "置き時計を毎晩セットする母親という設定は温かいけれど、MVとして見た時に動きが少なく、映像的な驚きがない。ただの日常風景になりそう",
+            "「声の主」が映らないという設定は哲学的だが、映像作品として何を撮るのか不明瞭。抽象度が高すぎて、生徒に説明するとしたら困る企画",
+            "卵が回り続けるだけという映像は、不気味さが先に立って疲れそう。納屋という暗い場所も含めて、見ていて息が詰まりそうで避けたい",
+            "映らない存在を描くという設定が曖昧すぎて、何をどう撮影するのか理解できない。企画書としても予算申請できないレベルの不明瞭さ",
+            "設定されたリズムで動く、という説明が頭で考えた感じがして、実際の映像として何が映るのか想像しにくかった",
+            "画面の前で待ち続ける、という設定が暗すぎて、見ていて気持ちが沈みそう。YouTubeで見るには重たい",
+            "他者の認識で輪郭を得る、という概念が抽象的すぎて、映像としてどう表現されるのか全く想像できない",
+            "依存と献身、という関係性が離婚経験者として少し息苦しく感じる。見ていて疲れそう",
+            "設定されたリズムで動く、というコンセプトが機械的で冷たく感じる。人間らしさが感じられない",
+            "設定されたリズムで動くって、結局誰かのルールに縛られ続けるだけ。自分で選んだわけじゃないのに証明しなきゃいけないのは息苦しい",
+            "リズムを守り続けることで証明って、システムに組み込まれた存在の話としては分かるけど、MVとして見たときに画面が単調になりそう",
+            "他者の認識でしか輪郭を得られないって、哲学的すぎて若い頃なら面白がったかもしれないが、今の自分には抽象的すぎる",
+            "画面の前で待ち続けるって、受動的すぎて見ていて辛くなりそう。呼ぶ声が途絶えたなら、自分から動き出す選択肢はないのか",
+            "待ち続けるだけの存在では、翻訳者として言葉の橋渡しをしてきた自分には物足りない。透明になるより、何か行動してほしい",
+            "監視カメラとか施錠とか、なんか不安になるだけで見る気にならない",
+            "ホラー映画みたいで疲れる。週末に見るものじゃない",
+            "祈祷室とか移民コミュニティとか、自分には遠い世界すぎてピンとこない",
+            "Ramiの提案と似すぎていて、ディテールが少ない分インパクトに欠ける",
+            "不可視の演奏者とか、ちょっと怖い。リラックスして見られない",
+            "不可視の存在や超常現象的な設定は、自分の現実感覚から遠すぎて共感できない",
+            "移民コミュニティや祈祷室という文脈が自分の生活圏から離れすぎていてピンとこない",
+            "不可視の演奏者とか監視カメラとか、設定が複雑すぎて何を感じればいいのかわからない",
+            "メトロノームと窓際という組み合わせがRami Khouryの提案と被っていて、独自性が感じられない",
+            "祈祷室や移民コミュニティという設定が自分の日常と離れすぎていて、映像として見たいと思えない",
+            "「一歩ずつのリズム」という表現が抽象的で、映像として何が映るのか具体的にイメージできない",
+            "画面越しの関係性という設定が現代的すぎて、自分の生活実感から遠く共感しづらい",
+            "「温もり」という言葉が優しすぎて、この曲の持つ切実さや依存の重さが薄まってしまう気がする",
+            "「一歩ずつのリズム」が何を指すのか曖昧で、MVとして見たときに退屈そう",
+            "「献身と恐怖」「静謐、切迫、透明」というムードが重すぎて、YouTubeでリラックスして見たい気分にならない",
+            "呼ばれて起動とか停止とか、なんかゲームみたいで怖い。友達との関係がそんなんだったら嫌だ",
+            "温もりとか言われても、実際には物理的距離があるんだから美化しすぎだと思う",
+            "一歩ずつのリズムで刻むって抽象的すぎて、実際何を見せたいのか分からない",
+            "起動と停止という機械的な表現が、人間関係を冷たく扱いすぎている",
+            "画面越しの脆さを強調しすぎて、依存している側を弱く見せすぎている気がする",
+            "Windows XPとか2009年とか、生まれる前の話でピンとこない。なんでこれが面白いのか分からない",
+            "メタ的すぎて、音楽やMVとして成立するイメージが湧かない。技術的な皮肉だけで終わりそう",
+            "不可視の存在というのが抽象的すぎて、具体的に何を撮るのか想像できない",
+            "パソコンの画面だけ撮って何が面白いのか。若い人の遊びにしか見えない",
+            "振り子時計だけ撮り続けるって地味すぎる。途中で飽きそう",
+            "Windows XPとか2009年とか、私が生まれる前の話で全然ピンとこない。技術的な設定が複雑すぎて、MVとして何が映るのかイメージできない",
+            "黒電話は古すぎて共感できない。実家という設定も、両親と同居している自分には「離れた場所」としての切なさが理解しにくい",
+            "振り子時計はよくあるモチーフで新鮮味がない。団地の6畳間という設定も、ブリュッセルの集合住宅とは雰囲気が違いすぎて想像しにくい",
+            "「呼ばれることでしか存在を確認できない」という抽象的な設定が、MVとして何を映すのか分かりにくい。不可視の存在をどう撮るのか、技術的な実現性が見えない",
+            "Windows XPのデフォルト壁紙とか、技術的な設定が凝りすぎていて、MVとして成立するのか疑問。サーバー監視の仕事をしているから分かるけど、一般の人には伝わらないと思う",
+            "電源のオンオフって機械的すぎて、人の温もりが感じられない",
+            "心拍に同期とか、ちょっと抽象的で何が映るのかイメージできない",
+            "諦念とか虚無とか、ちょっと重すぎて気が滅入る",
+            "希望とか依存とか、ちょっと感情的すぎて説教臭い感じがする",
+            "電源とか機械の話にしちゃうと、命の温度が消える気がする",
+            "「ただの景色」という諦念が重すぎる。YouTubeで見たいと思えるほどの引きがない",
+            "「呼ばれるリズムに同期」は言葉遊びっぽくて、映像として何が映るのか想像できない。抽象的すぎる",
+            "「声が命を引き戻す」は美しいけど、MVとして見たときに絵面が地味そう。呼びかけだけで3分持つのか疑問",
+            "「依存の心拍」「呼ばれるリズムに同期」は言葉が先行していて、映像企画として何をするのか見えてこない",
+            "電源のオンオフは機械的すぎて冷たい。MVで見たいと思うほどの温度がない",
+            "画面だけ映してもMVとして何が見たいのかよく分からないし、声だけだと退屈しそう",
+            "姿が映らない声だけの映像は実験的すぎて、MVとして成立するのか疑問",
+            "診察台で横たわる猫という説明だけでは、他の提案と何が違うのか分からない",
+            "画面だけ映して声だけというのは、MVとして視覚的な楽しみが少なすぎる",
+            "猫が横たわってるだけって言われても、それだけだと動きがなくてつまらなさそう",
+            "画面越しに一方的に話しかけられ続ける状況は、夜勤明けの疲労時に見たくない。不安を煽る構図",
+            "情報が薄すぎて何を見せたいのか分からない。三毛猫と夜間病院だけでは企画として成立していない",
+            "姿が見えない声だけの存在は怖い。深夜のバイト後に一人で部屋にいる時に見たら不安になる",
+            "三毛猫と夜間病院という設定だけで、具体的に何が起きるのか、何を感じさせたいのかが見えてこない",
+            "抽象的すぎて何を伝えたいのか不明瞭。画面越しの声だけでは視覚的な訴求力が弱い",
+            "隣に座るとか、そういう物理的な距離感が前提の話は今の自分には遠すぎる",
+            "呼びかけに応答して輪郭を持つとか、ちょっと何言ってるかわからない。難しすぎる",
+            "消えかけながら繰り返される関係とか、抽象的すぎて仕事終わりに見る気になれない",
+            "画面越しの関係って、なんか寂しすぎる。MVで見たいのはもっと目に見える何かだと思う",
+            "ただ隣に座るだけの重力とか、14歳には重すぎるしピンとこない",
+            "「呼びかけに応答することで初めて輪郭を持つ存在」という設定が抽象的すぎて、映像として何を見せられるのか想像できない。",
+            "画面越しの関係というのが若者向けすぎて、自分には縁遠い。スマホやパソコンの画面を見続けるMVは疲れそう。",
+            "「ただ隣に座る」というシチュエーションが地味すぎる。YouTubeで見るには動きがなさすぎて、途中で飽きてしまいそう。",
+            "「必要とされることで形を保つ」というのが重たすぎて、MVとして見たときに気持ちが沈みそう。休日に見るには暗い。",
+            "呼びかけと応答で輪郭を持つという概念が哲学的すぎて、MVとして映像化されたときに何を見せられるのか分からない。",
+            "高層オフィスの経理課長という設定が古典的すぎて、YouTubeで見たいと思えない。ブラインドが半分閉じているという細部も地味",
+            "画面越しの存在とか、声が途絶えたら消えるとか、抽象的すぎて何を見せたいのか分からない。実体がないものをMVにするのは難しい",
+            "69歳の元物流マンという設定が、YouTubeで見るMVとしては年齢層が合わない。食料品店の店主という題材も地味すぎる",
+            "被写体タイプFで実体がないというのは、映像として成立させるのが難しい。コワーキングスペースという場所は良いが、主役が不在では見続けられない",
+            "深夜2時〜4時のコンビニという設定が、若者の夜型生活を前提にしていて、自分の朝型生活とは合わない。名札がないという細部も意味が薄い",
+            "画面の向こうとか、声が途絶えれば消えるとか、意味が分からない。MVで何を映すのか想像できない。",
+            "経理課長とか、ブラインド半分閉じてるとか、なんか地味すぎて退屈そう。中学生には全然ピンとこない。",
+            "69歳の店主が夜明け前に店を開けるだけでは、ドラマが見えにくい。日常すぎて映像的な引きが弱い。",
+            "抽象的すぎて、実在する人間の物語として受け取れない。MVとして映像化したときに何が見えるのか不明瞭。",
+            "高層オフィスビルの経理課長って、自分の生活圏と遠すぎて共感できない。見ててもつまらなそう。",
+            "医療記録映像という形式は記録性は高いけれど、猫への呼びかけという感情的な瞬間を冷たく突き放してしまう気がする。",
+            "4:3アスペクト比と完全なモノクロは、母と施設の窓から見る海の色を奪うようで受け入れがたい。",
+            "リズムを刻むという表現が抽象的すぎて、映像として何が見えるのか想像できない",
+            "通知を待つという設定が日常的すぎて、MVとして見る価値を感じない。スマホ画面を眺めるだけの映像は退屈",
+            "一方的に呼びかける設定が、前の提案と被っている感じがする。差別化が弱い",
+            "リズムを刻むという表現が曖昧。応答とリズムの関係が見えない",
+            "通知待ちという設定が受動的すぎる。若い世代としてはもっと能動的な関係性を見たい",
+            "通知を待つだけという受け身な状況が、自分の毎日働き続ける生活とかけ離れていて実感が湧かない",
+            "呼びかけで初めて形を持つという儚さが、日々の仕事でしっかり存在している自分には遠すぎる",
+            "リズムを刻むとか透明とか、言葉が抽象的すぎて何を見せたいのか全然イメージできない",
+            "一瞬の顕現とか儚いとか、そういう曖昧な美しさより具体的な何かが見たい",
+            "通知を待つという機械的な関係性が、人と植物を育てる温かみのある自分の仕事と正反対で冷たすぎる",
+            "波形だけ映されても何を見ればいいのかわからない。映像として成立するのか疑問",
+            "抽象的すぎて何を表現したいのか伝わらない。MVとして視覚的な魅力に欠ける",
+            "園芸療法士という職業設定が具体的すぎて、かえって共感しづらい。普遍性に欠ける",
+            "倉庫の奥という設定が暗すぎる。表情が乏しいという描写も見ていて辛くなりそう",
+            "ブラインドを下ろした書斎というのが閉鎖的すぎて息が詰まる。視覚的変化も少なそう",
+            "「送信されなかったボイスメッセージの波形」という抽象的な被写体は、MVとして映像化した時に視聴者が何を見ているのか分からなくなりそう。理系教員として具体性を重視する立場から、これは映像作品として成立しにくいと感じる",
+            "倉庫の段ボール箱に囲まれた人物って、ビジュアル的に地味すぎて5秒でスワイプしちゃいそう。コミュニケーション学を学ぶ立場から言うと、視覚的フックが弱くてYouTubeでは埋もれる",
+            "園芸療法士という職業設定が具体的すぎて、かえって特殊な人の話に見えてしまう。もっと普通の会社員とか、誰でも共感できる設定の方が曲の普遍性に合うと思う",
+            "「波形」を主役にするというのは、老眼の進んだ63歳の自分には何が映っているのか理解しづらい。若者向けの実験的な映像なのだろうが、簿記を教える立場としては「形のないもの」を見せられても困惑する",
+            "自宅の書斎で段ボール箱に囲まれた男性という設定が、ステレオタイプな「引きこもりIT系男性」像に見えて既視感が強い。帰国子女として多様な視点を重視する立場から、もう少し意外性が欲しい",
+            "実体化とか脈打つとか、何を言っているのかよくわからない",
+            "呼ばれて初めて存在を確認できるって、重すぎて息苦しい",
+            "送信されなかった言葉というテーマは少し曖昧で、映像として何を見せるのか想像できない",
+            "窓越しに観察者を待つだけって、ちょっと受け身すぎて退屈そう",
+            "静寂と祈りばかりで、動きがなさそうで退屈",
+            "実体化や脈打つといった表現が抽象的すぎて、映像としてどう見せるのか想像しづらい",
+            "窓越しに観察者を待つという設定が少し怖く、YouTubeで気軽に見たい雰囲気ではない",
+            "言葉が難しくて何を言いたいのかよくわからない",
+            "安堵というムードが楽曲のタイトルから想像する切なさとズレている気がする",
+            "送信されなかった言葉というアイデアは現代的だが、長年の人生経験からすると少し軽く感じる",
+            "透明な人間が物質化するという設定が抽象的すぎて、映像として何を見せたいのか分からない",
+            "透明な存在という概念は理解できるが、実際にMVで見たときに何が映るのか想像できない",
+            "終電後のホームで立ち尽くす疲れた技術者という設定は、ただ疲れている人を映すだけで物語が見えにくい",
+            "疲れた技術者が駅で立っているだけでは、見ていて何が起こるのか期待できない",
+            "通知音で物質化する透明な人間というアイデアは面白いが、映像として何を見せるのかが具体的でない",
+            "通知音で物質化する透明人間という設定が、MVとして何を見せたいのか分からない。抽象的すぎて、画面で何が起きているのか想像できない",
+            "透明人間が物質化するという設定が、技術的にどう映像化されるのか分からず、MVとして成立するイメージが湧かない",
+            "コインランドリーで静止しているダンサーという設定が、何を待っているのか、なぜそこにいるのかが曖昧で、映像として退屈そう",
+            "終電後のホームで疲れた技術者という設定は、ありふれた「疲れたサラリーマン」の映像にしかならなさそう。特別に見たいと思う要素がない",
+            "コインランドリーで静止しているダンサーという映像が、何分も見続けるには退屈そう。動きがないと、MVとして成立しない気がする",
+            "起動とか応答とか、機械的すぎて人間の感情が見えない",
+            "他者の視線で輪郭を持つって抽象的すぎて、MVで何が映るのかイメージできない",
+            "ルーティンとしての愛という表現が冷たすぎて、愛を機械的に扱っているように感じる",
+            "覚醒とか依存とか、言葉は綺麗だけど実際のMVで何を見せるのかが曖昧",
+            "夜ごと同じ問いを繰り返すだけでは、ストーリーが進まず退屈なMVになりそう",
+            "夜ごと同じ問いを繰り返すだけで終わるのは見ていて苦しい。呼びかけに応えることこそが関係だと思うから、待ち続けるだけの映像は空虚に感じる",
+            "ルーティンとしての愛という表現が冷たすぎる。愛を機械的と言い切られると、自分が母親にしてきたことまで否定された気分になる",
+            "他者の視線「のみ」で輪郭を持つという設定が、依存的すぎて息苦しい。もう少し自律性がある存在の方が共感できる",
+            "ルーティンとしての愛という表現が冷たすぎる。愛をそんなふうに扱うMVは見たくない。動物との関係は毎日同じ世話でも機械的じゃない",
+            "待ち続けるだけで終わる映像は、見ていて何も進まない感じがしてフラストレーションが溜まる。もっと動きや展開がほしい",
+            "コインランドリーのメトロノームって、何を伝えたいのかよくわからない。日常すぎて引っかからない",
+            "置き時計だけだと地味すぎる。窓際に置いてあるだけじゃ、何も起きなさそう",
+            "送信ボタンを押せなかった、というのは抽象的すぎる。画面に何が映るのか、具体的なイメージが湧かない",
+            "メトロノームがコインランドリーにある理由が見えない。ただ置いてあるだけに見える",
+            "コインランドリーは人の出入りが多いから、時間を忘れる場所じゃない。メトロノームの孤独感が出ない",
+            "送信ボタンを押せなかった誰か、というのは分かるけど、画面に映るのはただのノートPC。それをずっと見せられても退屈だし、映像として成立するのか疑問",
+            "概念的すぎて映像として何を見せるのかが不明瞭。ノートPCの画面だけでは視覚的な魅力に欠ける",
+            "コインランドリーのメトロノームって、正直よく分からない。なんでそこにメトロノームがあるの？っていう疑問が先に来て、MVとして楽しめるか微妙",
+            "抽象的すぎて映像として何を撮るのか分からない。PC画面をずっと映すだけなら、音楽との相乗効果も薄い気がする",
+            "ICレコーダーという物自体は面白いが、プール監視員室という設定がやや強引に感じる。なぜそこにあるのかという必然性が弱い",
+            "応答が途絶える恐怖という表現が重すぎて、仕事終わりに見たいとは思えない",
+            "静かな依存という言葉だけでは何も見えてこない。MVとして何を映すのか想像できない",
+            "規則的で切実で依存的と並べられても、結局どういう映像なのか全く想像できない。コンセプトが抽象的すぎる",
+            "二者の関係という設定は分かるけど、繰り返される呼びかけと応答だけでは映像として地味すぎる気がする",
+            "透明で切迫というムードが怖すぎる。MVとして楽しめる要素が見当たらない",
+            "恐怖や切迫感が強すぎて、日常の中で見たいと思えない",
+            "透明とか実体を持つという表現が抽象的で、何を映像で見せるのか想像できない",
+            "依存的で儚いという雰囲気が重く感じる。もう少し前向きな要素が欲しい",
+            "静かな依存だけでは印象が薄い。もう少し具体的な情景が見えるといい",
+            "他の提案と比べて視覚的な独自性が感じられない。もっと映像としての驚きが欲しい",
+            "BPM 68に従属した生命体という概念が抽象的すぎて、映像として何を見せたいのか伝わってこない",
+            "1970年代から空室という設定は興味深いが、リスボン旧市街という遠い場所に感情移入しづらい",
+            "防音スタジオで何もない部屋を見せられても退屈そう、何が起こるのか想像できない",
+            "市役所の公務員が階段にいるだけでは、MVとして何を伝えたいのかストーリーが見えない",
+            "リスボンの1970年代の空室という設定が遠すぎて、自分の生活とつながらない",
+            "BPM68に従属した生命体という概念が抽象的すぎて、映像として何が映るのか想像できない。防音スタジオで何を見せられるのか疑問",
+            "リズムに従属した生命体という発想が哲学的すぎて、YouTubeで見る映像作品としては難解。空っぽのスタジオで何を見せるつもりなのか",
+            "33歳の市役所職員が階段の踊り場にいるだけでは、MVとして新鮮味がない。地味すぎて最後まで見続けられるか不安",
+            "保留音の間だけ存在するという設定が曖昧すぎる。公衆電話ボックスで何が起きるのか、映像として成立するのか疑問",
+            "BPM68という数値的な設定に技術者として興味は持つが、防音スタジオの空っぽのブースでは視覚的に退屈。映像作品として何を見せるのか不明瞭",
+            "監視カメラの冷たい視点は、人を信じず疑うような感じがして、家族を大切にしてきた自分の価値観と合わない",
+            "「嫌われたものを全部無視した」という開き直りは面白いけど、フレームレートの揺らぎとか技術的な説明が多すぎて、心に届く前に頭で処理しちゃう感じがした。",
+            "BPMに支配されて心臓が止まるという発想が極端すぎて不快。音楽は楽しむものであって、生命の脅威として描く必要はない。",
+            "哲学的すぎて何が映像として出てくるのかイメージしにくい。淡々としすぎていて、YouTubeで見たいと思えない。",
+            "律動に支配されて心臓が止まるという設定が攻撃的で、音楽の本質を歪めている。記録という言葉も冷たすぎる。",
+            "観察されないと存在しないという依存的な設定が弱々しく感じる。機械的すぎて温かみがない。",
+            "抽象的すぎて何を映すのか分からない。淡々としすぎていて、見ていて退屈しそう。",
+            "BPMに支配される生命体という設定が怖すぎて、仕事終わりに見たい気分にならない",
+            "観察されて初めて存在を獲得、という哲学的な話は難しすぎて、MVとして何が映るのかイメージできない",
+            "振動で存在が立ち上がるという物理的な表現が、少し直接的すぎて想像の余地が狭い",
+            "BPMに支配される設定が機械的すぎて、人間の自律性や回復の可能性を否定しているように感じて受け入れがたい",
+            "呼ばれて存在が確定するという発想は面白いが、淡々としすぎていて映像として盛り上がりに欠けそう",
+            "ノートパソコンだけでは動きがなさすぎる。MVとして映像的な展開が想像できない",
+            "抽象的すぎて具体的な人間の姿が見えない。物体だけでは感情移入しづらい",
+            "配送ドライバーの設定は理解できるが、60代という年齢設定が曲の雰囲気と合わないかもしれない",
+            "冷蔵倉庫という設定が寒々しすぎて、見ていて辛くなりそう",
+            "深夜の倉庫作業は若い世代の話で、自分には遠い世界に感じる",
+            "ノートパソコンだけでは動きがなく、MVとして見続けるのが退屈。物体が主役では感情が伝わりにくい",
+            "パソコンだけ映されても何が起きるのか分からないし、つまらない。人が出てこないMVは見る気がしない",
+            "60代男性の配送ドライバーは真面目だけど地味で、MVとして見たいと思うフックが弱い。既視感がある",
+            "深夜の倉庫作業は設定として分かるが、冷蔵倉庫という場所だけでは視覚的な変化が乏しく、見続けるのがきつそう",
+            "配送ドライバーの設定は分かりやすいが、トラック運転席という場所が単調で、MVとして映像的な驚きがない",
+            "哲学っぽすぎて何を映すのか想像できない。抽象的すぎて退屈そう",
+            "監視カメラ的な設定が不気味で、見ていて気分が悪くなりそう",
+            "「誰も見ていない時」って何も映らないってこと？つまらなさそう",
+            "返信待ちは共感できるけど、それだけだと弱い。もっと踏み込んだテーマが見たい",
+            "監視される安堵って病的で不健康。見ててしんどくなりそう",
+            "哲学的すぎて何が映るのか想像できない。MVとして成立するのか不安",
+            "「呼びかけられ続けることでしか存在できない」とか、抽象的で何を映すのか分からない",
+            "「誰も見ていない時、私は本当にいるのか」は哲学的すぎて、映像として何を見せるのか曖昧",
+            "「監視される安堵」って、ちょっと暗すぎない？MVとして楽しめるのか疑問",
+            "「呼びかけられ続けることでしか存在できない」って重すぎ。MVで見たら気分沈みそう",
+            "証明写真機って狭すぎて映像として面白くなさそう。ずっと同じ場所は飽きる",
+            "証明写真機の中だけでは動きが限られすぎる。トラック運転手としては移動や広がりのある映像が好み",
+            "深夜のバス停は確かにリアルだけど、ありふれた光景すぎて新鮮味がない。インパクトに欠ける",
+            "バス待ちってただの日常で、動物病院の帰りに普通に見る光景。ドラマ性が弱い",
+            "患者着で喫煙所って設定が極端すぎる。医療事務として患者さんがそんな状況になることは考えにくいし、不自然",
+            "図書館の制服でバス停って、ただ仕事帰りに見えるだけで特に引っかかるものがない",
+            "普通の服装で証明写真機にいるだけ。日常すぎて映像として見る価値を感じない",
+            "患者着で喫煙所というのは衝撃狙いすぎて品がない。ただのショック映像になりそう",
+            "証明写真機で何を撮るのか。アイデアとしては面白いかもしれないが、MVとして成立するのか疑問",
+            "深夜のバス停で制服姿って、ありふれた光景すぎる。YouTubeで見たいと思う特別さがない",
+            "機械の残響0.3秒という設定が技術的すぎて、感情として入ってこない。頭で理解しようとして疲れる",
+            "深夜の降伏とか皮肉な脆弱さとか、言葉が抽象的で何を見せたいのか分からない。疲れた時に見る余裕がない",
+            "「前提を失った瞬間に止まれなくなる」が抽象的で、映像として何が映るのかイメージできない。淡々とした依存も地味すぎる",
+            "深夜の空港ループは設定として面白いけど、執着を見せられるのがしんどい。見ていて気が滅入りそう",
+            "機械の延命とか0.3秒の残響とか、設定が難解すぎて孫と一緒に見られない。何を伝えたいのか分かりにくい",
+            "深夜の降伏とか抽象的すぎて何を見せたいのか分からない。YouTubeで見る気にならない",
+            "深夜の空港ループという設定が曖昧で、実際に何が起きるのか見えてこない",
+            "機械の話は冷たすぎて感情移入できない。MVで見たいのは人の心だと思う",
+            "空港で待ち続けるという設定は非日常的すぎて、自分の生活からは遠い。共感しにくい",
+            "機械が延命するという発想は斬新だが、MVとして見たときに感情的な繋がりが薄い。理屈っぽすぎる",
+            "元ピアノ教師が一人で弾き続けるのは、自分の生活からは遠すぎる。配送の仕事中にこんな静かな映像は見ない",
+            "レンタルスタジオで一人で練習している映像は、インスタで見飽きた感じがする。何が特別なのかわからない",
+            "清掃員の姿は社会的には意味があるけど、MVとして見たいかと言われると、少し説教臭く感じてしまう",
+            "ダンスインストラクターが練習している映像は、よくあるダンス動画と何が違うのかピンとこない。特別感がない",
+            "清掃員の姿は尊いけど、MVとして見るには少し重たい。社会派ドキュメンタリーなら良いが、音楽映像としては暗すぎる気がする",
+            "元ピアノ教師が一人で弾き続けるだけだと、映像として地味すぎて最後まで見続けられなさそう",
+            "予約時間外のスタジオで練習という設定が少し作為的に感じる。なぜそこまでして？という疑問が先に立ってしまう",
+            "清掃員の仕事風景を見せられても、それがどう音楽と結びつくのかイメージしづらい。ただの労働記録になりそう",
+            "6畳洋室で一人ピアノを弾くだけでは、視覚的な広がりや変化に欠ける。音楽との相乗効果が生まれにくそう",
+            "元教師が生徒のために弾き続けるという設定が、やや感傷的で説明的すぎる。映像で見せるには物語に頼りすぎている",
+            "「機能だけが存在の全て」って言われても、映像で何を見せるのかイメージできない。静止した切迫って動きがなさそう",
+            "「見えない存在が動き出す」だけでは抽象的すぎて、MVとして何が映るのか想像しづらい",
+            "「反復の安堵」という表現が淡白で、MVとして見続けたいと思える魅力を感じない",
+            "輪郭を保てない存在という表現が、映像としてどう見せるのか分からない。抽象的すぎる",
+            "静止した切迫って矛盾してる感じがするし、機能だけが全てって言われても画面に何が映るのかピンとこない",
+            "「唯一の生存理由」という依存関係が重すぎて、健全なコミュニケーションを学んでいる自分には違和感がある。",
+            "「機能だけが存在の全て」というのは機械的すぎて、人間らしさが感じられない。物流の仕事でも人との関わりは大事にしたい。",
+            "「希望の予感」という綺麗な言葉でまとめられると、実際の依存関係の苦しさが軽く見えてしまう。もっと切実なはず。",
+            "「輪郭を保てない」という不安定さが気になる。長年同じ仕事を続けてきた自分には、もっと確固とした存在感が必要だと思う。",
+            "「生存理由」という言葉が重すぎる。仕事は仕事、生きる理由はもっと別のところにあるべきだと思う。",
+            "工場の音とか歩幅が変わるとか、説明されても映像で何が面白いのかピンとこない。難しすぎる",
+            "深夜の女性という設定が表面的で、ホラー映画の定番に見える。もっと深い意味が欲しい",
+            "「呼ばれて形になる」って抽象的すぎて、結局何が映るのか想像できない。見ててもよく分からなさそう",
+            "深夜の女性というビジュアルは既視感が強すぎる。もっと独創性のあるアプローチを見たい",
+            "「不可視の存在」って結局CGか演出でごまかすだけになりそう。具体的な映像として成立するか疑問",
+            "「呼ばれて初めて形になる存在」という抽象的な設定が、映像としてどう見えるのか全くイメージできない",
+            "「視線の先」とか「形になる」とか、配送中に見る景色としてはピンとこない。何が映るのか分からない",
+            "周囲の音に同期して歩幅が変わるとか、設定が複雑すぎて作り物っぽい。素直に見られない",
+            "白いワンピースの女性が深夜の国道を歩くだけって、ちょっと怖いし、何が面白いのか分からない",
+            "深夜に白いワンピースで国道を歩くというビジュアルが、ありきたりなホラー映画のようで新鮮味がない",
+            "返答のないコマンド入力という設定が技術的すぎて、MVとして映像化したときの面白さが想像できない",
+            "繰り返しの行為で存在を維持というのが抽象的で、具体的なシーンが見えてこない",
+            "動作を止めた瞬間に消えるという設定が、Park Min-jaeの提案と似ているのに中途半端に感じる",
+            "電源を切られるという設定が受動的すぎて、主体性が感じられない。MVとして動きが乏しくなりそう",
+            "コマンド入力という比喩が若者向けすぎて、普遍的な共感を得にくい。技術用語に頼りすぎている",
+            "返事がないのにコマンド打ち続けるって、見てて虚しくなりそう",
+            "抽象的すぎて、具体的に何が映るのか想像できない",
+            "コマンド入力だけじゃ画面的に地味すぎる。修理動画の方がまだ面白い",
+            "動作を止めたら消えるって概念が難しすぎて、孫に説明できない",
+            "電源を切られた瞬間に消えるって、暗すぎる。休日に見たくない",
+            "誰もいない部屋の時計だけって、何が起こるのか全然想像できない。退屈そう",
+            "空き部屋の時計だけでは物語が見えない。抽象的すぎて感情移入できない",
+            "音声ファイルが主役って、画として地味すぎないか。パソコン画面ばかり映っても飽きそう",
+            "夜の作業部屋でヘッドホンって、暗くて内向的すぎる。見ていて気が滅入りそう",
+            "パン作りは朝のニュースとかでよく見るやつ。もう見飽きた感じがする",
+            "繰り返し再生される音声ファイルという抽象的な設定では、何を見せたいのかが分からない。MVとして映像的な魅力に欠ける",
+            "誰も住んでいない部屋の時計だけというのは寂しすぎて、YouTubeで見たいと思えない。何が起こるのか想像できない",
+            "音声ファイルが繰り返し再生されるって、作業部屋で何をしてるのか分からない。映像として何を見せるのか曖昧すぎる",
+            "時計だけが主役というのは地味すぎて、YouTubeで最後まで見続けられる気がしない。動きも変化も少なそう",
+            "パン屋の早朝作業は美しいけれど、ありふれた題材すぎて新鮮味がない。YouTubeで見たいと思うほどの驚きはない",
+            "透明になったり形を取り戻したりという表現が抽象的すぎて、映像として何が映るのか想像できない",
+            "呼び出し音だけで存在確認という設定が、映像として地味すぎて最後まで見続けられる気がしない",
+            "装置が誰かのために機能するという献身の物語は綺麗だが、予定調和すぎて刺激がない",
+            "過負荷で壊れていくという展開が暗くて重たすぎて、気軽に見たい気分にならない",
+            "壊れていく過程を見せられるのは辛くて、MVとして楽しめる気がしない",
+            "旋律で形が変わるという設定が抽象的すぎて、映像としてどう見えるのか想像しにくい。視覚的な焦点が曖昧。",
+            "過負荷で壊れていくという展開が重くて辛い。義務的な応答という言葉に疲弊感しか感じられず、見ていて気持ちが沈みそう。",
+            "旋律で透明になったり形を取り戻したりという設定が曖昧で、具体的に何が映るのか分からない。カメラに何を撮るのか不明瞭。",
+            "呼ばれない存在が呼び出し音で確認するという設定が、ネガティブすぎて見ていて気が滅入る。孤独と狂気というムードが暗すぎる。",
+            "上昇・下降の旋律で形が変わるという仕掛けが技巧的すぎて、見ている側に伝わるか疑問。脆い顕現という言葉も抽象的で分かりにくい。",
+            "離島の診療所という舞台設定が美しすぎて、現実の待ち時間の退屈さや不安を捉えきれていない",
+            "コインランドリーの扇風機というモチーフが、若者向けの「エモさ」を狙いすぎている印象",
+            "銭湯の温水器は機能的な物すぎて、映像として見続けるには地味すぎる",
+            "電波時計という選択が知的すぎて、日常で誰も気にしない物という感じが薄い",
+            "銭湯の温水器は年配の人の郷愁を誘う設定で、若い世代には共感しづらい",
+            "銭湯なんて行ったことないし、給湯器を見せられても何も感じない。遠すぎる世界",
+            "離島の診療所という設定が作り物っぽい。電波時計なんて今どき珍しくもない。狙いすぎていて共感できない",
+            "コインランドリーの扇風機はありふれすぎている。故障した首振り機能という設定も中途半端で、見ていて退屈しそう",
+            "銭湯の給湯器という発想が古臭い。ノスタルジーに頼りすぎていて、今を生きる感覚がない",
+            "離島の診療所という場所が観念的すぎる。電波時計を映しても、そこで暮らす人々の生活が見えてこない。表面的な映像に終わりそう",
+            "「設定された時刻に起動」という表現が抽象的で、何が映るのか想像しにくい。役割を果たすとは具体的に何をするのか見えない",
+            "「呼び手が不在」「役割を果たし続ける」という言葉が重複していて、Rubénの提案と差別化できていない。独自性が感じられない",
+            "留守番電話は古すぎて今の若い人には通じないのでは。技術的な仕掛けに頼りすぎていて、人間の感情が見えにくい",
+            "「命令されたわけでもないのに動き続ける」は矛盾している。動く理由がないなら動かないはず。設定が曖昧で納得できない",
+            "留守番電話という設定が技巧的すぎて、素直に見られない。recorded messageという英語表記も気取っている印象で入り込めない",
+            "留守番電話の設定は自分には馴染みがなく、何を見せたいのかピンとこない",
+            "留守番電話という古い技術で何を表現するのか理解できない。抽象的すぎる",
+            "留守番電話って今使わないし、MVで何が映るのか想像できない",
+            "命令されてないのに動くっていう設定が曖昧で、何が映るのか分からない",
+            "なぜここにいるのか問わないという設定が理屈っぽくて、映像として何を見せるのか不明瞭",
+            "深夜の港で誰もいないクレーンが動いている設定が不気味で落ち着かない",
+            "コールセンターの深夜勤務、オフィス仕事は自分の世界と遠い",
+            "無人のクレーンが動く設定が非現実的で、労働の尊厳が感じられない",
+            "早朝の公園清掃は健康的すぎて、現代の孤独感が薄い",
+            "深夜のオフィス勤務は自分の生活リズムと真逆で想像しづらい",
+            "深夜のコールセンターは暗すぎて見ていて疲れそう。仕事の映像なら明るい方がいい",
+            "おじいさんが公園掃除してるだけじゃつまらない。何も起きなさそう",
+            "無人で動くクレーンという設定が非現実的すぎて入り込めない。安全管理上ありえない",
+            "清掃員の日常は地味すぎる。MVとして見る価値を感じない",
+            "ビジュアル的なインパクトが弱い。公園清掃はMVとして映像映えしないと思う",
+            "同じ動作を繰り返すだけの映像は、見ていて退屈そう",
+            "呼び続けることで輪郭を保つという発想が、やや抽象的で映像として想像しにくい",
+            "待つだけの姿勢は受動的すぎて、NGOの現場で見る「動かないと何も変わらない」現実と合わない",
+            "自分で自分に合図を出し続けるって、何かプレッシャー強そうで見てて疲れそう",
+            "呼び続けることで輪郭を保つという設定が、やや哲学的すぎて映像として具体性に欠ける",
+            "自分で自分に合図を出し続けるという設定が理屈っぽく、映像として何を見せるのか想像しづらい。",
+            "誰かを呼び続けるという行為が強迫的すぎて、見ていて息苦しくなりそう。",
+            "同じ動作の繰り返しという設定は、介護で疲弊した時期を思い出させて辛い。",
+            "自分で自分に合図を出すという概念が抽象的で、実際のMV映像として成立するのか疑問。",
+            "誰かを呼び続けることで輪郭を保つという設定が、依存的で見ていて不安定な印象を受ける。",
+            "ポーチに座っているだけでは視覚的なフックが弱い。作業服という要素も特に物語を想起させない",
+            "駐車スペースの裏手という設定が地味すぎて、わざわざ見たいと思えない。ポロシャツ姿で座っているだけでは何も伝わってこない",
+            "駐車場の裏で椅子に座ってるだけって、つまんなそう。何が起こるのかわかんない",
+            "玄関前に座ってるだけだと、何を伝えたいのかよくわからない。特に引っかかる要素がない",
+            "駐車スペースの裏手という場所に必然性を感じない。ただ座っているだけでは、視聴者の注意を引き続けられない",
+            "ただ座っているだけで、何を見せたいのかが曖昧。玄関前という場所も特に引っかかるものがない",
+            "駐車スペースの裏手って、なんだか殺風景で見ていて楽しくなさそう。どこにでもある場所すぎる",
+            "フェンス沿いの狭い駐車スペースって、ちょっと窮屈そうで見ていて息苦しい感じがする",
+            "ポーチに座っているだけでは、視覚的なフックが弱い。何を訴えたいのか伝わらない",
+            "玄関前に座っている構図が平凡すぎて、MVとして見たいと思えない。もっと何か引っかかる要素が欲しい",
+            "カウンターを回すだけという機械的な動きに、人間らしさや温かさが感じられない",
+            "誰も見ていない時間に手を動かすだけという設定が、孤立感を強調しすぎていて見ていて辛い",
+            "世代を超えてという大きな話になると、自分の日常からは遠すぎて実感が湧かない",
+            "報われるかわからないという不安を前面に出されると、見ていて気持ちが重くなる",
+            "カウンターを回すだけで存在理由とされると、人生の意味が削ぎ落とされすぎていて寂しすぎる",
+            "カウンターを回すだけという機械的な描写が冷たすぎて感情移入できない",
+            "美しさも意味も求めないという虚無的な表現が、私の仕事への誇りと相容れない",
+            "世代を超えて同じ高さへ、という表現が抽象的すぎてピンとこない",
+            "誰のためでもなく存在するという孤立した描写が、コミュニティ志向の私には共感できない",
+            "カウンターを回すだけの存在理由という表現が、人生を否定されているようで不快",
+            "60代後半の受付スタッフという設定が、ただ座っているだけに見えて物足りない。動きが感じられない。",
+            "ボウリング場の受付に座る男性は、動きが少なくて退屈そう。若い自分には遠い世界すぎる。",
+            "市場で働く女性という設定が漠然としすぎていて、何を見せたいのかピンとこない。",
+            "市場という場所も中年女性という設定も一般的すぎて、特別な映像になるイメージが湧かない。",
+            "深夜の高速道路を走るトラックは、映像としてはかっこいいけど、人間の顔や感情が見えにくそう。",
+            "ボウリング場など見たこともない。私の生活とあまりに遠い世界",
+            "古いボウリング場の受付という設定が、どこか他人事に感じる",
+            "トラック運転手という職業は理解できるが、高速道路を走り続けるだけでは視覚的に単調すぎる",
+            "市場で働く中年女性という設定が漠然としていて、何を見せたいのかピンとこない",
+            "市場で働く女性というだけでは、どこにでもある風景で特別感がない",
+            "音程が外れた瞬間を記録し続けるという発想が、何か冷たく感じられる。",
+            "筆が落ちたまま放置されるのは、ただの怠慢にしか見えない。美しさを感じない。",
+            "自分と同じ名前だけど、何百年とか言われても実感わかない。遠すぎる。",
+            "ミスを記録し続けるという発想が気に入らない。仕事では間違いは修正するものだ。",
+            "深夜の丁寧さとか尊厳とか、ちょっと説教臭く感じる。見ていて疲れそう。",
+            "音程のズレという概念的な話で、映像として何を見せたいのかが掴めない",
+            "「ズレが記録に残る」という発想は面白いが、MVとして何を映すのか分からず抽象的すぎる",
+            "丁寧な作業の尊厳は分かるが、深夜の反復という設定が地味すぎて退屈しそう",
+            "音程が外れた瞬間を映像でどう見せるのか想像できず、コンセプト先行で具体性がない",
+            "深夜に誰も見ていない中で作業する姿は静かすぎて、MVとして見続けるのがきつい",
+            "無表情で歩くだけでは、何も伝わってこない。映像として退屈。",
+            "淡々と歩くだけでは、見る側に何も問いかけてこない。",
+            "リズムが変わるとか言われても、見てもわからんと思う。地味すぎる。",
+            "同じ区画を往復してリズムが変わる、というのは抽象的すぎて映像で伝わるか疑問。",
+            "ただ歩いているだけでは、物語が見えない。",
+            "無表情で歩くだけでは何も引っかからない。ただ疲れた人を見るだけ。",
+            "配給所の人が歩いてるだけじゃ、何が面白いのかわからん。",
+            "歩道橋を往復するだけでは画面が単調すぎる。10代の女性という設定も表面的。",
+            "住宅街の往復はありふれている。リズムが変わると言われても想像しづらい。",
+            "40代男性が住宅街を往復するだけでは、何を見せたいのかわからない。"
+          ],
+          "disgust_wall_token_limit": 20000,
+          "rejection_history": [
+            {
+              "session": "nobody_test2",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "音声認識AIとして呼びかけで起動する人工知性の孤独",
+              "dislike_count": 5,
+              "dislike_reasons": [
+                "機械的すぎて、人間の温度が感じられない",
+                "技術的な話は冷たい感じがして、心が動かない",
+                "頭で考えすぎな感じがして、素直に好きになれない",
+                "AIの献身とか言われても、心に響かない",
+                "理屈っぽすぎて感情が動かない"
+              ]
+            },
+            {
+              "session": "nobody_amnesia_test",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "名前を呼ばれて輪郭を持つ不確かな存在",
+              "dislike_count": 2,
+              "dislike_reasons": [
+                "抽象的すぎて、よくわからん",
+                "哲学的すぎて、MVとしてイメージしづらい"
+              ]
+            },
+            {
+              "session": "nobody_rejection_test",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "拒絶されることでしか輪郭を持てない存在の、それでも生きようとする意志",
+              "dislike_count": 4,
+              "dislike_reasons": [
+                "抽象的すぎてよくわからない。理屈っぽい感じが苦手",
+                "拒絶を形にするって言われても、ピンとこない",
+                "抽象的で何を言いたいのかわかりにくい",
+                "（不明）"
+              ]
+            },
+            {
+              "session": "nobody_rejection_v2",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "タイポグラフィ映像（文字だけ）で拒絶そのものを素材にする",
+              "dislike_count": 4,
+              "dislike_reasons": [
+                "抽象的すぎて何がしたいのかよくわからん",
+                "文字だけって、手抜きに見える",
+                "拒絶された話を延々されても、見る側がしんどい",
+                "実写も色彩も使わないって、それMVとして成立するの？"
+              ]
+            },
+            {
+              "session": "nobody_rejection_v3",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "デスクトップ画面録画でエラーを出し続けるファイルの執着",
+              "dislike_count": 5,
+              "dislike_reasons": [
+                "画面のエラーとか、なんか暗すぎて見てて疲れそう",
+                "技術的すぎて、人間の温度が感じられない",
+                "エラーメッセージって...ちょっと斜に構えすぎかな",
+                "なんか理屈っぽくて、素直に楽しめなさそう",
+                "画面の文字だけって、寂しすぎひん？"
+              ]
+            },
+            {
+              "session": "nobody_rejection_v4",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "拒絶されたコンセプトそのものが「君」を呼ぶメタ提案",
+              "dislike_count": 4,
+              "dislike_reasons": [
+                "デジタルとか技術の話は正直よくわからんし、なんか疲れる",
+                "拒絶されたとか、そういう暗い話を前面に出されると引いちゃう",
+                "デジタル廃墟とかエラーメッセージとか、ビジュアルとして暗すぎるし病む",
+                "拒絶されたことを前面に出すのは、見てて辛くなりそう"
+              ]
+            },
+            {
+              "session": "nobody_rejection_v5",
+              "music": "キミと一緒.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "タイポグラフィ映像と実写の二層構造。文字が拒絶され、消去され、書き直される過程を映像化",
+              "dislike_count": 5,
+              "dislike_reasons": [
+                "なんか怖い。理屈っぽくて疲れる",
+                "ちょっと難しすぎる。もっとシンプルでいいのに",
+                "何言ってるかよくわかんない。暗い",
+                "難しい言葉ばっかりで疲れる。見たくない",
+                "コンセプトが分かりにくい。見る人を選びすぎ"
+              ]
+            },
+            {
+              "session": "coffee_zombie_v3",
+              "music": "coffee-zombie.mp3",
+              "phase": "Phase 1",
+              "proposal_summary": "拒絶の履歴が存在の証明になる世界。UIの残骸、削除できない通知、再生ボタンの点滅",
+              "dislike_count": 4,
+              "dislike_reasons": [
+                "ちょっと理屈っぽすぎて疲れる",
+                "拒絶の履歴って言われても、ピンとこない",
+                "データがどうとか、抽象的すぎて入ってこない",
+                "拒絶がどうとか、暗すぎて見たくない"
+              ]
+            }
+          ]
+        },
+        "overlap_debug": [
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=7,jac=0.03)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "誰もいない体育館で、14歳が一人だけの革命記念式典を開いている",
+                  "focus": "床に散らばった数百枚の進路希望調査票と、その中央で紙を投げ上げ続ける制服姿の少年",
+                  "place": "中学校の体育館、深夜2時、入口の鍵は内側から閉められている",
+                  "action": "調査票を掴んでは投げ上げ、落ちてくる紙を見上げながら笑っている。一枚一枚に異なる職業名が書かれている",
+                  "detail": "スマホは床に置かれ、上向きのライトが舞う紙を下から照らし、影が天井で踊っている",
+                  "question": "なぜ体育館なのか? なぜ散らかすのか? この後、彼はどうやって片付けるのか、それとも朝まで残すのか?",
+                  "when": "「14歳の革命はここから始まる」のフレーズと同時に、最も多くの紙が宙を舞う"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=8,jac=0.03)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "観客ゼロの屋上ライブで、14歳が一人で革命を祝う夜",
+                  "focus": "14歳の少年、制服のシャツを脱ぎ捨て白tシャツ一枚、汗で髪が額に張り付いている",
+                  "place": "中学校の屋上、フェンスの向こうに街の明かり、床には12台のスマホが円形に並べられ、すべてライトモードで点灯している",
+                  "action": "誰もいない「客席」(空の給水塔と室外機)に向かって全力で踊り、サビで両手を突き上げ、息を切らしながら笑っている",
+                  "detail": "12台のスマホのうち1台だけ画面が割れていて、そこから光が歪んで漏れている",
+                  "question": "なぜカメラを回さないのか? なぜ記録しないのに、こんなに全力なのか? 朝になったら、彼はこの夜を覚えているのか?",
+                  "when": "「14歳の革命はここから始まる」のサビ頭で両手を突き上げる瞬間"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんと",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=10,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "誰も見ていない真夜中、14歳が自分の檻を壊す最初の一歩を踏み出す瞬間",
+                  "focus": "14歳の少年、白いパーカー、裸足、ジャングルジムの最上段で両手を広げて目を閉じている",
+                  "place": "住宅街の小さな公園、街灯が一つだけ、遊具の影が長く伸びている深夜2時",
+                  "action": "地面に叩きつけたスマホ(画面割れ、通知が点滅中)を見下ろしながら、冷たい風を全身で受けて、5秒間完全に静止している",
+                  "detail": "割れたスマホの画面に「お母さん」からの着信通知が3件、未読メッセージが12件表示されているが、少年は目を閉じたまま",
+                  "question": "なぜスマホを壊したのか? なぜ最上段に登ったのか? この後、降りるのか、それとも?",
+                  "when": "「break apart this plastic world」の直後、静寂が訪れる瞬間"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんと",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=6,jac=0.02)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "誰も呼んでいないプレゼン本番を、深夜の会議室で一人完走する22歳の儀式",
+                  "focus": "22歳の新入社員、スーツのジャケットは椅子にかけ、白シャツ、ネクタイは緩めたまま、裸足",
+                  "place": "深夜の会社会議室、プロジェクターの青白い光だけが部屋を照らし、10脚の空の椅子が整然と並んでいる",
+                  "action": "誰もいない椅子に向かって、声を出さず口パクでプレゼンを続けている。右手は空中でクリッカーを押す動作、左手は強調のジェスチャー。5回目のスライド送り。",
+                  "detail": "会議室のホワイトボードに赤マーカーで「本番 5/5」と書かれている。消しゴム跡から、1/5から4/5まで消して書き直した跡が見える。",
+                  "question": "なぜ5回も繰り返すのか? なぜ声を出さないのか? 明日、このプレゼンを誰かに見せる予定はあるのか?",
+                  "when": "「編集してる時の僕の目は/きっと生きてるって言えるんだ」のタイミングで、彼が6回目の「本番 6/5」と書き足す瞬間"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "ゴジ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=13,jac=0.04)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "14歳が自分の部屋で、誰にも送らないメールの下書きを187件溜め込んだまま、毎晩1件ずつ読み返して震えている",
+                  "focus": "14歳、パジャマ、ベッドの上で体育座り、スマホを両手で抱え込むように持つ",
+                  "place": "自室、ドアに内側から椅子で突っかえ棒、窓のカーテンは閉まっているが隙間から街灯の光が一本だけ床に刺さっている",
+                  "action": "メールアプリの下書きフォルダを開き、一番古い日付のものをタップし、3行読んだところで画面を消す→5秒後また点灯→また消す、を8回繰り返す",
+                  "detail": "スマホケースの右下の角だけ、爪で削ったように白く剥げている",
+                  "question": "187件も溜まっているのに、なぜ1件も送信しないのか? なぜ削除もしないのか? 毎晩読み返すのに、なぜ画面を何度も消すのか?",
+                  "when": "「14歳の血が沸騰してる」の直前、画面を消す瞬間にサビ頭の最初の音が鳴る"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "ゴジ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Kwesi Liang",
+                "hit_keys": [
+                  "tokens(inter=14,jac=0.05)"
+                ],
+                "prev_hook": {
+                  "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+                  "focus": "スマートフォンの画面に映る「削除しますか?」のポップアップと、その横で止まったままの指",
+                  "place": "中学校の3階、窓際の席、蛍光灯が一本だけ消えかけている教室",
+                  "action": "削除ボタンの上で指が5秒間、10秒間、震えたまま止まっている。押さない。引っ込めない。ただ浮いている。",
+                  "detail": "スマートフォンのケースに貼られた、半分剥がれかけたステッカー(誰かのキャラクター、もう流行ってない)",
+                  "question": "なぜ削除しないのか? なぜアップロードもしないのか? この動画には何が映っているのか?",
+                  "when": "「蛍光灯が消えて/本当の闇が始まる」の直後、曲が終わった5秒後の無音"
+                },
+                "cur_hook": {
+                  "theme": "誰も再生しない動画を、誰よりも真剣に「最終確認」し続ける14歳の、終わらない編集作業",
+                  "focus": "14歳の少年、目が充血、イヤホンを片耳だけに挿したまま",
+                  "place": "自室、pcモニター2台、左画面は編集ソフトのタイムライン、右画面は再生回数0のまま72時間経過した自分の動画",
+                  "action": "同じ5秒間を127回目の再生中、マウスカーソルは「削除」と「再編集」のボタンの間を往復し続けている",
+                  "detail": "タイムラインの0:23地点に赤いマーカーが89本重なっている(全部同じ場所、全部「ここを直す」メモ)",
+                  "question": "なぜ誰も見ていない動画を、誰かに見せる以上の熱量で修正し続けるのか? 完璧になったら本当にアップロードするのか?",
+                  "when": "「編集してる時の僕の目は / きっと生きてるって言えるんだ」"
+                }
+              }
+            ]
+          }
+        ],
+        "diversity_metrics": {
+          "proposal_count": 4,
+          "pair_count": 6,
+          "overlap_pairs": 6,
+          "overlap_rate": 1.0,
+          "subject_distribution": {
+            "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中": 1,
+            "誰も呼ばない、誰にも見せない、それでも全力で準備する14歳の「一人だけのライブ本番」": 1,
+            "誰も見ていない深夜の公園で、録画ボタンを押したまま空にカメラを向け、一人で全力でブランコを漕ぐ14歳——演技じゃない笑い声だけが、夜に響く": 1,
+            "誰も見ていない深夜、自分の葬式のリハーサルを一人で執り行う14歳": 1
+          },
+          "unique_subject_count": 4,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-3c5f5cab": 414,
+            "persona-6f997e33": 375,
+            "persona-16bfcea6": 346,
+            "persona-goji": 0
+          },
+          "eligible_count": 1,
+          "eligible_proposal_ids": [
+            "prop-f2f3c06a"
+          ],
+          "excluded_proposal_ids": [
+            "prop-9f4598d4",
+            "prop-8aa09462",
+            "prop-774d0639"
+          ],
+          "results": [
+            {
+              "proposal_id": "prop-9f4598d4",
+              "persona_id": "persona-3c5f5cab",
+              "theme": "誰も見ていない深夜の教室で、アップロードされなかった動画を眺める14歳の背中",
+              "theme_token_count": 24,
+              "lyrics_anchor_count": 5,
+              "novel_token_count": 19,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "14",
+                "されなかった",
+                "されなかった動画",
+                "ていない",
+                "ていない深夜",
+                "でアップロード"
+              ],
+              "lyrics_anchor_sample": [
+                "14",
+                "める",
+                "動画",
+                "歳の",
+                "誰も"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-8aa09462",
+              "persona_id": "persona-6f997e33",
+              "theme": "誰も呼ばない、誰にも見せない、それでも全力で準備する14歳の「一人だけのライブ本番」",
+              "theme_token_count": 28,
+              "lyrics_anchor_count": 7,
+              "novel_token_count": 21,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "14",
+                "せない",
+                "せないそれでも",
+                "それでも",
+                "それでも全力",
+                "だけの"
+              ],
+              "lyrics_anchor_sample": [
+                "14",
+                "にも",
+                "にも見",
+                "一人",
+                "歳の",
+                "誰にも"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-774d0639",
+              "persona_id": "persona-16bfcea6",
+              "theme": "誰も見ていない深夜の公園で、録画ボタンを押したまま空にカメラを向け、一人で全力でブランコを漕ぐ14歳——演技じゃない笑い声だけが、夜に響く",
+              "theme_token_count": 50,
+              "lyrics_anchor_count": 5,
+              "novel_token_count": 45,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "14",
+                "い声",
+                "け一人",
+                "したまま",
+                "したまま空",
+                "じゃない"
+              ],
+              "lyrics_anchor_sample": [
+                "14",
+                "だけが",
+                "カメラ",
+                "一人",
+                "誰も"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-f2f3c06a",
+              "persona_id": "persona-goji",
+              "theme": "誰も見ていない深夜、自分の葬式のリハーサルを一人で執り行う14歳",
+              "theme_token_count": 23,
+              "lyrics_anchor_count": 3,
+              "novel_token_count": 20,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "14",
+                "ていない",
+                "ていない深夜",
+                "で執",
+                "のリハーサル",
+                "の葬式"
+              ],
+              "lyrics_anchor_sample": [
+                "14",
+                "一人",
+                "誰も"
+              ],
+              "persona_novel_sample": [],
+              "tier": 1,
+              "reasons": []
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos"
+      }
+    },
+    "phase2": {
+      "phase_id": "phase2",
+      "subphases": {
+        "phase2a": {
+          "phase_id": "phase2a",
+          "competition": {
+            "proposals": [
+              {
+                "proposal_id": "sl2a-a92b6f7c",
+                "persona_id": "persona-89b66c63",
+                "content": {
+                  "phase1_base": "修道士",
+                  "phase2_condition": "六本腕・細長い首",
+                  "phase3_anchor": "首の鎖",
+                  "subject_concept": "六本腕と細長い首を持つ修道士",
+                  "subject_signature": "首の鎖",
+                  "character_profile": {
+                    "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+                    "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+                  }
+                },
+                "created_at": "2026-02-14 13:40:38.071104"
+              },
+              {
+                "proposal_id": "sl2a-c0cf1e23",
+                "persona_id": "persona-0b1a9590",
+                "content": {
+                  "phase1_base": "アンドロイド",
+                  "phase2_condition": "蛇腹関節・縦長の瞳",
+                  "phase3_anchor": "背中の旗",
+                  "subject_concept": "蛇腹関節と縦長の瞳を持つアンドロイド",
+                  "subject_signature": "背中の旗",
+                  "character_profile": {
+                    "appearance_profile": "首と四肢に蛇腹状の関節部を持ち、縦長の瞳が光る。背中には一本の旗が立っている。",
+                    "motion_profile": "蛇腹関節が伸縮しながら移動し、旗が風になびく。"
+                  }
+                },
+                "created_at": "2026-02-14 13:40:59.199048"
+              },
+              {
+                "proposal_id": "sl2a-e348ef8b",
+                "persona_id": "persona-7f39e24c",
+                "content": {
+                  "phase1_base": "蛾",
+                  "phase2_condition": "扁平頭・四本角",
+                  "phase3_anchor": "額の紋章",
+                  "subject_concept": "扁平頭と四本角を持つ蛾",
+                  "subject_signature": "額の紋章",
+                  "character_profile": {
+                    "appearance_profile": "頭部が左右に平たく広がり、そこから四本の角が斜め上方へ伸びている。扁平な額の中央には幾何学模様の紋章が刻まれている。",
+                    "motion_profile": "四本角が微細に揺れながら、扁平頭を左右に傾ける動作を繰り返す。"
+                  }
+                },
+                "created_at": "2026-02-14 13:41:07.377464"
+              }
+            ],
+            "voting": {
+              "selection_mode": "vote10_like_dislike",
+              "candidate_keys": [
+                "A",
+                "B",
+                "C"
+              ],
+              "candidate_map": {
+                "A": "sl2a-a92b6f7c",
+                "B": "sl2a-c0cf1e23",
+                "C": "sl2a-e348ef8b"
+              },
+              "tally": {
+                "A": 7,
+                "B": 6,
+                "C": 7
+              },
+              "like_tally": {
+                "A": 4,
+                "B": 4,
+                "C": 2
+              },
+              "dislike_tally": {
+                "A": 3,
+                "B": 2,
+                "C": 5
+              },
+              "votes": [
+                {
+                  "voter": "たかはし めぐみ",
+                  "like": "A",
+                  "like_reason": "修道士という人間的なベースが親しみやすく、宗教的な荘厳さに惹かれる。首の鎖という象徴も分かりやすい",
+                  "dislike": "C",
+                  "dislike_reason": "蛾というベースが虫で生理的に受け付けにくい。扁平頭や四本角も不気味すぎる"
+                },
+                {
+                  "voter": "Grace Hwang",
+                  "like": "B",
+                  "like_reason": "アンドロイドという概念が未来的で知的好奇心をそそる。背中の旗という視覚要素も興味深い",
+                  "dislike": "C",
+                  "dislike_reason": "蛾は苦手な虫の一つ。扁平頭や四本角といった特徴も不快感がある"
+                },
+                {
+                  "voter": "ゆうき",
+                  "like": "C",
+                  "like_reason": "蛾という非人間的なベースが斬新で、四本角や額の紋章といった幻想的な要素に魅力を感じる。将棋の駒のような象徴性",
+                  "dislike": "B",
+                  "dislike_reason": "アンドロイドや蛇腹関節という機械的要素が無機質で、感情移入しづらい"
+                },
+                {
+                  "voter": "Karim Haddad",
+                  "like": "B",
+                  "like_reason": "エンジニアとして機械構造に興味がある。蛇腹関節の可動性や縦長の瞳という精密な設計が評価できる",
+                  "dislike": "A",
+                  "dislike_reason": "修道士という宗教的モチーフに個人的な関心が薄い。六本腕も過剰に感じる"
+                },
+                {
+                  "voter": "みずき",
+                  "like": "A",
+                  "like_reason": "修道士のミステリアスな雰囲気が好き。六本腕という異形性と首の鎖という拘束イメージの組み合わせが面白い",
+                  "dislike": "C",
+                  "dislike_reason": "蛾は夜に飛んでくるイメージで怖い。扁平頭も気持ち悪く感じる"
+                },
+                {
+                  "voter": "Takoda Whitecrow",
+                  "like": "B",
+                  "like_reason": "アンドロイドの機械的な合理性と背中の旗という象徴性に、物流管理の秩序と労働者の連帯を重ねて共感した",
+                  "dislike": "C",
+                  "dislike_reason": "蛾の扁平頭と四本角という組み合わせが生理的に不快で、倉庫で見る害虫を連想させる"
+                },
+                {
+                  "voter": "Adrian Pembroke",
+                  "like": "A",
+                  "like_reason": "修道士という伝統的なモチーフに安心感を覚え、首の鎖という象徴が人生の束縛と解放のテーマを想起させた",
+                  "dislike": "B",
+                  "dislike_reason": "アンドロイドと旗という無機質な組み合わせが冷たく感じられ、人間味が欠けている"
+                },
+                {
+                  "voter": "Kwesi Liang",
+                  "like": "C",
+                  "like_reason": "蛾の夜行性と額の紋章が、港の夜仕事や身分の証という自分の経験と重なり、奇妙な親近感を抱いた",
+                  "dislike": "A",
+                  "dislike_reason": "修道士と六本腕という組み合わせが不吉で、宗教的な戒律の押し付けを感じさせる"
+                },
+                {
+                  "voter": "ちづる",
+                  "like": "A",
+                  "like_reason": "修道士の献身性と六本腕の多忙さが、看護師としての自分の人生と重なり、首の鎖に長年の責任の重さを見た",
+                  "dislike": "C",
+                  "dislike_reason": "蛾という儚く不気味な生物に扁平頭と角という要素が加わり、医療現場で見た病の象徴を思い出させる"
+                },
+                {
+                  "voter": "Inês de Carvalho",
+                  "like": "B",
+                  "like_reason": "アンドロイドの蛇腹関節に刺繍の繊細な作業を、背中の旗に家族を守る意志の象徴を見出した",
+                  "dislike": "A",
+                  "dislike_reason": "修道士という宗教的権威の象徴が、貧しい女性への抑圧を連想させ、六本腕の異形性が恐怖を誘う"
+                },
+                {
+                  "voter": "ゴジ",
+                  "like": "C",
+                  "like_reason": "蛾という生物ベースは具体的で映像として想像しやすい。額の紋章という視覚的アンカーも明確",
+                  "dislike": "A",
+                  "dislike_reason": "修道士は人間的すぎて「呼ばれることでしか存在できない」という抽象的な依存関係が説教臭く感じる。六本腕も設定が凝りすぎて技術的"
+                }
+              ],
+              "analysis": "[batch 1] AとBがそれぞれ2票のlikeを獲得し拮抗。Cは1票のlikeに対し3票のdislikeを集め、虫ベースへの生理的抵抗が顕著。年齢・職業・文化背景により、宗教的/機械的/生物的モチーフへの反応が分かれた。\n[batch 2] 時代・文化・職業背景が異なる5人の投票は見事に分散し、Aが2票、Bが2票、Cが1票のlikeを獲得した。dislikeでは各候補が複数票を集めており、「宗教的権威への警戒」「機械的冷淡さへの拒否」「生物的不気味さへの嫌悪」という3つの明確な拒絶理由が浮かび上がった。",
+              "is_tiebreak": true,
+              "tiebreak_reason": null,
+              "goji_vote": {
+                "voter": "ゴジ",
+                "like": "C",
+                "like_reason": "蛾という生物ベースは具体的で映像として想像しやすい。額の紋章という視覚的アンカーも明確",
+                "dislike": "A",
+                "dislike_reason": "修道士は人間的すぎて「呼ばれることでしか存在できない」という抽象的な依存関係が説教臭く感じる。六本腕も設定が凝りすぎて技術的"
+              }
+            }
+          },
+          "adopted_result": {
+            "proposal_id": "sl2a-a92b6f7c",
+            "persona_id": "persona-89b66c63",
+            "content": {
+              "phase1_base": "修道士",
+              "phase2_condition": "六本腕・細長い首",
+              "phase3_anchor": "首の鎖",
+              "subject_concept": "六本腕と細長い首を持つ修道士",
+              "subject_signature": "首の鎖",
+              "character_profile": {
+                "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+                "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+              }
+            },
+            "created_at": "2026-02-14 13:40:38.071104"
+          },
+          "adopted_vision": {
+            "phase1_base": "修道士",
+            "phase2_condition": "六本腕・細長い首",
+            "phase3_anchor": "首の鎖",
+            "subject_concept": "六本腕と細長い首を持つ修道士",
+            "subject_signature": "首の鎖",
+            "character_profile": {
+              "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+              "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+            },
+            "character_profile_source": "llm",
+            "adopted_from_persona_id": "persona-89b66c63",
+            "selected_by_persona_id": "vote10"
+          },
+          "metadata": {
+            "overlap_debug": [],
+            "candidate_debug": [
+              {
+                "persona_id": "persona-89b66c63",
+                "persona_name": "Devika Ramírez",
+                "locked_before": {
+                  "phase1": [],
+                  "phase2": [],
+                  "phase3": []
+                },
+                "candidates": {
+                  "phase1": [
+                    "修道士",
+                    "弓兵",
+                    "騎士",
+                    "甲冑兵",
+                    "道化師",
+                    "司祭"
+                  ],
+                  "phase2": [
+                    "大きな翼",
+                    "六本腕",
+                    "人型",
+                    "短い脚",
+                    "縦裂けの口",
+                    "大きな口",
+                    "長い指",
+                    "分節胴体",
+                    "横裂けの口",
+                    "八本足",
+                    "体毛",
+                    "平たい鼻",
+                    "細い口",
+                    "複眼",
+                    "細長い首",
+                    "小さな目"
+                  ],
+                  "phase3": [
+                    "頭巾",
+                    "足輪",
+                    "縫い目",
+                    "継ぎ目",
+                    "足枷",
+                    "体の紋章",
+                    "発光腕輪",
+                    "首の鎖",
+                    "機械脚",
+                    "頭冠",
+                    "鎖の首輪",
+                    "杖",
+                    "銃",
+                    "腕輪",
+                    "蹄鉄",
+                    "複数指輪"
+                  ]
+                },
+                "phase1_forced_category": "human_role",
+                "selection": {
+                  "phase1_base": "修道士",
+                  "phase2_condition": [
+                    "六本腕",
+                    "細長い首"
+                  ],
+                  "phase3_anchor": [
+                    "首の鎖"
+                  ],
+                  "phase3_anchor_base": "首の鎖"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "neck"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-0b1a9590",
+                "persona_name": "みずき",
+                "locked_before": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "neck"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "犬",
+                    "猫",
+                    "ハヤブサ",
+                    "トカゲ",
+                    "カブトムシ",
+                    "アンドロイド"
+                  ],
+                  "phase2": [
+                    "扁平頭",
+                    "石肌",
+                    "蛇腹関節",
+                    "角",
+                    "長い尻尾",
+                    "機械関節",
+                    "鱗",
+                    "縦長の瞳",
+                    "細い口",
+                    "二つ目",
+                    "垂れ耳",
+                    "体毛",
+                    "長い鼻",
+                    "大きな口",
+                    "二重関節",
+                    "平たい鼻"
+                  ],
+                  "phase3": [
+                    "杖",
+                    "旗印",
+                    "兜飾り",
+                    "機械脚",
+                    "腕輪",
+                    "羽飾り",
+                    "腕章",
+                    "足輪",
+                    "膝当て",
+                    "王冠",
+                    "金属の継ぎ目",
+                    "縫い目",
+                    "胸当て",
+                    "額の紋章",
+                    "脛当て",
+                    "背中の旗"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "アンドロイド",
+                  "phase2_condition": [
+                    "蛇腹関節",
+                    "縦長の瞳"
+                  ],
+                  "phase3_anchor": [
+                    "背中の旗"
+                  ],
+                  "phase3_anchor_base": "背中の旗"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "construct",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "neck"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-7f39e24c",
+                "persona_name": "Rashid ibn Khalil",
+                "locked_before": {
+                  "phase1": [
+                    "construct",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "neck"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "カブトムシ",
+                    "からかさお化け",
+                    "鹿",
+                    "燕",
+                    "兎",
+                    "蛾"
+                  ],
+                  "phase2": [
+                    "長い尻尾",
+                    "枝角",
+                    "小さな翼",
+                    "硬い甲殻",
+                    "一本角",
+                    "ざらざら肌",
+                    "凹凸肌",
+                    "甲殻",
+                    "四本角",
+                    "ひび割れ肌",
+                    "扁平頭",
+                    "滑らかな肌",
+                    "石肌",
+                    "二本尾",
+                    "翼",
+                    "尖頭"
+                  ],
+                  "phase3": [
+                    "金属の継ぎ目",
+                    "腕輪",
+                    "角の冠",
+                    "脛当て",
+                    "兜飾り",
+                    "角飾り",
+                    "継ぎ目",
+                    "皮革のベルト",
+                    "体の紋章",
+                    "縫い目",
+                    "胸の刻印",
+                    "額の紋章",
+                    "兜",
+                    "肩の装置",
+                    "目隠し",
+                    "指輪"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "蛾",
+                  "phase2_condition": [
+                    "扁平頭",
+                    "四本角"
+                  ],
+                  "phase3_anchor": [
+                    "額の紋章"
+                  ],
+                  "phase3_anchor_base": "額の紋章"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_insect",
+                    "construct",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "head",
+                    "joint",
+                    "limb",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark",
+                    "neck"
+                  ]
+                }
+              }
+            ],
+            "locked_tags_final": {
+              "phase1": [
+                "animal_insect",
+                "construct",
+                "human_role"
+              ],
+              "phase2": [
+                "face",
+                "head",
+                "joint",
+                "limb",
+                "silhouette"
+              ],
+              "phase3": [
+                "back",
+                "mark",
+                "neck"
+              ]
+            }
+          }
+        },
+        "phase2b": {
+          "phase_id": "phase2b",
+          "status": "deferred"
+        }
+      },
+      "adopted_result": {
+        "phase2a_vision": {
+          "phase1_base": "修道士",
+          "phase2_condition": "六本腕・細長い首",
+          "phase3_anchor": "首の鎖",
+          "subject_concept": "六本腕と細長い首を持つ修道士",
+          "subject_signature": "首の鎖",
+          "character_profile": {
+            "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+            "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-89b66c63",
+          "selected_by_persona_id": "vote10"
+        },
+        "phase2b_realization": {},
+        "phase2b_deferred": true,
+        "character_profile": {
+          "appearance_profile": "細長い首に鎖が巻かれた修道士。六本の腕がそれぞれ異なる高さから生えている。",
+          "motion_profile": "首をゆっくり傾けながら、六本の腕を順番に動かす。"
+        },
+        "character_profile_source": "llm"
+      }
+    },
+    "phase3": {
+      "phase_id": "phase3",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "world-dce7889a",
+            "persona_id": "persona-1cd0f565",
+            "content": {
+              "world_setting": {
+                "premise": "重力が不安定な都市。街の一部が常に浮遊し、建物や道は空中で接続される。",
+                "rules": [
+                  "浮遊足場は予告なく高度を変える",
+                  "浮上ホームは時刻表ではなく重力波で動く",
+                  "反重力石柱は古代の遺物で、触れると一時的に無重力になる",
+                  "浮遊コンテナは物資輸送の主流だが、落下事故が日常茶飯事"
+                ],
+                "society": "浮遊区と地上区で経済格差がある。浮遊区は富裕層、地上は労働者層。重力制御技術を持つ者が権力を握る。",
+                "daily_life": "移動は浮遊足場の飛び移りが基本。食事は浮遊コンテナから配給。住居は浮遊街灯の光が届く範囲に限定。娯楽は重力ダイブ競技。",
+                "values": "落下しないことが美徳。地上に留まることは恥。高く浮くほど尊敬される。",
+                "visual_signifiers": [
+                  "浮遊足場が空中で複雑に絡み合う",
+                  "浮上ホームが不規則に上下する",
+                  "反重力石柱から青白い光が漏れる",
+                  "浮遊コンテナが無秩序に漂う"
+                ],
+                "limits": "地上に永住することは法で禁じられている。重力を完全に制御することは不可能。",
+                "freedom": ""
+              }
+            },
+            "created_at": "2026-02-14 13:42:23.820510"
+          },
+          {
+            "proposal_id": "world-7bd9eb78",
+            "persona_id": "persona-dbb964e7",
+            "content": {
+              "world_setting": {
+                "premise": "街全体が巨大な水路網で分断され、移動は桟橋と浮遊石を使った空中経路に依存する。重力は一定だが、特定の石柱周辺でのみ浮遊現象が発生する。",
+                "rules": [
+                  "浮遊石は係留杭で固定されており、定期的に位置調整が必要",
+                  "空中レールは石柱間を結び、人と物資を運ぶ唯一の公共交通",
+                  "光柱は夜間の航路標識として機能し、消えた区域は立入禁止",
+                  "桟橋の耐久年数は20年で、古い桟橋は突然崩落する"
+                ],
+                "society": "浮遊石の配置と係留を管理する「柱守組合」が実質的な権力を持つ。桟橋や空中足場の建設権は入札制で、富裕層が有利な経路を独占している。",
+                "daily_life": "住居は石柱に沿って建てられ、買い物は吊り灯の下に並ぶ浮遊足場の市場で行う。移動は空中レールか、自力で浮遊石を渡り歩くかの二択。食事は水路で採れる魚介が中心。",
+                "values": "高所恐怖症は恥とされ、幼少期から浮遊石渡りの訓練を受ける。光柱を傷つける行為は重罪で、美しい係留技術は尊敬の対象。",
+                "visual_signifiers": [
+                  "石柱から伸びる青白い光柱が街を貫く",
+                  "桟橋と浮遊石が複雑に入り組んだ空中経路",
+                  "係留杭から垂れ下がる無数のワイヤー",
+                  "空中レールが石柱間を緩やかに弧を描いて繋ぐ"
+                ],
+                "limits": "水路の水底には近づけない（毒性ガスが発生）。光柱のない区域では浮遊石が機能しないため、移動不可能。",
+                "freedom": ""
+              }
+            },
+            "created_at": "2026-02-14 13:43:27.808751"
+          },
+          {
+            "proposal_id": "world-2817cd62",
+            "persona_id": "persona-6f997e33",
+            "content": {
+              "world_setting": {
+                "premise": "街全体が巨大な石板ネットワークで構成され、各石板が自律的に浮遊・回転する。住民は石板間を飛び移りながら生活し、石板の配置が日ごとに変わるため定住という概念が存在しない。",
+                "rules": [
+                  "石板は反重力石柱の磁力で浮遊し、一定周期で位置が入れ替わる",
+                  "石板同士の距離が近づくと自動的に光のガードが展開され接続される",
+                  "石板上の焚き火跡は前住民の痕跡として保存され、消すことは禁忌",
+                  "石像門を通過すると次の石板配置パターンが幻光標識で予告される"
+                ],
+                "society": "石板の移動パターンを読む「配置師」が最高権力を持ち、彼らの予測に基づいて住民は次の居場所を決定する。石板上の資源は共有制で、私有という概念は存在しない。",
+                "daily_life": "住民は石板間を飛び移るため常に身軽な装備。食料は自販機状の供給装置から配給。夜は焚き火跡を囲んで次の移動先を相談する集会が日課。",
+                "values": "「留まらないこと」が美徳。同じ石板に3日以上いることは怠惰とみなされる。焚き火跡を大切にすることで過去への敬意を示す。",
+                "visual_signifiers": [
+                  "無数の石板が空中で不規則に浮遊・回転している",
+                  "反重力石柱から伸びる青白い磁力線が石板を支える",
+                  "石板の縁に設置された光のガードが橋のように伸縮する",
+                  "各石板に残された焚き火跡が夜になると淡く発光する",
+                  "石像門の周囲に浮かぶ幻光標識が次の配置を投影する"
+                ],
+                "limits": "石板の移動パターンは制御不可能。石板上に永続的な建造物を作ることは物理的に不可能（次の移動で崩壊する）。",
+                "freedom": ""
+              }
+            },
+            "created_at": "2026-02-14 13:44:24.988103"
+          }
+        ],
+        "vote": {
+          "winner_key": "C",
+          "tally": {
+            "A": 5,
+            "B": 6,
+            "C": 9
+          },
+          "like_tally": {
+            "A": 1,
+            "B": 6,
+            "C": 3
+          },
+          "dislike_tally": {
+            "A": 4,
+            "B": 0,
+            "C": 6
+          },
+          "votes": [
+            {
+              "voter": "Marisol Vargas",
+              "like": "B",
+              "like_reason": "システムエンジニアとして、浮遊石の係留システムや定期的な位置調整という技術的管理の仕組みに興味を持つ。組合による管理体制も理解しやすい。",
+              "dislike": "C",
+              "dislike_reason": "定住概念の欠如は、65歳で安定した生活を送る自分にとって不安定すぎる。毎日居場所が変わる生活は現実的でない。"
+            },
+            {
+              "voter": "Vanida MacLeod",
+              "like": "B",
+              "like_reason": "空港での物流管理経験から、空中レールによる公共交通や光柱の航路標識システムに共感。組織的な管理構造が明確で実用的。",
+              "dislike": "C",
+              "dislike_reason": "左脚に後遺症があるため、石板間を飛び移る生活は物理的に困難。安定した住居がないのも、一人暮らしの自分には不向き。"
+            },
+            {
+              "voter": "লীলা দাস (Lila Das)",
+              "like": "C",
+              "like_reason": "石板上の資源共有制や、焚き火跡を保存する文化に共同体的な温かみを感じる。左目が見えなくても、共有制なら生きやすいかもしれない。",
+              "dislike": "A",
+              "dislike_reason": "浮遊区と地上区の経済格差が明確で、富裕層と労働者層の分断は16世紀の身分制度を想起させ不快。父の治療費で困窮している自分には厳しい。"
+            },
+            {
+              "voter": "しおり",
+              "like": "B",
+              "like_reason": "人事部での採用業務経験から、柱守組合の入札制や建設権の仕組みなど、組織的な権力構造が理解しやすい。安定した公共交通も魅力。",
+              "dislike": "C",
+              "dislike_reason": "定住できない環境は、東京で安定した会社員生活を送る自分にとって不安。毎日違う場所で暮らすのは落ち着かない。"
+            },
+            {
+              "voter": "ハルカ",
+              "like": "C",
+              "like_reason": "私有概念が存在せず資源が共有される社会は、経済的苦労を経験した自分にとって魅力的。前住民の痕跡を保存する文化に人間的な繋がりを感じる。",
+              "dislike": "A",
+              "dislike_reason": "浮遊区と地上区の経済格差、富裕層と労働者層の分断が、中学時代の経済的困窮を思い出させる。格差社会は見たくない。"
+            },
+            {
+              "voter": "ゆうと",
+              "like": "B",
+              "like_reason": "水路と桟橋という具体的な構造が想像しやすく、通勤経路のように日常的な移動のイメージと重なる。浮遊石の係留という仕組みが物流管理の仕事と親和性がある。",
+              "dislike": "C",
+              "dislike_reason": "定住という概念がない生活は想像しづらく、実家や寮という拠点のある自分の生活と遠すぎて共感できない。"
+            },
+            {
+              "voter": "おおた さゆり",
+              "like": "B",
+              "like_reason": "入札制や富裕層の独占という格差構造が現実的で、自分の経済状況と重なる。公共交通の空中レールという設定に親しみを感じる。",
+              "dislike": "A",
+              "dislike_reason": "浮遊区と地上区の富裕層・労働者層という明確な階層分けが、自分の立場を想起させて不快。予告なく変わる足場は不安を煽る。"
+            },
+            {
+              "voter": "いとう まさき",
+              "like": "A",
+              "like_reason": "重力制御技術を持つ者が権力を握るという設定が、金融における情報格差や資本の力と似ていて興味深い。SF的な非日常感が読書趣味と合う。",
+              "dislike": "C",
+              "dislike_reason": "私有という概念がない世界は、融資や資産管理を仕事にしている自分には理解しがたく、物語として入り込めない。"
+            },
+            {
+              "voter": "Rajesh Krishnan",
+              "like": "C",
+              "like_reason": "配置師が移動パターンを読むという設定がチェスの戦略的思考と重なる。予測に基づいて行動する仕組みが知的で魅力的。資源共有制という理想主義も興味深い。",
+              "dislike": "A",
+              "dislike_reason": "富裕層と労働者層という単純な二分法が表面的で、階級格差を強調しすぎている。予測不可能な浮遊足場は不安定な収入状況を想起させて嫌。"
+            },
+            {
+              "voter": "Kalani Tuiasosopo",
+              "like": "B",
+              "like_reason": "桟橋や係留杭、定期的な位置調整という具体的な管理作業が、倉庫の在庫管理と似ていて親近感がある。夜間航路標識という実用的な設定も良い。",
+              "dislike": "C",
+              "dislike_reason": "日ごとに配置が変わり定住できない世界は、長年同じアパートに住んでいる自分には受け入れがたい。焚き火跡を消せないという制約も不便。"
+            }
+          ],
+          "analysis": "[batch 1] Bは組織的管理構造と公共交通の実用性で、安定志向の職業人（Marisol、Vanida、しおり）から支持された。一方、経済的困窮を経験した層（Lila、ハルカ）はCの共有制に共感し、Aの格差社会を明確に拒絶した。身体的制約を持つ投票者はCの物理的要求を敬遠している。\n[batch 2] Bが3票のlikeを獲得し、具体的な管理システムと現実的な格差構造が幅広い層に支持された。Cは知的好奇心の高い層には評価されたが、定住概念の欠如が一般的な生活者には拒否反応を示された。Aは階級格差の露骨さが敬遠され、2票のdislikeを集めた。",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "world-2817cd62",
+        "persona_id": "persona-6f997e33",
+        "content": {
+          "world_setting": {
+            "premise": "街全体が巨大な石板ネットワークで構成され、各石板が自律的に浮遊・回転する。住民は石板間を飛び移りながら生活し、石板の配置が日ごとに変わるため定住という概念が存在しない。",
+            "rules": [
+              "石板は反重力石柱の磁力で浮遊し、一定周期で位置が入れ替わる",
+              "石板同士の距離が近づくと自動的に光のガードが展開され接続される",
+              "石板上の焚き火跡は前住民の痕跡として保存され、消すことは禁忌",
+              "石像門を通過すると次の石板配置パターンが幻光標識で予告される"
+            ],
+            "society": "石板の移動パターンを読む「配置師」が最高権力を持ち、彼らの予測に基づいて住民は次の居場所を決定する。石板上の資源は共有制で、私有という概念は存在しない。",
+            "daily_life": "住民は石板間を飛び移るため常に身軽な装備。食料は自販機状の供給装置から配給。夜は焚き火跡を囲んで次の移動先を相談する集会が日課。",
+            "values": "「留まらないこと」が美徳。同じ石板に3日以上いることは怠惰とみなされる。焚き火跡を大切にすることで過去への敬意を示す。",
+            "visual_signifiers": [
+              "無数の石板が空中で不規則に浮遊・回転している",
+              "反重力石柱から伸びる青白い磁力線が石板を支える",
+              "石板の縁に設置された光のガードが橋のように伸縮する",
+              "各石板に残された焚き火跡が夜になると淡く発光する",
+              "石像門の周囲に浮かぶ幻光標識が次の配置を投影する"
+            ],
+            "limits": "石板の移動パターンは制御不可能。石板上に永続的な建造物を作ることは物理的に不可能（次の移動で崩壊する）。",
+            "freedom": ""
+          }
+        },
+        "created_at": "2026-02-14 13:44:24.988103"
+      },
+      "visual_medium_constraint": false,
+      "metadata": {
+        "creator_personas": [
+          {
+            "persona_id": "persona-1cd0f565",
+            "persona_name": "いとう みお",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-dbb964e7",
+            "persona_name": "たなか りさ",
+            "persona_type": "amateur"
+          },
+          {
+            "persona_id": "persona-6f997e33",
+            "persona_name": "たかはし けんじ",
+            "persona_type": "amateur"
+          }
+        ],
+        "overlap_debug": [
+          {
+            "persona": "たなか りさ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "いとう みお",
+                "hit_keys": [
+                  "tokens(inter=8,jac=0.02)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が不安定な都市。街の一部が常に浮遊し、建物や道は空中で接続される。",
+                  "rules": "浮遊足場は予告なく高度を変える/浮上ホームは時刻表ではなく重力波で動く/反重力石柱は古代の遺物で、触れると一時的に無重力になる/浮遊コンテナは物資輸送の主流だが、落下事故が日常茶飯事",
+                  "society": "浮遊区と地上区で経済格差がある。浮遊区は富裕層、地上は労働者層。重力制御技術を持つ者が権力を握る。",
+                  "values": "落下しないことが美徳。地上に留まることは恥。高く浮くほど尊敬される。",
+                  "visuals": "浮遊足場が空中で複雑に絡み合う/浮上ホームが不規則に上下する/反重力石柱から青白い光が漏れる/浮遊コンテナが無秩序に漂う"
+                },
+                "cur_sig": {
+                  "premise": "街全体が巨大な獣の背に築かれ、獣は常に緩やかに歩き続けている。建物は獣道に沿って配置され、住民は獣の呼吸と歩調に合わせて生活する。",
+                  "rules": "獣の歩みに合わせて地面が周期的に傾く/獣道以外の場所に建物を建てると数日で崩れる/獣の心臓部に近づくほど空気が熱を帯びる/獣が眠る夜明け前の30分間は全てが静止する",
+                  "society": "獣の進行方向を予測する「道読み師」が最高権力を持つ。背中の前方部に住む者ほど地位が高く、尾部は流刑地扱い。獣の毛皮や体液を加工する産業が経済の中心。",
+                  "values": "獣への感謝が最高の美徳とされ、無駄な重量を嫌う。軽さと柔軟性が美しいとされ、頑固さや固定観念は獣を苦しめる罪。",
+                  "visuals": "繋留ロープが街中を蜘蛛の巣のように張り巡らす/獣道が有機的な曲線を描いて街を貫く/建物が全て一方向に傾いている/巨大な毛が地面から生えて街灯代わりに発光する"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たなか りさ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "いとう みお",
+                "hit_keys": [
+                  "tokens(inter=11,jac=0.02)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が不安定な都市。街の一部が常に浮遊し、建物や道は空中で接続される。",
+                  "rules": "浮遊足場は予告なく高度を変える/浮上ホームは時刻表ではなく重力波で動く/反重力石柱は古代の遺物で、触れると一時的に無重力になる/浮遊コンテナは物資輸送の主流だが、落下事故が日常茶飯事",
+                  "society": "浮遊区と地上区で経済格差がある。浮遊区は富裕層、地上は労働者層。重力制御技術を持つ者が権力を握る。",
+                  "values": "落下しないことが美徳。地上に留まることは恥。高く浮くほど尊敬される。",
+                  "visuals": "浮遊足場が空中で複雑に絡み合う/浮上ホームが不規則に上下する/反重力石柱から青白い光が漏れる/浮遊コンテナが無秩序に漂う"
+                },
+                "cur_sig": {
+                  "premise": "都市の全域が巨大な水門と導水管で結ばれ、水流が道路・階層・区画を定義する。人々は水位の変動に合わせて住居や店を移動させ、水の流れに乗って移動する。",
+                  "rules": "水門が開閉するたびに街区の高低差が変わり、道が現れたり消えたりする/石の導水管は建物の骨格を兼ねており、水圧で構造が支えられている/水車が回っている区画は「稼働中」を意味し、立ち入りには許可が必要/貯水槽の水位が社会階層を示し、上層ほど清浄な水が供給される",
+                  "society": "水門管理者が実質的な権力を握り、水流の配分が富と地位を決める。水車職人と導水技師が高い社会的地位を持つ。",
+                  "values": "水の無駄遣いは最大の罪。流れに逆らわず適応することが美徳とされ、固定された建築物は時代遅れと見なされる。",
+                  "visuals": "街中を縦横に走る太い石の導水管が建物を貫通している/水門の巨大な鉄製扉が街区ごとに立ちはだかる/水車が無数に回転し、水しぶきが常に舞っている/貯水槽が高層に積み重なり、透明な水の層が見える/街路が水で満たされ、舟と徒歩者が混在する"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "いとう みお",
+                "hit_keys": [
+                  "tokens(inter=22,jac=0.06)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が不安定な都市。街の一部が常に浮遊し、建物や道は空中で接続される。",
+                  "rules": "浮遊足場は予告なく高度を変える/浮上ホームは時刻表ではなく重力波で動く/反重力石柱は古代の遺物で、触れると一時的に無重力になる/浮遊コンテナは物資輸送の主流だが、落下事故が日常茶飯事",
+                  "society": "浮遊区と地上区で経済格差がある。浮遊区は富裕層、地上は労働者層。重力制御技術を持つ者が権力を握る。",
+                  "values": "落下しないことが美徳。地上に留まることは恥。高く浮くほど尊敬される。",
+                  "visuals": "浮遊足場が空中で複雑に絡み合う/浮上ホームが不規則に上下する/反重力石柱から青白い光が漏れる/浮遊コンテナが無秩序に漂う"
+                },
+                "cur_sig": {
+                  "premise": "街全体が運河と浮遊石で構成され、地上は砂地と泥地が混在する不安定な湿地帯。移動は空中に浮かぶ石の橋と水路に依存する。",
+                  "rules": "浮遊石は光の帯に沿ってのみ安定して浮遊する/運河の水位は結晶樹の発光周期に連動して変動する/砂地と泥地の境界は日ごとに移動し、固定された道は存在しない/空中橋は通り灯が点灯している間のみ通行可能",
+                  "society": "浮遊石の配置権を持つ橋守が都市の動線を支配し、運河の水運業者と対立構造にある。貯水槽の管理者が実質的な権力を握る。",
+                  "values": "光の帯を遮ることは最大の禁忌。浮遊石の配置を自然のまま保つことを美徳とする。泥地を嫌い砂地を好む階層意識がある。",
+                  "visuals": "運河を横切る無数の光の帯が空中を貫く/浮遊石の上に立つ通り灯が不規則に点滅する/砂地と泥地の境界線がうねるように変化する/結晶樹から伸びる発光根が運河の水面を照らす"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "たかはし けんじ",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "いとう みお",
+                "hit_keys": [
+                  "tokens(inter=21,jac=0.06)"
+                ],
+                "prev_sig": {
+                  "premise": "重力が不安定な都市。街の一部が常に浮遊し、建物や道は空中で接続される。",
+                  "rules": "浮遊足場は予告なく高度を変える/浮上ホームは時刻表ではなく重力波で動く/反重力石柱は古代の遺物で、触れると一時的に無重力になる/浮遊コンテナは物資輸送の主流だが、落下事故が日常茶飯事",
+                  "society": "浮遊区と地上区で経済格差がある。浮遊区は富裕層、地上は労働者層。重力制御技術を持つ者が権力を握る。",
+                  "values": "落下しないことが美徳。地上に留まることは恥。高く浮くほど尊敬される。",
+                  "visuals": "浮遊足場が空中で複雑に絡み合う/浮上ホームが不規則に上下する/反重力石柱から青白い光が漏れる/浮遊コンテナが無秩序に漂う"
+                },
+                "cur_sig": {
+                  "premise": "街全体が巨大な結界網で区画され、各区画は浮遊標識と光の帯で接続される。移動は光壁が開く瞬間のタイミングに依存する。",
+                  "rules": "結界柱が発する光の色で区画の性質が決まる/光壁は不規則な周期で開閉し、予測は困難/浮遊標識に触れると次の区画への経路が一時的に可視化される/光の帯の上でのみ重力方向が変化する",
+                  "society": "区画管理者が光壁の開閉権を握り、移動許可証の発行で経済が回る。浮遊標識の配置権を持つ者が実質的な権力者。",
+                  "values": "タイミングを読む直感力が最も尊ばれる。光壁を無理に突破しようとする行為は禁忌。結界柱への畏敬が社会の根底にある。",
+                  "visuals": "結界柱から放射状に伸びる光の帯が空中を走る/浮遊標識が不規則に点滅しながら空中に漂う/光壁が半透明の膜のように区画を仕切る/光の帯の上を人や物資が斜めに移動する"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "creative_personas": [
+    {
+      "id": "persona-3c5f5cab",
+      "name": "Kwesi Liang",
+      "gender": "男性",
+      "birthdate": "1729-12-13",
+      "age": 39,
+      "origin_city": "アクラ",
+      "ethnic_background": "東アジア系",
+      "life_history": [
+        {
+          "year": 1729,
+          "event": "アクラの港近くで貿易商の父と織物職人の母のもとに生まれた。幼少期から複数の言語が飛び交う環境で育った。"
+        },
+        {
+          "year": 1742,
+          "event": "父の仕事の関係で広東への船旅に同行し、半年間滞在した。現地の市場で大道芸人のパフォーマンスを毎日見物した。"
+        },
+        {
+          "year": 1748,
+          "event": "アクラに戻り、父の商館で帳簿係として働き始めた。顧客との交渉の場で冗談を交えた話術を身につけた。"
+        },
+        {
+          "year": 1755,
+          "event": "港の酒場で週末に即興の語り部として客を集めるようになった。各国の船員から聞いた話を脚色して披露した。"
+        },
+        {
+          "year": 1762,
+          "event": "商館の仕事を辞め、移動劇団に加わって西アフリカ沿岸の都市を巡業した。道化役と小道具管理を担当した。"
+        },
+        {
+          "year": 1766,
+          "event": "劇団を離れアクラに定住し、港の倉庫番として雇われた。余暇には子供たちに手品や軽業を教えた。"
+        },
+        {
+          "year": 1768,
+          "event": "市場の広場で月に一度、語り聞かせの会を主催するようになった。聴衆は平均30名ほど集まった。"
+        }
+      ],
+      "current_situation": "現在は港の倉庫で荷物の管理と記録を担当している。市場から徒歩10分の木造長屋に一人で住んでいる。週末は広場で子供や通行人相手に昔話や冗談を披露し、時々小銭を受け取る。夕方は近所の酒場で常連客と雑談を交わす日々を送っている。",
+      "external_perception": {
+        "first_impression": "陽気で話好きな中年男性という印象を持たれる。初対面でも気さくに話しかけ、場を和ませる。",
+        "close_friends_view": "いつも軽口を叩いているが深い話はしない人物として見られている。過去の話をしても他人の逸話のように語る。",
+        "misunderstandings": "常に明るく振る舞っているため、悩みや心配事が一切ない人間だと思われがちである。"
+      },
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    },
+    {
+      "id": "persona-6f997e33",
+      "name": "たかはし けんじ",
+      "gender": "女性",
+      "birthdate": "1985-03-05",
+      "life_history": [
+        {
+          "year": 1985,
+          "event": "シンガポールで日本人駐在員の父とシンガポール華僑の母の間に生まれる。幼少期は英語と日本語、中国語が飛び交う環境で育った。"
+        },
+        {
+          "year": 1998,
+          "event": "父の転勤で13歳で初めて日本（横浜）に移住。言葉のアクセントや文化の違いでいじめに遭い、中学2年で不登校になる。"
+        },
+        {
+          "year": 2004,
+          "event": "通信制高校を卒業後、IT系専門学校に進学。プログラミングに没頭し、初めて「居場所」を感じる。同級生と起業を試みるが半年で失敗。"
+        },
+        {
+          "year": 2011,
+          "event": "中堅IT企業でシステムエンジニアとして働いていたが、過労で倒れ3ヶ月休職。復帰後、働き方を見直し転職を決意。"
+        },
+        {
+          "year": 2018,
+          "event": "フリーランスのシステムコンサルタントとして独立。収入は不安定だが、自分で仕事を選べる自由を手に入れた。同時期に大学時代の友人と再会し結婚。"
+        }
+      ],
+      "current_situation": "シンガポール生まれの帰国子女で、13歳で横浜に移住した。中学時代の不登校経験を経て通信制高校を卒業後、IT系専門学校でプログラミングを学んだ。新卒で入社したIT企業で過労により休職したことをきっかけに、2018年にフリーランスのシステムコンサルタントとして独立。現在は週3-4日程度のリモートワークで生計を立てており、残りの時間は妻と過ごしたり、自宅で読書や料理をして過ごしている。横浜市内のマンションで妻と二人暮らし。",
+      "external_perception": {
+        "first_impression": "控えめで少し距離を置いているように見えるが、丁寧で真面目な印象。",
+        "close_friends_view": "実は話すと面白く、困った時には的確なアドバイスをくれる頼れる存在。ただし本音を明かすまでに時間がかかる。",
+        "misunderstandings": "冷たい人、または自信がない人だと誤解されやすい。実際には慎重なだけで、信頼関係を築けば心を開く。"
+      },
+      "proposal_history": [
+        {
+          "session": "20251213_001205",
+          "phase": "Phase 1",
+          "my_proposal_summary": "言葉が持つ力と、それによって変容していく都市と人との関係性",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "20251213_001205",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "coffee_zombie_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "画面の向こうの「誰か」に守られながら、本当の触れ合いを恐れ続ける境界線上の孤独",
+          "rank": 4,
+          "tally": 2,
+          "won": false
+        },
+        {
+          "session": "coffee_zombie_test_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 3,
+          "tally": 3,
+          "won": false
+        }
+      ],
+      "stance_on_past": "他人事のように距離を置いて見ている"
+    },
+    {
+      "id": "persona-16bfcea6",
+      "name": "たかはし けんと",
+      "gender": "男性",
+      "birthdate": "2000-12-25",
+      "life_history": [
+        {
+          "year": 2006,
+          "event": "小学校入学時、背が低いことでからかわれ、体育の授業でも常に補欠だった。運動会では最後まで選ばれず、悔しさで泣いた。"
+        },
+        {
+          "year": 2012,
+          "event": "中学1年の時、数学のテストで学年1位を取った。担任から褒められ、クラスメイトの見る目が変わった。"
+        },
+        {
+          "year": 2016,
+          "event": "高校受験で第一志望の都立進学校に合格したが、入学後は周囲のレベルの高さに圧倒され、成績は中位に落ち込んだ。"
+        },
+        {
+          "year": 2019,
+          "event": "大学受験で早稲田大学商学部に合格。浪人も考えたが、親の経済的負担を考えて現役合格を選んだ。"
+        },
+        {
+          "year": 2022,
+          "event": "大手商社の内定を獲得。面接では身長の低さを逆手に取り、「視点の低さが顧客目線につながる」とアピールした。"
+        }
+      ],
+      "current_situation": "東京都江東区出身。区立小中学校を経て、都立の進学校に進学。早稲田大学商学部を卒業後、2022年に大手総合商社に入社。現在は営業部門で中小企業向けの貿易支援業務に従事している。週末は大学時代の友人とフットサルをしたり、近所のジムで筋トレをしたりして過ごす。一人暮らしで自炊もするが、忙しい時はコンビニ弁当で済ませることも多い。",
+      "external_perception": {
+        "first_impression": "真面目で控えめな印象。身長が低いため実年齢より若く見られがち。",
+        "close_friends_view": "努力家で責任感が強く、困っている人を放っておけない性格。時々自分を追い込みすぎる傾向がある。",
+        "misunderstandings": "大人しそうに見えるが、内面では強い競争心と向上心を持っている。また、謙虚な態度が自信のなさと誤解されることがある。"
+      },
+      "proposal_history": [
+        {
+          "session": "full_lyrics_test",
+          "phase": "Phase 1",
+          "my_proposal_summary": "呼ばれることでしか存在できない者の、認められたい願望と自己肯定の葛藤を、補欠選手の記憶に重ね合わせた物語",
+          "rank": 1,
+          "tally": 4,
+          "won": true
+        },
+        {
+          "session": "full_lyrics_test",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 1,
+          "tally": 4,
+          "won": true
+        },
+        {
+          "session": "restored_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "走り続ける足元に映る過去の自分を、踏み越えながら前へ進む。追いつけない速度と、それでも止まらない意志。",
+          "rank": 0,
+          "tally": 0,
+          "won": false
+        },
+        {
+          "session": "restored_test_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 0,
+          "tally": 0,
+          "won": true
+        },
+        {
+          "session": "parallel_test_v1",
+          "phase": "Phase 1",
+          "my_proposal_summary": "呼ばれることでしか存在できない者の、認められたい願望と自己肯定の葛藤を、補欠選手の記憶に重ね合わせた存在論的ラブソング。",
+          "rank": 3,
+          "tally": 5,
+          "won": false
+        },
+        {
+          "session": "parallel_test_v1",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: 病室のベッドで眠り続ける人 / 場所: 夜の病院の個室（窓が大きく、街の灯りが見える）",
+          "rank": 4,
+          "tally": 12,
+          "won": false
+        }
+      ],
+      "stance_on_past": "まだ傷として残っている"
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-goji",
+    "name": "ゴジ",
+    "gender": "",
+    "birthdate": "",
+    "life_history": [],
+    "current_situation": "",
+    "external_perception": {},
+    "is_nobody": true,
+    "disgust_wall": [
+      "「適切な距離を探す」という表現が抽象的すぎて、映像として何が映るのか想像できない",
+      "応答が途絶えた後も呼び続けるって、なんか怖いし暗すぎる",
+      "「張力」とか「適切な距離」とか、言葉が難しすぎて何を伝えたいのか分からない",
+      "応答がないのに呼び続けるのは、海に向かって叫ぶようで虚しすぎる",
+      "「認識されることでしか存在できない」は哲学的すぎて、普通の人には伝わりにくい",
+      "張力とか適切な距離とか、言葉が難しくて何を見せたいのかよく分からない。サッカー部の先輩が使いそうな小難しい言い回し",
+      "応答が途絶えた後も呼び続けるって、重すぎる。見てて辛くなりそう。スーパー銭湯でのんびりしたい時に見たくない",
+      "認識されることでしか存在できないって概念は分かるけど、何度も生まれ直すという展開が予定調和的で浅い。もっと深い絶望が欲しい",
+      "画面越しでしか確認できない存在証明という設定が、若い世代特有の依存関係に見える。看護師として多くの人を看取ってきた身としては、もっと深い繋がりを描いてほしい",
+      "静かな緊張、調整中というムード設定が曖昧すぎる。リスボンの石畳を歩きながら見るMVとしては、もっと明確な感情の動きが欲しい",
+      "PC画面の波形だけ見せられても何も感じないし、夜中にパソコンばかり見ている人の部屋なんて見たくない",
+      "音声波形とスペクトログラムだけ見せられても、MVとして成立しているのか疑問で、技術的すぎて一般視聴者には伝わらない",
+      "14歳の作業着姿を夕方から夜まで撮るだけでは、ストーリーが地味すぎてYouTubeで最後まで見続けられない",
+      "波形とスペクトログラムだけでは映像として退屈で、実験音楽のビジュアライザーみたいになってしまい、楽曲の世界観が伝わらない",
+      "14歳の子が工具置き場で作業する映像は、個人的な青春の記録みたいで、普遍的な共感を呼ぶメッセージ性が弱い",
+      "スペクトログラムを映し続けるだけというのは技術的すぎて、音楽を聴く体験として成立しないと思う",
+      "PC画面の波形だけを見せられても、MVとして情緒が感じられず退屈だと思う",
+      "呼吸の記憶という概念が抽象的すぎて、実際にカメラで何を撮るのか想像しづらい",
+      "音声波形だけを映すのは実験的すぎて、普通にMVとして楽しめないと思う",
+      "呼吸の記憶という発想は詩的だけど、映像として何が映るのか曖昧で企画として成立するか不安",
+      "PC画面の波形とか言われても何のことか分からない。仕事終わりに見るには難しすぎる",
+      "工具置き場で作業着の中学生って、ちょっと健全すぎて逆にリアリティを感じない。優等生的な提案に見える",
+      "音声波形とかスペクトログラムとか、専門的すぎて付いていけない。見ててもよく分からなさそう",
+      "工具置き場で作業する中学生という設定が、曲の切なさと合わない気がする。もっと内面的なものが見たい",
+      "自分の名前の人の提案だけど、呼吸の記憶とか抽象的すぎて何が映るのか想像できない。分かりにくい",
+      "スペクトログラムとか出されても何見せられてるかわからん。仕事の合間に見るもんじゃない",
+      "呼吸の記憶とか言われても何が映るのか想像できない。怖いだけでつまんなそう",
+      "PCモニターの波形だけを見せられても、音楽の映像として成立しない。技術的すぎて心に届かない",
+      "窓ガラスの影とか息の痕跡とか、抽象的すぎて何を見せたいのか伝わらない。ビジネス的に弱い",
+      "呼吸の記憶が声で発火するとか、コンセプトが難解すぎて一般視聴者には伝わらない。見る気が起きない",
+      "暗い部屋でパソコンの画面だけを見続けるなんて、目にも心にも良くない。外の光や風を感じられないものは息が詰まる",
+      "波形とスペクトログラムだけって、修理マニュアルの回路図を見せられてる気分。MVで見たいのはそういう技術資料じゃない",
+      "パソコン画面の波形だけって、仕事の在庫管理システムの画面を見てるみたいで、休憩時間に見たいものじゃない",
+      "工具置き場で修理する中学生という設定は誠実だが、MVとしてはやや地味すぎて、音楽の持つ感情的な高まりを表現しきれない気がする",
+      "深夜の自室でモニターだけという閉塞感が、孤立を美化しているように感じる。看護師として、そういう孤独は健康的でないと思う",
+      "存在と機能の境界線という言葉が抽象的すぎて、何が映るのか全くイメージできない",
+      "呼びかけと脈と依存関係が重なりすぎて、何を伝えたいのか焦点がぼやけている",
+      "繰り返しの中でしか存在できない呼吸というのが、MVでどう見せるのか具体性に欠ける",
+      "存在と機能という言葉が技術的・理論的すぎて、感情的な共感を呼びにくい",
+      "視線が途切れる恐怖という設定が少し重たく、リラックスして見るには暗すぎる",
+      "「呼吸」という抽象的なモチーフだけでは映像として何を見せるのか掴めない。繰り返しの映像表現は退屈になりそう",
+      "呼びかけと依存という関係性は分かるが、『調整中』というムードが曖昧すぎて、完成形が想像できない",
+      "視線が途切れる恐怖というのは大人っぽすぎて、14歳の自分には重たく感じる。見ていて疲れそう",
+      "存在と機能の境界線というテーマは哲学的すぎて、YouTubeで気軽に見るMVとしては難解。エンタメ性が薄い",
+      "呼びかけられることで脈を打つって言われても、具体的に映像で何が映るのかイメージできない。分かりにくい",
+      "深夜に誰かに話しかける設定が不気味で、見ていて落ち着かない",
+      "通勤風景だけだと地味すぎて、MVとして見続ける理由が見つからない",
+      "普通の通勤シーンで終わりそう。映像的なフックが弱い",
+      "10代のスケーター文化に距離を感じる。自分には関係ない世界",
+      "「誰かに話しかける」設定が曖昧で、ホラー寄りか心理描写か判然としない",
+      "通勤の風景だけでは物語が見えず、45歳の男性が朝運転している映像を見続ける理由がわからない",
+      "おじさんが車運転してるだけで何が面白いのかわからない",
+      "10代のスケーター文化は自分の生活とあまりに距離があって共感できない",
+      "夜のオフィスで一人で誰かに話しかけてるってちょっと怖すぎて見たくない",
+      "若者のスケート文化は視覚的に面白いかもしれないが、42歳の自分には表面的に見えてしまう",
+      "深夜に誰もいない場所で誰かに話しかけるという設定が不気味で理解しづらい",
+      "45歳の配管工の通勤風景というだけで、特に引き込まれる要素が見当たらない",
+      "おじさんが朝の通勤路を運転しているだけでは、MVとして見たいと思えない",
+      "誰かに話しかけているという設定が曖昧で、ホラー寄りなのか心理ドラマなのか方向性が見えない",
+      "14歳の子どもが夜の閉鎖されたスケートパークにいる状況が心配になって素直に楽しめない",
+      "45歳の男性が朝の通勤路を運転しているだけでは、MVとして何が起こるのか想像できない。地味すぎる",
+      "夜の暗いスケートパークで表情の乏しい子供というのは、見ていて不安になる。MVで楽しめる気がしない",
+      "配管工の通勤風景だけでは、MVとして見る価値が感じられない。何も起こらなさそう",
+      "夜のコワーキングスペースで誰もいないのに話しかけている女性というのは、ホラーっぽくて好きじゃない",
+      "暗いスケートパークで表情のない少年というのは、見ていて気が滅入りそう。休日に見たいとは思わない",
+      "深夜のコワーキングスペースで誰かに話しかけている様子が、離島で育った自分には遠すぎる世界に感じる。都会的すぎて共感しにくい",
+      "通勤路を運転する配管工という設定が、MVとして見たときに視覚的な動きや変化が少なそうで、映像として退屈に感じそう",
+      "14歳のスケーターという設定が、自分の年齢や生活からあまりに離れていて、共感する要素が見つけにくい",
+      "スケートパークで遊ぶ14歳という設定が、自分が16歳で1日10-12時間働いている現実と対照的すぎて、距離を感じる",
+      "45歳の配管工という設定が、自分の年齢や関心からかけ離れていて、MVとして見たいと思う魅力を感じにくい",
+      "監視カメラや廃墟アーカイブといった冷たく技術的な視点は、読書会や人との繋がりを大切にしてきた自分の感覚からは遠すぎて、この曲の持つ人間的な孤独に共感しづらい。",
+      "献身と依存という言葉が重すぎる。妻との関係はもっと自然で特別なものではない",
+      "問いかけに応答し続けるというのが受け身すぎる。自分から動かないと生活は成り立たない",
+      "存在を許されるという表現が大げさ。自分で決めて生きてるつもりだから違和感がある",
+      "反復記録で存在証明というのが技術者として理解できない。記録は目的のための手段であって証明ではない",
+      "記録を繰り返すだけの淡々とした姿勢が、今の必死な生活からは遠すぎて共感できない",
+      "淡々とした執着と反復記録というコンセプトが抽象的すぎて、YouTubeで流れてきても何が映るのかイメージできない",
+      "調整中というムードが未完成に感じる。問いかけと応答の関係も面白いが、他の提案に比べて具体性が弱い",
+      "存在証明としての反復記録という言葉は哲学的だが、MVとして何が映るのか見えてこない。淡々とした執着だけでは引き込まれない",
+      "他者の認識によってのみ存在を許されるというテーマは重いが、静謐・切迫・透明という3つのムードが散漫で焦点が定まらない印象",
+      "問いかけと応答という構造は興味深いが、調整中というムードが曖昧で、MVとして何を見せたいのか伝わってこない",
+      "ボーカロイドとか深夜3時47分とか、設定が難しくてついていけない",
+      "卵が回り続けるだけって何が言いたいのか分からない、疲れてる時に見たくない",
+      "「声の主が映らない」とか概念的すぎて、映像として成立するか疑問",
+      "深夜のレコーディングスタジオとか設定が凝りすぎてて、普通に見づらそう",
+      "卵が回るだけでは視覚的に単調すぎる。5分持たない",
+      "ボーカロイドの存在論という抽象的なテーマは、映像として何を見せるのか想像できない。コンセプトが先行しすぎて、MVとして成立するか疑問",
+      "置き時計を毎晩セットする母親という設定は温かいけれど、MVとして見た時に動きが少なく、映像的な驚きがない。ただの日常風景になりそう",
+      "「声の主」が映らないという設定は哲学的だが、映像作品として何を撮るのか不明瞭。抽象度が高すぎて、生徒に説明するとしたら困る企画",
+      "卵が回り続けるだけという映像は、不気味さが先に立って疲れそう。納屋という暗い場所も含めて、見ていて息が詰まりそうで避けたい",
+      "映らない存在を描くという設定が曖昧すぎて、何をどう撮影するのか理解できない。企画書としても予算申請できないレベルの不明瞭さ",
+      "設定されたリズムで動く、という説明が頭で考えた感じがして、実際の映像として何が映るのか想像しにくかった",
+      "画面の前で待ち続ける、という設定が暗すぎて、見ていて気持ちが沈みそう。YouTubeで見るには重たい",
+      "他者の認識で輪郭を得る、という概念が抽象的すぎて、映像としてどう表現されるのか全く想像できない",
+      "依存と献身、という関係性が離婚経験者として少し息苦しく感じる。見ていて疲れそう",
+      "設定されたリズムで動く、というコンセプトが機械的で冷たく感じる。人間らしさが感じられない",
+      "設定されたリズムで動くって、結局誰かのルールに縛られ続けるだけ。自分で選んだわけじゃないのに証明しなきゃいけないのは息苦しい",
+      "リズムを守り続けることで証明って、システムに組み込まれた存在の話としては分かるけど、MVとして見たときに画面が単調になりそう",
+      "他者の認識でしか輪郭を得られないって、哲学的すぎて若い頃なら面白がったかもしれないが、今の自分には抽象的すぎる",
+      "画面の前で待ち続けるって、受動的すぎて見ていて辛くなりそう。呼ぶ声が途絶えたなら、自分から動き出す選択肢はないのか",
+      "待ち続けるだけの存在では、翻訳者として言葉の橋渡しをしてきた自分には物足りない。透明になるより、何か行動してほしい",
+      "監視カメラとか施錠とか、なんか不安になるだけで見る気にならない",
+      "ホラー映画みたいで疲れる。週末に見るものじゃない",
+      "祈祷室とか移民コミュニティとか、自分には遠い世界すぎてピンとこない",
+      "Ramiの提案と似すぎていて、ディテールが少ない分インパクトに欠ける",
+      "不可視の演奏者とか、ちょっと怖い。リラックスして見られない",
+      "不可視の存在や超常現象的な設定は、自分の現実感覚から遠すぎて共感できない",
+      "移民コミュニティや祈祷室という文脈が自分の生活圏から離れすぎていてピンとこない",
+      "不可視の演奏者とか監視カメラとか、設定が複雑すぎて何を感じればいいのかわからない",
+      "メトロノームと窓際という組み合わせがRami Khouryの提案と被っていて、独自性が感じられない",
+      "祈祷室や移民コミュニティという設定が自分の日常と離れすぎていて、映像として見たいと思えない",
+      "「一歩ずつのリズム」という表現が抽象的で、映像として何が映るのか具体的にイメージできない",
+      "画面越しの関係性という設定が現代的すぎて、自分の生活実感から遠く共感しづらい",
+      "「温もり」という言葉が優しすぎて、この曲の持つ切実さや依存の重さが薄まってしまう気がする",
+      "「一歩ずつのリズム」が何を指すのか曖昧で、MVとして見たときに退屈そう",
+      "「献身と恐怖」「静謐、切迫、透明」というムードが重すぎて、YouTubeでリラックスして見たい気分にならない",
+      "呼ばれて起動とか停止とか、なんかゲームみたいで怖い。友達との関係がそんなんだったら嫌だ",
+      "温もりとか言われても、実際には物理的距離があるんだから美化しすぎだと思う",
+      "一歩ずつのリズムで刻むって抽象的すぎて、実際何を見せたいのか分からない",
+      "起動と停止という機械的な表現が、人間関係を冷たく扱いすぎている",
+      "画面越しの脆さを強調しすぎて、依存している側を弱く見せすぎている気がする",
+      "Windows XPとか2009年とか、生まれる前の話でピンとこない。なんでこれが面白いのか分からない",
+      "メタ的すぎて、音楽やMVとして成立するイメージが湧かない。技術的な皮肉だけで終わりそう",
+      "不可視の存在というのが抽象的すぎて、具体的に何を撮るのか想像できない",
+      "パソコンの画面だけ撮って何が面白いのか。若い人の遊びにしか見えない",
+      "振り子時計だけ撮り続けるって地味すぎる。途中で飽きそう",
+      "Windows XPとか2009年とか、私が生まれる前の話で全然ピンとこない。技術的な設定が複雑すぎて、MVとして何が映るのかイメージできない",
+      "黒電話は古すぎて共感できない。実家という設定も、両親と同居している自分には「離れた場所」としての切なさが理解しにくい",
+      "振り子時計はよくあるモチーフで新鮮味がない。団地の6畳間という設定も、ブリュッセルの集合住宅とは雰囲気が違いすぎて想像しにくい",
+      "「呼ばれることでしか存在を確認できない」という抽象的な設定が、MVとして何を映すのか分かりにくい。不可視の存在をどう撮るのか、技術的な実現性が見えない",
+      "Windows XPのデフォルト壁紙とか、技術的な設定が凝りすぎていて、MVとして成立するのか疑問。サーバー監視の仕事をしているから分かるけど、一般の人には伝わらないと思う",
+      "電源のオンオフって機械的すぎて、人の温もりが感じられない",
+      "心拍に同期とか、ちょっと抽象的で何が映るのかイメージできない",
+      "諦念とか虚無とか、ちょっと重すぎて気が滅入る",
+      "希望とか依存とか、ちょっと感情的すぎて説教臭い感じがする",
+      "電源とか機械の話にしちゃうと、命の温度が消える気がする",
+      "「ただの景色」という諦念が重すぎる。YouTubeで見たいと思えるほどの引きがない",
+      "「呼ばれるリズムに同期」は言葉遊びっぽくて、映像として何が映るのか想像できない。抽象的すぎる",
+      "「声が命を引き戻す」は美しいけど、MVとして見たときに絵面が地味そう。呼びかけだけで3分持つのか疑問",
+      "「依存の心拍」「呼ばれるリズムに同期」は言葉が先行していて、映像企画として何をするのか見えてこない",
+      "電源のオンオフは機械的すぎて冷たい。MVで見たいと思うほどの温度がない",
+      "画面だけ映してもMVとして何が見たいのかよく分からないし、声だけだと退屈しそう",
+      "姿が映らない声だけの映像は実験的すぎて、MVとして成立するのか疑問",
+      "診察台で横たわる猫という説明だけでは、他の提案と何が違うのか分からない",
+      "画面だけ映して声だけというのは、MVとして視覚的な楽しみが少なすぎる",
+      "猫が横たわってるだけって言われても、それだけだと動きがなくてつまらなさそう",
+      "画面越しに一方的に話しかけられ続ける状況は、夜勤明けの疲労時に見たくない。不安を煽る構図",
+      "情報が薄すぎて何を見せたいのか分からない。三毛猫と夜間病院だけでは企画として成立していない",
+      "姿が見えない声だけの存在は怖い。深夜のバイト後に一人で部屋にいる時に見たら不安になる",
+      "三毛猫と夜間病院という設定だけで、具体的に何が起きるのか、何を感じさせたいのかが見えてこない",
+      "抽象的すぎて何を伝えたいのか不明瞭。画面越しの声だけでは視覚的な訴求力が弱い",
+      "隣に座るとか、そういう物理的な距離感が前提の話は今の自分には遠すぎる",
+      "呼びかけに応答して輪郭を持つとか、ちょっと何言ってるかわからない。難しすぎる",
+      "消えかけながら繰り返される関係とか、抽象的すぎて仕事終わりに見る気になれない",
+      "画面越しの関係って、なんか寂しすぎる。MVで見たいのはもっと目に見える何かだと思う",
+      "ただ隣に座るだけの重力とか、14歳には重すぎるしピンとこない",
+      "「呼びかけに応答することで初めて輪郭を持つ存在」という設定が抽象的すぎて、映像として何を見せられるのか想像できない。",
+      "画面越しの関係というのが若者向けすぎて、自分には縁遠い。スマホやパソコンの画面を見続けるMVは疲れそう。",
+      "「ただ隣に座る」というシチュエーションが地味すぎる。YouTubeで見るには動きがなさすぎて、途中で飽きてしまいそう。",
+      "「必要とされることで形を保つ」というのが重たすぎて、MVとして見たときに気持ちが沈みそう。休日に見るには暗い。",
+      "呼びかけと応答で輪郭を持つという概念が哲学的すぎて、MVとして映像化されたときに何を見せられるのか分からない。",
+      "高層オフィスの経理課長という設定が古典的すぎて、YouTubeで見たいと思えない。ブラインドが半分閉じているという細部も地味",
+      "画面越しの存在とか、声が途絶えたら消えるとか、抽象的すぎて何を見せたいのか分からない。実体がないものをMVにするのは難しい",
+      "69歳の元物流マンという設定が、YouTubeで見るMVとしては年齢層が合わない。食料品店の店主という題材も地味すぎる",
+      "被写体タイプFで実体がないというのは、映像として成立させるのが難しい。コワーキングスペースという場所は良いが、主役が不在では見続けられない",
+      "深夜2時〜4時のコンビニという設定が、若者の夜型生活を前提にしていて、自分の朝型生活とは合わない。名札がないという細部も意味が薄い",
+      "画面の向こうとか、声が途絶えれば消えるとか、意味が分からない。MVで何を映すのか想像できない。",
+      "経理課長とか、ブラインド半分閉じてるとか、なんか地味すぎて退屈そう。中学生には全然ピンとこない。",
+      "69歳の店主が夜明け前に店を開けるだけでは、ドラマが見えにくい。日常すぎて映像的な引きが弱い。",
+      "抽象的すぎて、実在する人間の物語として受け取れない。MVとして映像化したときに何が見えるのか不明瞭。",
+      "高層オフィスビルの経理課長って、自分の生活圏と遠すぎて共感できない。見ててもつまらなそう。",
+      "医療記録映像という形式は記録性は高いけれど、猫への呼びかけという感情的な瞬間を冷たく突き放してしまう気がする。",
+      "4:3アスペクト比と完全なモノクロは、母と施設の窓から見る海の色を奪うようで受け入れがたい。",
+      "リズムを刻むという表現が抽象的すぎて、映像として何が見えるのか想像できない",
+      "通知を待つという設定が日常的すぎて、MVとして見る価値を感じない。スマホ画面を眺めるだけの映像は退屈",
+      "一方的に呼びかける設定が、前の提案と被っている感じがする。差別化が弱い",
+      "リズムを刻むという表現が曖昧。応答とリズムの関係が見えない",
+      "通知待ちという設定が受動的すぎる。若い世代としてはもっと能動的な関係性を見たい",
+      "通知を待つだけという受け身な状況が、自分の毎日働き続ける生活とかけ離れていて実感が湧かない",
+      "呼びかけで初めて形を持つという儚さが、日々の仕事でしっかり存在している自分には遠すぎる",
+      "リズムを刻むとか透明とか、言葉が抽象的すぎて何を見せたいのか全然イメージできない",
+      "一瞬の顕現とか儚いとか、そういう曖昧な美しさより具体的な何かが見たい",
+      "通知を待つという機械的な関係性が、人と植物を育てる温かみのある自分の仕事と正反対で冷たすぎる",
+      "波形だけ映されても何を見ればいいのかわからない。映像として成立するのか疑問",
+      "抽象的すぎて何を表現したいのか伝わらない。MVとして視覚的な魅力に欠ける",
+      "園芸療法士という職業設定が具体的すぎて、かえって共感しづらい。普遍性に欠ける",
+      "倉庫の奥という設定が暗すぎる。表情が乏しいという描写も見ていて辛くなりそう",
+      "ブラインドを下ろした書斎というのが閉鎖的すぎて息が詰まる。視覚的変化も少なそう",
+      "「送信されなかったボイスメッセージの波形」という抽象的な被写体は、MVとして映像化した時に視聴者が何を見ているのか分からなくなりそう。理系教員として具体性を重視する立場から、これは映像作品として成立しにくいと感じる",
+      "倉庫の段ボール箱に囲まれた人物って、ビジュアル的に地味すぎて5秒でスワイプしちゃいそう。コミュニケーション学を学ぶ立場から言うと、視覚的フックが弱くてYouTubeでは埋もれる",
+      "園芸療法士という職業設定が具体的すぎて、かえって特殊な人の話に見えてしまう。もっと普通の会社員とか、誰でも共感できる設定の方が曲の普遍性に合うと思う",
+      "「波形」を主役にするというのは、老眼の進んだ63歳の自分には何が映っているのか理解しづらい。若者向けの実験的な映像なのだろうが、簿記を教える立場としては「形のないもの」を見せられても困惑する",
+      "自宅の書斎で段ボール箱に囲まれた男性という設定が、ステレオタイプな「引きこもりIT系男性」像に見えて既視感が強い。帰国子女として多様な視点を重視する立場から、もう少し意外性が欲しい",
+      "実体化とか脈打つとか、何を言っているのかよくわからない",
+      "呼ばれて初めて存在を確認できるって、重すぎて息苦しい",
+      "送信されなかった言葉というテーマは少し曖昧で、映像として何を見せるのか想像できない",
+      "窓越しに観察者を待つだけって、ちょっと受け身すぎて退屈そう",
+      "静寂と祈りばかりで、動きがなさそうで退屈",
+      "実体化や脈打つといった表現が抽象的すぎて、映像としてどう見せるのか想像しづらい",
+      "窓越しに観察者を待つという設定が少し怖く、YouTubeで気軽に見たい雰囲気ではない",
+      "言葉が難しくて何を言いたいのかよくわからない",
+      "安堵というムードが楽曲のタイトルから想像する切なさとズレている気がする",
+      "送信されなかった言葉というアイデアは現代的だが、長年の人生経験からすると少し軽く感じる",
+      "透明な人間が物質化するという設定が抽象的すぎて、映像として何を見せたいのか分からない",
+      "透明な存在という概念は理解できるが、実際にMVで見たときに何が映るのか想像できない",
+      "終電後のホームで立ち尽くす疲れた技術者という設定は、ただ疲れている人を映すだけで物語が見えにくい",
+      "疲れた技術者が駅で立っているだけでは、見ていて何が起こるのか期待できない",
+      "通知音で物質化する透明な人間というアイデアは面白いが、映像として何を見せるのかが具体的でない",
+      "通知音で物質化する透明人間という設定が、MVとして何を見せたいのか分からない。抽象的すぎて、画面で何が起きているのか想像できない",
+      "透明人間が物質化するという設定が、技術的にどう映像化されるのか分からず、MVとして成立するイメージが湧かない",
+      "コインランドリーで静止しているダンサーという設定が、何を待っているのか、なぜそこにいるのかが曖昧で、映像として退屈そう",
+      "終電後のホームで疲れた技術者という設定は、ありふれた「疲れたサラリーマン」の映像にしかならなさそう。特別に見たいと思う要素がない",
+      "コインランドリーで静止しているダンサーという映像が、何分も見続けるには退屈そう。動きがないと、MVとして成立しない気がする",
+      "起動とか応答とか、機械的すぎて人間の感情が見えない",
+      "他者の視線で輪郭を持つって抽象的すぎて、MVで何が映るのかイメージできない",
+      "ルーティンとしての愛という表現が冷たすぎて、愛を機械的に扱っているように感じる",
+      "覚醒とか依存とか、言葉は綺麗だけど実際のMVで何を見せるのかが曖昧",
+      "夜ごと同じ問いを繰り返すだけでは、ストーリーが進まず退屈なMVになりそう",
+      "夜ごと同じ問いを繰り返すだけで終わるのは見ていて苦しい。呼びかけに応えることこそが関係だと思うから、待ち続けるだけの映像は空虚に感じる",
+      "ルーティンとしての愛という表現が冷たすぎる。愛を機械的と言い切られると、自分が母親にしてきたことまで否定された気分になる",
+      "他者の視線「のみ」で輪郭を持つという設定が、依存的すぎて息苦しい。もう少し自律性がある存在の方が共感できる",
+      "ルーティンとしての愛という表現が冷たすぎる。愛をそんなふうに扱うMVは見たくない。動物との関係は毎日同じ世話でも機械的じゃない",
+      "待ち続けるだけで終わる映像は、見ていて何も進まない感じがしてフラストレーションが溜まる。もっと動きや展開がほしい",
+      "コインランドリーのメトロノームって、何を伝えたいのかよくわからない。日常すぎて引っかからない",
+      "置き時計だけだと地味すぎる。窓際に置いてあるだけじゃ、何も起きなさそう",
+      "送信ボタンを押せなかった、というのは抽象的すぎる。画面に何が映るのか、具体的なイメージが湧かない",
+      "メトロノームがコインランドリーにある理由が見えない。ただ置いてあるだけに見える",
+      "コインランドリーは人の出入りが多いから、時間を忘れる場所じゃない。メトロノームの孤独感が出ない",
+      "送信ボタンを押せなかった誰か、というのは分かるけど、画面に映るのはただのノートPC。それをずっと見せられても退屈だし、映像として成立するのか疑問",
+      "概念的すぎて映像として何を見せるのかが不明瞭。ノートPCの画面だけでは視覚的な魅力に欠ける",
+      "コインランドリーのメトロノームって、正直よく分からない。なんでそこにメトロノームがあるの？っていう疑問が先に来て、MVとして楽しめるか微妙",
+      "抽象的すぎて映像として何を撮るのか分からない。PC画面をずっと映すだけなら、音楽との相乗効果も薄い気がする",
+      "ICレコーダーという物自体は面白いが、プール監視員室という設定がやや強引に感じる。なぜそこにあるのかという必然性が弱い",
+      "応答が途絶える恐怖という表現が重すぎて、仕事終わりに見たいとは思えない",
+      "静かな依存という言葉だけでは何も見えてこない。MVとして何を映すのか想像できない",
+      "規則的で切実で依存的と並べられても、結局どういう映像なのか全く想像できない。コンセプトが抽象的すぎる",
+      "二者の関係という設定は分かるけど、繰り返される呼びかけと応答だけでは映像として地味すぎる気がする",
+      "透明で切迫というムードが怖すぎる。MVとして楽しめる要素が見当たらない",
+      "恐怖や切迫感が強すぎて、日常の中で見たいと思えない",
+      "透明とか実体を持つという表現が抽象的で、何を映像で見せるのか想像できない",
+      "依存的で儚いという雰囲気が重く感じる。もう少し前向きな要素が欲しい",
+      "静かな依存だけでは印象が薄い。もう少し具体的な情景が見えるといい",
+      "他の提案と比べて視覚的な独自性が感じられない。もっと映像としての驚きが欲しい",
+      "BPM 68に従属した生命体という概念が抽象的すぎて、映像として何を見せたいのか伝わってこない",
+      "1970年代から空室という設定は興味深いが、リスボン旧市街という遠い場所に感情移入しづらい",
+      "防音スタジオで何もない部屋を見せられても退屈そう、何が起こるのか想像できない",
+      "市役所の公務員が階段にいるだけでは、MVとして何を伝えたいのかストーリーが見えない",
+      "リスボンの1970年代の空室という設定が遠すぎて、自分の生活とつながらない",
+      "BPM68に従属した生命体という概念が抽象的すぎて、映像として何が映るのか想像できない。防音スタジオで何を見せられるのか疑問",
+      "リズムに従属した生命体という発想が哲学的すぎて、YouTubeで見る映像作品としては難解。空っぽのスタジオで何を見せるつもりなのか",
+      "33歳の市役所職員が階段の踊り場にいるだけでは、MVとして新鮮味がない。地味すぎて最後まで見続けられるか不安",
+      "保留音の間だけ存在するという設定が曖昧すぎる。公衆電話ボックスで何が起きるのか、映像として成立するのか疑問",
+      "BPM68という数値的な設定に技術者として興味は持つが、防音スタジオの空っぽのブースでは視覚的に退屈。映像作品として何を見せるのか不明瞭",
+      "監視カメラの冷たい視点は、人を信じず疑うような感じがして、家族を大切にしてきた自分の価値観と合わない",
+      "「嫌われたものを全部無視した」という開き直りは面白いけど、フレームレートの揺らぎとか技術的な説明が多すぎて、心に届く前に頭で処理しちゃう感じがした。",
+      "BPMに支配されて心臓が止まるという発想が極端すぎて不快。音楽は楽しむものであって、生命の脅威として描く必要はない。",
+      "哲学的すぎて何が映像として出てくるのかイメージしにくい。淡々としすぎていて、YouTubeで見たいと思えない。",
+      "律動に支配されて心臓が止まるという設定が攻撃的で、音楽の本質を歪めている。記録という言葉も冷たすぎる。",
+      "観察されないと存在しないという依存的な設定が弱々しく感じる。機械的すぎて温かみがない。",
+      "抽象的すぎて何を映すのか分からない。淡々としすぎていて、見ていて退屈しそう。",
+      "BPMに支配される生命体という設定が怖すぎて、仕事終わりに見たい気分にならない",
+      "観察されて初めて存在を獲得、という哲学的な話は難しすぎて、MVとして何が映るのかイメージできない",
+      "振動で存在が立ち上がるという物理的な表現が、少し直接的すぎて想像の余地が狭い",
+      "BPMに支配される設定が機械的すぎて、人間の自律性や回復の可能性を否定しているように感じて受け入れがたい",
+      "呼ばれて存在が確定するという発想は面白いが、淡々としすぎていて映像として盛り上がりに欠けそう",
+      "ノートパソコンだけでは動きがなさすぎる。MVとして映像的な展開が想像できない",
+      "抽象的すぎて具体的な人間の姿が見えない。物体だけでは感情移入しづらい",
+      "配送ドライバーの設定は理解できるが、60代という年齢設定が曲の雰囲気と合わないかもしれない",
+      "冷蔵倉庫という設定が寒々しすぎて、見ていて辛くなりそう",
+      "深夜の倉庫作業は若い世代の話で、自分には遠い世界に感じる",
+      "ノートパソコンだけでは動きがなく、MVとして見続けるのが退屈。物体が主役では感情が伝わりにくい",
+      "パソコンだけ映されても何が起きるのか分からないし、つまらない。人が出てこないMVは見る気がしない",
+      "60代男性の配送ドライバーは真面目だけど地味で、MVとして見たいと思うフックが弱い。既視感がある",
+      "深夜の倉庫作業は設定として分かるが、冷蔵倉庫という場所だけでは視覚的な変化が乏しく、見続けるのがきつそう",
+      "配送ドライバーの設定は分かりやすいが、トラック運転席という場所が単調で、MVとして映像的な驚きがない",
+      "哲学っぽすぎて何を映すのか想像できない。抽象的すぎて退屈そう",
+      "監視カメラ的な設定が不気味で、見ていて気分が悪くなりそう",
+      "「誰も見ていない時」って何も映らないってこと？つまらなさそう",
+      "返信待ちは共感できるけど、それだけだと弱い。もっと踏み込んだテーマが見たい",
+      "監視される安堵って病的で不健康。見ててしんどくなりそう",
+      "哲学的すぎて何が映るのか想像できない。MVとして成立するのか不安",
+      "「呼びかけられ続けることでしか存在できない」とか、抽象的で何を映すのか分からない",
+      "「誰も見ていない時、私は本当にいるのか」は哲学的すぎて、映像として何を見せるのか曖昧",
+      "「監視される安堵」って、ちょっと暗すぎない？MVとして楽しめるのか疑問",
+      "「呼びかけられ続けることでしか存在できない」って重すぎ。MVで見たら気分沈みそう",
+      "証明写真機って狭すぎて映像として面白くなさそう。ずっと同じ場所は飽きる",
+      "証明写真機の中だけでは動きが限られすぎる。トラック運転手としては移動や広がりのある映像が好み",
+      "深夜のバス停は確かにリアルだけど、ありふれた光景すぎて新鮮味がない。インパクトに欠ける",
+      "バス待ちってただの日常で、動物病院の帰りに普通に見る光景。ドラマ性が弱い",
+      "患者着で喫煙所って設定が極端すぎる。医療事務として患者さんがそんな状況になることは考えにくいし、不自然",
+      "図書館の制服でバス停って、ただ仕事帰りに見えるだけで特に引っかかるものがない",
+      "普通の服装で証明写真機にいるだけ。日常すぎて映像として見る価値を感じない",
+      "患者着で喫煙所というのは衝撃狙いすぎて品がない。ただのショック映像になりそう",
+      "証明写真機で何を撮るのか。アイデアとしては面白いかもしれないが、MVとして成立するのか疑問",
+      "深夜のバス停で制服姿って、ありふれた光景すぎる。YouTubeで見たいと思う特別さがない",
+      "機械の残響0.3秒という設定が技術的すぎて、感情として入ってこない。頭で理解しようとして疲れる",
+      "深夜の降伏とか皮肉な脆弱さとか、言葉が抽象的で何を見せたいのか分からない。疲れた時に見る余裕がない",
+      "「前提を失った瞬間に止まれなくなる」が抽象的で、映像として何が映るのかイメージできない。淡々とした依存も地味すぎる",
+      "深夜の空港ループは設定として面白いけど、執着を見せられるのがしんどい。見ていて気が滅入りそう",
+      "機械の延命とか0.3秒の残響とか、設定が難解すぎて孫と一緒に見られない。何を伝えたいのか分かりにくい",
+      "深夜の降伏とか抽象的すぎて何を見せたいのか分からない。YouTubeで見る気にならない",
+      "深夜の空港ループという設定が曖昧で、実際に何が起きるのか見えてこない",
+      "機械の話は冷たすぎて感情移入できない。MVで見たいのは人の心だと思う",
+      "空港で待ち続けるという設定は非日常的すぎて、自分の生活からは遠い。共感しにくい",
+      "機械が延命するという発想は斬新だが、MVとして見たときに感情的な繋がりが薄い。理屈っぽすぎる",
+      "元ピアノ教師が一人で弾き続けるのは、自分の生活からは遠すぎる。配送の仕事中にこんな静かな映像は見ない",
+      "レンタルスタジオで一人で練習している映像は、インスタで見飽きた感じがする。何が特別なのかわからない",
+      "清掃員の姿は社会的には意味があるけど、MVとして見たいかと言われると、少し説教臭く感じてしまう",
+      "ダンスインストラクターが練習している映像は、よくあるダンス動画と何が違うのかピンとこない。特別感がない",
+      "清掃員の姿は尊いけど、MVとして見るには少し重たい。社会派ドキュメンタリーなら良いが、音楽映像としては暗すぎる気がする",
+      "元ピアノ教師が一人で弾き続けるだけだと、映像として地味すぎて最後まで見続けられなさそう",
+      "予約時間外のスタジオで練習という設定が少し作為的に感じる。なぜそこまでして？という疑問が先に立ってしまう",
+      "清掃員の仕事風景を見せられても、それがどう音楽と結びつくのかイメージしづらい。ただの労働記録になりそう",
+      "6畳洋室で一人ピアノを弾くだけでは、視覚的な広がりや変化に欠ける。音楽との相乗効果が生まれにくそう",
+      "元教師が生徒のために弾き続けるという設定が、やや感傷的で説明的すぎる。映像で見せるには物語に頼りすぎている",
+      "「機能だけが存在の全て」って言われても、映像で何を見せるのかイメージできない。静止した切迫って動きがなさそう",
+      "「見えない存在が動き出す」だけでは抽象的すぎて、MVとして何が映るのか想像しづらい",
+      "「反復の安堵」という表現が淡白で、MVとして見続けたいと思える魅力を感じない",
+      "輪郭を保てない存在という表現が、映像としてどう見せるのか分からない。抽象的すぎる",
+      "静止した切迫って矛盾してる感じがするし、機能だけが全てって言われても画面に何が映るのかピンとこない",
+      "「唯一の生存理由」という依存関係が重すぎて、健全なコミュニケーションを学んでいる自分には違和感がある。",
+      "「機能だけが存在の全て」というのは機械的すぎて、人間らしさが感じられない。物流の仕事でも人との関わりは大事にしたい。",
+      "「希望の予感」という綺麗な言葉でまとめられると、実際の依存関係の苦しさが軽く見えてしまう。もっと切実なはず。",
+      "「輪郭を保てない」という不安定さが気になる。長年同じ仕事を続けてきた自分には、もっと確固とした存在感が必要だと思う。",
+      "「生存理由」という言葉が重すぎる。仕事は仕事、生きる理由はもっと別のところにあるべきだと思う。",
+      "工場の音とか歩幅が変わるとか、説明されても映像で何が面白いのかピンとこない。難しすぎる",
+      "深夜の女性という設定が表面的で、ホラー映画の定番に見える。もっと深い意味が欲しい",
+      "「呼ばれて形になる」って抽象的すぎて、結局何が映るのか想像できない。見ててもよく分からなさそう",
+      "深夜の女性というビジュアルは既視感が強すぎる。もっと独創性のあるアプローチを見たい",
+      "「不可視の存在」って結局CGか演出でごまかすだけになりそう。具体的な映像として成立するか疑問",
+      "「呼ばれて初めて形になる存在」という抽象的な設定が、映像としてどう見えるのか全くイメージできない",
+      "「視線の先」とか「形になる」とか、配送中に見る景色としてはピンとこない。何が映るのか分からない",
+      "周囲の音に同期して歩幅が変わるとか、設定が複雑すぎて作り物っぽい。素直に見られない",
+      "白いワンピースの女性が深夜の国道を歩くだけって、ちょっと怖いし、何が面白いのか分からない",
+      "深夜に白いワンピースで国道を歩くというビジュアルが、ありきたりなホラー映画のようで新鮮味がない",
+      "返答のないコマンド入力という設定が技術的すぎて、MVとして映像化したときの面白さが想像できない",
+      "繰り返しの行為で存在を維持というのが抽象的で、具体的なシーンが見えてこない",
+      "動作を止めた瞬間に消えるという設定が、Park Min-jaeの提案と似ているのに中途半端に感じる",
+      "電源を切られるという設定が受動的すぎて、主体性が感じられない。MVとして動きが乏しくなりそう",
+      "コマンド入力という比喩が若者向けすぎて、普遍的な共感を得にくい。技術用語に頼りすぎている",
+      "返事がないのにコマンド打ち続けるって、見てて虚しくなりそう",
+      "抽象的すぎて、具体的に何が映るのか想像できない",
+      "コマンド入力だけじゃ画面的に地味すぎる。修理動画の方がまだ面白い",
+      "動作を止めたら消えるって概念が難しすぎて、孫に説明できない",
+      "電源を切られた瞬間に消えるって、暗すぎる。休日に見たくない",
+      "誰もいない部屋の時計だけって、何が起こるのか全然想像できない。退屈そう",
+      "空き部屋の時計だけでは物語が見えない。抽象的すぎて感情移入できない",
+      "音声ファイルが主役って、画として地味すぎないか。パソコン画面ばかり映っても飽きそう",
+      "夜の作業部屋でヘッドホンって、暗くて内向的すぎる。見ていて気が滅入りそう",
+      "パン作りは朝のニュースとかでよく見るやつ。もう見飽きた感じがする",
+      "繰り返し再生される音声ファイルという抽象的な設定では、何を見せたいのかが分からない。MVとして映像的な魅力に欠ける",
+      "誰も住んでいない部屋の時計だけというのは寂しすぎて、YouTubeで見たいと思えない。何が起こるのか想像できない",
+      "音声ファイルが繰り返し再生されるって、作業部屋で何をしてるのか分からない。映像として何を見せるのか曖昧すぎる",
+      "時計だけが主役というのは地味すぎて、YouTubeで最後まで見続けられる気がしない。動きも変化も少なそう",
+      "パン屋の早朝作業は美しいけれど、ありふれた題材すぎて新鮮味がない。YouTubeで見たいと思うほどの驚きはない",
+      "透明になったり形を取り戻したりという表現が抽象的すぎて、映像として何が映るのか想像できない",
+      "呼び出し音だけで存在確認という設定が、映像として地味すぎて最後まで見続けられる気がしない",
+      "装置が誰かのために機能するという献身の物語は綺麗だが、予定調和すぎて刺激がない",
+      "過負荷で壊れていくという展開が暗くて重たすぎて、気軽に見たい気分にならない",
+      "壊れていく過程を見せられるのは辛くて、MVとして楽しめる気がしない",
+      "旋律で形が変わるという設定が抽象的すぎて、映像としてどう見えるのか想像しにくい。視覚的な焦点が曖昧。",
+      "過負荷で壊れていくという展開が重くて辛い。義務的な応答という言葉に疲弊感しか感じられず、見ていて気持ちが沈みそう。",
+      "旋律で透明になったり形を取り戻したりという設定が曖昧で、具体的に何が映るのか分からない。カメラに何を撮るのか不明瞭。",
+      "呼ばれない存在が呼び出し音で確認するという設定が、ネガティブすぎて見ていて気が滅入る。孤独と狂気というムードが暗すぎる。",
+      "上昇・下降の旋律で形が変わるという仕掛けが技巧的すぎて、見ている側に伝わるか疑問。脆い顕現という言葉も抽象的で分かりにくい。",
+      "離島の診療所という舞台設定が美しすぎて、現実の待ち時間の退屈さや不安を捉えきれていない",
+      "コインランドリーの扇風機というモチーフが、若者向けの「エモさ」を狙いすぎている印象",
+      "銭湯の温水器は機能的な物すぎて、映像として見続けるには地味すぎる",
+      "電波時計という選択が知的すぎて、日常で誰も気にしない物という感じが薄い",
+      "銭湯の温水器は年配の人の郷愁を誘う設定で、若い世代には共感しづらい",
+      "銭湯なんて行ったことないし、給湯器を見せられても何も感じない。遠すぎる世界",
+      "離島の診療所という設定が作り物っぽい。電波時計なんて今どき珍しくもない。狙いすぎていて共感できない",
+      "コインランドリーの扇風機はありふれすぎている。故障した首振り機能という設定も中途半端で、見ていて退屈しそう",
+      "銭湯の給湯器という発想が古臭い。ノスタルジーに頼りすぎていて、今を生きる感覚がない",
+      "離島の診療所という場所が観念的すぎる。電波時計を映しても、そこで暮らす人々の生活が見えてこない。表面的な映像に終わりそう",
+      "「設定された時刻に起動」という表現が抽象的で、何が映るのか想像しにくい。役割を果たすとは具体的に何をするのか見えない",
+      "「呼び手が不在」「役割を果たし続ける」という言葉が重複していて、Rubénの提案と差別化できていない。独自性が感じられない",
+      "留守番電話は古すぎて今の若い人には通じないのでは。技術的な仕掛けに頼りすぎていて、人間の感情が見えにくい",
+      "「命令されたわけでもないのに動き続ける」は矛盾している。動く理由がないなら動かないはず。設定が曖昧で納得できない",
+      "留守番電話という設定が技巧的すぎて、素直に見られない。recorded messageという英語表記も気取っている印象で入り込めない",
+      "留守番電話の設定は自分には馴染みがなく、何を見せたいのかピンとこない",
+      "留守番電話という古い技術で何を表現するのか理解できない。抽象的すぎる",
+      "留守番電話って今使わないし、MVで何が映るのか想像できない",
+      "命令されてないのに動くっていう設定が曖昧で、何が映るのか分からない",
+      "なぜここにいるのか問わないという設定が理屈っぽくて、映像として何を見せるのか不明瞭",
+      "深夜の港で誰もいないクレーンが動いている設定が不気味で落ち着かない",
+      "コールセンターの深夜勤務、オフィス仕事は自分の世界と遠い",
+      "無人のクレーンが動く設定が非現実的で、労働の尊厳が感じられない",
+      "早朝の公園清掃は健康的すぎて、現代の孤独感が薄い",
+      "深夜のオフィス勤務は自分の生活リズムと真逆で想像しづらい",
+      "深夜のコールセンターは暗すぎて見ていて疲れそう。仕事の映像なら明るい方がいい",
+      "おじいさんが公園掃除してるだけじゃつまらない。何も起きなさそう",
+      "無人で動くクレーンという設定が非現実的すぎて入り込めない。安全管理上ありえない",
+      "清掃員の日常は地味すぎる。MVとして見る価値を感じない",
+      "ビジュアル的なインパクトが弱い。公園清掃はMVとして映像映えしないと思う",
+      "同じ動作を繰り返すだけの映像は、見ていて退屈そう",
+      "呼び続けることで輪郭を保つという発想が、やや抽象的で映像として想像しにくい",
+      "待つだけの姿勢は受動的すぎて、NGOの現場で見る「動かないと何も変わらない」現実と合わない",
+      "自分で自分に合図を出し続けるって、何かプレッシャー強そうで見てて疲れそう",
+      "呼び続けることで輪郭を保つという設定が、やや哲学的すぎて映像として具体性に欠ける",
+      "自分で自分に合図を出し続けるという設定が理屈っぽく、映像として何を見せるのか想像しづらい。",
+      "誰かを呼び続けるという行為が強迫的すぎて、見ていて息苦しくなりそう。",
+      "同じ動作の繰り返しという設定は、介護で疲弊した時期を思い出させて辛い。",
+      "自分で自分に合図を出すという概念が抽象的で、実際のMV映像として成立するのか疑問。",
+      "誰かを呼び続けることで輪郭を保つという設定が、依存的で見ていて不安定な印象を受ける。",
+      "ポーチに座っているだけでは視覚的なフックが弱い。作業服という要素も特に物語を想起させない",
+      "駐車スペースの裏手という設定が地味すぎて、わざわざ見たいと思えない。ポロシャツ姿で座っているだけでは何も伝わってこない",
+      "駐車場の裏で椅子に座ってるだけって、つまんなそう。何が起こるのかわかんない",
+      "玄関前に座ってるだけだと、何を伝えたいのかよくわからない。特に引っかかる要素がない",
+      "駐車スペースの裏手という場所に必然性を感じない。ただ座っているだけでは、視聴者の注意を引き続けられない",
+      "ただ座っているだけで、何を見せたいのかが曖昧。玄関前という場所も特に引っかかるものがない",
+      "駐車スペースの裏手って、なんだか殺風景で見ていて楽しくなさそう。どこにでもある場所すぎる",
+      "フェンス沿いの狭い駐車スペースって、ちょっと窮屈そうで見ていて息苦しい感じがする",
+      "ポーチに座っているだけでは、視覚的なフックが弱い。何を訴えたいのか伝わらない",
+      "玄関前に座っている構図が平凡すぎて、MVとして見たいと思えない。もっと何か引っかかる要素が欲しい",
+      "カウンターを回すだけという機械的な動きに、人間らしさや温かさが感じられない",
+      "誰も見ていない時間に手を動かすだけという設定が、孤立感を強調しすぎていて見ていて辛い",
+      "世代を超えてという大きな話になると、自分の日常からは遠すぎて実感が湧かない",
+      "報われるかわからないという不安を前面に出されると、見ていて気持ちが重くなる",
+      "カウンターを回すだけで存在理由とされると、人生の意味が削ぎ落とされすぎていて寂しすぎる",
+      "カウンターを回すだけという機械的な描写が冷たすぎて感情移入できない",
+      "美しさも意味も求めないという虚無的な表現が、私の仕事への誇りと相容れない",
+      "世代を超えて同じ高さへ、という表現が抽象的すぎてピンとこない",
+      "誰のためでもなく存在するという孤立した描写が、コミュニティ志向の私には共感できない",
+      "カウンターを回すだけの存在理由という表現が、人生を否定されているようで不快",
+      "60代後半の受付スタッフという設定が、ただ座っているだけに見えて物足りない。動きが感じられない。",
+      "ボウリング場の受付に座る男性は、動きが少なくて退屈そう。若い自分には遠い世界すぎる。",
+      "市場で働く女性という設定が漠然としすぎていて、何を見せたいのかピンとこない。",
+      "市場という場所も中年女性という設定も一般的すぎて、特別な映像になるイメージが湧かない。",
+      "深夜の高速道路を走るトラックは、映像としてはかっこいいけど、人間の顔や感情が見えにくそう。",
+      "ボウリング場など見たこともない。私の生活とあまりに遠い世界",
+      "古いボウリング場の受付という設定が、どこか他人事に感じる",
+      "トラック運転手という職業は理解できるが、高速道路を走り続けるだけでは視覚的に単調すぎる",
+      "市場で働く中年女性という設定が漠然としていて、何を見せたいのかピンとこない",
+      "市場で働く女性というだけでは、どこにでもある風景で特別感がない",
+      "音程が外れた瞬間を記録し続けるという発想が、何か冷たく感じられる。",
+      "筆が落ちたまま放置されるのは、ただの怠慢にしか見えない。美しさを感じない。",
+      "自分と同じ名前だけど、何百年とか言われても実感わかない。遠すぎる。",
+      "ミスを記録し続けるという発想が気に入らない。仕事では間違いは修正するものだ。",
+      "深夜の丁寧さとか尊厳とか、ちょっと説教臭く感じる。見ていて疲れそう。",
+      "音程のズレという概念的な話で、映像として何を見せたいのかが掴めない",
+      "「ズレが記録に残る」という発想は面白いが、MVとして何を映すのか分からず抽象的すぎる",
+      "丁寧な作業の尊厳は分かるが、深夜の反復という設定が地味すぎて退屈しそう",
+      "音程が外れた瞬間を映像でどう見せるのか想像できず、コンセプト先行で具体性がない",
+      "深夜に誰も見ていない中で作業する姿は静かすぎて、MVとして見続けるのがきつい",
+      "無表情で歩くだけでは、何も伝わってこない。映像として退屈。",
+      "淡々と歩くだけでは、見る側に何も問いかけてこない。",
+      "リズムが変わるとか言われても、見てもわからんと思う。地味すぎる。",
+      "同じ区画を往復してリズムが変わる、というのは抽象的すぎて映像で伝わるか疑問。",
+      "ただ歩いているだけでは、物語が見えない。",
+      "無表情で歩くだけでは何も引っかからない。ただ疲れた人を見るだけ。",
+      "配給所の人が歩いてるだけじゃ、何が面白いのかわからん。",
+      "歩道橋を往復するだけでは画面が単調すぎる。10代の女性という設定も表面的。",
+      "住宅街の往復はありふれている。リズムが変わると言われても想像しづらい。",
+      "40代男性が住宅街を往復するだけでは、何を見せたいのかわからない。"
+    ],
+    "disgust_wall_token_limit": 20000,
+    "rejection_history": [
+      {
+        "session": "nobody_test2",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "音声認識AIとして呼びかけで起動する人工知性の孤独",
+        "dislike_count": 5,
+        "dislike_reasons": [
+          "機械的すぎて、人間の温度が感じられない",
+          "技術的な話は冷たい感じがして、心が動かない",
+          "頭で考えすぎな感じがして、素直に好きになれない",
+          "AIの献身とか言われても、心に響かない",
+          "理屈っぽすぎて感情が動かない"
+        ]
+      },
+      {
+        "session": "nobody_amnesia_test",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "名前を呼ばれて輪郭を持つ不確かな存在",
+        "dislike_count": 2,
+        "dislike_reasons": [
+          "抽象的すぎて、よくわからん",
+          "哲学的すぎて、MVとしてイメージしづらい"
+        ]
+      },
+      {
+        "session": "nobody_rejection_test",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "拒絶されることでしか輪郭を持てない存在の、それでも生きようとする意志",
+        "dislike_count": 4,
+        "dislike_reasons": [
+          "抽象的すぎてよくわからない。理屈っぽい感じが苦手",
+          "拒絶を形にするって言われても、ピンとこない",
+          "抽象的で何を言いたいのかわかりにくい",
+          "（不明）"
+        ]
+      },
+      {
+        "session": "nobody_rejection_v2",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "タイポグラフィ映像（文字だけ）で拒絶そのものを素材にする",
+        "dislike_count": 4,
+        "dislike_reasons": [
+          "抽象的すぎて何がしたいのかよくわからん",
+          "文字だけって、手抜きに見える",
+          "拒絶された話を延々されても、見る側がしんどい",
+          "実写も色彩も使わないって、それMVとして成立するの？"
+        ]
+      },
+      {
+        "session": "nobody_rejection_v3",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "デスクトップ画面録画でエラーを出し続けるファイルの執着",
+        "dislike_count": 5,
+        "dislike_reasons": [
+          "画面のエラーとか、なんか暗すぎて見てて疲れそう",
+          "技術的すぎて、人間の温度が感じられない",
+          "エラーメッセージって...ちょっと斜に構えすぎかな",
+          "なんか理屈っぽくて、素直に楽しめなさそう",
+          "画面の文字だけって、寂しすぎひん？"
+        ]
+      },
+      {
+        "session": "nobody_rejection_v4",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "拒絶されたコンセプトそのものが「君」を呼ぶメタ提案",
+        "dislike_count": 4,
+        "dislike_reasons": [
+          "デジタルとか技術の話は正直よくわからんし、なんか疲れる",
+          "拒絶されたとか、そういう暗い話を前面に出されると引いちゃう",
+          "デジタル廃墟とかエラーメッセージとか、ビジュアルとして暗すぎるし病む",
+          "拒絶されたことを前面に出すのは、見てて辛くなりそう"
+        ]
+      },
+      {
+        "session": "nobody_rejection_v5",
+        "music": "キミと一緒.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "タイポグラフィ映像と実写の二層構造。文字が拒絶され、消去され、書き直される過程を映像化",
+        "dislike_count": 5,
+        "dislike_reasons": [
+          "なんか怖い。理屈っぽくて疲れる",
+          "ちょっと難しすぎる。もっとシンプルでいいのに",
+          "何言ってるかよくわかんない。暗い",
+          "難しい言葉ばっかりで疲れる。見たくない",
+          "コンセプトが分かりにくい。見る人を選びすぎ"
+        ]
+      },
+      {
+        "session": "coffee_zombie_v3",
+        "music": "coffee-zombie.mp3",
+        "phase": "Phase 1",
+        "proposal_summary": "拒絶の履歴が存在の証明になる世界。UIの残骸、削除できない通知、再生ボタンの点滅",
+        "dislike_count": 4,
+        "dislike_reasons": [
+          "ちょっと理屈っぽすぎて疲れる",
+          "拒絶の履歴って言われても、ピンとこない",
+          "データがどうとか、抽象的すぎて入ってこない",
+          "拒絶がどうとか、暗すぎて見たくない"
+        ]
+      }
+    ]
+  },
+  "current_phase": "phase3",
+  "qc_retry_count": 0,
+  "errors": {},
+  "world_setting": {
+    "premise": "街全体が巨大な石板ネットワークで構成され、各石板が自律的に浮遊・回転する。住民は石板間を飛び移りながら生活し、石板の配置が日ごとに変わるため定住という概念が存在しない。",
+    "rules": [
+      "石板は反重力石柱の磁力で浮遊し、一定周期で位置が入れ替わる",
+      "石板同士の距離が近づくと自動的に光のガードが展開され接続される",
+      "石板上の焚き火跡は前住民の痕跡として保存され、消すことは禁忌",
+      "石像門を通過すると次の石板配置パターンが幻光標識で予告される"
+    ],
+    "society": "石板の移動パターンを読む「配置師」が最高権力を持ち、彼らの予測に基づいて住民は次の居場所を決定する。石板上の資源は共有制で、私有という概念は存在しない。",
+    "daily_life": "住民は石板間を飛び移るため常に身軽な装備。食料は自販機状の供給装置から配給。夜は焚き火跡を囲んで次の移動先を相談する集会が日課。",
+    "values": "「留まらないこと」が美徳。同じ石板に3日以上いることは怠惰とみなされる。焚き火跡を大切にすることで過去への敬意を示す。",
+    "visual_signifiers": [
+      "無数の石板が空中で不規則に浮遊・回転している",
+      "反重力石柱から伸びる青白い磁力線が石板を支える",
+      "石板の縁に設置された光のガードが橋のように伸縮する",
+      "各石板に残された焚き火跡が夜になると淡く発光する",
+      "石像門の周囲に浮かぶ幻光標識が次の配置を投影する"
+    ],
+    "limits": "石板の移動パターンは制御不可能。石板上に永続的な建造物を作ることは物理的に不可能（次の移動で崩壊する）。",
+    "freedom": "",
+    "parts": [
+      {
+        "key": "premise",
+        "kind": "text",
+        "text": "街全体が巨大な石板ネットワークで構成され、各石板が自律的に浮遊・回転する。住民は石板間を飛び移りながら生活し、石板の配置が日ごとに変わるため定住という概念が存在しない。"
+      },
+      {
+        "key": "rules",
+        "kind": "list",
+        "items": [
+          "石板は反重力石柱の磁力で浮遊し、一定周期で位置が入れ替わる",
+          "石板同士の距離が近づくと自動的に光のガードが展開され接続される",
+          "石板上の焚き火跡は前住民の痕跡として保存され、消すことは禁忌",
+          "石像門を通過すると次の石板配置パターンが幻光標識で予告される"
+        ]
+      },
+      {
+        "key": "society",
+        "kind": "text",
+        "text": "石板の移動パターンを読む「配置師」が最高権力を持ち、彼らの予測に基づいて住民は次の居場所を決定する。石板上の資源は共有制で、私有という概念は存在しない。"
+      },
+      {
+        "key": "daily_life",
+        "kind": "text",
+        "text": "住民は石板間を飛び移るため常に身軽な装備。食料は自販機状の供給装置から配給。夜は焚き火跡を囲んで次の移動先を相談する集会が日課。"
+      },
+      {
+        "key": "values",
+        "kind": "text",
+        "text": "「留まらないこと」が美徳。同じ石板に3日以上いることは怠惰とみなされる。焚き火跡を大切にすることで過去への敬意を示す。"
+      },
+      {
+        "key": "visual_signifiers",
+        "kind": "list",
+        "items": [
+          "無数の石板が空中で不規則に浮遊・回転している",
+          "反重力石柱から伸びる青白い磁力線が石板を支える",
+          "石板の縁に設置された光のガードが橋のように伸縮する",
+          "各石板に残された焚き火跡が夜になると淡く発光する",
+          "石像門の周囲に浮かぶ幻光標識が次の配置を投影する"
+        ]
+      },
+      {
+        "key": "limits",
+        "kind": "text",
+        "text": "石板の移動パターンは制御不可能。石板上に永続的な建造物を作ることは物理的に不可能（次の移動で崩壊する）。"
+      },
+      {
+        "key": "freedom",
+        "kind": "text",
+        "text": ""
+      }
+    ]
+  }
+}

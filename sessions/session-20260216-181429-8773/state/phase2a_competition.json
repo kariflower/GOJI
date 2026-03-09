@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-1c9a014d",
+      "persona_id": "persona-6cb92cbf",
+      "content": {
+        "phase1_base": "忍者",
+        "phase2_condition": "多関節腕・縦裂けの口",
+        "phase3_anchor": "鎖の首輪",
+        "subject_concept": "多関節腕と縦裂けの口を持つ忍者",
+        "subject_signature": "鎖の首輪",
+        "character_profile": {
+          "appearance_profile": "肘から先が二重関節で折れ曲がる腕を持ち、顎から喉にかけて縦に裂けた口が走る。首には錆びた鎖の首輪が食い込んでいる。",
+          "motion_profile": "多関節の腕を蛇のようにしならせながら移動し、縦裂けの口を開閉させて呼吸する。"
+        }
+      },
+      "created_at": "2026-02-16 09:17:46.679928"
+    },
+    {
+      "proposal_id": "sl2a-aafb5c28",
+      "persona_id": "persona-d2e63ce4",
+      "content": {
+        "phase1_base": "孔雀",
+        "phase2_condition": "球体胴体・細い脚",
+        "phase3_anchor": "背中の盾",
+        "subject_concept": "球体胴体と細い脚を持つ孔雀",
+        "subject_signature": "背中の盾",
+        "character_profile": {
+          "appearance_profile": "胴体部分が球状に膨らんだ孔雀で、対照的に脚は異様に細く長い。背中には金属質の盾が装着されており、尾羽を広げる際に盾が揺れる。",
+          "motion_profile": "細い脚で地面を蹴る度に球体胴体が上下に揺れ、背中の盾が光を反射する。"
+        }
+      },
+      "created_at": "2026-02-16 09:17:56.036559"
+    },
+    {
+      "proposal_id": "sl2a-05e16492",
+      "persona_id": "persona-54e12800",
+      "content": {
+        "phase1_base": "ろくろ首",
+        "phase2_condition": "枝角・ざらざら肌",
+        "phase3_anchor": "額の刻印",
+        "subject_concept": "枝角を持ちざらざら肌のろくろ首",
+        "subject_signature": "額の刻印",
+        "character_profile": {
+          "appearance_profile": "頭部から上方に伸びる枝状の角を持ち、首から顔にかけて粗い質感の肌が広がる。額には幾何学的な刻印が刻まれている。",
+          "motion_profile": "首を伸ばす際、角が弧を描きながら移動し、刻印が光の角度で明滅する。"
+        }
+      },
+      "created_at": "2026-02-16 09:18:16.345264"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-1c9a014d",
+      "B": "sl2a-aafb5c28",
+      "C": "sl2a-05e16492"
+    },
+    "tally": {
+      "A": 6,
+      "B": 8,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 3,
+      "C": 4
+    },
+    "votes": [
+      {
+        "voter": "Miguel Alejandro Torres",
+        "like": "A",
+        "like_reason": "忍者のアクションは分かりやすくて疲れた頭でも楽しめる。鎖の首輪という視覚的要素も印象に残る",
+        "dislike": "C",
+        "dislike_reason": "ろくろ首は日本の妖怪で馴染みがなく、どんな映像になるか想像しづらい"
+      },
+      {
+        "voter": "ラクシュミ・ナラヤナン",
+        "like": "B",
+        "like_reason": "孔雀は神聖な鳥として親しみがある。球体胴体という不思議な造形も興味深い",
+        "dislike": "A",
+        "dislike_reason": "忍者の暴力的なイメージは好まない。多関節腕や縦裂けの口も不気味すぎる"
+      },
+      {
+        "voter": "Moana Tetuanui",
+        "like": "B",
+        "like_reason": "孔雀の美しさと球体胴体という奇妙さの組み合わせが面白い。背中の盾も守護的で好感が持てる",
+        "dislike": "C",
+        "dislike_reason": "ろくろ首は怖すぎる。額の刻印も何を意味するのか分からず不安になる"
+      },
+      {
+        "voter": "Vanida MacLeod",
+        "like": "A",
+        "like_reason": "忍者のスピード感とアクションは見応えがありそう。多関節腕という非現実的な要素も映像として魅力的",
+        "dislike": "B",
+        "dislike_reason": "孔雀に球体胴体という組み合わせが理解しづらく、映像として成立するか疑問"
+      },
+      {
+        "voter": "さとう まさる",
+        "like": "C",
+        "like_reason": "ろくろ首は日本の伝統的な妖怪で文化的な価値がある。枝角やざらざら肌という造形も独特で記憶に残る",
+        "dislike": "B",
+        "dislike_reason": "孔雀に球体胴体では動きが想像できず、映像として違和感が大きすぎる"
+      },
+      {
+        "voter": "かすが",
+        "like": "C",
+        "like_reason": "ろくろ首は昔から知っている日本の妖怪で親しみがある。額の刻印も分かりやすい",
+        "dislike": "B",
+        "dislike_reason": "球体胴体に細い脚という組み合わせが不気味で気持ち悪い"
+      },
+      {
+        "voter": "みずほ",
+        "like": "B",
+        "like_reason": "孔雀という華やかな要素と背中の盾という防御的な象徴の組み合わせが面白い",
+        "dislike": "A",
+        "dislike_reason": "忍者に多関節腕と縦裂けの口は組み合わせとして怖すぎて見ていられない"
+      },
+      {
+        "voter": "かわさき あやの",
+        "like": "B",
+        "like_reason": "孔雀のビジュアルは美しく、球体胴体という非現実的な造形が現代アート的で興味深い",
+        "dislike": "C",
+        "dislike_reason": "ろくろ首は古典的すぎて新鮮味がなく、ざらざら肌という質感表現も地味"
+      },
+      {
+        "voter": "Rajendra Iyer",
+        "like": "A",
+        "like_reason": "忍者という東洋の神秘的な戦士像に多関節という機械的要素が加わる異文化融合が興味深い",
+        "dislike": "C",
+        "dislike_reason": "ろくろ首は日本固有の民間伝承で、ヨーロッパの視点では文脈が理解しにくい"
+      },
+      {
+        "voter": "Arjun Mehta",
+        "like": "B",
+        "like_reason": "孔雀はインド文化でも重要な象徴であり、球体胴体という幾何学的デザインがSF的で魅力的",
+        "dislike": "A",
+        "dislike_reason": "縦裂けの口という身体改変が過度にグロテスクで視覚的に不快"
+      }
+    ],
+    "analysis": "[batch 1] Aは若年層・中年層の労働者から支持を集め、Bは高齢女性と南米系女性から美的・精神的価値で選ばれた。Cは日本人男性のみが文化的観点から評価したが、他4名は「怖すぎる」「馴染みがない」として拒否。世代・文化背景が投票に強く影響している。\n[batch 2] Bが3票のlikeを獲得し最多支持。華やかさと非現実的造形の組み合わせが幅広い年代・文化圏に訴求した。Aは多関節腕・縦裂けの口という身体的異形性が2票のdislikeを集め、恐怖感が支持を妨げた。Cは日本人高齢者には親しみがあるが、若年層や外国人には新鮮味不足と文化的距離が障壁となった。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}

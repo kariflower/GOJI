@@ -1,0 +1,12 @@
+{
+  "session_id": "session-20260308-124023-e4c5",
+  "updated_at": "2026-03-08T07:16:58.381742Z",
+  "phase": "phase7",
+  "current_phase": "phase7",
+  "status": "completed",
+  "pause_reason": null,
+  "pause_phase": null,
+  "error_summary": {
+    "state_validation": 1
+  }
+}

@@ -1,0 +1,3808 @@
+{
+  "session_id": "session-20260218-150622-25b9",
+  "state_version": 4,
+  "created_at": "2026-02-18T06:06:22.936874Z",
+  "updated_at": "2026-02-18T06:11:56.707194Z",
+  "audio_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.mp3",
+  "lyrics_path": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/inputs/phase0_inbox/わからないから.srt",
+  "output_dir": "/Users/yoshimitakamitsu/work/mv-orchestra-v0.9.1-work/sessions/session-20260218-150622-25b9",
+  "music_analysis": {
+    "bpm": 133.85274222572133,
+    "bpm_confidence": 0.7999999999999999,
+    "key": "C",
+    "mode": "major",
+    "genre": null,
+    "subgenre": null,
+    "tags": [],
+    "duration_sec": 213.599979,
+    "sections": [
+      {
+        "section_id": "sec-001",
+        "label": "intro",
+        "start_sec": 0.0,
+        "end_sec": 10.68,
+        "duration_sec": 10.68,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-002",
+        "label": "verse1",
+        "start_sec": 10.68,
+        "end_sec": 48.5,
+        "duration_sec": 37.82,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-003",
+        "label": "chorus1",
+        "start_sec": 48.5,
+        "end_sec": 80.4,
+        "duration_sec": 31.900000000000006,
+        "confidence": 1.0,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-004",
+        "label": "verse2",
+        "start_sec": 80.4,
+        "end_sec": 112.1,
+        "duration_sec": 31.69999999999999,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-005",
+        "label": "chorus2",
+        "start_sec": 112.1,
+        "end_sec": 143.3,
+        "duration_sec": 31.200000000000017,
+        "confidence": 0.9565517241379309,
+        "source": "sidecar"
+      },
+      {
+        "section_id": "sec-006",
+        "label": "bridge",
+        "start_sec": 143.3,
+        "end_sec": 160.2,
+        "duration_sec": 16.899999999999977,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-007",
+        "label": "verse3",
+        "start_sec": 160.2,
+        "end_sec": 192.24,
+        "duration_sec": 32.04000000000002,
+        "confidence": 0.3,
+        "source": "estimated"
+      },
+      {
+        "section_id": "sec-008",
+        "label": "outro",
+        "start_sec": 192.24,
+        "end_sec": 213.6,
+        "duration_sec": 21.359999999999985,
+        "confidence": 0.3,
+        "source": "estimated"
+      }
+    ],
+    "beats": [
+      {
+        "time_sec": 2.943604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.366563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 3.789521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.212479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 4.635437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.058396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 5.731271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.155458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 6.579625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.003792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.427958,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 7.852146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.296938,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 8.720041,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.143167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.566271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 9.989375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.412479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 10.835604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.287,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 11.708896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.130792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.552688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 12.974584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.3965,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 13.855771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.277979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 14.700209,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.122416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.544646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 15.966854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.423666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 16.845125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.266603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 17.688084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.109562,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.531042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 18.95252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.411688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 19.833666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.255646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 20.677626,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.099604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.521584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 21.990021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.411959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 22.833876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.255793,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 23.677708,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.099646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.521563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 24.976646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.398645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 25.820625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.242624,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 26.664604,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.086605,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.562916,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 27.985479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.40802,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 28.830584,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.253145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 29.675709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.150833,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.572771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 30.994709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.416645,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 31.838583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.260521,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 32.682457,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.134563,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.556355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 33.978146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.39996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 34.821751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.243542,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 35.710499,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.132145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.553814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 36.97546,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.397125,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 37.81879,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.275478,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 38.696606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.117729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.538853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 39.95998,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.381126,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 40.80225,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.281773,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 41.703186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.124603,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.546021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 42.967438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.388855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 43.84827,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.269291,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 44.690311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.111332,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.532352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 45.953377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.374397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 46.863377,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.284355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 47.705353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.126335,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.547333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 48.968311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.380646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 49.79948,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.218311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 50.637146,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.055981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 51.474812,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.278168,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 52.695,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.111832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.528667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 53.94548,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.362312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 54.993374,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.410084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 55.826771,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.243458,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 56.660145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.076855,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 57.733021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.148876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.564709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 58.980564,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.396397,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 59.812248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.454437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 60.870979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.28754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 61.704082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.120625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 62.537186,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.193832,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 63.609394,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.024979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.440559,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 64.856148,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.271706,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 65.924294,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.33979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 66.755272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.170753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 67.586227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.001709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 68.65358,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.068375,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.48317,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 69.897957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.312752,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 70.727539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.383232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 71.797501,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.211792,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 72.62606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.040352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 73.454628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.11319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.527122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 74.941063,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.355003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 75.768913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.182854,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 76.844772,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.259163,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 77.673538,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.087936,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.502312,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 78.91671,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.397476,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 79.814545,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.231606,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 80.648666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.065727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.482811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 81.899872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.229103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 82.648643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.068184,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.487709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 83.907249,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.32679,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 84.78154,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.202728,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 85.623917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.045105,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.466316,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 86.887497,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.308685,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 87.585709,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.008232,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.430748,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 88.853271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.275795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 89.698311,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.148315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.570625,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 90.992935,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.41523,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 91.83754,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.259857,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 92.682167,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.146355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.56852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 93.990669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.412811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 94.834961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.257103,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 95.714211,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.13633,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.558456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 96.980583,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.40271,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 97.824852,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.246979,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 98.704124,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.12558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.547043,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 99.968498,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.389961,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 100.811417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.292122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 101.71402,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.135918,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.557831,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 102.979729,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.401627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 103.755539,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.176956,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 104.598373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.019814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.441231,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 105.862663,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.284081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 106.88427,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.305061,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 107.725876,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.146667,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.567482,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 108.988274,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 109.61454,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.035149,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.45575,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 110.87635,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.296959,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 111.71756,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.337646,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 112.754456,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.171295,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 113.588104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.004913,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 114.421753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.075333,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.490356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 115.905357,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.320351,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 116.735352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.150352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 117.806816,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.222206,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 118.637627,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.053024,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.468414,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 119.883835,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.536873,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 120.951981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.367081,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 121.782188,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.197289,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 122.612396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.267166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 123.682083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.511917,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 124.926834,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.341751,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 125.997314,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.411957,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 126.826622,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.241272,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 127.655937,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.070587,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 128.727066,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.141266,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.555466,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 129.969666,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.383881,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 130.798065,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.457352,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 131.871353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.28537,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 132.699371,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.113403,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 133.52739,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.190353,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 134.605515,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.020691,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.435883,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 135.851044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.266205,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 136.921021,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.336182,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 137.751373,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.166534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.581726,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 138.996902,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 139.642319,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.058044,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.473785,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 140.889526,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.305252,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 141.720978,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.33017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 142.745789,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.161392,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.576996,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 143.99263,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.408234,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 144.910416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.325806,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 145.741226,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.156647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.572067,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 146.987473,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.402893,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 147.793839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.211227,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 148.628601,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.045975,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.463379,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 149.880753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.363983,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 150.78273,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.201508,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 151.620255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.039017,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.457794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 152.876541,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.152664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.574097,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 153.99556,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.417007,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 154.83844,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.259903,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 155.720795,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.142776,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.564743,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 156.986725,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.408707,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 157.830673,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.25264,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 158.721619,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.144028,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.566437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 159.988861,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.411255,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 160.833664,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.499222,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 161.920853,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.342453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 162.764084,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.185684,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 163.607315,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.228577,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 164.649536,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.070496,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.491455,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 165.912445,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.333389,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 166.954437,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.372986,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 167.791534,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.210083,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 168.628647,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.04718,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 169.680939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.097412,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.51387,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 170.930359,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.346817,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 171.76329,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.420166,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 172.835602,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.251022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 173.666443,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.081848,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 174.497269,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.149628,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.564438,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 175.979248,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.394058,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 176.808868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.223694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 177.879868,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.294479,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 178.709076,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.123688,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.538284,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 179.952896,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 180.610809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.025558,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.440292,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 181.855042,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.269775,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 182.684525,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.341171,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 183.755753,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.170334,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.5849,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 184.999481,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 185.414062,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.070145,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.483871,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 186.897629,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.311356,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 187.725082,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.13884,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 188.800369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.213898,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 189.627411,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.040939,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.454453,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 190.867981,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.532669,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 191.947006,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.361328,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 192.775681,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.190018,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 193.604355,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.266327,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 194.682159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.097977,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.513809,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 195.929642,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.345474,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 196.988022,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.404694,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 197.821381,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.238037,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 198.654724,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.071396,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.441162,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 199.866104,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.291046,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 200.716003,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.14093,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.565872,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 201.990814,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.425598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 202.843643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.261703,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 203.679749,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.097794,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 204.515839,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.001236,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.422318,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 205.843369,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.264465,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 206.685516,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.106598,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.565811,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 207.987122,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.408417,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 208.829727,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.251038,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 209.672348,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.093643,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.577194,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 210.999435,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.421692,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 211.843933,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.266159,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 212.688416,
+        "strength": 1.0
+      },
+      {
+        "time_sec": 213.149002,
+        "strength": 1.0
+      }
+    ],
+    "emotional_arc": [
+      {
+        "time_sec": 0.0,
+        "valence": 0.4875,
+        "arousal": 0.3
+      },
+      {
+        "time_sec": 11.242104157894735,
+        "valence": 0.37763157894736843,
+        "arousal": 0.3789473684210526
+      },
+      {
+        "time_sec": 22.48420831578947,
+        "valence": 0.38026315789473686,
+        "arousal": 0.45789473684210524
+      },
+      {
+        "time_sec": 33.72631247368421,
+        "valence": 0.3828947368421053,
+        "arousal": 0.5368421052631579
+      },
+      {
+        "time_sec": 44.96841663157894,
+        "valence": 0.6855263157894737,
+        "arousal": 0.6157894736842104
+      },
+      {
+        "time_sec": 56.21052078947368,
+        "valence": 0.6881578947368421,
+        "arousal": 0.6947368421052631
+      },
+      {
+        "time_sec": 67.45262494736842,
+        "valence": 0.6907894736842105,
+        "arousal": 0.7578947368421053
+      },
+      {
+        "time_sec": 78.69472910526315,
+        "valence": 0.39342105263157895,
+        "arousal": 0.7842105263157895
+      },
+      {
+        "time_sec": 89.93683326315788,
+        "valence": 0.3960526315789474,
+        "arousal": 0.8105263157894737
+      },
+      {
+        "time_sec": 101.17893742105262,
+        "valence": 0.3986842105263158,
+        "arousal": 0.8368421052631578
+      },
+      {
+        "time_sec": 112.42104157894735,
+        "valence": 0.7013157894736841,
+        "arousal": 0.8631578947368421
+      },
+      {
+        "time_sec": 123.66314573684211,
+        "valence": 0.7039473684210525,
+        "arousal": 0.8894736842105263
+      },
+      {
+        "time_sec": 134.90524989473684,
+        "valence": 0.706578947368421,
+        "arousal": 0.9157894736842105
+      },
+      {
+        "time_sec": 146.14735405263158,
+        "valence": 0.20921052631578949,
+        "arousal": 0.9421052631578948
+      },
+      {
+        "time_sec": 157.3894582105263,
+        "valence": 0.21184210526315791,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 168.63156236842104,
+        "valence": 0.7144736842105263,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 179.87366652631576,
+        "valence": 0.7171052631578947,
+        "arousal": 0.95
+      },
+      {
+        "time_sec": 191.11577068421053,
+        "valence": 0.7197368421052631,
+        "arousal": 0.8157894736842104
+      },
+      {
+        "time_sec": 202.35787484210525,
+        "valence": 0.4723684210526316,
+        "arousal": 0.6578947368421053
+      },
+      {
+        "time_sec": 213.599979,
+        "valence": 0.525,
+        "arousal": 0.4999999999999999
+      }
+    ],
+    "detection_method": "ffprobe_estimated+bpm:hybrid+beats:aubio+chorus:sidecar"
+  },
+  "lyrics": {
+    "lines": [
+      {
+        "index": 1,
+        "start_sec": 14.5,
+        "end_sec": 17.5,
+        "text": "蛍光灯の下で三角関数",
+        "language": null
+      },
+      {
+        "index": 2,
+        "start_sec": 17.8,
+        "end_sec": 21.0,
+        "text": "解いてる僕の手は震えてる",
+        "language": null
+      },
+      {
+        "index": 3,
+        "start_sec": 21.3,
+        "end_sec": 24.5,
+        "text": "母親の期待という名の鎖が",
+        "language": null
+      },
+      {
+        "index": 4,
+        "start_sec": 24.8,
+        "end_sec": 27.8,
+        "text": "首を絞める音が聞こえる",
+        "language": null
+      },
+      {
+        "index": 5,
+        "start_sec": 28.0,
+        "end_sec": 31.0,
+        "text": "同級生は皆んな演技上手で",
+        "language": null
+      },
+      {
+        "index": 6,
+        "start_sec": 31.3,
+        "end_sec": 34.5,
+        "text": "僕だけがピエロになってる",
+        "language": null
+      },
+      {
+        "index": 7,
+        "start_sec": 34.8,
+        "end_sec": 37.8,
+        "text": "カメラ越しに作る笑顔より",
+        "language": null
+      },
+      {
+        "index": 8,
+        "start_sec": 38.2,
+        "end_sec": 41.2,
+        "text": "壊れた僕の方が美しい",
+        "language": null
+      },
+      {
+        "index": 9,
+        "start_sec": 41.5,
+        "end_sec": 44.8,
+        "text": "この胸の奥で鳴ってる",
+        "language": null
+      },
+      {
+        "index": 10,
+        "start_sec": 45.0,
+        "end_sec": 48.3,
+        "text": "誰も知らない狂った旋律",
+        "language": null
+      },
+      {
+        "index": 11,
+        "start_sec": 48.5,
+        "end_sec": 51.8,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 12,
+        "start_sec": 52.1,
+        "end_sec": 55.3,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 13,
+        "start_sec": 55.6,
+        "end_sec": 58.8,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 14,
+        "start_sec": 59.1,
+        "end_sec": 62.3,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 15,
+        "start_sec": 62.6,
+        "end_sec": 65.8,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 16,
+        "start_sec": 66.1,
+        "end_sec": 69.3,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 17,
+        "start_sec": 69.6,
+        "end_sec": 72.8,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 18,
+        "start_sec": 73.1,
+        "end_sec": 76.3,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 19,
+        "start_sec": 77.2,
+        "end_sec": 80.4,
+        "text": "進路希望調査票の空欄",
+        "language": null
+      },
+      {
+        "index": 20,
+        "start_sec": 80.7,
+        "end_sec": 83.9,
+        "text": "「普通」以外書く勇気がない",
+        "language": null
+      },
+      {
+        "index": 21,
+        "start_sec": 84.1,
+        "end_sec": 87.3,
+        "text": "YouTuberって書いたら笑われて",
+        "language": null
+      },
+      {
+        "index": 22,
+        "start_sec": 87.6,
+        "end_sec": 90.8,
+        "text": "「現実を見ろ」って言われるのがオチ",
+        "language": null
+      },
+      {
+        "index": 23,
+        "start_sec": 91.1,
+        "end_sec": 94.3,
+        "text": "でも夜中にこっそり撮る動画",
+        "language": null
+      },
+      {
+        "index": 24,
+        "start_sec": 94.6,
+        "end_sec": 97.8,
+        "text": "誰にも見せないそれだけが本物",
+        "language": null
+      },
+      {
+        "index": 25,
+        "start_sec": 98.1,
+        "end_sec": 101.3,
+        "text": "編集してる時の僕の目は",
+        "language": null
+      },
+      {
+        "index": 26,
+        "start_sec": 101.6,
+        "end_sec": 104.8,
+        "text": "きっと生きてるって言えるんだ",
+        "language": null
+      },
+      {
+        "index": 27,
+        "start_sec": 105.1,
+        "end_sec": 108.3,
+        "text": "この世界は嘘つきばっかりで",
+        "language": null
+      },
+      {
+        "index": 28,
+        "start_sec": 108.6,
+        "end_sec": 111.8,
+        "text": "本当のことを言うのは僕だけ",
+        "language": null
+      },
+      {
+        "index": 29,
+        "start_sec": 112.1,
+        "end_sec": 115.3,
+        "text": "透明な檻の中で踊る人形",
+        "language": null
+      },
+      {
+        "index": 30,
+        "start_sec": 115.6,
+        "end_sec": 118.8,
+        "text": "誰の操り糸を切ればいいの？",
+        "language": null
+      },
+      {
+        "index": 31,
+        "start_sec": 119.1,
+        "end_sec": 122.3,
+        "text": "14歳の血が沸騰してる",
+        "language": null
+      },
+      {
+        "index": 32,
+        "start_sec": 122.6,
+        "end_sec": 125.8,
+        "text": "この偽物の皮膚を剥がしたい",
+        "language": null
+      },
+      {
+        "index": 33,
+        "start_sec": 126.1,
+        "end_sec": 129.3,
+        "text": "Tear apart this manufactured soul",
+        "language": null
+      },
+      {
+        "index": 34,
+        "start_sec": 129.6,
+        "end_sec": 132.8,
+        "text": "Find the beating heart underneath",
+        "language": null
+      },
+      {
+        "index": 35,
+        "start_sec": 133.1,
+        "end_sec": 136.3,
+        "text": "本当の僕はもっと醜くて",
+        "language": null
+      },
+      {
+        "index": 36,
+        "start_sec": 136.6,
+        "end_sec": 139.8,
+        "text": "もっと美しいはずなのに",
+        "language": null
+      },
+      {
+        "index": 37,
+        "start_sec": 140.1,
+        "end_sec": 143.3,
+        "text": "お母さん、ごめん",
+        "language": null
+      },
+      {
+        "index": 38,
+        "start_sec": 143.6,
+        "end_sec": 146.8,
+        "text": "僕は君が望む息子になれない",
+        "language": null
+      },
+      {
+        "index": 39,
+        "start_sec": 147.1,
+        "end_sec": 150.3,
+        "text": "先生、ごめん",
+        "language": null
+      },
+      {
+        "index": 40,
+        "start_sec": 150.6,
+        "end_sec": 153.8,
+        "text": "僕は型にはまる生徒になれない",
+        "language": null
+      },
+      {
+        "index": 41,
+        "start_sec": 154.1,
+        "end_sec": 157.3,
+        "text": "でもそれでも生きていたい",
+        "language": null
+      },
+      {
+        "index": 42,
+        "start_sec": 157.6,
+        "end_sec": 160.8,
+        "text": "傷だらけでも本物でいたい",
+        "language": null
+      },
+      {
+        "index": 43,
+        "start_sec": 161.1,
+        "end_sec": 164.3,
+        "text": "この狂った世界で",
+        "language": null
+      },
+      {
+        "index": 44,
+        "start_sec": 164.6,
+        "end_sec": 167.8,
+        "text": "一人ぼっちでも",
+        "language": null
+      },
+      {
+        "index": 45,
+        "start_sec": 168.1,
+        "end_sec": 171.3,
+        "text": "透明な檻を蹴り破る音が",
+        "language": null
+      },
+      {
+        "index": 46,
+        "start_sec": 171.6,
+        "end_sec": 174.8,
+        "text": "今夜の僕のテーマソング",
+        "language": null
+      },
+      {
+        "index": 47,
+        "start_sec": 175.1,
+        "end_sec": 178.3,
+        "text": "14歳の革命はここから始まる",
+        "language": null
+      },
+      {
+        "index": 48,
+        "start_sec": 178.6,
+        "end_sec": 181.8,
+        "text": "誰も知らない小さな戦争",
+        "language": null
+      },
+      {
+        "index": 49,
+        "start_sec": 182.1,
+        "end_sec": 185.3,
+        "text": "Break apart this plastic world",
+        "language": null
+      },
+      {
+        "index": 50,
+        "start_sec": 185.6,
+        "end_sec": 188.8,
+        "text": "Find the truth beneath the lies",
+        "language": null
+      },
+      {
+        "index": 51,
+        "start_sec": 189.1,
+        "end_sec": 192.3,
+        "text": "醜くても美しくても",
+        "language": null
+      },
+      {
+        "index": 52,
+        "start_sec": 192.6,
+        "end_sec": 195.8,
+        "text": "これが僕という名前の呪文",
+        "language": null
+      },
+      {
+        "index": 53,
+        "start_sec": 196.1,
+        "end_sec": 199.3,
+        "text": "蛍光灯が消えて",
+        "language": null
+      },
+      {
+        "index": 54,
+        "start_sec": 199.6,
+        "end_sec": 202.8,
+        "text": "本当の闇が始まる",
+        "language": null
+      }
+    ],
+    "total_lines": 54,
+    "detected_language": "ja"
+  },
+  "core_concept": {
+    "creative_seed": "persona-10ced470:6b0a218b",
+    "self_analysis": "私は喪失を何度も経験してきた人間だ。それを嘆くより、静かに受け止めて次の日の仕事に行く。感情は表に出さないが、内側では長く燃えている。笑いは少なく、皮肉は使わない。美しいものより、長持ちするものに目が向く。回復は劇的ではなく、気づいたら続いていた、という種類のものだ。",
+    "what_i_saw": "夜中の台所ではなく、昼間の明るい時間帯——でも誰もいない。机の上に置かれたスマートフォン、画面は録画中で赤いランプが点いている。その前に立っているはずの人物がいない。椅子が少し引かれたまま、空だ。しかしその空の椅子の背に、制服の上着だけがかかっている。",
+    "why_it_came": "「誰も見せない動画」が頭に残った。撮っている、でも見せない。その矛盾の核心は、撮る行為自体が目的だということだ。私は長年、誰にも届かない労働をしてきた人間だ。送金、洗濯、帳簿——受け取る人がいなければ消えるような仕事ばかり。でもやっていた。その感覚と、この歌詞の少年の孤独な録画が、同じ形をしていると感じた。そして既出の三案はいずれも「人物がいる」シーンだった。だから私は「人物が抜けた後」を選んだ。静けさの側から。[起点=lyrics][解釈=不在の証拠][トーン=counterpoint]",
+    "theme": "本物であろうとした痕跡は、本人が去った後にだけ、正しく残る。",
+    "hook_scene": {
+      "focus": "録画中のスマートフォンと、その前の空の椅子——人物は映っていない",
+      "place": "日当たりのいい子供部屋。カーテンが開いていて昼の光が入っている。机の上には教科書ではなく、手書きのカンペメモと消しカスが数個",
+      "action": "カメラは回っている。誰も座っていない。椅子の背には制服の上着。画面の録画タイマーは2分17秒で止まっている",
+      "detail": "椅子の座面に、座っていた跡として少しだけ凹んだクッションの形——まだ温かいかもしれない、という時間の近さ",
+      "question": "なぜ彼は途中でやめたのか——それとも、これが完成形なのか？",
+      "when": "「でも夜中にこっそり撮る動画 / 誰にも見せないそれだけが本物」の直後、サビ前の一瞬の静寂"
+    },
+    "tension_target": 0.7303947368421053
+  },
+  "phase_results": {
+    "phase1": {
+      "phase_id": "phase1",
+      "competition": {
+        "proposals": [
+          {
+            "proposal_id": "prop-8cfc377d",
+            "persona_id": "persona-75616758",
+            "content": {
+              "creative_seed": "persona-75616758:d6a371b6",
+              "self_analysis": "私は商品の価値を短く正確に伝えることで生きてきた人間だ。余計な言葉を嫌い、本質だけを残す癖がある。回復力は静かな種類のもので、嵐の中で叫ぶのではなく、翌朝また店を開けることで示す。ユーモアは辛口で、自分が滑稽だと気づいた瞬間に少し笑える程度。この歌の「14歳の血」に対して、私が感じるのは共感ではなく「ああ、その熱さは本物だったな」という距離感のある確認だ。",
+              "what_i_saw": "蛍光灯が一本ずつ消えていく天井。最後の一本が消えた瞬間、暗闇の中で少年の顔だけが画面に残る——しかし表情は泣いていない。口の端が、かすかに上がっている。",
+              "why_it_came": "歌詞の末尾「蛍光灯が消えて、本当の闇が始まる」を読んだ時、私は「解放」の方を拾った。暗くなること自体が主題ではなく、管理された明かりが切れた後に初めて自分の顔が自分のものになる——その瞬間の軽さ。香草を乾燥させる時、光を遮断した後の方が香りが立つ。締め付けが外れた瞬間の、奇妙な静けさと可笑しさ。[起点=lyrics][解釈=解放・逆転・照度][トーン=uplift]",
+              "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+              "hook_scene": {
+                "focus": "14歳の少年——机に向かっていた姿勢のまま、動かずにいる",
+                "place": "勉強部屋。プリントと教科書が積まれた机の前。蛍光灯が一本ずつ順番に消えていく天井",
+                "action": "何もしていない。ただ座っている。最後の蛍光灯が消えた瞬間、暗闇の中で口の端だけがわずかに上がる",
+                "detail": "机の上の進路希望調査票が、消える光の中で白く浮かび上がり、最後に闇に沈む——しかし少年の目は書類ではなく、どこか遠い一点を見ている",
+                "question": "なぜ彼は泣いていないのか？この表情は笑いなのか、それとも別の何かか？",
+                "when": "ラストサビ後「蛍光灯が消えて／本当の闇が始まる」の「消えて」に同期して最後の灯が落ち、3秒間の完全な暗闇のあとにその口元だけがスクリーンに残る"
+              }
+            },
+            "created_at": "2026-02-18 06:07:11.421265"
+          },
+          {
+            "proposal_id": "prop-a16b7ab7",
+            "persona_id": "persona-536670e0",
+            "content": {
+              "creative_seed": "persona-536670e0:fc5eafce",
+              "self_analysis": "私は人に寄りかかりながら笑っているタイプ。交渉の場でも冗談を一つ挟む。重い状況でも「でもまあ」と言ってしまう。傷を抱えたまま宴会を開ける人間。回復力というより、回避力。本物の暗さは一人でいる時だけに出てくるもので、誰かがいる場では笑うほうを選ぶ。だから「壊れた僕の方が美しい」なんて歌詞を聴いたとき、まず笑ってしまった——ああ、この子は本当のことを言っている、でも大げさなんだよね、という感覚。その「大げさ」の中に本物があるのを、私は知っている。",
+              "what_i_saw": "コンビニのバックヤード。ダンボール箱が積まれた蛍光灯の下。中学生の男の子が制服姿のまま、商品のバーコードをスキャンするバイト店員の真似をしている——スキャナーは本物じゃなくて定規。真顔で、でも唇の端だけ少し上がっている。",
+              "why_it_came": "「YouTuberって書いたら笑われて」という歌詞が刺さった瞬間、暗さじゃなくて可笑しさが来た。この子の怒りは正しいし、でも14歳の怒りってちょっと滑稽でもあって、その両方が同時に本物なんだと思った。バックヤードで定規をスキャナーにするのは、「大人のふり」と「遊び」と「反抗」が全部一致する瞬間。真顔でやってるのが肝心。[起点=lyrics][解釈=滑稽な本気][トーン=playful]",
+              "theme": "革命家は今日も、誰も見ていない場所でリハーサルをしている。",
+              "hook_scene": {
+                "focus": "制服姿の中学生男子——袖が少し長くて手首が隠れている",
+                "place": "コンビニのバックヤード。段ボールの壁、むき出しの蛍光灯、台車一台",
+                "action": "商品ではなく自分の教科書にバーコードスキャナー（代わりの定規）をかざし、「ピッ」と声で効果音をつけながら一冊ずつ「処理」している。表情は完全に真顔。",
+                "detail": "スキャンした教科書の背表紙に、小さく「¥0」と手書きのシールが貼ってある",
+                "question": "なぜ彼は笑っていないのか——これはふざけているのか、それとも本当に何かを売り払おうとしているのか？",
+                "when": "「でもそれでも生きていたい」直後のインストの間奏頭"
+              }
+            },
+            "created_at": "2026-02-18 06:08:27.090703"
+          },
+          {
+            "proposal_id": "prop-4a136c78",
+            "persona_id": "persona-10ced470",
+            "content": {
+              "creative_seed": "persona-10ced470:6b0a218b",
+              "self_analysis": "私は喪失を何度も経験してきた人間だ。それを嘆くより、静かに受け止めて次の日の仕事に行く。感情は表に出さないが、内側では長く燃えている。笑いは少なく、皮肉は使わない。美しいものより、長持ちするものに目が向く。回復は劇的ではなく、気づいたら続いていた、という種類のものだ。",
+              "what_i_saw": "夜中の台所ではなく、昼間の明るい時間帯——でも誰もいない。机の上に置かれたスマートフォン、画面は録画中で赤いランプが点いている。その前に立っているはずの人物がいない。椅子が少し引かれたまま、空だ。しかしその空の椅子の背に、制服の上着だけがかかっている。",
+              "why_it_came": "「誰も見せない動画」が頭に残った。撮っている、でも見せない。その矛盾の核心は、撮る行為自体が目的だということだ。私は長年、誰にも届かない労働をしてきた人間だ。送金、洗濯、帳簿——受け取る人がいなければ消えるような仕事ばかり。でもやっていた。その感覚と、この歌詞の少年の孤独な録画が、同じ形をしていると感じた。そして既出の三案はいずれも「人物がいる」シーンだった。だから私は「人物が抜けた後」を選んだ。静けさの側から。[起点=lyrics][解釈=不在の証拠][トーン=counterpoint]",
+              "theme": "本物であろうとした痕跡は、本人が去った後にだけ、正しく残る。",
+              "hook_scene": {
+                "focus": "録画中のスマートフォンと、その前の空の椅子——人物は映っていない",
+                "place": "日当たりのいい子供部屋。カーテンが開いていて昼の光が入っている。机の上には教科書ではなく、手書きのカンペメモと消しカスが数個",
+                "action": "カメラは回っている。誰も座っていない。椅子の背には制服の上着。画面の録画タイマーは2分17秒で止まっている",
+                "detail": "椅子の座面に、座っていた跡として少しだけ凹んだクッションの形——まだ温かいかもしれない、という時間の近さ",
+                "question": "なぜ彼は途中でやめたのか——それとも、これが完成形なのか？",
+                "when": "「でも夜中にこっそり撮る動画 / 誰にも見せないそれだけが本物」の直後、サビ前の一瞬の静寂"
+              }
+            },
+            "created_at": "2026-02-18 06:10:36.605501"
+          }
+        ],
+        "voting": {
+          "selection_mode": "vote10_like_dislike",
+          "candidate_keys": [
+            "A"
+          ],
+          "candidate_map": {
+            "A": "prop-4a136c78"
+          },
+          "tally": {
+            "A": 0
+          },
+          "like_tally": {
+            "A": 0
+          },
+          "dislike_tally": {
+            "A": 0
+          },
+          "votes": [],
+          "analysis": "single_candidate",
+          "is_tiebreak": false,
+          "tiebreak_reason": null,
+          "goji_vote": null
+        }
+      },
+      "adopted_result": {
+        "proposal_id": "prop-4a136c78",
+        "persona_id": "persona-10ced470",
+        "content": {
+          "creative_seed": "persona-10ced470:6b0a218b",
+          "self_analysis": "私は喪失を何度も経験してきた人間だ。それを嘆くより、静かに受け止めて次の日の仕事に行く。感情は表に出さないが、内側では長く燃えている。笑いは少なく、皮肉は使わない。美しいものより、長持ちするものに目が向く。回復は劇的ではなく、気づいたら続いていた、という種類のものだ。",
+          "what_i_saw": "夜中の台所ではなく、昼間の明るい時間帯——でも誰もいない。机の上に置かれたスマートフォン、画面は録画中で赤いランプが点いている。その前に立っているはずの人物がいない。椅子が少し引かれたまま、空だ。しかしその空の椅子の背に、制服の上着だけがかかっている。",
+          "why_it_came": "「誰も見せない動画」が頭に残った。撮っている、でも見せない。その矛盾の核心は、撮る行為自体が目的だということだ。私は長年、誰にも届かない労働をしてきた人間だ。送金、洗濯、帳簿——受け取る人がいなければ消えるような仕事ばかり。でもやっていた。その感覚と、この歌詞の少年の孤独な録画が、同じ形をしていると感じた。そして既出の三案はいずれも「人物がいる」シーンだった。だから私は「人物が抜けた後」を選んだ。静けさの側から。[起点=lyrics][解釈=不在の証拠][トーン=counterpoint]",
+          "theme": "本物であろうとした痕跡は、本人が去った後にだけ、正しく残る。",
+          "hook_scene": {
+            "focus": "録画中のスマートフォンと、その前の空の椅子——人物は映っていない",
+            "place": "日当たりのいい子供部屋。カーテンが開いていて昼の光が入っている。机の上には教科書ではなく、手書きのカンペメモと消しカスが数個",
+            "action": "カメラは回っている。誰も座っていない。椅子の背には制服の上着。画面の録画タイマーは2分17秒で止まっている",
+            "detail": "椅子の座面に、座っていた跡として少しだけ凹んだクッションの形——まだ温かいかもしれない、という時間の近さ",
+            "question": "なぜ彼は途中でやめたのか——それとも、これが完成形なのか？",
+            "when": "「でも夜中にこっそり撮る動画 / 誰にも見せないそれだけが本物」の直後、サビ前の一瞬の静寂"
+          }
+        },
+        "created_at": "2026-02-18 06:10:36.605501"
+      },
+      "metadata": {
+        "creative_personas": [
+          {
+            "id": "persona-75616758",
+            "name": "Nguyen Bao Linh",
+            "gender": "ノンバイナリー",
+            "birthdate": "1683-04-27",
+            "age": 30,
+            "origin_city": "ローマ",
+            "ethnic_background": "東南アジア系",
+            "life_history": [
+              {
+                "year": 1683,
+                "event": "ローマの旧市街、トラステヴェレ地区に生まれる。父はベトナム南部出身の香辛料商人で、母はローマ近郊出身のイタリア人女性。"
+              },
+              {
+                "year": 1689,
+                "event": "父の商売の都合でナポリへ一時移住し、2年間を港町で過ごす。"
+              },
+              {
+                "year": 1691,
+                "event": "家族でローマに戻り、父の店の近くにある教区学校に入学する。"
+              },
+              {
+                "year": 1697,
+                "event": "14歳のとき父が死去し、母方の祖父母の家に引き取られる。学校を離れ、近所の薬草商の店で見習いとして働き始める。"
+              },
+              {
+                "year": 1702,
+                "event": "19歳で薬草商から独立し、市場の一角で小さな薬草・香辛料の露店を開く。"
+              },
+              {
+                "year": 1707,
+                "event": "ローマの商業組合に登録し、店舗を路地裏の小屋から市場内の固定区画に移す。"
+              },
+              {
+                "year": 1710,
+                "event": "27歳のとき、同じ市場で布地を売る商人の家族の紹介で知り合った人物と共同生活を始める。"
+              },
+              {
+                "year": 1713,
+                "event": "現在もローマの市場で香辛料と薬草を扱う店を営んでいる。店の規模は小さいまま維持されている。"
+              }
+            ],
+            "current_situation": "1713年現在、ローマのトラステヴェレ地区の市場に店を構え、香辛料と薬草の販売を生業としている。父から受け継いだベトナム産の香辛料の仕入れルートを一部維持しつつ、地中海沿岸の産品も扱っている。共同生活を送るパートナーと市場近くの借家に住んでいる。週に数日は母方の祖母の家に立ち寄り、食事を共にしている。",
+            "external_perception": {
+              "first_impression": "物静かで手際がよく、商品の説明を短く的確に行う。",
+              "close_friends_view": "約束をきちんと守り、余計なことを言わない。困ったときに頼みやすい相手だと思われている。",
+              "misunderstandings": "無口であるため、愛想がないと思われることがある。また、父方の出自から「外国から来た人」と見なされることが多い。"
+            },
+            "stance_on_past": "あまり振り返らず前を向いている"
+          },
+          {
+            "id": "persona-536670e0",
+            "name": "プリヤンカ・ナイール",
+            "gender": "女性",
+            "birthdate": "9245-05-07",
+            "age": 57,
+            "origin_city": "高雄",
+            "ethnic_background": "南アジア系",
+            "life_history": [
+              {
+                "year": 9250,
+                "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+              },
+              {
+                "year": 9263,
+                "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+              },
+              {
+                "year": 9267,
+                "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+              },
+              {
+                "year": 9270,
+                "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+              },
+              {
+                "year": 9278,
+                "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+              },
+              {
+                "year": 9286,
+                "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+              },
+              {
+                "year": 9295,
+                "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+              },
+              {
+                "year": 9301,
+                "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+              }
+            ],
+            "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+            "external_perception": {
+              "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+              "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+              "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+            },
+            "stance_on_past": "まだ傷として残っている",
+            "proposal_history": [
+              {
+                "session": "20260118_040633",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 21,
+                "won": true
+              }
+            ]
+          },
+          {
+            "id": "persona-10ced470",
+            "name": "李秋蓮",
+            "gender": "クエスチョニング",
+            "birthdate": "1065-12-03",
+            "age": 75,
+            "origin_city": "オークランド",
+            "ethnic_background": "東アジア系",
+            "life_history": [
+              {
+                "year": 1065,
+                "event": "オークランド南部の商人地区で生まれた。父は陶磁器を扱う交易商、母は染物職人だった。"
+              },
+              {
+                "year": 1078,
+                "event": "13歳の時、父の商船が嵐で沈没し、家業が傾いた。母と共に染物の仕事を増やして生計を立てた。"
+              },
+              {
+                "year": 1085,
+                "event": "20歳で隣町の織物工房の管理補佐として雇われ、家を離れた。給金の半分を母に送り続けた。"
+              },
+              {
+                "year": 1092,
+                "event": "工房の火災で右手に火傷を負い、細かい作業ができなくなった。帳簿管理の仕事に移った。"
+              },
+              {
+                "year": 1104,
+                "event": "工房の閉鎖に伴い、港の倉庫番として働き始めた。母が病で亡くなったが、葬儀に間に合わなかった。"
+              },
+              {
+                "year": 1118,
+                "event": "倉庫で出会った船乗りと10年ほど共に暮らしたが、相手が航海中に消息を絶った。"
+              },
+              {
+                "year": 1132,
+                "event": "腰を痛めて倉庫の仕事を辞め、市場近くの小さな宿で清掃と洗濯の仕事を始めた。"
+              }
+            ],
+            "current_situation": "オークランド旧市街の共同長屋に一人で暮らしている。週に三日、近所の宿で寝具の洗濯と修繕をして小銭を稼いでいる。右手の火傷痕は今も残っており、雨の日は痛む。隣人とは挨拶程度の付き合いで、月に一度市場で食料をまとめ買いする。夜は早く、明け方に目が覚めることが多い。",
+            "external_perception": {
+              "first_impression": "無口で表情が乏しく、近寄りがたい雰囲気がある。",
+              "close_friends_view": "頼まれたことは確実にこなすが、自分のことは一切話さない。",
+              "misunderstandings": "感情がないように見られるが、実際は言葉にしないだけだと気づかれていない。"
+            },
+            "stance_on_past": "まだ傷として残っている"
+          }
+        ],
+        "goji_persona_id": null,
+        "winning_persona": {
+          "id": "persona-10ced470",
+          "name": "李秋蓮",
+          "gender": "クエスチョニング",
+          "birthdate": "1065-12-03",
+          "age": 75,
+          "origin_city": "オークランド",
+          "ethnic_background": "東アジア系",
+          "life_history": [
+            {
+              "year": 1065,
+              "event": "オークランド南部の商人地区で生まれた。父は陶磁器を扱う交易商、母は染物職人だった。"
+            },
+            {
+              "year": 1078,
+              "event": "13歳の時、父の商船が嵐で沈没し、家業が傾いた。母と共に染物の仕事を増やして生計を立てた。"
+            },
+            {
+              "year": 1085,
+              "event": "20歳で隣町の織物工房の管理補佐として雇われ、家を離れた。給金の半分を母に送り続けた。"
+            },
+            {
+              "year": 1092,
+              "event": "工房の火災で右手に火傷を負い、細かい作業ができなくなった。帳簿管理の仕事に移った。"
+            },
+            {
+              "year": 1104,
+              "event": "工房の閉鎖に伴い、港の倉庫番として働き始めた。母が病で亡くなったが、葬儀に間に合わなかった。"
+            },
+            {
+              "year": 1118,
+              "event": "倉庫で出会った船乗りと10年ほど共に暮らしたが、相手が航海中に消息を絶った。"
+            },
+            {
+              "year": 1132,
+              "event": "腰を痛めて倉庫の仕事を辞め、市場近くの小さな宿で清掃と洗濯の仕事を始めた。"
+            }
+          ],
+          "current_situation": "オークランド旧市街の共同長屋に一人で暮らしている。週に三日、近所の宿で寝具の洗濯と修繕をして小銭を稼いでいる。右手の火傷痕は今も残っており、雨の日は痛む。隣人とは挨拶程度の付き合いで、月に一度市場で食料をまとめ買いする。夜は早く、明け方に目が覚めることが多い。",
+          "external_perception": {
+            "first_impression": "無口で表情が乏しく、近寄りがたい雰囲気がある。",
+            "close_friends_view": "頼まれたことは確実にこなすが、自分のことは一切話さない。",
+            "misunderstandings": "感情がないように見られるが、実際は言葉にしないだけだと気づかれていない。"
+          },
+          "stance_on_past": "まだ傷として残っている"
+        },
+        "overlap_debug": [
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Nguyen Bao Linh",
+                "hit_keys": [
+                  "tokens(inter=8,jac=0.03)"
+                ],
+                "prev_hook": {
+                  "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+                  "focus": "14歳の少年——机に向かっていた姿勢のまま、動かずにいる",
+                  "place": "勉強部屋。プリントと教科書が積まれた机の前。蛍光灯が一本ずつ順番に消えていく天井",
+                  "action": "何もしていない。ただ座っている。最後の蛍光灯が消えた瞬間、暗闇の中で口の端だけがわずかに上がる",
+                  "detail": "机の上の進路希望調査票が、消える光の中で白く浮かび上がり、最後に闇に沈む——しかし少年の目は書類ではなく、どこか遠い一点を見ている",
+                  "question": "なぜ彼は泣いていないのか？この表情は笑いなのか、それとも別の何かか？",
+                  "when": "ラストサビ後「蛍光灯が消えて／本当の闇が始まる」の「消えて」に同期して最後の灯が落ち、3秒間の完全な暗闇のあとにその口元だけがスクリーンに残る"
+                },
+                "cur_hook": {
+                  "theme": "誰も買わない商品を一人で丁寧に包み続けている少年の、それでも正しい時間。",
+                  "focus": "中学生の少年——録画中のスマホに向かってしゃべっている、でも目線はドアの隙間",
+                  "place": "押し入れの中。膝を抱えて座り込んでいる。スマホはひざに立てかけてある、録画ランプが赤く点灯",
+                  "action": "口は動いている（何かをしゃべっている）。でも声は聞こえない。mvの音楽だけが鳴っている",
+                  "detail": "スマホ画面の録画残り時間カウンターが映り込んでいて、それが今まさに「00:00」になる瞬間に画面が暗転する",
+                  "question": "彼は今まで何を話していたのか？　そして、なぜドアの隙間の光から目が離せないのか？",
+                  "when": "「夜中にこっそり撮る動画」の直後——サビ前の静止点、bpm133の一拍の空白"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "プリヤンカ・ナイール",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Nguyen Bao Linh",
+                "hit_keys": [
+                  "tokens(inter=9,jac=0.03)"
+                ],
+                "prev_hook": {
+                  "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+                  "focus": "14歳の少年——机に向かっていた姿勢のまま、動かずにいる",
+                  "place": "勉強部屋。プリントと教科書が積まれた机の前。蛍光灯が一本ずつ順番に消えていく天井",
+                  "action": "何もしていない。ただ座っている。最後の蛍光灯が消えた瞬間、暗闇の中で口の端だけがわずかに上がる",
+                  "detail": "机の上の進路希望調査票が、消える光の中で白く浮かび上がり、最後に闇に沈む——しかし少年の目は書類ではなく、どこか遠い一点を見ている",
+                  "question": "なぜ彼は泣いていないのか？この表情は笑いなのか、それとも別の何かか？",
+                  "when": "ラストサビ後「蛍光灯が消えて／本当の闇が始まる」の「消えて」に同期して最後の灯が落ち、3秒間の完全な暗闇のあとにその口元だけがスクリーンに残る"
+                },
+                "cur_hook": {
+                  "theme": "笑われた夢が、一番本物だった。",
+                  "focus": "中学生の少年の右手——チョークを持ち、黒板の進路希望調査票の余白に超絶技巧で似顔絵を描き続けている",
+                  "place": "放課後の無人の教室。黒板の上半分には規則正しく印刷された調査票、下半分はびっしりと描き込まれたキャラクターたち",
+                  "action": "調査票の「希望職種」欄には何も書かれていない。でも余白には止まらない手が動いている。誰もいない教室で、一人爆笑しながら描いている",
+                  "detail": "チョークの粉が舞う中、少年の制服の袖が白くなっているのに気づいていない。笑いすぎて目に涙が滲んでいる",
+                  "question": "なぜ彼は今、泣いているのか——笑い泣きなのか、本当に泣いているのか、カメラでは判断できない",
+                  "when": "「youtuberって書いたら笑われて」の直後、サビ前の静寂"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "李秋蓮",
+            "attempt": 1,
+            "conflicts": [
+              {
+                "conflict_persona": "Nguyen Bao Linh",
+                "hit_keys": [
+                  "tokens(inter=6,jac=0.02)"
+                ],
+                "prev_hook": {
+                  "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+                  "focus": "14歳の少年——机に向かっていた姿勢のまま、動かずにいる",
+                  "place": "勉強部屋。プリントと教科書が積まれた机の前。蛍光灯が一本ずつ順番に消えていく天井",
+                  "action": "何もしていない。ただ座っている。最後の蛍光灯が消えた瞬間、暗闇の中で口の端だけがわずかに上がる",
+                  "detail": "机の上の進路希望調査票が、消える光の中で白く浮かび上がり、最後に闇に沈む——しかし少年の目は書類ではなく、どこか遠い一点を見ている",
+                  "question": "なぜ彼は泣いていないのか？この表情は笑いなのか、それとも別の何かか？",
+                  "when": "ラストサビ後「蛍光灯が消えて／本当の闇が始まる」の「消えて」に同期して最後の灯が落ち、3秒間の完全な暗闇のあとにその口元だけがスクリーンに残る"
+                },
+                "cur_hook": {
+                  "theme": "誰にも届かなかった言葉だけが、本当に発せられた言葉だった。",
+                  "focus": "制服姿の中学生——口が動いているが完全に無音、喉仏だけが小さく動いている",
+                  "place": "夜の学校廊下。非常灯の緑だけが点いている。窓の外は完全な暗闇",
+                  "action": "窓ガラスに額をつけず、少し離れて立ち、外に向かって何かを語り続けている。手は制服のポケットに入ったまま",
+                  "detail": "ガラスに薄く映った自分の顔と外の暗闇が重なって、顔が二つある幽霊のように見える——内側の顔と外側の顔が別々に口を動かしているように見える",
+                  "question": "何を言っているのか——そして、外の暗闇は聞いているのか？",
+                  "when": "「誰にも見せないそれだけが本物」直後の無音の間"
+                }
+              }
+            ]
+          },
+          {
+            "persona": "李秋蓮",
+            "attempt": 2,
+            "conflicts": [
+              {
+                "conflict_persona": "Nguyen Bao Linh",
+                "hit_keys": [
+                  "tokens(inter=9,jac=0.03)"
+                ],
+                "prev_hook": {
+                  "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+                  "focus": "14歳の少年——机に向かっていた姿勢のまま、動かずにいる",
+                  "place": "勉強部屋。プリントと教科書が積まれた机の前。蛍光灯が一本ずつ順番に消えていく天井",
+                  "action": "何もしていない。ただ座っている。最後の蛍光灯が消えた瞬間、暗闇の中で口の端だけがわずかに上がる",
+                  "detail": "机の上の進路希望調査票が、消える光の中で白く浮かび上がり、最後に闇に沈む——しかし少年の目は書類ではなく、どこか遠い一点を見ている",
+                  "question": "なぜ彼は泣いていないのか？この表情は笑いなのか、それとも別の何かか？",
+                  "when": "ラストサビ後「蛍光灯が消えて／本当の闇が始まる」の「消えて」に同期して最後の灯が落ち、3秒間の完全な暗闇のあとにその口元だけがスクリーンに残る"
+                },
+                "cur_hook": {
+                  "theme": "革命の翌朝は、誰も歌わない。",
+                  "focus": "中学生くらいの人物の後ろ姿——顔は見えない。制服ではなく、くたびれた部屋着のtシャツ。",
+                  "place": "深夜の家庭の台所。換気扇だけが回っている。蛍光灯はすでに消えていて、窓の外の街灯の光だけが流し台を照らしている。",
+                  "action": "流し台の前に立ち、蛇口から細く出ている水を止めずにいる。両手は水の下に置かれているが、何かを洗っている様子はない。ただ、水が手の甲を流れている。",
+                  "detail": "右手の甲に、乾きかけた黒いマーカーの文字が滲んでいる——何と書いたか、水で半分消えていて読めない。",
+                  "question": "あの文字は自分で書いたのか、誰かに書かれたのか——そして、なぜ消しているのか、消えるのを待っているのか、どちらかが最後までわからない。",
+                  "when": "「蛍光灯が消えて／本当の闇が始まる」の直後——曲の最後の10秒、音が引いていくところ"
+                }
+              }
+            ]
+          }
+        ],
+        "diversity_metrics": {
+          "proposal_count": 3,
+          "pair_count": 3,
+          "overlap_pairs": 3,
+          "overlap_rate": 1.0,
+          "subject_distribution": {
+            "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。": 1,
+            "革命家は今日も、誰も見ていない場所でリハーサルをしている。": 1,
+            "本物であろうとした痕跡は、本人が去った後にだけ、正しく残る。": 1
+          },
+          "unique_subject_count": 3,
+          "empty_subject_count": 0
+        },
+        "theme_gate": {
+          "enabled": true,
+          "mode": "lyrics+persona",
+          "lyrics_token_count": 297,
+          "persona_token_count": {
+            "persona-75616758": 385,
+            "persona-536670e0": 535,
+            "persona-10ced470": 344
+          },
+          "eligible_count": 1,
+          "eligible_proposal_ids": [
+            "prop-4a136c78"
+          ],
+          "excluded_proposal_ids": [
+            "prop-8cfc377d",
+            "prop-a16b7ab7"
+          ],
+          "results": [
+            {
+              "proposal_id": "prop-8cfc377d",
+              "persona_id": "persona-75616758",
+              "theme": "締め付けてきた光が消えた瞬間、少年は初めて自分の顔をした。",
+              "theme_token_count": 23,
+              "lyrics_anchor_count": 1,
+              "novel_token_count": 22,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "えた",
+                "えた瞬間",
+                "が消",
+                "けてきた",
+                "けてきた光",
+                "の顔"
+              ],
+              "lyrics_anchor_sample": [
+                "が消"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-a16b7ab7",
+              "persona_id": "persona-536670e0",
+              "theme": "革命家は今日も、誰も見ていない場所でリハーサルをしている。",
+              "theme_token_count": 16,
+              "lyrics_anchor_count": 1,
+              "novel_token_count": 15,
+              "persona_novel_count": 0,
+              "theme_tokens_sample": [
+                "ていない",
+                "ていない場所",
+                "でリハーサル",
+                "は今日",
+                "も見",
+                "も誰"
+              ],
+              "lyrics_anchor_sample": [
+                "誰も"
+              ],
+              "persona_novel_sample": [],
+              "tier": 2,
+              "reasons": [
+                "no_persona_originality"
+              ]
+            },
+            {
+              "proposal_id": "prop-4a136c78",
+              "persona_id": "persona-10ced470",
+              "theme": "本物であろうとした痕跡は、本人が去った後にだけ、正しく残る。",
+              "theme_token_count": 20,
+              "lyrics_anchor_count": 2,
+              "novel_token_count": 18,
+              "persona_novel_count": 1,
+              "theme_tokens_sample": [
+                "が去",
+                "しく",
+                "しく残",
+                "った",
+                "った後",
+                "であろうとした"
+              ],
+              "lyrics_anchor_sample": [
+                "った",
+                "本物"
+              ],
+              "persona_novel_sample": [
+                "しく"
+              ],
+              "tier": 1,
+              "reasons": []
+            }
+          ]
+        },
+        "tension_target": 0.7303947368421053,
+        "tension_source": "emotional_arc",
+        "upstream_mode": "chaos"
+      }
+    },
+    "phase2": {
+      "phase_id": "phase2",
+      "subphases": {
+        "phase2a": {
+          "phase_id": "phase2a",
+          "competition": {
+            "proposals": [
+              {
+                "proposal_id": "sl2a-9855938e",
+                "persona_id": "persona-7afe683b",
+                "content": {
+                  "phase1_base": "槍兵",
+                  "phase2_condition": "長い首・四つ目",
+                  "phase3_anchor": "額の紋章",
+                  "subject_concept": "長い首と四つ目を持つ槍兵",
+                  "subject_signature": "額の紋章",
+                  "character_profile": {
+                    "appearance_profile": "首が通常の倍近い長さに伸び、顔面に四つの目が縦横に並ぶ槍兵。額の中央に刻まれた紋章が、その異形の顔の焦点として視線を引き寄せる。",
+                    "motion_profile": "四つの目が個別に動く構造のため、首をゆっくり傾けるたびに視線の向きがバラバラにずれ、額の紋章だけが正面を保ち続ける。"
+                  }
+                },
+                "created_at": "2026-02-18 06:10:47.372801"
+              },
+              {
+                "proposal_id": "sl2a-60d197ec",
+                "persona_id": "persona-129b4411",
+                "content": {
+                  "phase1_base": "カメレオン",
+                  "phase2_condition": "扁平頭・鱗",
+                  "phase3_anchor": "鎖の首輪",
+                  "subject_concept": "扁平頭と鱗を持つカメレオン型の存在",
+                  "subject_signature": "鎖の首輪",
+                  "character_profile": {
+                    "appearance_profile": "頭部が横に広く押し潰されたような扁平な形状で、全身を覆う粗い鱗が光の角度によって凹凸を際立たせる。首元には金属製の鎖が輪になって巻かれ、動くたびに鎖の環が鱗の縁に当たる。",
+                    "motion_profile": "扁平頭をゆっくり左右に傾けるたびに鎖の首輪が鱗の上を滑り、重力で垂れ下がった鎖の先端が揺れる。"
+                  }
+                },
+                "created_at": "2026-02-18 06:10:57.293082"
+              },
+              {
+                "proposal_id": "sl2a-57cd23a7",
+                "persona_id": "persona-5e640a83",
+                "content": {
+                  "phase1_base": "馬",
+                  "phase2_condition": "多関節脚・背中の棘",
+                  "phase3_anchor": "背負い旗",
+                  "subject_concept": "多関節脚と背中の棘を持つ馬",
+                  "subject_signature": "背負い旗",
+                  "character_profile": {
+                    "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+                    "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+                  }
+                },
+                "created_at": "2026-02-18 06:11:07.045088"
+              }
+            ],
+            "voting": {
+              "selection_mode": "vote10_like_dislike",
+              "candidate_keys": [
+                "A",
+                "B",
+                "C"
+              ],
+              "candidate_map": {
+                "A": "sl2a-9855938e",
+                "B": "sl2a-60d197ec",
+                "C": "sl2a-57cd23a7"
+              },
+              "tally": {
+                "A": 6,
+                "B": 6,
+                "C": 8
+              },
+              "like_tally": {
+                "A": 3,
+                "B": 4,
+                "C": 3
+              },
+              "dislike_tally": {
+                "A": 3,
+                "B": 2,
+                "C": 5
+              },
+              "votes": [
+                {
+                  "voter": "かわぐち けんた",
+                  "like": "A",
+                  "like_reason": "槍兵×四つ目というシンプルな強さと異形感が好み。ゲームやアニメで見慣れたかっこいいモンスター像に近くて素直に「見たい」と思えた。",
+                  "dislike": "C",
+                  "dislike_reason": "馬ベースに多関節脚と棘は要素が多くてごちゃごちゃしてる印象。背負い旗も浮いて見える気がして、まとまりがなさそう。"
+                },
+                {
+                  "voter": "Vanida MacLeod",
+                  "like": "B",
+                  "like_reason": "カメレオンの扁平頭と鱗の質感は実際の生き物に近くてリアリティがある。鎖の首輪が支配や束縛を示唆していて、物語性を感じる。",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵というベースが抽象的すぎて、額の紋章も含めてキャラクターとして何者なのかが掴みにくい。もっと視覚的に直感的なものが好み。"
+                },
+                {
+                  "voter": "たなか しゅうへい",
+                  "like": "C",
+                  "like_reason": "馬に多関節脚と背中の棘という組み合わせは、既存のファンタジーっぽくなくて独自性がある。背負い旗でシルエットも強くなりそうで映像映えしそう。",
+                  "dislike": "B",
+                  "dislike_reason": "カメレオンベースはおとなしい印象で、鎖の首輪もクリエイティブとしては使い古されたアイコンに見える。もっと尖ったデザインが見たい。"
+                },
+                {
+                  "voter": "Zara Ndlovu",
+                  "like": "B",
+                  "like_reason": "カメレオンは変化や適応の象徴で、鎖の首輪との対比が自由と束縛のテーマを持っていて深みがある。ボランティアで色んな人と関わる自分としてシンパシーを感じる。",
+                  "dislike": "C",
+                  "dislike_reason": "馬に棘や多関節脚をつけるのは、元の動物の優しさや力強さを壊してしまう感じがして好きじゃない。背負い旗も重々しくて暗い雰囲気になりそう。"
+                },
+                {
+                  "voter": "チェ・ミンジュ",
+                  "like": "A",
+                  "like_reason": "槍兵×長い首・四つ目という構成は、武骨さと奇妙さのバランスが取れていて造形的に面白い。額の紋章がアクセントとして機能しそうで、装飾の節制が好ましい。",
+                  "dislike": "C",
+                  "dislike_reason": "馬ベースに多関節脚・棘・旗と要素を足しすぎていて、デザインとしてのコンセプトが散漫。引き算の美学が感じられず、読書人としては整理されていないものに居心地の悪さを覚える。"
+                },
+                {
+                  "voter": "Kofi Szabó",
+                  "like": "C",
+                  "like_reason": "馬に多関節脚と棘がついてるのめちゃくちゃかっこいい！背負い旗も戦士みたいで好き",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵はゲームでよく見るし、長い首と四つ目はちょっと怖くてあんまり好きじゃない"
+                },
+                {
+                  "voter": "Youssef Tanaka",
+                  "like": "B",
+                  "like_reason": "カメレオンベースで鱗もあってリアル感あるし、鎖の首輪がなんかミステリアスでいい",
+                  "dislike": "A",
+                  "dislike_reason": "槍兵ってありきたりすぎてつまらない、四つ目も別にって感じ"
+                },
+                {
+                  "voter": "김태준",
+                  "like": "C",
+                  "like_reason": "馬をベースにした多関節の造形は独創的で完成度が高そう。背負い旗はシンボルとして映像映えする",
+                  "dislike": "B",
+                  "dislike_reason": "カメレオンに鎖の首輪という組み合わせは意図が散漫で統一感に欠ける印象"
+                },
+                {
+                  "voter": "かわむら ゆうき",
+                  "like": "B",
+                  "like_reason": "カメレオンの扁平頭と鱗はデザインとしておもしろいし、鎖の首輪がどこかせつない雰囲気を出していて好み",
+                  "dislike": "C",
+                  "dislike_reason": "馬に多関節脚はちょっとグロテスクすぎて、海外ドラマで見るような重厚感というより気持ち悪さが先に来る"
+                },
+                {
+                  "voter": "Alex Dubois",
+                  "like": "A",
+                  "like_reason": "槍兵ベースは世界観がはっきりしていて観光客にも伝わりやすい。額の紋章がアイコニックで映像として強い",
+                  "dislike": "C",
+                  "dislike_reason": "馬の多関節脚は造形として面白いが、ゲストに説明しづらいほど混沌としていて映像の訴求力が弱まりそう"
+                }
+              ],
+              "analysis": "[batch 1] BとAがそれぞれ2票のlikeを獲得し、Cはたなかしゅうへいのみのlikeにとどまった。Bはリアリティと物語性が評価された一方、Aはシンプルなかっこよさとデザインのまとまりで支持を得た。Cは独自性を評価する声もあったが、要素過多・コンセプトの散漫さを理由にdislikeが最多（2票）となり、全体的に「引き算」を重視する傾向が見られた。\n[batch 2] CとBが拮抗しており、Cは「かっこよさ」や「独創性」で若年層と中高年男性から支持を集めた一方、かわむらゆうきのようなグロテスク耐性が低い層にはDislikeを受けた。Bはミステリアスな雰囲気が10〜40代に刺さったが、デザインの統一感への疑問も出た。Aはゲストハウス経営者のような「伝わりやすさ」重視の視点では評価されたが、他層からは平凡と見なされDislikeが集中した。",
+              "is_tiebreak": false,
+              "tiebreak_reason": null,
+              "goji_vote": null
+            }
+          },
+          "adopted_result": {
+            "proposal_id": "sl2a-57cd23a7",
+            "persona_id": "persona-5e640a83",
+            "content": {
+              "phase1_base": "馬",
+              "phase2_condition": "多関節脚・背中の棘",
+              "phase3_anchor": "背負い旗",
+              "subject_concept": "多関節脚と背中の棘を持つ馬",
+              "subject_signature": "背負い旗",
+              "character_profile": {
+                "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+                "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+              }
+            },
+            "created_at": "2026-02-18 06:11:07.045088"
+          },
+          "adopted_vision": {
+            "phase1_base": "馬",
+            "phase2_condition": "多関節脚・背中の棘",
+            "phase3_anchor": "背負い旗",
+            "subject_concept": "多関節脚と背中の棘を持つ馬",
+            "subject_signature": "背負い旗",
+            "character_profile": {
+              "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+              "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+            },
+            "character_profile_source": "llm",
+            "adopted_from_persona_id": "persona-5e640a83",
+            "selected_by_persona_id": "vote10"
+          },
+          "metadata": {
+            "overlap_debug": [],
+            "candidate_debug": [
+              {
+                "persona_id": "persona-7afe683b",
+                "persona_name": "Wei Chen",
+                "locked_before": {
+                  "phase1": [],
+                  "phase2": [],
+                  "phase3": []
+                },
+                "candidates": {
+                  "phase1": [
+                    "修道士",
+                    "槍兵",
+                    "甲冑兵",
+                    "忍者",
+                    "司祭",
+                    "騎士"
+                  ],
+                  "phase2": [
+                    "長い脚",
+                    "巨大な頭",
+                    "太い指",
+                    "長い指",
+                    "扇状尾",
+                    "縦長の瞳",
+                    "長い首",
+                    "六本足",
+                    "大きな耳",
+                    "四つ目",
+                    "短い腕",
+                    "短い胴体",
+                    "翼",
+                    "滑らかな肌",
+                    "薄い胴体",
+                    "大きな目"
+                  ],
+                  "phase3": [
+                    "腰帯",
+                    "背中の機械",
+                    "腕章",
+                    "首飾り",
+                    "眼帯",
+                    "肩の装置",
+                    "ひび割れ",
+                    "旗印",
+                    "胸の徽章",
+                    "肩章",
+                    "額の紋章",
+                    "足輪",
+                    "鎧",
+                    "皮革のベルト",
+                    "脛当て",
+                    "角飾り"
+                  ]
+                },
+                "phase1_forced_category": "human_role",
+                "selection": {
+                  "phase1_base": "槍兵",
+                  "phase2_condition": [
+                    "長い首",
+                    "四つ目"
+                  ],
+                  "phase3_anchor": [
+                    "額の紋章"
+                  ],
+                  "phase3_anchor_base": "額の紋章"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-129b4411",
+                "persona_name": "Eulàlia Ribas",
+                "locked_before": {
+                  "phase1": [
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "silhouette"
+                  ],
+                  "phase3": [
+                    "mark"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "アンドロイド",
+                    "牛",
+                    "カメレオン",
+                    "蝶",
+                    "イルカ",
+                    "ヤモリ"
+                  ],
+                  "phase2": [
+                    "翼",
+                    "長い腕",
+                    "二本尾",
+                    "ざらざら肌",
+                    "扇状尾",
+                    "甲殻",
+                    "太い腕",
+                    "背中の棘",
+                    "螺旋角",
+                    "六本腕",
+                    "鱗",
+                    "三本尾",
+                    "小さな翼",
+                    "石肌",
+                    "扁平頭",
+                    "凹凸肌"
+                  ],
+                  "phase3": [
+                    "旗印",
+                    "背中の盾",
+                    "仮面",
+                    "鎧",
+                    "肩の装置",
+                    "腕輪",
+                    "膝当て",
+                    "鎖の首輪",
+                    "鉄の仮面",
+                    "胸当て",
+                    "複数指輪",
+                    "指輪",
+                    "背負い旗",
+                    "機械腕",
+                    "杖",
+                    "背中の機械"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "カメレオン",
+                  "phase2_condition": [
+                    "扁平頭",
+                    "鱗"
+                  ],
+                  "phase3_anchor": [
+                    "鎖の首輪"
+                  ],
+                  "phase3_anchor_base": "鎖の首輪"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_reptile",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "head",
+                    "silhouette",
+                    "surface"
+                  ],
+                  "phase3": [
+                    "mark",
+                    "neck"
+                  ]
+                }
+              },
+              {
+                "persona_id": "persona-5e640a83",
+                "persona_name": "ラクシュミ・ナラヤナン",
+                "locked_before": {
+                  "phase1": [
+                    "animal_reptile",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "face",
+                    "head",
+                    "silhouette",
+                    "surface"
+                  ],
+                  "phase3": [
+                    "mark",
+                    "neck"
+                  ]
+                },
+                "candidates": {
+                  "phase1": [
+                    "犬",
+                    "蜂",
+                    "アンドロイド",
+                    "鳩",
+                    "鮫",
+                    "馬"
+                  ],
+                  "phase2": [
+                    "太い脚",
+                    "四本足",
+                    "短い尾",
+                    "二本足",
+                    "扇状尾",
+                    "蝶番関節",
+                    "六本腕",
+                    "多関節脚",
+                    "触手",
+                    "長い腕",
+                    "細い指",
+                    "複数触手",
+                    "背中の棘",
+                    "長い指",
+                    "細い手",
+                    "短い脚"
+                  ],
+                  "phase3": [
+                    "肩の装置",
+                    "胸当て",
+                    "角飾り",
+                    "帯",
+                    "斧",
+                    "鉄の仮面",
+                    "腰帯",
+                    "マント",
+                    "角の冠",
+                    "兜",
+                    "足枷",
+                    "腰の装飾板",
+                    "機械脚",
+                    "腰の鎖",
+                    "背負い旗",
+                    "フード"
+                  ]
+                },
+                "selection": {
+                  "phase1_base": "馬",
+                  "phase2_condition": [
+                    "多関節脚",
+                    "背中の棘"
+                  ],
+                  "phase3_anchor": [
+                    "背負い旗"
+                  ],
+                  "phase3_anchor_base": "背負い旗"
+                },
+                "locked_after": {
+                  "phase1": [
+                    "animal_mammal",
+                    "animal_reptile",
+                    "human_role"
+                  ],
+                  "phase2": [
+                    "appendage",
+                    "face",
+                    "head",
+                    "limb",
+                    "silhouette",
+                    "surface"
+                  ],
+                  "phase3": [
+                    "back",
+                    "mark",
+                    "neck"
+                  ]
+                }
+              }
+            ],
+            "locked_tags_final": {
+              "phase1": [
+                "animal_mammal",
+                "animal_reptile",
+                "human_role"
+              ],
+              "phase2": [
+                "appendage",
+                "face",
+                "head",
+                "limb",
+                "silhouette",
+                "surface"
+              ],
+              "phase3": [
+                "back",
+                "mark",
+                "neck"
+              ]
+            }
+          }
+        },
+        "phase2b": {
+          "phase_id": "phase2b",
+          "status": "deferred"
+        }
+      },
+      "adopted_result": {
+        "phase2a_vision": {
+          "phase1_base": "馬",
+          "phase2_condition": "多関節脚・背中の棘",
+          "phase3_anchor": "背負い旗",
+          "subject_concept": "多関節脚と背中の棘を持つ馬",
+          "subject_signature": "背負い旗",
+          "character_profile": {
+            "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+            "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+          },
+          "character_profile_source": "llm",
+          "adopted_from_persona_id": "persona-5e640a83",
+          "selected_by_persona_id": "vote10"
+        },
+        "phase2b_realization": {},
+        "phase2b_deferred": true,
+        "character_profile": {
+          "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+          "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+        },
+        "character_profile_source": "llm"
+      }
+    }
+  },
+  "creative_personas": [
+    {
+      "id": "persona-75616758",
+      "name": "Nguyen Bao Linh",
+      "gender": "ノンバイナリー",
+      "birthdate": "1683-04-27",
+      "age": 30,
+      "origin_city": "ローマ",
+      "ethnic_background": "東南アジア系",
+      "life_history": [
+        {
+          "year": 1683,
+          "event": "ローマの旧市街、トラステヴェレ地区に生まれる。父はベトナム南部出身の香辛料商人で、母はローマ近郊出身のイタリア人女性。"
+        },
+        {
+          "year": 1689,
+          "event": "父の商売の都合でナポリへ一時移住し、2年間を港町で過ごす。"
+        },
+        {
+          "year": 1691,
+          "event": "家族でローマに戻り、父の店の近くにある教区学校に入学する。"
+        },
+        {
+          "year": 1697,
+          "event": "14歳のとき父が死去し、母方の祖父母の家に引き取られる。学校を離れ、近所の薬草商の店で見習いとして働き始める。"
+        },
+        {
+          "year": 1702,
+          "event": "19歳で薬草商から独立し、市場の一角で小さな薬草・香辛料の露店を開く。"
+        },
+        {
+          "year": 1707,
+          "event": "ローマの商業組合に登録し、店舗を路地裏の小屋から市場内の固定区画に移す。"
+        },
+        {
+          "year": 1710,
+          "event": "27歳のとき、同じ市場で布地を売る商人の家族の紹介で知り合った人物と共同生活を始める。"
+        },
+        {
+          "year": 1713,
+          "event": "現在もローマの市場で香辛料と薬草を扱う店を営んでいる。店の規模は小さいまま維持されている。"
+        }
+      ],
+      "current_situation": "1713年現在、ローマのトラステヴェレ地区の市場に店を構え、香辛料と薬草の販売を生業としている。父から受け継いだベトナム産の香辛料の仕入れルートを一部維持しつつ、地中海沿岸の産品も扱っている。共同生活を送るパートナーと市場近くの借家に住んでいる。週に数日は母方の祖母の家に立ち寄り、食事を共にしている。",
+      "external_perception": {
+        "first_impression": "物静かで手際がよく、商品の説明を短く的確に行う。",
+        "close_friends_view": "約束をきちんと守り、余計なことを言わない。困ったときに頼みやすい相手だと思われている。",
+        "misunderstandings": "無口であるため、愛想がないと思われることがある。また、父方の出自から「外国から来た人」と見なされることが多い。"
+      },
+      "stance_on_past": "あまり振り返らず前を向いている"
+    },
+    {
+      "id": "persona-536670e0",
+      "name": "プリヤンカ・ナイール",
+      "gender": "女性",
+      "birthdate": "9245-05-07",
+      "age": 57,
+      "origin_city": "高雄",
+      "ethnic_background": "南アジア系",
+      "life_history": [
+        {
+          "year": 9250,
+          "event": "高雄の港湾地区で両親が営む香辛料輸入商の店舗で育つ。近隣の商店主の子供たち十数人と路地で遊ぶ日々を送る。"
+        },
+        {
+          "year": 9263,
+          "event": "地域の青年交流会で知り合った造船技師と交際を始める。週末は彼の職場近くの海岸を散歩することが習慣になる。"
+        },
+        {
+          "year": 9267,
+          "event": "交際相手が突然家族の反対を理由に婚約を破棄し、別の都市へ転勤する。以降三ヶ月間実家の店を休み、友人宅を転々とする。"
+        },
+        {
+          "year": 9270,
+          "event": "父親の急病により家業を引き継ぐ。取引先との交渉、従業員の管理、配送ルートの再編成を一人で担当する。"
+        },
+        {
+          "year": 9278,
+          "event": "店の常連客だった医療機器販売員と再婚。相手には前妻との間に二人の子供がおり、週末だけ同居する生活形態をとる。"
+        },
+        {
+          "year": 9286,
+          "event": "夫が取引先との金銭トラブルで訴訟を起こされ、家計から弁護士費用を捻出する。店の売上の三分の一を二年間費やす。"
+        },
+        {
+          "year": 9295,
+          "event": "店舗の建物が再開発計画により立ち退きを通告される。補償金で郊外に小規模な倉庫兼店舗を購入し移転する。"
+        },
+        {
+          "year": 9301,
+          "event": "地域の南アジア系コミュニティで月例の食事会を主催し始める。毎回二十人前後が集まり、情報交換の場として機能する。"
+        }
+      ],
+      "current_situation": "高雄郊外の工業地帯に隣接した倉庫兼店舗で香辛料卸売業を営んでいる。夫とは別居状態が続いており、月に二度ほど電話で連絡を取り合う。店の運営は姪を雇って二人で行い、週五日午前九時から午後五時まで営業する。アパートの一階に一人で住み、上階には同じコミュニティ出身の若い家族が三世帯入居している。毎月第二日曜日に自宅で食事会を開き、平均十五人ほどが参加する。",
+      "external_perception": {
+        "first_impression": "声が大きく、初対面でも距離感が近い。商談の場では値段交渉を積極的に持ちかけ、相手の反応を細かく観察している様子が見られる。",
+        "close_friends_view": "困っている人を放っておけず、頼まれると断れない性格。過去の出来事について自分からは語らないが、似た経験をした人の話には深く耳を傾ける。",
+        "misunderstandings": "社交的で人付き合いが好きに見えるが、実際には一人でいる時間に強い不安を感じており、常に誰かと連絡を取り続けている。"
+      },
+      "stance_on_past": "まだ傷として残っている",
+      "proposal_history": [
+        {
+          "session": "20260118_040633",
+          "phase": "Phase 2a",
+          "my_proposal_summary": "誰: ? / 場所: ?",
+          "rank": 1,
+          "tally": 21,
+          "won": true
+        }
+      ]
+    },
+    {
+      "id": "persona-10ced470",
+      "name": "李秋蓮",
+      "gender": "クエスチョニング",
+      "birthdate": "1065-12-03",
+      "age": 75,
+      "origin_city": "オークランド",
+      "ethnic_background": "東アジア系",
+      "life_history": [
+        {
+          "year": 1065,
+          "event": "オークランド南部の商人地区で生まれた。父は陶磁器を扱う交易商、母は染物職人だった。"
+        },
+        {
+          "year": 1078,
+          "event": "13歳の時、父の商船が嵐で沈没し、家業が傾いた。母と共に染物の仕事を増やして生計を立てた。"
+        },
+        {
+          "year": 1085,
+          "event": "20歳で隣町の織物工房の管理補佐として雇われ、家を離れた。給金の半分を母に送り続けた。"
+        },
+        {
+          "year": 1092,
+          "event": "工房の火災で右手に火傷を負い、細かい作業ができなくなった。帳簿管理の仕事に移った。"
+        },
+        {
+          "year": 1104,
+          "event": "工房の閉鎖に伴い、港の倉庫番として働き始めた。母が病で亡くなったが、葬儀に間に合わなかった。"
+        },
+        {
+          "year": 1118,
+          "event": "倉庫で出会った船乗りと10年ほど共に暮らしたが、相手が航海中に消息を絶った。"
+        },
+        {
+          "year": 1132,
+          "event": "腰を痛めて倉庫の仕事を辞め、市場近くの小さな宿で清掃と洗濯の仕事を始めた。"
+        }
+      ],
+      "current_situation": "オークランド旧市街の共同長屋に一人で暮らしている。週に三日、近所の宿で寝具の洗濯と修繕をして小銭を稼いでいる。右手の火傷痕は今も残っており、雨の日は痛む。隣人とは挨拶程度の付き合いで、月に一度市場で食料をまとめ買いする。夜は早く、明け方に目が覚めることが多い。",
+      "external_perception": {
+        "first_impression": "無口で表情が乏しく、近寄りがたい雰囲気がある。",
+        "close_friends_view": "頼まれたことは確実にこなすが、自分のことは一切話さない。",
+        "misunderstandings": "感情がないように見られるが、実際は言葉にしないだけだと気づかれていない。"
+      },
+      "stance_on_past": "まだ傷として残っている"
+    }
+  ],
+  "winning_persona": {
+    "id": "persona-10ced470",
+    "name": "李秋蓮",
+    "gender": "クエスチョニング",
+    "birthdate": "1065-12-03",
+    "age": 75,
+    "origin_city": "オークランド",
+    "ethnic_background": "東アジア系",
+    "life_history": [
+      {
+        "year": 1065,
+        "event": "オークランド南部の商人地区で生まれた。父は陶磁器を扱う交易商、母は染物職人だった。"
+      },
+      {
+        "year": 1078,
+        "event": "13歳の時、父の商船が嵐で沈没し、家業が傾いた。母と共に染物の仕事を増やして生計を立てた。"
+      },
+      {
+        "year": 1085,
+        "event": "20歳で隣町の織物工房の管理補佐として雇われ、家を離れた。給金の半分を母に送り続けた。"
+      },
+      {
+        "year": 1092,
+        "event": "工房の火災で右手に火傷を負い、細かい作業ができなくなった。帳簿管理の仕事に移った。"
+      },
+      {
+        "year": 1104,
+        "event": "工房の閉鎖に伴い、港の倉庫番として働き始めた。母が病で亡くなったが、葬儀に間に合わなかった。"
+      },
+      {
+        "year": 1118,
+        "event": "倉庫で出会った船乗りと10年ほど共に暮らしたが、相手が航海中に消息を絶った。"
+      },
+      {
+        "year": 1132,
+        "event": "腰を痛めて倉庫の仕事を辞め、市場近くの小さな宿で清掃と洗濯の仕事を始めた。"
+      }
+    ],
+    "current_situation": "オークランド旧市街の共同長屋に一人で暮らしている。週に三日、近所の宿で寝具の洗濯と修繕をして小銭を稼いでいる。右手の火傷痕は今も残っており、雨の日は痛む。隣人とは挨拶程度の付き合いで、月に一度市場で食料をまとめ買いする。夜は早く、明け方に目が覚めることが多い。",
+    "external_perception": {
+      "first_impression": "無口で表情が乏しく、近寄りがたい雰囲気がある。",
+      "close_friends_view": "頼まれたことは確実にこなすが、自分のことは一切話さない。",
+      "misunderstandings": "感情がないように見られるが、実際は言葉にしないだけだと気づかれていない。"
+    },
+    "stance_on_past": "まだ傷として残っている"
+  },
+  "current_phase": "phase2",
+  "qc_retry_count": 0,
+  "errors": {},
+  "subject_location_design": {
+    "phase2a_vision": {
+      "phase1_base": "馬",
+      "phase2_condition": "多関節脚・背中の棘",
+      "phase3_anchor": "背負い旗",
+      "subject_concept": "多関節脚と背中の棘を持つ馬",
+      "subject_signature": "背負い旗",
+      "character_profile": {
+        "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+        "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+      },
+      "character_profile_source": "llm",
+      "adopted_from_persona_id": "persona-5e640a83",
+      "selected_by_persona_id": "vote10"
+    },
+    "phase2b_realization": {},
+    "phase2b_deferred": true,
+    "character_profile": {
+      "appearance_profile": "胴体は馬の輪郭を保ちながら、四肢の各関節が通常の倍以上の数で構成され、背骨から無数の短い棘が列をなして突き出ている。背中の棘の間に一枚の旗が差し込まれており、移動のたびに棘がその旗布を引っ張る。",
+      "motion_profile": "多関節の脚が地面を叩くたびに節ごとに独立して折れ曲がり、背中の棘が連動して波打ちながら旗をたわませる。"
+    },
+    "character_profile_source": "llm"
+  }
+}

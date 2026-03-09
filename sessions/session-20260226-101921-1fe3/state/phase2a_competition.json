@@ -1,0 +1,156 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-c99ca122",
+      "persona_id": "persona-b67e7fe9",
+      "content": {
+        "phase1_base": "巫女",
+        "phase2_condition": "露出関節・長い首",
+        "phase3_anchor": "口枷",
+        "subject_concept": "露出関節と長い首を持つ拘束された巫女",
+        "subject_signature": "口枷",
+        "character_profile": {
+          "appearance_profile": "関節部が剥き出しになった白装束の巫女。異様に細く長い首の先で、口枷が顔の輪郭を支配している。",
+          "motion_profile": "首をゆっくりと傾けるたびに、露出した関節が音もなく動き、口枷が光を拾う。"
+        }
+      },
+      "created_at": "2026-02-26 01:26:44.321668"
+    },
+    {
+      "proposal_id": "sl2a-ee5133a1",
+      "persona_id": "persona-75616758",
+      "content": {
+        "phase1_base": "蛾",
+        "phase2_condition": "扇状尾・三つ目",
+        "phase3_anchor": "顔の刻印",
+        "subject_concept": "扇状尾と三つ目を持つ蛾",
+        "subject_signature": "顔の刻印",
+        "character_profile": {
+          "appearance_profile": "胴体の背面から広がる扇状の尾羽根を持ち、頭部正面に縦に三つの目が並ぶ蛾型の体躯。顔の中央には焼き付けたような幾何学の刻印が走る。",
+          "motion_profile": "静止時は扇状尾をゆっくり開閉し、三つ目それぞれが独立した方向を向いて顔の刻印を露わにする。"
+        }
+      },
+      "created_at": "2026-02-26 01:26:52.572703"
+    },
+    {
+      "proposal_id": "sl2a-5681cff8",
+      "persona_id": "persona-8c5dc682",
+      "content": {
+        "phase1_base": "タコ",
+        "phase2_condition": "八本足・粘膜肌",
+        "phase3_anchor": "肩鎖・背負い旗",
+        "subject_concept": "八本足と粘膜肌を持つタコ型の担旗者",
+        "subject_signature": "肩鎖・背負い旗",
+        "character_profile": {
+          "appearance_profile": "八本の足を持ち、粘膜に覆われた胴体は光を受けると微細な凹凸が浮かぶ。肩鎖で背負い旗を固定しており、旗は移動のたびに足の動きとは別のリズムで揺れる。",
+          "motion_profile": "八本足が地面や壁面に交互に吸着しながら進む際、背負い旗の先端が一拍遅れて追随する。"
+        }
+      },
+      "created_at": "2026-02-26 01:27:01.553733"
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-c99ca122",
+      "B": "sl2a-ee5133a1",
+      "C": "sl2a-5681cff8"
+    },
+    "tally": {
+      "A": 8,
+      "B": 5,
+      "C": 7
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 1,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "張文耀",
+        "like": "A",
+        "like_reason": "巫女という馴染みある存在に安堵感がある。口枷という拘束のモチーフは長年の労働と服従の記憶と重なり、静かな共鳴を感じる。",
+        "dislike": "C",
+        "dislike_reason": "タコの粘膜肌という質感が生理的に不快。老いた体には刺激が強すぎる。"
+      },
+      {
+        "voter": "Rajesh Krishnan",
+        "like": "B",
+        "like_reason": "蛾の三つ目と顔の刻印というビジュアルはゴシックなゲームやアニメのキャラクター設計に近く、データ的・美学的に洗練されている。",
+        "dislike": "A",
+        "dislike_reason": "巫女モチーフはあまりにもありきたりで、独自性に欠ける。口枷も安直に感じる。"
+      },
+      {
+        "voter": "李俊豪",
+        "like": "C",
+        "like_reason": "八本足と肩鎖・背負い旗の組み合わせが派手でインパクトがある。配送中に見かけるストリートアートのような勢いを感じる。",
+        "dislike": "B",
+        "dislike_reason": "蛾はじめじめしたイメージで暗すぎる。毎日忙しく動いているので陰鬱なものは見たくない。"
+      },
+      {
+        "voter": "ゆうき",
+        "like": "B",
+        "like_reason": "扇状尾と三つ目という非対称な構造設計が論理的に面白い。将棋の駒のように機能と形が一致しているデザインに惹かれる。",
+        "dislike": "C",
+        "dislike_reason": "タコの粘膜肌という要素が整合性なく冗長に感じる。八本足も視覚的にうるさい。"
+      },
+      {
+        "voter": "박진수",
+        "like": "A",
+        "like_reason": "巫女という概念は韓国の무당文化とも通じる馴染みのある霊的イメージで、落ち着いて受け取れる。",
+        "dislike": "C",
+        "dislike_reason": "タコは釜山の市場でよく見る食材の印象が強く、神秘的なキャラクターとして見るのが難しい。"
+      },
+      {
+        "voter": "陳 花玉 (Chén Huāyù)",
+        "like": "A",
+        "like_reason": "巫女という存在は祭祀や儀礼の場に近く、長年の冠婚葬祭への参列経験から霊的・宗教的な女性像に親しみを感じる。",
+        "dislike": "C",
+        "dislike_reason": "タコや粘膜肌という生物的・異形的なイメージは食材としてならわかるが、人の姿として見たいとは思わない。"
+      },
+      {
+        "voter": "Henrik Vandenberg",
+        "like": "B",
+        "like_reason": "蛾の扇状尾や三つ目という幻想的・博物学的なイメージが、図書館での知的好奇心と重なり興味をそそられる。",
+        "dislike": "A",
+        "dislike_reason": "口枷という要素が暴力や拘束を想起させ、日常の静かな生活を好む自分には不快感が強い。"
+      },
+      {
+        "voter": "Rami Khoury",
+        "like": "B",
+        "like_reason": "蛾の多眼と扇状の羽は自然の中にある静かな美しさを感じさせ、植物園や自然観察が好きな自分の感性に響く。",
+        "dislike": "A",
+        "dislike_reason": "口枷という拘束具のアンカーは、リハビリ患者の尊厳を大切にする仕事柄、抑圧的なイメージとして受け入れがたい。"
+      },
+      {
+        "voter": "Chen Yulian",
+        "like": "C",
+        "like_reason": "八本足と粘膜肌は海産物や薬材として扱い慣れたタコの造形であり、肩鎖・背負い旗という商人的な装具が自身の商いの姿勢と重なる。",
+        "dislike": "A",
+        "dislike_reason": "巫女に口枷という組み合わせは、霊的な権威を持つ存在を黙らせる印象があり、商売の場での縁起として忌避したい。"
+      },
+      {
+        "voter": "たなか ふみこ",
+        "like": "A",
+        "like_reason": "巫女は神社や祭りを通じて馴染みのある存在で、関節や首という身体的な表現も和の美意識に沿っていて見やすい。",
+        "dislike": "C",
+        "dislike_reason": "タコの八本足や粘膜肌という描写はグロテスクに感じられ、孫に見せるような場面では特に避けたいと思う。"
+      }
+    ],
+    "analysis": "[batch 1] AとBが2票ずつlikeを獲得し、Cはlikeが1票にとどまった。dislikeはCが2票、AとBが1票ずつとなり、Cへの拒否反応が最も強い。世代・文化的背景によって「馴染み」重視（A支持）と「構造美・独自性」重視（B支持）に二分される傾向が見られた。\n[batch 2] Aへのlikeは陳花玉とたなかふみこという年配・文化的親和性の高い層から、BへのlikeはHenrikとRamiという知的好奇心・自然志向の層から集まった。Cはアジア商人ペルソナ唯一のlikeを得たものの、dislikeも2票集中しており、異形・生物的な造形への拒否反応が明確に出た。口枷（Aのanchor）は複数のペルソナから倫理的・感情的な不快感として排斥される傾向があり、視覚的インパクトよりも象徴的な意味合いで評価が分かれた。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null
+  }
+}
