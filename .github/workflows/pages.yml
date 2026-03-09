@@ -1,0 +1,64 @@
+name: Deploy Sessions to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "sessions/**"
+      - "assets/**"
+      - "session_index.js"
+      - "session_manifest.js"
+      - "entry*.html"
+      - "index.html"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site artifact
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+
+          [ -d sessions ] && cp -R sessions _site/
+          for d in assets static public; do
+            [ -d "$d" ] && cp -R "$d" _site/
+          done
+
+          [ -f session_index.js ] && cp session_index.js _site/
+          [ -f session_manifest.js ] && cp session_manifest.js _site/
+
+          for f in *.html; do
+            [ -f "$f" ] && cp "$f" _site/
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
