@@ -40,12 +40,18 @@ jobs:
           enablement: ${{ secrets.PAGES_TOKEN != '' }}
 
       - name: Build site artifact
+        shell: bash
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+          shopt -s nullglob
           rm -rf _site
           mkdir -p _site
 
-          [ -d sessions ] && cp -R sessions _site/
+          if [ -d sessions ]; then
+            mkdir -p _site/sessions
+            cp -R sessions/. _site/sessions/
+          fi
+
           for d in assets static public; do
             [ -d "$d" ] && cp -R "$d" _site/
           done
