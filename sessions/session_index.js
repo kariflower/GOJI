@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-10T11:44:47Z",
+  "generated_at": "2026-03-10T19:45:01Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260311-014535-cf0f",
+      "path": "./session-20260311-014535-cf0f/assets/instructions/index.html",
+      "generated_at": "2026-03-10T19:44:56.327376Z",
+      "clip_count": 61,
+      "duration_sec": 196.09999999999997,
+      "section_count": 7,
+      "summary": "磁気レールが三次元に蜘蛛の巣を張る高速商業都市で、王冠を被った大目玉のタコ——タコタコ王——は毎日外周ルートの安値競売しか取れない零細屋台主として「気持ち」を詰めた謎の缶詰を積んでいる。赤く鈍く点滅する浮遊標識だけが彼女の存在を示し、青白く高速点滅する上層の標識群との色の格差が、画面の奥から手前へいつも圧力をかけている。走行中の屋台荷台では手書き設計図の空白ノード「???」だけが毎日埋まらないまま磁気レールの振動に揺れている。転機は上…",
+      "song_file": "届くかどうかはわからなくても.mp3"
+    },
     {
       "session_id": "session-20260310-172135-69e8",
       "path": "./session-20260310-172135-69e8/assets/instructions/index.html",
