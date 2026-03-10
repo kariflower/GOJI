@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-09T17:56:55Z",
+  "generated_at": "2026-03-10T04:19:50Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260310-093958-b9fd",
+      "path": "./session-20260310-093958-b9fd/assets/instructions/index.html",
+      "generated_at": "2026-03-10T04:19:45.660122Z",
+      "clip_count": 65,
+      "duration_sec": 206.85000000000002,
+      "section_count": 11,
+      "summary": "感情が水として体外に滲み出るこの世界で、細長い首と複眼を持つ修道士が一人、船着き場の係留杭の根元に膝をついている。彼の足元には黒い水たまりが広がっているが、その水たまりは彼のものではない——誰かが死んだ夜にここへ流れ込んだ悲しみの残滓だ。修道士は古い頭冠をわずかに傾け、その残滓に右手の指先をゆっくりと近づける。触れるか触れないかの瞬間、複眼のひとつが閉じる。 彼が「届けたい」と思っているのは感情ではない——感情を持たないことへの、静か…",
+      "song_file": "届けたい温度.mp3"
+    },
     {
       "session_id": "session-20260309-230141-f307",
       "path": "./session-20260309-230141-f307/assets/instructions/index.html",
