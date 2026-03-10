@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-10T04:19:50Z",
+  "generated_at": "2026-03-10T11:44:47Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260310-172135-69e8",
+      "path": "./session-20260310-172135-69e8/assets/instructions/index.html",
+      "generated_at": "2026-03-10T11:44:43.783841Z",
+      "clip_count": 45,
+      "duration_sec": 196.37000000000003,
+      "section_count": 7,
+      "summary": "感情が物理的な質量を持つ管理社会の城郭の片隅で、割れた王冠を頭に戴いた鶴の異形貴族がひとり、水門の制御盤の前に立っている。かつては城の感情流量を統括する水門官だったこの存在は、今や失権し、そのシンボルである王冠はひび割れたままだ。鶴は自分の感情だけを誰にも放流させずに抱え込んでいる——管理する側だったから、自分が管理される側に回る術を知らないまま。 城郭の壁面に刻まれた流量計の目盛りは、鶴の感情強度が臨界値に近づくたびに少しずつ赤く染…",
+      "song_file": "届くかどうかはわからなくても.mp3"
+    },
     {
       "session_id": "session-20260310-093958-b9fd",
       "path": "./session-20260310-093958-b9fd/assets/instructions/index.html",
