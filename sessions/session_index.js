@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-11T06:53:50Z",
+  "generated_at": "2026-03-11T18:52:35Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260312-011658-16a7",
+      "path": "./session-20260312-011658-16a7/assets/instructions/index.html",
+      "generated_at": "2026-03-11T18:52:31.679636Z",
+      "clip_count": 57,
+      "duration_sec": 196.31999999999996,
+      "section_count": 7,
+      "summary": "目隠しをした孔雀の少女が、感情の色が染み出す石畳の路地を走り抜ける。彼女の尾羽が展開するたびに、周囲の提灯が彼女の感情色——眩しいほどの桃金色——に塗り替えられ、路地全体が沸騰するように明滅する。見えないはずなのに、彼女は一度も躓かない。問いは最初の十秒で浮かぶ：この子は本当に何も見えていないのか、それとも見えすぎているから目を塞いでいるのか。 路地の奥、魔法陣床の前で、彼女は立ち止まる。床が光るたびに前の通行者の残像が浮かぶはずなの…",
+      "song_file": "届くかどうかはわからなくても.mp3"
+    },
     {
       "session_id": "session-20260311-122757-1663",
       "path": "./session-20260311-122757-1663/assets/instructions/index.html",
