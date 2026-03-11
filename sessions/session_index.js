@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-10T19:45:01Z",
+  "generated_at": "2026-03-11T06:53:50Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260311-122757-1663",
+      "path": "./session-20260311-122757-1663/assets/instructions/index.html",
+      "generated_at": "2026-03-11T06:53:45.576862Z",
+      "clip_count": 62,
+      "duration_sec": 196.33000000000004,
+      "section_count": 7,
+      "summary": "音が物質として流通するこの街で、巫女の少女は「未精製の歌声」を密かに抱えている。彼女の細い腰には粗鉱扱いの音が溜まりすぎていて、骨の首飾りだけがその重さを測るように揺れている。魔導塔が一定リズムで鳴き続ける夜、彼女は誰もいない石臼の前で止まる——砕けば光になる、でも砕いたら「それ」ではなくなる。尖った耳が街のビートを拾うたびに、指先だけが宙で止まっている。 物語の軸は「放出か、保持か」の一点に絞られる。歌声を光柱に投入すれば爆発する、…",
+      "song_file": "届くかどうかはわからなくても.mp3"
+    },
     {
       "session_id": "session-20260311-014535-cf0f",
       "path": "./session-20260311-014535-cf0f/assets/instructions/index.html",
