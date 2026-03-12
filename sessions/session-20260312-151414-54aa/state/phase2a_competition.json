@@ -1,0 +1,480 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-ad33233c",
+      "persona_id": "persona-72d11933",
+      "content": {
+        "phase1_base": "道化師",
+        "phase2_condition": "球体胴体・細い尾",
+        "phase3_anchor": "仮面",
+        "subject_concept": "球体胴体と細い尾を持つ道化師",
+        "subject_signature": "仮面",
+        "why_it_came": "kawaii × high energyの楽曲に対して、丸みと異形の同居が視線を釘付けにする。仮面という一点で「笑っているのか泣いているのか」を宙吊りにし、見続ける理由を二重に成立させる。",
+        "who_should_watch": "ポップなビジュアルの裏に少しだけ歪みを求めている10代〜20代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "胴体が大きく丸く膨らんでおり、そこから細い尾が一本垂れ下がっている道化師。顔全体を固定された仮面が覆い、表情が読めない。",
+          "motion_profile": "球体の胴体を揺らすたびに細い尾が遅れて振れ、仮面だけが正面を向いたまま動かない。"
+        }
+      },
+      "created_at": "2026-03-12 06:18:10.177000",
+      "persona_name": "Alex Reyes",
+      "persona_profile": {
+        "id": "persona-72d11933",
+        "name": "Alex Reyes",
+        "gender": "Xジェンダー",
+        "birthdate": "2014-05-28",
+        "origin_city": "ロサンゼルス",
+        "ethnic_background": "中南米系",
+        "life_history": [
+          {
+            "year": 2014,
+            "event": "ロサンゼルスのボイルハイツで、メキシコ系移民三世の家庭に生まれる。祖母と両親、叔父家族との二世帯住宅で育つ。"
+          },
+          {
+            "year": 2018,
+            "event": "保育園で「男の子・女の子」のグループ分けに馴染まず、よく一人でブロック遊びをしていた。担任教師が個別対応を始める。"
+          },
+          {
+            "year": 2020,
+            "event": "パンデミックによる在宅期間中、祖母のタコス屋台の手伝いを始める。硬貨の計算と客への受け渡しを担当した。"
+          },
+          {
+            "year": 2022,
+            "event": "小学校で「they/them」の呼称使用を希望し、担任と保護者面談。学校側が承認し、クラスメイトへの説明会が開かれた。"
+          },
+          {
+            "year": 2024,
+            "event": "地域の自転車修理ワークショップに参加。10歳にして近所の子供たちのパンク修理を引き受けるようになる。"
+          },
+          {
+            "year": 2026,
+            "event": "中学入学後、STEM部に所属。ロボット工学チームで配線担当となり、州大会に出場した。"
+          },
+          {
+            "year": 2028,
+            "event": "14歳で地元の自転車店でアルバイトを開始。週末のみ勤務し、メンテナンス業務を任される。"
+          }
+        ],
+        "current_situation": "現在14歳。ロサンゼルス市内の公立中学校に通いながら、週末は自転車店でアルバイトをしている。祖母の家の裏庭を工具置き場として使わせてもらい、近所の人々の自転車や小型家電の修理を引き受けている。学校ではロボット工学部に所属し、来年の全国大会を目指してチーム活動中。通学にはスケートボードを使用している。",
+        "external_perception": {
+          "first_impression": "無口で物静か。服装はいつも作業着のような実用的なもの。視線を合わせず、挨拶も最小限。",
+          "close_friends_view": "困っている人がいると黙って工具を持ってくる。説明は少ないが手順は的確。冗談はほとんど言わないが、たまに見せる笑顔は穏やか。",
+          "misunderstandings": "不愛想で近寄りがたいと思われがちだが、実際には頼まれたことは断らない。ジェンダーについて説明を求められると困惑したような表情になる。"
+        },
+        "stance_on_past": "他人事のように距離を置いて見ている",
+        "proposal_history": [
+          {
+            "session": "goji_creator_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 17,
+            "won": false
+          },
+          {
+            "session": "goji_creator_test_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "存在することと、機能することの境界線",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "goji_creator_test_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 18,
+            "won": false
+          },
+          {
+            "session": "full_pipeline_test_20260103_124524",
+            "phase": "Phase 1",
+            "my_proposal_summary": "動作を止めた瞬間に消える存在の、最後の1サイクル",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "full_pipeline_test_20260103_124524",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 5,
+            "won": false
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-72d11933.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-54e737ab",
+      "persona_id": "persona-17c13d28",
+      "content": {
+        "phase1_base": "兎",
+        "phase2_condition": "四本腕・体毛",
+        "phase3_anchor": "発光腕輪",
+        "subject_concept": "四本腕の体毛に覆われた兎",
+        "subject_signature": "発光腕輪",
+        "why_it_came": "「kawaii・high energy」の楽曲に対し、親しみやすい兎の輪郭を保ちながら四本腕の異形構造で視線を釘付けにする対比を選んだ。発光腕輪が四本すべての腕に分散することで、動くたびに光の軌跡が複数生まれ、目が離せない密度を作る。",
+        "who_should_watch": "アイドル映像のかわいさに慣れきっていて、もう一段ねじれた造形と高速感に飢えている10〜20代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "全身を短い密な体毛で覆われた兎の頭部と胴体を持ち、左右それぞれ二本ずつ計四本の腕が胴の上部から生えている。各腕の手首付近に発光腕輪をはめており、動くたびに光の輪が空中で重なる。",
+          "motion_profile": "四本腕がそれぞれ独立した位相でリズムを刻むため、発光腕輪の軌跡が常に画面内の異なる位置で点滅し続ける。"
+        }
+      },
+      "created_at": "2026-03-12 06:18:31.675809",
+      "persona_name": "Inês de Carvalho",
+      "persona_profile": {
+        "id": "persona-17c13d28",
+        "name": "Inês de Carvalho",
+        "gender": "女性",
+        "birthdate": "1691-09-01",
+        "age": 26,
+        "origin_city": "リスボン",
+        "ethnic_background": "欧州系",
+        "life_history": [
+          {
+            "year": 1691,
+            "event": "リスボンの商人の家に次女として生まれる。父は香辛料貿易で財を成していた。"
+          },
+          {
+            "year": 1698,
+            "event": "母が第三子出産時に死亡。以降、父は仕事に没頭し家を空けることが多くなった。"
+          },
+          {
+            "year": 1703,
+            "event": "修道院付属学校に入学。読み書きと刺繍を学ぶ。姉は既に婚約していた。"
+          },
+          {
+            "year": 1708,
+            "event": "父が航海中に病死。遺産相続をめぐり親族間で争いが起こり、姉の婚約が破談となった。"
+          },
+          {
+            "year": 1711,
+            "event": "叔父の家に引き取られる。叔母から家事と帳簿管理を厳しく仕込まれた。"
+          },
+          {
+            "year": 1714,
+            "event": "叔父が破産し、一家でアルファマ地区の狭い家に移住。Inêsは近隣の裕福な家で針仕事の手伝いをして収入を得るようになった。"
+          },
+          {
+            "year": 1716,
+            "event": "針仕事の得意先である未亡人から、亡き娘の部屋に住み込みで働くよう誘われたが断った。姉が咳の病で床に伏せることが多くなった。"
+          }
+        ],
+        "current_situation": "アルファマ地区の小さな家に叔父一家と姉と共に暮らしている。日中は複数の裕福な家を回り、刺繍や衣服の繕いの仕事をしている。夜は家で叔母の指示のもと夕食の支度や洗濯を手伝う。収入の大半は家計に入れているが、わずかに手元に残した金を小さな木箱に隠している。最近、姉の咳が悪化しており、医者を呼ぶ費用を工面しようとしている。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ。視線を合わせることが少なく、必要最低限のことしか話さない。針を持つ手つきは正確で無駄がない。",
+          "close_friends_view": "辛抱強く、責任感が強い。自分のことは後回しにして家族のために働いている。たまに見せる笑顔は穏やかだが、どこか遠くを見ているようだ。",
+          "misunderstandings": "感情がないように見られるが、実際には深く考え込んでいることが多い。無愛想だと思われがちだが、人との距離の取り方が分からないだけである。"
+        },
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-17c13d28.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-50797801",
+      "persona_id": "persona-fb9ac898",
+      "content": {
+        "phase1_base": "サラマンダー",
+        "phase2_condition": "逆三角胴・長い指",
+        "phase3_anchor": "角の冠",
+        "subject_concept": "逆三角胴と長い指を持つサラマンダー",
+        "subject_signature": "角の冠",
+        "why_it_came": "kawaii×high energyの楽曲に対して、可愛らしさと鋭さが同居する爬虫類系の造形が視覚的に尖った主役になると判断した。逆三角胴の独特なシルエットと長い指が動きの中でリズムを刻み、角の冠が画面内で即座に主役を特定させる。",
+        "who_should_watch": "アニメや特撮のクリーチャーデザインに熱狂し、可愛いのに怖いという矛盾した造形に惹かれる10代後半〜20代の視聴者。",
+        "character_profile": {
+          "appearance_profile": "逆三角形の胴体に不釣り合いなほど長く細い指を持ち、頭頂部には枝状に広がる角の冠を戴くサラマンダー型の存在。胴の幅と四肢の細さの対比が全身のシルエットを一瞬で認識させる。",
+          "motion_profile": "移動のたびに長い指が地面や壁を順繰りに掴み直し、角の冠が動きに遅れてわずかに揺れる。"
+        }
+      },
+      "created_at": "2026-03-12 06:18:44.340223",
+      "persona_name": "たけし",
+      "persona_profile": {
+        "id": "persona-fb9ac898",
+        "name": "たけし",
+        "gender": "女性",
+        "birthdate": "1978-08-04",
+        "life_history": [
+          {
+            "year": 1984,
+            "event": "父親の転勤で埼玉県の新興住宅地に引っ越し、新しい小学校で友達作りに苦労した。"
+          },
+          {
+            "year": 1996,
+            "event": "大学受験に失敗し、一浪して地元の中堅私立大学の経済学部に進学した。"
+          },
+          {
+            "year": 2001,
+            "event": "就職氷河期に卒業し、中小の物流会社に営業職として入社。希望とは異なる職種だった。"
+          },
+          {
+            "year": 2008,
+            "event": "職場の同僚の紹介で知り合った女性と結婚。30歳での結婚は周囲から「ちょうどいい」と言われた。"
+          },
+          {
+            "year": 2015,
+            "event": "長年勤めた会社で係長に昇進。大きな出世ではないが、着実に評価された結果だった。"
+          }
+        ],
+        "current_situation": "埼玉県の郊外都市で生まれ育ち、地元の公立高校を経て私立大学の経済学部を卒業。2001年に中小物流会社に入社し、営業職として20年以上勤務している。現在は係長として数名の部下を持ち、取引先との調整や新規開拓を担当。平日は朝早く出勤し、夜は遅めに帰宅する生活を送っている。休日は妻と近所のショッピングモールに出かけたり、テレビでスポーツ観戦をしたりして過ごす。趣味らしい趣味はないが、月に一度、大学時代の友人と居酒屋で飲むのが楽しみ。",
+        "external_perception": {
+          "first_impression": "真面目で礼儀正しいが、少し堅苦しく見える。話しかけにくい雰囲気がある",
+          "close_friends_view": "実は気さくで面倒見がよく、困ったときに頼りになる。冗談も言うし、酒を飲むと意外と饒舌になる",
+          "misunderstandings": "無口で冷たい人だと思われがちだが、実際は人見知りなだけで、心を開けば温かい"
+        },
+        "like_history": [
+          {
+            "session": "ensemble_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "ショッピングモールの廃墟で、買わなかった商品のバーコードを一つずつスキャンし続ける係長の休日",
+            "like_count": 2,
+            "like_reasons": [
+              "買わなかった商品の記憶、すごくわかる",
+              "選ばなかったものが人生を形作るって、深いと思った"
+            ]
+          },
+          {
+            "session": "ensemble_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "「作り続けることでしか過去と和解できない」という直球の言葉に力がある",
+              "「この手は何を作りたかったんだっけ」っていう問いかけが、なんか心に残った"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "ensemble_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "ショッピングモールの廃墟で、買わなかった商品のバーコードを一つずつスキャンし続ける係長の休日",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "ensemble_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "画面の中の誰かが、こちらをずっと見つめている──監視カメラ越しに確認される、観測されることで成立する関係性の記録",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰かに見られ、呼ばれることで初めて自分が存在できる——でもそれでいい、その不安定さこそが愛だと信じたい",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "声優のファンに呼ばれ続けることでしか存在できない、二次元キャラクターの依存と献身の記録",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "phase2a_new_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "同じ場所を通い続けることで刻まれる、目に見えない人生の軌跡。反復の中にこそ存在する、過去と現在と未来の重なり。",
+            "rank": 0,
+            "tally": 0,
+            "won": true
+          },
+          {
+            "session": "phase2a_new_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: 50代の自分（背広を着て、いつもと同じ時間に改札を抜ける姿。疲れているけれど、足取りはもう自動化されている） / 場所: いつも使う駅の改札口（埼玉の郊外、朝7時15分。20年以上、ほぼ同じ時間",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "visual_medium_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "古いブラウン管テレビの中に閉じ込められた、視聴者に語りかけ続ける存在の独白",
+            "rank": 1,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "visual_medium_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "voting_test_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "見えない声が街を、世界を変えていく静かな革命",
+            "rank": 1,
+            "tally": 5,
+            "won": false
+          }
+        ],
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-fb9ac898.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-ad33233c",
+      "B": "sl2a-54e737ab",
+      "C": "sl2a-50797801"
+    },
+    "tally": {
+      "A": 7,
+      "B": 6,
+      "C": 7
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 4,
+      "C": 2
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 2,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "Rohan Biswas",
+        "like": "A",
+        "like_reason": "道化師と仮面の組み合わせは劇的で視覚的なインパクトが強く、建設現場で培った「構造の美しさ」への感覚に響く。仮面という具体的なアンカーが物語性を高める。",
+        "dislike": "C",
+        "dislike_reason": "サラマンダーベースに角の冠は爬虫類的で冷たい印象があり、日曜の家族の夕食のような温かみを感じる作品への好みとは合わない。"
+      },
+      {
+        "voter": "Mei-Shan Calloway",
+        "like": "B",
+        "like_reason": "兎と発光腕輪の組み合わせは柔らかく、光が温もりを感じさせる。高齢になった今、優しい光のモチーフに安らぎを覚え、昔の仲間との通信のような親密感がある。",
+        "dislike": "A",
+        "dislike_reason": "道化師は不安感を呼び起こすことがあり、球体胴体と細い尾という不自然な体型も補助器具を使いながら生きる自分には居心地が悪い。"
+      },
+      {
+        "voter": "Sida Phan",
+        "like": "C",
+        "like_reason": "サラマンダーに逆三角胴・長い指・角の冠という組み合わせは輸入雑貨バイヤーとして異国の美学に敏感な自分の審美眼にヒットする。独特で商品にもなりそうなデザイン。",
+        "dislike": "A",
+        "dislike_reason": "道化師と球体胴体の組み合わせはキッチュすぎて、洗練さを求める自分のセンスとは合わない。倉庫スペースに飾りたいとは思えない。"
+      },
+      {
+        "voter": "Somchai Rattanakosin",
+        "like": "B",
+        "like_reason": "四本腕・体毛という力強さと発光腕輪の神秘性の組み合わせが、タイ系コミュニティの寺院で見た守護神像を連想させる。親しみやすい力の象徴として好感が持てる。",
+        "dislike": "C",
+        "dislike_reason": "サラマンダーに角の冠というデザインは腰痛を抱えながら長距離運転する自分には威圧的に映る。寺院の仲間に見せても受け入れられにくそう。"
+      },
+      {
+        "voter": "Karim Haddad",
+        "like": "A",
+        "like_reason": "道化師と仮面は西洋の演劇的伝統を連想させ、レバニーズ料理やレバノン文化に通じる祝祭感がある。技術指導者として「構造と遊び」のバランスに職業的な魅力を感じる。",
+        "dislike": "B",
+        "dislike_reason": "兎に四本腕・体毛という組み合わせはコンセプトが散漫で、エンジニアリング的に見て設計の一貫性が感じられない。発光腕輪も唐突に見える。"
+      },
+      {
+        "voter": "Derek Chen",
+        "like": "A",
+        "like_reason": "道化師という馴染みのあるキャラクターに仮面が組み合わさって、昔のサーカスや映画を思い出させる。派手さより物語性を感じる。",
+        "dislike": "C",
+        "dislike_reason": "サラマンダーに逆三角胴や長い指という組み合わせはグロテスクすぎて、個人的に好みではない。"
+      },
+      {
+        "voter": "Parvati Chandra de la Cruz",
+        "like": "A",
+        "like_reason": "仮面は市場の祭りや宗教行事でも見慣れた象徴。道化師の仮面は欺瞞と知恵の両方を宿す。長年の経験からそういう複雑さに惹かれる。",
+        "dislike": "B",
+        "dislike_reason": "四本腕は神の像を連想させるが、兎と組み合わせると神聖さが損なわれ、不敬な印象を受ける。"
+      },
+      {
+        "voter": "たなか ふみこ",
+        "like": "B",
+        "like_reason": "兎は可愛らしくて親しみやすい。発光腕輪が神秘的で、孫たちも喜びそうな幻想的なイメージ。",
+        "dislike": "C",
+        "dislike_reason": "サラマンダーは爬虫類っぽくて苦手。角の冠も怖い印象で、見ていて落ち着かない気がする。"
+      },
+      {
+        "voter": "いとう みお",
+        "like": "C",
+        "like_reason": "サラマンダーは変態する生き物で生物学的に面白い。逆三角胴や長い指などの独自進化が動物看護士の視点からも興味深く、キャラクターとして唯一無二だと思う。",
+        "dislike": "A",
+        "dislike_reason": "道化師は動物モチーフじゃないし、球体胴体・細い尾の組み合わせが生物的リアリティに欠ける。あまり刺さらない。"
+      },
+      {
+        "voter": "Grace Hwang",
+        "like": "B",
+        "like_reason": "兎は文学や民話にも登場する普遍的な存在。発光腕輪という未来的な要素との組み合わせが、図書館の本棚に並ぶファンタジー小説のような魅力を感じさせる。",
+        "dislike": "C",
+        "dislike_reason": "角の冠とサラマンダーの組み合わせは攻撃的すぎる印象で、自分の好むおだやかな物語性とは合わない。"
+      }
+    ],
+    "analysis": "[batch 1] AとBがそれぞれ2票のlikeを獲得し拮抗している。Aは劇的な演劇性と構造美への共鳴で2名（Rohan, Karim）が支持する一方、Bは柔らかな光と守護的な力強さで2名（Mei-Shan, Somchai）が支持。Cは異国的デザインでSidaの強い支持を得たが、他のペルソナには威圧的・冷たいと映りdislike票が集中した。dislikeはAが2票、Cが2票で分散しており、Bは1票のdislikeにとどまり最も反発が少ない安定した候補となっている。\n[batch 2] AとBが各2票のlikeを獲得し拮抗している。Cはいとう みおの強い支持を受けた一方、他の4人からdislikeを集め不人気。年代・文化的背景が反映されており、年配層は象徴性・物語性を重視してAを選び、若年層のいとう みおは生物学的ユニークさからCを支持、たなかふみこ・Grace Hwangは親しみやすさからBを選ぶ傾向が見られた。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.7823784642970022,
+      "B": 1.2972734327035422,
+      "C": 1.1882523095313346
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

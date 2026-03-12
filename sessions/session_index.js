@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-11T18:52:35Z",
+  "generated_at": "2026-03-12T09:24:26Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260312-151414-54aa",
+      "path": "./session-20260312-151414-54aa/assets/instructions/index.html",
+      "generated_at": "2026-03-12T09:24:22.326854Z",
+      "clip_count": 66,
+      "duration_sec": 196.37000000000006,
+      "section_count": 7,
+      "summary": "体育館の倉庫、跳び箱の上に置かれたスマホ。画面には「視聴者数：0」。それでも少女は止まらない。キラキラのケープを羽織った体操服姿で、完璧な振り付けを、汗を光らせながら踊り続ける。誰も見ていない。それがこの世界では特別な意味を持つ。観測者のいない熱量は大気に溶けず、床に、壁に、天井に染み込んでいく。踊るたびに足跡の形に光が広がり、跳び箱が数センチ浮き上がり、蛍光灯が一本ずつ、少女に向かってゆっくり降下してくる。",
+      "song_file": "届くかどうかはわからなくても.mp3"
+    },
     {
       "session_id": "session-20260312-011658-16a7",
       "path": "./session-20260312-011658-16a7/assets/instructions/index.html",
