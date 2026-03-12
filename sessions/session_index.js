@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-12T09:24:26Z",
+  "generated_at": "2026-03-12T16:33:20Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260312-192804-7f81",
+      "path": "./session-20260312-192804-7f81/assets/instructions/index.html",
+      "generated_at": "2026-03-12T16:33:16.461873Z",
+      "clip_count": 61,
+      "duration_sec": 242.97000000000003,
+      "section_count": 11,
+      "summary": "深夜の屋上駐車場、一台きりの車のなかで、機械関節を持つ亀が運転席に収まっている。甲羅には幾重もの擦れた跡、顎には口枷、ダッシュボードには「自宅まで23分」の表示が止まったまま光っている。彼は出発しない。エンジン音だけが循環し続ける。カメラは車の外から引いていき、やがてその車が広大な夜の駐車場の隅っこの一点に過ぎないと分かる。本人には見えないが、彼の車の真横に赤い郵便ポストが一本、いつの間にか立っている。 映像は過去と現在を往復する。蛍…",
+      "song_file": "天秤の夜.mp3"
+    },
     {
       "session_id": "session-20260312-151414-54aa",
       "path": "./session-20260312-151414-54aa/assets/instructions/index.html",
