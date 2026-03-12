@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-12T16:33:20Z",
+  "generated_at": "2026-03-12T18:10:49Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260313-000940-00bd",
+      "path": "./session-20260313-000940-00bd/assets/instructions/index.html",
+      "generated_at": "2026-03-12T18:10:45.547546Z",
+      "clip_count": 61,
+      "duration_sec": 242.99,
+      "section_count": 11,
+      "summary": "深夜のコンビニ。ホットスナックケースの前で、スーツ姿の中年男がトングを握ったまま動けない。フライドチキンとコロッケの間で30秒、1分——男が迷うたびに、コンビニの床が数センチずつ、音もなく沈んでいく。世界の物理法則がそっと暴いてしまう：彼はずっと、ずっと、何かを選べないまま生きてきた。 男の傍ら、棚の影から一羽の鷺が現れる。逆関節の脚で床の沈下に合わせてわずかにバランスを取り直しながら、錆の浮いた口枷を嵌めたまま首だけをゆっくり水平に…",
+      "song_file": "天秤の夜.mp3"
+    },
     {
       "session_id": "session-20260312-192804-7f81",
       "path": "./session-20260312-192804-7f81/assets/instructions/index.html",

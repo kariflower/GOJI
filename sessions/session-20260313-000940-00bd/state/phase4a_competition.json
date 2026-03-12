@@ -1,0 +1,326 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "phase4a-20260312152252-0",
+      "persona_id": "persona-6d7657b0",
+      "content": {
+        "synopsis": "深夜のコンビニ。ホットスナックケースの前で、スーツ姿の中年男がトングを握ったまま動けない。フライドチキンとコロッケの間で30秒、1分——男が迷うたびに、コンビニの床が数センチずつ、音もなく沈んでいく。世界の物理法則がそっと暴いてしまう：彼はずっと、ずっと、何かを選べないまま生きてきた。  男の傍ら、棚の影から一羽の鷺が現れる。逆関節の脚で床の沈下に合わせてわずかにバランスを取り直しながら、錆の浮いた口枷を嵌めたまま首だけをゆっくり水平に回す。鷺は何も言わない。ただそこにいる——疲弊しているが折れてはいない、という姿で。男は鷺に気づかない。鷺は男を見ていない。それでも二つの沈黙は、同じ温度で並んでいる。  結局、男はコロッケを一つ手に取る。床の沈下が止まり、ゆっくりと数ミリ戻る——ただし完全には戻らない。レジに向かう男の革靴の後ろ、タイルの目地に小さな菱形の記号がひとつ刻まれる。「ここで誰かが止まった」という事実だけを記す標識。鷺は棚の影に消える。男はコンビニを出て、また同じ方向へ歩き始める。何も解決していない。それでも、一つ選んだ。",
+        "hook_pitch": "男がトングを持ったまま動けない最初の30秒で、視聴者は「これは自分だ」と気づく。そして床が沈み始めた瞬間、この世界のルールが気になって離れられなくなる。",
+        "key_images": [
+          "ホットスナックケースの橙色のランプが男の疲れた横顔を照らす——トングは宙に浮いたまま、30秒が過ぎていく",
+          "男の革靴の周囲だけ、タイルの目地が数ミリずつじわりと広がっていくクローズアップ",
+          "棚の影で逆関節の脚をわずかに折り、錆の口枷をつけた鷺が床の沈下に合わせて静かにバランスを取り直す",
+          "男がコロッケを選んだ瞬間、沈んだ床がゆっくり数ミリ戻る——だが完全には戻らない",
+          "男が去った後のタイルに刻まれた小さな菱形の路面標識、そして空になったコンビニの深夜"
+        ],
+        "why_it_came": "「選べない」という感情を、悲劇でも喜劇でもなく「物理的な重さ」として体感させたかった。在宅で深夜に一人モニターを見ているとき、自分も似たような些細な選択でずっと止まっていることがある——あの感覚を、床が沈む世界に置いたら正直に映るかもしれないと思った。",
+        "who_should_watch": "今夜も何かを決められないまま冷蔵庫を開けた、40代の人間に見てほしい。",
+        "emotional_arc_intent": "静かな自己嫌悪から始まり、床が沈むことで「逃げ場のない正直さ」に追い詰められ、コロッケ一つを選んだ小さな事実に、壊れない何かを見つける。",
+        "cast": [
+          {
+            "role": "main",
+            "source": "phase1.hook_scene",
+            "label": "トングの男",
+            "usage_note": "映像全体の主観軸。彼の迷いが床の沈下を引き起こし、彼の選択が物語を閉じる。",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "sub",
+            "source": "phase2.character_profile",
+            "label": "口枷の鷺",
+            "usage_note": "棚の影から現れ、男の傍らで床の沈下に合わせてバランスを取り直しながら存在し、男がコンビニを出た後に静かに消える。",
+            "override": {
+              "location": "深夜のコンビニ店内（深夜のオフィスから変更）"
+            },
+            "detail": {
+              "role_in_frame": "男の沈黙と同じ温度で並列存在し、疲弊しながらも折れない尊厳を体現する",
+              "connection": "character",
+              "arc": "棚の影から無音で現れ、床の沈下とともに静かに重心を調整し続ける → 男が選択した瞬間に棚の影へ消える",
+              "tone_mirror": "錆の口枷で声を封じられながら首だけを動かす姿が、「大丈夫と言い続けた唇」という楽曲の疲弊した尊厳を視覚化する"
+            }
+          },
+          {
+            "role": "motif",
+            "source": "phase3.world_setting",
+            "label": "沈下する床と菱形標識",
+            "usage_note": "男が迷うたびに床が数センチ沈み、選択の瞬間に微かに戻る——そして去った後に菱形の路面標識が残る。繰り返すことで世界のルールを視聴者に刻む。",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "prop",
+            "source": "phase1.hook_scene",
+            "label": "トング",
+            "usage_note": "決断不能の象徴として冒頭から終盤まで握られ続け、コロッケを掴んだ瞬間にだけ「道具」として機能する。",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "backdrop",
+            "source": null,
+            "label": "深夜のコンビニ全景",
+            "usage_note": "店員不在・他客なし・橙色のホットスナックランプだけが光る無人空間として、沈下が加速する条件を満たし続ける舞台装置。",
+            "override": null,
+            "detail": {
+              "role_in_frame": "迷いの加速装置としての無人深夜空間を体現し、男と鷺を世界から切り離して封じ込める",
+              "connection": "world",
+              "arc": null,
+              "tone_mirror": null
+            }
+          }
+        ],
+        "subs": []
+      },
+      "created_at": "2026-03-12 15:22:52.268622"
+    },
+    {
+      "proposal_id": "phase4a-20260312152443-1",
+      "persona_id": "persona-10ced470",
+      "content": {
+        "synopsis": "The MV opens in near-darkness. A man in a loosened tie stands before a convenience store hot case, tongs in hand, not moving. The orange lamp heat on his face is the warmest light he has felt all day. He is not choosing between a chicken cutlet and a croquette. He is choosing whether he is still the person who can make any choice at all. The floor tiles beneath his shoes have begun, almost imperceptibly, to sink — the grout lines widening by fractions the eye cannot register but the body somehow knows. A heron stands at the far end of the aisle. Its knees bend the wrong way. Its skin is uneven, ridged, like cloth that has been ironed too many times over old repairs. An iron muzzle rests at its jaw. It does not look at him. It looks at the space where a decision should be.",
+        "hook_pitch": "We never see him choose. That is why we cannot look away — we are waiting for the relief that may not come, watching a man hold the weight of everything in a pair of tongs he never opens.",
+        "key_images": [
+          "Tongs held open at the exact midpoint between two trays, the man's knuckles pale with the grip, the orange lamp casting shadows that make hi…",
+          "The heron at the end of the empty aisle, its reversed knee joints pressing a faint indentation into the floor tiles, head rotating slowly on…",
+          "A single floor tile's grout line spreading — filmed at extreme close range, almost geological, the way a scar opens in cold weather",
+          "The man's reflection in the hot case glass, overlaid with the glow of the food inside, so that the warmth appears to come from within him ra…",
+          "Final frame: the tongs returned to their hook, unused. The man walks toward the door. Behind him, a diamond-shaped road marking has appeared…"
+        ],
+        "why_it_came": "Every other reading of this song has been about the man. I kept thinking about the tongs — the object that is already halfway to a decision, already open, already aimed, and still accomplishing nothing. An instrument of choice that becomes proof of paralysis.",
+        "who_should_watch": "The person who has rehearsed a resignation letter three times in their head this week and deleted it each time before writing the first word.",
+        "emotional_arc_intent": "The viewer enters with mild recognition and quiet dread, is held in suspension by the heron's unreadable attention, and leaves not with resolution but with the strange dignity of having witnessed someone carry their own…",
+        "cast": [
+          {
+            "role": "main",
+            "source": "phase1.hook_scene",
+            "label": "中年男 with tongs",
+            "usage_note": "He is the center of stillness — every visual event in the MV is measured against his immobility before the hot case.",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "main",
+            "source": "phase2.character_profile",
+            "label": "逆関節の鷺",
+            "usage_note": "The heron occupies the far end of the aisle from the first shot, a silent witness whose presence is never explained and never acknowledged by the man.",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "backdrop",
+            "source": "phase3.world_setting",
+            "label": "沈下する床",
+            "usage_note": "The floor's slow subsidence is the world registering what the man cannot — the physical accumulation of unmade decisions, visible only in grout lines and the ti…",
+            "override": null,
+            "detail": null
+          },
+          {
+            "role": "sub",
+            "source": null,
+            "label": "コンビニの蛍光灯",
+            "usage_note": "A single fluorescent tube that flickers on a cycle independent of any electrical fault — present from the first frame, still at the last.",
+            "override": null,
+            "detail": {
+              "role_in_frame": "Overhead light source that enters every shot as ambient flicker, occasionally holding steady for two or three seconds before resuming its irregular rhythm.",
+              "connection": "theme",
+              "arc": "Begins flickering rapidly, almost agitated — by the final frame it has slowed to a long, slow pulse, almost like breathing that has accepted its pace.",
+              "tone_mirror": "The tube's shift from anxious flicker to slow pulse mirrors the song's movement from quiet desperation toward fragile acceptance without ever becoming warmth."
+            }
+          }
+        ],
+        "subs": [
+          {
+            "name": "コンビニの蛍光灯",
+            "role_in_frame": "Overhead light source that enters every shot as ambient flicker, occasionally holding steady for two or three seconds before resuming its irregular rhythm.",
+            "connection": "theme",
+            "arc": "Begins flickering rapidly, almost agitated — by the final frame it has slowed to a long, slow pulse, almost like breathing that has accepted its pace.",
+            "tone_mirror": "The tube's shift from anxious flicker to slow pulse mirrors the song's movement from quiet desperation toward fragile acceptance without ever becoming warmth."
+          }
+        ]
+      },
+      "created_at": "2026-03-12 15:24:43.590502"
+    },
+    {
+      "proposal_id": "phase4a-20260312152707-2",
+      "persona_id": "persona-aa543b71",
+      "content": {
+        "synopsis": "深夜のコンビニ、ホットスナックコーナーの前に一人のスーツ姿の男が立っている。トングを手に持ったまま、フライドチキンとコロッケの間で三十秒——動けない。床は誰にも気づかれないまま、数センチずつ沈んでいく。この男には今夜、何かが積み重なりすぎている。それが何なのか、映像はすぐには教えない。ただ、口枷を嵌めた逆関節の鷺が、ガラス越しの駐車場で静止しているのが見える。首だけが、ゆっくりと回る。  物語は男の一夜を追いながら、「選べない」という重力の正体を少しずつ掘り起こしていく。蛍光灯が瞬くオフィスの椅子、傾いたガードレールの街角、タイルの目地が広がっていくコンビニの床——彼が立ち止まるたびに世界が沈み、路面に方向のない菱形の記号が刻まれていく。鷺は離れず、常に視界の端にいる。逆関節の膝を折り、重心を後ろに預けたまま、口枷の錆を光にさらしながら。男が「まだやれる」と呟くとき、鷺は動かない。男が「本当は怖いんだ」と口を割ったとき、鷺の首が止まる。  夜明け前、男はトングを置く——何も挟まずに。床はそれ以上沈まない。完全には戻らない、永久に0.3mm低いままのタイルの上で、男は扉を押して出ていく。駐車場の鷺はもういない。その場所に、小さな菱形の記号だけが残されている。また明日、同じ椅子に座る——それは敗北ではなく、今夜のぎりぎりの着地だ。",
+        "hook_pitch": "男がトングを持ったまま動けない理由が最後まで明かされないまま進行するため、「なぜ止まっているのか」という問いが視聴者を画面に縛り付ける。そして床が沈むという世界の法則が「選べない」という感情を物理的に可視化するため、男が選択を下す瞬間——あるいは下さない瞬間——に全ての緊張が集約される。",
+        "key_images": [
+          "深夜のコンビニ、ホットスナックケースのオレンジ色の光が男のスーツに当たる。手にトング、三十秒の静止。床のタイルの目地が、カメラが引くごとに少しずつ広がっている",
+          "ガラス越しの駐車場に佇む逆関節の鷺——凹凸肌の全身に街灯の光が不均一に落ち、錆びた口枷が光る。首だけがゆっくり水平に回り、男の背中を映している",
+          "蛍光灯が瞬く深夜のオフィス。男が椅子に座ったまま天井を見上げると、床の隅に方向のない菱形の路面標識が自然発生しているのが見える",
+          "コンビニの床——菱形の記号が点在し、男の革靴の周囲のタイルだけが他と微妙にずれている。俯瞰ショット、男は画面の端に小さく立つ",
+          "夜明け直前の駐車場。男が扉を出て歩き去った後、アスファルトに一つだけ残された菱形の記号。遠景に、空が白み始めている"
+        ],
+        "why_it_came": "建設の仕事では、何かを「形にする」ことと「何かが壊れていく」ことは同じ時間軸の上にある——俺はそれを体で知っている。この男がトングを下ろせないのは弱さじゃなくて、形にしてきたものが砂になっていく感覚を、まだ受け入れきれていないからだと思った。床が沈むという法則は、その重さを誰にも言わずに抱えてきた時間の話だ。",
+        "who_should_watch": "「俺はまだやれる」と自分に言い聞かせながら、昨夜も何かを決められないまま眠った、40代の男——特に、自分の仕事が「形に残る」ことに誇りを持ちながら、その形が少しずつ崩れていく気配を感じている人間に見てほしい。",
+        "emotional_arc_intent": "「止まっている自分への恥」から始まり、「恥の正体が恐怖だったと気づく」中間を経て、「それでも扉を押して出ていく——負けではなく、今夜の着地」という、情けなさと品が同居する静かな受容へと着地する。",
+        "cast": [
+          {
+            "role": "main",
+            "source": "phase1.hook_scene",
+            "label": "スーツの男",
+            "usage_note": "トングを持ったまま動けない三十秒を物語の中心軸とし、世界が沈む因果の主体として機能させる。",
+            "override": null,
+            "detail": {}
+          },
+          {
+            "role": "sub",
+            "source": "phase2.character_profile",
+            "label": "逆関節の鷺",
+            "usage_note": "男の視界の端に常に存在し、口枷を嵌めたまま静止することで「言えない重さ」を体現する——男が何かを口にするとき、鷺の動きが変わる。",
+            "override": null,
+            "detail": {
+              "connection": "world",
+              "arc": "駐車場のガラス越しに静止している → 男が選択を下した後、跡形もなく消え、菱形の記号だけが残る",
+              "tone_mirror": "逆関節と口枷という身体的制約が、楽曲の「プライドという名の足枷」というトーンを視覚的に翻訳する"
+            }
+          },
+          {
+            "role": "backdrop",
+            "source": "phase3.world_setting",
+            "label": "沈下する空間",
+            "usage_note": "男が止まるたびに床が沈み路面標識が自然発生する法則を、セット・美術・カメラワークで可視化し、「選べない時間」の累積を空間の変形として記録する。",
+            "override": null,
+            "detail": {}
+          },
+          {
+            "role": "prop",
+            "source": null,
+            "label": "トング",
+            "usage_note": "男の手の中で三十秒以上動かないことで、決断不能の象徴として機能する——最後に置かれる瞬間が物語の転換点となる。",
+            "override": null,
+            "detail": {
+              "role_in_frame": "画面の中心に置かれた小道具として、男の内面の膠着状態を物理的に可視化する"
+            }
+          }
+        ],
+        "subs": []
+      },
+      "created_at": "2026-03-12 15:27:07.487263"
+    }
+  ],
+  "vote": {
+    "winner_key": "A",
+    "tally": {
+      "A": 6,
+      "B": 9,
+      "C": 5
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "dislike_tally": {
+      "A": 2,
+      "B": 7,
+      "C": 1
+    },
+    "votes": [
+      {
+        "voter": "いとう みお",
+        "like": "A",
+        "like_reason": "床が沈むという不思議な視覚的演出と、日常のコンビニという親しみやすい設定の組み合わせが直感的に引っかかる。動物の世話で「待つ」ことに慣れているせいか、トングを持ったまま止まる男の描写がリアルに感じられた。",
+        "dislike": "B",
+        "dislike_reason": "英語の文章で書かれていて内容がすぐに入ってこない。自分には遠い世界の話に感じてしまい、見続けたいという気持ちが湧きにくい。"
+      },
+      {
+        "voter": "Zara Ndlovu",
+        "like": "B",
+        "like_reason": "The English pitch feels universal and the image of tongs held at the exact midpoint resonates — it's about paralysis, something anyone can feel. The restrained visual language appeals to me.",
+        "dislike": "C",
+        "dislike_reason": "The description is very long and heavy, and the target audience feels too narrowly defined as a specific middle-aged Japanese man. It doesn't feel like it's speaking to me at all."
+      },
+      {
+        "voter": "Graham Fletcher",
+        "like": "A",
+        "like_reason": "The setup is simple and I get it immediately — bloke standing in a servo at midnight, can't make up his mind. That's relatable. The floor slowly sinking is a good hook, I'd want to see where that goes.",
+        "dislike": "B",
+        "dislike_reason": "Too vague and a bit pretentious with the half-written sentences. Feels like it's trying too hard to be artistic rather than just telling me what the video is about."
+      },
+      {
+        "voter": "Karim Haddad",
+        "like": "C",
+        "like_reason": "「俺はまだやれる」という自己暗示と選択不能の組み合わせが、自分のここ数年と重なる。鷺の描写も含め、世界の構築が最も丁寧で、最後まで見届けたいという気持ちになる。",
+        "dislike": "B",
+        "dislike_reason": "文章が途中で切れていて内容を把握しきれない。英語で書かれている点は問題ないが、情報量が不足しており投票の判断材料として弱い。"
+      },
+      {
+        "voter": "Nadia Sovannary Phnom",
+        "like": "C",
+        "like_reason": "The most complete and layered proposal. The concept of physical-world rules externalizing internal paralysis is intellectually compelling, and the heron image adds an uncanny quality I find arresting. As someone who often sits alone with unresolved decisions, this lands.",
+        "dislike": "A",
+        "dislike_reason": "While the core concept is similar to C, the execution feels slightly less developed. The 40代 targeting in A feels a bit blunt compared to C's more nuanced articulation of the same audience."
+      },
+      {
+        "voter": "陳 花玉 (Chén Huāyù)",
+        "like": "A",
+        "like_reason": "日本語で書かれており、中年男性が日常の場（食料を扱う場所）で立ち尽くす姿は、生活の重さや家族への責任感という普遍的な感覚に近い。「これは自分だ」と気づかせる構造は、農村の老婆が葬儀や祭祀で感じる「自分もいつかこうなる」という静かな共鳴に似ている。",
+        "dislike": "B",
+        "dislike_reason": "英語であることが致命的。内容以前に言葉が届かない。また「辞表を3回書いた」という都市労働者の内面苦は、集落共同体の中で生きてきた自分の感覚とまったく接点がない。"
+      },
+      {
+        "voter": "たなか ふみこ",
+        "like": "A",
+        "like_reason": "40代の「決められない男」は夫や職場の同僚に重なる。深夜コンビニという場の生々しさ、トングを持ったまま固まるという絵が目に浮かぶ。がん治療後に「自分はどう生きるか」を考え続けてきた自分には、「これは自分だ」というフックが刺さる。",
+        "dislike": "B",
+        "dislike_reason": "英語で展開される物語は西宮市のパート主婦には距離がある。「辞表を頭の中で書いた」という表現は会社員男性の話であり、自分の生活実感から遠い。英語字幕があっても没入できない。"
+      },
+      {
+        "voter": "Yun Seok-hee",
+        "like": "C",
+        "like_reason": "「なぜ止まっているのか」という問いが最後まで明かされない構造は、異国の港でいつも文脈なしに見られてきた自分の経験と共鳴する。理由を与えられないまま解釈を強いられる感覚——それはクリスチャニアで毎日感じることだ。仕事が形に残ることへの誇りは帳簿管理者として理解できる。床の目地が広がる映像的な不安も、波止場で船が出た後の静けさに似ている。",
+        "dislike": "B",
+        "dislike_reason": "英語は理解できるが、「辞表」という近代的雇用概念は1805年には存在しない。この物語が前提とする労働構造そのものを自分は知らない。映像物語として最後まで見たいかという問いに対し、前提が成立しない。"
+      },
+      {
+        "voter": "Tangaroa Kealoha",
+        "like": "C",
+        "like_reason": "海で働く者は、潮や風が理由を教えてくれないまま待つことに慣れている。「なぜ止まっているのか」を問い続ける構造は、自然の沈黙の前に立つ感覚に近い。床のタイル目地が広がる映像は、岩の割れ目や潮の満ち引きに似た、じわじわと変容する世界の感触だ。仕事が形に残ることへの誇りも、干物を丁寧に仕分ける自分の仕事観と重なる。",
+        "dislike": "B",
+        "dislike_reason": "英語・都市・会社員という三重の文化的距離がある。釜山沖の島で塩と干物を扱う生活には、オフィスの辞表という概念が根本的に存在しない。解放感を「待つ」という受動的な視聴設計も、自分が映像に求めるものではない。"
+      },
+      {
+        "voter": "Park Min-jae",
+        "like": "B",
+        "like_reason": "欧州・北米クライアントと夜間に働く自分は英語コンテンツの消費に慣れている。「辞表を頭の中で3回書いた」は、親の生活費を稼ぐために好きでない案件を受け続ける自分の内面に直撃する。フリーランサーに辞表はないが、「やめたい、でも動けない」という感覚はまったく同じだ。英語圏向けの訴求設計はYouTubeアルゴリズム上の到達範囲も広い。",
+        "dislike": "A",
+        "dislike_reason": "40代男性・深夜コンビニ・日本語という設定は自分の文化・年齢から遠く没入しにくい。「これは自分だ」というフックが自分には作動しない。ターゲットが明示的すぎて自分が弾かれる感覚がある。"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "A",
+        "like_reason": "「今夜も何かを決められないまま冷蔵庫を開けた40代」という具体的な身体感覚と日本語の質感が、嫌いログに多い『遠すぎる世界観』への反発と逆の方向に働く。床が沈む物理法則の暴露も、抽象概念でなく視覚で届く。",
+        "dislike": "B",
+        "dislike_reason": "英語フックは嫌いログで繰り返し指摘された『縁遠さ・入口の見つからなさ』をそのまま体現している。感情移入の糸口が言語の壁でさらに遠ざかる。"
+      }
+    ],
+    "analysis": "[batch 1] Bはlikeとdislikeがほぼ相殺され、文章の不完全さと英語表記が評価を分けた。AとCは同じ世界観・キャラクターを共有しながら、ディテールの深さと対象者の描き方の差で票が割れた。年齢層が高く孤独感や決断疲れを持つ投票者（KarimとNadia）はCを支持し、若い・海外・実務的な投票者（みお・Graham）はAのシンプルさを好んだ。\n[batch 2] AとCが拮抗する構図で、Bは英語・都市労働者文脈という二重の障壁により非英語圏・非オフィスワーカーの投票者から軒並み忌避された。唯一英語圏向けビジネスに接触するPark Min-jaeのみがBを支持し、かつ逆にAを最も排除している。CはYun Seok-heeとTangaroa Kealohaという「文化的外部者」に強く響いており、理由の不開示という構造が文化横断的な共鳴を生む設計になっている点が注目される。Aは日本語圏・中高年・生活密着層に堅実に機能するが、文化的距離が大きい投票者には届かない。",
+    "is_tiebreak": true,
+    "tiebreak_reason": "controversy_winner=['A'] vs engagement_winner=['B']",
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "A",
+      "like_reason": "「今夜も何かを決められないまま冷蔵庫を開けた40代」という具体的な身体感覚と日本語の質感が、嫌いログに多い『遠すぎる世界観』への反発と逆の方向に働く。床が沈む物理法則の暴露も、抽象概念でなく視覚で届く。",
+      "dislike": "B",
+      "dislike_reason": "英語フックは嫌いログで繰り返し指摘された『縁遠さ・入口の見つからなさ』をそのまま体現している。感情移入の糸口が言語の壁でさらに遠ざかる。"
+    },
+    "vote_health": {
+      "valid_ballot_count": 11,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    },
+    "controversy_scores": {
+      "A": 1.2972734327035422,
+      "B": 1.023371152441798,
+      "C": 0.716703787691222
+    }
+  }
+}
