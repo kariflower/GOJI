@@ -1,0 +1,553 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-de574f2c",
+      "persona_id": "persona-0c28c921",
+      "content": {
+        "phase1_base": "修道士",
+        "phase2_condition": "球体関節・細い脚",
+        "phase3_anchor": "割れた頭冠",
+        "subject_concept": "球体関節と細い脚を持つ修道士",
+        "subject_signature": "割れた頭冠",
+        "why_it_came": "「教育的な型への反抗」という楽曲の核に、規律の象徴である修道士が最も鋭く刺さると判断した。球体関節と細い脚の組み合わせが、信仰と服従の枠組みを内側から歪めた身体を作り出す。",
+        "who_should_watch": "学校や組織の「正しさ」に息苦しさを感じながらも、まだそこから完全には抜け出せていない十代後半から二十代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "球体関節でつながれた胴と四肢を持ち、細い脚が修道服の裾から突き出ている。頭冠は正面から見て一本の亀裂が走り、左右に割れかけた状態で頭に乗っている。",
+          "motion_profile": "球体関節の可動域を使い、細い脚で着地するたびに膝が外側へ折れるような独特の歩様で床を踏む。"
+        }
+      },
+      "created_at": "2026-03-13 03:33:48.141095",
+      "persona_name": "김태준 (Kim Tae-jun)",
+      "persona_profile": {
+        "id": "persona-0c28c921",
+        "name": "김태준 (Kim Tae-jun)",
+        "gender": "男性",
+        "birthdate": "1964-12-26",
+        "origin_city": "イスタンブール",
+        "ethnic_background": "東アジア系",
+        "life_history": [
+          {
+            "year": 1964,
+            "event": "イスタンブールのカラキョイ地区で、韓国人貿易商の父とトルコ系韓国人の母の間に生まれる。"
+          },
+          {
+            "year": 1972,
+            "event": "小学2年生の時、交通事故で左脚を骨折し、3ヶ月間ギプス生活を送る。医師から運動制限を勧められる。"
+          },
+          {
+            "year": 1978,
+            "event": "13歳で父の仕事の都合によりソウルに移住。韓国語が不自由で、学校で孤立する時期が続く。"
+          },
+          {
+            "year": 1983,
+            "event": "大学入学後、登山サークルに参加。医師の制限を無視して北漢山を登頂し、左脚の古傷が再発。手術を受ける。"
+          },
+          {
+            "year": 1989,
+            "event": "繊維メーカーに就職。営業部門に配属され、中東市場を担当する。年の半分を海外出張で過ごす生活が始まる。"
+          },
+          {
+            "year": 1995,
+            "event": "出張先のドバイで急性胃潰瘍を発症し緊急入院。1ヶ月間現地の病院で治療を受ける。"
+          },
+          {
+            "year": 2003,
+            "event": "会社の早期退職制度を利用して退職。貿易コンサルタントとして独立し、小規模な事務所を開く。"
+          },
+          {
+            "year": 2018,
+            "event": "糖尿病と診断される。食事療法と運動療法を開始し、半年で血糖値を正常範囲まで改善させる。"
+          }
+        ],
+        "current_situation": "ソウル市麻浦区のオフィステルに一人暮らし。貿易コンサルタントとして週3日ほど中小企業の輸出入業務を支援している。糖尿病管理のため毎朝6時に漢江沿いを40分ウォーキングし、昼食は必ず自炊する。月に2回ほど、かつての同僚や取引先と会食をする。左脚は天候の変わり目に痛むが、杖なしで歩行できる。",
+        "external_perception": {
+          "first_impression": "背筋が伸びていて、少し硬い印象。話し方が丁寧だが距離を感じさせる。",
+          "close_friends_view": "昔の苦労話を武勇伝のように語る癖がある。困難な状況でも諦めない粘り強さを持っている。料理が意外と上手。",
+          "misunderstandings": "厳しい性格だと思われがちだが、実際は世話好きで若い世代の相談によく乗っている。"
+        },
+        "stance_on_past": "克服した武勇伝として語る",
+        "proposal_history": [
+          {
+            "session": "full_pipeline_test_20260103_120814",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 8,
+            "won": false
+          },
+          {
+            "session": "full_pipeline_test_20260104_154048",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰かに呼ばれることでしか動けない人間ではなく、自分で自分に出発の合図を出し続けることでしか生きられない人間の、夜明け前の儀式",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "full_pipeline_test_20260104_154048",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 7,
+            "won": true
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-0c28c921.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-adca37dc",
+      "persona_id": "persona-06b834e1",
+      "content": {
+        "phase1_base": "カエル",
+        "phase2_condition": "分節胴体・背中の棘",
+        "phase3_anchor": "鎖の首輪",
+        "subject_concept": "分節胴体と背中の棘を持つカエル",
+        "subject_signature": "鎖の首輪",
+        "why_it_came": "既存の枠組みへの反発と解放という楽曲の核を、「本来は縛られるはずのない生物が首輪をつけられている」という視覚的矛盾で体現できる。分節胴体が蠢くことで、拘束と躍動の対比が一画面に同居する。",
+        "who_should_watch": "学校や組織のルールに窒息感を覚えつつも、まだ完全には踏み出せていない十代後半から二十代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "胴体が数節に分かれており、背面には鋭い棘が列をなして並ぶ。太い鎖の首輪が頸部に巻かれ、端が地面に垂れている。",
+          "motion_profile": "分節ごとに位相のずれた波打ち運動で前進し、棘が連動して背面に沿って起伏する。"
+        }
+      },
+      "created_at": "2026-03-13 03:34:02.563525",
+      "persona_name": "Rosalba Cienfuegos",
+      "persona_profile": {
+        "id": "persona-06b834e1",
+        "name": "Rosalba Cienfuegos",
+        "gender": "女性",
+        "birthdate": "1708-08-22",
+        "age": 50,
+        "origin_city": "モントリオール",
+        "ethnic_background": "中南米系",
+        "life_history": [
+          {
+            "year": 1708,
+            "event": "ヌーベルフランス植民地のモントリオール（ヴィル＝マリー）にて、スペイン系移民の毛皮商人の父とメキシコ系クレオール人の母のもとに生まれる。洗礼名はロサルバ・シエンフエゴス。"
+          },
+          {
+            "year": 1716,
+            "event": "天然痘が家族を襲い、父と弟が死亡する。ロサルバ本人も感染し、数週間高熱が続いたが回復した。"
+          },
+          {
+            "year": 1721,
+            "event": "母方の叔父が営む食料品・雑貨の小規模商店で働き始め、仕入れや在庫管理を手伝うようになる。"
+          },
+          {
+            "year": 1727,
+            "event": "モントリオール在住のフランス系カナダ人大工、アンドレ・ラクロワと結婚する。翌年に長女が誕生した。"
+          },
+          {
+            "year": 1733,
+            "event": "冬期に馬橇から転落し、右脚を骨折する。当時の医療では完全な固定が困難であったため、完治まで約一年を要した。"
+          },
+          {
+            "year": 1738,
+            "event": "夫アンドレが建設現場の事故で死亡する。ロサルバは三人の子を抱え、叔父の商店を引き継ぐ形で商売を続けた。"
+          },
+          {
+            "year": 1745,
+            "event": "英仏間の植民地争奪に伴う物資不足の影響で商店の経営が一時悪化し、店舗を縮小して市場での行商に切り替えた。"
+          },
+          {
+            "year": 1752,
+            "event": "長女の夫が経営する布地商と共同で仕入れルートを整備し、商店を再拡大した。現在も同店舗を経営している。"
+          }
+        ],
+        "current_situation": "1758年現在、モントリオール旧市街の一角で布地・雑貨の小売商店を営んでいる。長女夫婦の家の隣に居を構え、孫二人と頻繁に顔を合わせる生活を送っている。次女はケベック市に嫁いでおり、年に数回便りが届く。商売上の判断はほぼ一人で行い、仕入れのために季節ごとに市場を回っている。右脚には以前の骨折の名残があり、長時間の歩行の後に痛みが出ることがある。",
+        "external_perception": {
+          "first_impression": "背筋が伸びており、言葉数が少なく、値踏みするように相手をよく観察する印象を与える。",
+          "close_friends_view": "約束を守り、取引において条件を曖昧にしない。困窮した知人に物資を融通したことが複数回ある。",
+          "misunderstandings": "口数の少なさから冷淡あるいは高慢と見られることがあるが、近隣の商人仲間はそうした見方を否定することが多い。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-06b834e1.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-81c494f5",
+      "persona_id": "persona-4cc4afe4",
+      "content": {
+        "phase1_base": "鷲",
+        "phase2_condition": "甲殻・螺旋角",
+        "phase3_anchor": "口枷",
+        "subject_concept": "甲殻と螺旋角を持つ鷲",
+        "subject_signature": "口枷",
+        "why_it_came": "教育の型に押し込まれた叫びを封じる構造として、口枷を持つ鷲の図像が浮かんだ。甲殻と螺旋角の組み合わせが既出の柔らかい獣系と完全に別軸の硬質感を作る。",
+        "who_should_watch": "学校や組織のルールに息苦しさを感じながらも、まだ完全には折れていない十代後半から二十代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "全身を硬質な甲殻が覆い、頭部から一対の螺旋角が伸びる鷲の体型。嘴の周囲を金属製の口枷が締め付けている。",
+          "motion_profile": "首を動かすたびに口枷の金具が光を反射し、翼を広げようとするたびに甲殻の継ぎ目が軋むように開く。"
+        }
+      },
+      "created_at": "2026-03-13 03:34:13.952301",
+      "persona_name": "かわい ゆうき",
+      "persona_profile": {
+        "id": "persona-4cc4afe4",
+        "name": "かわい ゆうき",
+        "gender": "クエスチョニング",
+        "birthdate": "1994-01-27",
+        "life_history": [
+          {
+            "year": 1999,
+            "event": "埼玉県の新興住宅地で育つ。両親は共働きで、祖母が日中の面倒を見ることが多かった。"
+          },
+          {
+            "year": 2006,
+            "event": "小学校の図書室で過ごす時間が増える。昼休みは一人で本を読むか、水槽の魚を眺めていた。"
+          },
+          {
+            "year": 2009,
+            "event": "中学入学後、吹奏楽部に入部したが半年で退部。その後は帰宅部として図書委員を続けた。"
+          },
+          {
+            "year": 2012,
+            "event": "高校では生物部に所属。地域の河川調査プロジェクトに参加し、水生昆虫の記録を担当した。"
+          },
+          {
+            "year": 2014,
+            "event": "専門学校の環境デザイン科に進学。造園や緑地管理の技術を学んだ。"
+          },
+          {
+            "year": 2016,
+            "event": "卒業後、地元の造園会社に就職。公園や街路樹の維持管理業務に従事した。"
+          },
+          {
+            "year": 2019,
+            "event": "会社を退職し、住宅街の小さな園芸店でアルバイトを始める。観葉植物の管理と接客を担当。"
+          },
+          {
+            "year": 2022,
+            "event": "同じアパートに住む人からの紹介で、週末に個人宅の庭の手入れをする副業を始めた。現在も継続中。"
+          }
+        ],
+        "current_situation": "埼玉県内のワンルームアパートで一人暮らし。平日は園芸店で週4日勤務し、週末は個人宅の庭仕事をしている。部屋にはベランダで育てている多肉植物が20鉢ほどある。夜は図書館で借りた本を読むか、近所を散歩することが多い。服装は作業着かジーンズとTシャツで、髪は短めに切り揃えている。",
+        "external_perception": {
+          "first_impression": "無口で近寄りがたい印象を与える。表情の変化が少なく、何を考えているか分かりにくいと言われる。",
+          "close_friends_view": "少数の友人からは、植物の話になると饒舌になること、観察眼が鋭く細かいことによく気づくことを知られている。頼まれたことは黙って確実にやる人物として信頼されている。",
+          "misunderstandings": "無愛想で人付き合いが嫌いだと思われがちだが、実際は話しかけられれば普通に応答する。ただし自分から話題を広げることは少ない。"
+        },
+        "like_history": [
+          {
+            "session": "goji_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "誰にも触れられない部屋で、画面越しの言葉だけが私の輪郭を保っている",
+            "like_count": 4,
+            "like_reasons": [
+              "画面越しの言葉だけ、ってのがしっくりくる",
+              "植物相手の時間と重なる、って発想が面白い",
+              "シンプルで分かりやすい",
+              "自分の提案だから"
+            ]
+          },
+          {
+            "session": "goji_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "誰でもない時間っていう表現が優しくて好き",
+              "顔が映らない演出、技術的に面白そう"
+            ]
+          },
+          {
+            "session": "disgust_wall_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "画面越しの言葉だけが、誰でもない時間に息をさせてくれる",
+            "like_count": 3,
+            "like_reasons": [
+              "シンプルで余計なことがない感じが落ち着く",
+              "顔が見えなくていい、っていう感覚に安心する",
+              "植物と画面越しの言葉が同じ質感、という表現が優しい"
+            ]
+          },
+          {
+            "session": "disgust_wall_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 3,
+            "like_reasons": [
+              "両義性を丁寧に表現しようとしてる姿勢がいい",
+              "顔や性別を固定しないって、新しい感じがする"
+            ]
+          },
+          {
+            "session": "lens_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "観葉植物の成長記録を撮り続けた人間が、ある日その映像を逆再生し、自分の時間と植物の時間が重なる瞬間を",
+            "like_count": 4,
+            "like_reasons": [
+              "植物の成長記録って地道でいい、丁寧な感じが好き",
+              "日常の中の静かな発見、悪くない",
+              "植物育てるの好きだし、なんかいい"
+            ]
+          },
+          {
+            "session": "lens_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 3,
+            "like_reasons": [
+              "過去の自分と今の自分が同じ場所にいる感覚、わかる気がする",
+              "交差点、階段、楽屋という具体性が、逆に普遍的な感覚を呼び起こす",
+              "同じ空間、違う時間という感覚が、帰国子女の経験と妙に重なる気がした"
+            ]
+          },
+          {
+            "session": "phase2a_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "同じ場所から見た、異なる時間の層。変わらない視点を通して、静かに積み重なる時間の厚みを感じる。",
+            "like_count": 2,
+            "like_reasons": [
+              "静かな感じが落ち着く",
+              "シンプルで分かりやすい",
+              "視点の一貫性に美しさを感じる"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "coffee_zombie_test_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰もいない公園の水飲み場で、蛇口を捻ると冷たい水じゃなくて「やさしい言葉」が流れ出してくる話",
+            "rank": 1,
+            "tally": 4,
+            "won": true
+          },
+          {
+            "session": "coffee_zombie_test_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "disgust_wall_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "画面越しの言葉だけが、誰でもない時間に息をさせてくれる",
+            "rank": 2,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "disgust_wall_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "goji_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰にも触れられない部屋で、画面越しの言葉だけが私の輪郭を保っている",
+            "rank": 1,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "goji_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "観葉植物の成長記録を撮り続けた人間が、ある日その映像を逆再生し、自分の時間と植物の時間が重なる瞬間を発見する",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "観察者に依存して初めて存在できる、薄明の境界に生きる意識の物語",
+            "rank": 3,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 4,
+            "won": true
+          },
+          {
+            "session": "nobody_rejection_v5",
+            "phase": "Phase 1",
+            "my_proposal_summary": "人の視線が届かない場所で育つ植物が、たった一人の手入れによって生き続けるように、誰も気づかない日常の中で一つの声だけが私を存在させる",
+            "rank": 2,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v5",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "phase2a_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "同じ場所から見た、異なる時間の層。変わらない視点を通して、静かに積み重なる時間の厚みを感じる。",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "phase2a_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 6,
+            "won": true
+          }
+        ],
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-4cc4afe4.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-de574f2c",
+      "B": "sl2a-adca37dc",
+      "C": "sl2a-81c494f5"
+    },
+    "tally": {
+      "A": 6,
+      "B": 9,
+      "C": 5
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 5,
+      "C": 2
+    },
+    "votes": [
+      {
+        "voter": "しおり",
+        "like": "A",
+        "like_reason": "修道士×割れた頭冠という組み合わせに文学的・精神的な深みを感じる。カフェで読む小説の登場人物として想像しやすく、静謐な美しさがある。",
+        "dislike": "B",
+        "dislike_reason": "カエル＋分節胴体＋鎖の首輪は生理的なグロテスクさが強く、読書の合間に思い出したくない。"
+      },
+      {
+        "voter": "عمر الحمادي / Omar Al Hammadi",
+        "like": "C",
+        "like_reason": "鷲は中東文化において高貴さと力の象徴。甲殻と螺旋角がSFメカニック的で工学的に面白い造形だと感じる。",
+        "dislike": "B",
+        "dislike_reason": "カエルと鎖の首輪の組み合わせは不浄・不吉なイメージに近く、文化的に受け入れにくい。"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "B",
+        "like_reason": "港で見てきた生き物の奇妙さや、鎖で繋がれた積み荷の記憶と重なる。背中の棘は嵐を生き延びた古い船を思わせ、広場で語るには格好の怪談素材になる。",
+        "dislike": "A",
+        "dislike_reason": "修道士や頭冠は内陸の権威や教会を連想させ、港の男には縁遠くて話が弾まない。"
+      },
+      {
+        "voter": "Arjun Mehta",
+        "like": "C",
+        "like_reason": "鷲の機能的なフォルムに甲殻と螺旋角という構造的な複雑さが加わり、データアーキテクチャを設計する感覚に似た論理的な美しさがある。口枷という制約要素も設計の緊張感として面白い。",
+        "dislike": "B",
+        "dislike_reason": "カエルベースはコンセプトの説得力が弱く、分節胴体との組み合わせも系統的な設計意図が見えにくい。"
+      },
+      {
+        "voter": "Amara Okafor",
+        "like": "B",
+        "like_reason": "分節胴体は修理で扱う家電の構造に近く、直感的に理解できる。鎖の首輪は抑圧からの解放という若者への技術指導のテーマと重なり、教材として語れる物語性がある。",
+        "dislike": "A",
+        "dislike_reason": "修道士＋割れた頭冠は西洋宗教的権威のイメージが強く、カラチの現場で若者に伝える物語としてはピンとこない。"
+      },
+      {
+        "voter": "Zuberi di Milano",
+        "like": "A",
+        "like_reason": "修道士という形象は788年の中世世界において最も馴染み深く、割れた頭冠は権威の失墜を示す。日雇い労働者として社会の周縁に生きる自分と、失墜した聖なる者の姿が重なる。",
+        "dislike": "C",
+        "dislike_reason": "鷲や甲殻・螺旋角は貴族的・紋章的なイメージで、帝国の支配者側を想起させる。フランク行政官への嫌悪感から、そうした権威の象徴を見たくない。"
+      },
+      {
+        "voter": "おおたに けんじ",
+        "like": "B",
+        "like_reason": "カエルに分節胴体・背中の棘という組み合わせが、南米の民芸品にありそうな土着のクリーチャー感があって面白い。輸入雑貨店の感覚からすると、こういう造形は商品になりそうで親近感がある。",
+        "dislike": "C",
+        "dislike_reason": "鷲・甲殻・口枷の組み合わせは無骨すぎて、店に並べても売れなさそう。威圧的な印象が強く、日常の中に入ってくる造形ではない。"
+      },
+      {
+        "voter": "Rajendra Iyer",
+        "like": "C",
+        "like_reason": "鷲は東西問わず威厳と知性の象徴であり、螺旋角は南アジアの神獣彫刻を連想させる。商業的な審美眼から見ても、この造形は市場価値と文化的奥行きを兼ね備えている。",
+        "dislike": "B",
+        "dislike_reason": "カエルに鎖の首輪という組み合わせは卑俗で商業的魅力に欠ける。帳簿の整然とした世界に生きる自分には、この雑多な造形は趣味に合わない。"
+      },
+      {
+        "voter": "Hélène Marguerite Voss",
+        "like": "A",
+        "like_reason": "70歳の今、修道士の形象と割れた頭冠は長い人生の中で見てきた信仰の衰退と尊厳の喪失を思わせる。球体関節・細い脚の儚さが老境の身体感覚と重なり、深く心に触れる。",
+        "dislike": "B",
+        "dislike_reason": "カエルに棘や鎖という組み合わせは俗っぽく、晩年を静かに過ごす自分には刺激が強すぎる。教会の助祭から支援を受ける清貧な生活の中では場違いなイメージだ。"
+      },
+      {
+        "voter": "Siti Noor",
+        "like": "B",
+        "like_reason": "分節胴体・背中の棘・鎖の首輪という組み合わせは、抑圧されながらも異形の力を持つ存在を示唆する。移民家族の行政手続きを支援する自分には、束縛されながら生き続けるイメージが響く。",
+        "dislike": "A",
+        "dislike_reason": "修道士という形象は制度的宗教権威を連想させ、多文化共生を日常とする自分には一面的に感じる。球体関節の細さも、か弱さの記号としてステレオタイプ的に映る。"
+      }
+    ],
+    "analysis": "[batch 1] Cが鷲という普遍的な権威・力の象徴を持つため工学系・論理思考型のペルソナ（Omar、Arjun）から支持を集めた。Bはカエルという低評価イメージにもかかわらず、港の語り手（Kwesi）と修理業者（Amara）という現場・物語重視のペルソナから支持を得て二分する結果となった。Aは文学的教養層（しおり）には刺さる一方、文化的距離や現場感の薄さから他のペルソナには不人気で、dislikeも2票集まった。\n[batch 2] AとBが2票ずつlikeを獲得し、Cが1票という結果になった。dislikeはCが2票、BとAが各1.5票程度と分散している。中世・老境のペルソナ（ZuberiとHélène）は修道士[A]に共感し、現代的・多文化的なペルソナ（Siti）は抑圧と抵抗の象徴としてカエル[B]を選んだ。Rajendraのみ鷲[C]を選び、商業的審美眼と文化的多様性への親和性が反映されている。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.9459101490553132,
+      "B": 2.046742304883596,
+      "C": 1.433407575382444
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

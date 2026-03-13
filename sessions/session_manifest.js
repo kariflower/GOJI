@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-12T18:10:49Z",
+  "generated_at": "2026-03-13T07:08:48Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260313-122901-8139",
+      "path": "./session-20260313-122901-8139/assets/instructions/index.html",
+      "generated_at": "2026-03-13T07:08:44.199982Z",
+      "clip_count": 54,
+      "duration_sec": 213.5999999999999,
+      "section_count": 8,
+      "summary": "深夜の住宅街、上空には諦めの数だけ積み重なった苔むした空中足場が漂っている。台所の切れかけた蛍光灯管がチラつく中、制服のシャツだけを着た少年は四つ折りの進路希望調査票を手にして立っている。彼はそれを壁と冷蔵庫の隙間に音もなく押し込む——その行為は叫びではなく、沈黙の形をした意志だ。鎖の端を床面に引きずりながら鎖カエルが台所のタイルを横断していく。縛られながら動き、動きながら縛られているその姿は少年の鏡像だが、二者は決して目を合わせない…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260313-000940-00bd",
       "path": "./session-20260313-000940-00bd/assets/instructions/index.html",
