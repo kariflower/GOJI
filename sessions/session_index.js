@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-13T07:08:48Z",
+  "generated_at": "2026-03-13T19:02:31Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260314-010741-b9c2",
+      "path": "./session-20260314-010741-b9c2/assets/instructions/index.html",
+      "generated_at": "2026-03-13T19:02:26.325570Z",
+      "clip_count": 71,
+      "duration_sec": 213.57999999999996,
+      "section_count": 8,
+      "summary": "声が物質として空中に漂うこの世界で、承認されなかった言葉は72時間以内に消去される。逆関節の脚と断ち切られた鎖の首輪を持つハーピーは、式典が終わった体育館の舞台に一人残り、誰もいない折り畳み椅子の客席に向かって叫び続けている。彼女の声は承認プロセスの外側にある「空白域」でのみ存在を許され、発するたびに半透明の破片となって空中に固まり、消えることなく客席の上に積み重なっていく。蛍光灯がバチバチと明滅するたびに、彼女は逆関節の脚で床を蹴り…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260313-122901-8139",
       "path": "./session-20260313-122901-8139/assets/instructions/index.html",
