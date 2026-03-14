@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-14T08:11:18Z",
+  "generated_at": "2026-03-14T20:31:52Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260315-020605-404c",
+      "path": "./session-20260315-020605-404c/assets/instructions/index.html",
+      "generated_at": "2026-03-14T20:31:46.058228Z",
+      "clip_count": 83,
+      "duration_sec": 196.26000000000005,
+      "section_count": 7,
+      "summary": "夜の屋上、乾ききらない洗濯物が街灯の光をはじいている。球体関節と枝角を持つリスが、スマホの「送信完了」画面を天に掲げて両腕を広げた——画面には通知ゼロのインボックスが光っている。これが失われる可能性のある「何か」ではなく、すでに失われたものの上に立つ祝祭の幕開けだ。リスは一人でコール＆レスポンスを始め、返事のない「ハイ！ハイ！」が空気を震わせるたびに、屋上の床に小さな祈念残滓が生まれていく。問いは一つ——この子は届かないことを知ってい…",
+      "song_file": "届くかどうかわからなくても.mp3"
+    },
     {
       "session_id": "session-20260314-101620-793b",
       "path": "./session-20260314-101620-793b/assets/instructions/index.html",
