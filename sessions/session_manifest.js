@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-14T01:50:14Z",
+  "generated_at": "2026-03-14T03:49:01Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260314-101620-793b",
+      "path": "./session-20260314-101620-793b/assets/instructions/index.html",
+      "generated_at": "2026-03-14T03:48:56.648952Z",
+      "clip_count": 48,
+      "duration_sec": 206.8499999999999,
+      "section_count": 11,
+      "summary": "平日昼間の大型駅コンコース。人波が絶えない白い蛍光灯の空間で、灰色のコートを着た50代とおぼしき小柄な女性が買い物袋を足元に落としたまま、目を閉じて両腕を真上に突き上げ、一人で激しく踊り続けている。誰も立ち止まらない——周囲の人間には、彼女がただ普通に動いているように見えているだけだ。世界のルールとして、彼女の身体は今「閾値」を超えている。彼女の動きだけが通常速度で進み、周囲はスローモーションに引き伸ばされている。彼女自身はそれを知ら…",
+      "song_file": "届けたい温度.mp3"
+    },
     {
       "session_id": "session-20260314-010741-b9c2",
       "path": "./session-20260314-010741-b9c2/assets/instructions/index.html",
