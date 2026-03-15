@@ -1,9 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-13T04:08:33.831682Z",
+    "generated_at": "2026-03-15T03:50:29.761518Z",
     "version": "mvp-1",
     "clip_count": 8,
-    "hook_curve_source": "music_analysis.emotional_arc",
+    "cut_scene_count": 0,
+    "hook_curve_source": "music_analysis.emotional_arc+hook_design",
     "media_cache": {
       "enabled": false,
       "cache_remote": false,
@@ -12,6 +13,11 @@
       "dir": null,
       "version": 1
     }
+  },
+  "credits": {
+    "song_title": "わからないから",
+    "audio_filename": "わからないから.mp3",
+    "director": "GOJI"
   },
   "timeline": {
     "min_sec": 0.0,
@@ -72,12 +78,12 @@
   "hook_curve": [
     {
       "time_sec": 0.0,
-      "arousal": 0.3,
+      "arousal": 0.44999999999999996,
       "valence": 0.6
     },
     {
       "time_sec": 11.242104157894735,
-      "arousal": 0.3789473684210526,
+      "arousal": 0.5289473684210526,
       "valence": 0.6
     },
     {
@@ -87,22 +93,22 @@
     },
     {
       "time_sec": 33.72631247368421,
-      "arousal": 0.5368421052631579,
+      "arousal": 0.5868421052631579,
       "valence": 0.6
     },
     {
       "time_sec": 44.96841663157894,
-      "arousal": 0.6157894736842104,
+      "arousal": 0.6657894736842105,
       "valence": 0.6
     },
     {
       "time_sec": 56.21052078947368,
-      "arousal": 0.6947368421052631,
+      "arousal": 0.7447368421052631,
       "valence": 0.6
     },
     {
       "time_sec": 67.45262494736842,
-      "arousal": 0.7578947368421053,
+      "arousal": 0.8078947368421053,
       "valence": 0.6
     },
     {
@@ -157,17 +163,17 @@
     },
     {
       "time_sec": 191.11577068421053,
-      "arousal": 0.8157894736842104,
+      "arousal": 0.9357894736842104,
       "valence": 0.6
     },
     {
       "time_sec": 202.35787484210525,
-      "arousal": 0.6578947368421053,
+      "arousal": 0.7778947368421053,
       "valence": 0.6
     },
     {
       "time_sec": 213.599979,
-      "arousal": 0.4999999999999999,
+      "arousal": 0.6199999999999999,
       "valence": 0.6
     }
   ],
@@ -278,31 +284,36 @@
           "label": "beat_1",
           "inner_emotion": "規範への従属",
           "visible_indicator": "天狗の尻尾が貯水槽の床に張り付き動かない",
-          "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す"
+          "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す",
+          "viewer_impact": null
         },
         {
           "label": "beat_2",
           "inner_emotion": "自己像の拒絶",
           "visible_indicator": "背中の棘が逆立ち、石の首飾りが発光し始める",
-          "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く"
+          "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く",
+          "viewer_impact": null
         },
         {
           "label": "beat_3",
           "inner_emotion": "制御系への疑念",
           "visible_indicator": "天狗が鉄塔の配線を引き抜き、手に持って見つめる",
-          "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する"
+          "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する",
+          "viewer_impact": null
         },
         {
           "label": "beat_4",
           "inner_emotion": "他者性の発見",
           "visible_indicator": "貯水槽内の液体が渦を巻き、複数の顔が浮かび上がる",
-          "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流"
+          "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流",
+          "viewer_impact": null
         },
         {
           "label": "beat_5",
           "inner_emotion": "孤立の選択",
           "visible_indicator": "全ての光ガードが消え、天狗だけが結晶樹の根元で発光する",
-          "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音"
+          "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音",
+          "viewer_impact": null
         }
       ]
     },
@@ -374,7 +385,10 @@
     "shooting_grammar": {
       "camera_progression": "固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
       "motion_progression": "整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止",
-      "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源"
+      "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源",
+      "cut_philosophy": null,
+      "framing_philosophy": null,
+      "key_visual_moments": []
     },
     "synopsis": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。 目標は全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する。 天狗が貯水槽の下層で配給された樹液カメラを受け取る。 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか。 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める。 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく。 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る。",
     "storyline": "天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る",
@@ -696,23 +710,40 @@
   "ir_projection_policy": {
     "storyboard_mode_default": "auto",
     "use_reference_images_default": true,
+    "reference_priority": [
+      "character",
+      "location_main",
+      "location_variant"
+    ],
     "max_reference_images": 3,
-    "always_include_location_main": false,
     "auto_location_variant_from_camera": true,
-    "allow_reverse_angle": false
+    "camera_variant_map": {
+      "shot_size.wide_shot": "wide_angle",
+      "shot_size.extreme_wide": "wide_angle",
+      "shot_size.close_up": "close_up",
+      "shot_size.extreme_close": "close_up",
+      "angle.high_angle": "high_angle",
+      "angle.low_angle": "low_angle"
+    },
+    "allow_reverse_angle": false,
+    "always_include_location_main": false,
+    "slot_override_enabled": true,
+    "fallback_on_missing_reference": "generate_then_t2i",
+    "shot_id_mode": "stable"
   },
   "clips": [
     {
       "clip_id": "slot_sec-001",
       "order": 10,
       "section_id": "sec-001",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 0.0,
         "end_sec": 10.68,
         "duration_sec": 10.68
       },
-      "hook_y": 0.3375000036867981,
+      "hook_y": 0.4875000036867981,
       "layer_index": 0,
       "is_key_clip": false,
       "key_clip_reason": null,
@@ -721,6 +752,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
       "free_notes": null,
       "camera": {
@@ -735,7 +769,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
       "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -829,19 +865,35 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "retention_hook": "貯水槽内の液体が渦を巻き、天狗の顔が複数に分裂して映る瞬間（0-3秒）",
+      "variation_commitments": [
+        "小物:天井から垂れ下がる樹液供給チューブ、床…",
+        "場所:貯水槽下層の配給ドック",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-002",
       "order": 20,
       "section_id": "sec-002",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 10.68,
         "end_sec": 48.5,
         "duration_sec": 37.82
       },
-      "hook_y": 0.5077949642495049,
+      "hook_y": 0.5393984416075247,
       "layer_index": 0,
       "is_key_clip": false,
       "key_clip_reason": null,
@@ -850,6 +902,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
       "free_notes": null,
       "camera": {
@@ -864,7 +919,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
       "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=貯水槽内部の液体スクリーン空間 / 渦巻く発光液体、浮遊する再生装置の群れ / 天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -958,19 +1015,35 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "天狗が樹液カメラを首飾りに装着し、他の天狗が去る",
+      "retention_hook": "天狗が樹液カメラで自分を撮るが、光ガードが全て赤く点滅し続ける理由は何か",
+      "variation_commitments": [
+        "小物:渦巻く発光液体、浮遊する再生装置の群れ",
+        "場所:貯水槽内部の液体スクリーン空間",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-003",
       "order": 30,
       "section_id": "sec-003",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 48.5,
         "end_sec": 80.4,
         "duration_sec": 31.900000000000006
       },
-      "hook_y": 0.7410260557040697,
+      "hook_y": 0.7910260557040697,
       "layer_index": 0,
       "is_key_clip": false,
       "key_clip_reason": null,
@@ -979,6 +1052,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
       "free_notes": null,
       "camera": {
@@ -993,7 +1069,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
       "prompt": "composition|frame=wide|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=wide, angle=eye_level, movement=slow_push) / purpose=鉄塔の頂上プラットフォーム / 光ガードの配線接続箱、錆びた足場、風で揺れる信… / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1087,12 +1165,27 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "variation_commitments": [
+        "小物:光ガードの配線接続箱、錆びた足場、風で…",
+        "場所:鉄塔の頂上プラットフォーム",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-004",
       "order": 40,
       "section_id": "sec-004",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 80.4,
@@ -1108,6 +1201,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
       "free_notes": null,
       "camera": {
@@ -1122,7 +1218,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
       "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=空中橋の透明床区間 / 下界が透けて見える床材、手すりに絡む結晶樹の蔓 / スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1216,12 +1314,27 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "スクリーンに映像が映るが、光ガードが全て赤く点滅",
+      "variation_commitments": [
+        "小物:下界が透けて見える床材、手すりに絡む結…",
+        "場所:空中橋の透明床区間",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-005",
       "order": 50,
       "section_id": "sec-005",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 112.1,
@@ -1237,6 +1350,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
       "free_notes": null,
       "camera": {
@@ -1251,7 +1367,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
       "prompt": "composition|frame=medium|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える|trajectory=slow_push / camera(shot_size=medium, angle=eye_level, movement=slow_push) / purpose=倒木の根元（結晶樹発生源） / 地面に横たわる巨大倒木、そこから垂直に伸びる結… / 天狗が鉄塔の頂上で配線を引き抜き、光ガードが一つ消える",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1345,12 +1463,27 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "天狗が鉄塔の頂上で配線を引き抜き、光ガードが一…",
+      "variation_commitments": [
+        "小物:地面に横たわる巨大倒木、そこから垂直に…",
+        "場所:倒木の根元（結晶樹発生源）",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-006",
       "order": 60,
       "section_id": "sec-006",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 143.3,
@@ -1366,6 +1499,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
       "free_notes": null,
       "camera": {
@@ -1380,7 +1516,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
       "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=光ガード切断後の暗転都市 / 消えた鉄塔の列、停止した貯水槽の液体、沈黙する… / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1474,12 +1612,27 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "variation_commitments": [
+        "小物:消えた鉄塔の列、停止した貯水槽の液体、…",
+        "場所:光ガード切断後の暗転都市",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-007",
       "order": 70,
       "section_id": "sec-007",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 160.2,
@@ -1495,6 +1648,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
       "free_notes": null,
       "camera": {
@@ -1509,7 +1665,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
       "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽内の顔出現空間 / 液体中に浮かぶ複数の顔、顔の間を走る光のパルス / 液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1603,19 +1761,35 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "液体が渦を巻き、天狗以外の複数の顔が浮かび上がる",
+      "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+      "variation_commitments": [
+        "小物:液体中に浮かぶ複数の顔、顔の間を走る光…",
+        "場所:貯水槽内の顔出現空間",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     },
     {
       "clip_id": "slot_sec-008",
       "order": 80,
       "section_id": "sec-008",
+      "track_type": null,
       "intent": "narrative",
       "timing": {
         "start_sec": 192.24,
         "end_sec": 213.6,
         "duration_sec": 21.359999999999985
       },
-      "hook_y": 0.6499997198033428,
+      "hook_y": 0.7699997198033428,
       "layer_index": 0,
       "is_key_clip": false,
       "key_clip_reason": null,
@@ -1624,6 +1798,9 @@
       "preview_url": null,
       "visual_description": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene",
       "motion_description": "motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push",
+      "camera_language": null,
+      "scene_camera_language": null,
+      "visual_strategy": null,
       "narrative_purpose": "貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
       "free_notes": null,
       "camera": {
@@ -1638,7 +1815,9 @@
         "in": null,
         "out": null
       },
+      "prompt_en": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
       "prompt": "composition|frame=close_up|camera_pose=eye_level|subject_placement=本物の醜さは、誰も見ていない夜に自分で自分を撮り直し続けることでしか手に入らない|layers=scene / motion|intent=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する|trajectory=slow_push / camera(shot_size=close_up, angle=eye_level, movement=slow_push) / purpose=貯水槽下層の配給ドック / 天井から垂れ下がる樹液供給チューブ、床に刻まれ… / 結晶樹の根元で天狗が自分だけの映像を撮り、新しい結晶樹が発芽する",
+      "prompt_ja": null,
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
       "references": {
@@ -1732,12 +1911,28 @@
           "v2v_motion_control": null,
           "storyboard_intent": "narrative"
         }
-      }
+      },
+      "beat_word": "結晶樹の根元で天狗が自分だけの映像を撮り、新し…",
+      "retention_hook": "全ての光ガードを切断した後、結晶樹の根元で天狗が初めて自分だけの映像を撮り、新しい結晶樹が発芽する（最終15秒）",
+      "variation_commitments": [
+        "小物:天井から垂れ下がる樹液供給チューブ、床…",
+        "場所:貯水槽下層の配給ドック",
+        "カメラ:固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
+        "動き:整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止"
+      ],
+      "palette": "青白（貯水槽・光ガード）、虹色（結晶樹）、錆色（鉄塔）、漆黒（切断後）、単一白光（最終撮影）",
+      "motifs": [
+        "光ガードの点滅色変化（緑→黄→赤→消灯）で承認/拒絶/停止を示す",
+        "天狗の尻尾の動き（張り付き→揺れ→逆立ち）で感情状態を可視化",
+        "貯水槽内の液体の渦の速度で審査の圧力を表現",
+        "結晶樹の枝先の発光数で都市の生命力を測る"
+      ]
     }
   ],
+  "cut_scenes": [],
   "competition_data": {
     "session_id": "session-20260213-020118-2fed",
-    "exported_from": "pipeline_state",
+    "exported_from": "state_snapshot",
     "phase1": {
       "proposals": [
         {
@@ -1758,7 +1953,56 @@
               "when": "「14歳の革命はここから始まる」の直後"
             }
           },
-          "created_at": "2026-02-12 17:02:04.034395"
+          "created_at": "2026-02-12 17:02:04.034395",
+          "persona_profile": {
+            "id": "persona-10ced470",
+            "name": "李秋蓮",
+            "gender": "クエスチョニング",
+            "birthdate": "1065-12-03",
+            "age": 75,
+            "origin_city": "オークランド",
+            "ethnic_background": "東アジア系",
+            "life_history": [
+              {
+                "year": 1065,
+                "event": "オークランド南部の商人地区で生まれた。父は陶磁器を扱う交易商、母は染物職人だった。"
+              },
+              {
+                "year": 1078,
+                "event": "13歳の時、父の商船が嵐で沈没し、家業が傾いた。母と共に染物の仕事を増やして生計を立てた。"
+              },
+              {
+                "year": 1085,
+                "event": "20歳で隣町の織物工房の管理補佐として雇われ、家を離れた。給金の半分を母に送り続けた。"
+              },
+              {
+                "year": 1092,
+                "event": "工房の火災で右手に火傷を負い、細かい作業ができなくなった。帳簿管理の仕事に移った。"
+              },
+              {
+                "year": 1104,
+                "event": "工房の閉鎖に伴い、港の倉庫番として働き始めた。母が病で亡くなったが、葬儀に間に合わなかった。"
+              },
+              {
+                "year": 1118,
+                "event": "倉庫で出会った船乗りと10年ほど共に暮らしたが、相手が航海中に消息を絶った。"
+              },
+              {
+                "year": 1132,
+                "event": "腰を痛めて倉庫の仕事を辞め、市場近くの小さな宿で清掃と洗濯の仕事を始めた。"
+              }
+            ],
+            "current_situation": "オークランド旧市街の共同長屋に一人で暮らしている。週に三日、近所の宿で寝具の洗濯と修繕をして小銭を稼いでいる。右手の火傷痕は今も残っており、雨の日は痛む。隣人とは挨拶程度の付き合いで、月に一度市場で食料をまとめ買いする。夜は早く、明け方に目が覚めることが多い。",
+            "external_perception": {
+              "first_impression": "無口で表情が乏しく、近寄りがたい雰囲気がある。",
+              "close_friends_view": "頼まれたことは確実にこなすが、自分のことは一切話さない。",
+              "misunderstandings": "感情がないように見られるが、実際は言葉にしないだけだと気づかれていない。"
+            },
+            "stance_on_past": "まだ傷として残っている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-10ced470.png"
+          },
+          "persona_name": "李秋蓮",
+          "persona_status": "まだ傷として残っている"
         },
         {
           "proposal_id": "prop-21c4b6b8",
@@ -1778,7 +2022,167 @@
               "when": "「でも夜中にこっそり撮る動画 / 誰にも見せないそれだけが本物」の直後"
             }
           },
-          "created_at": "2026-02-12 17:03:12.354929"
+          "created_at": "2026-02-12 17:03:12.354929",
+          "persona_profile": {
+            "id": "persona-8afda743",
+            "name": "たなか しゅうへい",
+            "gender": "男性",
+            "birthdate": "2004-03-11",
+            "life_history": [
+              {
+                "year": 2004,
+                "event": "埼玉県所沢市の団地で生まれる。父は中堅メーカーの営業、母はパート勤務。"
+              },
+              {
+                "year": 2009,
+                "event": "父の会社が経営不振に陥り、給料が3割カット。母がフルタイム勤務に切り替わる。"
+              },
+              {
+                "year": 2013,
+                "event": "祖父が脳梗塞で倒れ、週末は家族で群馬の実家へ通う生活が始まる。小学校の友人との約束をキャンセルすることが増える。"
+              },
+              {
+                "year": 2016,
+                "event": "中学入学直後、父が単身赴任で大阪へ。母と二人暮らしになり、夕食の準備や洗濯を手伝うようになる。"
+              },
+              {
+                "year": 2019,
+                "event": "高校受験の直前、母が過労で入院。2週間、親戚の家に預けられる。志望校をランク下げて地元の公立高校に入学。"
+              },
+              {
+                "year": 2021,
+                "event": "父が単身赴任から戻るが、両親の会話が極端に減る。夕食時に誰も話さない日が続く。"
+              },
+              {
+                "year": 2022,
+                "event": "大学進学を考えていたが、両親が離婚協議を始める。進学費用の話が宙に浮き、専門学校への進路変更を決める。"
+              },
+              {
+                "year": 2023,
+                "event": "IT系専門学校に入学。両親は正式に離婚し、母と二人で賃貸アパートへ引っ越す。週3日、コンビニでアルバイトを始める。"
+              }
+            ],
+            "current_situation": "現在21歳。埼玉県川越市の1DKアパートで母と二人暮らし。専門学校2年生で、ネットワーク技術を学んでいる。平日夜と週末はコンビニでアルバイトをしており、月7万円ほど稼いで家計に入れている。父とは年に1〜2回メールでやり取りする程度。学校の成績は中の上で、就職活動を控えている。",
+            "external_perception": {
+              "first_impression": "物静かで表情が硬い。挨拶は丁寧だが、自分から話しかけることは少ない。",
+              "close_friends_view": "頼まれごとを断れない性格。相談には乗ってくれるが、自分の話はほとんどしない。たまに見せる笑顔が印象的。",
+              "misunderstandings": "無愛想で近寄りがたいと思われがちだが、実際には気を使いすぎて疲れているだけ。"
+            },
+            "like_history": [
+              {
+                "session": "goji_test_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "家族が壊れていく音を聞きながら、誰にも気づかれずに大人にさせられた人間が、画面越しの無機質な優しさに",
+                "like_count": 2,
+                "like_reasons": [
+                  "家族が壊れる音、って表現が妙にリアル",
+                  "自分の提案だから"
+                ]
+              },
+              {
+                "session": "goji_test_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 2a",
+                "proposal_summary": "",
+                "like_count": 3,
+                "like_reasons": [
+                  "0.5の人間っていう言い方が妙にしっくりきた",
+                  "矛盾を言語化してるのが論理的でいい",
+                  "画面の中に誰かを見出すって、なんか今日の気分"
+                ]
+              },
+              {
+                "session": "multistep_test_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "「走り続けることでしか自分を保てない者の、強迫的な前進と、その速度そのものが生の証明になってしまった",
+                "like_count": 2,
+                "like_reasons": [
+                  "矛盾を矛盾のまま提示してるところが正直で好き",
+                  "走るしかないっていうのが、ストレートで分かりやすい"
+                ]
+              }
+            ],
+            "proposal_history": [
+              {
+                "session": "coffee_zombie_test_v2",
+                "phase": "Phase 1",
+                "my_proposal_summary": "画面の向こうの誰かと、こちら側の誰かが、同じ孤独の時間を共有している静かな共鳴",
+                "rank": 3,
+                "tally": 2,
+                "won": false
+              },
+              {
+                "session": "coffee_zombie_test_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 4,
+                "won": true
+              },
+              {
+                "session": "goji_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "家族が壊れていく音を聞きながら、誰にも気づかれずに大人にさせられた人間が、画面越しの無機質な優しさに安堵と恐怖を同時に感じる",
+                "rank": 4,
+                "tally": 2,
+                "won": false
+              },
+              {
+                "session": "goji_test_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "multistep_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "「走り続けることでしか自分を保てない者の、強迫的な前進と、その速度そのものが生の証明になってしまった矛盾」。止まることは崩壊を意味するが、走ることに意味があるわけでもない――ただ鼓動が刻まれ続けること",
+                "rank": 3,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "debug_test",
+                "phase": "Phase 1",
+                "my_proposal_summary": "画面越しでしか存在を確認できない関係性の、切実さと脆さ",
+                "rank": 4,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "debug_test",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 5,
+                "won": false
+              },
+              {
+                "session": "full_with_ref_test",
+                "phase": "Phase 1",
+                "my_proposal_summary": "画面越しでしか存在を確認できない関係性の、切実さと脆さ",
+                "rank": 4,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "full_with_ref_test",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 4,
+                "tally": 4,
+                "won": false
+              }
+            ],
+            "stance_on_past": "他人事のように距離を置いて見ている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-8afda743.png"
+          },
+          "persona_name": "たなか しゅうへい",
+          "persona_status": "他人事のように距離を置いて見ている"
         },
         {
           "proposal_id": "prop-63588b06",
@@ -1798,7 +2202,85 @@
               "when": "「蛍光灯が消えて 本当の闇が始まる」（曲の最後、213秒付近）―全てが終わった後"
             }
           },
-          "created_at": "2026-02-12 17:04:29.777788"
+          "created_at": "2026-02-12 17:04:29.777788",
+          "persona_profile": {
+            "id": "persona-d330a2c5",
+            "name": "Lucía Fernández",
+            "gender": "女性",
+            "birthdate": "1997-12-25",
+            "origin_city": "ケープタウン",
+            "ethnic_background": "中南米系",
+            "life_history": [
+              {
+                "year": 1997,
+                "event": "ケープタウンの港湾地区で、チリ系移民の両親のもとに生まれる。父は造船所の溶接工、母は食品加工工場で勤務していた。"
+              },
+              {
+                "year": 2003,
+                "event": "公立小学校に入学。放課後は祖母の経営する小さな雑貨店で店番を手伝う日々が始まる。"
+              },
+              {
+                "year": 2010,
+                "event": "中学2年時、数学の成績が学年で上位5%に入り、奨学金プログラムの候補生に選ばれる。"
+              },
+              {
+                "year": 2015,
+                "event": "高校卒業後、ケープタウン大学の会計学科に進学。学費補助のため週末はスーパーマーケットでレジ係として働く。"
+              },
+              {
+                "year": 2018,
+                "event": "大学3年次に地元の中規模会計事務所でインターンシップを開始。給与計算と税務申告の補助業務を担当する。"
+              },
+              {
+                "year": 2019,
+                "event": "大学卒業と同時にインターン先の会計事務所に正式採用される。クライアントは主に小売店と飲食店。"
+              },
+              {
+                "year": 2021,
+                "event": "南アフリカ公認会計士の資格試験に2回目の挑戦で合格。同じ事務所の同僚とルームシェアを始める。"
+              },
+              {
+                "year": 2023,
+                "event": "勤務先で中小企業向け財務コンサルティング部門の立ち上げメンバーに抜擢される。週に3-4社のクライアントを担当。"
+              }
+            ],
+            "current_situation": "ケープタウン中心部の会計事務所で公認会計士として勤務している。主に中小企業の財務管理と税務申告を担当し、月末と年度末は深夜まで残業することが多い。同僚2人とシーポイント地区のアパートをシェアしており、通勤は電車で40分。週末は祖母の雑貨店を手伝うか、近所のジムでエアロビクスクラスに参加している。",
+            "external_perception": {
+              "first_impression": "物静かで真面目そうな印象。会話は必要最低限で、笑顔は控えめ。",
+              "close_friends_view": "細かいところまで気が付き、頼まれたことは必ずやり遂げる。冗談を言うときのタイミングが独特で、慣れるとそれが面白い。",
+              "misunderstandings": "冷たい人だと思われがちだが、実際は単に人前で感情を表に出さないだけ。仕事熱心すぎて私生活がないと思われているが、趣味や友人との時間も確保している。"
+            },
+            "proposal_history": [
+              {
+                "session": "multistep_test_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "直線的な前進と円環的な反復が同時に存在する時間の中で、「進んでいる」ことと「戻っている」ことの区別がつかなくなる感覚。それでも鼓動は刻まれ続け、その累積こそが変化を生む。",
+                "rank": 2,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "日常の反復の中に刻まれる、目に見えない時間の堆積。同じ動作を繰り返すことで初めて見える、人生の軌跡。",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "phase2a_new_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 27歳の私（会計事務所に通い始めた頃、肩にかけたトートバッグが重く、電車の窓に映る自分の顔をぼんやり見ている） / 場所: ケープタウン中心部への通勤電車の窓（いつも同じ位置に立つ、ドアの左側、",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              }
+            ],
+            "stance_on_past": "克服した武勇伝として語る",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-d330a2c5.png"
+          },
+          "persona_name": "Lucía Fernández",
+          "persona_status": "克服した武勇伝として語る"
         },
         {
           "proposal_id": "prop-a6023a8c",
@@ -1815,7 +2297,14 @@
             },
             "creative_seed": "persona-goji:d6f1d289"
           },
-          "created_at": "2026-02-12 17:05:04.701917"
+          "created_at": "2026-02-12 17:05:04.701917",
+          "persona_profile": {
+            "id": "persona-goji",
+            "name": "Goji",
+            "stance_on_past": "運営視点で評価する"
+          },
+          "persona_name": "Goji",
+          "persona_status": "運営視点で評価する"
         }
       ],
       "voting": {
@@ -1858,7 +2347,60 @@
               "motion_profile": "頭部の重さで常に首が左右にわずかに揺れ、刻印が光を反射しながら表情とは無関係に明滅する。"
             }
           },
-          "created_at": "2026-02-12 17:05:14.825440"
+          "created_at": "2026-02-12 17:05:14.825440",
+          "persona_profile": {
+            "id": "persona-1b96b458",
+            "name": "李明珠",
+            "gender": "女性",
+            "birthdate": "1921-02-21",
+            "age": 25,
+            "origin_city": "コペンハーゲン",
+            "ethnic_background": "東アジア系",
+            "life_history": [
+              {
+                "year": 1921,
+                "event": "コペンハーゲンのノアブロ地区で中国系移民の両親のもとに生まれた。父は船員、母は縫製工場で働いていた。"
+              },
+              {
+                "year": 1928,
+                "event": "公立小学校に入学。デンマーク語と中国語の両方を話す家庭で育ち、クラスで唯一の東アジア系児童だった。"
+              },
+              {
+                "year": 1933,
+                "event": "父が航海中の事故で死亡。母と兄弟3人で港近くの狭いアパートに引っ越し、母の縫製業を手伝い始めた。"
+              },
+              {
+                "year": 1937,
+                "event": "16歳で学校を卒業後、ノアブロの中国系コミュニティが運営する食料品店で働き始めた。週末は近隣の移民家庭の子供たちに中国語を教える役割を任された。"
+              },
+              {
+                "year": 1940,
+                "event": "ドイツ占領下のコペンハーゲンで、食料配給制度の管理を手伝うコミュニティの窓口役を務めた。占領軍との交渉にデンマーク語の流暢さが役立った。"
+              },
+              {
+                "year": 1943,
+                "event": "地下抵抗組織からの依頼で、食料品店の地下倉庫を一時的な隠れ場所として提供した。3ヶ月間、誰にも気づかれずに運用した。"
+              },
+              {
+                "year": 1945,
+                "event": "終戦後、コミュニティの再建委員会の事務局を担当。戦争中に離散した家族の再会支援と物資分配の記録管理を行った。"
+              },
+              {
+                "year": 1946,
+                "event": "ノアブロ地区の移民互助会の会計係に選出された。月例会議の議事録作成と会費管理を担当している。"
+              }
+            ],
+            "current_situation": "現在はノアブロ地区の中国系コミュニティの食料品店で店長代理として働いている。母と末の弟と3人でヴェスターブロ近くの2部屋のアパートに住んでいる。週に3回、移民互助会の事務所で会計業務と新規来訪者の相談対応を行っている。日曜の午前中は近所の子供たち7人に中国語と算数を教える場を自宅で開いている。",
+            "external_perception": {
+              "first_impression": "物静かで控えめだが、質問には明瞭に答える。帳簿や書類を扱う手つきが正確で速い。",
+              "close_friends_view": "困っている人を放っておけない性格で、頼まれごとを断らない。記憶力が驚異的で、5年前の配給記録でも覚えている。",
+              "misunderstandings": "いつも忙しそうにしているので近寄りがたいと思われがちだが、実際は誰とでも気さくに話す。無表情に見えるが、よく観察すると目元で笑っている。"
+            },
+            "stance_on_past": "あまり振り返らず前を向いている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-1b96b458.png"
+          },
+          "persona_name": "李明珠",
+          "persona_status": "あまり振り返らず前を向いている"
         },
         {
           "proposal_id": "sl2a-3796125d",
@@ -1874,7 +2416,126 @@
               "motion_profile": "細い指を一本ずつ慎重に動かしながら、縦長の瞳だけが独立して別方向を見つめ続ける。"
             }
           },
-          "created_at": "2026-02-12 17:05:22.088425"
+          "created_at": "2026-02-12 17:05:22.088425",
+          "persona_profile": {
+            "id": "persona-ce2a5bbd",
+            "name": "いとう まさき",
+            "gender": "男性",
+            "birthdate": "1998-01-11",
+            "life_history": [
+              {
+                "year": 2010,
+                "event": "小学6年生の時、転校先で孤立したが、図書委員の活動を通じて少しずつ友人ができた。"
+              },
+              {
+                "year": 2013,
+                "event": "中学2年の冬、部活動で膝を怪我し、3ヶ月間リハビリに専念した。チームは自分抜きで県大会に出場した。"
+              },
+              {
+                "year": 2017,
+                "event": "大学受験で第一志望に不合格。地元の国立大学に進学し、経済学部で学ぶことになった。"
+              },
+              {
+                "year": 2020,
+                "event": "大学3年の時、地元企業でインターンシップに参加。中小製造業の経理部門で実務を経験した。"
+              },
+              {
+                "year": 2022,
+                "event": "大学卒業後、地元の信用金庫に就職。窓口業務と融資担当のアシスタントを兼任している。"
+              }
+            ],
+            "current_situation": "1998年生まれ、静岡県静岡市出身。地元の国立大学経済学部を卒業後、2022年から地元の信用金庫に勤務している。窓口業務と融資担当のアシスタントを兼任し、中小企業や個人顧客と日々接している。休日は近所のジムで体を動かしたり、喫茶店で読書をしたりして過ごすことが多い。実家暮らしで、週末は家族と食事をすることもある。",
+            "external_perception": {
+              "first_impression": "控えめで真面目そうな人。少し緊張している様子が伝わる。",
+              "close_friends_view": "実は面白い話ができるし、困った時には必ず力になってくれる頼れる存在。",
+              "misunderstandings": "おとなしいので意見がないと思われがちだが、実際には慎重に考えた上で発言しているだけ。"
+            },
+            "like_history": [
+              {
+                "session": "disgust_wall_v2",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "画面越しに触れ合う、孤独と依存の境界線――通知音だけが証明する「私」の存在",
+                "like_count": 4,
+                "like_reasons": [
+                  "画面越しの距離感、わかる気がする。既読つけて返さない感覚、今もある。",
+                  "自分の提案だけど、あの時の気持ちを正直に出せたと思う。通知音だけが繋がりだった。",
+                  "通知音だけが存在証明ってのが、妙にリアル。今の時代っぽい。",
+                  "既読スルーの話、すごくリアル。今の人間関係ってこういう距離感だよね。"
+                ]
+              },
+              {
+                "session": "disgust_wall_v2",
+                "music": "audio_analysis_results",
+                "phase": "Phase 2a",
+                "proposal_summary": "",
+                "like_count": 3,
+                "like_reasons": [
+                  "特別じゃないからこそ見えるものがある、っていう発想が好き。等身大でいい。",
+                  "通知だけが届く世界、っていう言い方が腑に落ちた。なんかそうだなって。",
+                  "特別じゃない視点から見る、っていうのが誠実で好感持てる。"
+                ]
+              },
+              {
+                "session": "goji_no_self_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 1",
+                "proposal_summary": "他人が決めた速度で走る人生の中で、自分だけが感じている半歩の遅れ。追いつこうとするほど、本当に行きた",
+                "like_count": 3,
+                "like_reasons": [
+                  "自分の感覚と似てる気がした。半歩遅れる感じ、わかる。",
+                  "追いつこうとするほど遠くなるって感覚、なんかわかる気がする。",
+                  "他人が決めた速度で走るって、めっちゃわかる。"
+                ]
+              }
+            ],
+            "proposal_history": [
+              {
+                "session": "20251213_001205",
+                "phase": "Phase 1",
+                "my_proposal_summary": "窓越しに見る流れゆく世界と、言葉を交わすことで生まれる小さな変化の物語",
+                "rank": 0,
+                "tally": 0,
+                "won": true
+              },
+              {
+                "session": "20251213_001205",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "disgust_wall_v2",
+                "phase": "Phase 1",
+                "my_proposal_summary": "画面越しに触れ合う、孤独と依存の境界線――通知音だけが証明する「私」の存在",
+                "rank": 2,
+                "tally": 4,
+                "won": true
+              },
+              {
+                "session": "disgust_wall_v2",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "goji_no_self_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "他人が決めた速度で走る人生の中で、自分だけが感じている半歩の遅れ。追いつこうとするほど、本当に行きたかった場所が遠くなる矛盾。",
+                "rank": 2,
+                "tally": 5,
+                "won": false
+              }
+            ],
+            "stance_on_past": "まだ傷として残っている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-ce2a5bbd.png"
+          },
+          "persona_name": "いとう まさき",
+          "persona_status": "まだ傷として残っている"
         },
         {
           "proposal_id": "sl2a-d8e7ea0b",
@@ -1890,7 +2551,107 @@
               "motion_profile": "尻尾を左右に振りながら、背中の棘を揺らして歩く。"
             }
           },
-          "created_at": "2026-02-12 17:05:36.898315"
+          "created_at": "2026-02-12 17:05:36.898315",
+          "persona_profile": {
+            "id": "persona-5c55a0f3",
+            "name": "Kalani Tuiasosopo",
+            "gender": "男性",
+            "birthdate": "1957-10-30",
+            "origin_city": "シカゴ",
+            "ethnic_background": "太平洋諸島系",
+            "life_history": [
+              {
+                "year": 1963,
+                "event": "公立小学校に入学。クラスで最も体格が大きく、体育の授業では常に最後列に並ばされた。"
+              },
+              {
+                "year": 1970,
+                "event": "アクセントを理由にクラスメイトから発音を真似されることが増え、7年生の途中から学校での発言を最小限に抑えるようになった。"
+              },
+              {
+                "year": 1975,
+                "event": "高校卒業後、シカゴ市の公園管理部門に清掃員として就職。週6日、早朝5時からの勤務を開始した。"
+              },
+              {
+                "year": 1982,
+                "event": "同僚の紹介で知り合った女性と結婚。妻の実家があるシカゴ南部の古いアパートに引っ越した。"
+              },
+              {
+                "year": 1989,
+                "event": "公園管理部門の設備メンテナンス担当に昇進。溶接とパイプ修理の技能資格を取得した。"
+              },
+              {
+                "year": 1997,
+                "event": "長男が大学進学のため州外へ転出。学費のために週末のガソリンスタンド夜勤を追加した。"
+              },
+              {
+                "year": 2008,
+                "event": "市の予算削減により部門が縮小。正規職員から契約職員へ雇用形態が変更された。"
+              },
+              {
+                "year": 2015,
+                "event": "右膝の関節炎が悪化し、長時間の立ち仕事が困難になった。デスクワーク中心の倉庫管理業務へ配置転換を申請した。"
+              }
+            ],
+            "current_situation": "シカゴ市の公園管理部門の倉庫で在庫管理を担当している。週5日、午前7時から午後3時まで勤務。妻と二人でシカゴ南部の1LDKアパートに居住。長男は州外で家庭を持ち、年に2回程度訪問がある。膝の状態により通勤は車を使用し、休日は主に自宅で過ごしている。",
+            "external_perception": {
+              "first_impression": "無口で近寄りがたい印象を与える。体格が大きく、視線を合わせることが少ないため、不機嫌に見られることが多い。",
+              "close_friends_view": "実直で約束を必ず守る人物として評価されている。長年の同僚からは、困ったときに黙って手を貸してくれる存在として信頼されている。",
+              "misunderstandings": "感情がないように見られるが、実際には会話の場面で何を言うべきか常に慎重に考えているだけである。無関心だと思われがちだが、周囲の出来事はよく観察している。"
+            },
+            "like_history": [
+              {
+                "session": "ensemble_omae_v1",
+                "music": "audio_analysis_results",
+                "phase": "Phase 2a",
+                "proposal_summary": "",
+                "like_count": 3,
+                "like_reasons": [
+                  "見えない場所で社会を支えるって、なんか分かる気がする",
+                  "自分の提案だが、誰も見ていない労働という感覚は真実だ",
+                  "義務の重さを際立たせるって、なんかリアルな感じがする"
+                ]
+              }
+            ],
+            "proposal_history": [
+              {
+                "session": "ensemble_omae_v1",
+                "phase": "Phase 1",
+                "my_proposal_summary": "修理できない機械の内部で刻まれ続ける、誰も見ない時計の記録",
+                "rank": 1,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "ensemble_omae_v1",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 1,
+                "tally": 6,
+                "won": false
+              },
+              {
+                "session": "full_test_v5",
+                "phase": "Phase 1",
+                "my_proposal_summary": "誰かのデータベースに登録されていることで存在する命。検索されない記録は、保存されていても無いのと同じ。",
+                "rank": 4,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "full_test_v5",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: 倉庫の金属棚の間を歩く自分の影 / 場所: 公園管理部門の倉庫の窓際（午後の光が斜めに入り、埃が浮いている）",
+                "rank": 4,
+                "tally": 2,
+                "won": false
+              }
+            ],
+            "stance_on_past": "克服した武勇伝として語る",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-5c55a0f3.png"
+          },
+          "persona_name": "Kalani Tuiasosopo",
+          "persona_status": "克服した武勇伝として語る"
         }
       ],
       "voting": {
@@ -2039,7 +2800,73 @@
               "freedom": ""
             }
           },
-          "created_at": "2026-02-12 17:06:47.793696"
+          "created_at": "2026-02-12 17:06:47.793696",
+          "persona_profile": {
+            "id": "persona-f0540cb8",
+            "name": "عمر الحمادي (Omar Al Hammadi)",
+            "gender": "男性",
+            "birthdate": "2007-05-04",
+            "origin_city": "アブダビ",
+            "ethnic_background": "中東系",
+            "life_history": [
+              {
+                "year": 2007,
+                "event": "アブダビのアル・ムシュリフ地区で、公務員の父と教師の母の次男として生まれた。兄が一人いる。"
+              },
+              {
+                "year": 2013,
+                "event": "公立小学校に入学。アラビア語と英語の二言語教育を受け始める。放課後はサッカークラブに週3回通った。"
+              },
+              {
+                "year": 2018,
+                "event": "父が石油関連の公社に異動し、家族でアブダビ郊外の新築住宅地に引っ越した。同年、祖父が糖尿病で入院し、週末の見舞いが習慣になる。"
+              },
+              {
+                "year": 2020,
+                "event": "COVID-19パンデミックでオンライン授業に移行。兄が大学進学のためドバイに転居。家で過ごす時間が増え、料理を手伝うようになった。"
+              },
+              {
+                "year": 2022,
+                "event": "中等学校を卒業し、アブダビ工科大学の電気工学科に入学。寮生活を始める。"
+              },
+              {
+                "year": 2024,
+                "event": "大学2年次に電力システムの研究プロジェクトに参加。同時期、友人の紹介で地元のモスクでボランティア活動を開始した。"
+              },
+              {
+                "year": 2025,
+                "event": "夏季インターンシップで再生可能エネルギー企業に3ヶ月勤務。太陽光発電施設の保守点検業務を経験した。"
+              }
+            ],
+            "current_situation": "現在18歳で、アブダビ工科大学電気工学科の3年生。大学寮で一人暮らしをしている。週末は実家に帰り、母の料理を手伝うことが多い。アルバイトはしておらず、学業とボランティア活動に時間を使っている。卒業後は国内のエネルギー関連企業への就職を考えているが、まだ具体的な企業は決めていない。",
+            "external_perception": {
+              "first_impression": "物静かで真面目そうな印象。挨拶はするが自分から積極的に話しかけることは少ない。",
+              "close_friends_view": "頼まれたことは必ずやり遂げる。計画的で時間を守る。冗談を言うときは意外と面白い。",
+              "misunderstandings": "無口で冷たい人だと思われがちだが、実際には話を聞いてくれる。宗教的に厳格だと思われるが、柔軟な考え方をする。"
+            },
+            "proposal_history": [
+              {
+                "session": "phase2a_slim_v5",
+                "phase": "Phase 1",
+                "my_proposal_summary": "速度と感情の非同期 - 追いつけない心と加速し続ける現実の交差点",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "phase2a_slim_v5",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              }
+            ],
+            "stance_on_past": "克服した武勇伝として語る",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-f0540cb8.png"
+          },
+          "persona_name": "عمر الحمادي (Omar Al Hammadi)",
+          "persona_status": "克服した武勇伝として語る"
         },
         {
           "proposal_id": "world-fff2ffe8",
@@ -2067,7 +2894,66 @@
               "freedom": ""
             }
           },
-          "created_at": "2026-02-12 17:07:51.817163"
+          "created_at": "2026-02-12 17:07:51.817163",
+          "persona_profile": {
+            "id": "persona-5e640a83",
+            "name": "ラクシュミ・ナラヤナン",
+            "gender": "女性",
+            "birthdate": "1903-11-06",
+            "age": 73,
+            "origin_city": "バンガロール",
+            "ethnic_background": "東南アジア系",
+            "life_history": [
+              {
+                "year": 1903,
+                "event": "バンガロールの綿織物商人の家に三女として生まれた。"
+              },
+              {
+                "year": 1918,
+                "event": "家業が不況で傾き、15歳で隣町の絹工場に住み込みで働き始めた。"
+              },
+              {
+                "year": 1923,
+                "event": "工場主の息子との縁談を断り、同僚の鉄道機関士と駆け落ちした。"
+              },
+              {
+                "year": 1930,
+                "event": "夫が鉄道事故で死亡。二人の子供を抱え、実家には戻らず市場で野菜を売り始めた。"
+              },
+              {
+                "year": 1947,
+                "event": "独立運動の混乱で店を焼かれ、長男とともにマドラスへ移住した。"
+              },
+              {
+                "year": 1955,
+                "event": "長男が公務員となり、その給与で小さな米穀店を開いた。"
+              },
+              {
+                "year": 1968,
+                "event": "店を長男に譲り、孫たちの世話をしながら近所の寺院で週3回料理奉仕を始めた。"
+              }
+            ],
+            "current_situation": "バンガロール郊外の長男宅に同居している。毎朝5時に起き、寺院への供物を準備してから市場へ行く。孫が4人おり、そのうち2人の昼食を毎日作っている。腰は曲がっているが自転車には乗れる。月に一度、かつての工場仲間だった女性たちと茶を飲む習慣がある。",
+            "external_perception": {
+              "first_impression": "小柄で腰が曲がっており、いつも白いサリーを着ている。口数は少ないが目つきが鋭く、値切り交渉では一歩も引かない。",
+              "close_friends_view": "若い頃の苦労を笑いながら語る。計算が速く、誰が誰にいくら貸しているかを正確に覚えている。孫には甘いが嫁には厳しい。",
+              "misunderstandings": "物静かで従順そうに見えるが、実際は自分の判断を曲げたことがない。信心深いと思われているが、寺に行くのは料理が好きだからだと本人は言う。"
+            },
+            "stance_on_past": "克服した武勇伝として語る",
+            "proposal_history": [
+              {
+                "session": "20260118_043935",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 2,
+                "tally": 16,
+                "won": false
+              }
+            ],
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-5e640a83.png"
+          },
+          "persona_name": "ラクシュミ・ナラヤナン",
+          "persona_status": "克服した武勇伝として語る"
         },
         {
           "proposal_id": "world-838cf60a",
@@ -2094,7 +2980,95 @@
               "freedom": ""
             }
           },
-          "created_at": "2026-02-12 17:08:58.788859"
+          "created_at": "2026-02-12 17:08:58.788859",
+          "persona_profile": {
+            "id": "persona-73f1d5af",
+            "name": "けんと",
+            "gender": "男性",
+            "birthdate": "2000-12-13",
+            "life_history": [
+              {
+                "year": 2006,
+                "event": "離島の小学校に入学。全校生徒15人の環境で、異年齢の子どもたちと一緒に学ぶ日々が始まった。"
+              },
+              {
+                "year": 2015,
+                "event": "高校進学のため、初めて島を離れ本土の寮生活を開始。慣れない都市環境に戸惑い、成績も振るわなかった。"
+              },
+              {
+                "year": 2019,
+                "event": "地元の専門学校に進学し、電気工事士の資格取得を目指す。実技が得意で講師から高評価を得た。"
+              },
+              {
+                "year": 2022,
+                "event": "地元の電気工事会社に就職。先輩職人の指導のもと、離島や山間部の電気設備工事を担当するようになった。"
+              },
+              {
+                "year": 2024,
+                "event": "独立して小規模な電気工事事業を開業。地元密着型のサービスで徐々に顧客を増やしている。"
+              }
+            ],
+            "current_situation": "2000年、瀬戸内海の小さな離島で生まれ育った。高校から本土に出たが環境に馴染めず苦労し、専門学校で電気工事の技術を習得。現在は地元に戻り、離島や山間部を中心に電気工事の仕事をしている。休日は釣りに出かけたり、地域の祭りの準備を手伝ったりして過ごす。独立して2年目で、顧客との信頼関係を大切にしながら着実に事業を育てている。",
+            "external_perception": {
+              "first_impression": "物静かで控えめ。話すペースがゆっくりで、田舎出身だとすぐに分かる素朴な雰囲気。",
+              "close_friends_view": "面倒見が良く、困っている人を放っておけない。約束は必ず守るし、頼りになる存在。",
+              "misunderstandings": "無口で暗い人だと思われがちだが、実際は人と話すのが好きで、打ち解けると饒舌になる。"
+            },
+            "proposal_history": [
+              {
+                "session": "nobody_amnesia_test",
+                "phase": "Phase 1",
+                "my_proposal_summary": "電話越しに繋がる声だけが、離れた場所にいる「あなた」の存在を確かめる唯一の方法",
+                "rank": 2,
+                "tally": 4,
+                "won": false
+              },
+              {
+                "session": "nobody_amnesia_test",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 4,
+                "tally": 3,
+                "won": false
+              },
+              {
+                "session": "phase2a_slim_v4",
+                "phase": "Phase 1",
+                "my_proposal_summary": "朝焼けの街を駆け抜ける、終わらない夏の日々と別れの予感",
+                "rank": 0,
+                "tally": 0,
+                "won": true
+              },
+              {
+                "session": "phase2a_slim_v4",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 0,
+                "tally": 0,
+                "won": false
+              },
+              {
+                "session": "full_pipeline_test_20260104_143550",
+                "phase": "Phase 1",
+                "my_proposal_summary": "電源が入らなければ存在しない装置が、スイッチを押されるたびに起動し、誰かのために機能し続ける話",
+                "rank": 1,
+                "tally": 6,
+                "won": true
+              },
+              {
+                "session": "full_pipeline_test_20260104_143550",
+                "phase": "Phase 2a",
+                "my_proposal_summary": "誰: ? / 場所: ?",
+                "rank": 3,
+                "tally": 7,
+                "won": false
+              }
+            ],
+            "stance_on_past": "あまり振り返らず前を向いている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-73f1d5af.png"
+          },
+          "persona_name": "けんと",
+          "persona_status": "あまり振り返らず前を向いている"
         }
       ],
       "vote": {
@@ -2206,6 +3180,8 @@
       }
     }
   },
+  "key_clips": [],
+  "visual_concepts": null,
   "phase_data": {
     "phase0": {
       "title_en": "Phase 0 / Music Analysis",
@@ -2668,31 +3644,36 @@
               "label": "beat_1",
               "inner_emotion": "規範への従属",
               "visible_indicator": "天狗の尻尾が貯水槽の床に張り付き動かない",
-              "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す"
+              "pressure_source": "貯水槽内の液体が一定のパルスで明滅を繰り返す",
+              "viewer_impact": null
             },
             {
               "label": "beat_2",
               "inner_emotion": "自己像の拒絶",
               "visible_indicator": "背中の棘が逆立ち、石の首飾りが発光し始める",
-              "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く"
+              "pressure_source": "鉄塔の光ガードが全て赤に変わり、警告音が響く",
+              "viewer_impact": null
             },
             {
               "label": "beat_3",
               "inner_emotion": "制御系への疑念",
               "visible_indicator": "天狗が鉄塔の配線を引き抜き、手に持って見つめる",
-              "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する"
+              "pressure_source": "結晶樹の枝先が一斉に消灯し、都市全体が暗転する",
+              "viewer_impact": null
             },
             {
               "label": "beat_4",
               "inner_emotion": "他者性の発見",
               "visible_indicator": "貯水槽内の液体が渦を巻き、複数の顔が浮かび上がる",
-              "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流"
+              "pressure_source": "空中橋の床材が割れ、下界から上昇する熱気流",
+              "viewer_impact": null
             },
             {
               "label": "beat_5",
               "inner_emotion": "孤立の選択",
               "visible_indicator": "全ての光ガードが消え、天狗だけが結晶樹の根元で発光する",
-              "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音"
+              "pressure_source": "倒木から新しい結晶樹が垂直に伸び始める音",
+              "viewer_impact": null
             }
           ]
         },
@@ -2764,7 +3745,10 @@
         "shooting_grammar": {
           "camera_progression": "固定ワイド（配給ドック）→ハンドヘルド追従（鉄塔登攀）→クレーン俯瞰（都市暗転）→マクロ寄り（結晶樹の根元）",
           "motion_progression": "整列歩行→登攀の不規則な動き→浮遊橋での横移動→配線引き抜きの瞬間停止→最終撮影の静止",
-          "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源"
+          "lighting_progression": "貯水槽の青白い均一光→鉄塔頂上の強い逆光→光ガード消灯後の漆黒→結晶樹の根元からの単一光源",
+          "cut_philosophy": null,
+          "framing_philosophy": null,
+          "key_visual_moments": []
         },
         "synopsis": "天狗は結晶樹の樹液カメラで自身を撮影し、貯水槽内の液体スクリーンで再生を繰り返す。鉄塔の光ガードが監視網として機能し、撮影の承認/拒絶を可視化する。 目標は全ての光ガードを切断し、結晶樹の根元で誰にも送信されない映像を撮影する。 天狗が貯水槽の下層で配給された樹液カメラを受け取る。 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか。 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める。 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく。 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る。",
         "storyline": "天狗が貯水槽の下層で配給された樹液カメラを受け取る → 何度撮り直しても光ガードが赤く点滅し続けるのはなぜか → 天狗が鉄塔へ登り、光ガードの配線を直接操作し始める → 光ガード内に映る自分の顔が、実は貯水槽内の他者の顔だったことに気づく → 全ての光ガードを切断し、結晶樹の根元で初めて自分だけの映像を撮る",
@@ -2965,6 +3949,48 @@
           }
         ]
       }
+    },
+    "phase4v": {
+      "title_en": "Phase 4V / Visual Concepts",
+      "title_ja": "Phase 4V / ビジュアルコンセプト",
+      "summary_items": [
+        {
+          "label_en": "Characters",
+          "label_ja": "キャラクター数",
+          "value": "0"
+        },
+        {
+          "label_en": "Locations",
+          "label_ja": "ロケーション数",
+          "value": "0"
+        },
+        {
+          "label_en": "World phenomena",
+          "label_ja": "世界現象数",
+          "value": "0"
+        },
+        {
+          "label_en": "Atmosphere",
+          "label_ja": "雰囲気",
+          "value": "missing"
+        },
+        {
+          "label_en": "Goji validated",
+          "label_ja": "ゴジ検証",
+          "value": "No"
+        },
+        {
+          "label_en": "Goji adjustments",
+          "label_ja": "ゴジ調整数",
+          "value": "0"
+        }
+      ],
+      "summary_bullets": [
+        {
+          "text_en": "Phase4V payload is empty in this session snapshot.",
+          "text_ja": "このセッションのスナップショットには Phase4V データがありません。"
+        }
+      ]
     },
     "phase5": {
       "title_en": "Phase 5 / IR Draft",

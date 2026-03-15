@@ -280,6 +280,8 @@
     .clip-tag.effects { color: var(--accent-3); background: rgba(244,185,66,0.08); border: 1px solid rgba(244,185,66,0.2); }
     .clip-tag.key { color: var(--green); background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.2); }
     .clip-tag.perf { color: var(--purple); background: rgba(192,132,252,0.08); border: 1px solid rgba(192,132,252,0.2); }
+    .clip-card.cut-scene { opacity: 0.65; border-left: 3px solid var(--dim); }
+    .clip-card.cut-scene:hover { opacity: 0.85; }
 
     /* ── Drawer ───────────────────────────────────────── */
     .drawer-scrim {
@@ -664,6 +666,13 @@
     <div class="page" id="page-clips">
       <div class="filter-bar" id="filter-bar"></div>
       <div class="clip-grid" id="clip-grid"></div>
+      <!-- Cut Scenes (orphan shot_intents replaced during Phase6 refinement) -->
+      <div id="cut-scenes-section" style="margin-top:32px;display:none">
+        <div id="cut-scenes-toggle" style="cursor:pointer;user-select:none;padding:8px 0;font-size:14px;font-weight:600;color:var(--muted)">
+          <span id="cut-scenes-arrow">&#9654;</span> <span data-i18n="cutScenes">Cut Scenes</span> (<span id="cut-scene-count">0</span>)
+        </div>
+        <div id="cut-scene-grid" class="clip-grid" style="display:none"></div>
+      </div>
     </div>
 
     <!-- PAGE: Credits -->
@@ -690,9 +699,10 @@
   <!-- ── Data ────────────────────────────────────────── -->
   <script id="instructions-data" type="application/json">{
   "meta": {
-    "generated_at": "2026-03-14T20:31:46.058228Z",
+    "generated_at": "2026-03-15T03:50:08.900414Z",
     "version": "mvp-1",
     "clip_count": 83,
+    "cut_scene_count": 10,
     "hook_curve_source": "music_analysis.emotional_arc+hook_design",
     "media_cache": {
       "enabled": false,
@@ -1467,10 +1477,26 @@
   "ir_projection_policy": {
     "storyboard_mode_default": "auto",
     "use_reference_images_default": true,
+    "reference_priority": [
+      "character",
+      "location_main",
+      "location_variant"
+    ],
     "max_reference_images": 3,
-    "always_include_location_main": false,
     "auto_location_variant_from_camera": true,
-    "allow_reverse_angle": false
+    "camera_variant_map": {
+      "shot_size.wide_shot": "wide_angle",
+      "shot_size.extreme_wide": "wide_angle",
+      "shot_size.close_up": "close_up",
+      "shot_size.extreme_close": "close_up",
+      "angle.high_angle": "high_angle",
+      "angle.low_angle": "low_angle"
+    },
+    "allow_reverse_angle": false,
+    "always_include_location_main": false,
+    "slot_override_enabled": true,
+    "fallback_on_missing_reference": "generate_then_t2i",
+    "shot_id_mode": "stable"
   },
   "clips": [
     {
@@ -16244,9 +16270,211 @@
       ]
     }
   ],
+  "cut_scenes": [
+    {
+      "shot_id": "shot_004",
+      "subject": "屋上全景——街灯・洗濯物・手すり・コンクリート床",
+      "framing": "wide_shot",
+      "orientation": "low_angle",
+      "camera_motion": "orbit_slow",
+      "subject_motion": "drift",
+      "variation": "ローアングルゆっくりオービット。洗濯物が風に揺れ続ける",
+      "space": "scene_1",
+      "space_description": "夜の屋上（乾ききらない洗濯物と街灯）",
+      "tags": [
+        "track_concept",
+        "stage_1",
+        "llm_id:s04",
+        "track:concept",
+        "sequence:seq_01"
+      ],
+      "visual_description": "composition|frame=wide_shot|camera_pose=low_angle|subject_placement=屋上全景——街灯・洗濯物・手すり・コンクリート床|layers=夜の屋上（乾ききらない洗濯物と街灯）",
+      "motion_description": "motion|intent=drift|trajectory=orbit_slow"
+    },
+    {
+      "shot_id": "shot_005",
+      "subject": "球体関節リス——手すりに両足で立ち上がる全身",
+      "framing": "wide_shot",
+      "orientation": "low_angle",
+      "camera_motion": "dolly_in_slow",
+      "subject_motion": "active",
+      "variation": "地面から手すり高さへゆっくり寄る。リスの輪郭が街灯を背負う",
+      "space": "scene_1",
+      "space_description": "夜の屋上（乾ききらない洗濯物と街灯）",
+      "tags": [
+        "track_concept",
+        "stage_1",
+        "llm_id:s05",
+        "track:concept",
+        "sequence:seq_01"
+      ],
+      "visual_description": "composition|frame=wide_shot|camera_pose=low_angle|subject_placement=球体関節リス——手すりに両足で立ち上がる全身|layers=夜の屋上（乾ききらない洗濯物と街灯）",
+      "motion_description": "motion|intent=active|trajectory=dolly_in_slow"
+    },
+    {
+      "shot_id": "shot_009",
+      "subject": "球体関節リスの背中と旗——「ハイ！」叫びで旗がばたつく",
+      "framing": "medium_shot",
+      "orientation": "low_angle",
+      "camera_motion": "handheld_float",
+      "subject_motion": "active",
+      "variation": "手持ち祝祭的ふらつき。旗面の「ハイ」文字が一瞬読める",
+      "space": "scene_1",
+      "space_description": "夜の屋上（乾ききらない洗濯物と街灯）",
+      "tags": [
+        "track_concept",
+        "stage_1",
+        "llm_id:s09",
+        "track:concept",
+        "sequence:seq_01"
+      ],
+      "visual_description": "composition|frame=medium_shot|camera_pose=low_angle|subject_placement=球体関節リスの背中と旗——「ハイ！」叫びで旗がばたつく|layers=夜の屋上（乾ききらない洗濯物と街灯）",
+      "motion_description": "motion|intent=active|trajectory=handheld_float"
+    },
+    {
+      "shot_id": "shot_014",
+      "subject": "リスが石臼を手の甲でノック・乳白色の燐光が次の石",
+      "framing": "wide_shot",
+      "orientation": "eye_level",
+      "camera_motion": "tracking",
+      "subject_motion": "run",
+      "variation": "斜め後方・路地の奥行きに光の列が伸びる",
+      "space": "scene_2",
+      "space_description": "石臼の立ち並ぶ路地（祠の群れ）",
+      "tags": [
+        "track_concept",
+        "key_clip_ref:sec_003",
+        "light_chain_start",
+        "llm_id:b002_s04",
+        "track:performance"
+      ],
+      "visual_description": "composition|frame=wide_shot|camera_pose=eye_level|subject_placement=リスが石臼を手の甲でノック・乳白色の燐光が次の石|layers=石臼の立ち並ぶ路地（祠の群れ）",
+      "motion_description": "motion|intent=run|trajectory=tracking"
+    },
+    {
+      "shot_id": "shot_033",
+      "subject": "リスの腰部から上・伝書鶴が右肩高で並走——水面反射でリスの関節が逆さに映り、鶴の翼が画面右端を横切る",
+      "framing": "medium_shot",
+      "orientation": "eye_level",
+      "camera_motion": "static",
+      "subject_motion": "active",
+      "variation": null,
+      "space": "scene_4",
+      "space_description": "砂地の浅瀬——水深5センチの水面が面発光し、砂底が金白色に輝く残滓生成ゾーン。コンクリート床の毛細管亀裂に琥珀色粒子が滲み、衝撃着地点から放射状に残滓パターンが広がる。過去の染みが層状に積み重なり、洗い流されない記録として残る",
+      "tags": [
+        "track_concept",
+        "key_clip_ref:sec_005",
+        "light_column_birth",
+        "llm_id:b4_s03",
+        "track:performance"
+      ],
+      "visual_description": "composition|frame=medium_shot|camera_pose=eye_level|subject_placement=リスの腰部から上・伝書鶴が右肩高で並走——水面反射でリスの関節が逆さに映り、鶴の翼が画面右端を横切る|layers=砂地の浅瀬——水深5センチの水面が面発光し、砂底が金白色に輝く残滓生成ゾーン。コンクリート床の毛細管亀裂に琥珀色粒子が滲み、衝撃着地点から放射状に残滓パターンが広がる。過去の染みが層状に積み重なり、洗い流されない記録として残る",
+      "motion_description": "motion|intent=active|trajectory=static"
+    },
+    {
+      "shot_id": "shot_036",
+      "subject": "浅瀬全景——リスが歩くたびに光柱が林立し、横移動で光柱の増殖密度を左から右へ横断記録する",
+      "framing": "wide_shot",
+      "orientation": "high_angle",
+      "camera_motion": "tracking",
+      "subject_motion": "active",
+      "variation": "横移動で光柱の増殖密度を横断的に記録",
+      "space": "scene_4",
+      "space_description": "砂地の浅瀬——水深5センチの水面が面発光し、砂底が金白色に輝く残滓生成ゾーン。コンクリート床の毛細管亀裂に琥珀色粒子が滲み、衝撃着地点から放射状に残滓パターンが広がる。過去の染みが層状に積み重なり、洗い流されない記録として残る",
+      "tags": [
+        "track_concept",
+        "escalation",
+        "light_column_forest",
+        "llm_id:b4_s06",
+        "track:performance"
+      ],
+      "visual_description": "composition|frame=wide_shot|camera_pose=high_angle|subject_placement=浅瀬全景——リスが歩くたびに光柱が林立し、横移動で光柱の増殖密度を左から右へ横断記録する|layers=砂地の浅瀬——水深5センチの水面が面発光し、砂底が金白色に輝く残滓生成ゾーン。コンクリート床の毛細管亀裂に琥珀色粒子が滲み、衝撃着地点から放射状に残滓パターンが広がる。過去の染みが層状に積み重なり、洗い流されない記録として残る",
+      "motion_description": "motion|intent=active|trajectory=tracking"
+    },
+    {
+      "shot_id": "shot_044",
+      "subject": "路地の石臼の列——リスが駆け抜けるたびに石臼が次々と燐光連鎖",
+      "framing": "wide_shot",
+      "orientation": "low_angle",
+      "camera_motion": "tracking",
+      "subject_motion": "run",
+      "variation": "斜め後方ワイドトラッキング、路地奥まで光の連鎖が広がる",
+      "space": "scene_5",
+      "space_description": "石臼の立ち並ぶ路地——夜明け前の薄明かりの中、大小様々な石臼が奥まで連なり、それぞれの側面に「ハイ」の刻み文字が幾重にも重なり合う接触点",
+      "tags": [
+        "track_concept",
+        "prechorus2_peak",
+        "llm_id:b5_s06",
+        "track:concept",
+        "sequence:seq_04"
+      ],
+      "visual_description": "composition|frame=wide_shot|camera_pose=low_angle|subject_placement=路地の石臼の列——リスが駆け抜けるたびに石臼が次々と燐光連鎖|layers=石臼の立ち並ぶ路地——夜明け前の薄明かりの中、大小様々な石臼が奥まで連なり、それぞれの側面に「ハイ」の刻み文字が幾重にも重なり合う接触点",
+      "motion_description": "motion|intent=run|trajectory=tracking"
+    },
+    {
+      "shot_id": "shot_054",
+      "subject": "伝書鶴——路地の奥の光柱の周囲を旋回し始める。翼",
+      "framing": "medium_shot",
+      "orientation": "eye_level",
+      "camera_motion": "orbit",
+      "subject_motion": "active",
+      "variation": "鶴を中心にゆっくりorbit——光柱との距離が縮",
+      "space": "scene_6",
+      "space_description": "路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "tags": [
+        "track_concept",
+        "crane_circling",
+        "circuit_closing",
+        "llm_id:b6_s06",
+        "track:performance"
+      ],
+      "visual_description": "composition|frame=medium_shot|camera_pose=eye_level|subject_placement=伝書鶴——路地の奥の光柱の周囲を旋回し始める。翼|layers=路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "motion_description": "motion|intent=active|trajectory=orbit"
+    },
+    {
+      "shot_id": "shot_055",
+      "subject": "リスの両腕が最大に広がる瞬間——腕の先端から光柱",
+      "framing": "medium_shot",
+      "orientation": "low_angle",
+      "camera_motion": "static",
+      "subject_motion": "burst",
+      "variation": "腰高正面固定。光柱の立ち上がりと腕の展開が一致",
+      "space": "scene_6",
+      "space_description": "路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "tags": [
+        "track_concept",
+        "stage_4",
+        "arm_spread_trigger",
+        "key_clip_ref:sec_007",
+        "llm_id:b6_s07"
+      ],
+      "visual_description": "composition|frame=medium_shot|camera_pose=low_angle|subject_placement=リスの両腕が最大に広がる瞬間——腕の先端から光柱|layers=路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "motion_description": "motion|intent=burst|trajectory=static"
+    },
+    {
+      "shot_id": "shot_064",
+      "subject": "屋上コンクリート床面——リスの足元に生まれた新しい祈念残滓の輪郭",
+      "framing": "medium_closeup",
+      "orientation": "overhead",
+      "camera_motion": "slow_push",
+      "subject_motion": "still",
+      "variation": "真上からリスの足元へゆっくりpush。コンクリート面に滲む乳白色の残滓輪郭が4秒かけて定着",
+      "space": "scene_6",
+      "space_description": "路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "tags": [
+        "track_concept",
+        "new_residue",
+        "payoff",
+        "narrative_end",
+        "llm_id:b6_s16"
+      ],
+      "visual_description": "composition|frame=medium_closeup|camera_pose=overhead|subject_placement=屋上コンクリート床面——リスの足元に生まれた新しい祈念残滓の輪郭|layers=路地の光連鎖（ドミノ発光廊下）——石臼の列がリスの走行に反応して乳白色の燐光を次々と点灯させ、路地全体がドミノ状に発光連鎖する空間",
+      "motion_description": "motion|intent=still|trajectory=slow_push"
+    }
+  ],
   "competition_data": {
     "session_id": "session-20260315-020605-404c",
-    "exported_from": "pipeline_state",
+    "exported_from": "state_snapshot",
     "phase1": {
       "proposals": [
         {
@@ -17004,6 +17232,538 @@
           "reason": null,
           "error": null,
           "fallback": null
+        }
+      }
+    },
+    "phase4a": {
+      "proposals": [
+        {
+          "proposal_id": "phase4a-20260314172642-0",
+          "persona_id": "persona-21630109",
+          "content": {
+            "synopsis": "夜の屋上。球体関節を持つリスが、スマホを天高く掲げて「送信完了」ポーズを決めた瞬間から映像は始まる。画面には通知ゼロのインボックスが映り込んでいるが、リスの顔には一切の翳りがない。背負い旗が夜風を受けて翻る。街の灯りは遠く、誰もいない。それでもリスは一人でコール＆レスポンスをやり遂げ——その叫び声が空気に定着していく様子が、足元の砂地に小さな光柱として立ち始める。  precorusからchorusにかけて、映像は街へと広がる。街角の祠がひとつひとつ灯り始め、石臼の側面に刻まれた「ハイ」の文字が浮かび上がる。これはすべて、誰かが「返事ゼロのまままやり遂げた」行為の残滓だ——リスは自分の光柱がどこまで届くか試すように、球体関節の可動域を限界まで使って走り回る。枝角が祠の光に反応して淡く点滅し始める。視聴者が問いかけを受け取るのはここだ：リスは残滓を「積み重ねたい」のか、それとも「消したい」のか。その答えが、映像の結末を完全に変えてしまう。  arousal_peak（157秒）で光柱が臨界に達する。砂地の浅瀬でリスが両腕を広げた瞬間、過去の残滓すべてと周波数が合わさり、街全体が一瞬だけ白く染まる。しかし——光が引いた後に残るのは「送信完了」の文字だけだ。返事は来ない。来ないまま、リスは背負い旗を力強く一度だけ揺らし、踵を返す。その背中に、新しい光柱がひとつだけ、静かに立ち始める。",
+            "hook_pitch": "「通知ゼロで笑っているリスの目的が最後まで読めない」——積み重ねたいのか消したいのかという問いが回収されるまで、視聴者はスクロールできない。",
+            "key_images": [
+              "スマホを天高く掲げた球体関節リス——画面に「送信完了」と通知ゼロが同時に映り込んでいる夜の屋上",
+              "街角の祠がドミノ倒しのように次々と灯っていく路地——石臼に刻まれた「ハイ」の文字が浮かび上がる",
+              "砂地の浅瀬で両腕を広げたリスと、足元から街全体へ広がる光柱の白い爆発",
+              "光が引いた後の静寂——「送信完了」の文字だけが宙に浮かび、リスが背を向けて歩き出す",
+              "リスの背中に生まれる新しい光柱一本——誰も頼んでいないのに、ひとりでに灯る"
+            ],
+            "why_it_came": "「返事ゼロを損失ではなく生きた証と呼ぶ倒錯した強さ」を、球体関節リスという存在の「奇妙な愛らしさ」と合わせることで、説教ではなく祝祭として画面に定着させたかった。残滓が積み重なる世界の物理法則が、BPM178の高速ビートを「焦り」ではなく「一人祭りの証拠」に変換する構造として機能すると判断した。",
+            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験がある人——そして深夜にスマホを置いて「まあいいか」と笑えるようになった、10代後半から20代の女性。",
+            "emotional_arc_intent": "「空元気かもしれない」という疑念から始まり、光柱が臨界に達する瞬間に「これは本気の一人祭りだ」と確信し、最後の新しい光柱一本で「次も送り続けるんだ」という静かな高揚感に着地する。",
+            "locations": [
+              {
+                "location_id": "loc_001",
+                "name": "乾ききらない洗濯物がはためく夜の屋上",
+                "space_descriptor": "街の灯りが遠く、布の端が微かに発光し始めている——誰も来ない高さ。",
+                "narrative_role": "送信完了ポーズの舞台であり、最初の光柱が生まれる「一人祭り」の聖地。"
+              },
+              {
+                "location_id": "loc_002",
+                "name": "石臼と祠が乱立する路地",
+                "space_descriptor": "大きさも形もバラバラな祠が街角に密集し、触れると淡く光る——過去の残滓が結晶化した区画。",
+                "narrative_role": "リスが「自分の残滓がどこまで届くか」を試す探索フィールドであり、視聴者への問いかけが最大化する場所。"
+              },
+              {
+                "location_id": "loc_003",
+                "name": "砂地の浅瀬——残滓が最も濃い低地",
+                "space_descriptor": "地面が薄く光を帯びた砂で覆われた浅瀬で、過去の誰かのコールが今も空気を振動させている。",
+                "narrative_role": "arousal_peakで光柱が臨界に達し、街全体が白く染まる——物語の賭けが回収される決定的な空間。"
+              }
+            ],
+            "cast": [
+              {
+                "role": "main",
+                "source": "phase2.character_profile",
+                "label": "球体関節リス",
+                "usage_note": "球体関節の急転換の動きと背負い旗の遅れた翻りで、BPM178の高速ビートを「一人祭りの証拠」として体現する主人公。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "prop",
+                "source": "phase1.hook_scene",
+                "label": "通知ゼロのスマホ",
+                "usage_note": "「送信完了」と「返事ゼロ」が同一画面に映り込む小道具として、物語の中心的な賭けを視覚化する。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "backdrop",
+                "source": "phase3.world_setting",
+                "label": "祈念残滓の街",
+                "usage_note": "光柱・祠・石臼の刻み文字が連動して灯ることで、「返事が来なかった行為が消えずに積み重なる」世界の物理法則を背景として可視化する。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "sub",
+                "source": null,
+                "label": "迷子の光の虫",
+                "usage_note": "画面の端を漂いながら、リスの光柱が臨界に達した瞬間だけ一点に集まり、その後また散り散りになる——楽曲の高速ビートに合わせて明滅するカワイイ存在。",
+                "override": null,
+                "detail": {
+                  "role_in_frame": "画面の周縁を自律的に漂い、時折リスの枝角に近づいては離れる小さな発光体の群れ。",
+                  "connection": "world",
+                  "arc": "序盤は個別にバラバラと漂っているが、光柱の臨界と同時に一点へ集結し、光が引いた後は再び散り散りに——ただし最後の一匹だけがリスの新しい光柱のそばに留まる。",
+                  "tone_mirror": "Kawaii × High Energyのトーンを、ピコピコとした動きの軽快さと明滅の速さで体現する。"
+                }
+              }
+            ],
+            "subs": [
+              {
+                "name": "迷子の光の虫",
+                "role_in_frame": "画面の周縁を自律的に漂い、時折リスの枝角に近づいては離れる小さな発光体の群れ。",
+                "connection": "world",
+                "arc": "序盤は個別にバラバラと漂っているが、光柱の臨界と同時に一点へ集結し、光が引いた後は再び散り散りに——ただし最後の一匹だけがリスの新しい光柱のそばに留まる。",
+                "tone_mirror": "Kawaii × High Energyのトーンを、ピコピコとした動きの軽快さと明滅の速さで体現する。"
+              }
+            ]
+          },
+          "created_at": "2026-03-14 17:26:42.739489",
+          "persona_profile": {
+            "id": "persona-21630109",
+            "name": "張文耀",
+            "gender": "男性",
+            "birthdate": "1695-09-09",
+            "age": 62,
+            "origin_city": "オークランド",
+            "ethnic_background": "東アジア系",
+            "life_history": [
+              {
+                "year": 1695,
+                "event": "オークランド郊外の農村地帯で生まれた。父は稲作農家、母は織物を売る行商をしていた。"
+              },
+              {
+                "year": 1702,
+                "event": "7歳の時、高熱と発疹を伴う疫病にかかり、村の半数が亡くなった。左耳の聴力を失った。"
+              },
+              {
+                "year": 1711,
+                "event": "16歳で港湾地区の倉庫番として働き始めた。船荷の積み下ろしと在庫管理を担当した。"
+              },
+              {
+                "year": 1719,
+                "event": "24歳の時、倉庫で重い木箱が落下し左肩と肋骨を骨折した。3ヶ月間働けなかった。"
+              },
+              {
+                "year": 1727,
+                "event": "32歳で同じ港で働く女性と結婚した。翌年長男が生まれたが、2歳で熱病で亡くした。"
+              },
+              {
+                "year": 1735,
+                "event": "40歳の時、倉庫管理の責任者に昇進した。15人の労働者を監督する立場になった。"
+              },
+              {
+                "year": 1748,
+                "event": "53歳の時、妻が出産時の合併症で亡くなった。娘は生き延びたが、その後再婚はしなかった。"
+              },
+              {
+                "year": 1754,
+                "event": "59歳で倉庫での階段転落事故により右足首を複雑骨折し、歩行に杖が必要になった。"
+              }
+            ],
+            "current_situation": "現在は港湾倉庫の記録係として週3日勤務している。体力仕事はできないが、長年の経験を活かして在庫台帳の管理と新人教育を担当している。オークランド港近くの共同住宅で一人暮らしをしており、19歳の娘は別の地区で縫製工として働いている。右足首の古傷が雨天時に痛み、左耳の聴力欠損のため人混みでの会話に困難を感じることがある。月に一度娘が訪ねてくるが、会話は必要最小限にとどまることが多い。",
+            "external_perception": {
+              "first_impression": "無口で近寄りがたい印象を与える。杖をついてゆっくり歩く姿と、話しかけられても聞き返すことが多いため、不機嫌に見られがち。",
+              "close_friends_view": "仕事に対しては誠実で正確。若い労働者には厳しいが、危険な作業では必ず事前に注意を促す。昔話はほとんどせず、家族についても語らない。",
+              "misunderstandings": "冷淡で感情がないように見られるが、実際には聞こえづらさを補うために表情を抑えているだけだとは気づかれていない。娘との距離も無関心と誤解されている。"
+            },
+            "stance_on_past": "まだ傷として残っている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-21630109.png"
+          },
+          "persona_name": "張文耀",
+          "persona_status": "まだ傷として残っている"
+        },
+        {
+          "proposal_id": "phase4a-20260314172937-1",
+          "persona_id": "persona-c351f248",
+          "content": {
+            "synopsis": "夜の屋上。乾ききらない洗濯物が風にはためき、布の端が微かに発光している。球体関節のリス——頭頂から枝角を伸ばし、背に小旗を揺らす——が砂地の浅瀬から屋上へと急転換の動きで駆け上がる。彼女はスマホを天高く掲げる。画面には「送信完了」の文字と、通知ゼロのインボックス。返事は来ない。それでも両腕を広げ、一人でコール＆レスポンスを始める。「ハイ！ハイ！」と叫ぶたびに、その行為が空気に刻まれ、足元の砂地に光柱が走り、街角の祠が淡く応答する。  祠を巡りながらリスは過去の残滓に触れる。誰かの「返事ゼロの叫び」が掌に流れ込むたびに、背負い旗の色が変わる。石臼の側面に無数の「ハイ」が刻まれた路地、浅瀬の光柱が初めて出現した夜の記憶——届かなかった行為ほど大きく残る、この世界の法則がリスの体を震わせる。彼女自身の「送信」はまだ誰にも届いていない。しかし残滓は消えない。街はそれを覚えている。  最後の夜、arousal_peakの瞬間。砂地の浅瀬にリスが立ち、両腕を限界まで広げると、これまで積み上げた全ての残滓が周波数を合わせて共鳴する。光柱が街を照らす。送信ボタンを押した女の子の残滓と、リスの行為が同期し、一瞬だけ色が変わって安定する——「やり遂げた」と確信した瞬間だけ変わる、あの色に。返事は来ない。それでも、送信は完了した。",
+            "hook_pitch": "通知ゼロの画面を前に晴れやかな顔をしている理由が最後まで明かされない——残滓の色が変わる「やり遂げた確信」の瞬間がいつ来るのか、来ないのかという宙吊りが視聴者を引き留める。",
+            "key_images": [
+              "スマホを天高く掲げたリス——画面に「送信完了」と通知ゼロが映り込んでいるのに、枝角が誇らしげに揺れている",
+              "石臼の側面に刻まれた無数の「ハイ」——リスが指先で触れると、過去の叫びが掌に流れ込み、背負い旗がわずかに遅れて翻る",
+              "砂地の浅瀬に立つリスの足元から走る光柱——誰も頼んでいないのに街を照らし始める夜",
+              "街角の祠がリスの「ハイ！ハイ！」に応えて淡く光る連鎖——バラバラな大きさの祠が次々と点灯していく路地",
+              "最終カット：両腕を広げたリスを包む全残滓の共鳴——色が変わって安定する瞬間、背負い旗が真っすぐに立つ"
+            ],
+            "why_it_came": "「返事ゼロのまま両腕を広げてコールをやり遂げる」という行為の強度を世界の物理法則にした世界設定と、球体関節の急転換という身体性が、送信完了の祝祭感を最も純粋に体現できると判断した。商人として取引相手の返事を待つ私の論理の真逆——返事ゼロを「生きた証」と呼ぶ倒錯した強さが、残滓として街に積み重なる世界観と一致した。",
+            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験があり、その強さが何だったのかをまだ言語化できていない10代後半から20代の女性。",
+            "emotional_arc_intent": "「返事ゼロの空元気」という入口から、行為が世界に刻まれるという事実の発見を経て、最後に「届かなくてもやり遂げた」という確信が祝祭として爆発する——笑いの理由が腑に落ちる解放感。",
+            "locations": [
+              {
+                "location_id": "loc_001",
+                "name": "夜の屋上（洗濯物の屋上）",
+                "space_descriptor": "乾ききらない洗濯物が夜風に揺れ、布の端が微かに発光している高台の空間。",
+                "narrative_role": "送信完了のコール＆レスポンスが最初に行われ、残滓が生まれる起点となる場所。"
+              },
+              {
+                "location_id": "loc_002",
+                "name": "砂地の浅瀬",
+                "space_descriptor": "残滓が最も濃く積もり、光柱が出現しやすい水際の砂地。",
+                "narrative_role": "過去の残滓との同期が起こる場所であり、最終カットの共鳴シーンの舞台。"
+              },
+              {
+                "location_id": "loc_003",
+                "name": "石臼の路地",
+                "space_descriptor": "側面に無数の「ハイ」が刻まれた石臼が並ぶ、大きさも形もバラバラな祠が密集する路地。",
+                "narrative_role": "リスが残滓に触れて過去の叫びを受け取る中間地点であり、世界の法則を体感させる場所。"
+              }
+            ],
+            "cast": [
+              {
+                "role": "main",
+                "source": "phase2.character_profile",
+                "label": "球体関節リス（旗持ち）",
+                "usage_note": "主人公として全シーンに登場し、球体関節の急転換で高BPMのリズムを身体化しながら残滓の世界を巡る。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "motif",
+                "source": "phase1.hook_scene",
+                "label": "通知ゼロのスマホ画面",
+                "usage_note": "「送信完了」と通知ゼロが同時に映る画面として繰り返し登場し、返事ゼロという事実と祝祭感の矛盾を視覚化する。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "backdrop",
+                "source": "phase3.world_setting",
+                "label": "祈念残滓の街（祠・光柱・石臼）",
+                "usage_note": "届かなかった行為が物理的に積み重なる世界として機能し、リスの行為が街の構造に加算されていく過程を映す。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "sub",
+                "source": null,
+                "label": "送信した女の子の残滓",
+                "usage_note": "最終カットでリスと周波数が同期する過去の残滓として現れ、二つの「やり遂げた」が共鳴する瞬間を作る。",
+                "override": null,
+                "detail": {
+                  "role_in_frame": "画面の縁に不在のまま気配として滲み、最終カットで初めて輪郭を持ち色が変わって安定する。",
+                  "connection": "theme",
+                  "arc": "不在のまま存在感を持ち続け、最後に色が変わって安定することで「確信」の証人となる。",
+                  "tone_mirror": "リスの祝祭感と同質の、一人で完結した強さをBPM178の余韻として体現する。"
+                }
+              }
+            ],
+            "subs": [
+              {
+                "name": "送信した女の子の残滓",
+                "role_in_frame": "画面の縁に不在のまま気配として滲み、最終カットで初めて輪郭を持ち色が変わって安定する。",
+                "connection": "theme",
+                "arc": "不在のまま存在感を持ち続け、最後に色が変わって安定することで「確信」の証人となる。",
+                "tone_mirror": "リスの祝祭感と同質の、一人で完結した強さをBPM178の余韻として体現する。"
+              }
+            ]
+          },
+          "created_at": "2026-03-14 17:29:37.772419",
+          "persona_profile": {
+            "id": "persona-c351f248",
+            "name": "Aminah binti Osman",
+            "gender": "女性",
+            "birthdate": "1657-05-19",
+            "age": 58,
+            "origin_city": "シンガポール",
+            "ethnic_background": "東南アジア系",
+            "life_history": [
+              {
+                "year": 1657,
+                "event": "シンガポール島の漁村で生まれた。父は漁師、母は市場で香辛料を売っていた。"
+              },
+              {
+                "year": 1672,
+                "event": "15歳で隣村の商人の息子と結婚。翌年長男が生まれた。"
+              },
+              {
+                "year": 1681,
+                "event": "夫がマラッカへの交易航海中に嵐で行方不明になった。24歳で未亡人となり、3人の子供を抱えた。"
+              },
+              {
+                "year": 1684,
+                "event": "生計を立てるため、港で船員向けの食堂を開業した。料理の腕が評判を呼んだ。"
+              },
+              {
+                "year": 1693,
+                "event": "オランダ東インド会社の役人と再婚。バタヴィアへ移住し、食堂を閉じた。"
+              },
+              {
+                "year": 1702,
+                "event": "再婚相手が病死。遺産を相続し、シンガポールに戻って貸家業を始めた。"
+              },
+              {
+                "year": 1708,
+                "event": "長男が独立して交易商となり、次男は船大工の修行に出た。娘は地元の役人に嫁いだ。"
+              },
+              {
+                "year": 1714,
+                "event": "港近くに所有する複数の建物から賃料を得て、孫たちの世話をしながら暮らしている。"
+              }
+            ],
+            "current_situation": "シンガポール島の港近くに住んでいる。複数の建物を所有し、商人や船乗りに貸している。賃料収入で安定した生活を送っている。長男の家族が近くに住んでおり、孫が5人いる。朝は市場を散歩し、午後は近所の女性たちと世間話をすることが多い。",
+            "external_perception": {
+              "first_impression": "落ち着いた物腰で、年齢の割に背筋が伸びている。話し方は穏やかだが、交渉事になると譲らない一面がある。",
+              "close_friends_view": "何があっても動じない人。昔の苦労話もまるで他人の話のように淡々と語る。実利的で、感傷に流されることがない。",
+              "misunderstandings": "冷たい人だと思われることがある。実際は家族を大切にしているが、表情や口調に感情を出さないため誤解される。"
+            },
+            "stance_on_past": "他人事のように距離を置いて見ている",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-c351f248.png"
+          },
+          "persona_name": "Aminah binti Osman",
+          "persona_status": "他人事のように距離を置いて見ている"
+        },
+        {
+          "proposal_id": "phase4a-20260314173039-2",
+          "persona_id": "persona-a514e5e9",
+          "content": {
+            "synopsis": "夜の屋上、乾ききらない洗濯物が街灯の光をはじいている。球体関節と枝角を持つリスが、スマホの「送信完了」画面を天に掲げて両腕を広げた——画面には通知ゼロのインボックスが光っている。これが失われる可能性のある「何か」ではなく、すでに失われたものの上に立つ祝祭の幕開けだ。リスは一人でコール＆レスポンスを始め、返事のない「ハイ！ハイ！」が空気を震わせるたびに、屋上の床に小さな祈念残滓が生まれていく。問いは一つ——この子は届かないことを知っているのか、知らないふりをしているのか。  映像は街へ下りる。砂地の浅瀬、石臼の立ち並ぶ路地、触ると淡く光る祠の群れ——過去の誰かが一人でやり遂げた行為が積み重なった世界で、リスは旗をなびかせながら駆け抜ける。途中、路地の祠に触れると掌に流れ込む感情がある——返事が来なかった夜の、あの奇妙な軽さだ。リスの球体関節が急転換を繰り返すたびに背負い旗が遅れて翻り、その残像が微かに発光して残滓になっていく。「届けたい」と「届かなくていい」が同じ速度で走っている。壊れるのは、その二つが別物だという前提だ。   arousal_peak、砂地の浅瀬でリスが両腕を最大に広げた瞬間——足元から光柱が立ち上がる。残滓が臨界に達した夜だけ起きる現象。街を照らす光は誰も頼んでいないのに広がり、100万回分の「大好き」が音波として石臼の刻み文字を震わせる。最後のカット、リスはスマホをポケットにしまい、旗を背負ったまま屋上へ戻る——インボックスは相変わらず空だが、屋上に新しい祈念残滓がひとつ増えている。回収条件は達成された。送信は完了した。返事は関係ない。",
+            "hook_pitch": "「通知ゼロの画面を見て、なぜあんなに晴れやかな顔をしているのか」という問いが冒頭で提示され、その答えが「返事が来なかった行為ほど残滓は大きく残る」という世界の物理法則として回収される構造になっている——見終わったとき、自分の過去の「既読なし」が意味を変える。",
+            "key_images": [
+              "夜の屋上でスマホ画面「送信完了」を天に掲げるリス——画面の光が洗濯物を照らし、通知ゼロのインボックスが顔に映り込んでいる",
+              "石臼の側面に刻まれた無数の「ハイ」の痕——リスが触れると文字が淡く光り、掌に何かが流れ込む",
+              "砂地の浅瀬でリスが両腕を広げた瞬間、足元から光柱が立ち上がり街全体を照らしていく",
+              "球体関節が急転換する刹那、背負い旗が遅れて翻り、その軌跡が微かに発光して残滓になっていく連続カット",
+              "エンディング、屋上に戻ったリスの足元に新しい祈念残滓がひとつ——インボックスは空のまま、リスは笑っている"
+            ],
+            "why_it_came": "「届かなかったものが消えずに積み重なる街」という物理法則を使えば、通知ゼロのまま笑う行為が損失でも強がりでもなく「建設」になると気づいた。倉庫で在庫が積み上がるように、返事のない行為が世界を形成していくなら、その積み重ねこそが主人公の勝利条件だ。",
+            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験がある人——そしてアニメやゲームのキャラクターデザインに反応する10〜20代前半で、「かわいいけど少し変」な造形に引っかかりを感じる視聴者。",
+            "emotional_arc_intent": "「届かないかもしれない不安」から始まり「届かなくていい、送ること自体が完了だ」という逆転した祝祭感へ——視聴者が笑いながら泣けるか泣きながら笑えるかの境界線を走り抜ける。",
+            "locations": [
+              {
+                "location_id": "loc_001",
+                "name": "夜の屋上（乾ききらない洗濯物と街灯）",
+                "space_descriptor": "高層でも低層でもない建物の屋上、洗濯物が夜風に揺れ、布の端が微かに発光している。街の灯りが遠く、誰も見ていない。",
+                "narrative_role": "物語の起点と終点。通知ゼロの送信完了が行われる場所であり、最後に新しい祈念残滓が生まれる場所。"
+              },
+              {
+                "location_id": "loc_002",
+                "name": "石臼の立ち並ぶ路地（祠の群れ）",
+                "space_descriptor": "大きさも形もバラバラな祠が路地に密集し、触れると淡く光る。石臼の側面に無数の「ハイ」の文字が刻まれている。",
+                "narrative_role": "過去の誰かが一人でやり遂げた行為の結晶体が並ぶ中間地点——リスが自分の行為と先人の行為が同じ構造であることを感触で知る場所。"
+              },
+              {
+                "location_id": "loc_003",
+                "name": "砂地の浅瀬（光柱の出現点）",
+                "space_descriptor": "街の端にある浅い水辺、砂地に残滓が特に濃く堆積しており、過去のコールが今も空気を振動させている。",
+                "narrative_role": "arousal_peakの舞台。リスが両腕を最大に広げた瞬間に光柱が立ち上がり、送信完了の物理的証明が完成する。"
+              }
+            ],
+            "cast": [
+              {
+                "role": "main",
+                "source": "phase2.character_profile",
+                "label": "球体関節リス（背負い旗）",
+                "usage_note": "BPM178の高速ビートに合わせた急転換の動きで画面を引っ張る主人公。球体関節の可動域と枝角への視線誘導が映像のリズムを作る。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "prop",
+                "source": "phase1.hook_scene",
+                "label": "送信完了スマホ",
+                "usage_note": "冒頭で天に掲げられ通知ゼロのインボックスが顔に映り込む——エンディングでポケットにしまわれることで「回収完了」を示す小道具。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "backdrop",
+                "source": "phase3.world_setting",
+                "label": "祈念残滓の街",
+                "usage_note": "石臼・祠・光柱・発光する洗濯物が世界のルールを可視化し、リスの行為に物理的な意味を与える背景として機能する。",
+                "override": null,
+                "detail": null
+              },
+              {
+                "role": "sub",
+                "source": null,
+                "label": "迷子の伝書鶴",
+                "usage_note": "loc_002の路地に迷い込んだ折り紙の伝書鶴——宛先不明のまま路地をさまよい、最終的に光柱に吸い込まれて残滓の一部になる。",
+                "override": null,
+                "detail": {
+                  "role_in_frame": "路地と浅瀬のあいだを自律的に飛び回り、フレームに入っては去ることで「届かなかった何か」の具体的な形として画面に存在する。",
+                  "connection": "character",
+                  "arc": "初登場：宛先を探してフレームの端を不安定に飛ぶ → 最終登場：光柱に向かって一直線に飛び込み、発光しながら残滓になる——迷いから解放へ。",
+                  "tone_mirror": "BPM178の高速ビートに合わせてはばたきのリズムが上がり、kawaii × high energyの楽曲トーンを鳥の羽音で補強する。"
+                }
+              }
+            ],
+            "subs": [
+              {
+                "name": "迷子の伝書鶴",
+                "role_in_frame": "路地と浅瀬のあいだを自律的に飛び回り、フレームに入っては去ることで「届かなかった何か」の具体的な形として画面に存在する。",
+                "connection": "character",
+                "arc": "初登場：宛先を探してフレームの端を不安定に飛ぶ → 最終登場：光柱に向かって一直線に飛び込み、発光しながら残滓になる——迷いから解放へ。",
+                "tone_mirror": "BPM178の高速ビートに合わせてはばたきのリズムが上がり、kawaii × high energyの楽曲トーンを鳥の羽音で補強する。"
+              }
+            ]
+          },
+          "created_at": "2026-03-14 17:30:39.085865",
+          "persona_profile": {
+            "id": "persona-a514e5e9",
+            "name": "Takoda Whitecrow",
+            "gender": "男性",
+            "birthdate": "7888-09-29",
+            "age": 33,
+            "origin_city": "サンクトペテルブルク",
+            "ethnic_background": "北米先住民系",
+            "life_history": [
+              {
+                "year": 7888,
+                "event": "サンクトペテルブルク郊外の小規模コミュニティで生まれる。父は漁業、母は地域の集会所で事務を担当していた。"
+              },
+              {
+                "year": 7902,
+                "event": "14歳で地元の職業訓練校に進学し、機械整備の基礎を学ぶ。同時に週末は父の漁船を手伝っていた。"
+              },
+              {
+                "year": 7906,
+                "event": "卒業後、市内の造船所で見習い整備士として就職。半年後、重大な機材破損事故を起こし解雇される。"
+              },
+              {
+                "year": 7909,
+                "event": "建設現場の日雇い労働を転々とする中、腰を痛めて3ヶ月間働けなくなる。実家に戻り療養。"
+              },
+              {
+                "year": 7912,
+                "event": "回復後、知人の紹介で物流倉庫の夜勤フォークリフトオペレーターとして再就職。資格を取得し正社員になる。"
+              },
+              {
+                "year": 7916,
+                "event": "倉庫内で効率改善の提案が採用され、班長に昇進。同僚との信頼関係が構築される。"
+              },
+              {
+                "year": 7919,
+                "event": "市内の別の物流企業にヘッドハントされ、倉庫管理責任者として転職。給与が1.5倍になる。"
+              },
+              {
+                "year": 7921,
+                "event": "小さなアパートを購入。週末は釣りに出かけ、父と同じ場所で魚を獲ることが習慣になっている。"
+              }
+            ],
+            "current_situation": "現在は中規模の物流企業で倉庫管理責任者として勤務しており、15名のスタッフを統括している。サンクトペテルブルク市内の2LDKアパートに一人暮らし。通勤は自転車で片道25分程度。週末は早朝に海へ釣りに出かけ、獲れた魚を近所の知人に配ることもある。月に一度、実家に帰って両親と食事をする。",
+            "external_perception": {
+              "first_impression": "物静かで表情の変化が少ないため、取っつきにくいと思われることが多い。",
+              "close_friends_view": "一度信頼すると非常に頼りになり、困った時には黙って手を貸してくれる人物として評価されている。",
+              "misunderstandings": "無愛想に見えるため冷たい人間だと誤解されがちだが、実際には単に口数が少ないだけである。"
+            },
+            "stance_on_past": "笑い話にできるようになった",
+            "portrait_url": "sessions/persona_pool_v2/portraits/persona-a514e5e9.png"
+          },
+          "persona_name": "Takoda Whitecrow",
+          "persona_status": "笑い話にできるようになった"
+        }
+      ],
+      "vote": {
+        "winner_key": "C",
+        "tally": {
+          "A": 6,
+          "B": 5,
+          "C": 9
+        },
+        "like_tally": {
+          "A": 2,
+          "B": 5,
+          "C": 3
+        },
+        "dislike_tally": {
+          "A": 4,
+          "B": 0,
+          "C": 6
+        },
+        "votes": [
+          {
+            "voter": "Marcus Aurelius Ventinius",
+            "like": "C",
+            "like_reason": "行為の残滓が「世界の物理法則」として回収されるという構造は、ストア哲学的な宇宙の秩序への共鳴を感じさせる。孤独な努力が宇宙的な意味を持つという思想が好ましい。",
+            "dislike": "A",
+            "dislike_reason": "「まあいいか」と笑って終わるという軽さが、行為の重みを矮小化している印象を受ける。港で黙々と働く者として、その安易な解決に違和感がある。"
+          },
+          {
+            "voter": "たなか ふみこ",
+            "like": "B",
+            "like_reason": "「その強さが何だったのかをまだ言語化できていない」という表現が胸に刺さる。孫娘たちがいつかこういう夜を経験するかもしれないと思うと、温かく見守りたい気持ちになる。",
+            "dislike": "C",
+            "dislike_reason": "アニメやゲームのキャラクターデザインに特化した層向けと明示されており、65歳の自分には少し遠い世界。球体関節や枝角という設定が理解しにくく感じる。"
+          },
+          {
+            "voter": "Chen Yulian",
+            "like": "C",
+            "like_reason": "返事が来なかった行為ほど残滓が大きく残るという物理法則は、商いで裏切られても記憶が蓄積されていく自分の経験と重なる。祝祭の幕開けという逆説的な強さが興味深い。",
+            "dislike": "A",
+            "dislike_reason": "コール＆レスポンスをひとりでやるという孤独な陽気さは、一人で店を切り盛りする身には痛みとして映り、娯楽として楽しめそうにない。"
+          },
+          {
+            "voter": "かわさき あやの",
+            "like": "B",
+            "like_reason": "離婚を経験した身として「強さが何だったのかをまだ言語化できていない」という問いかけが刺さる。宙吊りのまま終わるかもしれない構造も、人生の現実と重なって深みがある。",
+            "dislike": "C",
+            "dislike_reason": "10〜20代前半のアニメ・ゲームファン向けとターゲットが絞られており、30代後半の自分には少し的外れ感がある。商社でのキャリアを経た目線では訴求力が薄い。"
+          },
+          {
+            "voter": "Alex Reyes",
+            "like": "A",
+            "like_reason": "通知ゼロで笑っているリスという掴みが一番シンプルで面白い。積み重ねたいのか消したいのかという問いは、ロボット工学部でプロジェクトが上手くいかない時の気持ちと近い。",
+            "dislike": "C",
+            "dislike_reason": "「世界の物理法則として回収される」という説明が説明的すぎて、映像を見る前から答えを教えられている感じがして興醒め。驚きがなさそう。"
+          },
+          {
+            "voter": "Rashid al-Omari",
+            "like": "A",
+            "like_reason": "「積み重ねたいのか消したいのか」という問いが、長い時間を生きてきた自分の根幹的な問いと重なる。残滓が積み重なる世界観に深い共鳴を感じる。",
+            "dislike": "C",
+            "dislike_reason": "「世界の物理法則として回収される構造」という説明的な枠組みが、4000年の経験から見ると小賢しく感じる。謎は語られずに漂っていてほしい。"
+          },
+          {
+            "voter": "Vikram Patel",
+            "like": "B",
+            "like_reason": "「強さが何だったのかをまだ言語化できていない」という対象設定が、孫世代の感情に寄り添う自分の姿勢と重なる。コール＆レスポンスの孤独な祝祭が心に残る。",
+            "dislike": "C",
+            "dislike_reason": "冒頭から「この映像はこういう構造です」と予告されているようで、コミュニティの語り合いの中で育つ感動の余白がない。"
+          },
+          {
+            "voter": "Wei Lianhua",
+            "like": "B",
+            "like_reason": "晴れやかな顔の理由が最後まで明かされないという宙吊りが、自分の孤独な日常の中で反芻するのにちょうどよい余白を持っている。",
+            "dislike": "A",
+            "dislike_reason": "球体関節リスの「誰もいないのに一人でコール＆レスポンス」という描写が、孤独を過度に活劇化していて静かに共存している自分の感覚とずれる。"
+          },
+          {
+            "voter": "Rajesh Krishnan",
+            "like": "C",
+            "like_reason": "「返事が来なかった行為ほど残滓は大きく残る」という世界設定が論理的な因果構造を持ち、映像の謎が解法として回収される設計に知的な満足感を覚える。",
+            "dislike": "A",
+            "dislike_reason": "フックが「目的が読めない」という曖昧さに頼りすぎていて、何を解明しに見続ければいいのかの設計が不明確。深夜に集中して観るには手がかりが薄い。"
+          },
+          {
+            "voter": "Devika Ramírez",
+            "like": "B",
+            "like_reason": "「なぜか笑って乗り越えた経験」を持つ女性への共感が、長年の健康相談で聞いてきた語られない強さの話と重なる。枝角が誇らしげに揺れるイメージが温かい。",
+            "dislike": "C",
+            "dislike_reason": "「祝祭の幕開け」と宣言されてしまうと、感情が自然に高まる前に言葉で押しつけられる感じがして、人情の自然な流れを大切にする自分には合わない。"
+          }
+        ],
+        "analysis": "[batch 1] BとCが支持を集め、Aはネガティブ票が集中した。Bは「言語化できていない強さ」という普遍的な感情訴求が幅広い年代に響き、特に人生経験を持つ投票者から支持された。Cは哲学的・構造的な深みで知的志向の投票者に刺さった一方、ターゲット層の狭さが若年・高齢層から敬遠された。Aは明るいトーンと掴みの面白さで14歳のAlexを惹きつけたが、解決の「軽さ」が他の投票者には物足りなく映った。\n[batch 2] BがVikram・Wei・Devikaの3票likeを集め最多支持。「宙吊りの余白」と「言語化されていない強さ」への共鳴が幅広い年齢層に刺さった。Cは論理志向のRajeshにlike票を得た一方、「構造の説明的先出し」がDevika・Vikramのdislikeを集めた。Aは積み重ねテーマでRashidのlikeを得たが、孤独の活劇化がWeiのdislikeを招き評価が分散した。",
+        "is_tiebreak": false,
+        "tiebreak_reason": null,
+        "goji_vote": null,
+        "vote_health": {
+          "valid_ballot_count": 10,
+          "total_like_count": 10,
+          "quorum_met": true,
+          "quorum_threshold": 2,
+          "reason": null,
+          "error": null,
+          "fallback": null
+        },
+        "controversy_scores": {
+          "A": 1.2972734327035422,
+          "B": 0.0,
+          "C": 1.5350567286626975
         }
       }
     },
@@ -18173,538 +18933,6 @@
           "A": 1.7823784642970022,
           "B": 1.433407575382444,
           "C": 2.1972245773362196
-        }
-      }
-    },
-    "phase4a": {
-      "proposals": [
-        {
-          "proposal_id": "phase4a-20260314172642-0",
-          "persona_id": "persona-21630109",
-          "content": {
-            "synopsis": "夜の屋上。球体関節を持つリスが、スマホを天高く掲げて「送信完了」ポーズを決めた瞬間から映像は始まる。画面には通知ゼロのインボックスが映り込んでいるが、リスの顔には一切の翳りがない。背負い旗が夜風を受けて翻る。街の灯りは遠く、誰もいない。それでもリスは一人でコール＆レスポンスをやり遂げ——その叫び声が空気に定着していく様子が、足元の砂地に小さな光柱として立ち始める。  precorusからchorusにかけて、映像は街へと広がる。街角の祠がひとつひとつ灯り始め、石臼の側面に刻まれた「ハイ」の文字が浮かび上がる。これはすべて、誰かが「返事ゼロのまままやり遂げた」行為の残滓だ——リスは自分の光柱がどこまで届くか試すように、球体関節の可動域を限界まで使って走り回る。枝角が祠の光に反応して淡く点滅し始める。視聴者が問いかけを受け取るのはここだ：リスは残滓を「積み重ねたい」のか、それとも「消したい」のか。その答えが、映像の結末を完全に変えてしまう。  arousal_peak（157秒）で光柱が臨界に達する。砂地の浅瀬でリスが両腕を広げた瞬間、過去の残滓すべてと周波数が合わさり、街全体が一瞬だけ白く染まる。しかし——光が引いた後に残るのは「送信完了」の文字だけだ。返事は来ない。来ないまま、リスは背負い旗を力強く一度だけ揺らし、踵を返す。その背中に、新しい光柱がひとつだけ、静かに立ち始める。",
-            "hook_pitch": "「通知ゼロで笑っているリスの目的が最後まで読めない」——積み重ねたいのか消したいのかという問いが回収されるまで、視聴者はスクロールできない。",
-            "key_images": [
-              "スマホを天高く掲げた球体関節リス——画面に「送信完了」と通知ゼロが同時に映り込んでいる夜の屋上",
-              "街角の祠がドミノ倒しのように次々と灯っていく路地——石臼に刻まれた「ハイ」の文字が浮かび上がる",
-              "砂地の浅瀬で両腕を広げたリスと、足元から街全体へ広がる光柱の白い爆発",
-              "光が引いた後の静寂——「送信完了」の文字だけが宙に浮かび、リスが背を向けて歩き出す",
-              "リスの背中に生まれる新しい光柱一本——誰も頼んでいないのに、ひとりでに灯る"
-            ],
-            "why_it_came": "「返事ゼロを損失ではなく生きた証と呼ぶ倒錯した強さ」を、球体関節リスという存在の「奇妙な愛らしさ」と合わせることで、説教ではなく祝祭として画面に定着させたかった。残滓が積み重なる世界の物理法則が、BPM178の高速ビートを「焦り」ではなく「一人祭りの証拠」に変換する構造として機能すると判断した。",
-            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験がある人——そして深夜にスマホを置いて「まあいいか」と笑えるようになった、10代後半から20代の女性。",
-            "emotional_arc_intent": "「空元気かもしれない」という疑念から始まり、光柱が臨界に達する瞬間に「これは本気の一人祭りだ」と確信し、最後の新しい光柱一本で「次も送り続けるんだ」という静かな高揚感に着地する。",
-            "locations": [
-              {
-                "location_id": "loc_001",
-                "name": "乾ききらない洗濯物がはためく夜の屋上",
-                "space_descriptor": "街の灯りが遠く、布の端が微かに発光し始めている——誰も来ない高さ。",
-                "narrative_role": "送信完了ポーズの舞台であり、最初の光柱が生まれる「一人祭り」の聖地。"
-              },
-              {
-                "location_id": "loc_002",
-                "name": "石臼と祠が乱立する路地",
-                "space_descriptor": "大きさも形もバラバラな祠が街角に密集し、触れると淡く光る——過去の残滓が結晶化した区画。",
-                "narrative_role": "リスが「自分の残滓がどこまで届くか」を試す探索フィールドであり、視聴者への問いかけが最大化する場所。"
-              },
-              {
-                "location_id": "loc_003",
-                "name": "砂地の浅瀬——残滓が最も濃い低地",
-                "space_descriptor": "地面が薄く光を帯びた砂で覆われた浅瀬で、過去の誰かのコールが今も空気を振動させている。",
-                "narrative_role": "arousal_peakで光柱が臨界に達し、街全体が白く染まる——物語の賭けが回収される決定的な空間。"
-              }
-            ],
-            "cast": [
-              {
-                "role": "main",
-                "source": "phase2.character_profile",
-                "label": "球体関節リス",
-                "usage_note": "球体関節の急転換の動きと背負い旗の遅れた翻りで、BPM178の高速ビートを「一人祭りの証拠」として体現する主人公。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "prop",
-                "source": "phase1.hook_scene",
-                "label": "通知ゼロのスマホ",
-                "usage_note": "「送信完了」と「返事ゼロ」が同一画面に映り込む小道具として、物語の中心的な賭けを視覚化する。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "backdrop",
-                "source": "phase3.world_setting",
-                "label": "祈念残滓の街",
-                "usage_note": "光柱・祠・石臼の刻み文字が連動して灯ることで、「返事が来なかった行為が消えずに積み重なる」世界の物理法則を背景として可視化する。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "sub",
-                "source": null,
-                "label": "迷子の光の虫",
-                "usage_note": "画面の端を漂いながら、リスの光柱が臨界に達した瞬間だけ一点に集まり、その後また散り散りになる——楽曲の高速ビートに合わせて明滅するカワイイ存在。",
-                "override": null,
-                "detail": {
-                  "role_in_frame": "画面の周縁を自律的に漂い、時折リスの枝角に近づいては離れる小さな発光体の群れ。",
-                  "connection": "world",
-                  "arc": "序盤は個別にバラバラと漂っているが、光柱の臨界と同時に一点へ集結し、光が引いた後は再び散り散りに——ただし最後の一匹だけがリスの新しい光柱のそばに留まる。",
-                  "tone_mirror": "Kawaii × High Energyのトーンを、ピコピコとした動きの軽快さと明滅の速さで体現する。"
-                }
-              }
-            ],
-            "subs": [
-              {
-                "name": "迷子の光の虫",
-                "role_in_frame": "画面の周縁を自律的に漂い、時折リスの枝角に近づいては離れる小さな発光体の群れ。",
-                "connection": "world",
-                "arc": "序盤は個別にバラバラと漂っているが、光柱の臨界と同時に一点へ集結し、光が引いた後は再び散り散りに——ただし最後の一匹だけがリスの新しい光柱のそばに留まる。",
-                "tone_mirror": "Kawaii × High Energyのトーンを、ピコピコとした動きの軽快さと明滅の速さで体現する。"
-              }
-            ]
-          },
-          "created_at": "2026-03-14 17:26:42.739489",
-          "persona_profile": {
-            "id": "persona-21630109",
-            "name": "張文耀",
-            "gender": "男性",
-            "birthdate": "1695-09-09",
-            "age": 62,
-            "origin_city": "オークランド",
-            "ethnic_background": "東アジア系",
-            "life_history": [
-              {
-                "year": 1695,
-                "event": "オークランド郊外の農村地帯で生まれた。父は稲作農家、母は織物を売る行商をしていた。"
-              },
-              {
-                "year": 1702,
-                "event": "7歳の時、高熱と発疹を伴う疫病にかかり、村の半数が亡くなった。左耳の聴力を失った。"
-              },
-              {
-                "year": 1711,
-                "event": "16歳で港湾地区の倉庫番として働き始めた。船荷の積み下ろしと在庫管理を担当した。"
-              },
-              {
-                "year": 1719,
-                "event": "24歳の時、倉庫で重い木箱が落下し左肩と肋骨を骨折した。3ヶ月間働けなかった。"
-              },
-              {
-                "year": 1727,
-                "event": "32歳で同じ港で働く女性と結婚した。翌年長男が生まれたが、2歳で熱病で亡くした。"
-              },
-              {
-                "year": 1735,
-                "event": "40歳の時、倉庫管理の責任者に昇進した。15人の労働者を監督する立場になった。"
-              },
-              {
-                "year": 1748,
-                "event": "53歳の時、妻が出産時の合併症で亡くなった。娘は生き延びたが、その後再婚はしなかった。"
-              },
-              {
-                "year": 1754,
-                "event": "59歳で倉庫での階段転落事故により右足首を複雑骨折し、歩行に杖が必要になった。"
-              }
-            ],
-            "current_situation": "現在は港湾倉庫の記録係として週3日勤務している。体力仕事はできないが、長年の経験を活かして在庫台帳の管理と新人教育を担当している。オークランド港近くの共同住宅で一人暮らしをしており、19歳の娘は別の地区で縫製工として働いている。右足首の古傷が雨天時に痛み、左耳の聴力欠損のため人混みでの会話に困難を感じることがある。月に一度娘が訪ねてくるが、会話は必要最小限にとどまることが多い。",
-            "external_perception": {
-              "first_impression": "無口で近寄りがたい印象を与える。杖をついてゆっくり歩く姿と、話しかけられても聞き返すことが多いため、不機嫌に見られがち。",
-              "close_friends_view": "仕事に対しては誠実で正確。若い労働者には厳しいが、危険な作業では必ず事前に注意を促す。昔話はほとんどせず、家族についても語らない。",
-              "misunderstandings": "冷淡で感情がないように見られるが、実際には聞こえづらさを補うために表情を抑えているだけだとは気づかれていない。娘との距離も無関心と誤解されている。"
-            },
-            "stance_on_past": "まだ傷として残っている",
-            "portrait_url": "sessions/persona_pool_v2/portraits/persona-21630109.png"
-          },
-          "persona_name": "張文耀",
-          "persona_status": "まだ傷として残っている"
-        },
-        {
-          "proposal_id": "phase4a-20260314172937-1",
-          "persona_id": "persona-c351f248",
-          "content": {
-            "synopsis": "夜の屋上。乾ききらない洗濯物が風にはためき、布の端が微かに発光している。球体関節のリス——頭頂から枝角を伸ばし、背に小旗を揺らす——が砂地の浅瀬から屋上へと急転換の動きで駆け上がる。彼女はスマホを天高く掲げる。画面には「送信完了」の文字と、通知ゼロのインボックス。返事は来ない。それでも両腕を広げ、一人でコール＆レスポンスを始める。「ハイ！ハイ！」と叫ぶたびに、その行為が空気に刻まれ、足元の砂地に光柱が走り、街角の祠が淡く応答する。  祠を巡りながらリスは過去の残滓に触れる。誰かの「返事ゼロの叫び」が掌に流れ込むたびに、背負い旗の色が変わる。石臼の側面に無数の「ハイ」が刻まれた路地、浅瀬の光柱が初めて出現した夜の記憶——届かなかった行為ほど大きく残る、この世界の法則がリスの体を震わせる。彼女自身の「送信」はまだ誰にも届いていない。しかし残滓は消えない。街はそれを覚えている。  最後の夜、arousal_peakの瞬間。砂地の浅瀬にリスが立ち、両腕を限界まで広げると、これまで積み上げた全ての残滓が周波数を合わせて共鳴する。光柱が街を照らす。送信ボタンを押した女の子の残滓と、リスの行為が同期し、一瞬だけ色が変わって安定する——「やり遂げた」と確信した瞬間だけ変わる、あの色に。返事は来ない。それでも、送信は完了した。",
-            "hook_pitch": "通知ゼロの画面を前に晴れやかな顔をしている理由が最後まで明かされない——残滓の色が変わる「やり遂げた確信」の瞬間がいつ来るのか、来ないのかという宙吊りが視聴者を引き留める。",
-            "key_images": [
-              "スマホを天高く掲げたリス——画面に「送信完了」と通知ゼロが映り込んでいるのに、枝角が誇らしげに揺れている",
-              "石臼の側面に刻まれた無数の「ハイ」——リスが指先で触れると、過去の叫びが掌に流れ込み、背負い旗がわずかに遅れて翻る",
-              "砂地の浅瀬に立つリスの足元から走る光柱——誰も頼んでいないのに街を照らし始める夜",
-              "街角の祠がリスの「ハイ！ハイ！」に応えて淡く光る連鎖——バラバラな大きさの祠が次々と点灯していく路地",
-              "最終カット：両腕を広げたリスを包む全残滓の共鳴——色が変わって安定する瞬間、背負い旗が真っすぐに立つ"
-            ],
-            "why_it_came": "「返事ゼロのまま両腕を広げてコールをやり遂げる」という行為の強度を世界の物理法則にした世界設定と、球体関節の急転換という身体性が、送信完了の祝祭感を最も純粋に体現できると判断した。商人として取引相手の返事を待つ私の論理の真逆——返事ゼロを「生きた証」と呼ぶ倒錯した強さが、残滓として街に積み重なる世界観と一致した。",
-            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験があり、その強さが何だったのかをまだ言語化できていない10代後半から20代の女性。",
-            "emotional_arc_intent": "「返事ゼロの空元気」という入口から、行為が世界に刻まれるという事実の発見を経て、最後に「届かなくてもやり遂げた」という確信が祝祭として爆発する——笑いの理由が腑に落ちる解放感。",
-            "locations": [
-              {
-                "location_id": "loc_001",
-                "name": "夜の屋上（洗濯物の屋上）",
-                "space_descriptor": "乾ききらない洗濯物が夜風に揺れ、布の端が微かに発光している高台の空間。",
-                "narrative_role": "送信完了のコール＆レスポンスが最初に行われ、残滓が生まれる起点となる場所。"
-              },
-              {
-                "location_id": "loc_002",
-                "name": "砂地の浅瀬",
-                "space_descriptor": "残滓が最も濃く積もり、光柱が出現しやすい水際の砂地。",
-                "narrative_role": "過去の残滓との同期が起こる場所であり、最終カットの共鳴シーンの舞台。"
-              },
-              {
-                "location_id": "loc_003",
-                "name": "石臼の路地",
-                "space_descriptor": "側面に無数の「ハイ」が刻まれた石臼が並ぶ、大きさも形もバラバラな祠が密集する路地。",
-                "narrative_role": "リスが残滓に触れて過去の叫びを受け取る中間地点であり、世界の法則を体感させる場所。"
-              }
-            ],
-            "cast": [
-              {
-                "role": "main",
-                "source": "phase2.character_profile",
-                "label": "球体関節リス（旗持ち）",
-                "usage_note": "主人公として全シーンに登場し、球体関節の急転換で高BPMのリズムを身体化しながら残滓の世界を巡る。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "motif",
-                "source": "phase1.hook_scene",
-                "label": "通知ゼロのスマホ画面",
-                "usage_note": "「送信完了」と通知ゼロが同時に映る画面として繰り返し登場し、返事ゼロという事実と祝祭感の矛盾を視覚化する。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "backdrop",
-                "source": "phase3.world_setting",
-                "label": "祈念残滓の街（祠・光柱・石臼）",
-                "usage_note": "届かなかった行為が物理的に積み重なる世界として機能し、リスの行為が街の構造に加算されていく過程を映す。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "sub",
-                "source": null,
-                "label": "送信した女の子の残滓",
-                "usage_note": "最終カットでリスと周波数が同期する過去の残滓として現れ、二つの「やり遂げた」が共鳴する瞬間を作る。",
-                "override": null,
-                "detail": {
-                  "role_in_frame": "画面の縁に不在のまま気配として滲み、最終カットで初めて輪郭を持ち色が変わって安定する。",
-                  "connection": "theme",
-                  "arc": "不在のまま存在感を持ち続け、最後に色が変わって安定することで「確信」の証人となる。",
-                  "tone_mirror": "リスの祝祭感と同質の、一人で完結した強さをBPM178の余韻として体現する。"
-                }
-              }
-            ],
-            "subs": [
-              {
-                "name": "送信した女の子の残滓",
-                "role_in_frame": "画面の縁に不在のまま気配として滲み、最終カットで初めて輪郭を持ち色が変わって安定する。",
-                "connection": "theme",
-                "arc": "不在のまま存在感を持ち続け、最後に色が変わって安定することで「確信」の証人となる。",
-                "tone_mirror": "リスの祝祭感と同質の、一人で完結した強さをBPM178の余韻として体現する。"
-              }
-            ]
-          },
-          "created_at": "2026-03-14 17:29:37.772419",
-          "persona_profile": {
-            "id": "persona-c351f248",
-            "name": "Aminah binti Osman",
-            "gender": "女性",
-            "birthdate": "1657-05-19",
-            "age": 58,
-            "origin_city": "シンガポール",
-            "ethnic_background": "東南アジア系",
-            "life_history": [
-              {
-                "year": 1657,
-                "event": "シンガポール島の漁村で生まれた。父は漁師、母は市場で香辛料を売っていた。"
-              },
-              {
-                "year": 1672,
-                "event": "15歳で隣村の商人の息子と結婚。翌年長男が生まれた。"
-              },
-              {
-                "year": 1681,
-                "event": "夫がマラッカへの交易航海中に嵐で行方不明になった。24歳で未亡人となり、3人の子供を抱えた。"
-              },
-              {
-                "year": 1684,
-                "event": "生計を立てるため、港で船員向けの食堂を開業した。料理の腕が評判を呼んだ。"
-              },
-              {
-                "year": 1693,
-                "event": "オランダ東インド会社の役人と再婚。バタヴィアへ移住し、食堂を閉じた。"
-              },
-              {
-                "year": 1702,
-                "event": "再婚相手が病死。遺産を相続し、シンガポールに戻って貸家業を始めた。"
-              },
-              {
-                "year": 1708,
-                "event": "長男が独立して交易商となり、次男は船大工の修行に出た。娘は地元の役人に嫁いだ。"
-              },
-              {
-                "year": 1714,
-                "event": "港近くに所有する複数の建物から賃料を得て、孫たちの世話をしながら暮らしている。"
-              }
-            ],
-            "current_situation": "シンガポール島の港近くに住んでいる。複数の建物を所有し、商人や船乗りに貸している。賃料収入で安定した生活を送っている。長男の家族が近くに住んでおり、孫が5人いる。朝は市場を散歩し、午後は近所の女性たちと世間話をすることが多い。",
-            "external_perception": {
-              "first_impression": "落ち着いた物腰で、年齢の割に背筋が伸びている。話し方は穏やかだが、交渉事になると譲らない一面がある。",
-              "close_friends_view": "何があっても動じない人。昔の苦労話もまるで他人の話のように淡々と語る。実利的で、感傷に流されることがない。",
-              "misunderstandings": "冷たい人だと思われることがある。実際は家族を大切にしているが、表情や口調に感情を出さないため誤解される。"
-            },
-            "stance_on_past": "他人事のように距離を置いて見ている",
-            "portrait_url": "sessions/persona_pool_v2/portraits/persona-c351f248.png"
-          },
-          "persona_name": "Aminah binti Osman",
-          "persona_status": "他人事のように距離を置いて見ている"
-        },
-        {
-          "proposal_id": "phase4a-20260314173039-2",
-          "persona_id": "persona-a514e5e9",
-          "content": {
-            "synopsis": "夜の屋上、乾ききらない洗濯物が街灯の光をはじいている。球体関節と枝角を持つリスが、スマホの「送信完了」画面を天に掲げて両腕を広げた——画面には通知ゼロのインボックスが光っている。これが失われる可能性のある「何か」ではなく、すでに失われたものの上に立つ祝祭の幕開けだ。リスは一人でコール＆レスポンスを始め、返事のない「ハイ！ハイ！」が空気を震わせるたびに、屋上の床に小さな祈念残滓が生まれていく。問いは一つ——この子は届かないことを知っているのか、知らないふりをしているのか。  映像は街へ下りる。砂地の浅瀬、石臼の立ち並ぶ路地、触ると淡く光る祠の群れ——過去の誰かが一人でやり遂げた行為が積み重なった世界で、リスは旗をなびかせながら駆け抜ける。途中、路地の祠に触れると掌に流れ込む感情がある——返事が来なかった夜の、あの奇妙な軽さだ。リスの球体関節が急転換を繰り返すたびに背負い旗が遅れて翻り、その残像が微かに発光して残滓になっていく。「届けたい」と「届かなくていい」が同じ速度で走っている。壊れるのは、その二つが別物だという前提だ。   arousal_peak、砂地の浅瀬でリスが両腕を最大に広げた瞬間——足元から光柱が立ち上がる。残滓が臨界に達した夜だけ起きる現象。街を照らす光は誰も頼んでいないのに広がり、100万回分の「大好き」が音波として石臼の刻み文字を震わせる。最後のカット、リスはスマホをポケットにしまい、旗を背負ったまま屋上へ戻る——インボックスは相変わらず空だが、屋上に新しい祈念残滓がひとつ増えている。回収条件は達成された。送信は完了した。返事は関係ない。",
-            "hook_pitch": "「通知ゼロの画面を見て、なぜあんなに晴れやかな顔をしているのか」という問いが冒頭で提示され、その答えが「返事が来なかった行為ほど残滓は大きく残る」という世界の物理法則として回収される構造になっている——見終わったとき、自分の過去の「既読なし」が意味を変える。",
-            "key_images": [
-              "夜の屋上でスマホ画面「送信完了」を天に掲げるリス——画面の光が洗濯物を照らし、通知ゼロのインボックスが顔に映り込んでいる",
-              "石臼の側面に刻まれた無数の「ハイ」の痕——リスが触れると文字が淡く光り、掌に何かが流れ込む",
-              "砂地の浅瀬でリスが両腕を広げた瞬間、足元から光柱が立ち上がり街全体を照らしていく",
-              "球体関節が急転換する刹那、背負い旗が遅れて翻り、その軌跡が微かに発光して残滓になっていく連続カット",
-              "エンディング、屋上に戻ったリスの足元に新しい祈念残滓がひとつ——インボックスは空のまま、リスは笑っている"
-            ],
-            "why_it_came": "「届かなかったものが消えずに積み重なる街」という物理法則を使えば、通知ゼロのまま笑う行為が損失でも強がりでもなく「建設」になると気づいた。倉庫で在庫が積み上がるように、返事のない行為が世界を形成していくなら、その積み重ねこそが主人公の勝利条件だ。",
-            "who_should_watch": "誰かに「大好き」と送って既読すらつかなかった夜を、なぜか笑って乗り越えた経験がある人——そしてアニメやゲームのキャラクターデザインに反応する10〜20代前半で、「かわいいけど少し変」な造形に引っかかりを感じる視聴者。",
-            "emotional_arc_intent": "「届かないかもしれない不安」から始まり「届かなくていい、送ること自体が完了だ」という逆転した祝祭感へ——視聴者が笑いながら泣けるか泣きながら笑えるかの境界線を走り抜ける。",
-            "locations": [
-              {
-                "location_id": "loc_001",
-                "name": "夜の屋上（乾ききらない洗濯物と街灯）",
-                "space_descriptor": "高層でも低層でもない建物の屋上、洗濯物が夜風に揺れ、布の端が微かに発光している。街の灯りが遠く、誰も見ていない。",
-                "narrative_role": "物語の起点と終点。通知ゼロの送信完了が行われる場所であり、最後に新しい祈念残滓が生まれる場所。"
-              },
-              {
-                "location_id": "loc_002",
-                "name": "石臼の立ち並ぶ路地（祠の群れ）",
-                "space_descriptor": "大きさも形もバラバラな祠が路地に密集し、触れると淡く光る。石臼の側面に無数の「ハイ」の文字が刻まれている。",
-                "narrative_role": "過去の誰かが一人でやり遂げた行為の結晶体が並ぶ中間地点——リスが自分の行為と先人の行為が同じ構造であることを感触で知る場所。"
-              },
-              {
-                "location_id": "loc_003",
-                "name": "砂地の浅瀬（光柱の出現点）",
-                "space_descriptor": "街の端にある浅い水辺、砂地に残滓が特に濃く堆積しており、過去のコールが今も空気を振動させている。",
-                "narrative_role": "arousal_peakの舞台。リスが両腕を最大に広げた瞬間に光柱が立ち上がり、送信完了の物理的証明が完成する。"
-              }
-            ],
-            "cast": [
-              {
-                "role": "main",
-                "source": "phase2.character_profile",
-                "label": "球体関節リス（背負い旗）",
-                "usage_note": "BPM178の高速ビートに合わせた急転換の動きで画面を引っ張る主人公。球体関節の可動域と枝角への視線誘導が映像のリズムを作る。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "prop",
-                "source": "phase1.hook_scene",
-                "label": "送信完了スマホ",
-                "usage_note": "冒頭で天に掲げられ通知ゼロのインボックスが顔に映り込む——エンディングでポケットにしまわれることで「回収完了」を示す小道具。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "backdrop",
-                "source": "phase3.world_setting",
-                "label": "祈念残滓の街",
-                "usage_note": "石臼・祠・光柱・発光する洗濯物が世界のルールを可視化し、リスの行為に物理的な意味を与える背景として機能する。",
-                "override": null,
-                "detail": null
-              },
-              {
-                "role": "sub",
-                "source": null,
-                "label": "迷子の伝書鶴",
-                "usage_note": "loc_002の路地に迷い込んだ折り紙の伝書鶴——宛先不明のまま路地をさまよい、最終的に光柱に吸い込まれて残滓の一部になる。",
-                "override": null,
-                "detail": {
-                  "role_in_frame": "路地と浅瀬のあいだを自律的に飛び回り、フレームに入っては去ることで「届かなかった何か」の具体的な形として画面に存在する。",
-                  "connection": "character",
-                  "arc": "初登場：宛先を探してフレームの端を不安定に飛ぶ → 最終登場：光柱に向かって一直線に飛び込み、発光しながら残滓になる——迷いから解放へ。",
-                  "tone_mirror": "BPM178の高速ビートに合わせてはばたきのリズムが上がり、kawaii × high energyの楽曲トーンを鳥の羽音で補強する。"
-                }
-              }
-            ],
-            "subs": [
-              {
-                "name": "迷子の伝書鶴",
-                "role_in_frame": "路地と浅瀬のあいだを自律的に飛び回り、フレームに入っては去ることで「届かなかった何か」の具体的な形として画面に存在する。",
-                "connection": "character",
-                "arc": "初登場：宛先を探してフレームの端を不安定に飛ぶ → 最終登場：光柱に向かって一直線に飛び込み、発光しながら残滓になる——迷いから解放へ。",
-                "tone_mirror": "BPM178の高速ビートに合わせてはばたきのリズムが上がり、kawaii × high energyの楽曲トーンを鳥の羽音で補強する。"
-              }
-            ]
-          },
-          "created_at": "2026-03-14 17:30:39.085865",
-          "persona_profile": {
-            "id": "persona-a514e5e9",
-            "name": "Takoda Whitecrow",
-            "gender": "男性",
-            "birthdate": "7888-09-29",
-            "age": 33,
-            "origin_city": "サンクトペテルブルク",
-            "ethnic_background": "北米先住民系",
-            "life_history": [
-              {
-                "year": 7888,
-                "event": "サンクトペテルブルク郊外の小規模コミュニティで生まれる。父は漁業、母は地域の集会所で事務を担当していた。"
-              },
-              {
-                "year": 7902,
-                "event": "14歳で地元の職業訓練校に進学し、機械整備の基礎を学ぶ。同時に週末は父の漁船を手伝っていた。"
-              },
-              {
-                "year": 7906,
-                "event": "卒業後、市内の造船所で見習い整備士として就職。半年後、重大な機材破損事故を起こし解雇される。"
-              },
-              {
-                "year": 7909,
-                "event": "建設現場の日雇い労働を転々とする中、腰を痛めて3ヶ月間働けなくなる。実家に戻り療養。"
-              },
-              {
-                "year": 7912,
-                "event": "回復後、知人の紹介で物流倉庫の夜勤フォークリフトオペレーターとして再就職。資格を取得し正社員になる。"
-              },
-              {
-                "year": 7916,
-                "event": "倉庫内で効率改善の提案が採用され、班長に昇進。同僚との信頼関係が構築される。"
-              },
-              {
-                "year": 7919,
-                "event": "市内の別の物流企業にヘッドハントされ、倉庫管理責任者として転職。給与が1.5倍になる。"
-              },
-              {
-                "year": 7921,
-                "event": "小さなアパートを購入。週末は釣りに出かけ、父と同じ場所で魚を獲ることが習慣になっている。"
-              }
-            ],
-            "current_situation": "現在は中規模の物流企業で倉庫管理責任者として勤務しており、15名のスタッフを統括している。サンクトペテルブルク市内の2LDKアパートに一人暮らし。通勤は自転車で片道25分程度。週末は早朝に海へ釣りに出かけ、獲れた魚を近所の知人に配ることもある。月に一度、実家に帰って両親と食事をする。",
-            "external_perception": {
-              "first_impression": "物静かで表情の変化が少ないため、取っつきにくいと思われることが多い。",
-              "close_friends_view": "一度信頼すると非常に頼りになり、困った時には黙って手を貸してくれる人物として評価されている。",
-              "misunderstandings": "無愛想に見えるため冷たい人間だと誤解されがちだが、実際には単に口数が少ないだけである。"
-            },
-            "stance_on_past": "笑い話にできるようになった",
-            "portrait_url": "sessions/persona_pool_v2/portraits/persona-a514e5e9.png"
-          },
-          "persona_name": "Takoda Whitecrow",
-          "persona_status": "笑い話にできるようになった"
-        }
-      ],
-      "vote": {
-        "winner_key": "C",
-        "tally": {
-          "A": 6,
-          "B": 5,
-          "C": 9
-        },
-        "like_tally": {
-          "A": 2,
-          "B": 5,
-          "C": 3
-        },
-        "dislike_tally": {
-          "A": 4,
-          "B": 0,
-          "C": 6
-        },
-        "votes": [
-          {
-            "voter": "Marcus Aurelius Ventinius",
-            "like": "C",
-            "like_reason": "行為の残滓が「世界の物理法則」として回収されるという構造は、ストア哲学的な宇宙の秩序への共鳴を感じさせる。孤独な努力が宇宙的な意味を持つという思想が好ましい。",
-            "dislike": "A",
-            "dislike_reason": "「まあいいか」と笑って終わるという軽さが、行為の重みを矮小化している印象を受ける。港で黙々と働く者として、その安易な解決に違和感がある。"
-          },
-          {
-            "voter": "たなか ふみこ",
-            "like": "B",
-            "like_reason": "「その強さが何だったのかをまだ言語化できていない」という表現が胸に刺さる。孫娘たちがいつかこういう夜を経験するかもしれないと思うと、温かく見守りたい気持ちになる。",
-            "dislike": "C",
-            "dislike_reason": "アニメやゲームのキャラクターデザインに特化した層向けと明示されており、65歳の自分には少し遠い世界。球体関節や枝角という設定が理解しにくく感じる。"
-          },
-          {
-            "voter": "Chen Yulian",
-            "like": "C",
-            "like_reason": "返事が来なかった行為ほど残滓が大きく残るという物理法則は、商いで裏切られても記憶が蓄積されていく自分の経験と重なる。祝祭の幕開けという逆説的な強さが興味深い。",
-            "dislike": "A",
-            "dislike_reason": "コール＆レスポンスをひとりでやるという孤独な陽気さは、一人で店を切り盛りする身には痛みとして映り、娯楽として楽しめそうにない。"
-          },
-          {
-            "voter": "かわさき あやの",
-            "like": "B",
-            "like_reason": "離婚を経験した身として「強さが何だったのかをまだ言語化できていない」という問いかけが刺さる。宙吊りのまま終わるかもしれない構造も、人生の現実と重なって深みがある。",
-            "dislike": "C",
-            "dislike_reason": "10〜20代前半のアニメ・ゲームファン向けとターゲットが絞られており、30代後半の自分には少し的外れ感がある。商社でのキャリアを経た目線では訴求力が薄い。"
-          },
-          {
-            "voter": "Alex Reyes",
-            "like": "A",
-            "like_reason": "通知ゼロで笑っているリスという掴みが一番シンプルで面白い。積み重ねたいのか消したいのかという問いは、ロボット工学部でプロジェクトが上手くいかない時の気持ちと近い。",
-            "dislike": "C",
-            "dislike_reason": "「世界の物理法則として回収される」という説明が説明的すぎて、映像を見る前から答えを教えられている感じがして興醒め。驚きがなさそう。"
-          },
-          {
-            "voter": "Rashid al-Omari",
-            "like": "A",
-            "like_reason": "「積み重ねたいのか消したいのか」という問いが、長い時間を生きてきた自分の根幹的な問いと重なる。残滓が積み重なる世界観に深い共鳴を感じる。",
-            "dislike": "C",
-            "dislike_reason": "「世界の物理法則として回収される構造」という説明的な枠組みが、4000年の経験から見ると小賢しく感じる。謎は語られずに漂っていてほしい。"
-          },
-          {
-            "voter": "Vikram Patel",
-            "like": "B",
-            "like_reason": "「強さが何だったのかをまだ言語化できていない」という対象設定が、孫世代の感情に寄り添う自分の姿勢と重なる。コール＆レスポンスの孤独な祝祭が心に残る。",
-            "dislike": "C",
-            "dislike_reason": "冒頭から「この映像はこういう構造です」と予告されているようで、コミュニティの語り合いの中で育つ感動の余白がない。"
-          },
-          {
-            "voter": "Wei Lianhua",
-            "like": "B",
-            "like_reason": "晴れやかな顔の理由が最後まで明かされないという宙吊りが、自分の孤独な日常の中で反芻するのにちょうどよい余白を持っている。",
-            "dislike": "A",
-            "dislike_reason": "球体関節リスの「誰もいないのに一人でコール＆レスポンス」という描写が、孤独を過度に活劇化していて静かに共存している自分の感覚とずれる。"
-          },
-          {
-            "voter": "Rajesh Krishnan",
-            "like": "C",
-            "like_reason": "「返事が来なかった行為ほど残滓は大きく残る」という世界設定が論理的な因果構造を持ち、映像の謎が解法として回収される設計に知的な満足感を覚える。",
-            "dislike": "A",
-            "dislike_reason": "フックが「目的が読めない」という曖昧さに頼りすぎていて、何を解明しに見続ければいいのかの設計が不明確。深夜に集中して観るには手がかりが薄い。"
-          },
-          {
-            "voter": "Devika Ramírez",
-            "like": "B",
-            "like_reason": "「なぜか笑って乗り越えた経験」を持つ女性への共感が、長年の健康相談で聞いてきた語られない強さの話と重なる。枝角が誇らしげに揺れるイメージが温かい。",
-            "dislike": "C",
-            "dislike_reason": "「祝祭の幕開け」と宣言されてしまうと、感情が自然に高まる前に言葉で押しつけられる感じがして、人情の自然な流れを大切にする自分には合わない。"
-          }
-        ],
-        "analysis": "[batch 1] BとCが支持を集め、Aはネガティブ票が集中した。Bは「言語化できていない強さ」という普遍的な感情訴求が幅広い年代に響き、特に人生経験を持つ投票者から支持された。Cは哲学的・構造的な深みで知的志向の投票者に刺さった一方、ターゲット層の狭さが若年・高齢層から敬遠された。Aは明るいトーンと掴みの面白さで14歳のAlexを惹きつけたが、解決の「軽さ」が他の投票者には物足りなく映った。\n[batch 2] BがVikram・Wei・Devikaの3票likeを集め最多支持。「宙吊りの余白」と「言語化されていない強さ」への共鳴が幅広い年齢層に刺さった。Cは論理志向のRajeshにlike票を得た一方、「構造の説明的先出し」がDevika・Vikramのdislikeを集めた。Aは積み重ねテーマでRashidのlikeを得たが、孤独の活劇化がWeiのdislikeを招き評価が分散した。",
-        "is_tiebreak": false,
-        "tiebreak_reason": null,
-        "goji_vote": null,
-        "vote_health": {
-          "valid_ballot_count": 10,
-          "total_like_count": 10,
-          "quorum_met": true,
-          "quorum_threshold": 2,
-          "reason": null,
-          "error": null,
-          "fallback": null
-        },
-        "controversy_scores": {
-          "A": 1.2972734327035422,
-          "B": 0.0,
-          "C": 1.5350567286626975
         }
       }
     },
@@ -20694,6 +20922,7 @@
       proposals: "Proposals", voting: "Voting", winner: "Winner", voteHealth: "Vote Health",
       quorumMet: "Quorum met", ballots: "Valid ballots",
       setup: "Setup", question: "Question", escalation: "Escalation", reveal: "Reveal", payoff: "Payoff",
+      cutScenes: "Cut Scenes",
     },
     ja: {
       navOverview: "\u6982\u8981", navBlueprint: "\u4f01\u753b\u66f8", navPipeline: "\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3",
@@ -20719,6 +20948,7 @@
       proposals: "\u63d0\u6848", voting: "\u6295\u7968", winner: "\u52dd\u8005", voteHealth: "\u6295\u7968\u5065\u5168\u6027",
       quorumMet: "\u5b9a\u8db3\u6570\u9054\u6210", ballots: "\u6709\u52b9\u7968",
       setup: "\u5c0e\u5165", question: "\u554f\u3044", escalation: "\u30a8\u30b9\u30ab\u30ec\u30fc\u30b7\u30e7\u30f3", reveal: "\u958b\u793a", payoff: "\u5831\u916c",
+      cutScenes: "\u30ab\u30c3\u30c8\u3055\u308c\u305f\u30b7\u30fc\u30f3",
     }
   };
   function t(key) { return (i18n[lang] || i18n.ja)[key] || key; }
@@ -22097,6 +22327,7 @@
   function renderClips() {
     renderFilterBar();
     applyFilters();
+    renderCutScenes();
   }
 
   function renderFilterBar() {
@@ -22177,6 +22408,60 @@
       if (!card) return;
       selectClip(card.dataset.clipId);
     };
+  }
+
+  /* ── Cut Scenes (orphan shot_intents) ─────────────── */
+  function renderCutScenes() {
+    const scenes = DATA.cut_scenes || [];
+    const section = document.getElementById("cut-scenes-section");
+    if (!section) return;
+    if (!scenes.length) { section.style.display = "none"; return; }
+    section.style.display = "block";
+    document.getElementById("cut-scene-count").textContent = scenes.length;
+    const grid = document.getElementById("cut-scene-grid");
+    grid.innerHTML = scenes.map(s => {
+      const desc = s.subject || s.visual_description || "";
+      const tags = [];
+      if (s.framing) tags.push(`<span class="clip-tag" style="background:var(--bg-overlay);color:var(--dim)">${esc(s.framing)}</span>`);
+      if (s.camera_motion) tags.push(`<span class="clip-tag" style="background:var(--bg-overlay);color:var(--dim)">${esc(s.camera_motion)}</span>`);
+      return `<div class="clip-card cut-scene" data-shot-id="${esc(s.shot_id)}">
+        <div class="clip-card-id">${esc(s.shot_id)}</div>
+        ${desc ? `<div class="clip-card-desc">${esc(desc)}</div>` : ""}
+        <div class="clip-card-meta">${tags.join("")}</div>
+      </div>`;
+    }).join("");
+    grid.onclick = e => {
+      const card = e.target.closest(".clip-card");
+      if (!card) return;
+      const shot = scenes.find(s => s.shot_id === card.dataset.shotId);
+      if (shot) { renderCutSceneDrawer(shot); openDrawer(); }
+    };
+    document.getElementById("cut-scenes-toggle").onclick = () => {
+      const visible = grid.style.display !== "none";
+      grid.style.display = visible ? "none" : "grid";
+      document.getElementById("cut-scenes-arrow").innerHTML = visible ? "&#9654;" : "&#9660;";
+    };
+  }
+
+  function renderCutSceneDrawer(shot) {
+    const el = document.getElementById("drawer");
+    el.dataset.clipId = shot.shot_id;
+    let html = `<div class="drawer-header">
+      <div class="drawer-title">${esc(shot.shot_id)} <span style="font-size:11px;color:var(--dim);font-weight:400">(cut scene)</span></div>
+      <button class="drawer-close" id="drawer-close-btn">&times;</button>
+    </div>`;
+    html += '<div class="drawer-meta">';
+    [{l:"Space",v:shot.space_description||shot.space},{l:"Framing",v:shot.framing},{l:"Angle",v:shot.orientation},{l:"Camera",v:shot.camera_motion},{l:"Motion",v:shot.subject_motion}].forEach(m => {
+      if (m.v) html += `<div class="drawer-meta-item"><div class="drawer-meta-label">${esc(m.l)}</div><div class="drawer-meta-value">${esc(m.v)}</div></div>`;
+    });
+    html += '</div>';
+    if (shot.subject) html += `<div class="drawer-section"><div class="drawer-label">Subject</div><div class="drawer-value">${esc(shot.subject)}</div></div>`;
+    if (shot.variation) html += `<div class="drawer-section"><div class="drawer-label">Variation</div><div class="drawer-value">${esc(shot.variation)}</div></div>`;
+    if (shot.visual_description) html += `<div class="drawer-section"><div class="drawer-label">Visual Description</div><div class="drawer-value" style="font-family:var(--mono);font-size:11px">${esc(shot.visual_description)}</div></div>`;
+    if (shot.motion_description) html += `<div class="drawer-section"><div class="drawer-label">Motion Description</div><div class="drawer-value" style="font-family:var(--mono);font-size:11px">${esc(shot.motion_description)}</div></div>`;
+    if (shot.tags && shot.tags.length) html += `<div class="drawer-section"><div class="drawer-label">Tags</div><div class="drawer-value">${shot.tags.map(t=>`<span class="clip-tag">${esc(t)}</span>`).join(" ")}</div></div>`;
+    el.innerHTML = html;
+    el.querySelector("#drawer-close-btn").onclick = closeDrawer;
   }
 
   function selectClip(clipId) {
