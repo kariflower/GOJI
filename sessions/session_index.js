@@ -1,13 +1,23 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-15T18:11:35Z",
+  "generated_at": "2026-03-17T07:44:46Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
     {
+      "session_id": "session-20260317-111221-7b07",
+      "path": "./session-20260317-111221-7b07/assets/instructions/index.html",
+      "generated_at": "2026-03-17T07:44:41.340935Z",
+      "clip_count": 86,
+      "duration_sec": 265.1,
+      "section_count": 7,
+      "summary": "深夜2時のコンビニレジ。完璧な笑顔を貼り付けた制服姿の女性が、客に「ありがとうございましたー」と頭を下げる。だがカメラだけが知っている——彼女の唇は全く別の言葉を動かし続けている。その飲み込まれた言葉は声にならないまま足元の路面白線に沈み、夜明けとともに排水溝へ消えていく運命だ。彼女の背から、誰も見ていない瞬間にだけ孔雀の尾羽が静かに広がる。首元の鎖の首輪が、蛍光灯の下で白く光る。 映像が進むにつれ、彼女の飲み込んだ言葉が路面に積み重…",
+      "song_file": "オブラーテッド.mp3"
+    },
+    {
       "session_id": "session-20260316-002347-d4bf",
       "path": "./session-20260316-002347-d4bf/assets/instructions/index.html",
-      "generated_at": "2026-03-15T18:11:30.427468Z",
+      "generated_at": "2026-03-16T16:43:25.720245Z",
       "clip_count": 55,
       "duration_sec": 191.60000000000002,
       "section_count": 11,
