@@ -1,13 +1,23 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-17T07:44:46Z",
+  "generated_at": "2026-03-18T05:36:08Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
     {
+      "session_id": "session-20260318-112731-fe15",
+      "path": "./session-20260318-112731-fe15/assets/instructions/index.html",
+      "generated_at": "2026-03-18T05:36:02.882630Z",
+      "clip_count": 101,
+      "duration_sec": 263.68,
+      "section_count": 7,
+      "summary": "深夜の六畳、蛍光灯が一段落ちた薄明かりの中、義手の右腕を持つヤギが調理台に立っている。その手は化粧水のボトルほどの小瓶を持ち、あまりにも丁寧に液体を計量している。パステルカラーのキッチンツールが並ぶ調理台、candy colorの食材が美しく整列されているが、何かが微妙にずれている——計量カップの目盛りが結露で滲んでいる。義手の義指が一本一本ゆっくりと食材に触れるたびに、接触面に青白い結晶の粉が微かに散る。この世界では、感情を込めて作…",
+      "song_file": "オブラーテッド.mp3"
+    },
+    {
       "session_id": "session-20260317-111221-7b07",
       "path": "./session-20260317-111221-7b07/assets/instructions/index.html",
-      "generated_at": "2026-03-17T07:44:41.340935Z",
+      "generated_at": "2026-03-18T01:46:03.097107Z",
       "clip_count": 86,
       "duration_sec": 265.1,
       "section_count": 7,
@@ -17,7 +27,7 @@ window.SESSION_MANIFEST = Object.freeze((function(){
     {
       "session_id": "session-20260316-002347-d4bf",
       "path": "./session-20260316-002347-d4bf/assets/instructions/index.html",
-      "generated_at": "2026-03-16T16:43:25.720245Z",
+      "generated_at": "2026-03-18T01:45:55.081333Z",
       "clip_count": 55,
       "duration_sec": 191.60000000000002,
       "section_count": 11,

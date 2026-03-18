@@ -1,0 +1,455 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-49b836b8",
+      "persona_id": "persona-8f0c4ee1",
+      "content": {
+        "phase1_base": "道化師",
+        "phase2_condition": "猫背・縦裂けの口",
+        "phase3_anchor": "古い首の鎖",
+        "subject_concept": "猫背で縦裂けの口を持つ道化師",
+        "subject_signature": "古い首の鎖",
+        "why_it_came": "深夜の告白と抑制された感情の揺らぎには、笑いと悲嘆の境界を体現する道化師が最も映える。猫背と裂けた口が視線を引きつけ、首の鎖が「自由と束縛」の緊張を無言で保持する。",
+        "who_should_watch": "夜中に一人でイヤホンをして、言葉にできない感情を抱えたまま画面を眺め続けるような人。",
+        "character_profile": {
+          "appearance_profile": "背を丸めて立つ道化師。縦に裂けたような口の形状が顔の中央で異様な存在感を放ち、首には錆びた鎖が巻かれている。",
+          "motion_profile": "猫背のまま緩慢に向き直るとき、首の鎖が僅かに遅れて揺れる。"
+        }
+      },
+      "created_at": "2026-03-18 02:41:43.799502",
+      "persona_name": "Skaahnia Thorveldsdóttir",
+      "persona_profile": {
+        "id": "persona-8f0c4ee1",
+        "name": "Skaahnia Thorveldsdóttir",
+        "gender": "女性",
+        "birthdate": "1563-11-08",
+        "age": 24,
+        "origin_city": "コペンハーゲン",
+        "ethnic_background": "北米先住民系",
+        "life_history": [
+          {
+            "year": 1563,
+            "event": "コペンハーゲンにて、北米先住民系の父とデンマーク人の母のあいだに生まれた。父は新大陸との交易に関わる船乗りで、母はコペンハーゲン旧市街の亜麻布商の娘であった。"
+          },
+          {
+            "year": 1569,
+            "event": "父が航海中に病死したとの知らせが届いた。母は亜麻布の行商を再開し、Skaahnia は母の商売の手伝いをしながら育った。"
+          },
+          {
+            "year": 1573,
+            "event": "近隣の教会附属の施粥所で週に三日、母と共に食料の配給を手伝うようになった。読み書きはこの施粥所に附属する小さな学舎で習得した。"
+          },
+          {
+            "year": 1577,
+            "event": "母が再婚した。相手は干し魚の卸商を営む中年の男で、Skaahnia は継父の商売の帳簿付けを任されるようになった。"
+          },
+          {
+            "year": 1580,
+            "event": "継父の商売が不振となり、一家はコペンハーゲン南部の手狭な借家に引っ越した。Skaahnia はこの頃から近隣の洗濯屋に通いで働き始めた。"
+          },
+          {
+            "year": 1583,
+            "event": "洗濯屋の女主人が高齢を理由に廃業したため、Skaahnia は港の近くの宿屋に住み込みの下働きとして雇われた。"
+          },
+          {
+            "year": 1585,
+            "event": "宿屋の主人夫婦のあいだで取り決められた縁談で、同じ宿屋で働く若い荷担ぎ人夫のErland Mogensenと婚約した。"
+          },
+          {
+            "year": 1587,
+            "event": "ErlandMogensenと正式に婚礼を挙げた。二人はコペンハーゲンの港近くの一室を借りて暮らし始めた。"
+          }
+        ],
+        "current_situation": "1587年現在、夫Erland Mogensenとともにコペンハーゲンの港に近い路地裏の二間続きの部屋を借りて生活している。夫は港での荷役と小口の運送を生業としており、Skaahnia は宿屋での下働きを続けながら家計を支えている。借家の家賃と食費を賄える程度の収入があり、生活は質素だが安定している。近隣には同様の労働者世帯が多く、共同の井戸や洗い場を使いながら日常を送っている。",
+        "external_perception": {
+          "first_impression": "浅黒い肌と黒い直毛が目を引き、デンマーク人の多い界隈では異国からの流れ者と見られることが多い。口数は少ないが対応は手早く、仕事のできる人間だという印象を与える。",
+          "close_friends_view": "約束したことは必ず果たし、頼んだ用事を途中で投げ出さない。愚痴をほとんど言わず、場の雰囲気を荒立てない。",
+          "misunderstandings": "無口で表情が動きにくいため、周囲からは冷淡か、あるいは不満を隠しているのだと思われがちである。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-8f0c4ee1.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-35212968",
+      "persona_id": "persona-4f1c2f07",
+      "content": {
+        "phase1_base": "ヤギ",
+        "phase2_condition": "短い腕",
+        "phase3_anchor": "義手",
+        "subject_concept": "ヤギ(短い腕)",
+        "subject_signature": "義手",
+        "why_it_came": "候補選択の自然な連想として「ヤギ」「短い腕」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "ヤギ(短い腕)。外見の核は「短い腕」、識別の決め手は「義手」。",
+          "motion_profile": "「短い腕」が読める動きを保ち、見せ場では「義手」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-03-18 02:42:30.444081",
+      "persona_name": "Karim Haddad",
+      "persona_profile": {
+        "id": "persona-4f1c2f07",
+        "name": "Karim Haddad",
+        "gender": "男性",
+        "birthdate": "1973-04-23",
+        "origin_city": "ブリスベン",
+        "ethnic_background": "中東系",
+        "life_history": [
+          {
+            "year": 1973,
+            "event": "レバノン系移民の両親のもと、ブリスベン南部の郊外に生まれた。父は輸入雑貨店を経営していた。"
+          },
+          {
+            "year": 1985,
+            "event": "父の事業が拡大し、家族でブリスベン中心部近くの住宅地に転居。新しい学校では英語のアクセントについて指摘されることが増えた。"
+          },
+          {
+            "year": 1991,
+            "event": "クイーンズランド大学に入学し、土木工学を専攻。週末は父の店で在庫管理を手伝った。"
+          },
+          {
+            "year": 1996,
+            "event": "卒業後、シドニーの建設コンサルタント会社に就職。橋梁とトンネルプロジェクトの設計補助を担当した。"
+          },
+          {
+            "year": 2001,
+            "event": "職場の同僚だったギリシャ系オーストラリア人女性と結婚。シドニー北西部のアパートに住み始めた。"
+          },
+          {
+            "year": 2008,
+            "event": "父が病気で店を閉めることになり、ブリスベンに戻って介護を分担。週末だけ車で往復する生活が3年続いた。"
+          },
+          {
+            "year": 2014,
+            "event": "会社の組織再編で部門が縮小され、メルボルンの別部署に異動。家族は引っ越しを拒否し、単身赴任となった。"
+          },
+          {
+            "year": 2019,
+            "event": "長男が大学進学でシドニーを離れた年に、妻と協議離婚。財産分与と養育費の支払いについて弁護士を通じて合意した。"
+          }
+        ],
+        "current_situation": "メルボルン郊外の1LDKアパートに単身で暮らしている。建設コンサルタント会社の中間管理職として、若手エンジニアの技術指導と現場調整を担当している。週に2回ジムに通い、土曜日は近所のレバニーズレストランで昼食をとることが習慣になっている。月に一度、元妻と成人した2人の子どもとビデオ通話をする。",
+        "external_perception": {
+          "first_impression": "物静かで礼儀正しいが、やや距離を置いた態度に見える。専門的な話題になると急に饒舌になる。",
+          "close_friends_view": "責任感が強く、頼まれたことは必ず最後までやり遂げる。ただし自分の感情や私生活についてはほとんど話さない。",
+          "misunderstandings": "無表情で冷たい印象を持たれがちだが、実際には相手の話をよく聞いており、必要なときには具体的なアドバイスをくれる。"
+        },
+        "like_history": [
+          {
+            "session": "lens_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "録音という仕事柄、時間の重なりという概念に妙な説得力を感じた",
+              "時間が重なるが触れ合わないという矛盾に、看護の現場を思い出した"
+            ]
+          },
+          {
+            "session": "phase2a_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "同じ空間に存在する複数の時間が、互いに認識し合えないまま並走する。重なっているが触れ合わない時間の層",
+            "like_count": 2,
+            "like_reasons": [
+              "論理的で構造がはっきりしている",
+              "重なるけど触れ合わないって、なんかいい"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "引き裂かれた時間の中で、二つの存在が同じ空間を別々に生きる",
+            "rank": 1,
+            "tally": 7,
+            "won": true
+          },
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 6,
+            "won": true
+          },
+          {
+            "session": "phase2a_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "同じ空間に存在する複数の時間が、互いに認識し合えないまま並走する。重なっているが触れ合わない時間の層。",
+            "rank": 3,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "phase2a_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "lookatme_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰も立ち入らない建設現場で、完成しない構造物と向き合い続ける人間の孤独な誠実さ。見られることのない仕事の痕跡が、実は最も強固な自己証明であるという逆説。",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "lookatme_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: チェス盤の上に置かれた一つの駒（白のキング）だけが画面中央に映り、人間の姿は完全に不在 / 場所: 狭いデスクの上。モニター、キーボード、マウスだけが映る極端なクローズアップ。部屋全体は見えない",
+            "rank": 2,
+            "tally": 13,
+            "won": true
+          }
+        ],
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-4f1c2f07.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-5820f66a",
+      "persona_id": "persona-dec2b905",
+      "content": {
+        "phase1_base": "鷺",
+        "phase2_condition": "扁平頭・二重関節",
+        "phase3_anchor": "濡れた口枷",
+        "subject_concept": "扁平頭と二重関節を持つ鷺",
+        "subject_signature": "濡れた口枷",
+        "why_it_came": "楽曲の「告白・抑制・夜」というトーンから、静止と突発的な動きを繰り返す鷺の構造が浮かんだ。口枷は発声の封鎖を視覚化し、扁平頭と二重関節が非人間的な緊張を画面に固定する。",
+        "who_should_watch": "深夜に一人でイヤホンをして、言えなかった言葉を抱えたまま画面を眺めている10代後半から20代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "頭部は横に押し潰されたように扁平で、首と翼の関節が人体に近い角度で折れ曲がる鷺の姿をしている。顎には金属の口枷が装着されており、その表面に水の滴が光を反射して張りついている。",
+          "motion_profile": "二重関節の首が予告なく直角に折れ、静止と瞬間的な収縮を交互に繰り返す。"
+        }
+      },
+      "created_at": "2026-03-18 02:42:42.933930",
+      "persona_name": "Kim Soo-min",
+      "persona_profile": {
+        "id": "persona-dec2b905",
+        "name": "Kim Soo-min",
+        "gender": "クエスチョニング",
+        "birthdate": "2011-11-29",
+        "origin_city": "コペンハーゲン",
+        "ethnic_background": "東アジア系",
+        "life_history": [
+          {
+            "year": 2011,
+            "event": "コペンハーゲンで韓国系デンマーク人の両親のもとに生まれる。父は海運会社の駐在員、母は翻訳者。"
+          },
+          {
+            "year": 2014,
+            "event": "父の転勤でシンガポールへ移住。現地の保育園に通い始める。"
+          },
+          {
+            "year": 2017,
+            "event": "両親が離婚。母と共にデンマークへ帰国し、コペンハーゲン郊外の祖母の家で暮らし始める。"
+          },
+          {
+            "year": 2019,
+            "event": "母が再婚。継父はデンマーク人のIT技術者で、オーフスへ引っ越す。新しい小学校に転校。"
+          },
+          {
+            "year": 2021,
+            "event": "異父妹が誕生。家庭内での役割が変化し、妹の世話を手伝うことが増える。"
+          },
+          {
+            "year": 2023,
+            "event": "継父の仕事の都合で再びコペンハーゲンへ転居。3度目の転校を経験。"
+          },
+          {
+            "year": 2025,
+            "event": "中学2年生。学校の環境適応プログラムでピアサポーターとして活動を始める。週末は近所のカフェでバイトをしている。"
+          }
+        ],
+        "current_situation": "コペンハーゲン市内のアパートで母、継父、異父妹と4人暮らし。中学2年生で、学校では新入生のサポート役を担当している。週末は地元のカフェで皿洗いと簡単な調理補助のアルバイトをしており、給料は自分の服代と貯金に回している。学校では特に目立つ存在ではないが、クラスメイトからは頼まれごとをよく引き受ける人物として認識されている。",
+        "external_perception": {
+          "first_impression": "静かで控えめ。あまり自分から話しかけてこないが、話しかければ丁寧に応じる。",
+          "close_friends_view": "実は観察眼が鋭く、人の変化によく気づく。困っている人を放っておけない性格。自分のことはあまり話さない。",
+          "misunderstandings": "クールで何も考えていないように見られがちだが、実際には状況をよく見て判断している。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "proposal_history": [
+          {
+            "session": "debug_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 6,
+            "won": true
+          },
+          {
+            "session": "stability_test_2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "送信されなかった言葉が、誰かの中で生き続けている",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "stability_test_1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰かの認識の中でだけ存在し続けることの、静かな緊張と安堵",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "stability_test_2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "stability_test_1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-dec2b905.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-49b836b8",
+      "B": "sl2a-35212968",
+      "C": "sl2a-5820f66a"
+    },
+    "tally": {
+      "A": 6,
+      "B": 6,
+      "C": 8
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 2,
+      "B": 3,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "Aryan Sukhdev",
+        "like": "A",
+        "like_reason": "道化師という存在は水上市場で見かける旅芸人に近く、縦裂けの口という異形の印象が強く記憶に残る。日常の賑わいの中で浮き上がる異物感に惹かれる。",
+        "dislike": "B",
+        "dislike_reason": "ヤギに短い腕という組み合わせは、身近な家畜の変形にすぎず、水辺の生活感覚からすると平凡で想像の広がりを感じない。"
+      },
+      {
+        "voter": "いとう まさき",
+        "like": "C",
+        "like_reason": "鷺の静謐さと濡れた口枷という不穏な組み合わせに、言いようのない緊張感がある。日常の中で感じる抑圧感と重なって見え、妙に刺さった。",
+        "dislike": "B",
+        "dislike_reason": "義手という要素が他の二つに比べてわかりやすすぎる。ヤギ＋短い腕との組み合わせも含め、映像的な引力を感じにくい。"
+      },
+      {
+        "voter": "Graham Fletcher",
+        "like": "A",
+        "like_reason": "A joker figure with a crooked mouth and an old neck chain feels like something out of a dark carnival — unsettling but compelling. It's the kind of visual that sticks with you.",
+        "dislike": "C",
+        "dislike_reason": "A wet gag on a heron feels too abstract and uncomfortable without any clear emotional hook. Doesn't draw me in at all."
+      },
+      {
+        "voter": "あきら",
+        "like": "C",
+        "like_reason": "鷺の二重関節と扁平頭という身体的歪みに、濡れた口枷が加わることで、抑圧と沈黙の主題が重層的に読める。翻訳という仕事柄、言語と沈黙の境界に敏感なのかもしれない。",
+        "dislike": "A",
+        "dislike_reason": "道化師＋古い鎖という組み合わせはイメージとして古典的すぎる。記号としての安定感が高い分、新しい読みを生みにくい。"
+      },
+      {
+        "voter": "Ciarán Ó Murchú-Oyelaran",
+        "like": "B",
+        "like_reason": "義手という要素が石材加工や肉体労働の文脈と響き合う。短い腕を持つヤギという異形も、労働の傷や身体の限界を想起させ、見続けたいと思わせる力がある。",
+        "dislike": "C",
+        "dislike_reason": "濡れた口枷は視覚的に不快な印象が強く、物語の入口として閉じすぎている。集落間を行き来する自分には、もっと開かれた像の方が響く。"
+      },
+      {
+        "voter": "Catalina van der Meer",
+        "like": "A",
+        "like_reason": "道化師という存在は港湾の記録にも登場する古い職種であり、首の鎖という拘束の象徴が交易と束縛の歴史を連想させる。縦裂けの口は奇妙だが、物語性を感じる。",
+        "dislike": "B",
+        "dislike_reason": "ヤギと義手の組み合わせは、実務的すぎて詩的な想像力を刺激しない。保管庫の記録に残るような伝説性がない。"
+      },
+      {
+        "voter": "おおたに けんじ",
+        "like": "B",
+        "like_reason": "ヤギは南米の民芸品にもよく登場するモチーフで親しみがある。義手という実用的なアイテムが加わることで、働く者の哀愁みたいなものを感じて好きだ。",
+        "dislike": "C",
+        "dislike_reason": "濡れた口枷という表現がどうも不快で、店頭に南米雑貨と一緒に飾るような絵ではない。生理的に受け付けない。"
+      },
+      {
+        "voter": "Karim Haddad",
+        "like": "C",
+        "like_reason": "鷺の持つ鋭さと二重関節という身体的な異常さが、建設現場で見てきた構造的な歪みを連想させて面白い。濡れた口枷はダークだが芸術的インパクトがある。",
+        "dislike": "A",
+        "dislike_reason": "道化師と古い首の鎖の組み合わせはありきたりなゴシック感があり、新鮮さを感じない。管理職として新しい視点を求めたい。"
+      },
+      {
+        "voter": "かすが",
+        "like": "A",
+        "like_reason": "道化師は昔、離島にも旅芸人として来た記憶があって懐かしい。古い首の鎖は島の古民家の蔵で見た農具みたいで、土着の雰囲気がある。",
+        "dislike": "C",
+        "dislike_reason": "濡れた口枷というのは、民宿のお客さんに見せられるようなものじゃない。暗すぎて島の静かな空気に合わない。"
+      },
+      {
+        "voter": "李俊豪",
+        "like": "B",
+        "like_reason": "ヤギは広東語の縁起物でもあるし、短い腕と義手の組み合わせが配送の仕事で怪我した人のことを思わせて、妙にリアルで刺さる。",
+        "dislike": "C",
+        "dislike_reason": "鷺は悪くないが、濡れた口枷が朝5時から働く自分の毎日には重すぎる。見ていて消耗しそうだから選ばない。"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "B",
+        "like_reason": "ヤギ・短い腕・義手の組み合わせは造形として奇妙な実在感があり、義手という人工物が動物ベースと混ざることで物語的な文脈が生まれやすい。押しつけがましくない。",
+        "dislike": "C",
+        "dislike_reason": "濡れた口枷は拘束・苦痛のイメージが直接的すぎて、嫌いログにある「口枷は痛々しく見るのが辛い」「機能的意味が不明瞭」という感覚と重なる。扁平頭・二重関節の面白さを殺している。"
+      }
+    ],
+    "analysis": "[batch 1] AとCが各2票のlikeを獲得し拮抗している。Bは1票のlikeを得たものの、dislikeも2票集中しており評価が分かれる。Cは「抑圧・沈黙」という主題的な読みを持つ投票者（あきら・いとう）に支持される一方、具体的な身体労働の感覚を持つCiaránにはBが響いた。Aは道化師のアーキタイプとして広い層に訴えるが、記号的すぎるとも見なされた。\n[batch 2] AとBが拮抗した結果となった。Aは「道化師＋首の鎖」の歴史的・物語的な雰囲気が年長者（Catalina、かすが）に支持される一方、Bは「ヤギ＋義手」という働く者の哀愁・土着性が現役労働者層（おおたに、李俊豪）に共感された。Cは「濡れた口枷」という生理的不快感が複数票のdislikeを集め、Karimの孤独な支持にとどまった。",
+    "is_tiebreak": true,
+    "tiebreak_reason": "controversy_winner=['B'] vs engagement_winner=['C']",
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "B",
+      "like_reason": "ヤギ・短い腕・義手の組み合わせは造形として奇妙な実在感があり、義手という人工物が動物ベースと混ざることで物語的な文脈が生まれやすい。押しつけがましくない。",
+      "dislike": "C",
+      "dislike_reason": "濡れた口枷は拘束・苦痛のイメージが直接的すぎて、嫌いログにある「口枷は痛々しく見るのが辛い」「機能的意味が不明瞭」という感覚と重なる。扁平頭・二重関節の面白さを殺している。"
+    },
+    "controversy_scores": {
+      "A": 1.2972734327035422,
+      "B": 1.9459101490553132,
+      "C": 1.6479184330021646
+    },
+    "vote_health": {
+      "valid_ballot_count": 11,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # MV Instructions (Phase 7)
 
-- generated_at: 2026-03-17T07:44:41.340935Z
+- generated_at: 2026-03-18T01:46:03.097107Z
 - clip_count: 86
 - duration_sec: 265.1
 
@@ -91,9 +91,9 @@
 - motion.energy: very_low | low | medium | high | very_high
 - custom tags: 必要なら snake_case の短いタグを許可
 
-## Clip 10: slot_001
+## Clip 1: slot_001
 - section_id: sec-001
-- intent: narrative
+- intent: none
 - timing: 0.00s -> 3.50s (duration 3.50s)
 - storyboard_url: none
 - camera_language: extreme_closupの固定フレームで錆びた鍵穴を中央に置き、空間情報を完全に遮断する。
@@ -112,33 +112,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3.5s":
-    "visual": "錆びた鍵穴の金属縁、剥離塗装の断面、冷灰色のグレーディング"
-    "action": "固定。孔雀の多関節腕の指先がゆっくり右端から侵入する"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "鍵穴を画面中央、錆の縁がフレームを満たす"
-    "lighting":
-      "style": "蛍光灯の冷光が鍵穴金属縁に一点反射、周囲は暗落ち"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 20: slot_002
+## Clip 2: slot_002
 - section_id: sec-001
-- intent: narrative
+- intent: none
 - timing: 3.50s -> 6.00s (duration 2.50s)
 - storyboard_url: none
 - camera_language: closeup固定のまま、鍵穴から多関節腕の手元へフレームをわずかに引き、指先の形状を提示する。
@@ -157,33 +134,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "多関節腕の関節部の光沢、指先の緊張、錆の粉が手に付着"
-    "action": "ゆっくりドリーイン。指先が鍵穴へ向かう途中で静止"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "high_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "多関節腕の指先が画面左寄り、鍵穴が右奥でぼける"
-    "lighting":
-      "style": "冷白の蛍光灯拡散光、手背に薄い影稜線"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "insert_cut"
-```
 
-## Clip 30: slot_003
+## Clip 3: slot_003
 - section_id: sec-001
-- intent: narrative
+- intent: none
 - timing: 6.00s -> 11.50s (duration 5.50s)
 - storyboard_url: none
 - camera_language: closeupからextreme_closupへ再度寄り、覗き込む目線と鍵穴の黒い穴を重ねてフレームする。
@@ -202,33 +156,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5.5s":
-    "visual": "多関節孔雀の横顔アップ、鍵穴の暗い穴、剥離警告塗装"
-    "action": "ハンドヘルドの微浮遊。目線が鍵穴へ固定される"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "profile"
-      "movement": "handheld_float"
-      "composition": "横顔の目が左半面、鍵穴の暗部が右半面"
-    "lighting":
-      "style": "サイドから細い冷光、顔の半分が深い影"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.5
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 40: slot_004
+## Clip 4: slot_004
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 11.50s -> 17.50s (duration 6.00s)
 - storyboard_url: none
 - camera_language: wide_shotで連絡橋全体を捉え、蛍光灯点滅の中に孔雀の小さな影を配置し、追跡の始まりを予感させる。
@@ -247,33 +178,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-6s":
-    "visual": "連絡橋全景、金網の格子影が橋床に縞、遠景に孔雀の多関節シルエット"
-    "action": "ゆっくりドリーイン。蛍光灯の点滅で映像が断続的にフラッシュ"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "橋の消失点中央、孔雀シルエットが遠景"
-    "lighting":
-      "style": "蛍光灯点滅—明滅周期で影が刻まれる、冷白と暗転の交互"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 6.0
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 50: slot_005
+## Clip 5: slot_005
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 17.50s -> 22.00s (duration 4.50s)
 - storyboard_url: none
 - camera_language: medium_wideで金網を前景にボカし、孔雀が橋を歩む動線を追従パンで捉える。
@@ -292,33 +200,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "金網越しの夜景、街灯のハロ、孔雀の多関節腕が揺れる"
-    "action": "左パンで孔雀の移動を追従。金網の格子がフレームを区切る"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "three_quarter"
-      "movement": "pan_left_slow"
-      "composition": "金網ボケ前景、孔雀が中央〜右へ移動"
-    "lighting":
-      "style": "夜の街灯のオレンジ滲み + 蛍光灯冷白の混光"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 60: slot_006
+## Clip 6: slot_006
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 22.00s -> 24.00s (duration 2.00s)
 - storyboard_url: none
 - camera_language: jump_cut用の短尺。mediumで蛍光灯直下を固定し、点滅暗転でカットを飛ばす。
@@ -337,33 +222,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "蛍光灯直下、孔雀の足元に言葉の澱が溜まって見える白線発光"
-    "action": "固定。点滅タイミングで被写体の位置が飛ぶjump_cut前提"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "worm_eye"
-      "movement": "static"
-      "composition": "蛍光灯が画面上部に輝き、足元の白線澱が下部"
-    "lighting":
-      "style": "蛍光灯の直下フラッシュ、暗転と白飛びの交互"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "jump_cut"
-"transition_out": "jump_cut"
-```
 
-## Clip 70: slot_007
+## Clip 7: slot_007
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 24.00s -> 25.50s (duration 1.50s)
 - storyboard_url: none
 - camera_language: tightで軋む手すりの把持部を固定し、多関節腕の指が締まる瞬間をインサートする。
@@ -382,33 +244,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "錆びた手すりの把持部、多関節腕の指が力を込める、金属と羽毛の接触"
-    "action": "ハンドヘルドの微浮遊。指が締まる瞬間に微かに揺れる"
-    "camera":
-      "shot_size": "tight"
-      "angle": "high_angle_soft"
-      "movement": "handheld_float"
-      "composition": "手すり把持部が中央、指の関節が画面を満たす"
-    "lighting":
-      "style": "蛍光灯の側光、指の関節に稜線影"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "insert_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 80: slot_008
+## Clip 8: slot_008
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 25.50s -> 29.00s (duration 3.50s)
 - storyboard_url: none
 - camera_language: medium_shotで孔雀の上半身を捉え、橋の終点へ向かう動きにdolly_inで追従する。
@@ -427,33 +266,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3.5s":
-    "visual": "孔雀の多関節腕が橋床を蹴る動作、羽毛が点滅光で明滅"
-    "action": "ドリーインで孔雀に寄りながら追従。橋の奥行きが圧縮される"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "eye_level"
-      "movement": "dolly_in_slow"
-      "composition": "孔雀上半身が中央、橋の奥行きが背景"
-    "lighting":
-      "style": "蛍光灯の冷白が孔雀の背面を照らし、逆光気味に羽毛のエッジが光る"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 90: slot_009_s1
+## Clip 9: slot_009_s1
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 29.00s -> 30.20s (duration 1.20s)
 - storyboard_url: none
 - camera_language: 手持ちトラッキングで揺れを保ち、逆光シルエットを断続的に挿入する
@@ -472,31 +288,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.2s":
-    "visual": "composition|frame=medium_wide|camera_pose=eye_level|subject_placement=蛍光灯の点滅リズムに同期して連絡橋を移動する多関節腕の孔雀、金網越しに夜の街灯が滲む|layers=蛍光灯が点滅する連絡橋"
-    "action": "motion|intent=drift|trajectory=handheld_float"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "low_angle_soft"
-      "movement": "handheld_float"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.2
-```
 
-## Clip 100: slot_009_s2
+## Clip 10: slot_009_s2
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 30.20s -> 32.50s (duration 2.30s)
 - storyboard_url: none
 - camera_language: 手持ちトラッキングで揺れを保ち、逆光シルエットを断続的に挿入する
@@ -515,31 +310,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.3s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=蛍光灯の点滅リズムに同期して連絡橋を移動する多関節腕の孔雀、金網越しに夜の街灯が滲む|layers=蛍光灯が点滅する連絡橋"
-    "action": "motion|intent=drift|trajectory=handheld_float"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "dutch_angle_soft"
-      "movement": "handheld_float"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.3
-```
 
-## Clip 110: slot_009_s3
+## Clip 11: slot_009_s3
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 32.50s -> 34.00s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 手持ちトラッキングで揺れを保ち、逆光シルエットを断続的に挿入する
@@ -558,31 +332,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=tight|camera_pose=eye_level|subject_placement=蛍光灯の点滅リズムに同期して連絡橋を移動する多関節腕の孔雀、金網越しに夜の街灯が滲む|layers=蛍光灯が点滅する連絡橋"
-    "action": "motion|intent=drift|trajectory=handheld_float"
-    "camera":
-      "shot_size": "tight"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 120: slot_010
+## Clip 12: slot_010
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 34.00s -> 35.50s (duration 1.50s)
 - storyboard_url: none
 - camera_language: medium_wideへ引いて孔雀を橋の中央に小さく配置し、点滅が止まった直後の静寂を固定カメラで回収する。
@@ -601,33 +354,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "連絡橋中央に佇む孔雀の小さな姿、足元の白線残像が薄く滲む"
-    "action": "dolly_out_slowで静かに引く。点滅が止み空間が静止"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "high_angle_soft"
-      "movement": "dolly_out_slow"
-      "composition": "孔雀が橋中央に小さく、橋全体のラインが収束する"
-    "lighting":
-      "style": "蛍光灯が点滅停止し均一な冷白に落ち着く、足元の白線澱が残光"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 130: slot_011
+## Clip 13: slot_011
 - section_id: sec-002
-- intent: narrative
+- intent: none
 - timing: 35.50s -> 37.10s (duration 1.60s)
 - storyboard_url: none
 - camera_language: wide_masterでeye_levelのhandheld_floatが主役の前方に先回りする動線を示唆しながら、蛍光灯の点滅に呼応して微細に揺れる
@@ -646,33 +376,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.6s":
-    "visual": "連絡橋全景、金網の菱形影が床面に格子を刻む。蛍光灯が遠方から手前へ順次点滅し奥行きのある光のトンネルが生まれる。多関節腕の孔雀が橋の中央をゆっくり流れ羽根の虹彩が点滅光を反射する"
-    "action": "主役がdrift移動、カメラはhandheld_floatで緩やかに追従。点滅の暗転瞬間に追従から先回りへ切り替わるリズムを予感させる"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "eye_level"
-      "movement": "handheld_float"
-      "composition": "橋の消失点を中央に、蛍光灯が縦列で奥行きを形成"
-    "lighting":
-      "style": "点滅蛍光灯による断続的なトップライト、金網の格子影が床に投影、暗転時は街灯の滲んだオレンジが補光"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.6
-"transition_in": "hard_cut"
-"transition_out": "hard_cut_on_dark"
-```
 
-## Clip 140: slot_012
+## Clip 14: slot_012
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 37.10s -> 38.60s (duration 1.50s)
 - storyboard_url: none
 - camera_language: medium_closeupでlow_angle_softのstaticが制御盤と主役の力関係を下から見上げて提示する
@@ -691,33 +398,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "配電室の制御盤前、濡れた金属面に火花の閃光が反射する。主役の上半身と端子の位置関係を確立。割れた表示灯の破片が床に散在"
-    "action": "静止からの爆発的burst、電源再投入の衝撃で影が一斉に反転する瞬間を捉える"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "制御盤を背景に主役の上半身、火花散布を前景に配置"
-    "lighting":
-      "style": "火花による不規則な閃光がキー、割れた表示灯の赤い残光がフィル、濡れた金属面の反射がリム的に機能"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 150: slot_013
+## Clip 15: slot_013
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 38.60s -> 41.10s (duration 2.50s)
 - storyboard_url: none
 - camera_language: mediumでthree_quarterのstaticが腕の動線と奥の端子を同一フレームに収め、ダイアゴナル構成で収束方向を示す
@@ -736,33 +420,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "濡れた制御盤の表面、水滴が火花の閃光で輝く。主役の多関節腕の一本が端子に近接し始める。腕の構造と配電盤の規模感が拮抗する"
-    "action": "burst継続、火花の密度が高まる。主役の腕がゆっくり端子へ向かう動きが始まる"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "主役の腕を前景左、端子群を奥行き右に配置したダイアゴナル構成"
-    "lighting":
-      "style": "火花閃光の頻度上昇、濡れた床の反射が強まり足元に光の水鏡が出現"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 160: slot_014
+## Clip 16: slot_014
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 41.10s -> 42.60s (duration 1.50s)
 - storyboard_url: none
 - camera_language: closeupでeye_levelのstaticが腕の先端関節をフレーム中央に据え、火花との距離感を精密に記録する観察者の視点を作る
@@ -781,33 +442,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "火花を散らす端子に向かう多関節腕の先端、関節の精密な構造が際立つ。背景の制御盤は焦点外でボケ、火花だけが鋭く残る"
-    "action": "腕の先端が端子直前で一瞬静止、火花が腕の表面を掠める"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "関節の先端を黄金比点に、散乱する火花を放射状に配置"
-    "lighting":
-      "style": "腕の先端に直接当たる火花の閃光がハードなキー、周囲は深いシャドウ、金属の反射が局所的に白飛び"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 170: slot_015_s1
+## Clip 17: slot_015_s1
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 42.60s -> 43.40s (duration 0.80s)
 - storyboard_url: none
 - camera_language: マクロ寄りと俯瞰を交互に使い、細部の危険性と全体構造を往復させる
@@ -826,31 +464,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-0.8s":
-    "visual": "composition|frame=tight|camera_pose=low_angle|subject_placement=電源再投入の瞬間——室内の照明が一斉点灯し影が反転する|layers=水滴が落ちる配電室"
-    "action": "motion|intent=burst|trajectory=static"
-    "camera":
-      "shot_size": "tight"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 0.8
-```
 
-## Clip 180: slot_015_s2
+## Clip 18: slot_015_s2
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 43.40s -> 44.10s (duration 0.70s)
 - storyboard_url: none
 - camera_language: マクロ寄りと俯瞰を交互に使い、細部の危険性と全体構造を往復させる
@@ -869,31 +486,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-0.7s":
-    "visual": "composition|frame=extreme_closeup|camera_pose=low_angle|subject_placement=電源再投入の瞬間——室内の照明が一斉点灯し影が反転する|layers=水滴が落ちる配電室"
-    "action": "motion|intent=burst|trajectory=static"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 0.7
-```
 
-## Clip 190: slot_016
+## Clip 19: slot_016
 - section_id: sec-003
-- intent: narrative
+- intent: none
 - timing: 44.10s -> 46.40s (duration 2.30s)
 - storyboard_url: none
 - camera_language: extreme_closeupでeye_levelのdolly_in_slowが接触面の材質と色彩変化をフレーム全体に広げ、最後の1ミリを詰めて封印する
@@ -912,33 +508,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.3s":
-    "visual": "接触点の極限macro、電気が流れる金属表面の微細構造。孔雀の羽根の虹彩が電流の色に変色し始める。物質と意志の境界が消える"
-    "action": "電流の波紋が接触面を伝播する微細な振動、腕の関節が固定される"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "eye_level"
-      "movement": "dolly_in_slow"
-      "composition": "接触面の質感がフレーム全体を占拠、虹彩色の変化が対角線上に展開"
-    "lighting":
-      "style": "持続的な電流発光による冷たい青白光、金属の熱による微かな赤みが混合"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.3
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 200: slot_017
+## Clip 20: slot_017
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 46.40s -> 47.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: mediumでeye_levelのdolly_in_slowが主役の背後から接近し、逆光のシルエットと横顔の境界を追う
@@ -957,33 +530,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "非常階段の中段踊り場、逆光の中に主役のシルエットが浮かぶ。階段の構造と主役の位置関係を確立。非常灯の点滅が横顔を断続的に照らす"
-    "action": "主役はstill、dolly_in_slowが静止から追従加速への転換を予感させる接近を開始"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "eye_level"
-      "movement": "dolly_in_slow"
-      "composition": "主役を中央やや右、逆光が左上から差し込み、階段の手すりが縦軸を形成"
-    "lighting":
-      "style": "強い逆光がバックライト、非常灯の赤い点滅がフィル的に横顔を照射、濡れた手すりの反射が輪郭線を描く"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 210: slot_018
+## Clip 21: slot_018
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 47.90s -> 49.40s (duration 1.50s)
 - storyboard_url: none
 - camera_language: medium_wideでlow_angle_softのtilt_up_revealが主役の上昇に追従し、逆光の光源へ向かって画面が開かれていく軌跡を描く
@@ -1002,33 +552,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "主役が上昇を開始、階段の複数フロアが視野に入る。逆光の中で主役のシルエットが小さくなり始め、空間の広さが顕在化する"
-    "action": "主役のstillから上昇への移行、カメラはtilt_up_revealで上方の空間を開示"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "low_angle_soft"
-      "movement": "tilt_up_reveal"
-      "composition": "主役を下部中央に配置、tiltで上部の逆光空間が徐々に解放される構成"
-    "lighting":
-      "style": "逆光が強まり主役のシルエット化が進む、非常灯の点滅が加速、濡れた階段面に光の水鏡"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 220: slot_019_s1
+## Clip 22: slot_019_s1
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 49.40s -> 50.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 下からの追従と上からの俯瞰を切り替え、上昇の負荷を体感させる
@@ -1047,31 +574,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=wide_master|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "low_angle_soft"
-      "movement": "crane_up_slow"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 230: slot_019_s2
+## Clip 23: slot_019_s2
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 50.90s -> 52.40s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 下からの追従と上からの俯瞰を切り替え、上昇の負荷を体感させる
@@ -1090,31 +596,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=medium_wide|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 240: slot_020
+## Clip 24: slot_020
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 52.40s -> 53.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: extreme_wideでbird_eyeのcrane_up_slowが最高到達点に至り、深夜の都市と発光する路面白線が全景として展開する
@@ -1133,33 +618,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "階段から外部空間への展開、深夜の都市景観が広がる。路面の白線が薄く発光し、文字の残像が滲む。主役のシルエットが広大な空間の中に小さく浮かぶ"
-    "action": "crane_up_slowが継続して外部空間を開示、主役が都市の光の網目に溶け込む"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "bird_eye"
-      "movement": "crane_up_slow"
-      "composition": "発光する白線が放射状に伸び、主役のシルエットが交差点に小さく配置される俯瞰構成"
-    "lighting":
-      "style": "都市の環境光全体、路面白線の薄い自己発光、文字残像の滲んだ青白が漂う"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 250: slot_021
+## Clip 25: slot_021
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 53.90s -> 54.90s (duration 1.00s)
 - storyboard_url: none
 - camera_language: medium幅で踊り場の手すりと人物横顔を三分割配置し、low_angle_softから仰ぎ見て逆光の光源を頭上に押し込む。static保持で次の追従への溜めを作る。
@@ -1178,33 +640,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "手すり縦線で左右分断、逆光シルエット"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": "2400K橙、点滅ごとに露出変動"
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.0
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 260: slot_022
+## Clip 26: slot_022
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 54.90s -> 60.40s (duration 5.50s)
 - storyboard_url: none
 - camera_language: medium_wideに引きながらhandheld_floatで主役の上昇を背後から追い、逆光が体輪郭を溶かしつつ階段の鉄格子影がリズミカルに横切る。
@@ -1223,33 +662,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "three_quarter"
-      "movement": "handheld_float"
-      "composition": "主役中央やや下、逆光ハロが天頂へ伸びる"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": "逆光5500K白 vs 非常灯2400K橙の混色"
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 270: slot_023
+## Clip 27: slot_023
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 60.40s -> 64.40s (duration 4.00s)
 - storyboard_url: none
 - camera_language: wideに広げてdolly_out_slowで後退しながら主役の上昇を引き受け、欠けた段差が画面下に流れ込むことで速度感を増幅する。bird_eyeに近い高アングルで螺旋を俯瞰。
@@ -1268,33 +684,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "high_angle_soft"
-      "movement": "dolly_out_slow"
-      "composition": "螺旋階段の幾何を画面いっぱいに、人物が中心点へ収束"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": "混色：頂部5800K白、各階3000K緑白"
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.0
-"transition_in": "jump_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 280: slot_024
+## Clip 28: slot_024
 - section_id: sec-004
-- intent: narrative
+- intent: none
 - timing: 64.40s -> 70.90s (duration 6.50s)
 - storyboard_url: none
 - camera_language: 最上段に人物が到達する瞬間にdolly_in_slowへ切り替え、wide_masterからmedium_closeupへ寄り込み、逆光の中で人物の横顔と濡れた手すりだけをフレームに残す。eye_levelで対等な緊張を保つ。
@@ -1313,33 +706,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-6.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=最上段踊り場で足を止める主役の横顔、非常灯が点滅で照らす|layers=逆光の非常階段"
-    "action": "motion|intent=still|trajectory=slow_push"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "eye_level"
-      "movement": "dolly_in_slow"
-      "composition": "濡れた手すりが左縁に入り、横顔が黄金比右に位置する"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": "6000K白逆光"
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 6.5
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 290: slot_025
+## Clip 29: slot_025
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 70.90s -> 76.90s (duration 6.00s)
 - storyboard_url: none
 - camera_language: extreme_wideで16分割モニター全体と孔雀人全身を一フレームに収め、low_angleから見上げて情報の重力を示す。dolly_in_slowで6秒かけてmedium_closeupまで寄り、腕の展開と赤光の浸透を段階的に凝縮する。
@@ -1358,33 +728,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-6s":
-    "visual": "composition|frame=extreme_wide_to_medium_closeup|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "モニター格子が天井まで積層、孔雀人が中央軸に一致、足元の白線残光が対称に滲む"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": "警報赤620nm vs モニター青白6500K、床面に混色の滲み"
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 6.0
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 300: slot_026_s1
+## Clip 30: slot_026_s1
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 76.90s -> 78.40s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1403,31 +750,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=extreme_wide|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "bird_eye"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 310: slot_026_s2
+## Clip 31: slot_026_s2
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 78.40s -> 80.90s (duration 2.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1446,31 +772,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "composition|frame=wide_master|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-```
 
-## Clip 320: slot_027
+## Clip 32: slot_027
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 80.90s -> 83.40s (duration 2.50s)
 - storyboard_url: none
 - camera_language: worm_eyeから緩やかにdolly_in_slowを開始し、孔雀人の下半身とモニター壁の関係を画面幅いっぱいに収めながら管理室の縦の奥行きを強調する
@@ -1489,33 +794,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "床面からの極低アングルでモニター群と孔雀人の位置関係を確定するwide_masterショット。画面下部に白線残光が広がり、孔雀人の制服下部が青白いモニター映像光の反射を受ける。16分割画面が孔雀人を囲むように背景を埋め、遅延映像が複数フレームで独立して動く。worm_eyeから緩やかなドリーインが開始され管理室の奥行きが強調される"
-    "action": "ゆっくりとドリーイン開始。孔雀人は静止。モニター群の遅延映像が微細なタイムズレで非同期に動く。白線残光が足元で微細に揺らぐ"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "worm_eye"
-      "movement": "dolly_in_slow"
-      "composition": "孔雀人下半身中央、モニター壁背景全面、白線残光が床前景を横断"
-    "lighting":
-      "style": "モニター映像の青白い反射光が孔雀人の制服下部と床面を照らす。赤い点滅光が間欠的に上から降りてくる。床の白線残光が独立した淡い発光源として機能"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 330: slot_028_s1
+## Clip 33: slot_028_s1
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 83.40s -> 84.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1534,31 +816,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=medium_wide|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 340: slot_028_s2
+## Clip 34: slot_028_s2
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 84.90s -> 86.90s (duration 2.00s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1577,31 +838,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "composition|frame=medium|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-```
 
-## Clip 350: slot_028_s3
+## Clip 35: slot_028_s3
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 86.90s -> 88.40s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1620,31 +860,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=tight|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "tight"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 360: slot_029
+## Clip 36: slot_029
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 88.40s -> 90.40s (duration 2.00s)
 - storyboard_url: none
 - camera_language: ハイアングルから固定フレームで警報インジケータを画面中央に捉え、床の白線残光を画面下端に切れ込ませて光の接触と消滅を冷静に観察する
@@ -1663,33 +882,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "赤い警報インジケータの点滅クローズアップ。ハイアングルから固定フレームで捉え、点灯と消灯の間隔が深夜の管理室に静寂を刻む。画面下端に床の白線残光が切れ込み、光の接触と消滅の非同期リズムが単独で観察される。割れたガラス破片の断片が白線残光の近くで光を反射する"
-    "action": "被写体固定。警報インジケータの点滅のみが動く。床の白線残光が脈動する微細な変化。ガラス破片への反射光が点滅に連動して明滅"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": "警報インジケータを中央、白線残光を下端に配置、ガラス破片が前景に散乱"
-    "lighting":
-      "style": "赤い警報インジケータ自体が主光源として機能する。点滅のたびに周囲の空間が赤く染まり消える。白線残光は独立した発光として残存。暗部は深い紺で締まる"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "insert_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 370: slot_030
+## Clip 37: slot_030
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 90.40s -> 93.90s (duration 3.50s)
 - storyboard_url: none
 - camera_language: eye_level固定フレームで孔雀人の顔を監視カメラ越しの「画面内画面」構造に収め、観察する者と観察される者の境界を消してblock_005を締める
@@ -1708,33 +904,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3.5s":
-    "visual": "孔雀人の顔〜胸部のmedium_closeup固定ショット。表情は無表情に近く目線は正面のモニター群へ向けられている。フレーミングが「画面内画面」構造を意識し、孔雀人の顔がモニターの一区画と重なって観察される者と観察する者が境界を失う。デサチュレーションの冷たいカラーグレードの中で正面モニター光が顔を平坦に照らす"
-    "action": "孔雀人は静止。モニター内の遅延映像のみが微細に動き続ける。多関節腕は展開状態で固定。静止の中で映像の流れだけが続く"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "孔雀人の顔がモニター群の1区画と重なり画面内画面を形成、顔が中央やや上"
-    "lighting":
-      "style": "正面モニター群の青白い映像光が顔を正面から平坦に照らす。側面から赤い点滅が弱く補う。蛍光灯オフィスライティング準拠のフラットな中間調。デサチュレーション・コールド・グレーベージュのカラーグレード"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.5
-"transition_in": "match_cut"
-"transition_out": "fade_out"
-```
 
-## Clip 380: slot_031
+## Clip 38: slot_031
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 93.90s -> 95.40s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 床面低位置からの極端なワイドショット、低アングルで16分割モニター群と孔雀人を同一フレームに収め、画面内に映る遅延廊下映像との入れ子構造を視覚的に確立する
@@ -1753,33 +926,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "管理室全景—天井まで積み上がる16分割モニター群が青白く輝き、各画面に遅延した廊下映像が映る。画面の最下段中央に孔雀人の小さなシルエット、多関節腕を左右に水平展開して静止。床の白線残光が足元から滲み出す。赤い警報インジケータが画面右上で点滅"
-    "action": "孔雀人は完全静止。モニター内の遅延映像のみが微細に動く。赤点滅光が0.5秒周期でシルエットを染める"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "16分割モニター群中央に孔雀人シルエット・床の白線残光を前景に配置"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 390: slot_032_s1
+## Clip 39: slot_032_s1
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 95.40s -> 97.40s (duration 2.00s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1798,31 +948,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "composition|frame=wide_master|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-```
 
-## Clip 400: slot_032_s2
+## Clip 40: slot_032_s2
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 97.40s -> 98.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1841,31 +970,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=medium_wide|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 410: slot_032_s3
+## Clip 41: slot_032_s3
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 98.90s -> 99.90s (duration 1.00s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -1884,31 +992,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1s":
-    "visual": "composition|frame=medium_closeup|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.0
-```
 
-## Clip 420: slot_033
+## Clip 42: slot_033
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 99.90s -> 101.90s (duration 2.00s)
 - storyboard_url: none
 - camera_language: 孔雀人の胸から頭部を三分割法中央やや左に配置した固定フレームで、背景モニター群の文字残像流れを右から左へ見通せるミディアムワイドの静止ショット
@@ -1927,33 +1014,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "孔雀人の胸部から頭部にかけてのミディアムワイドフレーム。背景に3列分のモニター画面が並び、各画面内の遅延廊下映像が右から左へ流れる文字残像を映す。孔雀人の顔は正面を向き表情なし—機能の仮面。多関節腕の中間関節が画面端に切れ込む。赤警報光が顔の左半分を染める間隔が短くなる"
-    "action": "孔雀人の顔が0.1度単位で左斜め上のモニター画面へ向く—知覚できるかどうかの境界上の動き。多関節腕は静止を維持"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "孔雀人頭部を三分割左上交点に配置・背景モニター3列を右側に整列"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "jump_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 430: slot_034
+## Clip 43: slot_034
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 101.90s -> 104.40s (duration 2.50s)
 - storyboard_url: none
 - camera_language: 孔雀人の首から顎を画面中央に固定し、背景モニターに映る3秒遅延の自己映像との位相差を静止ミディアムで整然と記録する
@@ -1972,33 +1036,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "孔雀人の首から顎・耳までのミディアムフレーム。背景に1列分のモニター画面—遅延映像の中に孔雀人自身の後ろ姿が映り込む自己参照ループ。画面内画面の自己映像は3秒遅延しており、現在の静止とわずかに位相がずれて微細に腕が動く。文字残像の断片が顎の下で澱む"
-    "action": "孔雀人の喉仏が動く—言葉を飲み込む一瞬の嚥下動作。多関節腕の末端が画面外に消える"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": "孔雀人顎・喉を画面中央配置・背景モニターの自己遅延映像を右肩越しに見通す"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 440: slot_035
+## Clip 44: slot_035
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 104.40s -> 105.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 孔雀人の目を画面中央に据えた固定ミディアムクローズアップ、虹彩に映り込むモニター格子パターンをシャープに切り取り、arousal下降の静寂を1.5秒で収束させる
@@ -2017,33 +1058,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "孔雀人の目—虹彩から瞳孔までのミディアムクローズアップ。瞳の表面にモニター画面の青白い光が映り込み、16分割の格子パターンが虹彩上に投影される。赤警報光の点滅が瞳孔の収縮として観察される。目の端に文字残像の一片が流れ、消える"
-    "action": "瞳孔が赤点滅に連動して微細収縮—生体反応の記録。まばたきはない"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "孔雀人の目を画面中央・虹彩上のモニター格子反射を最大化したフレーミング"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "fade_out"
-```
 
-## Clip 450: slot_036
+## Clip 45: slot_036
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 105.90s -> 108.40s (duration 2.50s)
 - storyboard_url: none
 - camera_language: 床すれすれのローアングル固定で天井まで連なるモニター群と孔雀人全身を極端なワイドに収め、空間の威圧感と被写体の孤立感を同時に提示する
@@ -2062,33 +1080,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "天井まで積み上がる16分割モニター群を全収める極広角固定ショット。孔雀人が画面中央下部に小さく佇立し、多関節腕を左右水平に静止展開。床面の白線残光が足元から放射状に滲む。赤い警報インジケータが画面右端でリズミカルに点滅"
-    "action": "被写体静止。カメラ固定。モニター群の遅延映像のみ非同期に動き、画面内で複数の時間軸が並存する"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "モニター壁面が画面上2/3を占拠、孔雀人は下1/3中央に孤立配置"
-    "lighting":
-      "style": "16分割モニター群の青白冷光が主光源。赤警報インジケータが右端から断続的に補色フラッシュ。床の白線残光が足元に拡散反射"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 460: slot_037
+## Clip 46: slot_037
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 108.40s -> 110.40s (duration 2.00s)
 - storyboard_url: none
 - camera_language: 三点四分の一アングルからドリーインで接近しながら孔雀人の腕の多関節構造と背後のモニター群の関係性を画面に同時保持する
@@ -2107,33 +1102,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "モニター群を背景にした孔雀人上半身〜足元の広角ショット。ゆっくりとしたドリーインで被写体との距離が縮まり始める。多関節腕の先端部が画面端に見切れ、腕の構造の異質さが強調される。床の白線残光が足首まで這い上がる"
-    "action": "カメラが緩慢に前進。孔雀人は微動—多関節腕が呼吸するように僅かに伸縮。遅延モニター映像は被写体の動きより数秒遅れて反応"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "three_quarter"
-      "movement": "dolly_in_slow"
-      "composition": "孔雀人を画面左1/3に配置、右2/3にモニター壁面—人物と機械の拮抗"
-    "lighting":
-      "style": "モニター青白光がドリー移動に伴い孔雀人の輪郭に当たり方が変化。赤警報光が断続点滅で顔に間欠的な赤い影を落とす"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 470: slot_038
+## Clip 47: slot_038
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 110.40s -> 112.40s (duration 2.00s)
 - storyboard_url: none
 - camera_language: ローアングルからのドリーインで孔雀人の腕の接合部と胴体の比率を画面中央に固定し、背後モニターをデフォーカスで情報の層として保持する
@@ -2152,33 +1124,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "孔雀人の胸部から膝上までを収めるミディアムワイドショット。複数の多関節腕の分岐点と接合部が鮮明に見える。背後のモニター群は被写体越しにデフォーカスし、遅延映像の光が人物輪郭を縁取る。割れたガラス卓の破片が足元左隅に散乱"
-    "action": "ドリーインが継続。孔雀人の多関節腕が左右に緩やかに展開—機械的な精度で動く。ガラス破片が赤警報光を反射して床面に小さな光点を散布"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "多関節腕の分岐点を画面中央水平線に配置、上半分に顔・下半分に床面の白線残光"
-    "lighting":
-      "style": "デフォーカスしたモニター光が柔らかいアンビエント光として機能。多関節腕の金属的接合部にハイライトが生じる。床の白線残光が強度を増す"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 480: slot_039
+## Clip 48: slot_039
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 112.40s -> 117.40s (duration 5.00s)
 - storyboard_url: none
 - camera_language: アイレベル正面固定で孔雀人の顔と背後モニター群を同一焦点面に収め、画面内画面の入れ子構造を5秒かけて観客に読み込ませる
@@ -2197,33 +1146,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5s":
-    "visual": "孔雀人の上半身をほぼ正面から捉えた固定ミディアムショット（5秒長尺）。背後の16分割モニターが画面内画面として機能し、各モニターに映る遅延廊下映像が孔雀人の肩越しに読み取れる。赤い警報インジケータが規則的に点滅し、時間の経過を刻む。白線文字の断片が足元から胴体まで滲み上がる"
-    "action": "完全固定。孔雀人は静止—ただし背後の16分割モニターの遅延映像のみが動き続ける。点滅する赤インジケータが5秒間に複数回明滅。白線文字の滲みが非常に緩慢に上昇"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "孔雀人が画面中央—頭部上方にモニター群が続き、肩の左右にモニター映像が覗く入れ子構造"
-    "lighting":
-      "style": "16分割モニターの青白光が顔に正面から均等に当たる。赤インジケータの点滅が5秒間に4〜5回、顔全体を赤く染める間欠フラッシュ。白線文字の残像が腹部まで達する高さで安定"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.0
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 490: slot_040
+## Clip 49: slot_040
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 117.40s -> 118.90s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 三点四分の一アングル固定クローズアップで孔雀人の首元と多関節腕先端部の微振動を接近して捉え、背後をフルボケにして被写体の内的状態に焦点を絞る
@@ -2242,33 +1168,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "孔雀人の鎖骨から顎下までを収める三点四分の一ミディアムクローズアップ。多関節腕の先端部が画面下端に掛かり、指に相当する関節が微かに震える。背後のモニター映像は完全にボケ、青白とオレンジの光が人物輪郭を縁取るだけに。白線文字の残像が首元に達する"
-    "action": "カメラ静止。多関節腕の先端部が極めて微細に震動—制御の乱れの予兆。白線文字の滲みが首元で最高到達点に達し、次のブロックへの橋渡しを作る"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "鎖骨〜顎を画面中央、腕先端部が下端に掛かり、背後は完全ボケの光の滲み"
-    "lighting":
-      "style": "デフォーカスモニター光が青白ハロー状に輪郭を包む。赤インジケータ光が減衰—点滅間隔が長くなる。白線文字の残像が首元で最大輝度に達し、次カットへの余韻を残す"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "jump_cut"
-```
 
-## Clip 500: slot_041
+## Clip 50: slot_041
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 118.90s -> 123.40s (duration 4.50s)
 - storyboard_url: none
 - camera_language: ローアングル固定で管理室全体を収め、モニター壁面と床面白線残光の両方をフレーム内に配置し観察構造の全容を提示する
@@ -2287,33 +1190,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "管理室全景—16分割モニター壁面を背景に孔雀人の全身シルエット。赤い警報インジケータが断続的に点滅し、床面の白線残光が足元で滲む。画面内に映る遅延廊下映像が二重の観察構造を形成"
-    "action": "孔雀人は静止。多関節腕を水平に展開した姿勢で固定。モニター映像のみが流れる"
-    "camera":
-      "shot_size": "extreme_wide"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "孔雀人中央、モニター壁面を背景、床面白線を前景"
-    "lighting":
-      "style": "赤い警報インジケータの断続点滅光、モニター画面の青白い拡散光、白線残光の薄い床面発光"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 510: slot_042
+## Clip 51: slot_042
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 123.40s -> 125.60s (duration 2.20s)
 - storyboard_url: none
 - camera_language: スリークォーターアングルで人物の腕展開と背後モニター映像の重なりを同一フレームに収め、実体と記録の二重性を提示する
@@ -2332,33 +1212,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.2s":
-    "visual": "孔雀人の胴体から腕の展開部へ—赤光が制服の縫い目を縁取り、多関節腕の各節が静止状態で画面に収まる。背景モニターの遅延映像が人物越しに重なり、実体と記録映像の境界が曖昧になる"
-    "action": "多関節腕の先端が微かに震える程度。胴体は完全静止"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "多関節腕の展開幅をフレーム横幅に合わせ、背後モニターを透かして見せる"
-    "lighting":
-      "style": "モニター群の青白い面発光が背面から人物を逆光気味に染め、赤い警報光が側面から差す"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.2
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 520: slot_043_s1
+## Clip 52: slot_043_s1
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 125.60s -> 127.10s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -2377,31 +1234,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 530: slot_043_s2
+## Clip 53: slot_043_s2
 - section_id: sec-005
-- intent: narrative
+- intent: none
 - timing: 127.10s -> 128.60s (duration 1.50s)
 - storyboard_url: none
 - camera_language: モニターの反射越しに被写体を重ね、視線の迷いを構図で表現する
@@ -2420,31 +1256,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=tight|camera_pose=low_angle|subject_placement=モニター群を背に立つ孔雀人全身—赤光が制服を染め、多関節腕が左右に静止展開、足元に白線の残光が滲む。16分割画面の遅延映像が背景を埋め、画面内に画面が重なる観察構造。極端なワイドから徐々にクローズアップへ移行し、情報密度が凝縮される|layers=監視モニターの並ぶ管理室—16分割画面が天井まで積み上がり、各画面に遅延した廊下映像が映る。深夜の静寂の中で赤い警報インジケータが点滅し、割れたガラス卓の破片が床に散乱。白線の残光が床面に滲み、文字の断片が足元に澱む"
-    "action": "motion|intent=still_to_subtle_arm_unfold|trajectory=dolly_in_slow"
-    "camera":
-      "shot_size": "tight"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 540: slot_044
+## Clip 54: slot_044
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 128.60s -> 136.60s (duration 8.00s)
 - storyboard_url: none
 - camera_language: アイレベル固定ワイドで屋上通路の奥行きを確保し、霧の流れと排気煙の境界消失を時間軸で観察する長回しの起点を定める
@@ -2463,33 +1278,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-8s":
-    "visual": "屋上通路の広角—濃密な霧が外灯の光を平面的に拡散させ、排気口からの白煙が霧へ溶け込んで境界が消える。開いた保守ハッチから漏れる地下光が霧を下から薄く染め、濡れた床面が霧の反射で揺れる。人物の輪郭が霧に滲んで溶解し始める"
-    "action": "霧が一定の流れで左から右へ拡散。排気口の白煙が上昇しながら霧層に吸収される。孔雀人はフレーム奥に静止"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "通路の消失点を中央に、排気口を左三分の一、保守ハッチを右前景に配置"
-    "lighting":
-      "style": "霧に拡散した外灯の均一拡散光、保守ハッチからの地下漏れ光の薄い上昇照明、排気口白煙の自発光なし"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 8.0
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 550: slot_045
+## Clip 55: slot_045
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 136.60s -> 141.60s (duration 5.00s)
 - storyboard_url: none
 - camera_language: アイレベルのスローなドリーインで排気口の白煙と霧の境界消失点に接近し、輪郭が失われる過程を凝視する単一フォーカスの構図を保つ
@@ -2508,33 +1300,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5s":
-    "visual": "排気口と霧の境界消失点へのミディアム寄り—白煙と霧が完全に混ざり合い境界線が消える瞬間を捉える。外灯の拡散光が空間全体を均質に覆い、孔雀人の多関節腕の先端だけが霧の縁で薄く輪郭を保つ"
-    "action": "霧の密度が増す方向へゆっくり濃くなる。孔雀人の腕先が霧の流れに乗り微かに揺れる"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "eye_level"
-      "movement": "dolly_in_slow"
-      "composition": "排気口の煙と霧の境界を中央、腕先の輪郭を右縁に薄く残す"
-    "lighting":
-      "style": "霧に均質化された外灯拡散光のみ—影のない平坦な白灰色照明で輪郭消失を強調"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.0
-"transition_in": "hard_cut"
-"transition_out": "fade_out"
-```
 
-## Clip 560: slot_046
+## Clip 56: slot_046
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 141.60s -> 146.10s (duration 4.50s)
 - storyboard_url: none
 - camera_language: wide_masterで屋上通路全体を固定フレームに収め、霧の拡散光が奥から手前へ流れる縦深を強調した水平構図で緊張を静かに蓄積する。
@@ -2553,33 +1322,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "霧が通路全体を充填し外灯の光が粒子状に拡散する。排気口の白煙が霧の底面に溶け込み、床の濡れた面に歪んだ光の反射が揺れる"
-    "action": "霧がゆっくり左から右へ流れる。白煙が排気口から垂直に立ち上がり霧層に吸収される。被写体の動きは最小限"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "屋上通路の縦深を軸に霧の層と外灯光を左右対称に配置"
-    "lighting":
-      "style": "外灯の拡散光が霧に散乱し、空間全体が均一な青白い光幕に包まれる。影のコントラストは最低限——輪郭消失を優先"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-"transition_in": "fade_in"
-"transition_out": "hard_cut"
-```
 
-## Clip 570: slot_047
+## Clip 57: slot_047
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 146.10s -> 151.60s (duration 5.50s)
 - storyboard_url: none
 - camera_language: medium_wideで排気口と周囲の霧層を固定フレームに収め、白煙が霧に溶け込む境界線を画面中央に配置して輪郭の喪失を観察する。
@@ -2598,33 +1344,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5.5s":
-    "visual": "排気口の白煙が霧に吸収される境界線がフレーム中央に浮かぶ。霧の密度が増し中景の輪郭が滲み始める"
-    "action": "白煙の立ち上がりが霧の流れに押され横へ広がる。背景の外灯がさらに滲む"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "排気口を中央やや下に置き、霧の消失点を画面上部1/3に設定"
-    "lighting":
-      "style": "外灯の拡散光が霧粒子に乱反射し、排気口周辺だけわずかに明度が上がる。白煙と霧の境界は露出オーバー気味で溶解"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 580: slot_048
+## Clip 58: slot_048
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 151.60s -> 155.60s (duration 4.00s)
 - storyboard_url: none
 - camera_language: mediumを固定し三quarter視点で床面の光反射と排気口を同一フレームに収め、二つの光源が霧の中で共鳴する三層構成を観察する。
@@ -2643,33 +1366,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4s":
-    "visual": "床面の濡れた面に保守ハッチの光が揺れる四角形を作る。霧がハッチの開口部からも漏れ出し、暖色と青白の光が混ざる"
-    "action": "床面の光反射が霧の揺れで歪み続ける。排気口の白煙がさらに拡散し霧との境界が完全に消える"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "床面の光反射を前景に、排気口を中景中央に、霧の消失点を奥に重ねた三層構成"
-    "lighting":
-      "style": "保守ハッチから漏れる地下の暖色光が床面に四角い反射を作る。外灯の青白い拡散光と暖色の対比が霧の中で混濁する"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.0
-"transition_in": "hard_cut"
-"transition_out": "jump_cut"
-```
 
-## Clip 590: slot_049
+## Clip 59: slot_049
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 155.60s -> 158.60s (duration 3.00s)
 - storyboard_url: none
 - camera_language: mediumを固定保持し、霧に輪郭を奪われた排気口の残像だけが画面中央に浮かぶ構図で、動きのない時間の重さを蓄積する。
@@ -2688,33 +1388,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3s":
-    "visual": "霧が通路を完全に充填し、排気口の形状が薄い残像としてのみ視認できる。光と霧の境界が消滅した均質な空間"
-    "action": "可視的な動きがほぼゼロ——霧の微細な揺れのみ。静止に近い状態で感情圧が内向する"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "霧に溶けた排気口の輪郭残像を中央に、光の拡散を画面全体に均等配分"
-    "lighting":
-      "style": "霧の密度が最大になり外灯の点光源が完全に拡散——空間全体が一様な灰白色の光幕。シャドウ消失"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.0
-"transition_in": "jump_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 600: slot_050
+## Clip 60: slot_050
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 158.60s -> 163.60s (duration 5.00s)
 - storyboard_url: none
 - camera_language: mediumからdolly_in_slowで微細に寄りながら、霧の中に浮かぶ保守ハッチの光を画面中央下に固定し、空間の収縮と感情の収束を一致させる。
@@ -2733,33 +1410,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5s":
-    "visual": "ハッチの光が霧を下から橙色に染め、外灯の拡散光が上から青白く押さえる。中間層の霧が二色の光に揺れ、孔雀の多関節腕の影が霧に薄く映る"
-    "action": "dolly_inが極めて緩やかに進行し、霧の粒子がフレームに迫ってくる感覚。ハッチの光が徐々に画面下から上へ浸食する"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "low_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "保守ハッチの光を下方1/3に置き、霧に満たされた上部空間で圧迫感を作る"
-    "lighting":
-      "style": "保守ハッチの暖色光が霧を下から照らし、外灯の青白拡散光と逆方向から交差する。光の衝突点に感情の核を置く"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.0
-"transition_in": "match_cut"
-"transition_out": "fade_out"
-```
 
-## Clip 610: slot_051
+## Clip 61: slot_051
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 163.60s -> 167.60s (duration 4.00s)
 - storyboard_url: none
 - camera_language: 屋上通路を正面から捉えるwide_master固定フレーム。外灯を左上三分の一に配置し、排気口を中央下部に置いて霧の流れが横断する空間構成にする
@@ -2778,33 +1432,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4s":
-    "visual": "屋上通路の全景——外灯が霧に拡散し光源の輪郭が消えている。排気口の位置は煙の噴出で辛うじて推測できる程度。床面の水たまりに白煙の流れが歪んで映る"
-    "action": "霧がゆっくり左から右へ流れる。白煙が排気口から垂直に上がり横流れの霧に飲み込まれていく。画面全体が静かに呼吸するように密度が変化する"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "外灯左上・排気口中央下・霧の横流れ"
-    "lighting":
-      "style": "外灯の拡散オレンジ光が霧全体に滲む。コントラスト低・全域がフラットなグレーベージュに沈む"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.0
-"transition_in": "fade_in"
-"transition_out": "hard_cut"
-```
 
-## Clip 620: slot_052
+## Clip 62: slot_052
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 167.60s -> 169.10s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 排気口を中央やや下に固定し、medium_wideフレームで煙と霧が交差する空間をlow_angle_softで静止して観察する
@@ -2823,33 +1454,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "排気口周辺のミドルワイド——白煙が霧の層に接触し境界線が溶ける瞬間を捉える。外灯の光が煙の内側から滲み出るように見える"
-    "action": "白煙が排気口から上昇し霧の層に達した瞬間に横拡散する。境界消失点で光の粒子が散乱する微細な動き"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "排気口中央・白煙と霧の境界が上部三分の二を占める"
-    "lighting":
-      "style": "外灯拡散光が霧内部に散乱。煙の輪郭部分が橙色に縁取られ内側は白く飛ぶ"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 630: slot_053
+## Clip 63: slot_053
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 169.10s -> 171.60s (duration 2.50s)
 - storyboard_url: none
 - camera_language: 床面の水たまりをhigh_angle_softで俯瞰するmedium固定フレーム。外灯の反射像が中央に来るよう構図を定め、霧の蓄積を画面の曇りとして表現する
@@ -2868,33 +1476,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "床面の水たまりに霧の反射——外灯と白煙が逆さに映り込み、現実と反射の上下が曖昧になる。保守ハッチの光漏れが水面の端に揺れる"
-    "action": "霧の動きに合わせて水面の反射がゆっくり揺れる。白煙の影が水面を横切る。霧密度がじわじわ上昇し画面の視認性が落ちていく"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": "水面反射中央・ハッチ光漏れ右端"
-    "lighting":
-      "style": "外灯の橙が水面に反射して揺れる。ハッチの白光が対角線上に弱く差し込む"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 640: slot_054
+## Clip 64: slot_054
 - section_id: sec-006
-- intent: narrative
+- intent: none
 - timing: 171.60s -> 175.70s (duration 4.10s)
 - storyboard_url: none
 - camera_language: 排気口の金属縁を中央やや左に据えたmedium・three_quarter固定フレーム。被写界深度を浅くして背景を完全に溶かし、霧の密度増加が画面の不透明化として体験されるよう設計する
@@ -2913,33 +1498,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.1s":
-    "visual": "排気口のメディアム——霧が最も濃く蓄積した状態。排気口の金属縁だけが微かに見え、それ以外は白煙と霧が混合した不定形の塊が画面を占める。arousal最高値に対応する圧迫感"
-    "action": "白煙が排気口から連続噴出し霧と完全に混合する。画面の大部分が動く白灰色の塊に覆われ、金属縁だけが固定した基準点として残る"
-    "camera":
-      "shot_size": "medium_shot"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "排気口縁中央左・霧の塊が右三分の二を圧迫"
-    "lighting":
-      "style": "外灯拡散光が霧内部に完全に散乱。コントラスト消失・全面がフラットな白灰色"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.1
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 650: slot_055_s1
+## Clip 65: slot_055_s1
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 175.70s -> 178.20s (duration 2.50s)
 - storyboard_url: none
 - camera_language: ワイドで状況を固定した後にクローズで決定的瞬間へ収束させる
@@ -2958,31 +1520,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "composition|frame=wide_master|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-```
 
-## Clip 660: slot_055_s2
+## Clip 66: slot_055_s2
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 178.20s -> 182.70s (duration 4.50s)
 - storyboard_url: none
 - camera_language: ワイドで状況を固定した後にクローズで決定的瞬間へ収束させる
@@ -3001,31 +1542,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-```
 
-## Clip 670: slot_056
+## Clip 67: slot_056
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 182.70s -> 187.70s (duration 5.00s)
 - storyboard_url: none
 - camera_language: 頬骨から口元にかけてのcloseup固定フレーム。三分の二ルールで口元を左下に配置し、右上の暗部に白線の凝固が滲み出る構図
@@ -3044,33 +1564,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5s":
-    "visual": "主役横顔のクローズアップ——口元から細い白い線が伸びて宙に固まり始める現象が微かに見える。外灯橙が頬骨の稜線を縁取り、それ以外は暗部に沈む"
-    "action": "完全静止。口元から伸びる白線が極めてゆっくり凝固する。まばたきが一回だけ起きる。霧の反射が瞳に微かに揺れる"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "口元左下・白線凝固が右上暗部に滲む"
-    "lighting":
-      "style": "外灯橙の側光が頬骨稜線のみを照射。それ以外は霧の青灰散乱光で満たされる"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.0
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 680: slot_057
+## Clip 68: slot_057
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 187.70s -> 191.20s (duration 3.50s)
 - storyboard_url: none
 - camera_language: 屋上通路を俯瞰するbird_eye固定フレームで監視カメラ視点を再現。主役を画面中央小さく配置し霧が全面を包む構図
@@ -3089,33 +1586,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3.5s":
-    "visual": "管理室の監視映像グレイン質感で屋上通路を俯瞰——タイムスタンプの数字が右下に滲む。実空間と監視映像の区別が曖昧になる。主役の頭頂部と肩が小さく映る"
-    "action": "監視映像のスキャンラインノイズが画面を縦走する。主役は静止。霧の流れだけが時間の経過を示す"
-    "camera":
-      "shot_size": "wide_master"
-      "angle": "bird_eye"
-      "movement": "static"
-      "composition": "主役中央小・霧が全面・タイムスタンプ右下"
-    "lighting":
-      "style": "監視映像風の低彩度モノクロ近似。わずかに赤外線ノイズが乗る"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 690: slot_058
+## Clip 69: slot_058
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 191.20s -> 193.20s (duration 2.00s)
 - storyboard_url: none
 - camera_language: 目元に極限まで寄ったtight固定フレーム。外灯橙が瞳の縁に弧を描き、その内側の暗部に白線が反射する構図
@@ -3134,33 +1608,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "主役の目元のタイト——外灯橙の光が瞳の縁を縁取る。白線の凝固が瞳の反射に映り込む。霧の粒子が睫毛の先に付着している"
-    "action": "瞳の微細な揺れのみ。まばたきなし。霧の粒子が睫毛に付着するのが見える。白線の凝固が瞳内部で揺らめく"
-    "camera":
-      "shot_size": "tight"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "瞳中央・橙縁取り・白線反射内包"
-    "lighting":
-      "style": "外灯橙の点光源が瞳に小さく映る。全体は暗部。瞳の反射だけが光点として機能する"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 700: slot_059_s1
+## Clip 70: slot_059_s1
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 193.20s -> 194.70s (duration 1.50s)
 - storyboard_url: none
 - camera_language: ワイドで状況を固定した後にクローズで決定的瞬間へ収束させる
@@ -3179,31 +1630,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "composition|frame=closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "profile"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-```
 
-## Clip 710: slot_059_s2
+## Clip 71: slot_059_s2
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 194.70s -> 197.20s (duration 2.50s)
 - storyboard_url: none
 - camera_language: ワイドで状況を固定した後にクローズで決定的瞬間へ収束させる
@@ -3222,31 +1652,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": null
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-```
 
-## Clip 720: slot_060
+## Clip 72: slot_060
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 197.20s -> 202.70s (duration 5.50s)
 - storyboard_url: none
 - camera_language: 霧の粒子と光の散乱をextreme_closeup固定フレームで捉える。被写界深度を極限まで浅くし前景の霧粒子にピントを合わせて背景の白線を光の滲みに変える
@@ -3265,33 +1674,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5.5s":
-    "visual": "外灯の橙光が霧に拡散する極限クローズ——光の粒子と霧の粒子が区別できない。白線の凝固した端部が右端に僅かに残る。extreme_closupで霧の粒子そのものが被写体になる"
-    "action": "ほぼ完全静止。霧の粒子が極めてゆっくり漂う。光の粒子が散乱する微細な動きのみ。白線の端部が画面右端で微かに揺れて余韻を残す"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "霧粒子前景鮮明・白線端部が右端に滲む"
-    "lighting":
-      "style": "外灯橙の散乱光が全面に均一に広がる。コントラスト消失・光と霧の境界が消える"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.5
-"transition_in": "hard_cut"
-"transition_out": "fade_out"
-```
 
-## Clip 730: slot_061
+## Clip 73: slot_061
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 202.70s -> 205.20s (duration 2.50s)
 - storyboard_url: none
 - camera_language: 固定カメラでモニター画面をフレーム内フレームとして収め、スキャンライン越しの屋上霧映像をmedium_closeup・high_angle_softで提示する
@@ -3310,33 +1696,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "監視モニター筐体・スキャンライン縞・屋上霧影・コントロールパネル縁"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": "モニター枠内フレーム・スキャンライン重畳"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 740: slot_062
+## Clip 74: slot_062
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 205.20s -> 208.20s (duration 3.00s)
 - storyboard_url: none
 - camera_language: handheld_floatで微揺れしながら主役横顔を右寄り三分割に置き、外灯橙光の片側ハーフライトをmedium_closeup・profileアングルで強調する
@@ -3355,33 +1718,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3s":
-    "visual": "主役横顔輪郭・橙光斑・霧拡散帯・濡れ排気口白煙"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "profile"
-      "movement": "handheld_float"
-      "composition": "右寄り三分割・左側ネガティブ霧"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.0
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 750: slot_063
+## Clip 75: slot_063
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 208.20s -> 209.70s (duration 1.50s)
 - storyboard_url: none
 - camera_language: 固定カメラで保守ハッチ開口部の地下漏れ光に向かう主役目線方向をcloseup・low_angle_softで捉え、監視映像と実空間のマッチカット接続点を静止画質で提示する
@@ -3400,33 +1740,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-1.5s":
-    "visual": "保守ハッチ開口部縁・地下光条・濡れ床面反射・主役足元輪郭"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "保守ハッチ光源へ向かう視線軸・中央配置"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 1.5
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 760: slot_064
+## Clip 76: slot_064
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 209.70s -> 212.20s (duration 2.50s)
 - storyboard_url: none
 - camera_language: 固定カメラでbird_eyeから排水溝格子を画面中央に据え、格子間から漏れる白色光と滲み文字残像をtight・topdownで圧縮する
@@ -3445,33 +1762,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2.5s":
-    "visual": "排水溝格子鉄縁・格子間白光条・滲み文字残像・濡れ路面粒子"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "tight"
-      "angle": "bird_eye"
-      "movement": "static"
-      "composition": "格子パターン中央・光縁フレーム端滲み"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.5
-"transition_in": "insert_cut"
-"transition_out": "jump_cut"
-```
 
-## Clip 770: slot_065
+## Clip 77: slot_065
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 212.20s -> 214.20s (duration 2.00s)
 - storyboard_url: none
 - camera_language: 固定カメラで主役口元をextreme_closeup・three_quarterアングルで極限まで寄せ、白い呼気凝結と橙光粒子をフレーム中央に無音的に提示する
@@ -3490,33 +1784,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-2s":
-    "visual": "主役口元輪郭・白呼気凝結・橙光粒子・霧深暗部背景"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "口元中央・呼気白煙右ドリフト"
-    "lighting":
-      "style": null
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 2.0
-"transition_in": "jump_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 780: slot_066
+## Clip 78: slot_066
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 214.20s -> 218.70s (duration 4.50s)
 - storyboard_url: none
 - camera_language: 固定カメラで横顔を三分割右寄せに配置し、左から差す外灯橙光と右の霧白を対比させたまま微動させない。
@@ -3535,33 +1806,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "three_quarter"
-      "movement": "static"
-      "composition": "外灯橙光が左頬を縁取り、右側が霧に溶ける"
-    "lighting":
-      "style": "外灯の橙単光源・右側フォールオフは霧散乱で白くにじむ・コントラスト高め"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 790: slot_067
+## Clip 79: slot_067
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 218.70s -> 221.70s (duration 3.00s)
 - storyboard_url: none
 - camera_language: やや高い角度から弧を描く多関節腕の先端へゆっくりドリーインし、霧の中で腕が消えかける寸前で止める。
@@ -3580,33 +1828,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-3s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "high_angle_soft"
-      "movement": "dolly_in_slow"
-      "composition": "腕の先端を画面中央へ誘導・頭頂は切る"
-    "lighting":
-      "style": "外灯橙が霧で拡散・腕の関節部に点状反射・暗部多め"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 3.0
-"transition_in": "hard_cut"
-"transition_out": "jump_cut"
-```
 
-## Clip 800: slot_068
+## Clip 80: slot_068
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 221.70s -> 229.70s (duration 8.00s)
 - storyboard_url: none
 - camera_language: ローアングル固定で保守ハッチの光縁を前景に入れ、主役の目線の静止を8秒間余韻として保持する。
@@ -3625,33 +1850,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-8s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "tight"
-      "angle": "low_angle_soft"
-      "movement": "static"
-      "composition": "ハッチの光の縁を前景に、目線の高さで横顔を押し込む"
-    "lighting":
-      "style": "保守ハッチからの青白い漏れ光が足元から顔面下部を照射・外灯橙との色温度対立"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 8.0
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 810: slot_069
+## Clip 81: slot_069
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 229.70s -> 235.70s (duration 6.00s)
 - storyboard_url: none
 - camera_language: プロファイル角度で瞳の極端なクローズアップに入り、わずかなハンドヘルドの揺らぎで霧と光の反射が瞳内で動くのを映す。
@@ -3670,33 +1872,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-6s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "profile"
-      "movement": "handheld_float"
-      "composition": "瞳の虹彩に外灯光の円が映り込む・睫毛をシルエットで縁取る"
-    "lighting":
-      "style": "外灯橙の点光が瞳に映り込む・まぶたの縁のみ橙縁取り・その他は黒落ち"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 6.0
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 820: slot_070
+## Clip 82: slot_070
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 235.70s -> 240.20s (duration 4.50s)
 - storyboard_url: none
 - camera_language: クレーンをゆっくり上昇させ俯瞰へ移行しながら主役を霧の中に沈め、外灯とハッチの光だけが残る構図でブロックを閉じる。
@@ -3715,33 +1894,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "bird_eye"
-      "movement": "crane_up_slow"
-      "composition": "主役を霧と外灯の光の十字路に小さく配置・保守ハッチの光縁が地面に白い矩形"
-    "lighting":
-      "style": "外灯橙の拡散霧・ハッチ青白光の矩形床反射・全体輝度を落とし静寂を可視化"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 830: slot_071
+## Clip 83: slot_071
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 240.20s -> 249.60s (duration 9.40s)
 - storyboard_url: none
 - camera_language: 固定カメラ・プロフィールで主役横顔を捉え、左縁の外灯橙光と右縁の霧暗部で顔を半割にする——監視映像の静的フレームと等価な構図でマッチカット受けを成立させる。
@@ -3760,33 +1916,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-9.4s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_closeup"
-      "angle": "profile"
-      "movement": "static"
-      "composition": "外灯橙光が左側顔を縁取り、右半分は霧の暗闇に溶ける"
-    "lighting":
-      "style": "外灯橙単光源・左片側のみ照射・右は霧拡散でフォールオフ急峻"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 9.4
-"transition_in": "match_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 840: slot_072
+## Clip 84: slot_072
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 249.60s -> 255.10s (duration 5.50s)
 - storyboard_url: none
 - camera_language: スローダリーインでthree_quarterアングルから顔に寄り込み、extreme_closupへの遷移を予感させる中間フレームを作る——霧粒子を前景ボケに取り込み奥行きを圧縮する。
@@ -3805,33 +1938,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-5.5s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "close_up"
-      "angle": "three_quarter"
-      "movement": "dolly_in_slow"
-      "composition": "目元から顎にかけてのラインを画面中央に据え、霧の粒子を前ボケに使う"
-    "lighting":
-      "style": "外灯橙が鼻梁をリム状に縁取り・霧の散乱光で影部にほのかな青みを乗せる"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 5.5
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
-```
 
-## Clip 850: slot_073
+## Clip 85: slot_073
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 255.10s -> 261.10s (duration 6.00s)
 - storyboard_url: none
 - camera_language: 固定・extreme_closupで瞳の橙反射を画面中央に固定し、周囲を霧の白飛びで潰す——管理室モニターの監視グリッドが瞳に重なるマッチカット出口を設計する。
@@ -3850,33 +1960,10 @@
   }
 }
 ```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-6s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "extreme_closeup"
-      "angle": "eye_level"
-      "movement": "static"
-      "composition": "瞳と外灯橙反射だけを画面に残し余白は霧白に潰す"
-    "lighting":
-      "style": "外灯橙が瞳に点状反射・霧の高輝度拡散で画面周縁ほぼ白飛び"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 6.0
-"transition_in": "hard_cut"
-"transition_out": "match_cut"
-```
 
-## Clip 860: slot_074
+## Clip 86: slot_074
 - section_id: sec-007
-- intent: narrative
+- intent: none
 - timing: 261.10s -> 265.10s (duration 4.00s)
 - storyboard_url: none
 - camera_language: 固定・俯瞰気味のhigh_angle_softで屋上全景に引き、人物を霧の中の小さな点として静置——余韻と空間の広がりをrelease構図で回収する。
@@ -3894,28 +1981,5 @@
     "seed": 1007990615
   }
 }
-```
-### Timeline (YAML)
-```yaml
-"timeline":
-  "0-4s":
-    "visual": "composition|frame=medium_closeup|camera_pose=eye_level|subject_placement=主役の横顔・外灯の橙が片側だけを照らす|layers=霧が流れる屋上通路——濃密な霧が外灯の光を拡散させ輪郭を溶かす。濡れた排気口から白煙が霧へ溶け込み境界が消失する。開いた保守ハッチから地下の光が漏れ、足元の濡れた床面に霧の反射が揺れる"
-    "action": "motion|intent=subtle|trajectory=handheld"
-    "camera":
-      "shot_size": "medium_wide"
-      "angle": "high_angle_soft"
-      "movement": "static"
-      "composition": "人物を画面下1/3に小さく配置し、霧と外灯の光柱が上方を支配する"
-    "lighting":
-      "style": "外灯の光柱が霧を縦に割る・足元保守ハッチ漏れ光が床面に青白い矩形を浮かべる"
-      "direction": null
-      "color_temp": null
-    "effects":
-[]
-    "notes": null
-"intent": "narrative"
-"duration_sec": 4.0
-"transition_in": "hard_cut"
-"transition_out": "hard_cut"
 ```
 
