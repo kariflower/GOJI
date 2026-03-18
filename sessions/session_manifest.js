@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-18T05:36:08Z",
+  "generated_at": "2026-03-18T09:40:56Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260318-134607-794a",
+      "path": "./session-20260318-134607-794a/assets/instructions/index.html",
+      "generated_at": "2026-03-18T09:40:50.590678Z",
+      "clip_count": 97,
+      "duration_sec": 263.67999999999995,
+      "section_count": 7,
+      "summary": "夜明け前、台所に一人の女が立つ。エプロンをつけたまま、ヘアクリップを頭に刺したまま、彼女は空の鍋を火にかけ、お玉でゆっくりとかき混ぜ始める。窓の外はまだ暗い。換気扇だけが回っている。柔らかな朝の光が差し込むにつれて、台所の壁や金属の鍋肌が微かに波紋を描く——彼女が口の中で転がし続けた言葉が、すでに物体たちへと浸透し始めているのだ。午前中、彼女は化粧水のボトルを手に取り、窓辺の光の中でそれをしばらく見つめる。ボトルの表面が彼女の視線より…",
+      "song_file": "オブラーテッド.mp3"
+    },
     {
       "session_id": "session-20260318-112731-fe15",
       "path": "./session-20260318-112731-fe15/assets/instructions/index.html",
