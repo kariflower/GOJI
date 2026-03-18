@@ -368,6 +368,67 @@
     .emotion-mystic  { background: rgba(155,108,255,0.15); color: #9b6cff; }
     .emotion-default { background: rgba(166,173,190,0.12); color: var(--ink-secondary); }
 
+    /* ── Hero Card ────────────────────────────────────── */
+    .hero-card {
+      background: linear-gradient(135deg, rgba(255,107,53,0.06) 0%, rgba(155,108,255,0.06) 100%);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 24px;
+    }
+    .hero-title {
+      font-size: 22px; font-weight: 800; color: var(--ink);
+      margin-bottom: 4px; letter-spacing: -0.02em;
+    }
+    .hero-subtitle {
+      font-size: 13px; color: var(--accent); font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .hero-synopsis {
+      font-size: 13px; color: var(--ink-secondary); line-height: 1.7;
+      margin-bottom: 16px; max-height: 4.2em; overflow: hidden;
+    }
+    .hero-meta {
+      display: flex; gap: 16px; flex-wrap: wrap; font-size: 11px; color: var(--muted);
+    }
+    .hero-meta-item { display: flex; align-items: center; gap: 4px; }
+    .hero-meta-label { color: var(--dim); }
+    .hero-meta-value { color: var(--ink); font-weight: 600; }
+
+    /* ── Constraint Badges ────────────────────────────── */
+    .constraint-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+    .constraint-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; padding: 3px 10px; border-radius: 999px;
+      font-weight: 500; letter-spacing: 0.02em;
+    }
+    .constraint-badge-label { font-size: 9px; text-transform: uppercase; opacity: 0.7; margin-right: 2px; }
+    .badge-tone   { background: rgba(155,108,255,0.15); color: #9b6cff; }
+    .badge-genre  { background: rgba(52,211,153,0.15); color: #34d399; }
+    .badge-style  { background: rgba(255,208,95,0.15); color: #ffd05f; }
+
+    /* ── Prompt Cards (Drawer) ───────────────────────── */
+    .prompt-card {
+      background: var(--bg-raised); border: 1px solid var(--border-default);
+      border-radius: 8px; padding: 10px 12px; margin-bottom: 8px;
+    }
+    .prompt-card-label {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--accent); font-weight: 600; margin-bottom: 4px;
+    }
+    .prompt-card-text { font-size: 11px; color: var(--ink); white-space: pre-wrap; line-height: 1.5; }
+
+    /* ── Visual Strategy Tag ─────────────────────────── */
+    .vs-tag {
+      display: inline-block; font-size: 9px; padding: 1px 6px;
+      border-radius: 4px; font-weight: 600; letter-spacing: 0.04em;
+    }
+    .vs-symbolic       { background: rgba(155,108,255,0.15); color: #9b6cff; }
+    .vs-narrative      { background: rgba(52,211,153,0.15); color: #34d399; }
+    .vs-spectacular    { background: rgba(255,138,91,0.15); color: #ff8a5b; }
+    .vs-atmospheric    { background: rgba(107,227,215,0.15); color: #6be3d7; }
+    .vs-performance    { background: rgba(255,208,95,0.15); color: #ffd05f; }
+    .vs-default        { background: rgba(166,173,190,0.12); color: var(--ink-secondary); }
+
     /* ── Timeline SVG ─────────────────────────────────── */
     .timeline-container { overflow-x: auto; padding: 8px 0; }
     .timeline-svg { display: block; }
@@ -610,7 +671,9 @@
 
     <!-- PAGE: Overview -->
     <div class="page" id="page-overview">
-      <div class="stat-grid" id="overview-stats"></div>
+      <div id="overview-hero"></div>
+      <div class="stat-grid" id="overview-stats" style="margin-top:16px"></div>
+      <div id="overview-constraints" style="margin-top:12px"></div>
       <div class="card" style="margin-top:16px">
         <div class="card-title" data-i18n="hookCurve">Hook Curve</div>
         <div class="timeline-container" id="overview-hook-curve"></div>
@@ -699,7 +762,7 @@
   <!-- ── Data ────────────────────────────────────────── -->
   <script id="instructions-data" type="application/json">{
   "meta": {
-    "generated_at": "2026-03-18T01:45:55.081333Z",
+    "generated_at": "2026-03-18T15:29:19.250520Z",
     "version": "mvp-1",
     "clip_count": 55,
     "cut_scene_count": 6,
@@ -1677,7 +1740,7 @@
         "in": "fade_in",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止, cinematic still frame, music video, high quality",
       "video_prompt": "空席コースター左1/3重心・人物右端極小・二脚グラス中央対角 composition, コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -1703,8 +1766,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, high angle soft, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止, cinematic still frame, music video, high quality",
       "prompt_ja": "空席を主役として先に認識させ、人物はフレーム端の付随物として導入する空間確立ショット / 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配 / コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止 / key: sec_001",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -1723,7 +1786,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター端・空席コースター淡発光・右端に修道士シルエット極小・暗青灰色トーン支配, コースター縁の黄橙発光のみが0.5Hz呼吸・カメラ静止・人物静止, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -1889,7 +1952,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame medium close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -1924,8 +1987,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame medium close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame medium close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "prompt_ja": "コースター全体の染み年輪パターンを俯瞰で確認——物質記憶の広がりを先に示す / 画面構成: フレーム: medium close-up / カメラ位置: bird's-eye view / 被写体配置: コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: subtle / trajectory: static / key: sec_001",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -1944,7 +2007,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame medium close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -2109,7 +2172,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame tight, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "tight shot, high angle soft, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -2144,8 +2207,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame tight, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
-      "prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame tight, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "prompt_en": "tight shot, high angle soft, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
+      "prompt": "tight shot, high angle soft, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "prompt_ja": "最外縁の染み1本にフレームを絞るインサート——年輪の最古層を証拠物件として指示 / 画面構成: フレーム: tight / カメラ位置: bird's-eye view / 被写体配置: コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: subtle / trajectory: static / key: sec_001",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -2164,7 +2227,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame tight, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+        "prompt": "tight shot, high angle soft, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -2329,7 +2392,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -2364,8 +2427,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
       "prompt_ja": "発光の起点となる縁部へゆっくり接近——滲み出す黄橙が現在進行形の証言として浮上 / 画面構成: フレーム: extreme close-up / カメラ位置: bird's-eye view / 被写体配置: コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: subtle / trajectory: static / key: sec_001",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -2384,7 +2447,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme close-up, camera position bird's-eye view, subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, layering 閉店間際の小さな居酒屋カウンター端, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement コースター表面・年輪状の茶の染み・縁の淡い黄橙の発光, action: subtle, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -2552,7 +2615,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ, cinematic still frame, music video, high quality",
       "video_prompt": "pan left slow camera move, 男後ろ姿右端極小・空席椅子前景左半分・提灯橙光中央下 composition, pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -2587,8 +2650,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, high angle soft, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ, cinematic still frame, music video, high quality",
       "prompt_ja": "空席との比率を再確立し、男の存在の小ささと空席の支配力を確認する第二の確立ショット / 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす / pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -2607,7 +2670,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, high angle soft, 長焦点圧縮カウンター・修道士後ろ姿右端極小・空席椅子前景左支配・提灯橙光が横顔を半分照らす, pan_left_slowで空席から提灯へ視線誘導・人物静止・提灯光微揺れ, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -2776,7 +2839,7 @@
         "in": "hard_cut",
         "out": "match_cut"
       },
-      "first_frame_prompt": "medium close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, three-quarter view, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, 和紙面が画面60%・指影シルエット中央・繊維ムラが四方に広がる composition, dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -2811,8 +2874,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, three-quarter view, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, three-quarter view, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz, cinematic still frame, music video, high quality",
       "prompt_ja": "提灯の和紙テクスチャと男の指の影を重ねることで、男の存在を物体の一部として溶け込ませる近接観察 / 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する / dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -2831,7 +2894,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, three-quarter view, 提灯和紙面・橙透過光・繊維の網目影・男の指シルエット黒・光ムラが呼吸する, dolly_in_slow接近・指の影が微細に揺れる・繊維テクスチャが拡大・光強弱0.3Hz, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -3000,7 +3063,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, low angle soft, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止, cinematic still frame, music video, high quality",
       "video_prompt": "handheld float camera move, グラス高さシルエット前景中央・椅子脚前景左・人物右端極小・提灯光上方 composition, handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -3026,8 +3089,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, low angle soft, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, low angle soft, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止, cinematic still frame, music video, high quality",
       "prompt_ja": "カウンター全景に戻り視聴者を空間に解放するリリースショット、二脚のグラスの非対称が次のサイクルへの問いを残す / 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方 / handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -3046,7 +3109,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, low angle soft, 低角度カウンター・二脚グラスシルエット・空席椅子脚前景・修道士右端極小・提灯橙光上方, handheld_float微振動・グラス縁に橙光反射揺れ・コースター発光0.5Hz・人物静止, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -3215,7 +3278,7 @@
         "in": "fade_in",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, eye level, composition: subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, action: subtle, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, カウンター全幅・空席二脚を中央重心・男は左端1/6に小さく composition, motion: intent subtle, trajectory dolly in slow, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -3250,8 +3313,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, eye level, composition: subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, action: subtle, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, eye level, composition: subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, action: subtle, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
       "prompt_ja": "空席を画面重心に置き、指先の水平移動を唯一の動きとして夜の習慣を確立 / 画面構成: フレーム: extreme wide / カメラ位置: eye level / 被写体配置: 男の細い指先・木製カウンター上をゆっくり水平に滑る / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: subtle / trajectory: dolly in slow / key: sec_002",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -3270,7 +3333,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, eye level, composition: subject placement 男の細い指先・木製カウンター上をゆっくり水平に滑る, action: subtle, lighting: color tone warm amber key / blue gray shadow, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -3439,7 +3502,7 @@
         "in": "hard_cut",
         "out": "match_cut"
       },
-      "first_frame_prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme wide, camera position high angle soft, subject placement 空席のグラス・結露した水滴・コースターの淡い発光, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, high angle soft, composition: subject placement 空席のグラス・結露した水滴・コースターの淡い発光, action: still, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
       "video_prompt": "pan right slow camera move, 空席二脚を中央・コースター淡光を画面の唯一輝点・男は右端のシルエット composition, motion: intent still, trajectory pan right slow, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -3474,8 +3537,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme wide, camera position high angle soft, subject placement 空席のグラス・結露した水滴・コースターの淡い発光, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme wide, camera position high angle soft, subject placement 空席のグラス・結露した水滴・コースターの淡い発光, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, high angle soft, composition: subject placement 空席のグラス・結露した水滴・コースターの淡い発光, action: still, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, high angle soft, composition: subject placement 空席のグラス・結露した水滴・コースターの淡い発光, action: still, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
       "prompt_ja": "空席が主役であることを宣言・コースターの淡光が発語できない感情の代弁点 / 画面構成: フレーム: extreme wide / カメラ位置: high angle soft / 被写体配置: 空席のグラス・結露した水滴・コースターの淡い発光 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: still / trajectory: pan right slow",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -3494,7 +3557,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋カウンター端, コースター発光している, composition: frame extreme wide, camera position high angle soft, subject placement 空席のグラス・結露した水滴・コースターの淡い発光, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, high angle soft, composition: subject placement 空席のグラス・結露した水滴・コースターの淡い発光, action: still, lighting: color tone cool blue white coaster / deep shadow, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -3663,7 +3726,7 @@
         "in": "match_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position three-quarter view, subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, three-quarter view, composition: subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, action: subtle, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
       "video_prompt": "男の輪郭を左端1/8に・暗闇と空席が右7/8を占める・提灯光が耳後ろにのみ落ちる composition, motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -3698,8 +3761,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position three-quarter view, subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position three-quarter view, subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, three-quarter view, composition: subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, action: subtle, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, three-quarter view, composition: subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, action: subtle, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
       "prompt_ja": "男の横顔と暗闇の比率で沈黙の重さを示す・提灯の暖色が耳元に着地する唯一の温度 / 画面構成: フレーム: extreme wide / カメラ位置: three-quarter view / 被写体配置: 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: subtle / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -3718,7 +3781,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position three-quarter view, subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, three-quarter view, composition: subject placement 男の横顔・提灯の暖色が耳の後ろに当たる・奥の暗闇, action: subtle, lighting: color tone amber rim / near black shadow, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -3887,7 +3950,7 @@
         "in": "hard_cut",
         "out": "fade_out"
       },
-      "first_frame_prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, eye level, composition: subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, action: active, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
       "video_prompt": "tilt up reveal camera move, カウンター全幅・グラスずれ後の空席位置関係を中央・男はフレーム端の小さな影 composition, motion: intent active, trajectory tilt up reveal, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -3922,8 +3985,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, eye level, composition: subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, action: active, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, eye level, composition: subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, action: active, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
       "prompt_ja": "グラスをずらす微小な行為で招待を可視化・空間変化の唯一の証拠として夜を閉じる / 画面構成: フレーム: extreme wide / カメラ位置: eye level / 被写体配置: 二脚目のグラスをわずかにずらす男の指先・グラス底 / レイヤー: 閉店間際の小さな居酒屋カウンター端 / 動き: intent: active / trajectory: tilt up reveal",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -3942,7 +4005,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋カウンター端, composition: frame extreme wide, camera position eye level, subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, layering 閉店間際の小さな居酒屋カウンター端, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, eye level, composition: subject placement 二脚目のグラスをわずかにずらす男の指先・グラス底, action: active, lighting: color tone warm amber wood / cold blue gray ambient, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -4111,7 +4174,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, worm's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, worm's-eye view, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, 苔の光粒が目地沿いに0.3px/秒で微前進, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
       "video_prompt": "苔面前景・石畳格子奥行き・人物なし composition, 苔の光粒が目地沿いに0.3px/秒で微前進, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -4137,8 +4200,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, worm's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, worm's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, worm's-eye view, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, 苔の光粒が目地沿いに0.3px/秒で微前進, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, worm's-eye view, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, 苔の光粒が目地沿いに0.3px/秒で微前進, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
       "prompt_ja": "scene_2空間確立・苔面が床一面を占める臨界前夜の環境開示 / 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角 / 苔の光粒が目地沿いに0.3px/秒で微前進",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -4157,7 +4220,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, worm's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, worm's-eye view, 石畳目地に沿う青白苔群・格子状光網・床スレスレ俯角, 苔の光粒が目地沿いに0.3px/秒で微前進, lighting: color tone 青緑 4200k, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -4326,7 +4389,7 @@
         "in": "insert_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, bird's-eye view, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, 光粒が交差点中心から0.5px半径で振動, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
       "video_prompt": "十字目地中央配置・色混合を画面中心 composition, 光粒が交差点中心から0.5px半径で振動, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -4352,8 +4415,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, bird's-eye view, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, 光粒が交差点中心から0.5px半径で振動, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, bird's-eye view, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, 光粒が交差点中心から0.5px半径で振動, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
       "prompt_ja": "苔の光粒をマクロ初開示・青緑×黄橙混色の世界法則を証言 / 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰 / 光粒が交差点中心から0.5px半径で振動 / key: sec_004",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -4372,7 +4435,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, bird's-eye view, 石目地交差点・青緑と黄橙が混ざる光粒群・石面テクスチャ真俯瞰, 光粒が交差点中心から0.5px半径で振動, lighting: color tone 青緑4200k×黄橙2800k混在, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -4538,7 +4601,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, motion: intent drift, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -4564,8 +4627,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
+      "prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "prompt_ja": "格子状光網の全体拡張を俯瞰で記録——臨界接近の規模感を先に提示 / 画面構成: フレーム: wide master shot / カメラ位置: overhead / 被写体配置: 苔の群生全景——石畳の格子を光の線が不規則に前進 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: drift / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -4584,7 +4647,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -4749,7 +4812,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, high angle soft, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent drift, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -4775,8 +4838,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, high angle soft, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, high angle soft, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "prompt_ja": "光網の前進境界線を1センチ幅でフレーム全面に——青緑と黒石の境界テクスチャを証言 / 画面構成: フレーム: extreme close-up / カメラ位置: overhead / 被写体配置: 苔の群生全景——石畳の格子を光の線が不規則に前進 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: drift / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -4795,7 +4858,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, high angle soft, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -4960,7 +5023,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent drift, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -4986,8 +5049,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
+      "prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
       "prompt_ja": "引きに戻り拡張後の格子網全体を静止観察——臨界前夜の空間支配を確認 / 画面構成: フレーム: wide master shot / カメラ位置: overhead / 被写体配置: 苔の群生全景——石畳の格子を光の線が不規則に前進 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: drift / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -5006,7 +5069,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "wide master shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame wide master shot, camera position overhead, subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "wide master shot, bird's-eye view, composition: subject placement 苔の群生全景——石畳の格子を光の線が不規則に前進, action: drift, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -5174,7 +5237,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium shot, low angle soft, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
       "video_prompt": "handheld float camera move, 草履下端・苔光縁上端・中間に石畳の間隔 composition, 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -5209,8 +5272,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
-      "prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
+      "prompt_en": "medium shot, low angle soft, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
+      "prompt": "medium shot, low angle soft, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
       "prompt_ja": "男の草履と苔境界——人間と臨界の距離5センチを抑制動作として並置（交互編集の人間極） / 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち / 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -5229,7 +5292,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
+        "prompt": "medium shot, low angle soft, 草履爪先・苔の青白境界線・石畳の5センチ空白・微ブレ手持ち, 男の足静止・苔の光縁が0.2px/秒で草履方向へ蠕動, lighting: color tone 青緑4200k・橙2800k微混, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -5398,7 +5461,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, low angle soft, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
       "video_prompt": "handheld float camera move, 提灯影境界を対角・光粒を右上三分の一 composition, 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -5424,8 +5487,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, low angle soft, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, low angle soft, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
       "prompt_ja": "提灯の影が苔に落ちる一瞬——光と影の境界で臨界の震えを証言（苔極closeup） / 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ / 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -5444,7 +5507,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, low angle soft, 苔の光粒群・提灯影の対角境界・震える輝度・手持ち微ブレ, 光粒が影境界で1〜2Hz振動・handheld_floatの有機的ブレ, lighting: color tone 青緑×橙の境界線, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -5613,7 +5676,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium shot, low angle soft, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, 男の身体静止・苔光の輝度が呼吸するように±3%緩変, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
       "video_prompt": "男の縦シルエット中央・苔光を下縁から照り上げ composition, 男の身体静止・苔光の輝度が呼吸するように±3%緩変, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -5648,8 +5711,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
-      "prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium shot, low angle soft, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, 男の身体静止・苔光の輝度が呼吸するように±3%緩変, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
+      "prompt": "medium shot, low angle soft, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, 男の身体静止・苔光の輝度が呼吸するように±3%緩変, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
       "prompt_ja": "苔の青白光が男の足〜腰を縁取る——内と外の接触確認・臨界接近の並置完結 / 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履 / 男の身体静止・苔光の輝度が呼吸するように±3%緩変",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -5668,7 +5731,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋奥一角, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
+        "prompt": "medium shot, low angle soft, 修道士の細い腰〜足・青白照り返しの輪郭二層・静止した草履, 男の身体静止・苔光の輝度が呼吸するように±3%緩変, lighting: color tone 青緑4200k主体・橙2800kリム, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -5834,7 +5897,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame closeup, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, high angle soft, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent burst, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -5860,8 +5923,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame closeup, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame closeup, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, high angle soft, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, high angle soft, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "prompt_ja": "石目地の光粒が一斉に輝度上昇を始める起点——点滅から定常光への転換を記録 / 画面構成: フレーム: closeup / カメラ位置: high angle / 被写体配置: 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: burst / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -5880,7 +5943,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame closeup, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, high angle soft, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -6045,7 +6108,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent burst, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -6071,8 +6134,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "prompt_ja": "飽和直前の個粒テクスチャ——輝度が飽和で境界が滲む瞬間のマクロ証言 / 画面構成: フレーム: extreme close-up / カメラ位置: high angle / 被写体配置: 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: burst / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -6091,7 +6154,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame extreme close-up, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -6256,7 +6319,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium wide shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame medium wide, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium wide shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, motion: intent burst, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -6282,8 +6345,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium wide shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame medium wide, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
-      "prompt": "medium wide shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame medium wide, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+      "prompt_en": "medium wide shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
+      "prompt": "medium wide shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
       "prompt_ja": "飽和後の波状拡散を俯瞰でゆっくり接近しながら観察——臨界爆発の空間的広がりを体感 / 画面構成: フレーム: medium wide / カメラ位置: high angle / 被写体配置: 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前 / レイヤー: 発光苔が密集した居酒屋奥の床の一角 / 動き: intent: burst / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -6302,7 +6365,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium wide shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋奥一角, composition: frame medium wide, camera position high angle, subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, layering 発光苔が密集した居酒屋奥の床の一角, cinematic still frame, music video, high quality",
+        "prompt": "medium wide shot, bird's-eye view, composition: subject placement 苔の密集地帯——光粒が一斉に輝度を上げ、臨界直前, action: burst, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -6470,7 +6533,7 @@
         "in": "smash_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, eye level, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
       "video_prompt": "路地中央消失点・提灯光跡を奥に圧縮・人物なし composition, 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -6496,8 +6559,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, eye level, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, eye level, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
       "prompt_ja": "scene_3空間確立——smash_cut後の静寂・人物不在の路地で夜の深さを提示 / 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在 / 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -6516,7 +6579,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, eye level, 濡れた石畳・長焦点圧縮路地・遠景提灯光跡・人物不在, 暖簾が微風でゆっくり揺れる・石畳の反射がわずかに揺らぐ, lighting: color tone 冷青3200k・橙2700k遠景, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -6682,7 +6745,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "wide master shot, eye level, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
       "video_prompt": "暖簾前景・男の背中中景奥・入口の空白右側 composition, 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -6717,8 +6780,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
-      "prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
+      "prompt_en": "wide master shot, eye level, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
+      "prompt": "wide master shot, eye level, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
       "prompt_ja": "男の背中を奥に圧縮——空席との距離を視覚的に拡大し、誰も来ない入口との孤立を再設定 / 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白 / 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない / key: sec_004",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -6737,7 +6800,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
+        "prompt": "wide master shot, eye level, 暖簾の布目前景・長焦点圧縮・男の細い背中が中景に小さく静止・入口の空白, 暖簾がわずかに揺れる・男の背中静止・路地に誰も現れない, lighting: color tone 橙2700k（前景）×冷青3200k（男）, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -6900,7 +6963,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, low angle soft, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, 水面揺れのみ・カメラはゆっくり前進, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, 水溜まり中央フレーム・提灯残像が縦軸 composition, 水面揺れのみ・カメラはゆっくり前進, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -6926,8 +6989,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, low angle soft, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, 水面揺れのみ・カメラはゆっくり前進, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, low angle soft, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, 水面揺れのみ・カメラはゆっくり前進, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
       "prompt_ja": "路面鏡像で不在の時間を先行提示・block開幕の観察モード確立 / 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋 / 水面揺れのみ・カメラはゆっくり前進",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -6946,7 +7009,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, low angle soft, 濡れた玄武岩質石畳・提灯の橙色円形残像・細かい波紋, 水面揺れのみ・カメラはゆっくり前進, lighting: 石畳反射の琥珀色水面・周辺寒色路地光, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -7109,7 +7172,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 薄い修道士の指節・グラス底の汗・木目の年輪, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, high angle soft, 薄い修道士の指節・グラス底の汗・木目の年輪, 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
       "video_prompt": "handheld float camera move, 指三本が画面幅を横断・グラス底面右端 composition, 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -7144,8 +7207,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 薄い修道士の指節・グラス底の汗・木目の年輪, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 薄い修道士の指節・グラス底の汗・木目の年輪, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, high angle soft, 薄い修道士の指節・グラス底の汗・木目の年輪, 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, high angle soft, 薄い修道士の指節・グラス底の汗・木目の年輪, 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
       "prompt_ja": "指先の微動作を証拠物件として捕捉・ドキュメンタリー的監視の質感導入 / 薄い修道士の指節・グラス底の汗・木目の年輪 / 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる / key: sec_004",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -7164,7 +7227,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 薄い修道士の指節・グラス底の汗・木目の年輪, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, high angle soft, 薄い修道士の指節・グラス底の汗・木目の年輪, 指が数ミリ横にずれる微動・手持ちシェイクが動作を生物的に見せる, lighting: カウンター木目の環境光・アンダーエクスポーズ・指の皮膚テクスチャ可視, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -7327,7 +7390,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "tight shot, high angle soft, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, 静止・水跡の端が微かに乾く, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
       "video_prompt": "水跡の弧が画面中央・湿り気の光沢が上端 composition, 静止・水跡の端が微かに乾く, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -7353,8 +7416,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
-      "prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
+      "prompt_en": "tight shot, high angle soft, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, 静止・水跡の端が微かに乾く, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
+      "prompt": "tight shot, high angle soft, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, 静止・水跡の端が微かに乾く, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
       "prompt_ja": "グラス底の水跡を証拠物件として静止固定・観察の終着点 / 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面 / 静止・水跡の端が微かに乾く",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -7373,7 +7436,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "tight shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
+        "prompt": "tight shot, high angle soft, 木目に滲む半円形水跡・気泡の細線・グラスの曇り底面, 静止・水跡の端が微かに乾く, lighting: 木目からの漫射光・水跡のウェットグレア・グラスボディはアウトフォーカス, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -7536,7 +7599,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, eye level, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, 完全静止・路地空気の微かな揺れのみ, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
       "video_prompt": "男のシルエット画面右下三分の一・空席空間が左側に広大 composition, 完全静止・路地空気の微かな揺れのみ, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -7571,8 +7634,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, eye level, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, 完全静止・路地空気の微かな揺れのみ, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, eye level, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, 完全静止・路地空気の微かな揺れのみ, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
       "prompt_ja": "extreme_closupから一気にextreme_wideへ引いて男全体の静止と空席との位置関係を再設定 / 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点 / 完全静止・路地空気の微かな揺れのみ",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -7591,7 +7654,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, eye level, 路地石畳の反射線・男の細い肩幅シルエット・遠景提灯の消失点, 完全静止・路地空気の微かな揺れのみ, lighting: 路地奥の提灯光跡のみ・男は逆光シルエット・石畳は寒色アンダー, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -7754,7 +7817,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, コースター発光している, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, low angle soft, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, コースター縁の光帯が水平線・石畳のテクスチャが前景ボケ composition, コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -7789,8 +7852,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, コースター発光している, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, コースター発光している, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, low angle soft, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, low angle soft, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
       "prompt_ja": "コースターの発光を意志の物証として前景化・arousal上昇の物理的根拠 / 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差 / コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -7809,7 +7872,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, コースター発光している, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, low angle soft, 陶製コースターの釉薬縁・黄橙光の毛細管滲出・石畳の冷色との色温度差, コースター光量が3秒かけて1.5倍に増す・カメラ前進で近づく, lighting: コースター自発光の黄橙・周囲石畳は青灰色反射・光の境界が鮮明, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -7972,7 +8035,7 @@
         "in": "insert_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "tight shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "tight shot, bird's-eye view, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
       "video_prompt": "石目地の十字交差が中央・光粒の群れが右下から左上へ移動軸 composition, 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -7998,8 +8061,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "tight shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
-      "prompt": "tight shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
+      "prompt_en": "tight shot, bird's-eye view, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
+      "prompt": "tight shot, bird's-eye view, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
       "prompt_ja": "発光苔の這い進みで生命的な待機を表象・sec-008 key_clip完全再現 / 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配 / 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感 / key: sec_008",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -8018,7 +8081,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "tight shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
+        "prompt": "tight shot, bird's-eye view, 玄武岩目地の黒い溝・青白光粒0.5mm径・群れの密度勾配, 光粒が秒速2mmで目地を這う・個々の点滅で呼吸感, lighting: 苔自発光の青白冷光・石畳は完全暗部・光粒のみ輝点, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -8181,7 +8244,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium shot, eye level, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, カメラ微速横移動・人物は完全静止, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
       "video_prompt": "pan right slow camera move, 男の耳が左フレームから始まり肩が中央で終わる・奥の暗闘が右側に滲む composition, カメラ微速横移動・人物は完全静止, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -8216,8 +8279,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
-      "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
+      "prompt_en": "medium shot, eye level, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, カメラ微速横移動・人物は完全静止, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
+      "prompt": "medium shot, eye level, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, カメラ微速横移動・人物は完全静止, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
       "prompt_ja": "スライダー横移動で耳元から肩へ・男全体の静止を横断し空席への方向性を確認 / 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線 / カメラ微速横移動・人物は完全静止",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -8236,7 +8299,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 居酒屋路地, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
+        "prompt": "medium shot, eye level, 修道士の細い首筋・耳介の縁取り提灯光・肩の丸みの逆光稜線, カメラ微速横移動・人物は完全静止, lighting: 提灯側光が耳から肩の輪郭を縁取る・顔面は逆光アンダー・奥行きは完全ボケ暗部, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -8399,7 +8462,7 @@
         "in": "hard_cut",
         "out": "match_cut"
       },
-      "first_frame_prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium shot, eye level, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, 暖簾が風で数センチ揺れる・人物不在, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
       "video_prompt": "暖簾が画面縦中心線・左に居酒屋暖色光・右に路地寒色 composition, 暖簾が風で数センチ揺れる・人物不在, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -8425,8 +8488,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
-      "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
+      "prompt_en": "medium shot, eye level, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, 暖簾が風で数センチ揺れる・人物不在, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
+      "prompt": "medium shot, eye level, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, 暖簾が風で数センチ揺れる・人物不在, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
       "prompt_ja": "暖色と寒色の境界線でblock_003の感情的境界を封じる・暖簾の揺れが唯一の時間 / 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K / 暖簾が風で数センチ揺れる・人物不在",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -8445,7 +8508,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 居酒屋路地, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
+        "prompt": "medium shot, eye level, 麻暖簾の透過光・布地の織り目・左右の色温度2700K対4500K, 暖簾が風で数センチ揺れる・人物不在, lighting: 暖簾左側に琥珀色漏れ光・右側に青灰色路地光・境界線が鮮明な色温度断層, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -8608,7 +8671,7 @@
         "in": "match_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, three-quarter view, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, 完全静止・コースター光のみが微かに脈動, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
       "video_prompt": "椅子座面が画面前景中央・男の後退した輪郭が右奥にアウトフォーカス composition, 完全静止・コースター光のみが微かに脈動, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -8625,8 +8688,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, three-quarter view, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, 完全静止・コースター光のみが微かに脈動, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, three-quarter view, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, 完全静止・コースター光のみが微かに脈動, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
       "prompt_ja": "リバース・ヒエラルキー構図で空席を語り手に昇格・物体が人物を後退させる権力移譲 / 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ / 完全静止・コースター光のみが微かに脈動 / key: sec_005",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -8645,7 +8708,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, three-quarter view, 木製椅子座面の木目・コースター下面からの黄橙照射・二脚グラスの中景シルエット・男の細い輪郭ボケ, 完全静止・コースター光のみが微かに脈動, lighting: コースターの発光が椅子座面を下から照射・男の側は環境光アンダー・二脚のグラスが中景, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -8808,7 +8871,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -8834,8 +8897,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "横顔全体をプロファイルで捉え——顔の輪郭が空間に占める最後の重力を確立 / 画面構成: フレーム: medium close-up / カメラ位置: eye level / 被写体配置: 男の横顔——耳から頬の側光 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -8854,7 +8917,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -9016,7 +9079,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -9042,8 +9105,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "頬骨から耳介の境界ラインを斜め前から極端寄りで捕捉——皮膚の物質感を一瞬だけ証言 / 画面構成: フレーム: extreme close-up / カメラ位置: eye level / 被写体配置: 男の横顔——耳から頬の側光 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -9062,7 +9125,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -9224,7 +9287,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "close up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame closeup, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -9250,8 +9313,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame closeup, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame closeup, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "引いて耳元から肩のシルエット全体に戻る——人物が主役を手放す前の最後の静止肖像 / 画面構成: フレーム: closeup / カメラ位置: eye level / 被写体配置: 男の横顔——耳から頬の側光 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -9270,7 +9333,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame closeup, camera position eye level, subject placement 男の横顔——耳から頬の側光, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, profile angle, composition: subject placement 男の横顔——耳から頬の側光, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -9434,7 +9497,7 @@
         "in": "insert_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, low angle soft, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, グラス静止、水滴が重力で2.2秒かけて底部へ, cinematic still frame, music video, high quality",
       "video_prompt": "グラス中心、水滴の縦線を画面縦軸と平行 composition, グラス静止、水滴が重力で2.2秒かけて底部へ, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -9451,8 +9514,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, low angle soft, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, グラス静止、水滴が重力で2.2秒かけて底部へ, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, low angle soft, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, グラス静止、水滴が重力で2.2秒かけて底部へ, cinematic still frame, music video, high quality",
       "prompt_ja": "物体（グラス）が初めてフレームを単独占有——focus台頭 / 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射 / グラス静止、水滴が重力で2.2秒かけて底部へ",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -9471,7 +9534,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, low angle soft, 結露グラス外壁、縦に流れる水滴3本、発光コースターの淡い白縁、カウンター木目反射, グラス静止、水滴が重力で2.2秒かけて底部へ, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -9636,7 +9699,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, bird's-eye view, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇, cinematic still frame, music video, high quality",
       "video_prompt": "苔粒が画面全面、均一密度、中心に光量最大点 composition, 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -9653,8 +9716,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, bird's-eye view, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, bird's-eye view, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇, cinematic still frame, music video, high quality",
       "prompt_ja": "物体（苔）がフレームを完全掌握——focus深化・arousalピーク前哨 / 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動 / 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇 / key: sec_008",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -9673,7 +9736,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, bird's-eye view, 苔粒の青白発光点群、光量が中心から外縁へ2.8秒で漸増、個々の粒が微細振動, 苔粒が高周波振動——振幅0.5mm以下、光量が段階的に上昇, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -9836,7 +9899,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium close-up shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "pan left slow camera move, motion: intent still, trajectory tracking, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -9862,8 +9925,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "男の耳から肩へpanが動き始める——人物がフレーム右端へ向かう退場の起点 / 画面構成: フレーム: medium close-up / カメラ位置: eye level / 被写体配置: 男の横顔と奥の暗闘——スライダー開始 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: tracking / key: sec_007",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -9882,7 +9945,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -10044,7 +10107,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame closeup, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, low angle soft, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory tracking, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -10079,8 +10142,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame closeup, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame closeup, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, low angle soft, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, low angle soft, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "空席コースターの発光楕円を低角度で捕捉——光が中央を侵食し始める物体視点インサート / 画面構成: フレーム: closeup / カメラ位置: eye level / 被写体配置: 男の横顔と奥の暗闘——スライダー開始 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: tracking / key: sec_007",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -10099,7 +10162,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame closeup, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, low angle soft, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -10261,7 +10324,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame medium wide, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium wide shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory tracking, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -10296,8 +10359,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame medium wide, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame medium wide, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium wide shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
+      "prompt": "medium wide shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "pan完了後の静止——人物は右端に小さく、コースター発光が左中央を占有した権力移譲後の構図を保持 / 画面構成: フレーム: medium wide / カメラ位置: eye level / 被写体配置: 男の横顔と奥の暗闘——スライダー開始 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: tracking / key: sec_007",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -10316,7 +10379,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, コースター発光している, composition: frame medium wide, camera position eye level, subject placement 男の横顔と奥の暗闘——スライダー開始, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "medium wide shot, eye level, composition: subject placement 男の横顔と奥の暗闘——スライダー開始, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -10480,7 +10543,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 店主, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium shot, eye level, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, 布の輪郭線が右へ数センチ偏移して静止, cinematic still frame, music video, high quality",
       "video_prompt": "画面中央上部に布の動く輪郭、下部は暗闘の不透明な黒 composition, 布の輪郭線が右へ数センチ偏移して静止, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -10506,8 +10569,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 店主, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, cinematic still frame, music video, high quality",
-      "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 店主, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, cinematic still frame, music video, high quality",
+      "prompt_en": "medium shot, eye level, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, 布の輪郭線が右へ数センチ偏移して静止, cinematic still frame, music video, high quality",
+      "prompt": "medium shot, eye level, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, 布の輪郭線が右へ数センチ偏移して静止, cinematic still frame, music video, high quality",
       "prompt_ja": "気配のみの人的存在——impact前哨・顔なし / 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし / 布の輪郭線が右へ数センチ偏移して静止",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -10526,7 +10589,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 店主, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, cinematic still frame, music video, high quality",
+        "prompt": "medium shot, eye level, 暗部に浮かぶ布の縁、1.8秒で輪郭がわずかに右へ移動、顔・手・体積なし, 布の輪郭線が右へ数センチ偏移して静止, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -10691,7 +10754,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, three-quarter view, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る, cinematic still frame, music video, high quality",
       "video_prompt": "肩稜線を右上から左下の対角線上に配置、背景は暗部 composition, 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -10717,8 +10780,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, three-quarter view, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, three-quarter view, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る, cinematic still frame, music video, high quality",
       "prompt_ja": "人物の微細身体反応——arousalピーク頂点・impact / 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景 / 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -10737,7 +10800,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, three-quarter view, 肩の骨格稜線、橙の縁取り光、修道士の薄い胴体断面、暗部背景, 肩が3mm上昇——0.8秒停止——元位置へ2秒かけて戻る, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -10902,7 +10965,7 @@
         "in": "insert_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium wide shot, eye level, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, 全静止——コースター発光のみが4.2秒で微細明滅, cinematic still frame, music video, high quality",
       "video_prompt": "コースター4枚が画面中央60%を占有、男の背中シルエットが右端10% composition, 全静止——コースター発光のみが4.2秒で微細明滅, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -10919,8 +10982,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, cinematic still frame, music video, high quality",
-      "prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, cinematic still frame, music video, high quality",
+      "prompt_en": "medium wide shot, eye level, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, 全静止——コースター発光のみが4.2秒で微細明滅, cinematic still frame, music video, high quality",
+      "prompt": "medium wide shot, eye level, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, 全静止——コースター発光のみが4.2秒で微細明滅, cinematic still frame, music video, high quality",
       "prompt_ja": "物体（コースター・空席）がフレームを支配——impact完成 / コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線 / 全静止——コースター発光のみが4.2秒で微細明滅 / key: sec_009",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -10939,7 +11002,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, cinematic still frame, music video, high quality",
+        "prompt": "medium wide shot, eye level, コースター4枚の淡発光、空のグラス2本、男の背中小シルエット右端、カウンター木目の長い横線, 全静止——コースター発光のみが4.2秒で微細明滅, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -11102,7 +11165,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -11128,8 +11191,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "右端の横顔と左中央のグラス・コースターの位置関係を先に確立——視線の方向性と従属関係の全体構図 / 画面構成: フレーム: medium close-up / カメラ位置: profile / 被写体配置: 男の横顔——視線が空席グラスに固定 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -11148,7 +11211,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -11310,7 +11373,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -11336,8 +11399,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "口角から頬の皮膚変位をマクロで捕捉——言葉にならない身体痕跡の微細証言 / 画面構成: フレーム: extreme close-up / カメラ位置: profile / 被写体配置: 男の横顔——視線が空席グラスに固定 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -11356,7 +11419,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame extreme close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, three-quarter view, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -11518,7 +11581,7 @@
         "in": null,
         "out": null
       },
-      "first_frame_prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "video_prompt": "motion: intent still, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -11544,8 +11607,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
       "prompt_ja": "引きに戻り視線の従属関係を最終確認——人物が物体を見続ける構図で静止し従属完成を記録 / 画面構成: フレーム: medium close-up / カメラ位置: profile / 被写体配置: 男の横顔——視線が空席グラスに固定 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -11564,7 +11627,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, profile angle, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium close-up, camera position profile, subject placement 男の横顔——視線が空席グラスに固定, layering 男の横顔と奥の暗闘の同一フレーム, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, profile angle, composition: subject placement 男の横顔——視線が空席グラスに固定, action: still, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -11728,7 +11791,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, high angle soft, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, 全静止——光の粒が座面を左から右へ2.5秒かけて横断, cinematic still frame, music video, high quality",
       "video_prompt": "椅子座面が画面80%を占有、男の手の影が背景ボケとして右下15% composition, 全静止——光の粒が座面を左から右へ2.5秒かけて横断, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -11745,8 +11808,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, high angle soft, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, 全静止——光の粒が座面を左から右へ2.5秒かけて横断, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, high angle soft, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, 全静止——光の粒が座面を左から右へ2.5秒かけて横断, cinematic still frame, music video, high quality",
       "prompt_ja": "物体（椅子座面）が完全な語り手——reverse_hierarchy完成・release / 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる / 全静止——光の粒が座面を左から右へ2.5秒かけて横断 / key: sec_010",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -11765,7 +11828,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, high angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, high angle soft, 椅子座面の布目テクスチャ、コースター反射光の楕円スポット、右下に男の手の影（焦点外れ）、光の粒が座面を流れる, 全静止——光の粒が座面を左から右へ2.5秒かけて横断, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -11928,7 +11991,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "tight shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium shot, camera position eye level, subject placement 男の背中——振り返らない長回し, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "tight shot, eye level, composition: subject placement 男の背中——振り返らない長回し, action: subtle, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
       "video_prompt": "男の背中を右三分の一・空席を左奥に配し提灯の橙を中間に挟む composition, motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -11954,8 +12017,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "tight shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium shot, camera position eye level, subject placement 男の背中——振り返らない長回し, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
-      "prompt": "tight shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium shot, camera position eye level, subject placement 男の背中——振り返らない長回し, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
+      "prompt_en": "tight shot, eye level, composition: subject placement 男の背中——振り返らない長回し, action: subtle, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
+      "prompt": "tight shot, eye level, composition: subject placement 男の背中——振り返らない長回し, action: subtle, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
       "prompt_ja": "人物が語り手の座を手放す前の最後の滞在——背中の不動と提灯揺れの対比で待機の意志を証言 / 画面構成: フレーム: medium shot / カメラ位置: eye level / 被写体配置: 男の背中——振り返らない長回し / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: subtle / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -11974,7 +12037,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "tight shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, 老いた男, composition: frame medium shot, camera position eye level, subject placement 男の背中——振り返らない長回し, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
+        "prompt": "tight shot, eye level, composition: subject placement 男の背中——振り返らない長回し, action: subtle, lighting: 提灯側光のみ。男の輪郭に橙の縁光。右肩後ろの暗部を潰してシルエット化, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -12137,7 +12200,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement 提灯と空席——カウンター全景, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, low angle soft, composition: subject placement 提灯と空席——カウンター全景, action: still, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
       "video_prompt": "椅子座面を画面中央に据え、男の手指を画面端に半分切る。空席が主体・人物が背景 composition, motion: intent still, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -12154,8 +12217,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement 提灯と空席——カウンター全景, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement 提灯と空席——カウンター全景, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, low angle soft, composition: subject placement 提灯と空席——カウンター全景, action: still, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, low angle soft, composition: subject placement 提灯と空席——カウンター全景, action: still, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
       "prompt_ja": "人物後退・空席前進——リバース・ヒエラルキー構図の頂点。指先から椅子座面へ主役を譲渡する最終フレーム / 画面構成: フレーム: wide shot / カメラ位置: eye level / 被写体配置: 提灯と空席——カウンター全景 / レイヤー: 男の横顔と奥の暗闘の同一フレーム / 動き: intent: still / trajectory: static / key: sec_011",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -12174,7 +12237,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement 提灯と空席——カウンター全景, layering 男の横顔と奥の暗闘の同一フレーム, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, low angle soft, composition: subject placement 提灯と空席——カウンター全景, action: still, lighting: 極低露出。椅子座面の木目に提灯橙のみ。男の指先は暗部に溶ける寸前, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -12337,7 +12400,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター発光している, composition: frame extreme wide, camera position eye level, subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme wide shot, eye level, composition: subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, action: subtle, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
       "video_prompt": "カウンター全幅を水平に収め、提灯と苔の光点を左右に分散配置。人物の痕跡なし composition, motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -12363,8 +12426,8 @@
         ],
         "vocalists": []
       },
-      "prompt_en": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター発光している, composition: frame extreme wide, camera position eye level, subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
-      "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター発光している, composition: frame extreme wide, camera position eye level, subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme wide shot, eye level, composition: subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, action: subtle, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
+      "prompt": "extreme wide shot, eye level, composition: subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, action: subtle, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
       "prompt_ja": "人物不在の空間を夜の証言台として提示——提灯と苔の自己発光だけが場を成立させる / 画面構成: フレーム: extreme wide / カメラ位置: eye level / 被写体配置: 固定ワイド・カウンター全景——空席・提灯・二脚の / レイヤー: 提灯の光だけが残るカウンター全景 / 動き: intent: subtle / trajectory: static / key: sec_011",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -12383,7 +12446,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme wide shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, コースター発光している, composition: frame extreme wide, camera position eye level, subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
+        "prompt": "extreme wide shot, eye level, composition: subject placement 固定ワイド・カウンター全景——空席・提灯・二脚の, action: subtle, lighting: 極低露出。提灯橙と苔の青白を唯一の光源とし、他は完全暗部。ambient光ゼロ, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -12549,7 +12612,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame close up, camera position eye level, subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "close up shot, three-quarter view, composition: subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, action: subtle, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
       "video_prompt": "グラス側面を斜め三分の二に配置。水滴の軌跡を縦線として中央に置く composition, motion: intent subtle, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -12566,8 +12629,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame close up, camera position eye level, subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
-      "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame close up, camera position eye level, subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
+      "prompt_en": "close up shot, three-quarter view, composition: subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, action: subtle, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
+      "prompt": "close up shot, three-quarter view, composition: subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, action: subtle, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
       "prompt_ja": "水滴という物体の証言——来なかった側のグラスに残る痕跡が不在を語る / 画面構成: フレーム: close up / カメラ位置: eye level / 被写体配置: 二脚のグラスのうち一方——水滴がガラス面を伝い落 / レイヤー: 提灯の光だけが残るカウンター全景 / 動き: intent: subtle / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -12586,7 +12649,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "close up shot, three-quarter view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame close up, camera position eye level, subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
+        "prompt": "close up shot, three-quarter view, composition: subject placement 二脚のグラスのうち一方——水滴がガラス面を伝い落, action: subtle, lighting: 提灯橙がガラス曲面に反射して光弧を描く。背景は完全暗部, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -12751,7 +12814,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame extreme close-up, camera position high angle, subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, layering 提灯の光だけが残るカウンター全景, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, action: drift, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
       "video_prompt": "苔の群生を画面全域に敷き、消えゆく光粒を画面中央群に集める composition, motion: intent drift, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -12768,8 +12831,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame extreme close-up, camera position high angle, subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, layering 提灯の光だけが残るカウンター全景, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
-      "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame extreme close-up, camera position high angle, subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, layering 提灯の光だけが残るカウンター全景, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
+      "prompt_en": "extreme close-up shot, bird's-eye view, composition: subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, action: drift, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
+      "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, action: drift, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
       "prompt_ja": "発光苔の消滅——場の生命力が尽きる過程を一粒単位で観察し、待機の終焉を示す / 画面構成: フレーム: extreme close-up / カメラ位置: high angle / 被写体配置: 消えかけの発光苔——青白い光粒が一粒ずつ消える床 / レイヤー: 提灯の光だけが残るカウンター全景 / 動き: intent: drift / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -12788,7 +12851,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "extreme close-up shot, bird's-eye view, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame extreme close-up, camera position high angle, subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, layering 提灯の光だけが残るカウンター全景, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
+        "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement 消えかけの発光苔——青白い光粒が一粒ずつ消える床, action: drift, lighting: 苔の青白のみ。外部光源ゼロ。光粒の消滅に合わせて露出を段階的に落とす, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -12953,7 +13016,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame medium close-up, camera position low angle, subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "medium close-up shot, low angle soft, composition: subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, action: subtle, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
       "video_prompt": "dolly in slow camera move, 提灯を中央やや右に置き、椅子座面の木目を前景下部に引き込む。低角で提灯の高さを強調 composition, motion: intent subtle, trajectory slow push, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -12970,8 +13033,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame medium close-up, camera position low angle, subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
-      "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame medium close-up, camera position low angle, subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
+      "prompt_en": "medium close-up shot, low angle soft, composition: subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, action: subtle, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
+      "prompt": "medium close-up shot, low angle soft, composition: subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, action: subtle, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
       "prompt_ja": "提灯が空席の語り手として自立する——置き忘れではなく、意図的な在席として椅子を照らし続ける / 画面構成: フレーム: medium close-up / カメラ位置: low angle / 被写体配置: 空席に置き忘れたように見える提灯——揺れる光と椅 / レイヤー: 提灯の光だけが残るカウンター全景 / 動き: intent: subtle / trajectory: slow push",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -12990,7 +13053,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "medium close-up shot, low angle soft, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame medium close-up, camera position low angle, subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, layering 提灯の光だけが残るカウンター全景, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
+        "prompt": "medium close-up shot, low angle soft, composition: subject placement 空席に置き忘れたように見える提灯——揺れる光と椅, action: subtle, lighting: 提灯橙の直下光が椅子木目に年輪パターンを焼く。周囲暗部との境界をハードに落とす, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -13155,7 +13218,7 @@
         "in": "hard_cut",
         "out": "hard_cut"
       },
-      "first_frame_prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement カウンター全景・固定ワイド長回し——人物不在の空, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
+      "first_frame_prompt": "wide master shot, eye level, composition: subject placement カウンター全景・固定ワイド長回し——人物不在の空, action: still, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
       "video_prompt": "カウンター全幅を水平に収め、提灯と苔の光点のみが画面に浮かぶ。人物の痕跡・影なし composition, motion: intent still, trajectory static, smooth cinematic motion, music video",
       "reference_prompts": [
         {
@@ -13172,8 +13235,8 @@
         "phenomena": [],
         "vocalists": []
       },
-      "prompt_en": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement カウンター全景・固定ワイド長回し——人物不在の空, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
-      "prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement カウンター全景・固定ワイド長回し——人物不在の空, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
+      "prompt_en": "wide master shot, eye level, composition: subject placement カウンター全景・固定ワイド長回し——人物不在の空, action: still, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
+      "prompt": "wide master shot, eye level, composition: subject placement カウンター全景・固定ワイド長回し——人物不在の空, action: still, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
       "prompt_ja": "夜の証言台・最終静止——人物不在の空間を長回しで保持し、ハードカットで余韻の説明を拒否する / 画面構成: フレーム: wide shot / カメラ位置: eye level / 被写体配置: カウンター全景・固定ワイド長回し——人物不在の空 / レイヤー: 提灯の光だけが残るカウンター全景 / 動き: intent: still / trajectory: static",
       "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
       "model_options": {},
@@ -13192,7 +13255,7 @@
         "server_id": null
       },
       "request_payload": {
-        "prompt": "wide master shot, eye level, style: cinematic color grade, desaturated blue-gray shadows, warm amber practical lighting isolated to small areas, underexposed digital photography, composition: frame wide shot, camera position eye level, subject placement カウンター全景・固定ワイド長回し——人物不在の空, layering 提灯の光だけが残るカウンター全景, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
+        "prompt": "wide master shot, eye level, composition: subject placement カウンター全景・固定ワイド長回し——人物不在の空, action: still, lighting: 極低露出の最終段階。提灯橙と苔青白を唯一の光点とし、暗部を最大化。露出補正 3以上, cinematic still frame, music video, high quality",
         "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
         "generation": {
           "task_type": "i2v",
@@ -16473,6 +16536,7 @@
       "disgust_wall_sampled": 40
     }
   },
+  "random_constraints": null,
   "phase_data": {
     "phase0": {
       "title_en": "Phase 0 / Music Analysis",
@@ -17978,6 +18042,7 @@
   const phaseData = (data.phase_data && typeof data.phase_data === "object") ? data.phase_data : {};
   const competitionData = (data.competition_data && typeof data.competition_data === "object") ? data.competition_data : {};
   const keyClips = Array.isArray(data.key_clips) ? data.key_clips : [];
+  const randomConstraints = (data.random_constraints && typeof data.random_constraints === "object") ? data.random_constraints : null;
   const creditsData = (data.credits && typeof data.credits === "object") ? data.credits : {};
   const meta = data.meta || {};
 
@@ -18016,6 +18081,9 @@
       quorumMet: "Quorum met", ballots: "Valid ballots",
       setup: "Setup", question: "Question", escalation: "Escalation", reveal: "Reveal", payoff: "Payoff",
       cutScenes: "Cut Scenes",
+      visualDirection: "Visual Direction",
+      tone: "Tone", genre: "Genre", style: "Style",
+      firstFrameI2I: "First Frame (I2I)", videoMotion: "Video Motion (I2V)",
     },
     ja: {
       navOverview: "\u6982\u8981", navBlueprint: "\u4f01\u753b\u66f8", navPipeline: "\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3",
@@ -18044,6 +18112,9 @@
       quorumMet: "\u5b9a\u8db3\u6570\u9054\u6210", ballots: "\u6709\u52b9\u7968",
       setup: "\u5c0e\u5165", question: "\u554f\u3044", escalation: "\u30a8\u30b9\u30ab\u30ec\u30fc\u30b7\u30e7\u30f3", reveal: "\u958b\u793a", payoff: "\u5831\u916c",
       cutScenes: "\u30ab\u30c3\u30c8\u3055\u308c\u305f\u30b7\u30fc\u30f3",
+      visualDirection: "\u6f14\u51fa\u65b9\u91dd",
+      tone: "\u30c8\u30fc\u30f3", genre: "\u30b8\u30e3\u30f3\u30eb", style: "\u30b9\u30bf\u30a4\u30eb",
+      firstFrameI2I: "\u30d5\u30a1\u30fc\u30b9\u30c8\u30d5\u30ec\u30fc\u30e0 (I2I)", videoMotion: "\u30d3\u30c7\u30aa\u30e2\u30fc\u30b7\u30e7\u30f3 (I2V)",
     }
   };
   function t(key) { return (i18n[lang] || i18n.ja)[key] || key; }
@@ -18178,6 +18249,29 @@
      OVERVIEW PAGE
      ================================================================ */
   function renderOverview() {
+    // Hero card — "What is this MV?"
+    const heroEl = document.getElementById("overview-hero");
+    if (heroEl) {
+      const songTitle = String((creditsData && creditsData.song_title) || "").trim();
+      const p1 = phaseData.phase1;
+      const theme = (p1?.raw?.theme) || (bp.core?.theme) || "";
+      const mood = (p1?.raw?.mood) || "";
+      const synopsis = bp.synopsis_final || bp.synopsis || bp.storyline || "";
+      const world = bp.core?.world || "";
+      const character = bp.core?.character || "";
+
+      let heroHtml = '<div class="hero-card">';
+      if (songTitle) heroHtml += `<div class="hero-title">${esc(songTitle)}</div>`;
+      const subtitle = [theme, mood].filter(Boolean).join(" / ");
+      if (subtitle) heroHtml += `<div class="hero-subtitle">${esc(subtitle)}</div>`;
+      if (synopsis) heroHtml += `<div class="hero-synopsis">${esc(synopsis)}</div>`;
+      heroHtml += '<div class="hero-meta">';
+      if (world) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("world"))}:</span><span class="hero-meta-value">${esc(world.length > 60 ? world.slice(0,60)+"..." : world)}</span></div>`;
+      if (character) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("character"))}:</span><span class="hero-meta-value">${esc(character.length > 60 ? character.slice(0,60)+"..." : character)}</span></div>`;
+      heroHtml += '</div></div>';
+      heroEl.innerHTML = (songTitle || subtitle || synopsis) ? heroHtml : "";
+    }
+
     const statsEl = document.getElementById("overview-stats");
     const totalDur = timeline.duration_sec || (clips.length ? clips[clips.length-1].timing?.end_sec : 0) || 0;
     const keyCount = clips.filter(c => c.is_key_clip).length;
@@ -18187,6 +18281,23 @@
       { val: sections.length, label: t("secs") },
       { val: keyCount, label: t("keyClips") },
     ].map(s => `<div class="stat-card"><div class="stat-value">${esc(String(s.val))}</div><div class="stat-label">${esc(s.label)}</div></div>`).join("");
+
+    // Random constraint badges
+    const rcEl = document.getElementById("overview-constraints");
+    if (randomConstraints && rcEl) {
+      const badges = [];
+      if (randomConstraints.tone?.name_ja) {
+        badges.push(`<span class="constraint-badge badge-tone"><span class="constraint-badge-label">${esc(t("tone"))}</span>${esc(randomConstraints.tone.name_ja)}</span>`);
+      }
+      if (randomConstraints.genre?.name_ja) {
+        badges.push(`<span class="constraint-badge badge-genre"><span class="constraint-badge-label">${esc(t("genre"))}</span>${esc(randomConstraints.genre.name_ja)}</span>`);
+      }
+      const styles = Array.isArray(randomConstraints.styles) ? randomConstraints.styles : [];
+      styles.forEach(s => {
+        if (s?.name_ja) badges.push(`<span class="constraint-badge badge-style"><span class="constraint-badge-label">${esc(t("style"))}</span>${esc(s.name_ja)}</span>`);
+      });
+      rcEl.innerHTML = badges.length ? `<div class="constraint-badges">${badges.join("")}</div>` : "";
+    }
 
     // Mini hook curve
     renderHookCurveSvg(document.getElementById("overview-hook-curve"), 120);
@@ -18268,7 +18379,7 @@
   /* ================================================================
      BLUEPRINT PAGE
      ================================================================ */
-  const BP_TABS = ["core","visualTab","shooting","emotionTab","sets","structure"];
+  const BP_TABS = ["core","visualTab","shooting","visualDirection","emotionTab","sets","structure"];
 
   let bpActiveTab = "core";
 
@@ -18398,6 +18509,49 @@
         <div class="setpiece-props">${esc((s.anchor_props||[]).join(", "))}</div>
         <div class="setpiece-func">${esc(s.function_for_story||"")}</div>
       </div>`).join("") + '</div>';
+    },
+
+    visualDirection() {
+      const p4s = phaseData.phase4s;
+      if (!p4s || !p4s.raw) return `<div class="card">${t("noData")}</div>`;
+      const vd = p4s.raw;
+      const vl = vd.visual_language || {};
+      const sg = vd.shooting_grammar || {};
+      let html = '<div class="card"><div class="card-title">Visual Language</div>';
+      html += bpKV("Palette", vl.palette);
+      html += bpKV("Texture", vl.texture);
+      html += bpKV("Lighting Bias", vl.lighting_bias);
+      html += bpKV("Camera Language", vl.camera_language);
+      html += bpList("Motifs", vl.motifs);
+      html += bpList("Forbidden", vl.forbidden);
+      html += '</div>';
+      html += '<div class="card" style="margin-top:12px"><div class="card-title">Shooting Grammar</div>';
+      html += '<div class="grammar-grid">';
+      ["camera_progression","motion_progression","lighting_progression","cut_philosophy","framing_philosophy"].forEach(k => {
+        if (sg[k]) html += `<div class="grammar-item"><h4>${esc(k.replace(/_/g," "))}</h4><p>${esc(sg[k])}</p></div>`;
+      });
+      html += '</div>';
+      const kvm = sg.key_visual_moments;
+      if (Array.isArray(kvm) && kvm.length) {
+        html += '<div style="margin-top:12px"><div class="bp-kv-label">Key Visual Moments</div>';
+        html += kvm.map(m => `<div class="outline-card"><div class="outline-header">
+          <span class="outline-label">${esc(m.technique||"")}</span>
+          <span class="outline-time">${esc(m.timing_hint||"")}</span>
+        </div><div class="outline-hook">${esc(m.intent||"")}</div></div>`).join("");
+        html += '</div>';
+      }
+      html += '</div>';
+      if (vd.style_rationale) {
+        html += `<div class="card" style="margin-top:12px"><div class="card-title">Style Rationale</div><p style="font-size:12px;color:var(--ink);line-height:1.6">${esc(vd.style_rationale)}</p></div>`;
+      }
+      if (vd.assigned_style) {
+        const as = vd.assigned_style;
+        html += `<div class="card" style="margin-top:12px"><div class="card-title">Assigned Style</div>`;
+        html += bpKV("Name", as.name_ja || as.id);
+        html += bpList("Keywords", as.technical_keywords);
+        html += '</div>';
+      }
+      return html;
     },
 
     structure() {
@@ -19525,6 +19679,13 @@
       if (c.intent) tags.push(`<span class="clip-tag ${c.intent==="narrative"?"narrative":c.intent==="atmospheric"?"atmospheric":"effects"}">${esc(c.intent)}</span>`);
       if (c.track_type === "performance") tags.push('<span class="clip-tag perf">perf</span>');
       if (c.is_key_clip) tags.push('<span class="clip-tag key">key</span>');
+      if (c.visual_strategy) {
+        const vsCls = ({symbolic:"vs-symbolic",narrative:"vs-narrative",spectacular:"vs-spectacular",atmospheric:"vs-atmospheric",performance:"vs-performance"})[c.visual_strategy] || "vs-default";
+        tags.push(`<span class="vs-tag ${vsCls}">${esc(c.visual_strategy)}</span>`);
+      }
+      if (c.emotion_target) tags.push(`<span class="clip-tag" style="background:rgba(155,108,255,0.10);color:#9b6cff">${esc(c.emotion_target)}</span>`);
+      const hookTags = Array.isArray(c.hook_tags) ? c.hook_tags : [];
+      hookTags.slice(0,2).forEach(ht => tags.push(`<span class="hook-pill">${esc(ht)}</span>`));
       const desc = c.visual_description || c.prompt_ja || c.first_frame_prompt || c.prompt || "";
       return `<div class="clip-card${activeClipId===c.clip_id?" active":""}" data-clip-id="${esc(c.clip_id)}">
         <div class="clip-card-id">${esc(c.clip_id)}</div>
@@ -19716,14 +19877,19 @@
       }
     }
 
-    // First Frame Prompt
-    if (clip.first_frame_prompt) {
-      html += `<div class="drawer-section"><div class="drawer-section-title">${t("firstFramePrompt")}</div><div class="copy-card">${esc(clip.first_frame_prompt)}</div></div>`;
-    }
-
-    // Video Prompt
-    if (clip.video_prompt) {
-      html += `<div class="drawer-section"><div class="drawer-section-title">${t("videoPrompt")}</div><div class="copy-card">${esc(clip.video_prompt)}</div></div>`;
+    // First Frame Prompt + Video Prompt (2-layer card display)
+    if (clip.first_frame_prompt || clip.video_prompt) {
+      html += '<div class="drawer-section">';
+      if (clip.first_frame_prompt) {
+        html += `<div class="prompt-card"><div class="prompt-card-label">${t("firstFrameI2I")}</div><div class="prompt-card-text">${esc(clip.first_frame_prompt)}</div></div>`;
+      }
+      if (clip.video_prompt) {
+        html += `<div class="prompt-card"><div class="prompt-card-label">${t("videoMotion")}</div><div class="prompt-card-text">${esc(clip.video_prompt)}</div></div>`;
+      }
+      if (clip.negative_prompt) {
+        html += `<div class="prompt-card" style="border-color:rgba(248,113,113,0.3)"><div class="prompt-card-label" style="color:#f87171">Negative</div><div class="prompt-card-text" style="color:var(--muted)">${esc(clip.negative_prompt)}</div></div>`;
+      }
+      html += '</div>';
     }
 
     // Reference Prompts (collapsible)

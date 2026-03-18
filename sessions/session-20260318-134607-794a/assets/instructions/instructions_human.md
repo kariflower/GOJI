@@ -1,6 +1,6 @@
 # MV Instructions (Phase 7)
 
-- generated_at: 2026-03-18T09:40:50.590678Z
+- generated_at: 2026-03-18T15:36:37.137141Z
 - clip_count: 97
 - duration_sec: 263.67999999999995
 
@@ -104,8 +104,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 魚眼レンズ歪みで通路両端が湾曲、錆塗装剥離が質感情報として機能、VHSタイムスタンプ右下固定, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, eye level, 魚眼レンズ歪みで通路両端が湾曲、錆塗装剥離が質感情報として機能、VHSタイムスタンプ右下固定, 完全静止、タイムスタンプ数字のみカウントアップ, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.8,
@@ -150,8 +150,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 同時持っている, 細い腕と扉錆が同一フレームで接触直前、インターレース縞が480i質感を強調、テープノイズ微粒子, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, low angle soft, 細い腕と扉錆が同一フレームで接触直前、インターレース縞が480i質感を強調、テープノイズ微粒子, 腕がゆっくり扉面へ接近、指先が微細に震える, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.6,
@@ -196,8 +196,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, three-quarter view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 同時持っている, 鍵穴縁の錆テクスチャが極大化、奥の赤い光がボケで滲む、磁気劣化ノイズが画面右端から浸食, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, three-quarter view, 鍵穴縁の錆テクスチャが極大化、奥の赤い光がボケで滲む、磁気劣化ノイズが画面右端から浸食, 指先は静止、手持ち微振動のみ、赤い反射が一瞬だけ輝度上昇, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.28,
@@ -242,8 +242,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 同時持っている, 女の指先が鍵穴縁に沿ったまま静止、扉の剥離塗装が大面積テクスチャ、VHSタイムスタンプが微妙にずれる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, high angle soft, 女の指先が鍵穴縁に沿ったまま静止、扉の剥離塗装が大面積テクスチャ、VHSタイムスタンプが微妙にずれる, 女がdriftで僅かに右へ流れる、扉は完全静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.6,
@@ -288,8 +288,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, る花畑面した窓辺, 残っている, 濡れた床に蛍光灯の白線が伸び、金網縞影が床を格子で覆う、女の足が一歩踏み出す瞬間, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, 濡れた床に蛍光灯の白線が伸び、金網縞影が床を格子で覆う、女の足が一歩踏み出す瞬間, 女が能動的に前進、手持ち揺れが足運びに同期, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.2,
@@ -334,8 +334,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, る花畑面した窓辺, 周囲空気だけ, 菱形金網影が床と壁に格子を描き、フリッカーのたびに影が消滅と再生を繰り返す, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, dutch angle soft, 菱形金網影が床と壁に格子を描き、フリッカーのたびに影が消滅と再生を繰り返す, 影のみが間欠的に消える、カメラ完全静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -380,8 +380,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, る花畑面した窓辺, 周囲空気だけ, 女が橋中ほどを歩く、jump_cutのたびに左端から右端と位置が飛ぶ、縞影が身体を格子で断ち切る, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 女が橋中ほどを歩く、jump_cutのたびに左端から右端と位置が飛ぶ、縞影が身体を格子で断ち切る, 女の歩行が能動的、jump_cut間で位置が非連続にずれる, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.8,
@@ -426,8 +426,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, worm's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, る花畑面した窓辺, 同時持っている, 周囲空気だけ, 錆と光沢が同居する手すり金属、女の指が錆縁をなぞる、フリッカーで手が陰に飲まれる瞬間が静止する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, worm's-eye view, 錆と光沢が同居する手すり金属、女の指が錆縁をなぞる、フリッカーで手が陰に飲まれる瞬間が静止する, 指が錆面を微細にたどる、フリッカー同期で動きが断片化, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.4,
@@ -472,8 +472,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, る花畑面した窓辺, 残っている, 出口の白い光が女を飲み込む寸前、後ろ姿が右隅に縮小、点滅暗転で最終フレームが静止, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, high angle soft, 出口の白い光が女を飲み込む寸前、後ろ姿が右隅に縮小、点滅暗転で最終フレームが静止, 女が前進して出口へ近づく、暗転直前に動きが止まる, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.0,
@@ -518,8 +518,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, three-quarter view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, る花畑面した窓辺, 残っている, 色褪せた布切れが風でわずかに揺れる、接触痕だけが色を残す、引きで橋全景が現れ布の小ささが際立つ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, three-quarter view, 色褪せた布切れが風でわずかに揺れる、接触痕だけが色を残す、引きで橋全景が現れ布の小ささが際立つ, 手持ち揺れで布が微振動、逆光シルエットが断続的に画面を横切る, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -564,8 +564,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 足を引きずる人物の金網縞影・顔に交互に落ちる縦縞の光と影・点滅ごとにシルエットへ沈む, lighting: 蛍光灯点滅による間欠逆光・金網縞影が顔に落ちる・暗転時は完全な影, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 足を引きずる人物の金網縞影・顔に交互に落ちる縦縞の光と影・点滅ごとにシルエットへ沈む, 人物の不規則な引きずり歩行・蛍光灯フリッカーに連動した光の断続的消失, lighting: 蛍光灯点滅による間欠逆光・金網縞影が顔に落ちる・暗転時は完全な影, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.5,
@@ -610,8 +610,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 低角から見上げる蛍光灯の点滅・消灯暗転での人物位置ジャンプ・再点灯時の不一致シルエット, lighting: 逆光強め・消灯時は完全暗転・再点灯時に人物位置がずれた状態で露出, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, low angle soft, 低角から見上げる蛍光灯の点滅・消灯暗転での人物位置ジャンプ・再点灯時の不一致シルエット, フリッカー同期のhard_cut・暗転ごとに人物が数歩分フレーム内でシフト, lighting: 逆光強め・消灯時は完全暗転・再点灯時に人物位置がずれた状態で露出, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.9,
@@ -656,8 +656,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 人物がフレーム隅から暗闇へ消える・残留する金網縞影と軋む手すりの静止映像・橋の終端の暗闇, lighting: 蛍光灯の点滅が続く・人物消失後も金網縞影が床に残る・全体に低照度, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, eye level, 人物がフレーム隅から暗闇へ消える・残留する金網縞影と軋む手すりの静止映像・橋の終端の暗闇, 人物の消失・カメラ完全静止・蛍光灯の継続する点滅のみ, lighting: 蛍光灯の点滅が続く・人物消失後も金網縞影が床に残る・全体に低照度, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.8,
@@ -702,8 +702,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 同時持っている, 配電室入口・人物の足が敷居で静止・右側から漏れる赤光・VHSモニターフレーム重ね合成, lighting: 廊下の蛍光灯残光と配電室内部から漏れる赤光の境界・扉枠が光と影を分割, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 配電室入口・人物の足が敷居で静止・右側から漏れる赤光・VHSモニターフレーム重ね合成, 人物の完全静止・扉の向こうから水滴の落下音のみ, lighting: 廊下の蛍光灯残光と配電室内部から漏れる赤光の境界・扉枠が光と影を分割, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.8,
@@ -748,8 +748,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 天井から落ちる水滴の軌跡・濡れた制御盤表面の赤光反射・水滴が金属面に触れる瞬間の飛沫, lighting: 割れた表示灯からの赤光・水滴が光を散乱させる・制御盤の濡れた金属面が赤く染まる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, bird's-eye view, 天井から落ちる水滴の軌跡・濡れた制御盤表面の赤光反射・水滴が金属面に触れる瞬間の飛沫, 水滴の落下軌跡追従・slow_pushで接近・制御盤表面の飛沫拡散, lighting: 割れた表示灯からの赤光・水滴が光を散乱させる・制御盤の濡れた金属面が赤く染まる, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -794,8 +794,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 同時持っている, 割れた表示灯の赤光・顔半分を染める赤と影の分断・制御盤の濡れた表面が下方で反射, lighting: 割れた表示灯の赤光が顔の半分を染める・反対側は完全な影・制御盤の反射光が顎から下を照らす, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, high angle soft, 割れた表示灯の赤光・顔半分を染める赤と影の分断・制御盤の濡れた表面が下方で反射, 人物の微細な呼吸動作・表示灯の割れ目から漏れる赤光の揺らぎ, lighting: 割れた表示灯の赤光が顔の半分を染める・反対側は完全な影・制御盤の反射光が顎から下を照らす, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.5,
@@ -840,8 +840,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium close-up, camera position overhead, subject placement 火花を散らす端子——水滴が端子上に落下, layering 水滴が落ちる配電室——割れた表示灯と濡れた制御盤, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, bird's-eye view, composition: subject placement 火花を散らす端子——水滴が端子上に落下, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.3,
@@ -884,8 +884,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme close-up, camera position overhead, subject placement 火花を散らす端子——水滴が端子上に落下, layering 水滴が落ちる配電室——割れた表示灯と濡れた制御盤, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, low angle soft, composition: subject placement 火花を散らす端子——水滴が端子上に落下, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.5,
@@ -928,8 +928,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 赤光と火花残光に染まる制御盤全体・濡れた金属表面の複合的な反射・危険構造の全体像, lighting: 残留する火花の橙色残光・赤光が制御盤全体に広がる・低角から見上げる光の拡散, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, low angle soft, 赤光と火花残光に染まる制御盤全体・濡れた金属表面の複合的な反射・危険構造の全体像, slow_pushで制御盤全体へ接近・残光の緩やかな減衰・水滴の継続的な落下, lighting: 残留する火花の橙色残光・赤光が制御盤全体に広がる・低角から見上げる光の拡散, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.7,
@@ -974,8 +974,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium close-up, camera position low angle, subject placement 配電盤レバーを両手で引き下ろす手元, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, composition: subject placement 配電盤レバーを両手で引き下ろす手元, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.5,
@@ -1018,8 +1018,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme close-up, camera position low angle, subject placement 配電盤レバーを両手で引き下ろす手元, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, low angle soft, composition: subject placement 配電盤レバーを両手で引き下ろす手元, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.7,
@@ -1062,8 +1062,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 同時持っている, 周囲空気だけ, 選ん人物。, 壁時計の停止した秒針・お玉で鍋をかき混ぜ続ける手・使用年数に不釣り合いな深い錆と光沢を持つお玉・VHSタイムスタンプ重ね, lighting: 深夜台所の換気扇光のみ・天井の蛍光灯は切れて暗く・お玉の金属面が弱い光を反射, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 壁時計の停止した秒針・お玉で鍋をかき混ぜ続ける手・使用年数に不釣り合いな深い錆と光沢を持つお玉・VHSタイムスタンプ重ね, お玉の円環運動の継続・壁時計の完全停止・換気扇の羽の回転が映像端で見える, lighting: 深夜台所の換気扇光のみ・天井の蛍光灯は切れて暗く・お玉の金属面が弱い光を反射, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.8,
@@ -1108,8 +1108,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, worm's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame wide master shot, camera position low angle, subject placement 非常階段全景と人物の上昇開始, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, worm's-eye view, composition: subject placement 非常階段全景と人物の上昇開始, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.2,
@@ -1152,8 +1152,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium close-up, camera position low angle, subject placement 非常階段全景と人物の上昇開始, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, dutch angle soft, composition: subject placement 非常階段全景と人物の上昇開始, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.9,
@@ -1196,8 +1196,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme wide, camera position low angle, subject placement 非常階段全景と人物の上昇開始, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, bird's-eye view, composition: subject placement 非常階段全景と人物の上昇開始, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.4,
@@ -1240,8 +1240,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium close-up, camera position dutch, subject placement 濡れた手すりを掴む指のマクロ, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, composition: subject placement 濡れた手すりを掴む指のマクロ, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.5,
@@ -1284,8 +1284,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme close-up, camera position dutch, subject placement 濡れた手すりを掴む指のマクロ, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, dutch angle soft, composition: subject placement 濡れた手すりを掴む指のマクロ, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.9,
@@ -1328,8 +1328,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium wide, camera position high angle, subject placement 階段踊り場から見上げた人物シルエット, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, composition: subject placement 階段踊り場から見上げた人物シルエット, action: run, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.0,
@@ -1372,8 +1372,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame wide master shot, camera position high angle, subject placement 階段踊り場から見上げた人物シルエット, layering 逆光の非常階段——欠けた段差と点滅する非常灯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, bird's-eye view, composition: subject placement 階段踊り場から見上げた人物シルエット, action: run, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.2,
@@ -1416,8 +1416,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 欠けた段差の割れたコンクリート断面・靴底の濡れた跡・VHSタイムスタンプの数字が一瞬飛ぶ, lighting: color tone warm, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, low angle soft, 欠けた段差の割れたコンクリート断面・靴底の濡れた跡・VHSタイムスタンプの数字が一瞬飛ぶ, 足が欠けた段差を踏み越える衝撃・カメラが着地に合わせて跳ねる, lighting: color tone warm, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.8,
@@ -1464,8 +1464,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 魚眼歪みで湾曲した手すり・螺旋状の段差列・豆粒サイズで走る人物・VHSタイムスタンプの白文字・画面四隅の監視カメラ枠, lighting: color tone cool, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, bird's-eye view, 魚眼歪みで湾曲した手すり・螺旋状の段差列・豆粒サイズで走る人物・VHSタイムスタンプの白文字・画面四隅の監視カメラ枠, 人物が螺旋の渦中を走る・カメラは完全に静止, lighting: color tone cool, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.1,
@@ -1513,8 +1513,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 顔の左半分・瞼の薄い皮膚・非常灯の橙光が顔を半分照らす・テープ劣化の縦ノイズバンドが画面を走る, lighting: color tone warm, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, dutch angle soft, 顔の左半分・瞼の薄い皮膚・非常灯の橙光が顔を半分照らす・テープ劣化の縦ノイズバンドが画面を走る, 点滅に合わせて顔が闇と光の間で断続的に現れる, lighting: color tone warm, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -1561,8 +1561,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 濡れた足跡の輪郭・段差の縁の欠損したコンクリート・水が溜まった凹み・足跡が重なる痕跡, lighting: color tone warm, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, high angle soft, 濡れた足跡の輪郭・段差の縁の欠損したコンクリート・水が溜まった凹み・足跡が重なる痕跡, カメラが極めてゆっくり寄る・ほぼ静止画に近い, lighting: color tone warm, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.0,
@@ -1609,8 +1609,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 人物の後ろ姿が段差奥へ小さくなる・白熱光で輪郭が滲む・点滅する非常灯が背景で断続的に光る, lighting: color tone warm, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, 人物の後ろ姿が段差奥へ小さくなる・白熱光で輪郭が滲む・点滅する非常灯が背景で断続的に光る, 人物が加速して上昇・カメラが追従しながら徐々に遅れる, lighting: color tone warm, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.8,
@@ -1657,8 +1657,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 16分割モニター壁・遅延した監視映像の格子・人物の顔の右半分・赤い警報インジケータの点滅が背景で見える, lighting: color tone cool, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, low angle soft, 16分割モニター壁・遅延した監視映像の格子・人物の顔の右半分・赤い警報インジケータの点滅が背景で見える, 人物は静止・モニター内の映像だけが遅延しながら動く, lighting: color tone cool, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.2,
@@ -1705,8 +1705,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 赤い警報インジケータの点灯・消灯サイクル・金属パネル面に赤光が反射・インジケータ周囲のネジと傷, lighting: color tone warm, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, high angle soft, 赤い警報インジケータの点灯・消灯サイクル・金属パネル面に赤光が反射・インジケータ周囲のネジと傷, 点滅のリズムに合わせてカメラがごくわずかに寄る, lighting: color tone warm, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.0,
@@ -1753,8 +1753,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 同時持っている, フレーム左端から伸びる細い指と手首、配電盤の黒い金属レバーを掴む瞬間、テープ白飛びフレアが手の輪郭を焼く、右側に錆と光沢が共存する配電パネルの金属面, lighting: 冷白色の蛍光管が配電盤パネルを側面から照射、手に鋭い影が落ちる、テープフレアで一瞬過飽和, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, フレーム左端から伸びる細い指と手首、配電盤の黒い金属レバーを掴む瞬間、テープ白飛びフレアが手の輪郭を焼く、右側に錆と光沢が共存する配電パネルの金属面, action: burst, lighting: 冷白色の蛍光管が配電盤パネルを側面から照射、手に鋭い影が落ちる、テープフレアで一瞬過飽和, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -1799,8 +1799,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 16面モニター壁、各チャンネルの白い数字タイムスタンプが非同期で点滅、数字が2〜5フレーム単位で飛ぶ、画面全体が青灰色のモニター光で均一に染まる, lighting: モニター群自身の青白い発光のみ、室内他光源なし、反射光が手前の管理卓に薄く映り込む, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 16面モニター壁、各チャンネルの白い数字タイムスタンプが非同期で点滅、数字が2〜5フレーム単位で飛ぶ、画面全体が青灰色のモニター光で均一に染まる, action: still, lighting: モニター群自身の青白い発光のみ、室内他光源なし、反射光が手前の管理卓に薄く映り込む, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.9,
@@ -1845,8 +1845,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 非常階段踊り場の鉄格子越しに上方を見上げる人物全身、細い腕が胴体両側に垂れる、逆関節の膝が後方に曲がる、手持ちカメラの微振動がコンクリート壁の質感を強調, lighting: 上方の非常灯が人物頭上から橙色光を落とし、足元のコンクリートに長い影、鉄格子が光を分断して縞模様を作る, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, low angle soft, 非常階段踊り場の鉄格子越しに上方を見上げる人物全身、細い腕が胴体両側に垂れる、逆関節の膝が後方に曲がる、手持ちカメラの微振動がコンクリート壁の質感を強調, action: subtle, lighting: 上方の非常灯が人物頭上から橙色光を落とし、足元のコンクリートに長い影、鉄格子が光を分断して縞模様を作る, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.1,
@@ -1891,8 +1891,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame wide master shot, camera position eye level, subject placement 監視カメラ越しの廊下遅延映像—モニター画面内の映像に人物の後ろ姿が映り、現実の人物の側頭部がフレーム右端にかかる, layering 監視モニターの並ぶ管理室——遅延した監視映像と割れたガラス卓、赤い警報インジケータ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, eye level, composition: subject placement 監視カメラ越しの廊下遅延映像—モニター画面内の映像に人物の後ろ姿が映り、現実の人物の側頭部がフレーム右端にかかる, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.0,
@@ -1935,8 +1935,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 周囲空気だけ, composition: frame medium close-up, camera position eye level, subject placement 監視カメラ越しの廊下遅延映像—モニター画面内の映像に人物の後ろ姿が映り、現実の人物の側頭部がフレーム右端にかかる, layering 監視モニターの並ぶ管理室——遅延した監視映像と割れたガラス卓、赤い警報インジケータ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, composition: subject placement 監視カメラ越しの廊下遅延映像—モニター画面内の映像に人物の後ろ姿が映り、現実の人物の側頭部がフレーム右端にかかる, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.8,
@@ -1979,8 +1979,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 同時持っている, ガラス破片が管理室床面に散乱、各破片がモニター光を反射して青白く輝く、画面左下端に逆関節の膝と細い足首、足は静止したまま破片の中に立つ, lighting: モニター群からの青白光が床面のガラス破片を乱反射、鋭い光点が散乱、人物の足元に鋭い影, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, high angle soft, ガラス破片が管理室床面に散乱、各破片がモニター光を反射して青白く輝く、画面左下端に逆関節の膝と細い足首、足は静止したまま破片の中に立つ, action: still, lighting: モニター群からの青白光が床面のガラス破片を乱反射、鋭い光点が散乱、人物の足元に鋭い影, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.6,
@@ -2025,8 +2025,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 鷺の顔のクローズアップ、顔面左半分がモニター群の青白光で照射され微細な羽毛の質感が見える、右半分は管理室の暗部に溶ける、瞳にモニター画面の格子状反射, lighting: 左側モニター群からの青白光が顔面左半分を強照射、右半分は暗部、鼻梁に光と影の境界線, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, eye level, 鷺の顔のクローズアップ、顔面左半分がモニター群の青白光で照射され微細な羽毛の質感が見える、右半分は管理室の暗部に溶ける、瞳にモニター画面の格子状反射, action: subtle, lighting: 左側モニター群からの青白光が顔面左半分を強照射、右半分は暗部、鼻梁に光と影の境界線, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.2,
@@ -2071,8 +2071,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 16分割モニター壁が画面右側3分の2を占める、人物が画面左端の狭い暗部に立つ、モニター各画面に廊下・階段・管理室の遅延映像が流れる, lighting: モニター壁の青白光が室内全体を照射、人物の立つ左端のみ蛍光管の黄緑光が混在、床面に二色の境界, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, eye level, 16分割モニター壁が画面右側3分の2を占める、人物が画面左端の狭い暗部に立つ、モニター各画面に廊下・階段・管理室の遅延映像が流れる, action: still, lighting: モニター壁の青白光が室内全体を照射、人物の立つ左端のみ蛍光管の黄緑光が混在、床面に二色の境界, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.0,
@@ -2117,8 +2117,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 鷺の顔がモニター画面に半透過で重なり、画面内の廊下遅延映像と顔の輪郭が溶け合う、dolly_inで顔とモニターの距離が縮まる、羽毛とピクセルノイズが混在, lighting: モニター光が顔面全体を均一に青白く照射、dolly inにつれてモニター光の強度が増し顔の輪郭が画面の発光に近づく, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, eye level, 鷺の顔がモニター画面に半透過で重なり、画面内の廊下遅延映像と顔の輪郭が溶け合う、dolly_inで顔とモニターの距離が縮まる、羽毛とピクセルノイズが混在, action: still, lighting: モニター光が顔面全体を均一に青白く照射、dolly inにつれてモニター光の強度が増し顔の輪郭が画面の発光に近づく, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -2163,8 +2163,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 赤い警報インジケータ群がフレームいっぱいを占める、点滅の瞬間にドロップフレーム処理でタイムスタンプ数字が飛ぶ、赤い光が画面全体を間欠的に染める, lighting: インジケータ自身の赤色発光のみ、点滅オン時に画面全体が赤で飽和、オフ時に暗部へ急落, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, high angle soft, 赤い警報インジケータ群がフレームいっぱいを占める、点滅の瞬間にドロップフレーム処理でタイムスタンプ数字が飛ぶ、赤い光が画面全体を間欠的に染める, action: burst, lighting: インジケータ自身の赤色発光のみ、点滅オン時に画面全体が赤で飽和、オフ時に暗部へ急落, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.75,
@@ -2209,8 +2209,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 管理室全景、モニター壁が画面上部から右に広がり圧倒的な面積を占める、人物が右下隅に立ち静止、逆関節の膝の曲がりが右下隅の暗部でかろうじて見える, lighting: モニター壁の青白光が室内上部から降り注ぐ、人物の立つ右下隅は暗部、床面に青白光の反射が広がる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, low angle soft, 管理室全景、モニター壁が画面上部から右に広がり圧倒的な面積を占める、人物が右下隅に立ち静止、逆関節の膝の曲がりが右下隅の暗部でかろうじて見える, action: still, lighting: モニター壁の青白光が室内上部から降り注ぐ、人物の立つ右下隅は暗部、床面に青白光の反射が広がる, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.25,
@@ -2255,8 +2255,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, three-quarter view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 低解像度CRT画面、走査線ノイズ、タイムスタンプ数字、廊下の影の輪郭、モニター縁の錆びたベゼル, lighting: color tone 冷青緑、crt発色, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, three-quarter view, 低解像度CRT画面、走査線ノイズ、タイムスタンプ数字、廊下の影の輪郭、モニター縁の錆びたベゼル, 画面内の影がフレーム端から1/3ほど侵入し静止する, lighting: color tone 冷青緑、crt発色, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -2301,8 +2301,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 割れたガラス卓の反射面、モニター画面の廊下映像、女の顔の輪郭、タイムスタンプ数字の重なり、赤い警報インジケータの点光源, lighting: color tone 青緑と肌色の混合, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, 割れたガラス卓の反射面、モニター画面の廊下映像、女の顔の輪郭、タイムスタンプ数字の重なり、赤い警報インジケータの点光源, 女の瞳がモニター映像の影の動きに連動して左へ0.5秒遅れで追う, lighting: color tone 青緑と肌色の混合, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.2,
@@ -2347,8 +2347,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 鷺の逆関節膝の屈曲、細い脛骨、4本指の足裏、灰白色の羽毛、モニター列の青光を背にした輪郭、床の錆びた金属片, lighting: color tone 冷青、羽毛に青白いリム, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, low angle soft, 鷺の逆関節膝の屈曲、細い脛骨、4本指の足裏、灰白色の羽毛、モニター列の青光を背にした輪郭、床の錆びた金属片, 鷺は静止し、頸部だけがわずかに前方へ1cm突き出して固まる, lighting: color tone 冷青、羽毛に青白いリム, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.6,
@@ -2393,8 +2393,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 同時持っている, 鷺の4本指の関節、細い爪先、机縁の錆びた金属表面、光沢と錆が混在する縁面、赤い点光源の照り返し, lighting: color tone 暗赤、錆色, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, high angle soft, 鷺の4本指の関節、細い爪先、机縁の錆びた金属表面、光沢と錆が混在する縁面、赤い点光源の照り返し, 4本指が不規則な間隔で順不同に机縁を叩く、音なし、第1指と第4指が同時に沈む瞬間あり, lighting: color tone 暗赤、錆色, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.8,
@@ -2439,8 +2439,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 鉄製手すりの錆、踊り場の床タイル、点滅する赤い非常灯、人物の背中と肩甲骨、手すりに押し当てた手、廊下への開口部, lighting: color tone 赤橙と暗部の交互切替, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, bird's-eye view, 鉄製手すりの錆、踊り場の床タイル、点滅する赤い非常灯、人物の背中と肩甲骨、手すりに押し当てた手、廊下への開口部, 非常灯が点灯した瞬間に人物が背を手すりから離し、前方へ重心を移す最初の0.3秒, lighting: color tone 赤橙と暗部の交互切替, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.1,
@@ -2485,8 +2485,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame medium close-up, camera position low angle, subject placement 配電室の火花と天井からの水滴、衝突点, layering 監視モニターの並ぶ管理室——遅延した監視映像と割れたガラス卓、赤い警報インジケータ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, high angle soft, composition: subject placement 配電室の火花と天井からの水滴、衝突点, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.7,
@@ -2529,8 +2529,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, worm's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme close-up, camera position low angle, subject placement 配電室の火花と天井からの水滴、衝突点, layering 監視モニターの並ぶ管理室——遅延した監視映像と割れたガラス卓、赤い警報インジケータ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, worm's-eye view, composition: subject placement 配電室の火花と天井からの水滴、衝突点, action: burst, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.9,
@@ -2573,8 +2573,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, profile angle, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 夜明け台所, 同時持っている, 鷺の横顔。一方の目が鍋の底の方向を静かに向く。焦点は鍋底に合い鷺の目は前ピン。モニターのガラス面が背景に写り込み、廊下映像の残像が鷺の頭部輪郭に半透明に重なる。フレーム右の空白が不在の対象を暗示, lighting: モニターの青白い自発光が鷺の横顔の輪郭を縁取る。天井光は当たらず側面のみが光る。鍋底の金属光沢が奥から滲む, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, profile angle, 鷺の横顔。一方の目が鍋の底の方向を静かに向く。焦点は鍋底に合い鷺の目は前ピン。モニターのガラス面が背景に写り込み、廊下映像の残像が鷺の頭部輪郭に半透明に重なる。フレーム右の空白が不在の対象を暗示, 完全静止。鷺の羽毛が空調の微気流で髪の毛一本ぶん揺れる程度。モニター内の映像だけがわずかに動く, lighting: モニターの青白い自発光が鷺の横顔の輪郭を縁取る。天井光は当たらず側面のみが光る。鍋底の金属光沢が奥から滲む, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.0,
@@ -2619,8 +2619,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 選ん人物。, 監視カメラ映像に完全切替。廊下を上から見た映像。人物がゆっくり左から右へ横断。タイムスタンプが00:00:03から00:00:09へ数字を飛ばし時間欠落を示す。画面端にカメラID文字列。VHSの水平走査ノイズが画面下部を侵食, lighting: 監視カメラの単色赤外線照明。廊下の影が極端に硬く人物の頭頂部のみが照らされる。色情報は失われグレースケールに近い, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, bird's-eye view, 監視カメラ映像に完全切替。廊下を上から見た映像。人物がゆっくり左から右へ横断。タイムスタンプが00:00:03から00:00:09へ数字を飛ばし時間欠落を示す。画面端にカメラID文字列。VHSの水平走査ノイズが画面下部を侵食, pan_right_slowで人物を追うが遅延のため人物は常にフレーム左寄り。drift挙動で等速移動。3.5秒間に画面端まで到達しない, lighting: 監視カメラの単色赤外線照明。廊下の影が極端に硬く人物の頭頂部のみが照らされる。色情報は失われグレースケールに近い, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.5,
@@ -2665,8 +2665,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 残っている, モニター画面表面。色褪せた暖簾の布地のように指が繰り返し触れた箇所の皮脂跡が縦縞状に残る（wp-003の質感をモニター表面に転用）。VHSトラッキングノイズが上から下へ4.45秒をかけて全面を覆う寸前まで侵食。油膜干渉縞が虹色に揺れる, lighting: モニターの自発光が背後から摩擦跡を透過照射。皮脂油膜が光を散乱させ虹色干渉縞を生む。vhsノイズが侵食するにつれて発光が乱れる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, dutch angle soft, モニター画面表面。色褪せた暖簾の布地のように指が繰り返し触れた箇所の皮脂跡が縦縞状に残る（wp-003の質感をモニター表面に転用）。VHSトラッキングノイズが上から下へ4.45秒をかけて全面を覆う寸前まで侵食。油膜干渉縞が虹色に揺れる, dolly_in_slowで跡に接近し4.45秒で摩擦跡の細部が露出。VHSノイズが上から侵食。subtle挙動で跡の表面が光変化により微かに揺れる, lighting: モニターの自発光が背後から摩擦跡を透過照射。皮脂油膜が光を散乱させ虹色干渉縞を生む。vhsノイズが侵食するにつれて発光が乱れる, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.45,
@@ -2711,8 +2711,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 同時持っている, 空の鍋の底。錆と研磨後の光沢が混在する金属面（wp-000）。女の手がかき混ぜた軌跡が水分の残膜として円弧状に残る。match_cut着地直後に手の影が鍋底を円運動でなぞり1秒以内に光学ゴーストとして消える。arousal上昇に対応する感情ピーク, lighting: 台所の天井光が直上から垂直に落ちる。空の鍋底の金属面が全面に光を反射。錆と光沢の共存（wp 000）がextreme closupで鮮明に見える, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, bird's-eye view, 空の鍋の底。錆と研磨後の光沢が混在する金属面（wp-000）。女の手がかき混ぜた軌跡が水分の残膜として円弧状に残る。match_cut着地直後に手の影が鍋底を円運動でなぞり1秒以内に光学ゴーストとして消える。arousal上昇に対応する感情ピーク, match_cut着地後に女の手の残像が鍋底を円運動でなぞりactive挙動で消える。その後鍋底は1.2秒間静止で保持, lighting: 台所の天井光が直上から垂直に落ちる。空の鍋底の金属面が全面に光を反射。錆と光沢の共存（wp 000）がextreme closupで鮮明に見える, 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.2,
@@ -2757,8 +2757,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 屋上通路の石畳が霧に溶け、外灯三基が距離順に輝度を落とす。逆関節の脚を持つ人物シルエットが右端の点として静止し、霧の流れだけが画面に動きを与える, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, eye level, 屋上通路の石畳が霧に溶け、外灯三基が距離順に輝度を落とす。逆関節の脚を持つ人物シルエットが右端の点として静止し、霧の流れだけが画面に動きを与える, action: drift, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -2803,8 +2803,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 高所固定カメラの粗粒子映像。人物の背中が霧の通路を進み、三基の外灯光輪が頭上に重なる。フレーム周縁は圧縮アーティファクトで崩れる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, high angle soft, 高所固定カメラの粗粒子映像。人物の背中が霧の通路を進み、三基の外灯光輪が頭上に重なる。フレーム周縁は圧縮アーティファクトで崩れる, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.2,
@@ -2849,8 +2849,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 排気口の金属縁。錆の赤茶と磨かれた銀光沢が隣接する矛盾した表面。水滴が縁を伝い霧の粒子に吸収される。不釣り合いな経年劣化の物証, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, 排気口の金属縁。錆の赤茶と磨かれた銀光沢が隣接する矛盾した表面。水滴が縁を伝い霧の粒子に吸収される。不釣り合いな経年劣化の物証, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.8,
@@ -2895,8 +2895,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 逆関節の細い脚が濡れた舗装を踏む。水たまりに外灯と霧が映り込み、踏み込みで波紋が同心円を描く。上半分の霧が行き先を消す, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, low angle soft, 逆関節の細い脚が濡れた舗装を踏む。水たまりに外灯と霧が映り込み、踏み込みで波紋が同心円を描く。上半分の霧が行き先を消す, action: active, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.2,
@@ -2941,8 +2941,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 外灯の光輪がVHSノイズで水平に歪み、輪郭がRGB三色にずれる。人物の逆関節シルエットは左隅に圧縮され、画面中央の空白が外灯と人物の間に広がる, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 外灯の光輪がVHSノイズで水平に歪み、輪郭がRGB三色にずれる。人物の逆関節シルエットは左隅に圧縮され、画面中央の空白が外灯と人物の間に広がる, action: subtle, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -2987,8 +2987,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme close-up, camera position eye level, subject placement 人物の手——暖簾の色褪せた布に触れる直前で停止, layering 霧が流れる屋上通路——霧に滲む外灯と開いた保守ハッチ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, low angle soft, composition: subject placement 人物の手——暖簾の色褪せた布に触れる直前で停止, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 0.8,
@@ -3031,8 +3031,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 周囲空気だけ, composition: frame closeup, camera position eye level, subject placement 人物の手——暖簾の色褪せた布に触れる直前で停止, layering 霧が流れる屋上通路——霧に滲む外灯と開いた保守ハッチ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, eye level, composition: subject placement 人物の手——暖簾の色褪せた布に触れる直前で停止, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -3075,8 +3075,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, three-quarter view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 残っている, 暖簾の布一枚。色褪せた帯は風に揺れ、色の残る帯は静止する。境界線で二つの物理法則が接している。透過光が色差を露出させ、布が二つの時間を同時に持つ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, three-quarter view, 暖簾の布一枚。色褪せた帯は風に揺れ、色の残る帯は静止する。境界線で二つの物理法則が接している。透過光が色差を露出させ、布が二つの時間を同時に持つ, action: drift, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.0,
@@ -3121,8 +3121,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, CRTモニター画面を極限接写。遅延した監視映像の中に人物の逆関節シルエット。画面の曲面が映像を歪め、指先が輪郭の線をゆっくりなぞる。指の腹がCRTの静電気で微かに発光する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, eye level, CRTモニター画面を極限接写。遅延した監視映像の中に人物の逆関節シルエット。画面の曲面が映像を歪め、指先が輪郭の線をゆっくりなぞる。指の腹がCRTの静電気で微かに発光する, action: subtle, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.6,
@@ -3167,8 +3167,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, dutch angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 保守ハッチの開口部。金属縁の錆が非常灯の赤に染まり、点滅のたびに深い錆の凹凸が浮かぶ。開口部の暗闇が吸い込む形で右下に広がり、ハッチの蝶番に光沢と錆が共存する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, dutch angle soft, 保守ハッチの開口部。金属縁の錆が非常灯の赤に染まり、点滅のたびに深い錆の凹凸が浮かぶ。開口部の暗闇が吸い込む形で右下に広がり、ハッチの蝶番に光沢と錆が共存する, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.2,
@@ -3213,8 +3213,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 選ん人物。, 逆関節の鷺の顔——細い顎と長い首が非常灯の赤に染まる。点滅のたびにフレームが数コマ欠落し、存在が断続する。瞳が赤光の中で焦点を結ばず、それでも前方を向く, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, eye level, 逆関節の鷺の顔——細い顎と長い首が非常灯の赤に染まる。点滅のたびにフレームが数コマ欠落し、存在が断続する。瞳が赤光の中で焦点を結ばず、それでも前方を向く, action: subtle, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 1.0,
@@ -3259,8 +3259,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 屋上通路俯瞰・霧の海・外灯の橙光輪・人物シルエット点・濡れた床面の反射格子・霧に半溶けした排気口, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, high angle soft, 屋上通路俯瞰・霧の海・外灯の橙光輪・人物シルエット点・濡れた床面の反射格子・霧に半溶けした排気口, 霧が左から右へゆっくり流れる・人物はほぼ静止・外灯の光輪が霧の濃淡で脈動する, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.65,
@@ -3305,8 +3305,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 屋上通路全景・人物が画面中央からハッチへ歩み寄る・霧の流動・VHSトラッキングノイズが上下を侵食・タイムスタンプ静止（点滅停止）, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, high angle soft, 屋上通路全景・人物が画面中央からハッチへ歩み寄る・霧の流動・VHSトラッキングノイズが上下を侵食・タイムスタンプ静止（点滅停止）, 人物がゆっくりとハッチへ歩む・霧が流れる・タイムスタンプ停止・テープノイズの帯が断続的に横断, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.5,
@@ -3351,8 +3351,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 人物全身・外灯橙のリムライト・霧の前景レイヤー・監視カメラ魚眼歪み（四隅の湾曲）・床面の霧反射・排気口の白煙ベール, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, eye level, 人物全身・外灯橙のリムライト・霧の前景レイヤー・監視カメラ魚眼歪み（四隅の湾曲）・床面の霧反射・排気口の白煙ベール, 人物は完全静止・霧が緩慢に流れる・監視カメラ四隅の魚眼歪みが空間を変形, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.2,
@@ -3397,8 +3397,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 錆びた蝶番の金属面・深錆と光沢の共存（wp-000）・テープトラッキングノイズが輪郭を侵食・ハッチの金属枠・濡れた蝶番周辺の床面, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, low angle soft, 錆びた蝶番の金属面・深錆と光沢の共存（wp-000）・テープトラッキングノイズが輪郭を侵食・ハッチの金属枠・濡れた蝶番周辺の床面, カメラがゆっくり蝶番へ寄る・テープノイズの帯が断続的に蝶番の輪郭を乱す・蝶番自体は静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.8,
@@ -3443,8 +3443,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 人物の背中シルエット・監視カメラ固定構図・VHSタイムスタンプ右下点滅・霧に滲む前方の外灯・濡れた床面の足跡軌跡, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, high angle soft, 人物の背中シルエット・監視カメラ固定構図・VHSタイムスタンプ右下点滅・霧に滲む前方の外灯・濡れた床面の足跡軌跡, 人物が保守ハッチ方向へゆっくり歩む・VHSタイムスタンプの秒数が刻む・霧が横切る, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.1,
@@ -3489,8 +3489,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 残っている, 濡れた排気口傍の痕跡・逆光による色褪せ部分の透過・色の残存と消失の混在・水滴の光散乱・錆びた金属の背景, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, 濡れた排気口傍の痕跡・逆光による色褪せ部分の透過・色の残存と消失の混在・水滴の光散乱・錆びた金属の背景, カメラがゆっくり物証へ寄る・痕跡は静止・逆光の光量が霧の濃淡で微細に変化, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.6,
@@ -3535,8 +3535,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 選ん人物。, 人物の顔close_up・外灯橙の片側照明・霧粒の前景マイクロボケ・視線が下方へ落ちる瞬間の目元・磁気劣化による色彩滲みが目元を横断, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, eye level, 人物の顔close_up・外灯橙の片側照明・霧粒の前景マイクロボケ・視線が下方へ落ちる瞬間の目元・磁気劣化による色彩滲みが目元を横断, 顔は完全静止・視線のみが物証へゆっくり落ちる（3.3秒かけて完了）・目元に磁気劣化滲みが走る・呼吸による胸の微細な上下, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.3,
@@ -3581,8 +3581,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 逆関節, 周囲空気だけ, 選ん人物。, 屋上通路全景・人物が左1/3に静止・右の霧の余白（画面2/3）・外灯橙の光輪・白煙の上昇・タイムスタンプ静止（点滅停止）・テープ走査線の横断, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, high angle soft, 屋上通路全景・人物が左1/3に静止・右の霧の余白（画面2/3）・外灯橙の光輪・白煙の上昇・タイムスタンプ静止（点滅停止）・テープ走査線の横断, 人物は完全静止・霧が左から右へ流れる・白煙が排気口から持続的に上昇・床の光反射が微細に揺れる・テープ巻き戻し音と同期したノイズ帯, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.54,
@@ -3627,8 +3627,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 鍵穴の錆びた金属面・剥離した警告塗装のエッジ・錆の結晶質感・光沢と深錆の共存（wp-000）・鍵穴の暗い開口部・コンクリート壁の背景テクスチャ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, eye level, 鍵穴の錆びた金属面・剥離した警告塗装のエッジ・錆の結晶質感・光沢と深錆の共存（wp-000）・鍵穴の暗い開口部・コンクリート壁の背景テクスチャ, 完全静止・鍵穴も塗装も動かない・光源の微細な揺らぎで錆の凹凸が呼吸する程度, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 6.2,
@@ -3673,8 +3673,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, コンクリート床の濡れた足跡列・靴底輪郭の水の染み・最後の足跡がフレームアウト直前で停止・蛍光灯の白色反射・床面の微細なひび割れ, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, high angle soft, コンクリート床の濡れた足跡列・靴底輪郭の水の染み・最後の足跡がフレームアウト直前で停止・蛍光灯の白色反射・床面の微細なひび割れ, カメラが足跡列に沿ってゆっくり移動し最後の足跡で停止・足跡自体は静止・最後の足跡がフレームアウト寸前で止まる, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.1,
@@ -3719,8 +3719,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 分割監視モニター画面。インターレース縞がノイズとして走る。中央区画に人物の輪郭——VHSの遅延で輪郭が二重にずれている。モニター周辺の暗い管理室内壁, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, eye level, 分割監視モニター画面。インターレース縞がノイズとして走る。中央区画に人物の輪郭——VHSの遅延で輪郭が二重にずれている。モニター周辺の暗い管理室内壁, 極微速前進。モニター内の人物輪郭がフレームを徐々に圧迫。インターレース縞がゆっくり流れ続ける, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.8,
@@ -3767,8 +3767,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 周囲空気だけ, composition: frame extreme close-up, camera position overhead, subject placement シンクの水面俯瞰——蛇口を止めた後の水面が揺れない, layering 地下通路の鉄扉前——錆びた鍵穴と剥離した警告塗装, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, bird's-eye view, composition: subject placement シンクの水面俯瞰——蛇口を止めた後の水面が揺れない, action: drift, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.5,
@@ -3811,8 +3811,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 周囲空気だけ, composition: frame medium close-up, camera position overhead, subject placement シンクの水面俯瞰——蛇口を止めた後の水面が揺れない, layering 地下通路の鉄扉前——錆びた鍵穴と剥離した警告塗装, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, bird's-eye view, composition: subject placement シンクの水面俯瞰——蛇口を止めた後の水面が揺れない, action: drift, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.2,
@@ -3855,8 +3855,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 監視モニター画面全体。タイムコード「HH:MM:SS」が通常再生中。jump_cutでタイムコードが瞬時に「00:00:00」へ飛ぶ。同時にテープ巻き戻し音（SE）が入る, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, eye level, 監視モニター画面全体。タイムコード「HH:MM:SS」が通常再生中。jump_cutでタイムコードが瞬時に「00:00:00」へ飛ぶ。同時にテープ巻き戻し音（SE）が入る, jump_cut一発——時間軸の断絶。タイムコードジャンプ後は画面が静止。テープ巻き戻しSEが鳴り終わる, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.38,
@@ -3903,8 +3903,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 夜明け台所, 周囲空気だけ, 屋上通路。霧が床面を覆い奥まで充満。人物の後ろ姿——開いた保守扉の前に立つ。カメラが後退するにつれ人物が小さくなり、霧と通路の余白が拡大する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, 屋上通路。霧が床面を覆い奥まで充満。人物の後ろ姿——開いた保守扉の前に立つ。カメラが後退するにつれ人物が小さくなり、霧と通路の余白が拡大する, カメラが人物から離れる方向へ後退。人物は微細に揺れるが動かない——霧の流れだけが動く, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.3,
@@ -3951,8 +3951,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, eye level, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 鉄扉の鍵穴、極接写。錆の層が鍵穴周縁に堆積し、深い茶褐色と微細な光沢が共存する。鍵穴の暗部の奥で赤い反射が一瞬瞬く——VHSノイズとの合成によりテープ劣化の痕跡として読める, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, eye level, 鉄扉の鍵穴、極接写。錆の層が鍵穴周縁に堆積し、深い茶褐色と微細な光沢が共存する。鍵穴の暗部の奥で赤い反射が一瞬瞬く——VHSノイズとの合成によりテープ劣化の痕跡として読める, 静止。赤い反射が1回だけ瞬いて消える。その後は完全に静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.2,
@@ -3999,8 +3999,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 警告塗装が剥離した鉄扉面。剥離縁では塗装の厚みが露出し、その下の錆層が深い赤茶色で広がる。同一面に錆の粗い質感と金属光沢の平滑面が隣接して存在する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, low angle soft, 警告塗装が剥離した鉄扉面。剥離縁では塗装の厚みが露出し、その下の錆層が深い赤茶色で広がる。同一面に錆の粗い質感と金属光沢の平滑面が隣接して存在する, カメラが剥離縁へゆっくり接近。被写体は静止。光の角度変化により錆と光沢の対比が増す, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.1,
@@ -4047,8 +4047,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, high angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 地下通路の床面。濡れた足跡が連なり、鉄扉方向へ向かう。足跡は画面端に配置され、中央の空白が不在の人物を指示する。床のコンクリートに水の反射が残る, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, high angle soft, 地下通路の床面。濡れた足跡が連なり、鉄扉方向へ向かう。足跡は画面端に配置され、中央の空白が不在の人物を指示する。床のコンクリートに水の反射が残る, 静止。足跡の水分が僅かに蒸発する気配——画面に動きはない, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.8,
@@ -4095,8 +4095,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 地下通路の全景。奥に霧が薄く漂う。鉄扉が右端に位置し、剥離した警告塗装と錆が全面に広がる。扉面の変色——塗装の退色、錆の酸化、光沢の混在——が空間的スケールで露出する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, low angle soft, 地下通路の全景。奥に霧が薄く漂う。鉄扉が右端に位置し、剥離した警告塗装と錆が全面に広がる。扉面の変色——塗装の退色、錆の酸化、光沢の混在——が空間的スケールで露出する, カメラが扉方向へ緩やかに前進。被写体は静止。扉の変色が徐々に大きくフレームに占める, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.6,
@@ -4143,8 +4143,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium wide shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 地下通路の広角全景。霧が奥の消失点から手前へ緩やかに流入する。扉周辺の錆と光沢が広角レンズで同時にフレームに収まる。霧が錆面を通過するとき、光沢が一瞬強調される, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium wide shot, low angle soft, 地下通路の広角全景。霧が奥の消失点から手前へ緩やかに流入する。扉周辺の錆と光沢が広角レンズで同時にフレームに収まる。霧が錆面を通過するとき、光沢が一瞬強調される, 霧のみが動く——奥から手前へのdrift。カメラ固定。扉と通路は完全に静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 6.3,
@@ -4191,8 +4191,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, 錆びた鉄扉の全面。錆の深い茶褐色と酸化層が扉下部を覆い、上部中央の金属面が光を反射して光沢を放つ。剥離した警告塗装の縁が左辺で剥がれた層を露出する。広角レンズで錆と光沢の共存が最大スケールで可視化される, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, low angle soft, 錆びた鉄扉の全面。錆の深い茶褐色と酸化層が扉下部を覆い、上部中央の金属面が光を反射して光沢を放つ。剥離した警告塗装の縁が左辺で剥がれた層を露出する。広角レンズで錆と光沢の共存が最大スケールで可視化される, カメラが扉面へゆっくり接近。被写体は完全に静止。光の角度変化により錆の質感と光沢の対比が増幅する, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.48,
@@ -4240,8 +4240,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme close-up shot, low angle soft, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 錆びた鍵穴の金属縁——深錆と鈍い光沢が同一面に共存。VHSタイムスタンプ右下で点滅。輝度がゆっくり落ち始める, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme close-up shot, low angle soft, 錆びた鍵穴の金属縁——深錆と鈍い光沢が同一面に共存。VHSタイムスタンプ右下で点滅。輝度がゆっくり落ち始める, 輝度0.5%/秒で極低速減衰。被写体静止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 6.5,
@@ -4286,8 +4286,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "close up shot, three-quarter view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 同時持っている, 鉄扉の深錆面——縦走りの錆筋と剥離警告塗装の残片。女の後ろ姿が右端にごく小さく滲む。手持ち微振動, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "close up shot, three-quarter view, 鉄扉の深錆面——縦走りの錆筋と剥離警告塗装の残片。女の後ろ姿が右端にごく小さく滲む。手持ち微振動, 女が右隅で極微前進。カメラはhandheld_floatで不規則な微振動, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.8,
@@ -4332,8 +4332,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "tight shot, worm's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 同時持っている, 保守ハッチの鉄縁——深錆と結露水滴。水滴が重力で下垂。錆の表面に鈍い光沢の帯, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "tight shot, worm's-eye view, 保守ハッチの鉄縁——深錆と結露水滴。水滴が重力で下垂。錆の表面に鈍い光沢の帯, 被写体静止。水滴が極低速で伸長, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 3.2,
@@ -4378,8 +4378,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium close-up shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, 夜明け台所, 同時持っている, ハッチ内部の鉄床に落ちる外灯の楕円光——鍋の水面反射と等価な揺れ。光の縁に錆の粉塵, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium close-up shot, bird's-eye view, ハッチ内部の鉄床に落ちる外灯の楕円光——鍋の水面反射と等価な揺れ。光の縁に錆の粉塵, 光の楕円がゆっくり揺れながら収束, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.4,
@@ -4424,8 +4424,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "medium shot, over shoulder angle, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, き混ぜる女, 女の首の傾きと後ろ髪のライン。顔は画外。右下のVHSタイムスタンプの数字が停止する, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "medium shot, over shoulder angle, 女の首の傾きと後ろ髪のライン。顔は画外。右下のVHSタイムスタンプの数字が停止する, 女の首が極微傾く。タイムスタンプ数字が停止, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 4.1,
@@ -4470,8 +4470,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "wide master shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame wide master shot, camera position high angle, subject placement 霧の中で女が立つ——屋上通路全景、人物がフレーム, layering 地下通路の鉄扉前——錆びた鍵穴と剥離した警告塗装, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "wide master shot, bird's-eye view, composition: subject placement 霧の中で女が立つ——屋上通路全景、人物がフレーム, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 2.5,
@@ -4514,8 +4514,8 @@
 ### Request JSON (copy/paste)
 ```json
 {
-  "prompt": "extreme wide shot, bird's-eye view, style: Desaturated aged parchment tone, dominant warm ochre-brown with muted moss-green and rust undertones. No pure whites or blacks; shadows pool as muddy, composition: frame extreme wide, camera position high angle, subject placement 霧の中で女が立つ——屋上通路全景、人物がフレーム, layering 地下通路の鉄扉前——錆びた鍵穴と剥離した警告塗装, cinematic still frame, music video, high quality",
-  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality",
+  "prompt": "extreme wide shot, bird's-eye view, composition: subject placement 霧の中で女が立つ——屋上通路全景、人物がフレーム, action: still, lighting: 白熱光の漂白過多と蛍光灯の間欠フリッカーが混在、影部は磁気ノイズで潰れる, palette: 退色した乳白＋錆びた琥珀＋監視モニターの青緑、全体にVHS輝度圧縮による低彩度, texture: VHSスキャンライン、テープ劣化の縦横ノイズ、ホームビデオ特有の粒状感とリネン様の映像繊維, motifs: VHSタイムスタンプの数字, 監視カメラ特有の魚眼歪み, テープトラッキングノイズの水平帯, 固定監視視点と不安定手持ちの交互、低解像度480i相当のインターレース揺れ, music video, high quality",
+  "negative_prompt": "lowres, blurry, watermark, text, logo, jpeg artifacts, deformed, extra limbs, bad anatomy, low quality, 高精細クリーン映像, 美しく整ったコンポジション, 明示的な感情説明テロップ",
   "generation": {
     "task_type": "i2v",
     "duration_sec": 5.0,
