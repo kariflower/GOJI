@@ -1,13 +1,23 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-19T08:09:45Z",
+  "generated_at": "2026-03-19T18:28:21Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
     {
+      "session_id": "session-20260319-235635-fbb4",
+      "path": "./session-20260319-235635-fbb4/assets/instructions/index.html",
+      "generated_at": "2026-03-19T18:28:15.456843Z",
+      "clip_count": 88,
+      "duration_sec": 234.79999999999998,
+      "section_count": 12,
+      "summary": "深夜のシンガポール、雨上がりの交差点中央——アスファルトに10メートル四方のチョーク五線譜が広がっている。フードを深く被り、顎だけを夜気にさらした巫女が、ぬれた路面に映るネオンの反射を踏みながら立っている。彼女の首は異様に長く、縦に割れた白い仮面の隙間から、素顔の一部がのぞいている。彼女が手に持っているのは、五線譜の設計図——盗み出してきた「世界の楽譜の青写真」だ。街灯がひとつ、斜め後ろから彼女を照らし、音符を踏むたびにわずかに暗くな…",
+      "song_file": "Suno v5 Test2.mp3"
+    },
+    {
       "session_id": "session-20260319-132845-b811",
       "path": "./session-20260319-132845-b811/assets/instructions/index.html",
-      "generated_at": "2026-03-19T08:09:40.063140Z",
+      "generated_at": "2026-03-19T14:53:45.308570Z",
       "clip_count": 85,
       "duration_sec": 213.53000000000003,
       "section_count": 8,

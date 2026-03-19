@@ -1,6 +1,6 @@
 # MV Instructions (Phase 7)
 
-- generated_at: 2026-03-19T08:09:40.063140Z
+- generated_at: 2026-03-19T14:53:45.308570Z
 - clip_count: 85
 - duration_sec: 213.53000000000003
 
