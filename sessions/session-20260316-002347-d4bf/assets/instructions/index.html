@@ -385,7 +385,7 @@
     }
     .hero-synopsis {
       font-size: 13px; color: var(--ink-secondary); line-height: 1.7;
-      margin-bottom: 16px; max-height: 4.2em; overflow: hidden;
+      margin-bottom: 16px;
     }
     .hero-meta {
       display: flex; gap: 16px; flex-wrap: wrap; font-size: 11px; color: var(--muted);
@@ -762,7 +762,7 @@
   <!-- ── Data ────────────────────────────────────────── -->
   <script id="instructions-data" type="application/json">{
   "meta": {
-    "generated_at": "2026-03-18T15:29:19.250520Z",
+    "generated_at": "2026-03-19T00:53:07.644488Z",
     "version": "mvp-1",
     "clip_count": 55,
     "cut_scene_count": 6,
@@ -18266,8 +18266,8 @@
       if (subtitle) heroHtml += `<div class="hero-subtitle">${esc(subtitle)}</div>`;
       if (synopsis) heroHtml += `<div class="hero-synopsis">${esc(synopsis)}</div>`;
       heroHtml += '<div class="hero-meta">';
-      if (world) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("world"))}:</span><span class="hero-meta-value">${esc(world.length > 60 ? world.slice(0,60)+"..." : world)}</span></div>`;
-      if (character) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("character"))}:</span><span class="hero-meta-value">${esc(character.length > 60 ? character.slice(0,60)+"..." : character)}</span></div>`;
+      if (world) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("world"))}:</span><span class="hero-meta-value">${esc(world)}</span></div>`;
+      if (character) heroHtml += `<div class="hero-meta-item"><span class="hero-meta-label">${esc(t("character"))}:</span><span class="hero-meta-value">${esc(character)}</span></div>`;
       heroHtml += '</div></div>';
       heroEl.innerHTML = (songTitle || subtitle || synopsis) ? heroHtml : "";
     }

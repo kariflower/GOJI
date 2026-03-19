@@ -1,23 +1,23 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-18T19:47:48Z",
+  "generated_at": "2026-03-19T08:09:45Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
     {
-      "session_id": "session-20260319-004903-25bc",
-      "path": "./session-20260319-004903-25bc/assets/instructions/index.html",
-      "generated_at": "2026-03-18T19:47:41.039917Z",
-      "clip_count": 95,
-      "duration_sec": 213.59999999999997,
+      "session_id": "session-20260319-132845-b811",
+      "path": "./session-20260319-132845-b811/assets/instructions/index.html",
+      "generated_at": "2026-03-19T08:09:40.063140Z",
+      "clip_count": 85,
+      "duration_sec": 213.53000000000003,
       "section_count": 8,
-      "summary": "蛍光灯が落ちた自室で、モニターの青白い光と赤い録画ランプだけが球体関節の侍を映し出す画面の前に座る少年の横顔を照らしている。少年はカメラに向かって語りかけ続けるが、その言葉は画面の外へは届かない——宛先のない独白が始まり、「録画ランプが消えたとき何を失うのか」という問いが視聴者に植え付けられる。排水溝の縁だけが青白く発光する都市では、割れた兜をつけた球体関節の侍が錆びた鍵穴の前で指先を止め、背後の金属音に反応して追跡を開始する。蛍光灯…",
+      "summary": "廃工場の蛍光灯一本が照らす床に、少年が自分の輪郭をガムテープで貼り付けている。封印石の灰色結晶が壁を這い上がり、「感情純度94%」と点滅するデジタル標が彼の頭上を冷たく照らす。少年はその輪郭の内側に仰向けで横たわり、完全に静止している——まるで死体の代わりに置かれた証拠物件のように。カメラは動かない。この世界では感情を石にした者ほど称えられ、少年はすでに自分の形を床に「提出済み」だ。失われるのは、彼がまだ砕いていない最後の封印石——自…",
       "song_file": "わからないから.mp3"
     },
     {
       "session_id": "session-20260318-134607-794a",
       "path": "./session-20260318-134607-794a/assets/instructions/index.html",
-      "generated_at": "2026-03-18T15:36:37.137141Z",
+      "generated_at": "2026-03-19T04:20:00.915195Z",
       "clip_count": 97,
       "duration_sec": 263.67999999999995,
       "section_count": 7,
@@ -25,9 +25,19 @@ window.SESSION_MANIFEST = Object.freeze((function(){
       "song_file": "オブラーテッド.mp3"
     },
     {
+      "session_id": "session-20260319-004903-25bc",
+      "path": "./session-20260319-004903-25bc/assets/instructions/index.html",
+      "generated_at": "2026-03-19T04:19:55.133659Z",
+      "clip_count": 95,
+      "duration_sec": 213.59999999999997,
+      "section_count": 8,
+      "summary": "蛍光灯が落ちた自室で、モニターの青白い光と赤い録画ランプだけが球体関節の侍を映し出す画面の前に座る少年の横顔を照らしている。少年はカメラに向かって語りかけ続けるが、その言葉は画面の外へは届かない——宛先のない独白が始まり、「録画ランプが消えたとき何を失うのか」という問いが視聴者に植え付けられる。排水溝の縁だけが青白く発光する都市では、割れた兜をつけた球体関節の侍が錆びた鍵穴の前で指先を止め、背後の金属音に反応して追跡を開始する。蛍光灯…",
+      "song_file": "わからないから.mp3"
+    },
+    {
       "session_id": "session-20260316-002347-d4bf",
       "path": "./session-20260316-002347-d4bf/assets/instructions/index.html",
-      "generated_at": "2026-03-18T15:29:19.250520Z",
+      "generated_at": "2026-03-19T00:53:07.644488Z",
       "clip_count": 55,
       "duration_sec": 191.60000000000002,
       "section_count": 11,
