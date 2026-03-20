@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-20T05:54:19Z",
+  "generated_at": "2026-03-20T17:53:14Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260321-000337-db54",
+      "path": "./session-20260321-000337-db54/assets/instructions/index.html",
+      "generated_at": "2026-03-20T17:53:06.467072Z",
+      "clip_count": 82,
+      "duration_sec": 179.79999999999998,
+      "section_count": 8,
+      "summary": "深夜の魔法の森で、古木の幹の穴から蛍が一匹ずつ無音で落下し続けている。blue-white発光苔の絨毯の上に仰向けに寝転んだ足枷の狐は、ものすごく真剣な顔で落下する光を口で受け止めようとして次々と外す——コメディだ。狐が蛍を外すたびに、遠景のpink-teal苔密集帯がぱっと一箇所点灯する：忘却が苔に染み込んだ証拠。その連鎖を草ぶき小屋の外で子どもが膝上の粘土板に点として刻み続けるが、苔の点灯速度が倍になるにつれ粘土板の余白が尽き、子…",
+      "song_file": "Melty_Sky.mp3"
+    },
     {
       "session_id": "session-20260320-105804-a762",
       "path": "./session-20260320-105804-a762/assets/instructions/index.html",

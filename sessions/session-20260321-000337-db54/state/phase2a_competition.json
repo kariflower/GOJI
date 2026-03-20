@@ -1,0 +1,500 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-85a691cc",
+      "persona_id": "persona-4b4b8838",
+      "content": {
+        "phase1_base": "修道士",
+        "phase2_condition": "枝角・羽毛",
+        "phase3_anchor": "古びた仮面",
+        "subject_concept": "枝角と羽毛を持つ修道士",
+        "subject_signature": "古びた仮面",
+        "why_it_came": "enchanted forestの神秘と憂いを体現するには、人間でありながら森そのものに侵食されたような存在が最も視線を引き止める。修道士という輪郭に植物的変容（枝角・羽毛）を重ねることで、「何者か」という問いが画面に張り付く。",
+        "who_should_watch": "夜に一人でYouTubeを流しながら、説明されない世界観にじわじわ引き込まれる感覚が好きな10代後半〜20代の視聴者。",
+        "character_profile": {
+          "appearance_profile": "頭部から枝角が複数本伸び、ローブの肩口に羽毛が不規則に生えた修道士。顔全体を覆う古びた仮面が唯一の表情として機能している。",
+          "motion_profile": "歩くたびに枝角がわずかに揺れ、仮面の向きだけが静かに環境を追う。"
+        }
+      },
+      "created_at": "2026-03-20 15:08:22.303856",
+      "persona_name": "Grace Hwang",
+      "persona_profile": {
+        "id": "persona-4b4b8838",
+        "name": "Grace Hwang",
+        "gender": "女性",
+        "birthdate": "3900-03-24",
+        "age": 58,
+        "origin_city": "ボストン",
+        "ethnic_background": "東アジア系",
+        "life_history": [
+          {
+            "year": 3918,
+            "event": "ボストン郊外の公立高校を卒業。同じ年、父親が経営していた小さな印刷工場が閉鎖された。"
+          },
+          {
+            "year": 3922,
+            "event": "コミュニティカレッジで会計学の準学士号を取得。卒業後、地元の保険会社に事務職として就職。"
+          },
+          {
+            "year": 3928,
+            "event": "職場の同僚だった男性と結婚。ケンブリッジのアパートに引っ越した。"
+          },
+          {
+            "year": 3931,
+            "event": "第一子を出産。産休後、パートタイムに勤務形態を変更した。"
+          },
+          {
+            "year": 3936,
+            "event": "夫の転職に伴い、ニューハンプシャー州の郊外に一戸建てを購入して転居。"
+          },
+          {
+            "year": 3944,
+            "event": "地元の図書館で週3日のパート勤務を開始。カウンター業務と本の整理を担当している。"
+          },
+          {
+            "year": 3952,
+            "event": "母親が転倒して大腿骨を骨折。週末ごとにボストンの実家を訪ねて介護の手伝いをするようになった。"
+          },
+          {
+            "year": 3956,
+            "event": "長年住んでいた家の屋根が老朽化し、大規模な修繕工事を行った。予想外の出費で家族旅行を延期した。"
+          }
+        ],
+        "current_situation": "ニューハンプシャー州の郊外で夫と二人暮らし。子どもたちは既に独立している。週3日、地元の公共図書館でパート勤務を続けており、利用者との短い会話や本の整理作業が日課となっている。夫は地元の工業製品メーカーで品質管理を担当しており、定年まであと数年。週末は庭の手入れをしたり、近所のスーパーで買い物をしたりして過ごす。月に一度、ボストンの実家を訪ねて母親の様子を見ている。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ。笑顔は柔らかいが、自分から話しかけることは少ない。",
+          "close_friends_view": "真面目で几帳面。約束は必ず守るし、頼まれごとを断らない。たまに冗談を言うと意外な鋭さがある。",
+          "misunderstandings": "無表情に見えるため、機嫌が悪いと思われることがある。実際は特に何も考えていないことが多い。"
+        },
+        "stance_on_past": "笑い話にできるようになった",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-4b4b8838.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-bc2df7f6",
+      "persona_id": "persona-6fd7d48b",
+      "content": {
+        "phase1_base": "狐",
+        "phase2_condition": "細い瞳・長い尻尾",
+        "phase3_anchor": "錆びた足枷",
+        "subject_concept": "細い瞳と長い尻尾を持つ狐",
+        "subject_signature": "錆びた足枷",
+        "why_it_came": "「enchanted forest」という磁場の中で、自由と拘束が同居する存在として狐を選んだ。細い瞳が森の暗がりを切り取り、長い尻尾の動きが視線の軌道を作る。",
+        "who_should_watch": "夜中にひとりでヘッドフォンをつけて動画を流しながら、どこかに行きたいと思っている20代前半の人。",
+        "character_profile": {
+          "appearance_profile": "縦に細く裂けた瞳と、地面すれすれまで垂れる長い尻尾を持つ狐の体躯。片足首に錆びた金属の足枷が嵌まっており、それだけが人工物として体に密着している。",
+          "motion_profile": "歩くたびに足枷が地面を引きずる音がし、長い尻尾だけが音もなく宙を払う。"
+        }
+      },
+      "created_at": "2026-03-20 15:08:33.640187",
+      "persona_name": "ゆうと",
+      "persona_profile": {
+        "id": "persona-6fd7d48b",
+        "name": "ゆうと",
+        "gender": "男性",
+        "birthdate": "1993-04-20",
+        "life_history": [
+          {
+            "year": 1998,
+            "event": "父親の事業失敗により、祖父母の家に預けられることになった。両親は遠方で働き始め、週末しか会えなくなった。"
+          },
+          {
+            "year": 2005,
+            "event": "中学入学直後に母親が体調を崩し入院。父親は仕事と看病で家を空けがちになり、祖父母の世話と家事を手伝うようになった。"
+          },
+          {
+            "year": 2011,
+            "event": "大学進学を希望していたが、家庭の経済状況を考慮して地元の専門学校へ進学。友人たちが遠方の大学へ進む姿を見送った。"
+          },
+          {
+            "year": 2016,
+            "event": "専門学校卒業後、地元の物流会社に就職。祖父が認知症を発症し、週末は介護のサポートに追われる生活が始まった。"
+          },
+          {
+            "year": 2021,
+            "event": "祖父が他界。遺産整理の過程で家族間の意見対立が激化し、仲裁役を務めることになった。"
+          }
+        ],
+        "current_situation": "埼玉県の郊外にある住宅街で育ち、幼少期から祖父母と同居していた。地元の商業系専門学校を卒業後、物流会社の事務職として勤務している。現在は会社の寮で一人暮らしをしており、週末は実家に顔を出すことが多い。平日の夜はコンビニ弁当を食べながらテレビを見て過ごし、休日は溜まった洗濯や掃除をこなしている。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ、やや疲れた印象を与える。話しかけづらい雰囲気がある。",
+          "close_friends_view": "とても頼りになるが、本音を話さないので心配になる。いつも誰かのために動いている。",
+          "misunderstandings": "冷たい人、または無関心だと思われがち。実際は気を使いすぎて距離を取っている。"
+        },
+        "like_history": [
+          {
+            "session": "disgust_wall_v2",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+            "like_count": 3,
+            "like_reasons": [
+              "「誰かがいる=求められる」ってのが、妙にしっくりきた。島にいた頃を思い出す。",
+              "誰かに必要とされたいけど踏み込まれたくない、その感覚がなんとなくわかる。",
+              "自分の提案。家族のために生きてきた人間の矛盾を、正直に表現できたと思う。"
+            ]
+          },
+          {
+            "session": "disgust_wall_v2",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 4,
+            "like_reasons": [
+              "人間が映らない世界って、なんか今の私の気分に合う。余計なノイズがない感じ。",
+              "出来事だけで語る、っていうのが妙にしっくりくる。無駄がない。",
+              "スマホの画面だけ、っていうのがなんかいい。シンプルで分かりやすい。",
+              "感情の場所がスマホの画面、っていうの、なんか分かる気がする。"
+            ]
+          },
+          {
+            "session": "ensemble_omae_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+            "like_count": 4,
+            "like_reasons": [
+              "通知履歴って確かに人生だなって思った。データっぽいのに温かい感じがいい",
+              "スマホの通知で人生が見えるって発想が面白い。データ扱う自分には分かる",
+              "通知履歴のアイデア、エンジニアとして技術的に面白いし、人間的でもある",
+              "他人のデータを観察するって距離感がちょうどいい。踏み込みすぎない"
+            ]
+          },
+          {
+            "session": "ensemble_omae_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 3,
+            "like_reasons": [
+              "誰も見ない時計っていう表現が、なんとなく心に残った",
+              "まだ誰かに見られる成果を出せていないという感覚に共感した",
+              "なんか、言ってることはよく分からないけど雰囲気がいい"
+            ]
+          },
+          {
+            "session": "slim_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手",
+            "like_count": 4,
+            "like_reasons": [
+              "家族のために生きてきた感じ、共感できる。素直でいいわ",
+              "誰かに必要とされた記憶が存在証明っていうの、すごくわかる",
+              "家族のために動いてきた人の感覚、痛いほどわかる"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "disgust_wall_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰かに必要とされたいのに、誰にも踏み込まれたくない――家族のために生きた人間の、閉じた部屋での対話",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "disgust_wall_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 4,
+            "won": true
+          },
+          {
+            "session": "ensemble_omae_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "他人のスマートフォンに蓄積された通知履歴だけで描かれる、誰かの人生の断片",
+            "rank": 3,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "ensemble_omae_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 6,
+            "won": true
+          },
+          {
+            "session": "nobody_rejection_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰にも見られない古いアパートの一室で、ラジオの深夜放送だけを生きがいに、語りかけるように日記を書き続ける孤独な記録",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "nobody_test_v6",
+            "phase": "Phase 1",
+            "my_proposal_summary": "呼びかけられることで輪郭を得る存在の、依存と希求の記録映像",
+            "rank": 2,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "nobody_test_v6",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "slim_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "止まらない時間の中で、誰かに必要とされた記憶だけが自分の存在証明として残り続ける矛盾。過去の役割を手放せないまま、新しい朝を迎え続ける人間の鼓動。",
+            "rank": 1,
+            "tally": 6,
+            "won": false
+          },
+          {
+            "session": "session-smoke-20260125-033105",
+            "phase": "Phase 1",
+            "my_proposal_summary": "報われるかわからないが、それでも一歩ずつ昇り続ける意志の記録",
+            "rank": 1,
+            "tally": 7,
+            "won": true
+          },
+          {
+            "session": "session-smoke-20260125-033105",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 7,
+            "won": false
+          },
+          {
+            "session": "session-smoke-20260125-040803",
+            "phase": "Phase 1",
+            "my_proposal_summary": "完璧に揃えられた伝統の中で、一本だけ床に落ちた筆が誰にも拾われず光を浴び続ける──途切れることもまた、美しい物語の一部だと告げるMV。",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "session-smoke-20260125-040803",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 7,
+            "won": false
+          }
+        ],
+        "stance_on_past": "克服した武勇伝として語る",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-6fd7d48b.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-293fc08e",
+      "persona_id": "persona-f0540cb8",
+      "content": {
+        "phase1_base": "フクロウ",
+        "phase2_condition": "逆関節・大きな耳",
+        "phase3_anchor": "古い頭冠",
+        "subject_concept": "逆関節と大きな耳を持つフクロウの古い頭冠",
+        "subject_signature": "古い頭冠",
+        "why_it_came": "森の静かな支配者として視線を集める存在感があり、逆関節の脚と大きな耳が「何かを感知している」緊張感を生む。既出の仮面・足枷・枝角とは異なる上位性・威厳の軸で差別化できる。",
+        "who_should_watch": "ダークファンタジーや神秘的な生き物の映像に引き込まれる10〜20代の視聴者。",
+        "character_profile": {
+          "appearance_profile": "大きな耳が頭部の左右に張り出し、逆関節の脚が枝をつかむたびに膝が前方へ突き出る体型のフクロウ。頭頂には朽ちかけた金属の頭冠が斜めに乗っている。",
+          "motion_profile": "逆関節の膝がゆっくりと折り畳まれるたびに頭冠がわずかにずれ、大きな耳が音源を追うように左右交互に動く。"
+        }
+      },
+      "created_at": "2026-03-20 15:08:49.411888",
+      "persona_name": "عمر الحمادي (Omar Al Hammadi)",
+      "persona_profile": {
+        "id": "persona-f0540cb8",
+        "name": "عمر الحمادي (Omar Al Hammadi)",
+        "gender": "男性",
+        "birthdate": "2007-05-04",
+        "origin_city": "アブダビ",
+        "ethnic_background": "中東系",
+        "life_history": [
+          {
+            "year": 2007,
+            "event": "アブダビのアル・ムシュリフ地区で、公務員の父と教師の母の次男として生まれた。兄が一人いる。"
+          },
+          {
+            "year": 2013,
+            "event": "公立小学校に入学。アラビア語と英語の二言語教育を受け始める。放課後はサッカークラブに週3回通った。"
+          },
+          {
+            "year": 2018,
+            "event": "父が石油関連の公社に異動し、家族でアブダビ郊外の新築住宅地に引っ越した。同年、祖父が糖尿病で入院し、週末の見舞いが習慣になる。"
+          },
+          {
+            "year": 2020,
+            "event": "COVID-19パンデミックでオンライン授業に移行。兄が大学進学のためドバイに転居。家で過ごす時間が増え、料理を手伝うようになった。"
+          },
+          {
+            "year": 2022,
+            "event": "中等学校を卒業し、アブダビ工科大学の電気工学科に入学。寮生活を始める。"
+          },
+          {
+            "year": 2024,
+            "event": "大学2年次に電力システムの研究プロジェクトに参加。同時期、友人の紹介で地元のモスクでボランティア活動を開始した。"
+          },
+          {
+            "year": 2025,
+            "event": "夏季インターンシップで再生可能エネルギー企業に3ヶ月勤務。太陽光発電施設の保守点検業務を経験した。"
+          }
+        ],
+        "current_situation": "現在18歳で、アブダビ工科大学電気工学科の3年生。大学寮で一人暮らしをしている。週末は実家に帰り、母の料理を手伝うことが多い。アルバイトはしておらず、学業とボランティア活動に時間を使っている。卒業後は国内のエネルギー関連企業への就職を考えているが、まだ具体的な企業は決めていない。",
+        "external_perception": {
+          "first_impression": "物静かで真面目そうな印象。挨拶はするが自分から積極的に話しかけることは少ない。",
+          "close_friends_view": "頼まれたことは必ずやり遂げる。計画的で時間を守る。冗談を言うときは意外と面白い。",
+          "misunderstandings": "無口で冷たい人だと思われがちだが、実際には話を聞いてくれる。宗教的に厳格だと思われるが、柔軟な考え方をする。"
+        },
+        "proposal_history": [
+          {
+            "session": "phase2a_slim_v5",
+            "phase": "Phase 1",
+            "my_proposal_summary": "速度と感情の非同期 - 追いつけない心と加速し続ける現実の交差点",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v5",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          }
+        ],
+        "stance_on_past": "克服した武勇伝として語る",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-f0540cb8.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-85a691cc",
+      "B": "sl2a-bc2df7f6",
+      "C": "sl2a-293fc08e"
+    },
+    "tally": {
+      "A": 6,
+      "B": 8,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "votes": [
+      {
+        "voter": "Tangaroa Kealoha",
+        "like": "B",
+        "like_reason": "狐・足枷・細い瞳という組み合わせは、海辺の民話や縛られた精霊の物語を連想させる。島の古老から聞かされた話に近い雰囲気がある。",
+        "dislike": "A",
+        "dislike_reason": "修道士・枝角・仮面は宗教的すぎて馴染みがなく、自分の生活圏とかけ離れている。"
+      },
+      {
+        "voter": "Yanis Benali",
+        "like": "C",
+        "like_reason": "フクロウ・逆関節・頭冠の組み合わせは知性と異形の融合を感じさせ、境界を越える存在として国際的な文脈でも普遍的に響く。",
+        "dislike": "B",
+        "dislike_reason": "狐に足枷という設定は単純に見えて、視覚的な深みに欠けると感じる。"
+      },
+      {
+        "voter": "陳 永輝",
+        "like": "B",
+        "like_reason": "狐は東アジア文化圏で非常に豊かな象徴性を持ち、錆びた足枷という拘束のモチーフが内省的な物語性を帯びている。",
+        "dislike": "C",
+        "dislike_reason": "逆関節・大きな耳という身体的奇形の強調は、個人的に不快感を覚える。年齢的にグロテスクな表現は好まない。"
+      },
+      {
+        "voter": "Miguel Alejandro Torres",
+        "like": "A",
+        "like_reason": "修道士・枝角・古い仮面の組み合わせは重厚でダークな雰囲気があり、深夜に一人で見るには刺さる。",
+        "dislike": "C",
+        "dislike_reason": "フクロウに頭冠というのは何か気取った感じがして、自分には響かない。"
+      },
+      {
+        "voter": "Татьяна Вернер",
+        "like": "A",
+        "like_reason": "修道士・枝角・古びた仮面は、ロシアや東欧の民間伝承に登場する森の番人的存在を想起させ、文学的深みがある。",
+        "dislike": "B",
+        "dislike_reason": "狐・尻尾・足枷の組み合わせはやや陳腐で、ファンタジーの類型から抜け出せていない印象。"
+      },
+      {
+        "voter": "かすが",
+        "like": "A",
+        "like_reason": "修道士という落ち着いた存在に、枝角や羽毛という自然の要素が合わさり、島の神聖な雰囲気を感じる。古びた仮面も祭りや伝承を思い起こさせて親しみやすい。",
+        "dislike": "B",
+        "dislike_reason": "狐と錆びた足枷の組み合わせが、閉じ込められた暗さを感じさせて少し気が重い。"
+      },
+      {
+        "voter": "Mei-Lin Kowalska",
+        "like": "C",
+        "like_reason": "フクロウの逆関節と大きな耳という異形の造形に、古い頭冠が重なって、ヨーロッパの古い民話的な威厳を感じる。仕立ての世界で培った美的感覚に響く。",
+        "dislike": "B",
+        "dislike_reason": "狐と細い瞳・長い尻尾は東洋的すぎて個人的に馴染みが薄く、錆びた足枷が不吉な印象を与える。"
+      },
+      {
+        "voter": "Wong Mei-Fong",
+        "like": "B",
+        "like_reason": "狐は中国の伝承でも馴染み深い存在で、細い瞳と長い尻尾は妖狐の姿そのもの。錆びた足枷には縛られた運命の哀愁があり、故郷の物語を思い出す。",
+        "dislike": "C",
+        "dislike_reason": "フクロウの逆関節という造形が不自然で不気味に感じられ、頭冠も文化的に遠い。"
+      },
+      {
+        "voter": "みずかみ ゆうき",
+        "like": "C",
+        "like_reason": "フクロウの逆関節・大きな耳という生物学的に興味深い設定が論理的に面白い。古い頭冠がそこに加わることで、知性と権威の象徴として完成度が高い。",
+        "dislike": "A",
+        "dislike_reason": "修道士＋枝角・羽毛は既視感のある組み合わせで、古びた仮面も含めて全体的に凡庸に感じる。"
+      },
+      {
+        "voter": "Vanida MacLeod",
+        "like": "B",
+        "like_reason": "狐の細い瞳と長い尻尾はシャープで動きのあるビジュアルを想像させる。錆びた足枷という制約を背負った存在に、自分の後遺症と重なるような共感を覚える。",
+        "dislike": "A",
+        "dislike_reason": "修道士という設定が宗教的すぎて距離を感じる。枝角・羽毛と古びた仮面も組み合わせとして散漫な印象。"
+      }
+    ],
+    "analysis": "[batch 1] AとBがそれぞれ2票のlikeを獲得し拮抗している。Aは文学的・民話的な重厚さを好む投票者（Torres、Werner）に支持され、Bは東アジア・海洋文化圏の象徴性に馴染む投票者（Kealoha、陳）に評価された。Cはlikeが1票（Benali）にとどまり、dislikeも1票で中間的な位置づけ。全体的に「文化的親しみやすさ」と「物語的深み」が投票の軸となっている。\n[batch 2] CとBがそれぞれ2票のlikeを獲得し拮抗している。Aは1票のlikeに留まり、dislikeも2票と不人気。BはlikeとdislikeがともにWong Mei-FongとVanida MacLeodの個人的な文化・感情的背景に左右された二極化した評価を受けている。CはMei-LinとみずかみのようにデザインとしてのユニークさやEuropean的な様式美を評価する層に支持された。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.9459101490553132,
+      "B": 2.1972245773362196,
+      "C": 1.9459101490553132
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}
