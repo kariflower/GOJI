@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-19T18:28:21Z",
+  "generated_at": "2026-03-20T05:54:19Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260320-105804-a762",
+      "path": "./session-20260320-105804-a762/assets/instructions/index.html",
+      "generated_at": "2026-03-20T05:54:13.573565Z",
+      "clip_count": 77,
+      "duration_sec": 167.99999999999994,
+      "section_count": 7,
+      "summary": "夜の台所。ポラロイドカメラが一枚ずつ、工程を撮り続けている。石橋の欄干で拾った乾燥した花びら、焚き火跡の灰を少量、白紙に書いては消した言葉の代わりに並べられた香辛料——材料は感情の残滓から選ばれている。画面の中央には、コートの背中だけが見える人物。顔は永遠に映らない。石臼で何かを砕く右手の動きが、音楽の拍に合わせてゆっくりと展開していく。蛇腹関節を持つ蝶が一羽、カウンターの端に静止している。翅は開かない。 工程が進むにつれ、ポラロイド…",
+      "song_file": "グラスチャイムの影.mp3"
+    },
     {
       "session_id": "session-20260319-235635-fbb4",
       "path": "./session-20260319-235635-fbb4/assets/instructions/index.html",
