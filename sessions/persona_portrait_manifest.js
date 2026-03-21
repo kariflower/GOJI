@@ -35,6 +35,7 @@ window.PERSONA_PORTRAIT_MANIFEST = Object.freeze([
   "./persona_pool_v2/portraits/persona-2d722189.png",
   "./persona_pool_v2/portraits/persona-2f93930e.png",
   "./persona_pool_v2/portraits/persona-30f1115a.png",
+  "./persona_pool_v2/portraits/persona-31f36291.png",
   "./persona_pool_v2/portraits/persona-3645b179.png",
   "./persona_pool_v2/portraits/persona-3949d465.png",
   "./persona_pool_v2/portraits/persona-3a362088.png",
@@ -79,6 +80,7 @@ window.PERSONA_PORTRAIT_MANIFEST = Object.freeze([
   "./persona_pool_v2/portraits/persona-775b4699.png",
   "./persona_pool_v2/portraits/persona-77f12e83.png",
   "./persona_pool_v2/portraits/persona-79967dbb.png",
+  "./persona_pool_v2/portraits/persona-7a64d2e1.png",
   "./persona_pool_v2/portraits/persona-7afe683b.png",
   "./persona_pool_v2/portraits/persona-7be8e48c.png",
   "./persona_pool_v2/portraits/persona-7e69bc5e.png",
@@ -154,6 +156,7 @@ window.PERSONA_PORTRAIT_MANIFEST = Object.freeze([
   "./persona_pool_v2/portraits/persona-f3934d3e.png",
   "./persona_pool_v2/portraits/persona-fafeaa10.png",
   "./persona_pool_v2/portraits/persona-fb9ac898.png",
+  "./persona_pool_v2/portraits/persona-fd704004.png",
   "./persona_pool_v2/portraits/persona-fe4337c4.png",
   "./persona_pool_v2/portraits/persona-fe879187.png",
 ]);

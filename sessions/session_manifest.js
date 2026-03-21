@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-20T17:53:14Z",
+  "generated_at": "2026-03-21T06:09:16Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260321-112701-c82a",
+      "path": "./session-20260321-112701-c82a/assets/instructions/index.html",
+      "generated_at": "2026-03-21T06:09:10.177405Z",
+      "clip_count": 72,
+      "duration_sec": 177.42,
+      "section_count": 9,
+      "summary": "台所は儀式場だ——そこに、煤けた肌と異様に長い指を持つ鴉が現れる。フライパン、まな板、石臼、すべての道具が楽器になり、鴉は演奏する。指がビートを刻むたびに眠れる食材が目を覚まし、自律的に形を整えながら音楽に溶け込む。カメラは万華鏡のように割れ、鴉の長い指が六方向に複製され、台所全体がひとつのバンドセッションになる。しかし——右手だけが映らない。石の首飾りが揺れるたびに「誰が調理を始めたのか」という問いがノイズのように画面を侵食し始める…",
+      "song_file": "Funky Gyoza Breakbeat.mp3"
+    },
     {
       "session_id": "session-20260321-000337-db54",
       "path": "./session-20260321-000337-db54/assets/instructions/index.html",
