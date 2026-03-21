@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-21T06:09:16Z",
+  "generated_at": "2026-03-21T18:25:22Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260321-233838-3056",
+      "path": "./session-20260321-233838-3056/assets/instructions/index.html",
+      "generated_at": "2026-03-21T18:25:16.554875Z",
+      "clip_count": 52,
+      "duration_sec": 138.07,
+      "section_count": 5,
+      "summary": "臨床白の録音スタジオ——蛍光灯が天井を均等に覆い、壁一面に防音材ではなく磁気タイルが張り巡らされた異質な空間。そこに5人のバンドメンバーが、白衣とも作業服ともつかない衣装を身にまとい、各自の機材の前に立っている。カメラは最初の9秒間、誰の顔も映さない——楽器だけを映す。歪んだシンセベースのペダルボード、錆びた手甲を嵌めたベーシストの指がフレットを押さえる一瞬だけ映り、次のカットで蒸気排気ダクトの断面図が壁に貼られているのが見える。誰か…",
+      "song_file": "絶体絶命ラスト・フレーム.mp3"
+    },
     {
       "session_id": "session-20260321-112701-c82a",
       "path": "./session-20260321-112701-c82a/assets/instructions/index.html",
