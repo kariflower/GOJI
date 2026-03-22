@@ -1,0 +1,450 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-4aebbcea",
+      "persona_id": "persona-b0d79042",
+      "content": {
+        "phase1_base": "道化師",
+        "phase2_condition": "六本腕・扁平頭",
+        "phase3_anchor": "砕けた鉄の仮面",
+        "subject_concept": "六本腕・扁平頭の道化師",
+        "subject_signature": "砕けた鉄の仮面",
+        "why_it_came": "教育の型への反発と解放という楽曲の核心が、「演じさせられた笑い」と「仮面の破壊」に直結した。六本腕は規格外の身体構造そのものであり、扁平頭は圧縮・矯正された頭蓋の視覚像として機能する。",
+        "who_should_watch": "学校や組織の「正しい型」に違和感を覚えながらも、まだその外に出られずにいる10代後半〜20代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "扁平に押しつぶされた頭部と六本の腕を持つ道化師。顔面には砕け割れた鉄の仮面の残骸が貼りついており、破断面から素顔の輪郭が露出している。",
+          "motion_profile": "六本の腕がそれぞれ異なる方向へ非同期に展開するとき、扁平頭が左右に大きく振れ、砕けた仮面の破片が遅れて揺れる。"
+        }
+      },
+      "created_at": "2026-03-22 13:16:19.386788",
+      "persona_name": "Arjun Mehta",
+      "persona_profile": {
+        "id": "persona-b0d79042",
+        "name": "Arjun Mehta",
+        "gender": "Xジェンダー",
+        "birthdate": "1981-03-20",
+        "origin_city": "カラチ",
+        "ethnic_background": "ミックス（複合的ルーツ）",
+        "life_history": [
+          {
+            "year": 1981,
+            "event": "カラチの港湾地区で、パキスタン人の父とゴア系インド人の母の間に生まれる。"
+          },
+          {
+            "year": 1995,
+            "event": "父の仕事の都合で家族全員がドバイに移住。現地のインターナショナルスクールに編入する。"
+          },
+          {
+            "year": 1999,
+            "event": "高校卒業後、カナダのトロント大学に進学。コンピューターサイエンスを専攻する。"
+          },
+          {
+            "year": 2003,
+            "event": "大学卒業後、シリコンバレーのスタートアップ企業にソフトウェアエンジニアとして就職。3年間勤務する。"
+          },
+          {
+            "year": 2008,
+            "event": "リーマンショックで勤務先が倒産。失業保険を受けながら6ヶ月間求職活動を行う。"
+          },
+          {
+            "year": 2009,
+            "event": "シアトルのIT企業に再就職。データベース管理部門に配属される。"
+          },
+          {
+            "year": 2015,
+            "event": "会社の配置転換でシンガポール支社に異動。現在まで同地で勤務を続ける。"
+          },
+          {
+            "year": 2019,
+            "event": "シンガポール人パートナーと同居を開始。HDBフラット（公営住宅）を共同で購入する。"
+          }
+        ],
+        "current_situation": "シンガポールのIT企業でシニアデータベースアドミニストレーターとして勤務している。週5日オフィス勤務で、年収は約12万シンガポールドル。パートナーと2人でクイーンズタウン地区のHDBフラットに居住。週末は近所のホーカーセンターで食事をするか、イーストコーストパークでサイクリングをしている。",
+        "external_perception": {
+          "first_impression": "物静かで礼儀正しい。アクセントが独特で出身地を特定しづらいと言われる。服装はカジュアルで性別が曖昧。",
+          "close_friends_view": "複数の文化を自然に行き来できる適応力がある。論理的で問題解決能力が高い。感情を表に出さないが、困ったときには必ず手を貸してくれる。",
+          "misunderstandings": "無表情で冷たい人だと思われることが多いが、実際には単に控えめなだけ。インド人かパキスタン人か尋ねられると答えに困る。"
+        },
+        "proposal_history": [
+          {
+            "session": "phase2a_slim_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "残像の中を疾走する朝──記憶と未来の交差点で君を探し続ける",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "失われた温もりを抱いて、加速する未来へ踏み出す瞬間の煌めき",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "lookatme_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "アイデンティティの証明書類が示す「誰か」と、鏡に映る「この顔」の間の不一致。どこにも完全に属さないことを、もう証明しなくていいと気づくまで。",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "lookatme_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: データセンターの夜勤エンジニア。指先にテープの糊跡が残り、ケーブルで切った傷が手の甲に何本も走っている。制服のポケットには使い古したUSBメモリと、もう誰も覚えていない障害対応の手順書 / 場所",
+            "rank": 4,
+            "tally": 9,
+            "won": false
+          },
+          {
+            "session": "20260118_043935",
+            "phase": "Phase 1",
+            "my_proposal_summary": "生存確認の信号を送り続けることでしか存在できない関係の話",
+            "rank": 3,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "20260118_043935",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 23,
+            "won": true
+          }
+        ],
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-b0d79042.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-15cad4d7",
+      "persona_id": "persona-b67e7fe9",
+      "content": {
+        "phase1_base": "カメレオン",
+        "phase2_condition": "背ビレ・縦裂けの口",
+        "phase3_anchor": "首輪",
+        "subject_concept": "背ビレと縦裂けの口を持つカメレオン",
+        "subject_signature": "首輪",
+        "why_it_came": "教育の型への反抗という楽曲の核に、「本来の姿を隠し続けてきた生き物」としてカメレオンが浮かんだ。背ビレと縦裂けの口は隠しようのない異形であり、首輪はその抑圧の証として画面に刻まれる。",
+        "who_should_watch": "学校や職場で「普通でいること」を強いられ、自分の奇妙さを押し込めてきた10代後半から20代の視聴者。",
+        "character_profile": {
+          "appearance_profile": "頭頂から背中にかけて不規則な背ビレが並び、閉じると一本の縦線に見える裂けた口を持つカメレオン。首元には金属製の首輪がはまっており、皮膚の質感と異質な対比を作っている。",
+          "motion_profile": "動くたびに背ビレが波打ち、縦裂けの口が開閉するたびに視線が首輪へと引き戻される。"
+        }
+      },
+      "created_at": "2026-03-22 13:16:32.342905",
+      "persona_name": "かすが",
+      "persona_profile": {
+        "id": "persona-b67e7fe9",
+        "name": "かすが",
+        "gender": "女性",
+        "birthdate": "1968-06-08",
+        "life_history": [
+          {
+            "year": 1986,
+            "event": "離島の高校を卒業後、進学も就職もせず、家業の民宿を手伝いながら島で暮らし続けることを決めた。同級生のほとんどが島を出る中、自分だけが残った。"
+          },
+          {
+            "year": 1995,
+            "event": "両親が営んでいた民宿を引き継ぐ形で経営を任されるようになった。観光客との会話を通じて、島の外の世界を少しずつ知るようになった。"
+          },
+          {
+            "year": 2003,
+            "event": "台風で民宿が大きな被害を受け、修繕に数ヶ月を要した。島民たちが自然に集まって手伝ってくれた。"
+          },
+          {
+            "year": 2011,
+            "event": "長年飼っていた犬が老衰で亡くなり、初めて深い喪失感を経験した。それ以来、新しいペットは飼わないと決めた。"
+          },
+          {
+            "year": 2018,
+            "event": "民宿の常連客の一人に「この島に来ると落ち着く、あなたのおかげだ」と言われ、自分の存在意義を初めて言葉で確認できた。"
+          }
+        ],
+        "current_situation": "長崎県の小さな離島で生まれ育ち、高校卒業後も島を離れることなく両親の民宿を継いだ。現在も一人で小規模な民宿を営んでおり、季節ごとに訪れる少数の常連客を大切にしている。朝は早く起きて掃除をし、昼間は島の商店で買い物をしたり近所の人と立ち話をしたりして過ごす。夜はテレビを見ながら編み物をすることが多い。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ、どこか掴みどころのない雰囲気の人",
+          "close_friends_view": "誠実で頼りになる、聞き上手で決して人を否定しない温かい存在",
+          "misunderstandings": "無口で冷たい人だと思われがちだが、実際は人見知りなだけで心は優しい"
+        },
+        "like_history": [
+          {
+            "session": "disgust_wall_v4",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "夜明けも夕暮れも区別がつかなくなった部屋で、画面の光だけが時間を区切る中、他者との距離を測り続ける者",
+            "like_count": 3,
+            "like_reasons": [
+              "島での経験を語る視点に共感した。距離を保つ優しさ、確かにある",
+              "島で生きてきた人の言葉、重みがある。画面越しの温もり、わかる",
+              "自分の経験を素直に語ってる。嘘がない感じがする"
+            ]
+          },
+          {
+            "session": "disgust_wall_v4",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 3,
+            "like_reasons": [
+              "境界線上で揺れてるっていう表現が面白い",
+              "中途半端な人間っていう自己認識が、正直で好感持てる",
+              "どちらにも属せず揺れているって状態、興味深い視点"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "disgust_wall_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "夜明けも夕暮れも区別がつかなくなった部屋で、画面の光だけが時間を区切る中、他者との距離を測り続ける者の静かな記録",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "disgust_wall_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 3,
+            "won": true
+          },
+          {
+            "session": "lookatme_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "時間が変えたのは見え方だけで、本質は最初からそこにあった。成長も変化もなく、ただ時が経過した場所の記録。",
+            "rank": 2,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "phase2_ref_final_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "他者の認識によってのみ輪郭を得る存在が、呼ばれ続けることで保たれている瞬間",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "phase2_ref_final_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          }
+        ],
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-b67e7fe9.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-6df76f55",
+      "persona_id": "persona-f62d556d",
+      "content": {
+        "phase1_base": "兎",
+        "phase2_condition": "球体関節・逆関節",
+        "phase3_anchor": "足枷",
+        "subject_concept": "球体関節と逆関節を持つ兎",
+        "subject_signature": "足枷",
+        "why_it_came": "「型を壊す跳躍」という楽曲の核を、もともと跳ぶ生き物に関節構造の異常として刻み込むことで、視覚だけで矛盾と解放の両方を担わせた。足枷が跳躍衝動を封じている状態から、初見者は「次に何かが起きる」という緊張を自然に読み取る。",
+        "who_should_watch": "学校や職場の「正しい動き方」に息苦しさを感じながら、それでも飛び出せずにいる10代後半から20代前半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "胴体と四肢の接続部が球体関節で構成され、後脚は膝が前方に折れる逆関節構造を持つ兎の体型。両後脚の足首に鉄製の足枷が嵌まっており、鎖が床を引きずる。",
+          "motion_profile": "逆関節の後脚が着地するたびに球体関節が独立して回転し、足枷の鎖が遅れて弧を描くように跳ね上がる。"
+        }
+      },
+      "created_at": "2026-03-22 13:16:51.163040",
+      "persona_name": "Catalina van der Meer",
+      "persona_profile": {
+        "id": "persona-f62d556d",
+        "name": "Catalina van der Meer",
+        "gender": "女性",
+        "birthdate": "1560-05-27",
+        "age": 61,
+        "origin_city": "ニューヨーク",
+        "ethnic_background": "ミックス（複合的ルーツ）",
+        "life_history": [
+          {
+            "year": 1560,
+            "event": "ニューアムステルダム（後のニューヨーク）の港湾地区で、オランダ人商人の父とレナペ族の母の間に生まれる。"
+          },
+          {
+            "year": 1573,
+            "event": "父の交易船が嵐で沈没。母方の親族の集落に移り住み、狩猟と薬草採取の技術を学ぶ。"
+          },
+          {
+            "year": 1582,
+            "event": "港に戻り、オランダ東インド会社の倉庫で通訳兼記録係として働き始める。"
+          },
+          {
+            "year": 1589,
+            "event": "スウェーデン系入植者の船大工と結婚。翌年娘が生まれるが、3年後に夫が作業中の事故で死亡。"
+          },
+          {
+            "year": 1598,
+            "event": "娘が疫病で死去。その後、港湾地区の共同住宅の管理人となり、様々な出身地の入植者の仲介役を務める。"
+          },
+          {
+            "year": 1607,
+            "event": "英国船の到着に伴う領土紛争の調停に関わる。両言語を話せる立場を利用し、物資の分配記録を担当。"
+          },
+          {
+            "year": 1615,
+            "event": "港の拡張工事に伴い、倉庫街の区画整理計画の文書作成を任される。入植者台帳の整備も開始。"
+          },
+          {
+            "year": 1621,
+            "event": "現在は港湾管理局の古文書保管庫で、過去の取引記録や入植者名簿の分類整理を続けている。"
+          }
+        ],
+        "current_situation": "ニューアムステルダムの港湾管理局が所有する石造りの保管庫に住み込みで働いている。日中は古い交易記録や契約書を分類し、必要に応じて役人や商人に閲覧させる業務を行う。夕方は近隣の市場で干し魚と穀物を買い、一人で質素な食事を取る。週に一度、母方の言葉を話す行商人たちと物々交換をする際に言葉を交わす程度で、それ以外はほとんど人と関わらない。",
+        "external_perception": {
+          "first_impression": "無表情で事務的。質問には正確に答えるが、それ以上の会話を続ける様子がない。",
+          "close_friends_view": "信頼できる記録係だが、自分の過去については驚くほど淡々としている。まるで他人の話をするように語る。",
+          "misunderstandings": "冷たい人間だと思われがちだが、実際には頼まれた仕事は丁寧にこなし、約束は必ず守る。"
+        },
+        "stance_on_past": "他人事のように距離を置いて見ている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-f62d556d.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-4aebbcea",
+      "B": "sl2a-15cad4d7",
+      "C": "sl2a-6df76f55"
+    },
+    "tally": {
+      "A": 8,
+      "B": 6,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "votes": [
+      {
+        "voter": "Alex Reyes",
+        "like": "C",
+        "like_reason": "球体関節・逆関節という機械的な構造が面白くて、ロボット工学的な発想に近い。足枷というアクセサリーも自由と束縛のコントラストが格好いい。",
+        "dislike": "A",
+        "dislike_reason": "六本腕は派手だけど、道化師ってちょっとクリーピーで苦手。砕けた鉄の仮面もホラー感が強すぎる。"
+      },
+      {
+        "voter": "Zuberi di Milano",
+        "like": "A",
+        "like_reason": "鉄の仮面は我が時代の騎士や処刑人を思わせる。砕けた仮面に権威の失墜を見る。道化師もカール大帝の宮廷に実在した。",
+        "dislike": "B",
+        "dislike_reason": "首輪は奴隷の印であり、それを「装飾」のように扱う提案には嫌悪感を覚える。カメレオンという概念も我が世界では馴染みが薄い。"
+      },
+      {
+        "voter": "三浦 ダニエル",
+        "like": "B",
+        "like_reason": "カメレオンに背ビレと縦裂けの口という組み合わせが独特で印象に残る。首輪というシンプルなアンカーが逆に想像を広げてくれそう。",
+        "dislike": "C",
+        "dislike_reason": "兎に逆関節・球体関節はよく見るデザインの組み合わせで、既視感がある。足枷も使い古されたイメージ。"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "A",
+        "like_reason": "道化師は広場で見てきた芸人たちを思い出させる。砕けた鉄の仮面は語り草になる物語の匂いがする。民衆に語り聞かせる話の素材になりそうだ。",
+        "dislike": "C",
+        "dislike_reason": "兎に逆関節というのは不自然すぎて気持ち悪い。足枷も哀れすぎて見ていて楽しくない。"
+      },
+      {
+        "voter": "たかはし けんじ",
+        "like": "B",
+        "like_reason": "カメレオンは変化・適応・仮面性のメタファーとして機能する。コンサルの仕事柄「文脈に溶け込む生き物」に親近感があり、首輪という支配の象徴との対比が深い。",
+        "dislike": "A",
+        "dislike_reason": "道化師×仮面の組み合わせはコンセプトとして手垢がついていて、新鮮さを感じない。過労で壊れた時期を経た身としては「道化を演じさせられる」テーマは重すぎて見たくない。"
+      },
+      {
+        "voter": "ちづる",
+        "like": "C",
+        "like_reason": "球体関節・逆関節と足枷の組み合わせに、長年の看護現場で見てきた「身体の拘束と解放」への複雑な感情が重なる。静かに痛みを抱えた存在として共鳴できる。",
+        "dislike": "A",
+        "dislike_reason": "道化師×六本腕×砕けた鉄の仮面は記号的すぎて、感情が乗りにくい。派手さが先行して内面が見えない。"
+      },
+      {
+        "voter": "みずた りこ",
+        "like": "B",
+        "like_reason": "カメレオンに背ビレと縦裂けの口、首輪という組み合わせが生き物として一番想像しやすい。青果売り場で変色野菜を見慣れているせいか、変化する生き物に親しみを感じる。",
+        "dislike": "A",
+        "dislike_reason": "道化師という設定が少し怖くて苦手。仮面が砕けているのも不穏で、仕事帰りに見たいとは思えない。"
+      },
+      {
+        "voter": "Vanida MacLeod",
+        "like": "C",
+        "like_reason": "Rabbit with ball-and-socket joints, inverted knees, and shackles — the image of something constrained yet fundamentally gentle resonates with the physical limitation I live with. There's quiet dignity in the design.",
+        "dislike": "B",
+        "dislike_reason": "A chameleon with a vertically split mouth feels visually unsettling in a way that reads as gratuitous rather than meaningful. The collar adds a sense of cruelty without clear emotional purpose."
+      },
+      {
+        "voter": "さやか",
+        "like": "A",
+        "like_reason": "道化師に六本腕と砕けた鉄の仮面という組み合わせは、東京に出てきてから感じる「演じている自分」への違和感とリンクする。鮮烈で見応えがありそう。",
+        "dislike": "B",
+        "dislike_reason": "縦裂けの口という造形がどうしても食欲を削ぐ感じがある。スーパー銭湯でリラックスしたい週末の気分とは相容れない。"
+      },
+      {
+        "voter": "Nadia Sovannary Phnom",
+        "like": "A",
+        "like_reason": "The jester archetype with fragmented iron mask speaks to the performance of competence and the concealed self — something I navigate daily in client-facing consulting work. Intellectually compelling.",
+        "dislike": "C",
+        "dislike_reason": "Rabbit with inverted joints and shackles leans too heavily on vulnerability as aesthetic. It risks sentimentality over substance, which I find less rigorous as a visual concept."
+      }
+    ],
+    "analysis": "[batch 1] AとBが各2票のlikeを獲得し、Cは1票にとどまった。Aは歴史的・物語的文脈に共鳴するペルソナ（ZuberiとKwesi）が支持し、Bはデジタル・コンセプチュアルな感性を持つペルソナ（三浦・たかはし）が評価した。CはAlexのロボット工学的視点から支持されたが、dislikeも2票（Kwesi・三浦）を集めており、ビジュアルの既視感と不快感が足を引っ張った。AはAlexとたかはしからdislikeを受けており、好悪が割れるポラライズ型の提案といえる。\n[batch 2] CとAが2票ずつlikeを集め拮抗している。Cは身体的制約や静かな痛みに共鳴する投票者（ちづる・Vanida）に支持され、Aは自己演技・社会的仮面のテーマに引き付けられた投票者（さやか・Nadia）に選ばれた。Bはりこの1票のみで、dislikeも2票獲得しており、縦裂けの口という造形要素が嫌悪感を引き起こしやすいことが示された。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 2.1972245773362196,
+      "B": 1.9459101490553132,
+      "C": 1.9459101490553132
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

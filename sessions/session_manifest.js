@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-22T05:03:03Z",
+  "generated_at": "2026-03-22T17:24:38Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260322-165429-3acb",
+      "path": "./session-20260322-165429-3acb/assets/instructions/index.html",
+      "generated_at": "2026-03-22T17:24:32.022582Z",
+      "clip_count": 75,
+      "duration_sec": 213.6,
+      "section_count": 8,
+      "summary": "深夜の台所。換気扇カバーだけが光る流し台の前に、六本腕の道化師が立っている。砕けた鉄仮面の破断面から覗く素顔は、まだ14歳のままだ。石畳の下を流れる感情水路が今夜も脈打っているが、この台所だけは接続が切れている。道化師は六本の腕で六種類の衣装を同時に纏い、スマホのインカメラに映る自分を眺める——カーニバルのように派手で、ランウェイのように真剣に、誰にも見せたことのない顔で。仮面の破片がひとつ床に落ちるたびに、石畳の目地が一筋だけ白く乾…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260322-102026-26e3",
       "path": "./session-20260322-102026-26e3/assets/instructions/index.html",
