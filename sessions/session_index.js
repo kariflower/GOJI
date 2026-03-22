@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-21T18:25:22Z",
+  "generated_at": "2026-03-22T05:03:03Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260322-102026-26e3",
+      "path": "./session-20260322-102026-26e3/assets/instructions/index.html",
+      "generated_at": "2026-03-22T05:02:57.273718Z",
+      "clip_count": 60,
+      "duration_sec": 166.43999999999997,
+      "section_count": 11,
+      "summary": "霧の幽霊キャラバンが磁気レールを走る。先頭荷車の縁に、エプロン姿の少女が横座りで両足をぶら下げている。背景はコンクリートの巨大な柱列——廃棄された記憶市場の外壁だ。幾何学的な壁面を青白い火花が走るたびに、少女の輪郭だけが露光しすぎた写真のように白く飛ぶ。彼女は爪の泥を掌で拭いながら、口角だけを上げている。周囲の幽霊たちは彼女を避けて進路を開けているが、彼女は一度も周りを見ない。これが「荷台の端の指定席」——価格のついていない者だけが座…",
+      "song_file": "Haunted Caravan.mp3"
+    },
     {
       "session_id": "session-20260321-233838-3056",
       "path": "./session-20260321-233838-3056/assets/instructions/index.html",
