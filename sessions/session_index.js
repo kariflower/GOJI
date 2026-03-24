@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-22T17:24:38Z",
+  "generated_at": "2026-03-24T03:33:35Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260324-012205-fdbb",
+      "path": "./session-20260324-012205-fdbb/assets/instructions/index.html",
+      "generated_at": "2026-03-24T03:33:28.531050Z",
+      "clip_count": 48,
+      "duration_sec": 158.44000000000005,
+      "section_count": 11,
+      "summary": "ハロウィンの夜、古い木造家屋の玄関ホールで、70代の家主が古いラジオを抱えたマネキンと無言の対峙をしている。ドアスコープが琥珀色に発光し、家主が片目を押し当てるたびに外の光景は別の時間線を映し出す——けれどマネキンはもうドアの外ではなく、ホールの内側に立っている。カーニバルの喧騒が壁越しに染み込み、家主のカーディガンの模様が一柄ずつ消えていく。どちらが先に動くかを、互いが測っている。 マネキンの多関節腕が一拍遅れて揺れるたびに、古いラ…",
+      "song_file": "Trick or Treat Tonight.mp3"
+    },
     {
       "session_id": "session-20260322-165429-3acb",
       "path": "./session-20260322-165429-3acb/assets/instructions/index.html",
