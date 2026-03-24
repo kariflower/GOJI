@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-24T03:33:35Z",
+  "generated_at": "2026-03-24T20:18:55Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260325-005530-f35d",
+      "path": "./session-20260325-005530-f35d/assets/instructions/index.html",
+      "generated_at": "2026-03-24T20:18:47.553414Z",
+      "clip_count": 96,
+      "duration_sec": 196.31999999999994,
+      "section_count": 7,
+      "summary": "氷原都市の夜。菌糸ネットワークから切り離された「無声者」の花嫁が、発光する菌糸の絡みついたスチール棚の並ぶ分類架の間を歩いている。白いチュチュの裾が棚の角に触れるたびに花びらが一枚落ち、頭部の後光がネオンのグリッドに溶け込んで紫とピンクのグラデーションに染まる。彼女の口は絶え間なく動いているが、音は出ない——接続を切られた者に声はない。棚の薬瓶を整頓しながら、彼女は唇だけで誰かへの言葉を繰り返している。それは返事の練習か、それとも百万…",
+      "song_file": "届くかどうかわからなくても.mp3"
+    },
     {
       "session_id": "session-20260324-012205-fdbb",
       "path": "./session-20260324-012205-fdbb/assets/instructions/index.html",
