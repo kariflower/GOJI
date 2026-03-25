@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-25T15:45:19Z",
+  "generated_at": "2026-03-25T19:58:32Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260326-012717-dcfa",
+      "path": "./session-20260326-012717-dcfa/assets/instructions/index.html",
+      "generated_at": "2026-03-25T19:58:25.893846Z",
+      "clip_count": 88,
+      "duration_sec": 265.4999999999999,
+      "section_count": 7,
+      "summary": "ネオンの光が雨濡れたアスファルトに滲む深夜の路地——そこに、エイの骨格を持つ霊体の女が浮かんでいる。彼女の輪郭は琥珀色の光を受けて一瞬だけ不透明になり、すぐに溶ける。MVは「崩壊の標本展示」として構成される。グリッド状に並べられた短い場面が次々と切り替わる——台所で卵の黄身が台に広がる瞬間、化粧水のボトルの底に映る歪んだ顔、石造りの室の窓に張り付く雲海の白、炉の炎が橙から青に変わる0.3秒。それぞれの断片は理由なく並列し、しかし全体と…",
+      "song_file": "オブラーテッド.mp3"
+    },
     {
       "session_id": "session-20260325-191351-c272",
       "path": "./session-20260325-191351-c272/assets/instructions/index.html",

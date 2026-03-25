@@ -147,6 +147,7 @@ window.PERSONA_PORTRAIT_MANIFEST = Object.freeze([
   "./persona_pool_v2/portraits/persona-d2e63ce4.png",
   "./persona_pool_v2/portraits/persona-d330a2c5.png",
   "./persona_pool_v2/portraits/persona-d3a938e6.png",
+  "./persona_pool_v2/portraits/persona-d5aeaf1e.png",
   "./persona_pool_v2/portraits/persona-db4a0654.png",
   "./persona_pool_v2/portraits/persona-dbb964e7.png",
   "./persona_pool_v2/portraits/persona-dc607296.png",
