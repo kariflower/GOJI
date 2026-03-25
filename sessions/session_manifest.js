@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-24T20:18:55Z",
+  "generated_at": "2026-03-25T06:51:15Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260325-120604-75c5",
+      "path": "./session-20260325-120604-75c5/assets/instructions/index.html",
+      "generated_at": "2026-03-25T06:51:08.508986Z",
+      "clip_count": 82,
+      "duration_sec": 196.35,
+      "section_count": 7,
+      "summary": "西暦6172年、廃墟の樹上集落。朝霧の中、白いウェディングドレスを着た縦裂けの口の女が、錆びた自転車を押しながらシャッター街のアーケードを早足で歩いている。誰もいない。彼女が口を開くたびに、縦裂けの中から白い胞子が噴き出し、菌糸ネットワークに信号が走って廃墟の鉄骨が薄く光る。返信は来ない。でも彼女は笑っている。 送信ボタンを押し続ける女の物語だ。深夜に送ったメッセージが既読にもならない。朝になって彼女は普通にドレスを着て自転車を押し、…",
+      "song_file": "届くかどうかわからなくても.mp3"
+    },
     {
       "session_id": "session-20260325-005530-f35d",
       "path": "./session-20260325-005530-f35d/assets/instructions/index.html",
