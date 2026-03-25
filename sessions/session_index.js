@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-25T06:51:15Z",
+  "generated_at": "2026-03-25T15:45:19Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260325-191351-c272",
+      "path": "./session-20260325-191351-c272/assets/instructions/index.html",
+      "generated_at": "2026-03-25T15:45:12.400305Z",
+      "clip_count": 74,
+      "duration_sec": 196.34,
+      "section_count": 7,
+      "summary": "大聖堂の廃骸を改築した「送信局」に、木製関節の人形——額から螺旋角を二本生やし、その頂に精巧な角の冠を戴いた存在——が深夜、設計図を広げている。建物の壁は音波を可視化する素材でできており、人形が発する言葉はステンドグラス越しの光紋様として石面を走る。今夜の作戦は単純だ: 雲海の下へ向けて、今まで一度も送りきれなかった声をすべて放出する。人形は五つの「送信ポイント」を地図に印し、培養槽の回転軌跡を時計代わりに、照準を合わせ始める——準備…",
+      "song_file": "届くかどうかわからなくても.mp3"
+    },
     {
       "session_id": "session-20260325-120604-75c5",
       "path": "./session-20260325-120604-75c5/assets/instructions/index.html",
