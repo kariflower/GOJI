@@ -6,6 +6,7 @@ on:
     paths:
       - "sessions/**"
       - "assets/**"
+      - "docs/**"
       - "session_index.js"
       - "session_manifest.js"
       - "entry*.html"
@@ -55,6 +56,8 @@ jobs:
           for d in assets static public; do
             [ -d "$d" ] && cp -R "$d" _site/
           done
+
+          [ -d docs ] && cp -R docs _site/
 
           [ -f session_index.js ] && cp session_index.js _site/
           [ -f session_manifest.js ] && cp session_manifest.js _site/
