@@ -80,7 +80,8 @@
     const p = String(phase || "").trim() || "all";
     const navLinks = document.querySelectorAll(".nav a[href]");
     navLinks.forEach((a) => {
-      const href = a.getAttribute("href") || "";
+      if (!a.dataset.baseHref) a.dataset.baseHref = a.getAttribute("href") || "";
+      const href = a.dataset.baseHref || "";
       if (!a.dataset.baseText) a.dataset.baseText = a.textContent || "";
       const baseText = a.dataset.baseText;
       a.setAttribute("href", withPhaseOnHref(href, p));
@@ -96,7 +97,8 @@
     const p = String(phase || "").trim() || "all";
     const nodes = document.querySelectorAll(`${selector} a[href]`);
     nodes.forEach((a) => {
-      const href = a.getAttribute("href") || "";
+      if (!a.dataset.baseHref) a.dataset.baseHref = a.getAttribute("href") || "";
+      const href = a.dataset.baseHref || "";
       a.setAttribute("href", withPhaseOnHref(href, p));
     });
   }
