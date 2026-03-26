@@ -226,12 +226,18 @@
       const key = pid || `name:${pname}`;
       if (!by.has(key)) {
         const profile = profileMap.get(pid) || null;
-        by.set(key, { key, persona_id: pid, persona_name: pname, proposals: 0, wins: 0, phases: new Set(), profile });
+        by.set(key, { key, persona_id: pid, persona_name: pname, proposals: 0, wins: 0, phases: new Set(), rows: {}, profile });
       }
       const r = by.get(key);
       r.proposals += 1;
       r.wins += Number(e.winner || 0) ? 1 : 0;
       r.phases.add(e.phase);
+      const ph = String(e.phase || "");
+      if (ph) {
+        if (!r.rows[ph]) r.rows[ph] = { proposals: 0, wins: 0 };
+        r.rows[ph].proposals += 1;
+        r.rows[ph].wins += Number(e.winner || 0) ? 1 : 0;
+      }
       if (!r.profile && pid && profileMap.has(pid)) r.profile = profileMap.get(pid);
       if (!eventsByKey.has(key)) eventsByKey.set(key, []);
       eventsByKey.get(key).push(e);
