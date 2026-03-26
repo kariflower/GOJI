@@ -17,6 +17,7 @@
           <li><a href="./dashboard.html">Hub</a></li>
           <li><a href="./dashboard_brief.html">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
           <li><a href="./dashboard_voting.html">Voting</a></li>
           <li><a href="./dashboard_personas.html" class="active">Personas</a></li>
         </ul>
@@ -45,6 +46,14 @@
       <div class="field">
         <label>PERSONA SEARCH</label>
         <input id="personaSearch" type="text" placeholder="名前 / 出身 / 履歴 / IDで検索" />
+      </div>
+      <div class="field">
+        <label>SORT</label>
+        <select id="personaSort">
+          <option value="wins">wins_total</option>
+          <option value="phase_fit">phase_fit</option>
+          <option value="adoption">adoption_rate</option>
+        </select>
       </div>
     </form>
   </div>
@@ -75,8 +84,18 @@
             </div>
           </details>
         </div>
+        <div class="panel-subtle compare-table-wrap" id="personaComparePanel" style="margin-top:10px;"></div>
       </div>
     </div>
+  </div>
+
+  <div class="panel section-id" id="persona-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_voting.html#vote-proposals"><strong>Voting</strong><div class="small">この人物の投票理由と提案理由を比較する</div></a></li>
+      <li><a href="./dashboard_overview.html#sec-matrix"><strong>Analysis</strong><div class="small">全体の偏りと探索余地を確認する</div></a></li>
+      <li><a href="./dashboard_brief.html#brief-summary"><strong>Brief</strong><div class="small">意思決定サマリーへ戻る</div></a></li>
+    </ul>
   </div>
 </div>
 
@@ -84,7 +103,7 @@
 <script src="./dashboard_shared.js"></script>
 <script>
 (async function () {
-  const { loadDashboardData, num, esc, pct, phaseLabel, topTokens, extractReasonElements, renderTokenList, buildPortraitImgTag, wirePortraitFallback, trackUXEvent } = DashboardShared;
+  const { loadDashboardData, num, esc, pct, phaseLabel, topTokens, extractReasonElements, renderTokenList, buildPortraitImgTag, wirePortraitFallback, trackUXEvent, getPhaseFromQuery, setPhaseQuery, syncNavPhase, syncPhaseLinks, enableTableSort } = DashboardShared;
   let data;
   try {
     data = await loadDashboardData();
@@ -96,6 +115,7 @@
   const phaseFilter = document.getElementById("phaseFilter");
   const personaSearchInput = document.getElementById("personaSearch");
   const personaMinWinsInput = document.getElementById("personaMinWins");
+  const personaSortSelect = document.getElementById("personaSort");
   const personaTabsEl = document.getElementById("personaTabs");
   const personaProfileEl = document.getElementById("personaProfile");
   const personaSnapshotEl = document.getElementById("personaSnapshot");
@@ -103,8 +123,10 @@
   const personaProposalTableEl = document.getElementById("personaProposalTable");
   const personaCoreMetricsTableEl = document.getElementById("personaCoreMetricsTable");
   const personaDeepMetricsTableEl = document.getElementById("personaDeepMetricsTable");
+  const personaComparePanelEl = document.getElementById("personaComparePanel");
   const UX_STATE_KEY = "goji_dashboard_persona_state_v1";
   let selectedPersonaKey = "";
+  let compareKeys = [];
 
   function loadState() {
     try {
@@ -114,8 +136,12 @@
       if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
       if (Number.isFinite(Number(s.minWins))) personaMinWinsInput.value = String(Math.max(0, Number(s.minWins)));
       if (typeof s.search === "string") personaSearchInput.value = s.search;
+      if (s.sort && Array.from(personaSortSelect.options).some((o) => o.value === s.sort)) personaSortSelect.value = s.sort;
       if (typeof s.selectedKey === "string") selectedPersonaKey = s.selectedKey;
+      if (Array.isArray(s.compareKeys)) compareKeys = s.compareKeys.map((x) => String(x || "")).filter(Boolean).slice(0, 3);
     } catch (e) {}
+    const qPhase = getPhaseFromQuery("");
+    if (qPhase && Array.from(phaseFilter.options).some((o) => o.value === qPhase)) phaseFilter.value = qPhase;
   }
 
   function saveState() {
@@ -126,7 +152,9 @@
           phase: phaseFilter.value,
           minWins: Number(personaMinWinsInput.value || 0),
           search: String(personaSearchInput.value || ""),
+          sort: personaSortSelect.value,
           selectedKey: selectedPersonaKey,
+          compareKeys: compareKeys.slice(0, 3),
         })
       );
     } catch (e) {}
@@ -181,6 +209,10 @@
     }
 
     const phase = phaseFilter.value;
+    setPhaseQuery(phase);
+    syncNavPhase(phase);
+    syncPhaseLinks(".next-links", phase);
+    const phaseOrder = ["phase1", "phase2a", "phase3", "phase4a", "phase4s"];
     const q = String(personaSearchInput.value || "").trim().toLowerCase();
     const minWins = Math.max(0, Number(personaMinWinsInput.value || 0));
     const evs = (data.proposal_events || []).filter((r) => phase === "all" || r.phase === phase);
@@ -206,6 +238,8 @@
     });
 
     const allItems = Array.from(by.values());
+    const allByKey = new Map(allItems.map((x) => [x.key, x]));
+    compareKeys = compareKeys.filter((k) => allByKey.has(k)).slice(0, 3);
     const adRowsAllGlobal = ((data.adoption_confidence || {}).per_persona_phase || []);
     const btOverallRowsGlobal = (data.bradley_terry && data.bradley_terry.overall) ? data.bradley_terry.overall : [];
     const tsOverallRowsGlobal = (data.trueskill && data.trueskill.overall) ? data.trueskill.overall : [];
@@ -298,7 +332,25 @@
         return hay.includes(q);
       });
     }
-    items.sort((a, b) => (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name));
+    items.sort((a, b) => {
+      const mode = personaSortSelect.value;
+      if (mode === "adoption") {
+        const ar = a.proposals > 0 ? a.wins / a.proposals : 0;
+        const br = b.proposals > 0 ? b.wins / b.proposals : 0;
+        return (br - ar) || (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name);
+      }
+      if (mode === "phase_fit") {
+        const phaseKey = phase === "all" ? "phase3" : phase;
+        const ar = a.rows[phaseKey] && Number(a.rows[phaseKey].proposals || 0) > 0
+          ? Number(a.rows[phaseKey].wins || 0) / Number(a.rows[phaseKey].proposals || 0)
+          : 0;
+        const br = b.rows[phaseKey] && Number(b.rows[phaseKey].proposals || 0) > 0
+          ? Number(b.rows[phaseKey].wins || 0) / Number(b.rows[phaseKey].proposals || 0)
+          : 0;
+        return (br - ar) || (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name);
+      }
+      return (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name);
+    });
 
     if (!selectedPersonaKey || !items.some((x) => x.key === selectedPersonaKey)) {
       selectedPersonaKey = items[0]?.key || "";
@@ -307,7 +359,15 @@
     personaTabsEl.innerHTML = items
       .map((x) => {
         const adoption = x.proposals > 0 ? x.wins / x.proposals : 0;
-        return `<li class="persona-tab-item"><button type="button" class="persona-tab ${x.key === selectedPersonaKey ? "active" : ""}" data-key="${esc(x.key)}"><div>${esc(x.persona_name)}</div><div class="sub">wins ${num(x.wins)} / proposals ${num(x.proposals)} / adoption ${pct(adoption)}${x.persona_id ? ` / ${esc(x.persona_id)}` : ""}</div></button></li>`;
+        const inCompare = compareKeys.includes(x.key);
+        const compareTag = inCompare ? ' / compare' : '';
+        const spark = phaseOrder.map((ph) => {
+          const rr = x.rows[ph];
+          const rate = rr && Number(rr.proposals || 0) > 0 ? Number(rr.wins || 0) / Number(rr.proposals || 0) : 0;
+          const alpha = 0.14 + Math.min(0.82, Math.max(0, rate) * 0.86);
+          return `<span class="spark-dot" title="${esc(phaseLabel(ph))}: ${pct(rate)}" style="background: rgba(117,233,255,${alpha.toFixed(3)});"></span>`;
+        }).join("");
+        return `<li class="persona-tab-item"><button type="button" class="persona-tab ${x.key === selectedPersonaKey ? "active" : ""}" data-key="${esc(x.key)}"><div>${esc(x.persona_name)}</div><div class="sub">wins ${num(x.wins)} / proposals ${num(x.proposals)} / adoption ${pct(adoption)}${compareTag}${x.persona_id ? ` / ${esc(x.persona_id)}` : ""}</div><div class="sparkline-dots" aria-hidden="true">${spark}</div></button></li>`;
       })
       .join("");
     personaTabsEl.querySelectorAll(".persona-tab").forEach((el) => {
@@ -327,6 +387,7 @@
       personaProposalTableEl.innerHTML = "";
       personaCoreMetricsTableEl.innerHTML = "";
       personaDeepMetricsTableEl.innerHTML = "";
+      personaComparePanelEl.innerHTML = '<div class="small">比較対象なし</div>';
       return;
     }
 
@@ -531,6 +592,7 @@
         <button type="button" id="personaJumpProposals">提案履歴へ</button>
         <button type="button" id="personaOpenCore">A指標を開く</button>
         <button type="button" id="personaOpenDeep">B指標を開く</button>
+        <button type="button" id="personaToggleCompare">${compareKeys.includes(picked.key) ? "比較から外す" : "比較に追加"}</button>
       </div>
       <ul class="priority-list">
         <li>1. このペルソナの最新提案を先に確認（下の Proposal table）</li>
@@ -547,6 +609,7 @@
     const jumpBtn = document.getElementById("personaJumpProposals");
     const openCoreBtn = document.getElementById("personaOpenCore");
     const openDeepBtn = document.getElementById("personaOpenDeep");
+    const toggleCompareBtn = document.getElementById("personaToggleCompare");
     const details = Array.from(document.querySelectorAll("#persona-explorer details.fold"));
     const coreFold = details[0];
     const deepFold = details[1];
@@ -570,6 +633,60 @@
         deepFold.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     }
+    if (toggleCompareBtn) {
+      toggleCompareBtn.addEventListener("click", () => {
+        const key = picked.key;
+        const idx = compareKeys.indexOf(key);
+        if (idx >= 0) compareKeys.splice(idx, 1);
+        else {
+          if (compareKeys.length >= 3) compareKeys = compareKeys.slice(1);
+          compareKeys.push(key);
+        }
+        trackUXEvent("personas", "toggle_compare", { key, phase: phaseFilter.value, compareCount: compareKeys.length });
+        saveState();
+        renderPersonaExplorer();
+      });
+    }
+
+    const compareItems = compareKeys.map((k) => allByKey.get(k)).filter(Boolean);
+    if (!compareItems.length) {
+      personaComparePanelEl.innerHTML = '<h3 style="margin:0 0 6px;font-size:14px;">比較モード</h3><div class="small">最大3人まで追加して横並び比較できます。</div>';
+    } else {
+      const compareHeader = ["phase1", "phase2a", "phase3", "phase4a", "phase4s"]
+        .map((ph) => `<th class="num">${esc(phaseLabel(ph))}</th>`)
+        .join("");
+      const compareRows = compareItems.map((x) => {
+        const cmx = cohortMetricsByKey.get(x.key) || {};
+        const adoptionX = x.proposals > 0 ? x.wins / x.proposals : 0;
+        const phaseCells = ["phase1", "phase2a", "phase3", "phase4a", "phase4s"]
+          .map((ph) => {
+            const rr = x.rows[ph];
+            const pr = rr && Number(rr.proposals || 0) > 0 ? Number(rr.wins || 0) / Number(rr.proposals || 0) : 0;
+            return `<td class="num">${pct(pr)}</td>`;
+          })
+          .join("");
+        return `<tr><td>${esc(x.persona_name)}<div class="small">${esc(x.persona_id || "")}</div></td><td class="num">${num(x.wins)}/${num(x.proposals)}</td><td class="num">${pct(adoptionX)}</td><td>${esc(cmx.archetype || "-")}</td><td>${esc(cmx.dynamics || "-")}</td>${phaseCells}<td class="num"><button type="button" class="compare-remove" data-key="${esc(x.key)}">削除</button></td></tr>`;
+      }).join("");
+      personaComparePanelEl.innerHTML = `
+        <h3 style="margin:0 0 6px;font-size:14px;">比較モード（${num(compareItems.length)} / 3）</h3>
+        <table id="personaCompareTable">
+          <thead><tr><th>persona</th><th class="num">wins/proposals</th><th class="num">adoption</th><th>archetype</th><th>dynamics</th>${compareHeader}<th class="num">remove</th></tr></thead>
+          <tbody>${compareRows}</tbody>
+        </table>
+      `;
+      personaComparePanelEl.querySelectorAll(".compare-remove").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const k = btn.getAttribute("data-key") || "";
+          compareKeys = compareKeys.filter((x) => x !== k);
+          trackUXEvent("personas", "compare_remove", { key: k, phase: phaseFilter.value, compareCount: compareKeys.length });
+          saveState();
+          renderPersonaExplorer();
+        });
+      });
+      enableTableSort("personaCompareTable");
+    }
+
+    ["personaProposalTable", "personaCoreMetricsTable", "personaDeepMetricsTable"].forEach((id) => enableTableSort(id));
   }
 
   phaseFilter.addEventListener("change", () => {
@@ -586,6 +703,28 @@
     trackUXEvent("personas", "min_wins_change", { minWins: Number(personaMinWinsInput.value || 0) });
     renderPersonaExplorer();
     saveState();
+  });
+  personaSortSelect.addEventListener("change", () => {
+    trackUXEvent("personas", "sort_change", { sort: personaSortSelect.value, phase: phaseFilter.value });
+    renderPersonaExplorer();
+    saveState();
+  });
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key !== "ArrowUp" && ev.key !== "ArrowDown") return;
+    if (ev.target && (ev.target.tagName === "INPUT" || ev.target.tagName === "TEXTAREA" || ev.target.tagName === "SELECT")) return;
+    const tabs = Array.from(personaTabsEl.querySelectorAll(".persona-tab"));
+    if (!tabs.length) return;
+    const idx = tabs.findIndex((el) => (el.getAttribute("data-key") || "") === selectedPersonaKey);
+    const curr = idx >= 0 ? idx : 0;
+    const next = ev.key === "ArrowDown" ? Math.min(tabs.length - 1, curr + 1) : Math.max(0, curr - 1);
+    if (next === curr) return;
+    ev.preventDefault();
+    const key = tabs[next].getAttribute("data-key") || "";
+    if (!key) return;
+    selectedPersonaKey = key;
+    trackUXEvent("personas", "key_nav", { key, direction: ev.key === "ArrowDown" ? "down" : "up", phase: phaseFilter.value });
+    saveState();
+    renderPersonaExplorer();
   });
 
   buildMeta();

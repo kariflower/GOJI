@@ -17,6 +17,7 @@
           <li><a href="./dashboard.html" class="active">Hub</a></li>
           <li><a href="./dashboard_brief.html">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
           <li><a href="./dashboard_voting.html">Voting</a></li>
           <li><a href="./dashboard_personas.html">Personas</a></li>
         </ul>
@@ -38,6 +39,12 @@
         <a class="hub-card" href="./dashboard_overview.html">
           <h3>Analysis</h3>
           <div class="small">phase KPI、採択率マトリクス、catalog coverage、timeline を確認。</div>
+        </a>
+      </li>
+      <li>
+        <a class="hub-card" href="./dashboard_music.html">
+          <h3>Music</h3>
+          <div class="small">楽曲特性(BPM/感情曲線)と要素採択の相性を確認。</div>
         </a>
       </li>
       <li>
@@ -64,6 +71,7 @@
     <h2 class="section-title">Start Here（推奨フロー）</h2>
     <ol class="priority-list">
       <li><a href="./dashboard_brief.html#brief-summary">Brief: まず結論と優先タスクを確認</a></li>
+      <li><a href="./dashboard_music.html#music-top">Music: 楽曲タイプ別の当たり/ハズレ要素を確認</a></li>
       <li><a href="./dashboard_voting.html#vote-cockpit">Voting: 接戦・高論争提案の理由差分を確認</a></li>
       <li><a href="./dashboard_overview.html#sec-ux">Analysis: 統計指標を掘って再発防止に接続</a></li>
       <li><a href="./dashboard_personas.html#persona-explorer">Personas: 対象ペルソナの採択確度と比較強度を確認</a></li>
@@ -85,7 +93,15 @@
 <script src="./dashboard_shared.js"></script>
 <script>
 (async function () {
-  const { loadDashboardData, num, getUXSummary, clearUXLogs, trackUXEvent } = DashboardShared;
+  const { loadDashboardData, num, getUXSummary, clearUXLogs, trackUXEvent, getPhaseFromQuery, syncNavPhase, syncPhaseLinks } = DashboardShared;
+  const qPhase = getPhaseFromQuery("all");
+  const nowUrl = new URL(window.location.href);
+  if (nowUrl.searchParams.get("hub") !== "1") {
+    const next = new URL("./dashboard_brief.html", window.location.href);
+    if (qPhase && qPhase !== "all") next.searchParams.set("phase", qPhase);
+    window.location.replace(next.toString());
+    return;
+  }
   let data;
   try {
     data = await loadDashboardData();
@@ -105,6 +121,9 @@
   `;
 
   const quick = document.getElementById("quickCards");
+  syncNavPhase(qPhase);
+  syncPhaseLinks(".hub-grid", qPhase);
+  syncPhaseLinks(".priority-list", qPhase);
   const kpis = data.phase_kpi_summary || [];
   const totals = {
     sessions: kpis.reduce((a, b) => a + Number(b.sessions_total || 0), 0),

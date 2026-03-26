@@ -17,6 +17,7 @@
           <li><a href="./dashboard.html">Hub</a></li>
           <li><a href="./dashboard_brief.html">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
           <li><a href="./dashboard_voting.html" class="active">Voting</a></li>
           <li><a href="./dashboard_personas.html">Personas</a></li>
         </ul>
@@ -49,7 +50,7 @@
     </form>
   </div>
 
-  <div class="panel section-id" id="vote-cockpit">
+  <div class="panel section-id sticky-cockpit" id="vote-cockpit">
     <h2 class="section-title">投票オペレーション・コックピット</h2>
     <div class="small">最初に判断するための要約です。phase/検索/フォーカスモードを反映します。</div>
     <div class="ux-grid" id="voteOpsCards"></div>
@@ -96,13 +97,22 @@
       </div>
     </details>
   </div>
+
+  <div class="panel section-id" id="vote-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_personas.html#persona-explorer"><strong>Personas</strong><div class="small">投票者・提案者の履歴比較へ進む</div></a></li>
+      <li><a href="./dashboard_overview.html#sec-matrix"><strong>Analysis</strong><div class="small">採択偏りと探索余地を確認する</div></a></li>
+      <li><a href="./dashboard_brief.html#brief-summary"><strong>Brief</strong><div class="small">意思決定サマリーへ戻る</div></a></li>
+    </ul>
+  </div>
 </div>
 
 <script src="./dashboard_data.js"></script>
 <script src="./dashboard_shared.js"></script>
 <script>
 (async function () {
-  const { loadDashboardData, pct, num, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent } = DashboardShared;
+  const { loadDashboardData, pct, num, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent, getPhaseFromQuery, setPhaseQuery, syncNavPhase, syncPhaseLinks, enableTableSort } = DashboardShared;
   let data;
   try {
     data = await loadDashboardData();
@@ -131,6 +141,8 @@
       if (typeof s.search === "string") proposalSearchInput.value = s.search;
       if (typeof s.mode === "string") voteFocusMode = s.mode;
     } catch (e) {}
+    const qPhase = getPhaseFromQuery("");
+    if (qPhase && Array.from(phaseFilter.options).some((o) => o.value === qPhase)) phaseFilter.value = qPhase;
   }
 
   function saveState() {
@@ -323,13 +335,16 @@
     const searchLabel = String(proposalSearchInput.value || "").trim() ? "あり" : "なし";
     document.getElementById("proposalMeta").textContent = `表示: ${num(rows.length)} / ${num(total)} | mode=${modeLabel} | search=${searchLabel}`;
     const table = document.getElementById("proposalTable");
-    table.innerHTML = '<thead><tr><th>phase/session</th><th>key</th><th>persona</th><th class="num">like</th><th class="num">dislike</th><th class="num">tally</th><th>proposal</th><th>vote reasons</th></tr></thead>';
+    table.innerHTML = '<thead><tr><th>phase/session</th><th>key</th><th>persona</th><th class="num">like</th><th class="num">dislike</th><th class="num">tally</th><th class="num controversy-cell">controversy</th><th>proposal</th><th>vote reasons</th></tr></thead>';
     const body = rows
       .map((r) => {
         const likeReasons = (r.like_vote_detail || []).map((v) => `<li class="reason-like">+ ${esc(v.voter)}: ${esc(v.reason || "")}</li>`).join("");
         const dislikeReasons = (r.dislike_vote_detail || []).map((v) => `<li class="reason-dislike">- ${esc(v.voter)}: ${esc(v.reason || "")}</li>`).join("");
         const win = Number(r.winner) === 1;
-        return `<tr><td><div class="nowrap">${esc(phaseLabel(r.phase))}</div><div class="small">${esc(r.session_id)}</div></td><td><div><span class="pill ${win ? "win" : ""}">${win ? "WIN" : "LOSE"}</span> <span class="pill">${esc(r.candidate_key || "-")}</span></div><div class="small">${esc(r.proposal_id || "")}</div></td><td>${esc(r.persona_name || "-")}</td><td class="num">${Number(r.like || 0).toFixed(2)}</td><td class="num">${Number(r.dislike || 0).toFixed(2)}</td><td class="num">${Number(r.tally || 0).toFixed(2)}</td><td><div class="proposal-summary">${esc(r.proposal_summary || "(summaryなし)")}</div><div class="small proposal-detail">${esc(r.proposal_detail || "")}</div></td><td><ul class="reason-list">${likeReasons || '<li class="small">like reason なし</li>'}${dislikeReasons || '<li class="small">dislike reason なし</li>'}</ul></td></tr>`;
+        const dqWarn = String(r.data_quality || "") !== "ok" ? '<span class="pill alert">⚠ data</span>' : "";
+        const cont = Number(r.controversy || 0);
+        const contWidth = Math.max(0, Math.min(100, (cont / 2.0) * 100));
+        return `<tr><td><div class="nowrap">${esc(phaseLabel(r.phase))}</div><div class="small">${esc(r.session_id)}</div></td><td><div><span class="pill ${win ? "win" : ""}">${win ? "WIN" : "LOSE"}</span> <span class="pill">${esc(r.candidate_key || "-")}</span> ${dqWarn}</div><div class="small">${esc(r.proposal_id || "")}</div></td><td>${esc(r.persona_name || "-")}</td><td class="num">${Number(r.like || 0).toFixed(2)}</td><td class="num">${Number(r.dislike || 0).toFixed(2)}</td><td class="num">${Number(r.tally || 0).toFixed(2)}</td><td class="num controversy-cell">${cont.toFixed(3)}<div class="controversy-bar"><span style="width:${contWidth}%;"></span></div></td><td><div class="proposal-summary">${esc(r.proposal_summary || "(summaryなし)")}</div><div class="small proposal-detail">${esc(r.proposal_detail || "")}</div></td><td><div class="vote-reason-split"><div class="vote-reason-box"><div class="small">LIKE</div><ul class="reason-list">${likeReasons || '<li class="small">like reason なし</li>'}</ul></div><div class="vote-reason-box"><div class="small">DISLIKE</div><ul class="reason-list">${dislikeReasons || '<li class="small">dislike reason なし</li>'}</ul></div></div></td></tr>`;
       })
       .join("");
     table.innerHTML += `<tbody>${body}</tbody>`;
@@ -385,11 +400,15 @@
   }
 
   function renderAll() {
+    setPhaseQuery(phaseFilter.value);
+    syncNavPhase(phaseFilter.value);
+    syncPhaseLinks(".next-links", phaseFilter.value);
     renderVoteOps();
     renderVoterAnalytics();
     renderProposalDetails();
     renderVoteShadow();
     renderBandit();
+    ["voterTable", "proposalTable", "voteShadowTable", "voteBanditTable"].forEach((id) => enableTableSort(id));
   }
 
   phaseFilter.addEventListener("change", () => {

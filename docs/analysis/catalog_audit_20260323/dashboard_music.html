@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Music</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Music</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html" class="active">Music</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="music-top">
+    <form class="filters" onsubmit="return false;" aria-label="Music filters">
+      <div class="field">
+        <label>PHASE FILTER</label>
+        <select id="phaseFilter">
+          <option value="all">all</option>
+          <option value="phase1">テーマ</option>
+          <option value="phase2a">キャラクター</option>
+          <option value="phase3">世界観</option>
+          <option value="phase4a">あらすじ</option>
+          <option value="phase4s">ビジュアル</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>BPM BAND</label>
+        <select id="bpmFilter"><option value="all">all</option></select>
+      </div>
+      <div class="field">
+        <label>AROUSAL SHAPE</label>
+        <select id="arousalFilter"><option value="all">all</option></select>
+      </div>
+      <div class="field">
+        <label>THOMPSON STRATEGY</label>
+        <select id="strategyFilter">
+          <option value="all">all</option>
+          <option value="exploit_stable">安定勝者</option>
+          <option value="explore_promising">要探索</option>
+          <option value="reduce_or_reframe">削減候補</option>
+          <option value="monitor">監視</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="music-summary">
+    <h2 class="section-title">楽曲プロファイル概要（BPM × 感情曲線）</h2>
+    <div class="small">全体平均と要素分散の両方を表示します。平均が同じでも、要素spreadが大きければ楽曲特性の影響が強いと判断できます。</div>
+    <table id="musicProfileTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-spread">
+    <h2 class="section-title">当たり/ハズレ差の大きい要素 Top20（spread）</h2>
+    <div class="small">採択率の最大値-最小値が大きい要素を表示します。</div>
+    <table id="musicSpreadTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-cross">
+    <h2 class="section-title">楽曲条件別の要素採択</h2>
+    <div class="small">phase・BPM帯・感情曲線タイプで絞り込んだ採択率です。</div>
+    <table id="musicCrossTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-thompson">
+    <h2 class="section-title">Thompson × Exploration 推奨</h2>
+    <div class="small">「次に試すべき要素」を strategy で分類します（安定勝者 / 要探索 / 削減候補 / 監視）。</div>
+    <table id="thSummaryTable"></table>
+    <div style="height:8px;"></div>
+    <table id="thRecoTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-exploration">
+    <h2 class="section-title">探索余地スコア（次元別）</h2>
+    <div class="small">phase単位では見えない偏りを次元単位で表示します。</div>
+    <table id="explorationDimTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-annealing">
+    <h2 class="section-title">温度調整ガイド（解釈付き）</h2>
+    <div class="small">推奨温度の意味を日本語で表示します。</div>
+    <table id="annealingGuideTable"></table>
+  </div>
+
+  <div class="panel section-id" id="music-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_overview.html#sec-catalog"><strong>Analysis</strong><div class="small">全体KPIと偏りを確認する</div></a></li>
+      <li><a href="./dashboard_voting.html#vote-proposals"><strong>Voting</strong><div class="small">高論争提案の理由を見る</div></a></li>
+      <li><a href="./dashboard_personas.html#persona-explorer"><strong>Personas</strong><div class="small">人物適性を確認する</div></a></li>
+    </ul>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, pct, esc, phaseLabel, trackUXEvent, getPhaseFromQuery, setPhaseQuery, syncNavPhase, syncPhaseLinks, enableTableSort } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const phaseFilter = document.getElementById("phaseFilter");
+  const bpmFilter = document.getElementById("bpmFilter");
+  const arousalFilter = document.getElementById("arousalFilter");
+  const strategyFilter = document.getElementById("strategyFilter");
+  const UX_STATE_KEY = "goji_dashboard_music_state_v1";
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(UX_STATE_KEY);
+      if (raw) {
+        const s = JSON.parse(raw);
+        if (s.phase) phaseFilter.value = s.phase;
+        if (s.bpm) bpmFilter.value = s.bpm;
+        if (s.arousal) arousalFilter.value = s.arousal;
+        if (s.strategy) strategyFilter.value = s.strategy;
+      }
+    } catch (e) {}
+    const qPhase = getPhaseFromQuery("");
+    if (qPhase && Array.from(phaseFilter.options).some((o) => o.value === qPhase)) phaseFilter.value = qPhase;
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        UX_STATE_KEY,
+        JSON.stringify({
+          phase: phaseFilter.value,
+          bpm: bpmFilter.value,
+          arousal: arousalFilter.value,
+          strategy: strategyFilter.value,
+        })
+      );
+    } catch (e) {}
+  }
+
+  function buildMeta() {
+    document.getElementById("metaLine").textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+    document.getElementById("qualityBadges").innerHTML = `
+      <span class="badge">music cross rows: ${num((data.music_catalog_cross || []).length)}</span>
+      <span class="badge" style="margin-left:8px;">spread rows: ${num((data.music_element_spread || []).length)}</span>
+      <span class="badge alert" style="margin-left:8px;">alerts: ${num((data.catalog_alerts || []).length)}</span>
+    `;
+  }
+
+  function fillFilters() {
+    const bpmSet = new Set((data.music_catalog_cross || []).map((r) => String(r.bpm_band || "unknown")));
+    const arSet = new Set((data.music_catalog_cross || []).map((r) => String(r.arousal_shape || "unknown")));
+    Array.from(bpmSet).sort().forEach((x) => {
+      const o = document.createElement("option");
+      o.value = x;
+      o.textContent = x;
+      bpmFilter.appendChild(o);
+    });
+    Array.from(arSet).sort().forEach((x) => {
+      const o = document.createElement("option");
+      o.value = x;
+      o.textContent = x;
+      arousalFilter.appendChild(o);
+    });
+  }
+
+  function filteredCrossRows() {
+    const ph = phaseFilter.value;
+    const bpm = bpmFilter.value;
+    const ar = arousalFilter.value;
+    return (data.music_catalog_cross || []).filter((r) =>
+      (ph === "all" || r.phase === ph) &&
+      (bpm === "all" || r.bpm_band === bpm) &&
+      (ar === "all" || r.arousal_shape === ar)
+    );
+  }
+
+  function renderProfileSummary() {
+    const ph = phaseFilter.value;
+    const varMap = new Map((data.music_profile_variance_summary || []).map((r) => [String(r.phase || ""), r]));
+    const rows = (data.music_profile_summary || []).filter((r) => ph === "all" || r.phase === ph);
+    const table = document.getElementById("musicProfileTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th>BPM</th><th>arousal</th><th class="num">wins/proposals</th><th class="num">adoption</th><th class="num">sessions</th><th class="num">要素std平均</th><th class="num">要素std p75</th></tr></thead>';
+    if (!rows.length) {
+      table.innerHTML += '<tbody><tr><td colspan="8" class="small">データなし</td></tr></tbody>';
+      return;
+    }
+    table.innerHTML += `<tbody>${rows.map((r) => {
+      const v = varMap.get(String(r.phase || "")) || {};
+      return `<tr><td>${esc(phaseLabel(r.phase))}</td><td>${esc(r.bpm_band || "-")}</td><td>${esc(r.arousal_shape || "-")}</td><td class="num">${num(r.winner_count)}/${num(r.proposal_count)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${num(r.sessions || 0)}</td><td class="num">${Number(v.element_stddev_mean || 0).toFixed(3)}</td><td class="num">${Number(v.element_stddev_p75 || 0).toFixed(3)}</td></tr>`;
+    }).join("")}</tbody>`;
+  }
+
+  function renderSpreadTop() {
+    const ph = phaseFilter.value;
+    const rows = (data.music_element_spread || [])
+      .filter((r) => ph === "all" || r.phase === ph)
+      .sort((a, b) => Number(b.adoption_spread || 0) - Number(a.adoption_spread || 0) || Number(b.adoption_stddev || 0) - Number(a.adoption_stddev || 0))
+      .slice(0, 20);
+    const table = document.getElementById("musicSpreadTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th>item</th><th class="num">spread</th><th class="num">stddev</th><th class="num">min</th><th class="num">max</th><th>best/worst profile</th></tr></thead>';
+    if (!rows.length) {
+      table.innerHTML += '<tbody><tr><td colspan="7" class="small">データなし</td></tr></tbody>';
+      return;
+    }
+    table.innerHTML += `<tbody>${rows.map((r) => {
+      const best = r.best_profile || {};
+      const worst = r.worst_profile || {};
+      return `<tr><td>${esc(phaseLabel(r.phase))}.${esc(r.dimension || "")}</td><td>${esc(r.label || "")}<div class="small">${esc(r.catalog_id || "")}</div></td><td class="num">${pct(r.adoption_spread || 0)}</td><td class="num">${Number(r.adoption_stddev || 0).toFixed(3)}</td><td class="num">${pct(r.adoption_min || 0)}</td><td class="num">${pct(r.adoption_max || 0)}</td><td><div class="small">best: ${esc(best.bpm_band || "-")} × ${esc(best.arousal_shape || "-")} (${pct(best.adoption_rate || 0)})</div><div class="small">worst: ${esc(worst.bpm_band || "-")} × ${esc(worst.arousal_shape || "-")} (${pct(worst.adoption_rate || 0)})</div></td></tr>`;
+    }).join("")}</tbody>`;
+  }
+
+  function renderCrossRows() {
+    const rows = filteredCrossRows()
+      .sort((a, b) => Number(b.adoption_ci_low || 0) - Number(a.adoption_ci_low || 0) || Number(b.adoption_rate || 0) - Number(a.adoption_rate || 0) || Number(b.proposal_count || 0) - Number(a.proposal_count || 0))
+      .slice(0, 80);
+    const table = document.getElementById("musicCrossTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th>BPM</th><th>arousal</th><th>item</th><th class="num">wins/proposals</th><th class="num">adoption</th><th class="num">Wilson CI95</th></tr></thead>';
+    if (!rows.length) {
+      table.innerHTML += '<tbody><tr><td colspan="7" class="small">データなし</td></tr></tbody>';
+      return;
+    }
+    table.innerHTML += `<tbody>${rows.map((r) => `<tr><td>${esc(phaseLabel(r.phase))}.${esc(r.dimension || "")}</td><td>${esc(r.bpm_band || "-")}</td><td>${esc(r.arousal_shape || "-")}</td><td>${esc(r.label || "")}<div class="small">${esc(r.catalog_id || "")}</div></td><td class="num">${num(r.winner_count)}/${num(r.proposal_count)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${pct(r.adoption_ci_low || 0)} - ${pct(r.adoption_ci_high || 0)}</td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderThompson() {
+    const ph = phaseFilter.value;
+    const stg = strategyFilter.value;
+    const summaryRows = ((data.thompson_recommendations || {}).summary || []).filter((r) => ph === "all" || r.phase === ph);
+    const summaryTable = document.getElementById("thSummaryTable");
+    summaryTable.innerHTML = '<thead><tr><th>phase</th><th>strategy</th><th class="num">count</th><th class="num">avg P(best)</th><th class="num">avg posterior</th></tr></thead>';
+    summaryTable.innerHTML += `<tbody>${summaryRows.map((r) => `<tr><td>${esc(phaseLabel(r.phase))}</td><td>${esc(r.strategy_ja || r.strategy || "-")}</td><td class="num">${num(r.count || 0)}</td><td class="num">${pct(r.avg_prob_best || 0)}</td><td class="num">${pct(r.avg_posterior || 0)}</td></tr>`).join("") || '<tr><td colspan="5" class="small">データなし</td></tr>'}</tbody>`;
+
+    let rows = ((data.thompson_recommendations || {}).records || []).filter((r) => ph === "all" || r.phase === ph);
+    if (stg !== "all") rows = rows.filter((r) => r.strategy === stg);
+    rows = rows.sort((a, b) => Number(b.thompson_prob_best || 0) - Number(a.thompson_prob_best || 0) || Number(b.proposal_count || 0) - Number(a.proposal_count || 0)).slice(0, 80);
+    const table = document.getElementById("thRecoTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th>item</th><th>strategy</th><th class="num">wins/proposals</th><th class="num">P(best)</th><th class="num">posterior</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows.map((r) => `<tr><td>${esc(phaseLabel(r.phase))}.${esc(r.dimension || "")}</td><td>${esc(r.label || "")}<div class="small">${esc(r.catalog_id || "")}</div></td><td>${esc(r.strategy_ja || r.strategy || "-")}</td><td class="num">${num(r.winner_count || 0)}/${num(r.proposal_count || 0)}</td><td class="num">${pct(r.thompson_prob_best || 0)}</td><td class="num">${pct(r.posterior_mean_beta11 || 0)}</td></tr>`).join("") || '<tr><td colspan="6" class="small">データなし</td></tr>'}</tbody>`;
+  }
+
+  function renderExplorationByDim() {
+    const ph = phaseFilter.value;
+    const rows = (data.exploration_scores_by_dimension || []).filter((r) => ph === "all" || r.phase === ph);
+    const table = document.getElementById("explorationDimTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th class="num">score</th><th class="num">unused</th><th class="num">top1</th><th class="num">entropy</th><th class="num">cold_ratio</th><th class="num">used/total</th><th>action</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows.map((r) => `<tr><td>${esc(phaseLabel(r.phase))}.${esc(r.dimension || "")}</td><td class="num">${pct(r.exploration_score || 0)}</td><td class="num">${pct(r.unused_ratio || 0)}</td><td class="num">${pct(r.top1_share || 0)}</td><td class="num">${pct(r.entropy_norm || 0)}</td><td class="num">${pct(r.cold_item_ratio || 0)}</td><td class="num">${num(r.used_items || 0)}/${num(r.catalog_total || 0)}</td><td>${esc(r.action || "-")}</td></tr>`).join("") || '<tr><td colspan="8" class="small">データなし</td></tr>'}</tbody>`;
+  }
+
+  function renderAnnealingGuide() {
+    const ph = phaseFilter.value;
+    const rows = ((data.annealing_plan || {}).per_phase || []).filter((r) => ph === "all" || r.phase === ph);
+    const table = document.getElementById("annealingGuideTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th class="num">baseline T</th><th class="num">recommended T</th><th class="num">delta</th><th>解釈</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows.map((r) => `<tr><td>${esc(phaseLabel(r.phase))}</td><td class="num">${Number(r.baseline_temperature || 0).toFixed(3)}</td><td class="num">${Number(r.recommended_temperature || 0).toFixed(3)}</td><td class="num">${Number(r.delta_temperature || 0).toFixed(3)}</td><td>${esc(r.interpretation_ja || "-")}</td></tr>`).join("") || '<tr><td colspan="5" class="small">データなし</td></tr>'}</tbody>`;
+  }
+
+  function renderAll() {
+    setPhaseQuery(phaseFilter.value);
+    syncNavPhase(phaseFilter.value);
+    syncPhaseLinks(".next-links", phaseFilter.value);
+    renderProfileSummary();
+    renderSpreadTop();
+    renderCrossRows();
+    renderThompson();
+    renderExplorationByDim();
+    renderAnnealingGuide();
+    ["musicProfileTable", "musicSpreadTable", "musicCrossTable", "thSummaryTable", "thRecoTable", "explorationDimTable", "annealingGuideTable"].forEach((id) => enableTableSort(id));
+  }
+
+  phaseFilter.addEventListener("change", () => {
+    trackUXEvent("music", "phase_change", { phase: phaseFilter.value });
+    renderAll();
+    saveState();
+  });
+  bpmFilter.addEventListener("change", () => {
+    trackUXEvent("music", "bpm_change", { bpm: bpmFilter.value, phase: phaseFilter.value });
+    renderAll();
+    saveState();
+  });
+  arousalFilter.addEventListener("change", () => {
+    trackUXEvent("music", "arousal_change", { arousal: arousalFilter.value, phase: phaseFilter.value });
+    renderAll();
+    saveState();
+  });
+  strategyFilter.addEventListener("change", () => {
+    trackUXEvent("music", "strategy_change", { strategy: strategyFilter.value, phase: phaseFilter.value });
+    renderAll();
+    saveState();
+  });
+
+  buildMeta();
+  fillFilters();
+  loadState();
+  trackUXEvent("music", "page_open", { phase: phaseFilter.value });
+  renderAll();
+})();
+</script>
+</body>
+</html>
+

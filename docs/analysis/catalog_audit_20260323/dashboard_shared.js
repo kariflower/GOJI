@@ -39,6 +39,164 @@
     return label === key ? key : `${label} (${key})`;
   }
 
+  function getPhaseFromQuery(defaultValue = "all") {
+    try {
+      const u = new URL(window.location.href);
+      const raw = String(u.searchParams.get("phase") || "").trim();
+      if (!raw) return defaultValue;
+      if (raw === "all") return "all";
+      return PHASE_LABELS[raw] ? raw : defaultValue;
+    } catch (e) {
+      return defaultValue;
+    }
+  }
+
+  function setPhaseQuery(phase) {
+    try {
+      const p = String(phase || "").trim() || "all";
+      const u = new URL(window.location.href);
+      if (p === "all") u.searchParams.delete("phase");
+      else u.searchParams.set("phase", p);
+      window.history.replaceState({}, "", `${u.pathname}${u.search}${u.hash}`);
+    } catch (e) {}
+  }
+
+  function withPhaseOnHref(href, phase) {
+    const h = String(href || "").trim();
+    if (!h) return h;
+    if (/^(https?:|mailto:|javascript:|#)/i.test(h)) return h;
+    const p = String(phase || "").trim() || "all";
+    const [pathPart, hashPart] = h.split("#");
+    const [base, query] = pathPart.split("?");
+    const params = new URLSearchParams(query || "");
+    if (p === "all") params.delete("phase");
+    else params.set("phase", p);
+    const qs = params.toString();
+    const out = qs ? `${base}?${qs}` : base;
+    return hashPart ? `${out}#${hashPart}` : out;
+  }
+
+  function syncNavPhase(phase) {
+    const p = String(phase || "").trim() || "all";
+    const navLinks = document.querySelectorAll(".nav a[href]");
+    navLinks.forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      if (!a.dataset.baseText) a.dataset.baseText = a.textContent || "";
+      const baseText = a.dataset.baseText;
+      a.setAttribute("href", withPhaseOnHref(href, p));
+      if (p !== "all" && !/dashboard\.html(?:\?|$)/.test(href)) {
+        a.textContent = `${baseText} (${phaseLabel(p)})`;
+      } else {
+        a.textContent = baseText;
+      }
+    });
+  }
+
+  function syncPhaseLinks(selector, phase) {
+    const p = String(phase || "").trim() || "all";
+    const nodes = document.querySelectorAll(`${selector} a[href]`);
+    nodes.forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      a.setAttribute("href", withPhaseOnHref(href, p));
+    });
+  }
+
+  function _tryParseNumeric(text) {
+    const raw = String(text || "").trim();
+    if (!raw) return null;
+
+    const ratio = raw.match(/(-?\d+(?:\.\d+)?)\s*\/\s*(-?\d+(?:\.\d+)?)/);
+    if (ratio) {
+      const a = Number(ratio[1]);
+      const b = Number(ratio[2]);
+      if (Number.isFinite(a) && Number.isFinite(b) && b !== 0) return a / b;
+    }
+
+    const cleaned = raw.replace(/,/g, "");
+    if (/^-?\d+(\.\d+)?%$/.test(cleaned)) {
+      const v = Number(cleaned.replace("%", ""));
+      if (Number.isFinite(v)) return v;
+    }
+
+    const numLike = cleaned.match(/-?\d+(?:\.\d+)?/);
+    if (numLike) {
+      const v = Number(numLike[0]);
+      if (Number.isFinite(v)) return v;
+    }
+    return null;
+  }
+
+  function enableTableSort(tableOrId) {
+    const table =
+      typeof tableOrId === "string"
+        ? document.getElementById(tableOrId)
+        : tableOrId;
+    if (!table || !table.tHead || !table.tBodies || !table.tBodies[0]) return;
+    const theadRow = table.tHead.rows[0];
+    if (!theadRow) return;
+    const headers = Array.from(theadRow.cells || []);
+    const tbody = table.tBodies[0];
+
+    function inferType(colIndex) {
+      const sampleRows = Array.from(tbody.rows || []).slice(0, 12);
+      if (!sampleRows.length) return "text";
+      let numericHits = 0;
+      for (const tr of sampleRows) {
+        const td = tr.cells[colIndex];
+        if (!td) continue;
+        const val = td.getAttribute("data-sort") || td.textContent || "";
+        if (_tryParseNumeric(val) !== null) numericHits += 1;
+      }
+      return numericHits >= Math.max(2, Math.floor(sampleRows.length * 0.6))
+        ? "number"
+        : "text";
+    }
+
+    function sortBy(colIndex) {
+      const prevIndex = Number(table.dataset.sortIndex || -1);
+      const prevDir = String(table.dataset.sortDir || "desc");
+      const nextDir = prevIndex === colIndex && prevDir === "desc" ? "asc" : "desc";
+      table.dataset.sortIndex = String(colIndex);
+      table.dataset.sortDir = nextDir;
+
+      const type = inferType(colIndex);
+      const rows = Array.from(tbody.rows || []);
+      rows.sort((ra, rb) => {
+        const aCell = ra.cells[colIndex];
+        const bCell = rb.cells[colIndex];
+        const avRaw = aCell ? aCell.getAttribute("data-sort") || aCell.textContent || "" : "";
+        const bvRaw = bCell ? bCell.getAttribute("data-sort") || bCell.textContent || "" : "";
+        let cmp = 0;
+        if (type === "number") {
+          const av = _tryParseNumeric(avRaw);
+          const bv = _tryParseNumeric(bvRaw);
+          const an = av === null ? -Infinity : av;
+          const bn = bv === null ? -Infinity : bv;
+          cmp = an === bn ? 0 : an > bn ? 1 : -1;
+        } else {
+          cmp = String(avRaw).localeCompare(String(bvRaw), "ja");
+        }
+        return nextDir === "asc" ? cmp : -cmp;
+      });
+      rows.forEach((tr) => tbody.appendChild(tr));
+
+      headers.forEach((th, i) => {
+        th.classList.remove("sort-asc", "sort-desc");
+        th.removeAttribute("aria-sort");
+        if (i === colIndex) {
+          th.classList.add(nextDir === "asc" ? "sort-asc" : "sort-desc");
+          th.setAttribute("aria-sort", nextDir === "asc" ? "ascending" : "descending");
+        }
+      });
+    }
+
+    headers.forEach((th, idx) => {
+      if (th.dataset.nosort === "1" || th.colSpan > 1) return;
+      th.classList.add("sortable-th");
+      th.onclick = () => sortBy(idx);
+    });
+  }
+
   function esc(v) {
     return String(v ?? "")
       .replace(/&/g, "&amp;")
@@ -310,6 +468,12 @@
     num,
     phaseLabel,
     phaseWithId,
+    getPhaseFromQuery,
+    setPhaseQuery,
+    withPhaseOnHref,
+    syncNavPhase,
+    syncPhaseLinks,
+    enableTableSort,
     esc,
     topTokens,
     extractReasonElements,

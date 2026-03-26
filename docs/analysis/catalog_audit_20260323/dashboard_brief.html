@@ -17,6 +17,7 @@
           <li><a href="./dashboard.html">Hub</a></li>
           <li><a href="./dashboard_brief.html" class="active">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
           <li><a href="./dashboard_voting.html">Voting</a></li>
           <li><a href="./dashboard_personas.html">Personas</a></li>
         </ul>
@@ -56,6 +57,7 @@
   <div class="panel section-id" id="brief-summary">
     <h2 class="section-title">意思決定サマリー</h2>
     <div class="small">まずはここだけ見れば十分です。</div>
+    <div class="small" id="briefConfidence" style="margin-top:6px;">-</div>
     <ul class="cards" id="summaryCards" aria-label="Brief summary cards"></ul>
   </div>
 
@@ -92,13 +94,22 @@
       </ol>
     </div>
   </div>
+
+  <div class="panel section-id" id="brief-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_voting.html#vote-cockpit"><strong>Voting</strong><div class="small">接戦・高論争提案の理由差分を見る</div></a></li>
+      <li><a href="./dashboard_overview.html#sec-matrix"><strong>Analysis</strong><div class="small">採択率マトリクスと偏りを確認する</div></a></li>
+      <li><a href="./dashboard_personas.html#persona-explorer"><strong>Personas</strong><div class="small">人物ごとの履歴と強みを確認する</div></a></li>
+    </ul>
+  </div>
 </div>
 
 <script src="./dashboard_data.js"></script>
 <script src="./dashboard_shared.js"></script>
 <script>
 (async function () {
-  const { loadDashboardData, num, pct, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent } = DashboardShared;
+  const { loadDashboardData, num, pct, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent, getPhaseFromQuery, setPhaseQuery, syncNavPhase, syncPhaseLinks, enableTableSort } = DashboardShared;
   let data;
   try {
     data = await loadDashboardData();
@@ -119,6 +130,8 @@
       if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
       if (s.focus && Array.from(focusMode.options).some((o) => o.value === s.focus)) focusMode.value = s.focus;
     } catch (e) {}
+    const qPhase = getPhaseFromQuery("");
+    if (qPhase && Array.from(phaseFilter.options).some((o) => o.value === qPhase)) phaseFilter.value = qPhase;
   }
 
   function saveState() {
@@ -185,6 +198,7 @@
     const gojiRate = avg(kpis, (x) => x.goji_intervention_rate);
     const anomalies = Number(data?.data_quality?.anomaly_count || 0);
     const incomplete = Number(data?.data_quality?.incomplete_event_count || 0);
+    const incompleteRate = total > 0 ? incomplete / total : 0;
 
     const cards = [
       ["表示提案", num(total), "phase適用後"],
@@ -199,6 +213,8 @@
     document.getElementById("summaryCards").innerHTML = cards
       .map((c) => `<li class="card"><dl><dt class="k">${c[0]}</dt><dd class="v">${c[1]}</dd><dd class="small">${c[2]}</dd></dl></li>`)
       .join("");
+    document.getElementById("briefConfidence").textContent =
+      `この結論は不完全イベント ${num(incomplete)} 件（表示提案比 ${pct(incompleteRate)}）を含みます。`;
   }
 
   function renderActionList() {
@@ -311,11 +327,15 @@
   }
 
   function renderAll() {
+    setPhaseQuery(phaseFilter.value);
+    syncNavPhase(phaseFilter.value);
+    syncPhaseLinks(".next-links", phaseFilter.value);
     renderSummary();
     renderActionList();
     renderReasonSignals();
     renderFocusTable();
     renderDeepSnapshot();
+    ["reasonSignalTable", "focusProposalTable", "deepSnapshotTable"].forEach((id) => enableTableSort(id));
   }
 
   phaseFilter.addEventListener("change", () => {
