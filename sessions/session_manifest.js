@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-26T14:56:17Z",
+  "generated_at": "2026-03-26T19:43:49Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260327-001500-010c",
+      "path": "./session-20260327-001500-010c/assets/instructions/index.html",
+      "generated_at": "2026-03-26T19:43:41.691903Z",
+      "clip_count": 95,
+      "duration_sec": 206.99999999999997,
+      "section_count": 11,
+      "summary": "宇宙廃墟群の奥深く、採掘装置の稼働音が床を震わせる絶縁区画で、絶縁スーツ姿のユニコーン——角をうつむき加減に傾け、顔に仮面を貼った検体管理者——が情報結晶チューブの検品作業に追われている。壁一面の結晶棚がネオン色の液光を放ち、ホログラムのHUDが数値を降り注ぎ、外の宇宙空間ではメガシティの残骸が雨のように降り続けている。すべての数値が「正常」を表示している。ただ一点を除いて——区画の隅の採掘装置が、装置稼働周波数とは無関係に、BPM1…",
+      "song_file": "届けたい温度.mp3"
+    },
     {
       "session_id": "session-20260326-124946-d813",
       "path": "./session-20260326-124946-d813/assets/instructions/index.html",
