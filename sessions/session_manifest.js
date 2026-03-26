@@ -1,7 +1,7 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-26T07:34:27Z",
+  "generated_at": "2026-03-26T09:33:36Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
     {
