@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-25T19:58:32Z",
+  "generated_at": "2026-03-26T07:34:27Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260326-124946-d813",
+      "path": "./session-20260326-124946-d813/assets/instructions/index.html",
+      "generated_at": "2026-03-26T07:34:20.623583Z",
+      "clip_count": 73,
+      "duration_sec": 213.64,
+      "section_count": 8,
+      "summary": "西暦4071年、廃墟となった巨大都市の地下深く——音響技術の使用が死罪とされたこの世界で、少年は蛍光灯が全灯する「共鳴堂」の厨房跡に一人立つ。周波数スーツの上着を丁寧に脱いで床に置いた彼は、管理網から自ら切断された証を床に晒したまま、禁じられた「音響果実」を取り出す。浮世絵の輪郭線で縁取られた手元のクローズアップ——包丁が音響果実を断つ瞬間、刃の軌跡に波紋模様の描線が走る。調理の工程が木版画の版を重ねるように画面に積層されるごとに、背…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260326-012717-dcfa",
       "path": "./session-20260326-012717-dcfa/assets/instructions/index.html",

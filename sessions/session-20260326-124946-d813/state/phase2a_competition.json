@@ -1,0 +1,487 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-35152d9a",
+      "persona_id": "persona-75616758",
+      "content": {
+        "chosen_base": "ぬいぐるみ",
+        "chosen_feature": "革ジャン・四本腕",
+        "chosen_signature": "ほどけた靴紐",
+        "subject_concept": "革ジャンを着た四本腕のぬいぐるみ",
+        "subject_signature": "ほどけた靴紐",
+        "why_it_came": "「従順さの拒絶」と「柔らかい内側」が同居する楽曲のテンションに、革ジャンと縫い目の露出したぬいぐるみの矛盾した外皮が対応する。四本腕は過剰さと制御不能の身体性を視覚的に表現する。",
+        "who_should_watch": "学校や集団のルールに窒息感を覚えながらも、完全には踏み出せずにいる十代後半の視聴者。",
+        "character_profile": {
+          "appearance_profile": "縫い目が部分的にほつれた布製の頭部と胴体を持ち、革ジャンを着込んだ四本腕の体躯。足元には常にほどけた靴紐が垂れている。",
+          "motion_profile": "四本の腕が互いに独立した動きをするため、一方が静止している間にも残りの腕が止まらない。"
+        },
+        "phase1_base": "ぬいぐるみ",
+        "phase2_condition": "革ジャン・四本腕",
+        "phase3_anchor": "ほどけた靴紐"
+      },
+      "created_at": "2026-03-26 03:54:14.509316",
+      "persona_name": "Nguyen Bao Linh",
+      "persona_profile": {
+        "id": "persona-75616758",
+        "name": "Nguyen Bao Linh",
+        "gender": "ノンバイナリー",
+        "birthdate": "1683-04-27",
+        "age": 30,
+        "origin_city": "ローマ",
+        "ethnic_background": "東南アジア系",
+        "life_history": [
+          {
+            "year": 1683,
+            "event": "ローマの旧市街、トラステヴェレ地区に生まれる。父はベトナム南部出身の香辛料商人で、母はローマ近郊出身のイタリア人女性。"
+          },
+          {
+            "year": 1689,
+            "event": "父の商売の都合でナポリへ一時移住し、2年間を港町で過ごす。"
+          },
+          {
+            "year": 1691,
+            "event": "家族でローマに戻り、父の店の近くにある教区学校に入学する。"
+          },
+          {
+            "year": 1697,
+            "event": "14歳のとき父が死去し、母方の祖父母の家に引き取られる。学校を離れ、近所の薬草商の店で見習いとして働き始める。"
+          },
+          {
+            "year": 1702,
+            "event": "19歳で薬草商から独立し、市場の一角で小さな薬草・香辛料の露店を開く。"
+          },
+          {
+            "year": 1707,
+            "event": "ローマの商業組合に登録し、店舗を路地裏の小屋から市場内の固定区画に移す。"
+          },
+          {
+            "year": 1710,
+            "event": "27歳のとき、同じ市場で布地を売る商人の家族の紹介で知り合った人物と共同生活を始める。"
+          },
+          {
+            "year": 1713,
+            "event": "現在もローマの市場で香辛料と薬草を扱う店を営んでいる。店の規模は小さいまま維持されている。"
+          }
+        ],
+        "current_situation": "1713年現在、ローマのトラステヴェレ地区の市場に店を構え、香辛料と薬草の販売を生業としている。父から受け継いだベトナム産の香辛料の仕入れルートを一部維持しつつ、地中海沿岸の産品も扱っている。共同生活を送るパートナーと市場近くの借家に住んでいる。週に数日は母方の祖母の家に立ち寄り、食事を共にしている。",
+        "external_perception": {
+          "first_impression": "物静かで手際がよく、商品の説明を短く的確に行う。",
+          "close_friends_view": "約束をきちんと守り、余計なことを言わない。困ったときに頼みやすい相手だと思われている。",
+          "misunderstandings": "無口であるため、愛想がないと思われることがある。また、父方の出自から「外国から来た人」と見なされることが多い。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-75616758.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-d9357978",
+      "persona_id": "persona-fb9ac898",
+      "content": {
+        "chosen_base": "ゴーレム",
+        "chosen_feature": "石肌・坊主頭",
+        "chosen_signature": "割れた鎖の首輪",
+        "subject_concept": "石肌の坊主頭ゴーレム",
+        "subject_signature": "割れた鎖の首輪",
+        "why_it_came": "「教育の型に反抗する」という楽曲の核が、誰かに造られた存在が自分の形を崩しながら動き続けるゴーレムと重なった。石が削れ、首輪が割れているという視覚的な「壊れかけ」が、反抗の痕跡として即座に読み取れる。",
+        "who_should_watch": "学校や職場で「お前はこうあるべき」と型にはめられた経験を持ち、今もその型の跡が体に残っている気がしている人。",
+        "character_profile": {
+          "appearance_profile": "全身が荒削りの石肌で覆われた人型のゴーレム。頭部は坊主頭のように平滑に削られており、首には割れた鎖の首輪が食い込んだまま残っている。",
+          "motion_profile": "一歩踏み出すたびに石肌の表面がひびを走らせ、割れた首輪がわずかにずれる。"
+        },
+        "phase1_base": "ゴーレム",
+        "phase2_condition": "石肌・坊主頭",
+        "phase3_anchor": "割れた鎖の首輪"
+      },
+      "created_at": "2026-03-26 03:54:26.854718",
+      "persona_name": "たけし",
+      "persona_profile": {
+        "id": "persona-fb9ac898",
+        "name": "たけし",
+        "gender": "女性",
+        "birthdate": "1978-08-04",
+        "life_history": [
+          {
+            "year": 1984,
+            "event": "父親の転勤で埼玉県の新興住宅地に引っ越し、新しい小学校で友達作りに苦労した。"
+          },
+          {
+            "year": 1996,
+            "event": "大学受験に失敗し、一浪して地元の中堅私立大学の経済学部に進学した。"
+          },
+          {
+            "year": 2001,
+            "event": "就職氷河期に卒業し、中小の物流会社に営業職として入社。希望とは異なる職種だった。"
+          },
+          {
+            "year": 2008,
+            "event": "職場の同僚の紹介で知り合った女性と結婚。30歳での結婚は周囲から「ちょうどいい」と言われた。"
+          },
+          {
+            "year": 2015,
+            "event": "長年勤めた会社で係長に昇進。大きな出世ではないが、着実に評価された結果だった。"
+          }
+        ],
+        "current_situation": "埼玉県の郊外都市で生まれ育ち、地元の公立高校を経て私立大学の経済学部を卒業。2001年に中小物流会社に入社し、営業職として20年以上勤務している。現在は係長として数名の部下を持ち、取引先との調整や新規開拓を担当。平日は朝早く出勤し、夜は遅めに帰宅する生活を送っている。休日は妻と近所のショッピングモールに出かけたり、テレビでスポーツ観戦をしたりして過ごす。趣味らしい趣味はないが、月に一度、大学時代の友人と居酒屋で飲むのが楽しみ。",
+        "external_perception": {
+          "first_impression": "真面目で礼儀正しいが、少し堅苦しく見える。話しかけにくい雰囲気がある",
+          "close_friends_view": "実は気さくで面倒見がよく、困ったときに頼りになる。冗談も言うし、酒を飲むと意外と饒舌になる",
+          "misunderstandings": "無口で冷たい人だと思われがちだが、実際は人見知りなだけで、心を開けば温かい"
+        },
+        "like_history": [
+          {
+            "session": "ensemble_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "ショッピングモールの廃墟で、買わなかった商品のバーコードを一つずつスキャンし続ける係長の休日",
+            "like_count": 2,
+            "like_reasons": [
+              "買わなかった商品の記憶、すごくわかる",
+              "選ばなかったものが人生を形作るって、深いと思った"
+            ]
+          },
+          {
+            "session": "ensemble_v3",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "「作り続けることでしか過去と和解できない」という直球の言葉に力がある",
+              "「この手は何を作りたかったんだっけ」っていう問いかけが、なんか心に残った"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "ensemble_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "ショッピングモールの廃墟で、買わなかった商品のバーコードを一つずつスキャンし続ける係長の休日",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "ensemble_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "画面の中の誰かが、こちらをずっと見つめている──監視カメラ越しに確認される、観測されることで成立する関係性の記録",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "誰かに見られ、呼ばれることで初めて自分が存在できる——でもそれでいい、その不安定さこそが愛だと信じたい",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "声優のファンに呼ばれ続けることでしか存在できない、二次元キャラクターの依存と献身の記録",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "phase2a_new_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "同じ場所を通い続けることで刻まれる、目に見えない人生の軌跡。反復の中にこそ存在する、過去と現在と未来の重なり。",
+            "rank": 0,
+            "tally": 0,
+            "won": true
+          },
+          {
+            "session": "phase2a_new_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: 50代の自分（背広を着て、いつもと同じ時間に改札を抜ける姿。疲れているけれど、足取りはもう自動化されている） / 場所: いつも使う駅の改札口（埼玉の郊外、朝7時15分。20年以上、ほぼ同じ時間",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "visual_medium_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "古いブラウン管テレビの中に閉じ込められた、視聴者に語りかけ続ける存在の独白",
+            "rank": 1,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "visual_medium_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "voting_test_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "見えない声が街を、世界を変えていく静かな革命",
+            "rank": 1,
+            "tally": 5,
+            "won": false
+          }
+        ],
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-fb9ac898.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-ea5f17d7",
+      "persona_id": "persona-4c8b8788",
+      "content": {
+        "chosen_base": "天狗",
+        "chosen_feature": "両腕を広げて立つ・後光",
+        "chosen_signature": "折れた旗印",
+        "subject_concept": "後光を背負い両腕を広げて立つ天狗",
+        "subject_signature": "折れた旗印",
+        "why_it_came": "教育的権威への反抗と自由への跳躍というエネルギーを、既存秩序の象徴でありながら山野を制御不能に駆ける天狗という存在が担える。折れた旗印は「かつて掲げた規範の崩壊」を視覚として即座に語る。",
+        "who_should_watch": "学校や組織のルールに息苦しさを感じながらも、完全に切り捨てることができずにいる10代後半から20代前半の若者。",
+        "character_profile": {
+          "appearance_profile": "長大な鼻と高下駄の天狗が両腕を水平に広げて仁王立ちし、背後に鈍く輝く後光の輪をまとっている。折れた旗印を脇に携え、羽毛と布が風圧でめくれあがっている。",
+          "motion_profile": "着地の瞬間だけ両腕が限界まで開き、折れた旗印が弧を描いて地面をかすめる。"
+        },
+        "phase1_base": "天狗",
+        "phase2_condition": "両腕を広げて立つ・後光",
+        "phase3_anchor": "折れた旗印"
+      },
+      "created_at": "2026-03-26 03:54:52.394867",
+      "persona_name": "みずた りこ",
+      "persona_profile": {
+        "id": "persona-4c8b8788",
+        "name": "みずた りこ",
+        "gender": "女性",
+        "birthdate": "2013-12-21",
+        "life_history": [
+          {
+            "year": 2013,
+            "event": "岡山市内の総合病院で出生。母親は看護師、父親は地方銀行員。"
+          },
+          {
+            "year": 2020,
+            "event": "小学校入学。給食を一度も残さず完食する記録を1年間継続した。"
+          },
+          {
+            "year": 2024,
+            "event": "小学4年時、クラスの飼育係として校庭のウサギ小屋の清掃と餌やりを担当。冬季は毎朝6時45分に登校していた。"
+          },
+          {
+            "year": 2027,
+            "event": "中学入学後、陸上部に所属。800m走で県大会出場を果たしたが予選敗退。"
+          },
+          {
+            "year": 2030,
+            "event": "高校は普通科に進学。図書委員として月間貸出冊数の集計作業を2年間担当した。"
+          },
+          {
+            "year": 2032,
+            "event": "大学受験で第一志望の国立大学に不合格。地元の私立大学経済学部に入学。"
+          },
+          {
+            "year": 2034,
+            "event": "大学2年次、コンビニエンスストアで週4日の夜勤アルバイトを開始。商品発注システムの効率化を提案し採用された。"
+          },
+          {
+            "year": 2036,
+            "event": "卒業後、地元のスーパーマーケットチェーンに正社員として就職。青果部門に配属される。"
+          }
+        ],
+        "current_situation": "現在23歳。岡山市内のスーパーマーケット青果部門で勤務3年目。季節野菜の仕入れと陳列レイアウトを担当している。実家から車で15分のワンルームアパートで一人暮らし。月に2回、母親が夕食を持って訪ねてくる。休日は近所のスポーツジムで水泳をするか、図書館で実用書を読んで過ごすことが多い。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ。話しかけられるまで自分から発言しないため、とっつきにくいと思われがち。",
+          "close_friends_view": "一度信頼関係ができると非常に頼りになる。約束を必ず守り、頼まれごとを最後までやり遂げる。地味だが確実な仕事ぶりを評価されている。",
+          "misunderstandings": "無表情でいることが多いため、不機嫌だと勘違いされることがある。実際には特に何も考えていないか、作業に集中しているだけのことが多い。"
+        },
+        "proposal_history": [
+          {
+            "session": "coffee_zombie_test_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "物理的に触れられないものだけが、本当に傷つけずにいられる距離",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "coffee_zombie_test_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": true
+          },
+          {
+            "session": "stability_test_1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "反復される呼びかけによってのみ、存在が維持される関係",
+            "rank": 3,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "stability_test_1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          }
+        ],
+        "stance_on_past": "他人事のように距離を置いて見ている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-4c8b8788.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-35152d9a",
+      "B": "sl2a-d9357978",
+      "C": "sl2a-ea5f17d7"
+    },
+    "tally": {
+      "A": 6,
+      "B": 6,
+      "C": 8
+    },
+    "like_tally": {
+      "A": 2,
+      "B": 5,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 1,
+      "C": 5
+    },
+    "votes": [
+      {
+        "voter": "Catalina Rosaura Villafuerte",
+        "like": "B",
+        "like_reason": "ゴーレムと割れた鎖の首輪は「束縛からの解放」を想わせ、未亡人として独立して生きる自分の境遇と重なる。石と鎖の素材感は輸送業・交易の現実の重さにも通じる。",
+        "dislike": "C",
+        "dislike_reason": "天狗と後光、折れた旗印は宗教的・神秘的すぎてカトリックの価値観に馴染まず、何を表現したいのか見当がつかない。"
+      },
+      {
+        "voter": "中村 健太",
+        "like": "A",
+        "like_reason": "ぬいぐるみ×革ジャン四本腕という組み合わせが奇妙で面白い。ほどけた靴紐という日常的な小道具が身近に感じられ、映像として想像しやすい。",
+        "dislike": "C",
+        "dislike_reason": "天狗と後光は大げさで説教くさい印象がある。折れた旗印も何を意味するのかピンとこない。"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "C",
+        "like_reason": "天狗が両腕を広げて立つ姿と後光は、広場で昔話を語る時の英雄的な場面を連想させる。折れた旗印は落ちた権威への皮肉で、聴衆が喜びそうだ。",
+        "dislike": "A",
+        "dislike_reason": "ぬいぐるみは子供のおもちゃの印象が強く、酒場の常連に語って聞かせるには頼りなく見える。"
+      },
+      {
+        "voter": "ミン・チェン",
+        "like": "B",
+        "like_reason": "ゴーレムの石肌・坊主頭はシンプルで機能的な造形美がある。割れた鎖の首輪はコスト削減や規制の突破を連想させ、ビジネスのメタファーとして読める。",
+        "dislike": "C",
+        "dislike_reason": "後光や旗印は政治的・宗教的メッセージに見えてしまい、ビジネス上のリスクを感じる。実用的な観点から遠い。"
+      },
+      {
+        "voter": "Catalina Isabel de Fuentes",
+        "like": "C",
+        "like_reason": "天狗の後光と折れた旗印は、神聖さと失墜した権威という対比が教会の説話に通じる。両腕を広げた姿は聖人像を想起させ、宗教的な美しさを感じる。",
+        "dislike": "A",
+        "dislike_reason": "革ジャン四本腕のぬいぐるみは品がなく、商人家族や婦人会の集まりで話題にするには下品すぎる。ほどけた靴紐も卑俗な印象。"
+      },
+      {
+        "voter": "Parvati Chandra de la Cruz",
+        "like": "B",
+        "like_reason": "石の肌と坊主頭は修道士や聖人像を想起させ、鎖の首輪が解かれるイメージは救済と解放の神学的テーマに共鳴する。教会で見慣れた彫像の重厚さと近い。",
+        "dislike": "A",
+        "dislike_reason": "ぬいぐるみに革ジャンと四本腕という組み合わせは、73歳の敬虔なカトリック信者には悪魔的あるいは異教的な奇怪さとして映り、中庭の静けさの中で思い浮かべたくない。"
+      },
+      {
+        "voter": "松田 文之助",
+        "like": "C",
+        "like_reason": "天狗は山の守り神であり、江戸時代の行商人にとって道中の安全を願う対象に近い。折れた旗印は失意や苦難を経た後の姿で、自分の境遇と重なり心に刺さる。",
+        "dislike": "A",
+        "dislike_reason": "ぬいぐるみという概念自体が1748年の大坂の行商人には馴染みが薄く、革ジャンと四本腕の組み合わせは妖怪の域を超えて意味不明に感じる。帳簿の数字と違って筋道が読めない。"
+      },
+      {
+        "voter": "張文耀",
+        "like": "B",
+        "like_reason": "石の重さと堅固さは、港湾の倉庫で重い荷を扱ってきた者には実感を持って理解できる。割れた鎖は束縛からの解放を示し、体の古傷を抱えて一人で生きてきた自分の歩みに重なる。",
+        "dislike": "C",
+        "dislike_reason": "天狗は自分の文化圏では馴染みがなく、後光と両腕を広げた威圧的な姿勢は、人混みが苦手で静かに生きてきた自分には近づきがたい。折れた旗印も抽象的すぎて像が結ばない。"
+      },
+      {
+        "voter": "Wei Lianhua",
+        "like": "B",
+        "like_reason": "2320年の世界では石造りの存在は古代の記憶だが、割れた鎖の首輪は旧世代の抑圧構造が崩れたことを象徴し、高齢者集合住宅で年金生活を送る自分には静かな共感がある。",
+        "dislike": "C",
+        "dislike_reason": "天狗という概念は22世紀以降のデジタル文化保存データで知っているが、後光と翼の大仰な権威的ポーズは、補助年金で慎ましく生きる自分の感覚とは遠く、見ていて疲れる。"
+      },
+      {
+        "voter": "Youssef Tanaka",
+        "like": "A",
+        "like_reason": "ぬいぐるみが革ジャンを着て四本腕というのは普通にかっこいしシュールで面白い。友達に話したくなるやつ。サッカーよりこっちが今の自分の気分に合ってる。",
+        "dislike": "B",
+        "dislike_reason": "石肌のゴーレムに坊主頭って地味すぎ。割れた鎖も暗い感じで、駄菓子屋帰りに頭に浮かべたいイメージじゃない。テンション上がらない。"
+      }
+    ],
+    "analysis": "[batch 1] BとCがそれぞれ2票のlikeを獲得し、Aは1票と最も少ない。Bは「解放・自立・実用」という現実的・世俗的文脈で支持され、Cは「英雄性・宗教的権威・物語性」という象徴的文脈で支持された。Aのぬいぐるみは日本の現代ペルソナには親しみやすいが、他の文化圏・時代のペルソナからは「軽薄・幼稚」として嫌われる傾向が見られた。\n[batch 2] BとAが票を二分する展開となった。Bは石・鎖・解放というモチーフが時代・文化を問わず普遍的な重厚感として受容され、特に労働経験や信仰を持つ年長層に支持された。AはYoussefのような現代の若者にシュールでポップな魅力として刺さった。Cは天狗という文化圏外の存在と権威的な外見が複数のペルソナに距離感を与え、支持を集めきれなかった。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.2972734327035422,
+      "B": 0.6486367163517711,
+      "C": 1.6479184330021646
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}
