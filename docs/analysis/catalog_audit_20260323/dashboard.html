@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Persona Dashboard Hub</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Persona Dashboard</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html" class="active">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel">
+    <h2 class="section-title">Pages</h2>
+    <ul class="hub-grid" aria-label="Dashboard pages">
+      <li>
+        <a class="hub-card" href="./dashboard_brief.html">
+          <h3>Brief</h3>
+          <div class="small">人間向けの意思決定サマリー。最初にここを見る。</div>
+        </a>
+      </li>
+      <li>
+        <a class="hub-card" href="./dashboard_overview.html">
+          <h3>Analysis</h3>
+          <div class="small">phase KPI、採択率マトリクス、catalog coverage、timeline を確認。</div>
+        </a>
+      </li>
+      <li>
+        <a class="hub-card" href="./dashboard_voting.html">
+          <h3>Voting</h3>
+          <div class="small">投票参加率、理由の要素抽出、頻出語、proposalごとの好き/嫌い理由を確認。</div>
+        </a>
+      </li>
+      <li>
+        <a class="hub-card" href="./dashboard_personas.html">
+          <h3>Personas</h3>
+          <div class="small">ペルソナ別タブで詳細プロフィールと提案履歴を確認。</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="panel">
+    <h2 class="section-title">Quick Stats</h2>
+    <ul class="cards" id="quickCards" aria-label="Quick stats"></ul>
+  </div>
+
+  <div class="panel">
+    <h2 class="section-title">Start Here（推奨フロー）</h2>
+    <ol class="priority-list">
+      <li><a href="./dashboard_brief.html#brief-summary">Brief: まず結論と優先タスクを確認</a></li>
+      <li><a href="./dashboard_voting.html#vote-cockpit">Voting: 接戦・高論争提案の理由差分を確認</a></li>
+      <li><a href="./dashboard_overview.html#sec-ux">Analysis: 統計指標を掘って再発防止に接続</a></li>
+      <li><a href="./dashboard_personas.html#persona-explorer">Personas: 対象ペルソナの採択確度と比較強度を確認</a></li>
+    </ol>
+  </div>
+
+  <div class="panel">
+    <h2 class="section-title">操作ログ（ローカル）</h2>
+    <div class="small">タスク開始/終了の操作は不要です。ページ操作を自動記録します。</div>
+    <div class="small" id="uxHubSummary">-</div>
+    <div class="action-row">
+      <button type="button" id="uxHubRefresh">再集計</button>
+      <button type="button" id="uxHubClear">UXログ削除</button>
+    </div>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, getUXSummary, clearUXLogs, trackUXEvent } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const metaLine = document.getElementById("metaLine");
+  metaLine.textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+
+  const badges = document.getElementById("qualityBadges");
+  badges.innerHTML = `
+    <span class="badge">sessions: ${num(data?.phase_presence?.session_total || 0)}</span>
+    <span class="badge alert" style="margin-left:8px;">anomalies: ${num(data?.data_quality?.anomaly_count || 0)}</span>
+    <span class="badge alert" style="margin-left:8px;">incomplete events: ${num(data?.data_quality?.incomplete_event_count || 0)}</span>
+  `;
+
+  const quick = document.getElementById("quickCards");
+  const kpis = data.phase_kpi_summary || [];
+  const totals = {
+    sessions: kpis.reduce((a, b) => a + Number(b.sessions_total || 0), 0),
+    usable: kpis.reduce((a, b) => a + Number(b.sessions_usable || 0), 0),
+    proposals: kpis.reduce((a, b) => a + Number(b.proposals_total || 0), 0),
+    personas: (data.persona_profiles || []).length,
+    proposalEvents: (data.proposal_events || []).length,
+    phaseCount: kpis.length,
+  };
+
+  const cards = [
+    ["Sessions Total", num(totals.sessions)],
+    ["Sessions Usable", num(totals.usable)],
+    ["Proposal Events", num(totals.proposalEvents)],
+    ["Proposals Total", num(totals.proposals)],
+    ["Persona Profiles", num(totals.personas)],
+    ["Phases", num(totals.phaseCount)],
+  ];
+
+  quick.innerHTML = cards
+    .map(([k, v]) => `<li class="card"><dl><dt class="k">${k}</dt><dd class="v">${v}</dd></dl></li>`)
+    .join("");
+
+  function renderUXHub() {
+    const s = getUXSummary(7);
+    document.getElementById("uxHubSummary").textContent =
+      `7日間: 操作イベント=${num(s.event_count)} / 閲覧ページ=${Object.keys(s.page_events || {}).length} / サンプル=${num(s.samples)}`;
+  }
+
+  document.getElementById("uxHubRefresh").addEventListener("click", () => {
+    trackUXEvent("hub", "ux_refresh", {});
+    renderUXHub();
+  });
+  document.getElementById("uxHubClear").addEventListener("click", () => {
+    clearUXLogs();
+    trackUXEvent("hub", "ux_clear", {});
+    renderUXHub();
+  });
+  trackUXEvent("hub", "page_open", {});
+  renderUXHub();
+})();
+</script>
+</body>
+</html>

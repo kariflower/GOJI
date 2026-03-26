@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Voting</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Voting</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_voting.html" class="active">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="vote-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Voting filters">
+      <div class="field">
+        <label>PHASE FILTER</label>
+        <select id="phaseFilter">
+          <option value="all">all</option>
+          <option value="phase1">テーマ</option>
+          <option value="phase2a">キャラクター</option>
+          <option value="phase3">世界観</option>
+          <option value="phase4a">あらすじ</option>
+          <option value="phase4s">ビジュアル</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>ROW LIMIT</label>
+        <input id="proposalLimit" type="number" min="20" max="500" value="120" />
+      </div>
+      <div class="field">
+        <label>SEARCH (proposal/voter/reason/session)</label>
+        <input id="proposalSearch" type="text" placeholder="例: 鹿 / 不安 / persona名 / session-id" />
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="vote-cockpit">
+    <h2 class="section-title">投票オペレーション・コックピット</h2>
+    <div class="small">最初に判断するための要約です。phase/検索/フォーカスモードを反映します。</div>
+    <div class="ux-grid" id="voteOpsCards"></div>
+    <div class="action-row">
+      <button type="button" id="voteModeAll">全件</button>
+      <button type="button" id="voteModeClose">接戦だけ</button>
+      <button type="button" id="voteModeControversy">高論争だけ</button>
+      <button type="button" id="voteModeMissingReasons">理由欠損だけ</button>
+    </div>
+    <ol class="priority-list" id="voteOpsList"></ol>
+  </div>
+
+  <div class="panel section-id" id="vote-analytics">
+    <h2 class="section-title">Voter Persona Analytics（投票参加率 / 理由分析）</h2>
+    <div class="small">phase filter を反映。投票理由から要素カテゴリと頻出単語を抽出します。</div>
+    <div style="overflow:auto; margin-top:8px;">
+      <table id="voterTable"></table>
+    </div>
+  </div>
+
+  <div class="panel section-id" id="vote-proposals">
+    <h2 class="section-title">Proposal + Vote Detail</h2>
+    <div class="small" id="proposalMeta"></div>
+    <div style="overflow:auto; margin-top:8px;">
+      <table id="proposalTable"></table>
+    </div>
+  </div>
+
+  <div class="panel section-id" id="vote-shadow">
+    <h2 class="section-title">Shadow Metrics（優先度順）</h2>
+    <div class="small">Aは常時確認、Bは必要時のみ展開（観測専用）。</div>
+
+    <details class="fold fold-priority-a" open>
+      <summary>A. Voting Shadow Metrics（free energy / drift / changepoint）</summary>
+      <div class="fold-body">
+        <table id="voteShadowTable"></table>
+      </div>
+    </details>
+
+    <details class="fold fold-priority-b">
+      <summary>B. Catalog Bandit Top20（UCB1）</summary>
+      <div class="fold-body">
+        <table id="voteBanditTable"></table>
+      </div>
+    </details>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, pct, num, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const phaseFilter = document.getElementById("phaseFilter");
+  const proposalSearchInput = document.getElementById("proposalSearch");
+  const proposalLimitInput = document.getElementById("proposalLimit");
+  const voteModeAllBtn = document.getElementById("voteModeAll");
+  const voteModeCloseBtn = document.getElementById("voteModeClose");
+  const voteModeControversyBtn = document.getElementById("voteModeControversy");
+  const voteModeMissingReasonsBtn = document.getElementById("voteModeMissingReasons");
+  const UX_STATE_KEY = "goji_dashboard_voting_state_v1";
+  let voteFocusMode = "all";
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(UX_STATE_KEY);
+      if (!raw) return;
+      const s = JSON.parse(raw);
+      if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
+      if (Number.isFinite(Number(s.limit))) proposalLimitInput.value = String(Math.max(20, Math.min(500, Number(s.limit))));
+      if (typeof s.search === "string") proposalSearchInput.value = s.search;
+      if (typeof s.mode === "string") voteFocusMode = s.mode;
+    } catch (e) {}
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        UX_STATE_KEY,
+        JSON.stringify({
+          phase: phaseFilter.value,
+          limit: Number(proposalLimitInput.value || 120),
+          search: String(proposalSearchInput.value || ""),
+          mode: voteFocusMode,
+        })
+      );
+    } catch (e) {}
+  }
+
+  function updateModeButtons() {
+    const map = [
+      [voteModeAllBtn, "all"],
+      [voteModeCloseBtn, "close"],
+      [voteModeControversyBtn, "controversy"],
+      [voteModeMissingReasonsBtn, "missing_reasons"],
+    ];
+    map.forEach(([btn, mode]) => {
+      if (!btn) return;
+      if (voteFocusMode === mode) btn.classList.add("active");
+      else btn.classList.remove("active");
+    });
+  }
+
+  function buildMeta() {
+    document.getElementById("metaLine").textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+    const q = document.getElementById("qualityBadges");
+    q.innerHTML = `
+      <span class="badge">sessions: ${num(data.phase_presence.session_total)}</span>
+      <span class="badge alert" style="margin-left:8px;">anomalies: ${num(data.data_quality.anomaly_count)}</span>
+      <span class="badge alert" style="margin-left:8px;">incomplete events: ${num(data.data_quality.incomplete_event_count)}</span>
+    `;
+  }
+
+  function applyFocusMode(rows) {
+    if (voteFocusMode === "close") {
+      return rows.filter((r) => Math.abs(Number(r.like || 0) - Number(r.dislike || 0)) <= 1);
+    }
+    if (voteFocusMode === "controversy") {
+      return rows.filter((r) => Number(r.controversy || 0) >= 1.5);
+    }
+    if (voteFocusMode === "missing_reasons") {
+      return rows.filter((r) => Number(r.like_vote_count || 0) + Number(r.dislike_vote_count || 0) === 0);
+    }
+    return rows;
+  }
+
+  function applySearch(rows) {
+    const q = String(proposalSearchInput.value || "").trim().toLowerCase();
+    if (!q) return rows;
+    return rows.filter((r) => {
+      const likeTxt = (r.like_vote_detail || []).map((v) => `${v.voter || ""} ${v.reason || ""}`).join(" ");
+      const dislikeTxt = (r.dislike_vote_detail || []).map((v) => `${v.voter || ""} ${v.reason || ""}`).join(" ");
+      const hay = `${r.phase || ""} ${r.session_id || ""} ${r.proposal_id || ""} ${r.candidate_key || ""} ${r.persona_name || ""} ${r.proposal_summary || ""} ${r.proposal_detail || ""} ${likeTxt} ${dislikeTxt}`.toLowerCase();
+      return hay.includes(q);
+    });
+  }
+
+  function filteredEvents(options) {
+    const opts = options || {};
+    const ph = phaseFilter.value;
+    let rows = (data.proposal_events || []).filter((r) => ph === "all" || r.phase === ph);
+    if (opts.withMode !== false) rows = applyFocusMode(rows);
+    if (opts.withSearch !== false) rows = applySearch(rows);
+    return rows;
+  }
+
+  function renderVoterAnalytics() {
+    const rows = filteredEvents();
+    const eventParticipants = new Map();
+    const eventVoters = new Map();
+    const voterStats = new Map();
+
+    function ensureStat(name) {
+      const key = name || "unknown";
+      if (!voterStats.has(key)) {
+        voterStats.set(key, { persona_name: key, like_reasons: [], dislike_reasons: [], opportunities: 0, voted_events: 0 });
+      }
+      return voterStats.get(key);
+    }
+
+    rows.forEach((r) => {
+      const eventKey = `${r.phase}|${r.session_id}`;
+      if (!eventParticipants.has(eventKey)) eventParticipants.set(eventKey, new Set());
+      if (!eventVoters.has(eventKey)) eventVoters.set(eventKey, new Set());
+      if (r.persona_name) eventParticipants.get(eventKey).add(r.persona_name);
+
+      (r.like_vote_detail || []).forEach((v) => {
+        const voter = String(v?.voter || "").trim();
+        if (!voter) return;
+        eventVoters.get(eventKey).add(voter);
+        const st = ensureStat(voter);
+        if (v?.reason) st.like_reasons.push(String(v.reason));
+      });
+      (r.dislike_vote_detail || []).forEach((v) => {
+        const voter = String(v?.voter || "").trim();
+        if (!voter) return;
+        eventVoters.get(eventKey).add(voter);
+        const st = ensureStat(voter);
+        if (v?.reason) st.dislike_reasons.push(String(v.reason));
+      });
+    });
+
+    for (const [eventKey, participants] of eventParticipants.entries()) {
+      const voted = eventVoters.get(eventKey) || new Set();
+      for (const p of participants) {
+        const st = ensureStat(p);
+        st.opportunities += 1;
+        if (voted.has(p)) st.voted_events += 1;
+      }
+    }
+
+    const list = Array.from(voterStats.values())
+      .map((st) => ({
+        ...st,
+        participation: st.opportunities > 0 ? st.voted_events / st.opportunities : 0,
+        like_count: st.like_reasons.length,
+        dislike_count: st.dislike_reasons.length,
+        like_top: topTokens(st.like_reasons, 8),
+        dislike_top: topTokens(st.dislike_reasons, 8),
+        like_elements: extractReasonElements(st.like_reasons, 6),
+        dislike_elements: extractReasonElements(st.dislike_reasons, 6),
+      }))
+      .filter((r) => r.like_count > 0 || r.dislike_count > 0 || r.opportunities > 0)
+      .sort((a, b) => (b.participation - a.participation) || (b.voted_events - a.voted_events) || a.persona_name.localeCompare(b.persona_name))
+      .slice(0, 220);
+
+    const table = document.getElementById("voterTable");
+    table.innerHTML = '<thead><tr><th>persona</th><th class="num">opportunities</th><th class="num">voted</th><th class="num">participation</th><th class="num">like理由</th><th class="num">dislike理由</th><th>like頻出語</th><th>dislike頻出語</th><th>like要素</th><th>dislike要素</th></tr></thead>';
+    const body = list
+      .map((r) => `<tr><td>${esc(r.persona_name)}</td><td class="num">${num(r.opportunities)}</td><td class="num">${num(r.voted_events)}</td><td class="num">${pct(r.participation)}</td><td class="num">${num(r.like_count)}</td><td class="num">${num(r.dislike_count)}</td><td>${renderTokenList(r.like_top, "word")}</td><td>${renderTokenList(r.dislike_top, "word")}</td><td>${renderTokenList(r.like_elements, "element")}</td><td>${renderTokenList(r.dislike_elements, "element")}</td></tr>`)
+      .join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
+  function renderVoteOps() {
+    const rows = filteredEvents();
+    const total = rows.length;
+    const reasonCoverage = rows.filter((r) => (r.like_vote_count || 0) + (r.dislike_vote_count || 0) > 0).length;
+    const closeCalls = rows.filter((r) => Math.abs(Number(r.like || 0) - Number(r.dislike || 0)) <= 1).length;
+    const highCont = rows.filter((r) => Number(r.controversy || 0) >= 1.5).length;
+
+    document.getElementById("voteOpsCards").innerHTML = [
+      {
+        title: "表示中提案",
+        value: num(total),
+        hint: "phase/search適用後の件数",
+      },
+      {
+        title: "理由カバレッジ",
+        value: total > 0 ? pct(reasonCoverage / total) : "0.0%",
+        hint: "like/dislike理由が1件以上ある提案比率",
+      },
+      {
+        title: "接戦率",
+        value: total > 0 ? pct(closeCalls / total) : "0.0%",
+        hint: "like-dislike差が小さい提案比率",
+      },
+    ]
+      .map((c) => `<article class="ux-card"><h3>${c.title}</h3><div class="value">${c.value}</div><div class="hint">${c.hint}</div></article>`)
+      .join("");
+
+    const ops = [
+      `1. 接戦提案 ${num(closeCalls)} 件を優先確認して、理由の質で差分判断（#vote-proposals）`,
+      `2. 高論争提案 ${num(highCont)} 件を抽出し、嫌い理由の共通因子を確認（#vote-analytics）`,
+      `3. Shadow Metrics で phase の温度調整候補を確認（#vote-shadow）`,
+    ];
+    document.getElementById("voteOpsList").innerHTML = ops.map((x) => `<li>${x}</li>`).join("");
+  }
+
+  function renderProposalDetails() {
+    const limit = Math.max(20, Math.min(500, Number(proposalLimitInput.value || 120)));
+    let rows = filteredEvents();
+    rows.sort((a, b) => String(b.session_id || "").localeCompare(String(a.session_id || "")) || Number(a.proposal_index || 0) - Number(b.proposal_index || 0));
+    const total = rows.length;
+    rows = rows.slice(0, limit);
+    const modeLabel = voteFocusMode === "close"
+      ? "接戦"
+      : voteFocusMode === "controversy"
+        ? "高論争"
+        : voteFocusMode === "missing_reasons"
+          ? "理由欠損"
+          : "全件";
+    const searchLabel = String(proposalSearchInput.value || "").trim() ? "あり" : "なし";
+    document.getElementById("proposalMeta").textContent = `表示: ${num(rows.length)} / ${num(total)} | mode=${modeLabel} | search=${searchLabel}`;
+    const table = document.getElementById("proposalTable");
+    table.innerHTML = '<thead><tr><th>phase/session</th><th>key</th><th>persona</th><th class="num">like</th><th class="num">dislike</th><th class="num">tally</th><th>proposal</th><th>vote reasons</th></tr></thead>';
+    const body = rows
+      .map((r) => {
+        const likeReasons = (r.like_vote_detail || []).map((v) => `<li class="reason-like">+ ${esc(v.voter)}: ${esc(v.reason || "")}</li>`).join("");
+        const dislikeReasons = (r.dislike_vote_detail || []).map((v) => `<li class="reason-dislike">- ${esc(v.voter)}: ${esc(v.reason || "")}</li>`).join("");
+        const win = Number(r.winner) === 1;
+        return `<tr><td><div class="nowrap">${esc(phaseLabel(r.phase))}</div><div class="small">${esc(r.session_id)}</div></td><td><div><span class="pill ${win ? "win" : ""}">${win ? "WIN" : "LOSE"}</span> <span class="pill">${esc(r.candidate_key || "-")}</span></div><div class="small">${esc(r.proposal_id || "")}</div></td><td>${esc(r.persona_name || "-")}</td><td class="num">${Number(r.like || 0).toFixed(2)}</td><td class="num">${Number(r.dislike || 0).toFixed(2)}</td><td class="num">${Number(r.tally || 0).toFixed(2)}</td><td><div class="proposal-summary">${esc(r.proposal_summary || "(summaryなし)")}</div><div class="small proposal-detail">${esc(r.proposal_detail || "")}</div></td><td><ul class="reason-list">${likeReasons || '<li class="small">like reason なし</li>'}${dislikeReasons || '<li class="small">dislike reason なし</li>'}</ul></td></tr>`;
+      })
+      .join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+    updateModeButtons();
+  }
+
+  function renderVoteShadow() {
+    const phase = phaseFilter.value;
+    const statRows = (data.statistical_mechanics || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftRows = ((data.drift_metrics || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const changeRows = ((data.changepoint_signals || {}).events || []).filter((r) => phase === "all" || r.phase === phase);
+    const advCpRows = ((data.advanced_changepoints || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftMap = new Map(driftRows.map((r) => [r.phase, r]));
+    const changeMap = new Map();
+    changeRows.forEach((r) => {
+      const k = String(r.phase || "");
+      changeMap.set(k, (changeMap.get(k) || 0) + 1);
+    });
+    const advMap = new Map(advCpRows.map((r) => [String(r.phase || ""), Number(r.changepoint_count || 0)]));
+
+    const table = document.getElementById("voteShadowTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th class="num">free_energy</th><th class="num">temperature</th><th class="num">latest_js</th><th class="num">cp(zscore)</th><th class="num">cp(advanced)</th><th>action</th></tr></thead>';
+    table.innerHTML += `<tbody>${statRows
+      .sort((a, b) => String(a.phase || "").localeCompare(String(b.phase || "")))
+      .map((r) => {
+        const d = driftMap.get(r.phase) || {};
+        const cp = changeMap.get(r.phase) || 0;
+        const cpAdv = advMap.get(String(r.phase || "")) || 0;
+        return `<tr><td>${esc(phaseLabel(r.phase || "-"))}</td><td class="num">${Number(r.free_energy || 0).toFixed(3)}</td><td class="num">${Number(r.temperature || 0).toFixed(3)}</td><td class="num">${Number(d.js_combined_latest || 0).toFixed(4)}</td><td class="num">${num(cp)}</td><td class="num">${num(cpAdv)}</td><td><span class="pill">${esc(r.temperature_action || "-")}</span></td></tr>`;
+      })
+      .join("")}</tbody>`;
+  }
+
+  function renderBandit() {
+    const phase = phaseFilter.value;
+    let rows = (data.catalog_bandit_scores || []).filter((r) => phase === "all" || r.phase === phase);
+    const thRows = (data.thompson_sampling || []).filter((r) => phase === "all" || r.phase === phase);
+    const thMap = new Map(thRows.map((r) => [`${r.phase}|${r.dimension}|${r.catalog_id}`, r]));
+    rows = rows
+      .filter((r) => Number(r.proposal_count || 0) > 0)
+      .sort((a, b) => Number(b.ucb1_score || 0) - Number(a.ucb1_score || 0))
+      .slice(0, 20);
+
+    const table = document.getElementById("voteBanditTable");
+    table.innerHTML = '<thead><tr><th>phase.dim</th><th>item</th><th class="num">wins/n</th><th class="num">adoption</th><th class="num">CI95</th><th class="num">ucb1</th><th class="num">P(best)</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows
+      .map((r) => {
+        const key = `${r.phase}|${r.dimension}|${r.catalog_id}`;
+        const th = thMap.get(key) || {};
+        return `<tr><td>${esc(phaseLabel(r.phase || ""))}.${esc(r.dimension || "")}</td><td>${esc(r.label || "")}<div class="small">${esc(r.catalog_id || "")}</div></td><td class="num">${num(r.winner_count)}/${num(r.proposal_count)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${pct(r.adoption_ci_low || 0)} - ${pct(r.adoption_ci_high || 0)}</td><td class="num">${Number(r.ucb1_score || 0).toFixed(3)}</td><td class="num">${pct(th.thompson_prob_best || 0)}</td></tr>`;
+      })
+      .join("")}</tbody>`;
+  }
+
+  function renderAll() {
+    renderVoteOps();
+    renderVoterAnalytics();
+    renderProposalDetails();
+    renderVoteShadow();
+    renderBandit();
+  }
+
+  phaseFilter.addEventListener("change", () => {
+    trackUXEvent("voting", "phase_change", { phase: phaseFilter.value, mode: voteFocusMode });
+    renderAll();
+    saveState();
+  });
+  proposalSearchInput.addEventListener("input", () => {
+    trackUXEvent("voting", "search_change", { query: String(proposalSearchInput.value || "") });
+    renderAll();
+    saveState();
+  });
+  proposalLimitInput.addEventListener("input", () => {
+    trackUXEvent("voting", "limit_change", { limit: Number(proposalLimitInput.value || 120) });
+    renderProposalDetails();
+    saveState();
+  });
+  voteModeAllBtn.addEventListener("click", () => {
+    voteFocusMode = "all";
+    trackUXEvent("voting", "focus_mode", { mode: voteFocusMode });
+    renderAll();
+    saveState();
+  });
+  voteModeCloseBtn.addEventListener("click", () => {
+    voteFocusMode = "close";
+    trackUXEvent("voting", "focus_mode", { mode: voteFocusMode });
+    renderAll();
+    saveState();
+  });
+  voteModeControversyBtn.addEventListener("click", () => {
+    voteFocusMode = "controversy";
+    trackUXEvent("voting", "focus_mode", { mode: voteFocusMode });
+    renderAll();
+    saveState();
+  });
+  voteModeMissingReasonsBtn.addEventListener("click", () => {
+    voteFocusMode = "missing_reasons";
+    trackUXEvent("voting", "focus_mode", { mode: voteFocusMode });
+    renderAll();
+    saveState();
+  });
+
+  buildMeta();
+  loadState();
+  trackUXEvent("voting", "page_open", { phase: phaseFilter.value, mode: voteFocusMode });
+  renderAll();
+})();
+</script>
+</body>
+</html>

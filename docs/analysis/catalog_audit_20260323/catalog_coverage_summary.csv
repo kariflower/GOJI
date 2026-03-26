@@ -1,0 +1,8 @@
+phase,dimension,phase_sessions,dimension_sessions,catalog_total,used_items,unused_items,winner_used_items,used_ratio,hhi_proposal,top1_share
+phase2,phase1_base,71,71,99,67,32,40,0.676768,0.032291,0.093897
+phase2,phase2_condition,71,71,126,105,21,67,0.833333,0.015544,0.038005
+phase2,phase3_anchor,71,71,94,60,34,35,0.638298,0.030871,0.060465
+phase3,candidate_keywords,71,46,188,188,0,188,1.0,0.005431,0.007664
+phase4a,tone,38,10,24,21,3,10,0.875,0.055556,0.1
+phase4a,genre,38,10,18,16,2,8,0.888889,0.077778,0.133333
+phase4s,style,11,11,16,15,1,7,0.9375,0.07438,0.090909

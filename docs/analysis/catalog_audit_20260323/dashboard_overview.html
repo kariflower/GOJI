@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Analysis</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Analysis</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html" class="active">Analysis</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="sec-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Overview filters">
+      <div class="field">
+        <label>PHASE FILTER</label>
+        <select id="phaseFilter">
+          <option value="all">all</option>
+          <option value="phase1">テーマ</option>
+          <option value="phase2a">キャラクター</option>
+          <option value="phase3">世界観</option>
+          <option value="phase4a">あらすじ</option>
+          <option value="phase4s">ビジュアル</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>MIN PROPOSALS / PERSONA</label>
+        <input id="minProposals" type="number" min="1" value="1" />
+      </div>
+      <div class="field">
+        <label>DIMENSION (Catalog Table)</label>
+        <select id="dimensionFilter">
+          <option value="all">all</option>
+        </select>
+      </div>
+    </form>
+    <ul class="cards" id="kpiCards" aria-label="KPI cards"></ul>
+  </div>
+
+  <div class="panel section-id" id="sec-ux">
+    <h2 class="section-title">意思決定コックピット</h2>
+    <div class="small">最初にここだけ見れば、次にどこを掘るべきか判断できます。</div>
+    <div class="ux-grid" id="uxFocusCards"></div>
+    <ol class="priority-list" id="uxActionList"></ol>
+    <div class="panel-subtle" style="margin-top:8px;">
+      <div class="small">操作ログ（ローカル・自動計測）</div>
+      <div class="small" id="uxSummaryLine" style="margin-top:6px;">-</div>
+    </div>
+  </div>
+
+  <div class="panel section-id" id="sec-matrix">
+    <h2 class="section-title">Persona × Phase Matrix</h2>
+    <div class="small">各セル: 採択率 / 採択数 / 提案数</div>
+    <div style="overflow:auto; margin-top:8px;">
+      <table class="matrix" id="matrixTable"></table>
+    </div>
+  </div>
+
+  <div class="panel section-id" id="sec-dist">
+    <h2 class="section-title">Winner vs Loser Distribution (phase別平均)</h2>
+    <table id="distTable"></table>
+  </div>
+
+  <div class="two-col section-id" id="sec-catalog">
+    <div class="panel">
+      <h2 class="section-title">Catalog Coverage Summary</h2>
+      <table id="coverageTable"></table>
+    </div>
+    <div class="panel">
+      <h2 class="section-title">Catalog Performance Top20</h2>
+      <table id="catalogTable"></table>
+    </div>
+  </div>
+
+  <div class="panel section-id" id="sec-timeline">
+    <h2 class="section-title">Session Timeline (by day)</h2>
+    <ul class="timeline-grid" id="timelineGrid" aria-label="Session timeline"></ul>
+  </div>
+
+  <div class="panel">
+    <h2 class="section-title">Shadow Analytics（優先度順）</h2>
+    <div class="small">Aは常時確認、B/Cは必要時のみ展開してください（観測専用・意思決定未接続）。</div>
+
+    <details class="fold fold-priority-a" open>
+      <summary>A1. Adoption Confidence（Wilson 95%）</summary>
+      <div class="fold-body">
+        <table id="adoptionPhaseTable"></table>
+      </div>
+    </details>
+
+    <details class="fold fold-priority-a" open>
+      <summary>A2. Statistical Mechanics（Entropy/Energy/Temperature/FreeEnergy）</summary>
+      <div class="fold-body">
+        <table id="statMechTable"></table>
+      </div>
+    </details>
+
+    <details class="fold fold-priority-b">
+      <summary>B. Drift / Change Signals（JSドリフト + z-score異常）</summary>
+      <div class="fold-body">
+        <table id="driftSummaryTable"></table>
+        <div style="height:8px;"></div>
+        <table id="changeTable"></table>
+      </div>
+    </details>
+
+    <details class="fold fold-priority-c">
+      <summary>C. Bradley-Terry Top20（比較評価の深掘り）</summary>
+      <div class="fold-body">
+        <table id="btTable"></table>
+      </div>
+    </details>
+
+    <details class="fold fold-priority-c">
+      <summary>D. TrueSkill / Thompson / Annealing / Advanced Changepoints</summary>
+      <div class="fold-body">
+        <table id="trueskillTable"></table>
+        <div style="height:8px;"></div>
+        <table id="thompsonTable"></table>
+        <div style="height:8px;"></div>
+        <table id="annealingTable"></table>
+        <div style="height:8px;"></div>
+        <table id="advancedCpTable"></table>
+      </div>
+    </details>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, pct, num, phaseLabel, trackUXEvent, getUXSummary } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const phaseFilter = document.getElementById("phaseFilter");
+  const minProposalsInput = document.getElementById("minProposals");
+  const dimensionFilter = document.getElementById("dimensionFilter");
+  const UX_STATE_KEY = "goji_dashboard_overview_state_v1";
+
+  const dims = Array.from(new Set((data.catalog_usage || []).map((r) => `${r.phase}.${r.dimension}`))).sort();
+  dims.forEach((d) => {
+    const op = document.createElement("option");
+    op.value = d;
+    const parts = String(d || "").split(".");
+    op.textContent = parts.length === 2 ? `${phaseLabel(parts[0])}.${parts[1]}` : d;
+    dimensionFilter.appendChild(op);
+  });
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(UX_STATE_KEY);
+      if (!raw) return;
+      const s = JSON.parse(raw);
+      if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
+      if (Number.isFinite(Number(s.minProposals))) minProposalsInput.value = String(Math.max(1, Number(s.minProposals)));
+      if (s.dimension && Array.from(dimensionFilter.options).some((o) => o.value === s.dimension)) dimensionFilter.value = s.dimension;
+    } catch (e) {}
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        UX_STATE_KEY,
+        JSON.stringify({
+          phase: phaseFilter.value,
+          minProposals: Number(minProposalsInput.value || 1),
+          dimension: dimensionFilter.value,
+        })
+      );
+    } catch (e) {}
+  }
+
+  function renderUXSummaryLine() {
+    const s = getUXSummary(7);
+    document.getElementById("uxSummaryLine").textContent =
+      `7日: 操作=${num(s.event_count)} / 閲覧ページ=${Object.keys(s.page_events || {}).length}（自動記録）`;
+  }
+
+  function bindDetailsTracking() {
+    document.querySelectorAll("details.fold").forEach((el) => {
+      if (el.dataset.boundUx === "1") return;
+      el.dataset.boundUx = "1";
+      el.addEventListener("toggle", () => {
+        const label = (el.querySelector("summary")?.textContent || "").trim();
+        trackUXEvent("overview", "fold_toggle", { label, open: !!el.open, phase: phaseFilter.value });
+      });
+    });
+  }
+
+  function buildMeta() {
+    document.getElementById("metaLine").textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+    const q = document.getElementById("qualityBadges");
+    q.innerHTML = `
+      <span class="badge">sessions: ${num(data.phase_presence.session_total)}</span>
+      <span class="badge alert" style="margin-left:8px;">anomalies: ${num(data.data_quality.anomaly_count)}</span>
+      <span class="badge alert" style="margin-left:8px;">incomplete events: ${num(data.data_quality.incomplete_event_count)}</span>
+    `;
+  }
+
+  function filteredPhaseKpis() {
+    const ph = phaseFilter.value;
+    return (data.phase_kpi_summary || []).filter((r) => ph === "all" || r.phase === ph);
+  }
+
+  function renderKpis() {
+    const cards = document.getElementById("kpiCards");
+    const rows = filteredPhaseKpis();
+    const totals = {
+      sessions_total: rows.reduce((a, b) => a + (b.sessions_total || 0), 0),
+      sessions_usable: rows.reduce((a, b) => a + (b.sessions_usable || 0), 0),
+      proposals_total: rows.reduce((a, b) => a + (b.proposals_total || 0), 0),
+      tiebreak_rate: rows.length ? rows.reduce((a, b) => a + (b.tiebreak_rate || 0), 0) / rows.length : 0,
+      goji_rate: rows.length ? rows.reduce((a, b) => a + (b.goji_intervention_rate || 0), 0) / rows.length : 0,
+      avg_controversy: rows.length ? rows.reduce((a, b) => a + (b.avg_controversy || 0), 0) / rows.length : 0,
+    };
+    const items = [
+      ["Sessions Total", num(totals.sessions_total)],
+      ["Sessions Usable", num(totals.sessions_usable)],
+      ["Proposals Total", num(totals.proposals_total)],
+      ["Avg Tie-break Rate", pct(totals.tiebreak_rate)],
+      ["Avg GOJI Intervention", pct(totals.goji_rate)],
+      ["Avg Controversy", totals.avg_controversy.toFixed(3)],
+    ];
+    cards.innerHTML = items
+      .map(([k, v]) => `<li class="card"><dl><dt class="k">${k}</dt><dd class="v">${v}</dd></dl></li>`)
+      .join("");
+  }
+
+  function renderMatrix() {
+    const table = document.getElementById("matrixTable");
+    const minP = Math.max(1, Number(minProposalsInput.value || 1));
+    const phase = phaseFilter.value;
+    const src = (data.persona_phase_summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const byPersona = new Map();
+    src.forEach((r) => {
+      const key = r.persona_id || `__${r.persona_name}`;
+      if (!byPersona.has(key)) byPersona.set(key, { persona_name: r.persona_name, rows: {} });
+      byPersona.get(key).rows[r.phase] = r;
+    });
+    const allPhases = ["phase1", "phase2a", "phase3", "phase4a", "phase4s"].filter((p) => phase === "all" || p === phase);
+    const persons = Array.from(byPersona.values())
+      .map((v) => {
+        const proposals = allPhases.reduce((a, p) => a + (v.rows[p]?.proposals || 0), 0);
+        const wins = allPhases.reduce((a, p) => a + (v.rows[p]?.wins || 0), 0);
+        return { ...v, proposals, wins };
+      })
+      .filter((v) => v.proposals >= minP)
+      .sort((a, b) => (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name));
+    const thead = `<thead><tr><th>persona</th>${allPhases.map((p) => `<th class="phase">${phaseLabel(p)}</th>`).join("")}</tr></thead>`;
+    const body = persons
+      .slice(0, 120)
+      .map((p) => {
+        const cells = allPhases
+          .map((ph) => {
+            const r = p.rows[ph];
+            if (!r) return '<td class="phase-cell"><div class="heat">-</div></td>';
+            const wr = Number(r.win_rate || 0);
+            const bg = `background: linear-gradient(90deg, rgba(117,233,255,${0.08 + wr * 0.45}), rgba(255,180,135,${0.05 + wr * 0.35}));`;
+            return `<td class="phase-cell"><div class="heat" style="${bg}">${pct(wr)}<div class="small">${r.wins}/${r.proposals}</div></div></td>`;
+          })
+          .join("");
+        return `<tr><td>${p.persona_name}<div class="small">wins ${p.wins} / proposals ${p.proposals}</div></td>${cells}</tr>`;
+      })
+      .join("");
+    table.innerHTML = `${thead}<tbody>${body}</tbody>`;
+  }
+
+  function renderDist() {
+    const phase = phaseFilter.value;
+    const rows = (data.distribution_by_phase || []).filter((r) => phase === "all" || r.phase === phase);
+    const table = document.getElementById("distTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th>group</th><th class="num">count</th><th class="num">avg_like</th><th class="num">avg_dislike</th><th class="num">avg_tally</th><th class="num">avg_controversy</th></tr></thead>';
+    const body = rows
+      .sort((a, b) => a.phase.localeCompare(b.phase) || a.group.localeCompare(b.group))
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}</td><td>${r.group}</td><td class="num">${num(r.count)}</td><td class="num">${Number(r.avg_like).toFixed(2)}</td><td class="num">${Number(r.avg_dislike).toFixed(2)}</td><td class="num">${Number(r.avg_tally).toFixed(2)}</td><td class="num">${Number(r.avg_controversy).toFixed(3)}</td></tr>`)
+      .join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
+  function renderCoverage() {
+    const phase = phaseFilter.value;
+    const rows = (data.catalog_coverage || []).filter((r) => phase === "all" || r.phase === phase);
+    const table = document.getElementById("coverageTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th class="num">sessions(usable)</th><th class="num">used/total</th><th class="num">used_ratio</th><th class="num">HHI</th><th class="num">top1_share</th></tr></thead>';
+    const body = rows
+      .sort((a, b) => (a.phase + a.dimension).localeCompare(b.phase + b.dimension))
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}.${r.dimension}</td><td class="num">${num(r.dimension_sessions)}</td><td class="num">${num(r.used_items)}/${num(r.catalog_total)}</td><td class="num">${pct(r.used_ratio)}</td><td class="num">${Number(r.hhi).toFixed(3)}</td><td class="num">${pct(r.top1_share)}</td></tr>`)
+      .join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
+  function renderCatalog() {
+    const phase = phaseFilter.value;
+    const dim = dimensionFilter.value;
+    let rows = (data.catalog_usage || []).filter((r) => phase === "all" || r.phase === phase);
+    if (dim !== "all") {
+      const [ph, dm] = dim.split(".");
+      rows = rows.filter((r) => r.phase === ph && r.dimension === dm);
+    }
+    rows = rows
+      .filter((r) => Number(r.proposal_count) > 0)
+      .sort((a, b) => Number(b.winner_count) - Number(a.winner_count) || Number(b.adoption_given_usage) - Number(a.adoption_given_usage) || Number(b.proposal_count) - Number(a.proposal_count))
+      .slice(0, 20);
+    const table = document.getElementById("catalogTable");
+    table.innerHTML = '<thead><tr><th>phase.dimension</th><th>item</th><th class="num">proposal</th><th class="num">winner</th><th class="num">adoption</th></tr></thead>';
+    const body = rows
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}.${r.dimension}</td><td>${r.label}<div class="small">${r.catalog_id}</div><div class="bar"><span style="width:${Math.min(100, Number(r.adoption_given_usage) * 100)}%"></span></div></td><td class="num">${num(r.proposal_count)}</td><td class="num">${num(r.winner_count)}</td><td class="num">${pct(r.adoption_given_usage)}</td></tr>`)
+      .join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
+  function renderTimeline() {
+    const phase = phaseFilter.value;
+    const rows = (data.timeline || []).filter((r) => phase === "all" || r.phase === phase);
+    const box = document.getElementById("timelineGrid");
+    box.innerHTML = rows
+      .sort((a, b) => (a.phase + a.date).localeCompare(b.phase + b.date))
+      .slice(-120)
+      .map((r) => `<li class="time-card"><article><h4>${phaseLabel(r.phase)} / ${r.date}</h4><div class="row"><span>sessions</span><strong>${num(r.sessions)}</strong></div><div class="row"><span>proposals</span><strong>${num(r.proposals)}</strong></div><div class="row"><span>tiebreak</span><strong>${pct(r.tiebreak_rate)}</strong></div><div class="row"><span>goji</span><strong>${pct(r.goji_intervention_rate)}</strong></div><div class="row"><span>controversy</span><strong>${Number(r.avg_controversy).toFixed(3)}</strong></div></article></li>`)
+      .join("");
+  }
+
+  function renderUXOverview() {
+    const phase = phaseFilter.value;
+    const statRows = (data.statistical_mechanics || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftRows = ((data.drift_metrics || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const adoptionRows = ((data.adoption_confidence || {}).per_phase || []).filter((r) => phase === "all" || r.phase === phase);
+
+    const worstFree = statRows.slice().sort((a, b) => Number(b.free_energy || 0) - Number(a.free_energy || 0))[0];
+    const worstDrift = driftRows.slice().sort((a, b) => Number(b.js_combined_latest || 0) - Number(a.js_combined_latest || 0))[0];
+    const weakestAdoption = adoptionRows.slice().sort((a, b) => Number(a.adoption_ci_low || 0) - Number(b.adoption_ci_low || 0))[0];
+
+    const focusCards = [
+      {
+        title: "固定化リスク",
+        value: worstFree ? `${phaseLabel(worstFree.phase)} / ${Number(worstFree.free_energy || 0).toFixed(3)}` : "-",
+        hint: "free_energy が高い phase から確認",
+      },
+      {
+        title: "分布ドリフト",
+        value: worstDrift ? `${phaseLabel(worstDrift.phase)} / ${Number(worstDrift.js_combined_latest || 0).toFixed(4)}` : "-",
+        hint: "latest_js が高い phase は要注意",
+      },
+      {
+        title: "採択信頼性の下限",
+        value: weakestAdoption ? `${phaseLabel(weakestAdoption.phase)} / ${pct(weakestAdoption.adoption_ci_low || 0)}` : "-",
+        hint: "Wilson下限が低い phase は偶然勝ちが多い",
+      },
+    ];
+    document.getElementById("uxFocusCards").innerHTML = focusCards
+      .map((c) => `<article class="ux-card"><h3>${c.title}</h3><div class="value">${c.value}</div><div class="hint">${c.hint}</div></article>`)
+      .join("");
+
+    const actions = [
+      {
+        label: `1. まず Matrix を確認して、勝者偏りを確認`,
+        target: "#sec-matrix",
+      },
+      {
+        label: `2. 次に Catalog Coverage で偏った要素を特定`,
+        target: "#sec-catalog",
+      },
+      {
+        label: `3. 最後に Timeline で直近の変化点を確認`,
+        target: "#sec-timeline",
+      },
+    ];
+    document.getElementById("uxActionList").innerHTML = actions
+      .map((a) => `<li><a href="${a.target}">${a.label}</a> <span class="small">(${phaseLabel(phaseFilter.value)})</span></li>`)
+      .join("");
+  }
+
+  function renderStatMech() {
+    const phase = phaseFilter.value;
+    const rows = (data.statistical_mechanics || []).filter((r) => phase === "all" || r.phase === phase);
+    const table = document.getElementById("statMechTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th class="num">entropy_norm</th><th class="num">energy</th><th class="num">temperature</th><th class="num">free_energy</th><th class="num">repeat</th><th class="num">top1</th><th>action</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows
+      .sort((a, b) => a.phase.localeCompare(b.phase))
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}</td><td class="num">${Number(r.entropy_norm || 0).toFixed(3)}</td><td class="num">${Number(r.energy || 0).toFixed(3)}</td><td class="num">${Number(r.temperature || 0).toFixed(3)}</td><td class="num">${Number(r.free_energy || 0).toFixed(3)}</td><td class="num">${pct(r.winner_repeat_rate || 0)}</td><td class="num">${pct(r.top1_share || 0)}</td><td><span class="pill">${r.temperature_action || "-"}</span></td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderDriftAndChange() {
+    const phase = phaseFilter.value;
+    const driftSummaryRows = ((data.drift_metrics || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftRecords = ((data.drift_metrics || {}).records || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftTable = document.getElementById("driftSummaryTable");
+    driftTable.innerHTML = '<thead><tr><th>phase</th><th class="num">window</th><th class="num">records</th><th class="num">mean_js</th><th class="num">latest_js</th><th class="num">max_js</th></tr></thead>';
+    driftTable.innerHTML += `<tbody>${driftSummaryRows
+      .sort((a, b) => a.phase.localeCompare(b.phase))
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}</td><td class="num">${num(r.window_size)}</td><td class="num">${num(r.record_count)}</td><td class="num">${Number(r.js_combined_mean || 0).toFixed(4)}</td><td class="num">${Number(r.js_combined_latest || 0).toFixed(4)}</td><td class="num">${Number(r.js_combined_max || 0).toFixed(4)}</td></tr>`).join("")}</tbody>`;
+
+    const changeRows = ((data.changepoint_signals || {}).events || []).filter((r) => phase === "all" || r.phase === phase);
+    const changeTable = document.getElementById("changeTable");
+    changeTable.innerHTML = '<thead><tr><th>phase/date</th><th>metric</th><th class="num">value</th><th class="num">baseline</th><th class="num">z</th></tr></thead>';
+    changeTable.innerHTML += `<tbody>${changeRows
+      .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))
+      .slice(0, 20)
+      .map((r) => `<tr><td>${phaseLabel(r.phase)}<div class="small">${r.date || ""}</div></td><td>${r.metric}</td><td class="num">${Number(r.value || 0).toFixed(4)}</td><td class="num">${Number(r.baseline_mean || 0).toFixed(4)} ± ${Number(r.baseline_std || 0).toFixed(4)}</td><td class="num">${Number(r.z_score || 0).toFixed(2)}</td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderAdoptionConfidence() {
+    const phase = phaseFilter.value;
+    const rows = ((data.adoption_confidence || {}).per_phase || []).filter((r) => phase === "all" || r.phase === phase);
+    const bootMap = new Map((((data.bootstrap_confidence || {}).per_phase || []).map((r) => [String(r.phase || ""), r])));
+    const table = document.getElementById("adoptionPhaseTable");
+    table.innerHTML = '<thead><tr><th>phase</th><th class="num">wins/proposals</th><th class="num">adoption</th><th class="num">Wilson CI95</th><th class="num">Bootstrap CI95</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows
+      .sort((a, b) => a.phase.localeCompare(b.phase))
+      .map((r) => {
+        const b = bootMap.get(String(r.phase || "")) || {};
+        return `<tr><td>${phaseLabel(r.phase)}</td><td class="num">${num(r.wins)}/${num(r.proposals)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${pct(r.adoption_ci_low || 0)} - ${pct(r.adoption_ci_high || 0)}</td><td class="num">${pct(b.bootstrap_ci_low || 0)} - ${pct(b.bootstrap_ci_high || 0)}</td></tr>`;
+      }).join("")}</tbody>`;
+  }
+
+  function renderBradleyTerry() {
+    const phase = phaseFilter.value;
+    let rows = [];
+    if (phase === "all") {
+      rows = ((data.bradley_terry || {}).overall || []).slice();
+    } else {
+      rows = (((data.bradley_terry || {}).by_phase || {})[phase] || []).slice();
+    }
+    const table = document.getElementById("btTable");
+    table.innerHTML = '<thead><tr><th>entity</th><th class="num">bt_score</th><th class="num">wins/matches</th><th class="num">empirical</th><th class="num">CI low</th><th class="num">CI high</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows
+      .slice(0, 20)
+      .map((r) => `<tr><td>${r.entity_id}</td><td class="num">${Number(r.bt_score || 0).toFixed(3)}</td><td class="num">${num(r.wins)}/${num(r.matches)}</td><td class="num">${pct(r.empirical_win_rate || 0)}</td><td class="num">${pct(r.empirical_win_rate_ci_low || 0)}</td><td class="num">${pct(r.empirical_win_rate_ci_high || 0)}</td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderOptimizationStack() {
+    const phase = phaseFilter.value;
+
+    let tsRows = [];
+    if (phase === "all") tsRows = ((data.trueskill || {}).overall || []).slice();
+    else tsRows = ((((data.trueskill || {}).by_phase || {})[phase] || [])).slice();
+    const tsTable = document.getElementById("trueskillTable");
+    tsTable.innerHTML = '<thead><tr><th colspan="5">TrueSkill Top20</th></tr><tr><th>entity</th><th class="num">mu</th><th class="num">sigma</th><th class="num">exposure</th><th class="num">rank</th></tr></thead>';
+    tsTable.innerHTML += `<tbody>${tsRows.slice(0, 20).map((r) => `<tr><td>${r.entity_id}</td><td class="num">${Number(r.mu || 0).toFixed(2)}</td><td class="num">${Number(r.sigma || 0).toFixed(2)}</td><td class="num">${Number(r.exposure || 0).toFixed(2)}</td><td class="num">${num(r.rank || 0)}</td></tr>`).join("")}</tbody>`;
+
+    let thRows = (data.thompson_sampling || []).filter((r) => phase === "all" || r.phase === phase);
+    thRows = thRows.sort((a, b) => Number(b.thompson_prob_best || 0) - Number(a.thompson_prob_best || 0)).slice(0, 20);
+    const thTable = document.getElementById("thompsonTable");
+    thTable.innerHTML = '<thead><tr><th colspan="6">Thompson Sampling Top20</th></tr><tr><th>phase.dim</th><th>item</th><th class="num">wins/n</th><th class="num">P(best)</th><th class="num">draw_mean</th><th class="num">post_mean</th></tr></thead>';
+    thTable.innerHTML += `<tbody>${thRows.map((r) => `<tr><td>${phaseLabel(r.phase)}.${r.dimension}</td><td>${r.label}<div class="small">${r.catalog_id}</div></td><td class="num">${num(r.winner_count)}/${num(r.proposal_count)}</td><td class="num">${pct(r.thompson_prob_best || 0)}</td><td class="num">${Number(r.thompson_draw_mean || 0).toFixed(3)}</td><td class="num">${Number(r.posterior_mean_beta11 || 0).toFixed(3)}</td></tr>`).join("")}</tbody>`;
+
+    const anRows = ((data.annealing_plan || {}).per_phase || []).filter((r) => phase === "all" || r.phase === phase);
+    const anSummary = ((data.annealing_plan || {}).summary || {});
+    const anTable = document.getElementById("annealingTable");
+    anTable.innerHTML = '<thead><tr><th colspan="5">Annealing Temperature Plan</th></tr><tr><th>phase</th><th class="num">baseline T</th><th class="num">recommended T</th><th class="num">delta</th><th class="num">projected freeE</th></tr></thead>';
+    anTable.innerHTML += `<tbody>${anRows.map((r) => `<tr><td>${phaseLabel(r.phase)}</td><td class="num">${Number(r.baseline_temperature || 0).toFixed(3)}</td><td class="num">${Number(r.recommended_temperature || 0).toFixed(3)}</td><td class="num">${Number(r.delta_temperature || 0).toFixed(3)}</td><td class="num">${Number(r.projected_free_energy || 0).toFixed(3)}</td></tr>`).join("") || '<tr><td colspan="5" class="small">データなし</td></tr>'}</tbody>`;
+    anTable.innerHTML += `<tfoot><tr><td colspan="5" class="small">iterations=${num(anSummary.iterations || 0)} / acceptance=${pct(anSummary.acceptance_rate || 0)} / objective ${Number(anSummary.baseline_objective || 0).toFixed(4)} → ${Number(anSummary.optimized_objective || 0).toFixed(4)}</td></tr></tfoot>`;
+
+    const cpRows = ((data.advanced_changepoints || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const cpTable = document.getElementById("advancedCpTable");
+    cpTable.innerHTML = '<thead><tr><th colspan="4">Advanced Changepoints Summary</th></tr><tr><th>phase</th><th class="num">timeline points</th><th class="num">cp count</th><th class="num">min seg</th></tr></thead>';
+    cpTable.innerHTML += `<tbody>${cpRows.map((r) => `<tr><td>${phaseLabel(r.phase)}</td><td class="num">${num(r.timeline_points || 0)}</td><td class="num">${num(r.changepoint_count || 0)}</td><td class="num">${num(r.min_seg || 0)}</td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderAll() {
+    renderKpis();
+    renderUXOverview();
+    renderMatrix();
+    renderDist();
+    renderCoverage();
+    renderCatalog();
+    renderTimeline();
+    renderStatMech();
+    renderDriftAndChange();
+    renderAdoptionConfidence();
+    renderBradleyTerry();
+    renderOptimizationStack();
+    renderUXSummaryLine();
+    bindDetailsTracking();
+  }
+
+  phaseFilter.addEventListener("change", () => {
+    trackUXEvent("overview", "phase_change", { phase: phaseFilter.value });
+    renderAll();
+    saveState();
+  });
+  minProposalsInput.addEventListener("input", () => {
+    trackUXEvent("overview", "min_proposals_change", { value: Number(minProposalsInput.value || 1) });
+    renderAll();
+    saveState();
+  });
+  dimensionFilter.addEventListener("change", () => {
+    trackUXEvent("overview", "dimension_change", { value: dimensionFilter.value });
+    renderCatalog();
+    saveState();
+  });
+
+  buildMeta();
+  loadState();
+  trackUXEvent("overview", "page_open", { phase: phaseFilter.value });
+  renderAll();
+})();
+</script>
+</body>
+</html>

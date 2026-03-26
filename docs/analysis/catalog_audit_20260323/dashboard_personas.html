@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Personas</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Personas</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html" class="active">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="persona-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Persona filters">
+      <div class="field">
+        <label>PHASE FILTER</label>
+        <select id="phaseFilter">
+          <option value="all">all</option>
+          <option value="phase1">テーマ</option>
+          <option value="phase2a">キャラクター</option>
+          <option value="phase3">世界観</option>
+          <option value="phase4a">あらすじ</option>
+          <option value="phase4s">ビジュアル</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>MIN WINS</label>
+        <input id="personaMinWins" type="number" min="0" max="999" value="0" />
+      </div>
+      <div class="field">
+        <label>PERSONA SEARCH</label>
+        <input id="personaSearch" type="text" placeholder="名前 / 出身 / 履歴 / IDで検索" />
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="persona-explorer">
+    <h2 class="section-title">Persona Explorer（タブ表示）</h2>
+    <div class="small">ペルソナごとにタブを切り替えて、プロフィールと提案履歴を表示します。phase1コホート不整合は除外せず警告として扱います。</div>
+    <div class="persona-layout">
+      <ul class="persona-tabs" id="personaTabs" aria-label="Persona tabs"></ul>
+      <div class="persona-main">
+        <div id="personaProfile"></div>
+        <div class="panel-subtle" id="personaSnapshot" style="margin-top:10px;"></div>
+        <div class="panel-subtle" id="personaReasonProfile" style="margin-top:10px;"></div>
+        <div style="overflow:auto; margin-top:10px;">
+          <table id="personaProposalTable"></table>
+        </div>
+        <div style="margin-top:10px;">
+          <details class="fold fold-priority-a" open>
+            <summary>A. コア採択指標（Observed / Wilson CI）</summary>
+            <div class="fold-body" style="overflow:auto;">
+              <table id="personaCoreMetricsTable"></table>
+            </div>
+          </details>
+          <details class="fold fold-priority-b">
+            <summary>B. 深掘り比較指標（Bradley-Terry）</summary>
+            <div class="fold-body" style="overflow:auto;">
+              <table id="personaDeepMetricsTable"></table>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, esc, pct, phaseLabel, topTokens, extractReasonElements, renderTokenList, buildPortraitImgTag, wirePortraitFallback, trackUXEvent } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const phaseFilter = document.getElementById("phaseFilter");
+  const personaSearchInput = document.getElementById("personaSearch");
+  const personaMinWinsInput = document.getElementById("personaMinWins");
+  const personaTabsEl = document.getElementById("personaTabs");
+  const personaProfileEl = document.getElementById("personaProfile");
+  const personaSnapshotEl = document.getElementById("personaSnapshot");
+  const personaReasonProfileEl = document.getElementById("personaReasonProfile");
+  const personaProposalTableEl = document.getElementById("personaProposalTable");
+  const personaCoreMetricsTableEl = document.getElementById("personaCoreMetricsTable");
+  const personaDeepMetricsTableEl = document.getElementById("personaDeepMetricsTable");
+  const UX_STATE_KEY = "goji_dashboard_persona_state_v1";
+  let selectedPersonaKey = "";
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(UX_STATE_KEY);
+      if (!raw) return;
+      const s = JSON.parse(raw);
+      if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
+      if (Number.isFinite(Number(s.minWins))) personaMinWinsInput.value = String(Math.max(0, Number(s.minWins)));
+      if (typeof s.search === "string") personaSearchInput.value = s.search;
+      if (typeof s.selectedKey === "string") selectedPersonaKey = s.selectedKey;
+    } catch (e) {}
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        UX_STATE_KEY,
+        JSON.stringify({
+          phase: phaseFilter.value,
+          minWins: Number(personaMinWinsInput.value || 0),
+          search: String(personaSearchInput.value || ""),
+          selectedKey: selectedPersonaKey,
+        })
+      );
+    } catch (e) {}
+  }
+
+  function buildMeta() {
+    document.getElementById("metaLine").textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+    const q = document.getElementById("qualityBadges");
+    q.innerHTML = `
+      <span class="badge">persona profiles: ${num((data.persona_profiles || []).length)}</span>
+      <span class="badge" style="margin-left:8px;">proposal events: ${num((data.proposal_events || []).length)}</span>
+    `;
+  }
+
+  function renderPersonaExplorer() {
+    function quantile(values, p) {
+      const xs = (values || []).filter((v) => Number.isFinite(Number(v))).map((v) => Number(v)).sort((a, b) => a - b);
+      if (!xs.length) return 0;
+      if (xs.length === 1) return xs[0];
+      const pos = (xs.length - 1) * Math.max(0, Math.min(1, Number(p || 0)));
+      const lo = Math.floor(pos);
+      const hi = Math.ceil(pos);
+      if (lo === hi) return xs[lo];
+      const t = pos - lo;
+      return xs[lo] * (1 - t) + xs[hi] * t;
+    }
+    function band3(v, q1, q2) {
+      const n = Number(v || 0);
+      if (n <= q1) return "low";
+      if (n >= q2) return "high";
+      return "mid";
+    }
+    function bandLabel(b) {
+      if (b === "high") return "高";
+      if (b === "mid") return "中";
+      return "低";
+    }
+    function archetypeLabel(impactBand, tensionBand) {
+      const key = `${impactBand}|${tensionBand}`;
+      const table = {
+        "high|high": "衝突牽引型",
+        "high|mid": "主力牽引型",
+        "high|low": "安定実装型",
+        "mid|high": "論争触媒型",
+        "mid|mid": "均衡調整型",
+        "mid|low": "堅実支援型",
+        "low|high": "尖鋭実験型",
+        "low|mid": "探索拡張型",
+        "low|low": "低活性温存型",
+      };
+      return table[key] || "均衡調整型";
+    }
+
+    const phase = phaseFilter.value;
+    const q = String(personaSearchInput.value || "").trim().toLowerCase();
+    const minWins = Math.max(0, Number(personaMinWinsInput.value || 0));
+    const evs = (data.proposal_events || []).filter((r) => phase === "all" || r.phase === phase);
+    const profileMap = new Map((data.persona_profiles || []).map((p) => [String(p.persona_id || ""), p]));
+    const by = new Map();
+    const eventsByKey = new Map();
+
+    evs.forEach((e) => {
+      const pid = String(e.persona_id || "").trim();
+      const pname = String(e.persona_name || "").trim() || "unknown";
+      const key = pid || `name:${pname}`;
+      if (!by.has(key)) {
+        const profile = profileMap.get(pid) || null;
+        by.set(key, { key, persona_id: pid, persona_name: pname, proposals: 0, wins: 0, phases: new Set(), profile });
+      }
+      const r = by.get(key);
+      r.proposals += 1;
+      r.wins += Number(e.winner || 0) ? 1 : 0;
+      r.phases.add(e.phase);
+      if (!r.profile && pid && profileMap.has(pid)) r.profile = profileMap.get(pid);
+      if (!eventsByKey.has(key)) eventsByKey.set(key, []);
+      eventsByKey.get(key).push(e);
+    });
+
+    const allItems = Array.from(by.values());
+    const adRowsAllGlobal = ((data.adoption_confidence || {}).per_persona_phase || []);
+    const btOverallRowsGlobal = (data.bradley_terry && data.bradley_terry.overall) ? data.bradley_terry.overall : [];
+    const tsOverallRowsGlobal = (data.trueskill && data.trueskill.overall) ? data.trueskill.overall : [];
+    const cohortMetricsByKey = new Map();
+
+    allItems.forEach((x) => {
+      const pid = String(x.persona_id || "").trim();
+      const nm = String(x.persona_name || "").trim();
+      const rs = eventsByKey.get(x.key) || [];
+      const proposals = Number(x.proposals || 0);
+      const wins = Number(x.wins || 0);
+      const adoptionRate = proposals > 0 ? wins / proposals : 0;
+      const controversyMean = rs.length
+        ? rs.reduce((a, b) => a + Number(b.controversy || 0), 0) / rs.length
+        : 0;
+      const reasonCoverage = proposals > 0
+        ? rs.filter((r) => Number(r.like_vote_count || 0) + Number(r.dislike_vote_count || 0) > 0).length / proposals
+        : 0;
+
+      const byPhase = {};
+      rs.forEach((r) => {
+        const ph = String(r.phase || "");
+        if (!byPhase[ph]) byPhase[ph] = { wins: 0, proposals: 0 };
+        byPhase[ph].proposals += 1;
+        byPhase[ph].wins += Number(r.winner || 0) ? 1 : 0;
+      });
+      const phaseRates = Object.keys(byPhase).sort().map((ph) => {
+        const z = byPhase[ph];
+        return z.proposals > 0 ? z.wins / z.proposals : 0;
+      });
+      const drift = phaseRates.length > 1
+        ? Math.max(...phaseRates) - Math.min(...phaseRates)
+        : 0;
+
+      const adRowsForPersona = adRowsAllGlobal.filter((r) => {
+        if (phase !== "all" && String(r.phase || "") !== phase) return false;
+        if (pid) return String(r.persona_id || "") === pid;
+        return String(r.persona_name || "") === nm;
+      });
+      const ciWidth = adRowsForPersona.length
+        ? adRowsForPersona.reduce((a, r) => a + Math.max(0, Number(r.adoption_ci_high || 0) - Number(r.adoption_ci_low || 0)), 0) / adRowsForPersona.length
+        : 1.0;
+      const bt = btOverallRowsGlobal.find((r) => (pid && String(r.entity_id || "") === pid) || (!pid && String(r.entity_id || "") === nm));
+      const ts = tsOverallRowsGlobal.find((r) => (pid && String(r.entity_id || "") === pid) || (!pid && String(r.entity_id || "") === nm));
+
+      cohortMetricsByKey.set(x.key, {
+        adoption_rate: adoptionRate,
+        controversy_mean: controversyMean,
+        reason_coverage: reasonCoverage,
+        drift,
+        ci_width: ciWidth,
+        bt_score: bt ? Number(bt.bt_score || 0) : 0,
+        ts_exposure: ts ? Number(ts.exposure || 0) : 0,
+        proposals,
+      });
+    });
+
+    const cohortMetrics = Array.from(cohortMetricsByKey.values());
+    const adQ1 = quantile(cohortMetrics.map((m) => m.adoption_rate), 0.33);
+    const adQ2 = quantile(cohortMetrics.map((m) => m.adoption_rate), 0.66);
+    const coQ1 = quantile(cohortMetrics.map((m) => m.controversy_mean), 0.33);
+    const coQ2 = quantile(cohortMetrics.map((m) => m.controversy_mean), 0.66);
+    const driftQ2 = quantile(cohortMetrics.map((m) => m.drift), 0.66);
+    const ciQ2 = quantile(cohortMetrics.map((m) => m.ci_width), 0.66);
+
+    cohortMetricsByKey.forEach((m, key) => {
+      const impactBand = band3(m.adoption_rate, adQ1, adQ2);
+      const tensionBand = band3(m.controversy_mean, coQ1, coQ2);
+      const archetype = archetypeLabel(impactBand, tensionBand);
+      let dynamics = "安定";
+      if (Number(m.proposals || 0) <= 2) dynamics = "新興";
+      else if (Number(m.drift || 0) >= driftQ2 || Number(m.ci_width || 0) >= ciQ2) dynamics = "変動";
+      cohortMetricsByKey.set(key, {
+        ...m,
+        impact_band: impactBand,
+        tension_band: tensionBand,
+        impact_band_label: bandLabel(impactBand),
+        tension_band_label: bandLabel(tensionBand),
+        archetype,
+        dynamics,
+      });
+    });
+
+    let items = Array.from(by.values());
+    items = items.filter((x) => x.wins >= minWins);
+    if (q) {
+      items = items.filter((x) => {
+        const p = x.profile || {};
+        const hay = `${x.persona_name} ${x.persona_id} ${p.origin_city || ""} ${p.current_situation || ""} ${p.external_perception || ""} ${(p.life_history || []).join(" ")}`.toLowerCase();
+        return hay.includes(q);
+      });
+    }
+    items.sort((a, b) => (b.wins - a.wins) || (b.proposals - a.proposals) || a.persona_name.localeCompare(b.persona_name));
+
+    if (!selectedPersonaKey || !items.some((x) => x.key === selectedPersonaKey)) {
+      selectedPersonaKey = items[0]?.key || "";
+    }
+
+    personaTabsEl.innerHTML = items
+      .map((x) => {
+        const adoption = x.proposals > 0 ? x.wins / x.proposals : 0;
+        return `<li class="persona-tab-item"><button type="button" class="persona-tab ${x.key === selectedPersonaKey ? "active" : ""}" data-key="${esc(x.key)}"><div>${esc(x.persona_name)}</div><div class="sub">wins ${num(x.wins)} / proposals ${num(x.proposals)} / adoption ${pct(adoption)}${x.persona_id ? ` / ${esc(x.persona_id)}` : ""}</div></button></li>`;
+      })
+      .join("");
+    personaTabsEl.querySelectorAll(".persona-tab").forEach((el) => {
+      el.addEventListener("click", () => {
+        selectedPersonaKey = el.getAttribute("data-key") || "";
+        trackUXEvent("personas", "tab_select", { key: selectedPersonaKey, phase: phaseFilter.value });
+        saveState();
+        renderPersonaExplorer();
+      });
+    });
+
+    const picked = items.find((x) => x.key === selectedPersonaKey);
+    if (!picked) {
+      personaProfileEl.innerHTML = '<div class="small">該当ペルソナがありません。</div>';
+      personaSnapshotEl.innerHTML = '<div class="small">スナップショットなし</div>';
+      personaReasonProfileEl.innerHTML = '<div class="small">提案理由プロファイルなし</div>';
+      personaProposalTableEl.innerHTML = "";
+      personaCoreMetricsTableEl.innerHTML = "";
+      personaDeepMetricsTableEl.innerHTML = "";
+      return;
+    }
+
+    const p = picked.profile || {};
+    const adoption = picked.proposals > 0 ? picked.wins / picked.proposals : 0;
+    const personaIdForImage = String(picked.persona_id || p.persona_id || "").trim();
+    const avatar = (p.portrait_url || personaIdForImage)
+      ? buildPortraitImgTag(p.portrait_url, personaIdForImage, p.name || picked.persona_name)
+      : '<div class="persona-avatar"></div>';
+    const history = (p.life_history || []).slice(0, 10).map((x) => `<li>${esc(x)}</li>`).join("");
+    personaProfileEl.innerHTML = `
+      <div class="persona-profile">
+        <div>${avatar}</div>
+        <div>
+          <div style="font-size:20px;font-weight:800;">${esc(p.name || picked.persona_name)}</div>
+          <div class="small">${esc(picked.persona_id || "")}</div>
+          <div class="persona-facts">
+            <div>birthdate: ${esc(p.birthdate || "-")}</div>
+            <div>age: ${esc(p.age || "-")}</div>
+            <div>gender: ${esc(p.gender || "-")}</div>
+            <div>origin_city: ${esc(p.origin_city || "-")}</div>
+            <div>ethnic_background: ${esc(p.ethnic_background || "-")}</div>
+            <div>wins/proposals: ${num(picked.wins)}/${num(picked.proposals)}</div>
+            <div>adoption_rate: ${pct(adoption)}</div>
+          </div>
+          <div class="small" style="margin-top:8px;">current_situation: ${esc(p.current_situation || "-")}</div>
+          <div class="small" style="margin-top:4px;">external_perception: ${esc(p.external_perception || "-")}</div>
+          <div class="small" style="margin-top:4px;">stance_on_past: ${esc(p.stance_on_past || "-")}</div>
+          ${history ? `<ul class="persona-history">${history}</ul>` : ""}
+        </div>
+      </div>
+    `;
+    wirePortraitFallback(personaProfileEl);
+
+    const rows = evs
+      .filter((e) => {
+        const pid = String(e.persona_id || "").trim();
+        const key = pid || `name:${String(e.persona_name || "").trim() || "unknown"}`;
+        return key === picked.key;
+      })
+      .sort((a, b) => String(b.session_id || "").localeCompare(String(a.session_id || "")) || Number(a.proposal_index || 0) - Number(b.proposal_index || 0));
+
+    personaProposalTableEl.innerHTML = '<thead><tr><th>phase/session</th><th>key</th><th class="num">like</th><th class="num">dislike</th><th class="num">tally</th><th>proposal</th></tr></thead>';
+    personaProposalTableEl.innerHTML += `<tbody>${rows.map((r) => {
+      const win = Number(r.winner) === 1;
+      return `<tr><td><div>${esc(phaseLabel(r.phase))}</div><div class="small">${esc(r.session_id || "")}</div></td><td><span class="pill ${win ? "win" : ""}">${win ? "WIN" : "LOSE"}</span> <span class="pill">${esc(r.candidate_key || "-")}</span><div class="small">${esc(r.proposal_id || "")}</div></td><td class="num">${Number(r.like || 0).toFixed(2)}</td><td class="num">${Number(r.dislike || 0).toFixed(2)}</td><td class="num">${Number(r.tally || 0).toFixed(2)}</td><td><div class="proposal-summary">${esc(r.proposal_summary || "(summaryなし)")}</div><div class="small">${esc(r.proposal_detail || "")}</div></td></tr>`;
+    }).join("")}</tbody>`;
+
+    function extractProposalReason(detail) {
+      const s = String(detail || "");
+      if (!s) return "";
+      const parts = s.split("|").map((x) => String(x || "").trim()).filter(Boolean);
+      const pickedParts = [];
+      parts.forEach((part) => {
+        const m = part.match(/^([A-Za-z0-9_]+)\s*:\s*(.+)$/);
+        if (!m) return;
+        const key = String(m[1] || "").toLowerCase();
+        const val = String(m[2] || "").trim();
+        if (!val) return;
+        if (/(why|reason|origin|intent|hook|rationale|came)/.test(key)) {
+          pickedParts.push(`${m[1]}: ${val}`);
+        }
+      });
+      return pickedParts.join(" / ");
+    }
+
+    function escapeRegExp(s) {
+      return String(s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function highlightReasonText(text, topWordObjs) {
+      const src = String(text || "");
+      const words = (topWordObjs || [])
+        .map((x) => String(x.word || "").trim())
+        .filter((w) => w.length >= 2)
+        .slice(0, 10)
+        .sort((a, b) => b.length - a.length);
+      if (!src || !words.length) return esc(src);
+      const re = new RegExp(`(${words.map((w) => escapeRegExp(w)).join("|")})`, "gi");
+      return src
+        .split(re)
+        .map((chunk, idx) => (idx % 2 === 1 ? `<mark class="reason-hit">${esc(chunk)}</mark>` : esc(chunk)))
+        .join("");
+    }
+
+    function formatReasonExample(text, topWordObjs) {
+      const src = String(text || "").trim();
+      if (!src) return "";
+      const parts = src.split(" / ").map((x) => x.trim()).filter(Boolean);
+      if (!parts.length) {
+        return `<li class="reason-item"><div class="reason-line"><span class="reason-text">${highlightReasonText(src, topWordObjs)}</span></div></li>`;
+      }
+      return `<li class="reason-item">${parts.map((part) => {
+        const m = part.match(/^([A-Za-z0-9_]+)\s*:\s*(.+)$/);
+        if (!m) return `<div class="reason-line"><span class="reason-text">${highlightReasonText(part, topWordObjs)}</span></div>`;
+        return `<div class="reason-line"><span class="reason-key">${esc(m[1])}</span><span class="reason-text">${highlightReasonText(m[2], topWordObjs)}</span></div>`;
+      }).join("")}</li>`;
+    }
+
+    const proposalReasonTexts = rows
+      .map((r) => extractProposalReason(r.proposal_detail))
+      .filter((x) => String(x || "").trim().length > 0);
+    const reasonTop = topTokens(proposalReasonTexts, 12);
+    const reasonElements = extractReasonElements(proposalReasonTexts, 8);
+    const reasonExamples = proposalReasonTexts.slice(0, 6);
+    const hotWords = reasonTop.slice(0, 8);
+    personaReasonProfileEl.innerHTML = `
+      <h3 style="margin:0 0 6px;font-size:14px;">提案理由プロファイル（提案生成時の理由）</h3>
+      <div class="ux-grid" style="margin-top:0;">
+        <article class="ux-card"><h3>理由抽出件数</h3><div class="value">${num(proposalReasonTexts.length)}</div><div class="hint">proposal_detail から why/origin/intent/hook を抽出</div></article>
+        <article class="ux-card"><h3>頻出語</h3><div class="small">${renderTokenList(reasonTop, "word")}</div><div class="hint">提案の根拠で繰り返される語</div></article>
+        <article class="ux-card"><h3>理由要素</h3><div class="small">${renderTokenList(reasonElements, "element")}</div><div class="hint">理由文の要素カテゴリ</div></article>
+      </div>
+      <div class="reason-hotwords">${hotWords.map((w) => `<span class="pill">${esc(w.word)}(${num(w.count)})</span>`).join("") || '<span class="small">強調キーワードなし</span>'}</div>
+      <details class="fold fold-priority-b" style="margin-top:8px;">
+        <summary>理由テキストの実例（先頭6件）</summary>
+        <div class="fold-body">
+          <ul class="reason-example-list">${reasonExamples.map((x) => formatReasonExample(x, reasonTop)).join("") || '<li class="small">抽出データなし</li>'}</ul>
+        </div>
+      </details>
+    `;
+
+    const phaseRows = rows.reduce((acc, r) => {
+      const ph = String(r.phase || "");
+      if (!acc[ph]) acc[ph] = { phase: ph, proposals: 0, wins: 0 };
+      acc[ph].proposals += 1;
+      acc[ph].wins += Number(r.winner || 0) ? 1 : 0;
+      return acc;
+    }, {});
+    const phaseList = Object.values(phaseRows).sort((a, b) => a.phase.localeCompare(b.phase));
+
+    const adRowsAll = ((data.adoption_confidence || {}).per_persona_phase || []);
+    const adRows = adRowsAll.filter((r) => {
+      const byId = personaIdForImage && String(r.persona_id || "") === personaIdForImage;
+      const byName = !personaIdForImage && String(r.persona_name || "") === picked.persona_name;
+      if (!(byId || byName)) return false;
+      return phase === "all" || String(r.phase || "") === phase;
+    });
+
+    const btOverallRows = (data.bradley_terry && data.bradley_terry.overall) ? data.bradley_terry.overall : [];
+    const btOverall = btOverallRows.find((r) => String(r.entity_id || "") === personaIdForImage || (!personaIdForImage && String(r.entity_id || "") === picked.persona_name));
+    const btByPhase = [];
+    const byPhaseSrc = (data.bradley_terry && data.bradley_terry.by_phase) ? data.bradley_terry.by_phase : {};
+    Object.keys(byPhaseSrc).forEach((ph) => {
+      if (phase !== "all" && ph !== phase) return;
+      const hit = (byPhaseSrc[ph] || []).find((r) => String(r.entity_id || "") === personaIdForImage || (!personaIdForImage && String(r.entity_id || "") === picked.persona_name));
+      if (hit) btByPhase.push({ phase: ph, ...hit });
+    });
+    const tsOverallRows = (data.trueskill && data.trueskill.overall) ? data.trueskill.overall : [];
+    const tsOverall = tsOverallRows.find((r) => String(r.entity_id || "") === personaIdForImage || (!personaIdForImage && String(r.entity_id || "") === picked.persona_name));
+    const tsByPhase = [];
+    const tsByPhaseSrc = (data.trueskill && data.trueskill.by_phase) ? data.trueskill.by_phase : {};
+    Object.keys(tsByPhaseSrc).forEach((ph) => {
+      if (phase !== "all" && ph !== phase) return;
+      const hit = (tsByPhaseSrc[ph] || []).find((r) => String(r.entity_id || "") === personaIdForImage || (!personaIdForImage && String(r.entity_id || "") === picked.persona_name));
+      if (hit) tsByPhase.push({ phase: ph, ...hit });
+    });
+
+    const coreMetricRows = [];
+    const deepMetricRows = [];
+    if (btOverall) {
+      deepMetricRows.push(`<tr><td>Bradley-Terry (overall)</td><td>overall</td><td class="num">${Number(btOverall.bt_score || 0).toFixed(3)}</td><td class="num">${num(btOverall.wins)}/${num(btOverall.matches)}</td><td class="num">${pct(btOverall.empirical_win_rate || 0)}</td><td class="num">${pct(btOverall.empirical_win_rate_ci_low || 0)} - ${pct(btOverall.empirical_win_rate_ci_high || 0)}</td></tr>`);
+    }
+    if (tsOverall) {
+      deepMetricRows.push(`<tr><td>TrueSkill (overall)</td><td>overall</td><td class="num">${Number(tsOverall.exposure || 0).toFixed(3)}</td><td class="num">${Number(tsOverall.mu || 0).toFixed(2)} / ${Number(tsOverall.sigma || 0).toFixed(2)}</td><td class="num">rank ${num(tsOverall.rank || 0)}</td><td class="num">-</td></tr>`);
+    }
+    btByPhase.sort((a, b) => a.phase.localeCompare(b.phase)).forEach((r) => {
+      deepMetricRows.push(`<tr><td>Bradley-Terry (phase)</td><td>${esc(phaseLabel(r.phase || "-"))}</td><td class="num">${Number(r.bt_score || 0).toFixed(3)}</td><td class="num">${num(r.wins)}/${num(r.matches)}</td><td class="num">${pct(r.empirical_win_rate || 0)}</td><td class="num">${pct(r.empirical_win_rate_ci_low || 0)} - ${pct(r.empirical_win_rate_ci_high || 0)}</td></tr>`);
+    });
+    tsByPhase.sort((a, b) => a.phase.localeCompare(b.phase)).forEach((r) => {
+      deepMetricRows.push(`<tr><td>TrueSkill (phase)</td><td>${esc(phaseLabel(r.phase || "-"))}</td><td class="num">${Number(r.exposure || 0).toFixed(3)}</td><td class="num">${Number(r.mu || 0).toFixed(2)} / ${Number(r.sigma || 0).toFixed(2)}</td><td class="num">rank ${num(r.rank || 0)}</td><td class="num">-</td></tr>`);
+    });
+    adRows.sort((a, b) => String(a.phase || "").localeCompare(String(b.phase || ""))).forEach((r) => {
+      coreMetricRows.push(`<tr><td>Adoption CI (Wilson95)</td><td>${esc(phaseLabel(r.phase || "-"))}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${num(r.wins)}/${num(r.proposals)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${pct(r.adoption_ci_low || 0)} - ${pct(r.adoption_ci_high || 0)}</td></tr>`);
+    });
+    phaseList.forEach((r) => {
+      const rate = r.proposals > 0 ? r.wins / r.proposals : 0;
+      coreMetricRows.push(`<tr><td>Observed adoption</td><td>${esc(phaseLabel(r.phase))}</td><td class="num">${pct(rate)}</td><td class="num">${num(r.wins)}/${num(r.proposals)}</td><td class="num">-</td><td class="num">-</td></tr>`);
+    });
+
+    const ciBase = adRows.length ? adRows[0] : null;
+    const cm = cohortMetricsByKey.get(picked.key) || {};
+    const ciWidth = Number(cm.ci_width ?? (ciBase ? Math.max(0, Number(ciBase.adoption_ci_high || 0) - Number(ciBase.adoption_ci_low || 0)) : 1.0));
+    const archetype = String(cm.archetype || "均衡調整型");
+    const dynamics = String(cm.dynamics || "安定");
+    const impactBandText = String(cm.impact_band_label || "-");
+    const tensionBandText = String(cm.tension_band_label || "-");
+    const drift = Number(cm.drift || 0);
+    const reasonCoverage = Number(cm.reason_coverage || 0);
+    const mismatchCount = rows.filter((r) => String(r.phase || "") !== "phase1" && !(r.phase1_cohort_consistent === 1 || r.phase1_cohort_consistent === "1" || r.phase1_cohort_consistent === true)).length;
+
+    personaSnapshotEl.innerHTML = `
+      <h3 style="margin:0 0 6px;font-size:14px;">意思決定スナップショット</h3>
+      <div class="ux-grid" style="margin-top:0;">
+        <article class="ux-card"><h3>Archetype</h3><div class="value">${esc(archetype)}</div><div class="hint">impact=${esc(impactBandText)} / tension=${esc(tensionBandText)}（分位分類）</div></article>
+        <article class="ux-card"><h3>Dynamics</h3><div class="value">${esc(dynamics)}</div><div class="hint">drift ${(drift * 100).toFixed(1)}% / CI幅 ${(ciWidth * 100).toFixed(1)}%</div></article>
+        <article class="ux-card"><h3>Adoption</h3><div class="value">${pct(adoption)}</div><div class="hint">wins ${num(picked.wins)} / proposals ${num(picked.proposals)}</div></article>
+        <article class="ux-card"><h3>Reason Coverage</h3><div class="value">${pct(reasonCoverage)}</div><div class="hint">投票理由が記録されている提案比率</div></article>
+        <article class="ux-card"><h3>Cohort Mismatch</h3><div class="value">${num(mismatchCount)}</div><div class="hint">phase1参加者外の提案件数（警告）</div></article>
+      </div>
+      <div class="action-row">
+        <button type="button" id="personaJumpProposals">提案履歴へ</button>
+        <button type="button" id="personaOpenCore">A指標を開く</button>
+        <button type="button" id="personaOpenDeep">B指標を開く</button>
+      </div>
+      <ul class="priority-list">
+        <li>1. このペルソナの最新提案を先に確認（下の Proposal table）</li>
+        <li>2. ArchetypeとDynamicsで役割と安定性を確認（分位ベース）</li>
+        <li>3. A/B指標で採択確度と相対強度を確認（Wilson / BT / TrueSkill）</li>
+      </ul>
+    `;
+
+    personaCoreMetricsTableEl.innerHTML = '<thead><tr><th>metric</th><th>phase</th><th class="num">score/rate</th><th class="num">wins/matches</th><th class="num">empirical</th><th class="num">confidence</th></tr></thead>';
+    personaCoreMetricsTableEl.innerHTML += `<tbody>${coreMetricRows.join("") || '<tr><td colspan="6" class="small">コア指標データなし</td></tr>'}</tbody>`;
+    personaDeepMetricsTableEl.innerHTML = '<thead><tr><th>metric</th><th>phase</th><th class="num">score/rate</th><th class="num">wins/matches</th><th class="num">empirical</th><th class="num">confidence</th></tr></thead>';
+    personaDeepMetricsTableEl.innerHTML += `<tbody>${deepMetricRows.join("") || '<tr><td colspan="6" class="small">深掘り指標データなし</td></tr>'}</tbody>`;
+
+    const jumpBtn = document.getElementById("personaJumpProposals");
+    const openCoreBtn = document.getElementById("personaOpenCore");
+    const openDeepBtn = document.getElementById("personaOpenDeep");
+    const details = Array.from(document.querySelectorAll("#persona-explorer details.fold"));
+    const coreFold = details[0];
+    const deepFold = details[1];
+    if (jumpBtn) {
+      jumpBtn.addEventListener("click", () => {
+        trackUXEvent("personas", "jump_proposals", { key: selectedPersonaKey, phase: phaseFilter.value });
+        personaProposalTableEl.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    if (openCoreBtn && coreFold) {
+      openCoreBtn.addEventListener("click", () => {
+        coreFold.open = true;
+        trackUXEvent("personas", "open_core_metrics", { key: selectedPersonaKey, phase: phaseFilter.value });
+        coreFold.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    if (openDeepBtn && deepFold) {
+      openDeepBtn.addEventListener("click", () => {
+        deepFold.open = true;
+        trackUXEvent("personas", "open_deep_metrics", { key: selectedPersonaKey, phase: phaseFilter.value });
+        deepFold.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+  }
+
+  phaseFilter.addEventListener("change", () => {
+    trackUXEvent("personas", "phase_change", { phase: phaseFilter.value });
+    renderPersonaExplorer();
+    saveState();
+  });
+  personaSearchInput.addEventListener("input", () => {
+    trackUXEvent("personas", "search_change", { search: String(personaSearchInput.value || "") });
+    renderPersonaExplorer();
+    saveState();
+  });
+  personaMinWinsInput.addEventListener("input", () => {
+    trackUXEvent("personas", "min_wins_change", { minWins: Number(personaMinWinsInput.value || 0) });
+    renderPersonaExplorer();
+    saveState();
+  });
+
+  buildMeta();
+  loadState();
+  trackUXEvent("personas", "page_open", { phase: phaseFilter.value });
+  renderPersonaExplorer();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Brief</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Brief</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html" class="active">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="brief-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Brief filters">
+      <div class="field">
+        <label>PHASE FILTER</label>
+        <select id="phaseFilter">
+          <option value="all">all</option>
+          <option value="phase1">テーマ</option>
+          <option value="phase2a">キャラクター</option>
+          <option value="phase3">世界観</option>
+          <option value="phase4a">あらすじ</option>
+          <option value="phase4s">ビジュアル</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>FOCUS</label>
+        <select id="focusMode">
+          <option value="decision">意思決定</option>
+          <option value="quality">品質リスク</option>
+          <option value="explore">探索余地</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>NOTES</label>
+        <input type="text" value="このページは要約だけ。深掘りは Analysis / Voting / Personas へ。" readonly />
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="brief-summary">
+    <h2 class="section-title">意思決定サマリー</h2>
+    <div class="small">まずはここだけ見れば十分です。</div>
+    <ul class="cards" id="summaryCards" aria-label="Brief summary cards"></ul>
+  </div>
+
+  <div class="panel section-id" id="brief-actions">
+    <h2 class="section-title">次にやること（優先順）</h2>
+    <ol class="priority-list" id="actionList"></ol>
+  </div>
+
+  <div class="panel section-id" id="brief-reasons">
+    <h2 class="section-title">提案理由シグナル（要約）</h2>
+    <div class="small" id="reasonMeta">-</div>
+    <div class="ux-grid" id="reasonCards"></div>
+    <div style="overflow:auto; margin-top:8px;">
+      <table id="reasonSignalTable"></table>
+    </div>
+  </div>
+
+  <div class="two-col section-id" id="brief-details">
+    <div class="panel">
+      <h2 class="section-title">注目提案（短時間レビュー用）</h2>
+      <div class="small" id="focusMeta">-</div>
+      <div style="overflow:auto; margin-top:8px;">
+        <table id="focusProposalTable"></table>
+      </div>
+    </div>
+    <div class="panel">
+      <h2 class="section-title">詳細解析スナップショット</h2>
+      <div class="small">詳細ページの統計を要約して表示しています。</div>
+      <table id="deepSnapshotTable"></table>
+      <ol class="priority-list" style="margin-top:10px;">
+        <li><a href="./dashboard_overview.html">Analysisを開く（統計の全体像）</a></li>
+        <li><a href="./dashboard_voting.html#vote-cockpit">Votingを開く（接戦・高論争の理由）</a></li>
+        <li><a href="./dashboard_personas.html#persona-explorer">Personasを開く（人物別の履歴）</a></li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, pct, esc, phaseLabel, topTokens, extractReasonElements, renderTokenList, trackUXEvent } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const phaseFilter = document.getElementById("phaseFilter");
+  const focusMode = document.getElementById("focusMode");
+  const UX_STATE_KEY = "goji_dashboard_brief_state_v1";
+
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(UX_STATE_KEY);
+      if (!raw) return;
+      const s = JSON.parse(raw);
+      if (s.phase && Array.from(phaseFilter.options).some((o) => o.value === s.phase)) phaseFilter.value = s.phase;
+      if (s.focus && Array.from(focusMode.options).some((o) => o.value === s.focus)) focusMode.value = s.focus;
+    } catch (e) {}
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        UX_STATE_KEY,
+        JSON.stringify({
+          phase: phaseFilter.value,
+          focus: focusMode.value,
+        })
+      );
+    } catch (e) {}
+  }
+
+  function buildMeta() {
+    document.getElementById("metaLine").textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+    const q = document.getElementById("qualityBadges");
+    q.innerHTML = `
+      <span class="badge">sessions: ${num(data?.phase_presence?.session_total || 0)}</span>
+      <span class="badge alert" style="margin-left:8px;">anomalies: ${num(data?.data_quality?.anomaly_count || 0)}</span>
+      <span class="badge alert" style="margin-left:8px;">incomplete events: ${num(data?.data_quality?.incomplete_event_count || 0)}</span>
+    `;
+  }
+
+  function filteredEvents() {
+    const ph = phaseFilter.value;
+    return (data.proposal_events || []).filter((r) => ph === "all" || r.phase === ph);
+  }
+
+  function filteredKpis() {
+    const ph = phaseFilter.value;
+    return (data.phase_kpi_summary || []).filter((r) => ph === "all" || r.phase === ph);
+  }
+
+  function avg(arr, f) {
+    if (!arr.length) return 0;
+    return arr.reduce((a, b) => a + Number(f(b) || 0), 0) / arr.length;
+  }
+
+  function extractProposalReason(detail) {
+    const s = String(detail || "");
+    if (!s) return "";
+    const parts = s.split("|").map((x) => String(x || "").trim()).filter(Boolean);
+    const picked = [];
+    parts.forEach((part) => {
+      const m = part.match(/^([A-Za-z0-9_]+)\s*:\s*(.+)$/);
+      if (!m) return;
+      const k = String(m[1] || "").toLowerCase();
+      const v = String(m[2] || "").trim();
+      if (!v) return;
+      if (/(why|reason|origin|intent|hook|rationale|came)/.test(k)) picked.push(`${m[1]}: ${v}`);
+    });
+    return picked.join(" / ");
+  }
+
+  function renderSummary() {
+    const rows = filteredEvents();
+    const kpis = filteredKpis();
+    const total = rows.length;
+    const closeCnt = rows.filter((r) => Math.abs(Number(r.like || 0) - Number(r.dislike || 0)) <= 1).length;
+    const highContCnt = rows.filter((r) => Number(r.controversy || 0) >= 1.5).length;
+    const reasonCovered = rows.filter((r) => Number(r.like_vote_count || 0) + Number(r.dislike_vote_count || 0) > 0).length;
+    const tieRate = avg(kpis, (x) => x.tiebreak_rate);
+    const gojiRate = avg(kpis, (x) => x.goji_intervention_rate);
+    const anomalies = Number(data?.data_quality?.anomaly_count || 0);
+    const incomplete = Number(data?.data_quality?.incomplete_event_count || 0);
+
+    const cards = [
+      ["表示提案", num(total), "phase適用後"],
+      ["理由カバレッジ", total > 0 ? pct(reasonCovered / total) : "0.0%", "理由の有無"],
+      ["接戦率", total > 0 ? pct(closeCnt / total) : "0.0%", "like/dislike差<=1"],
+      ["高論争率", total > 0 ? pct(highContCnt / total) : "0.0%", "controversy>=1.5"],
+      ["GOJI介入率(平均)", pct(gojiRate), "phase_kpi_summary平均"],
+      ["Tie-break率(平均)", pct(tieRate), "phase_kpi_summary平均"],
+      ["異常件数", num(anomalies), "data_quality.anomaly_count"],
+      ["不完全イベント", num(incomplete), "data_quality.incomplete_event_count"],
+    ];
+    document.getElementById("summaryCards").innerHTML = cards
+      .map((c) => `<li class="card"><dl><dt class="k">${c[0]}</dt><dd class="v">${c[1]}</dd><dd class="small">${c[2]}</dd></dl></li>`)
+      .join("");
+  }
+
+  function renderActionList() {
+    const rows = filteredEvents();
+    const total = rows.length;
+    const closeCnt = rows.filter((r) => Math.abs(Number(r.like || 0) - Number(r.dislike || 0)) <= 1).length;
+    const highContCnt = rows.filter((r) => Number(r.controversy || 0) >= 1.5).length;
+    const missingReasons = rows.filter((r) => Number(r.like_vote_count || 0) + Number(r.dislike_vote_count || 0) === 0).length;
+    const focus = focusMode.value;
+
+    let lines;
+    if (focus === "quality") {
+      lines = [
+        `1. 不完全イベント ${num(data?.data_quality?.incomplete_event_count || 0)} 件を確認（Analysis）`,
+        `2. 理由欠損提案 ${num(missingReasons)} 件を確認（Voting > 理由欠損だけ）`,
+        `3. 高論争提案 ${num(highContCnt)} 件の嫌い理由を要素抽出で確認（Voting）`,
+      ];
+    } else if (focus === "explore") {
+      lines = [
+        `1. 接戦提案 ${num(closeCnt)} 件を優先レビューして差分の言語化`,
+        `2. 高論争提案 ${num(highContCnt)} 件から新規性の強い案を抽出`,
+        `3. Personasで勝率の低い人物の強みを再確認`,
+      ];
+    } else {
+      lines = [
+        `1. 表示提案 ${num(total)} 件のうち接戦 ${num(closeCnt)} 件を先に確認`,
+        `2. 高論争 ${num(highContCnt)} 件は好き/嫌い理由を並べて判断`,
+        `3. 理由欠損 ${num(missingReasons)} 件は採択根拠が弱いため後回し`,
+      ];
+    }
+    document.getElementById("actionList").innerHTML = lines.map((x) => `<li>${esc(x)}</li>`).join("");
+  }
+
+  function renderFocusTable() {
+    const rows = filteredEvents();
+    const scored = rows
+      .map((r) => {
+        const diff = Math.abs(Number(r.like || 0) - Number(r.dislike || 0));
+        const controversy = Number(r.controversy || 0);
+        const miss = Number(r.like_vote_count || 0) + Number(r.dislike_vote_count || 0) === 0 ? 1 : 0;
+        const score = (diff <= 1 ? 1.2 : 0) + controversy + miss * 0.6;
+        return { r, diff, controversy, score };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 10);
+
+    document.getElementById("focusMeta").textContent = `上位 ${num(scored.length)} 件を表示（phase=${phaseLabel(phaseFilter.value)}）`;
+    const table = document.getElementById("focusProposalTable");
+    table.innerHTML = '<thead><tr><th>phase/session</th><th>proposal</th><th>persona</th><th class="num">like</th><th class="num">dislike</th><th class="num">controversy</th></tr></thead>';
+    table.innerHTML += `<tbody>${scored
+      .map(({ r, controversy }) => `<tr><td><div>${esc(phaseLabel(r.phase || "-"))}</div><div class="small">${esc(r.session_id || "-")}</div></td><td><div class="proposal-summary">${esc(r.proposal_summary || "(summaryなし)")}</div><div class="small">${esc(r.candidate_key || "-")} / ${esc(r.proposal_id || "-")}</div></td><td>${esc(r.persona_name || "-")}</td><td class="num">${Number(r.like || 0).toFixed(2)}</td><td class="num">${Number(r.dislike || 0).toFixed(2)}</td><td class="num">${Number(controversy || 0).toFixed(3)}</td></tr>`)
+      .join("")}</tbody>`;
+  }
+
+  function renderReasonSignals() {
+    const rows = filteredEvents();
+    const reasons = rows
+      .map((r) => ({ persona: String(r.persona_name || "unknown"), text: extractProposalReason(r.proposal_detail) }))
+      .filter((x) => String(x.text || "").trim().length > 0);
+    const reasonTexts = reasons.map((x) => x.text);
+    const coverage = rows.length ? reasons.length / rows.length : 0;
+    const freqWords = topTokens(reasonTexts, 12);
+    const freqElems = extractReasonElements(reasonTexts, 8);
+    const byPersona = new Map();
+    reasons.forEach((x) => {
+      byPersona.set(x.persona, (byPersona.get(x.persona) || 0) + 1);
+    });
+    const topPersona = Array.from(byPersona.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 8);
+
+    document.getElementById("reasonMeta").textContent = `抽出: ${num(reasons.length)} / ${num(rows.length)} 提案（phase=${phaseLabel(phaseFilter.value)}）`;
+    document.getElementById("reasonCards").innerHTML = [
+      { title: "理由カバレッジ", value: rows.length ? pct(coverage) : "0.0%", hint: "proposal_detailの理由記述有無" },
+      { title: "理由頻出語", value: num(freqWords.length), hint: "集計対象語彙数（上位は下表）" },
+      { title: "理由要素", value: num(freqElems.length), hint: "意味要素カテゴリ数（上位は下表）" },
+    ].map((c) => `<article class="ux-card"><h3>${c.title}</h3><div class="value">${c.value}</div><div class="hint">${c.hint}</div></article>`).join("");
+
+    const table = document.getElementById("reasonSignalTable");
+    table.innerHTML = '<thead><tr><th>signal</th><th>value</th></tr></thead>';
+    table.innerHTML += `<tbody>
+      <tr><td>頻出語（上位12）</td><td>${renderTokenList(freqWords, "word")}</td></tr>
+      <tr><td>理由要素（上位8）</td><td>${renderTokenList(freqElems, "element")}</td></tr>
+      <tr><td>理由記述が多いペルソナ</td><td>${topPersona.map(([name, c]) => `${esc(name)}(${num(c)})`).join(" / ") || "-"}</td></tr>
+    </tbody>`;
+  }
+
+  function renderDeepSnapshot() {
+    const phase = phaseFilter.value;
+    const statRows = (data.statistical_mechanics || []).filter((r) => phase === "all" || r.phase === phase);
+    const driftRows = ((data.drift_metrics || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const cpRows = ((data.advanced_changepoints || {}).summary || []).filter((r) => phase === "all" || r.phase === phase);
+    const banditRows = (data.catalog_bandit_scores || []).filter((r) => (phase === "all" || r.phase === phase) && Number(r.proposal_count || 0) > 0);
+
+    const topFree = statRows.slice().sort((a, b) => Number(b.free_energy || 0) - Number(a.free_energy || 0))[0] || null;
+    const topDrift = driftRows.slice().sort((a, b) => Number(b.js_combined_latest || 0) - Number(a.js_combined_latest || 0))[0] || null;
+    const topCp = cpRows.slice().sort((a, b) => Number(b.changepoint_count || 0) - Number(a.changepoint_count || 0))[0] || null;
+    const topBandit = banditRows.slice().sort((a, b) => Number(b.ucb1_score || 0) - Number(a.ucb1_score || 0))[0] || null;
+
+    const rows = [
+      ["free_energy最大", topFree ? `${esc(phaseLabel(topFree.phase))} / ${Number(topFree.free_energy || 0).toFixed(3)}` : "-", "Analysis"],
+      ["JS drift最大", topDrift ? `${esc(phaseLabel(topDrift.phase))} / ${Number(topDrift.js_combined_latest || 0).toFixed(4)}` : "-", "Analysis"],
+      ["changepoint最多", topCp ? `${esc(phaseLabel(topCp.phase))} / ${num(topCp.changepoint_count || 0)}` : "-", "Analysis"],
+      ["bandit上位", topBandit ? `${esc(phaseLabel(topBandit.phase))}.${esc(topBandit.dimension)} / ${esc(topBandit.label || topBandit.catalog_id || "-")}` : "-", "Voting"],
+    ];
+
+    const table = document.getElementById("deepSnapshotTable");
+    table.innerHTML = '<thead><tr><th>signal</th><th>snapshot</th><th>next</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows.map((r) => `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("")}</tbody>`;
+  }
+
+  function renderAll() {
+    renderSummary();
+    renderActionList();
+    renderReasonSignals();
+    renderFocusTable();
+    renderDeepSnapshot();
+  }
+
+  phaseFilter.addEventListener("change", () => {
+    trackUXEvent("brief", "phase_change", { phase: phaseFilter.value, focus: focusMode.value });
+    renderAll();
+    saveState();
+  });
+  focusMode.addEventListener("change", () => {
+    trackUXEvent("brief", "focus_change", { phase: phaseFilter.value, focus: focusMode.value });
+    renderAll();
+    saveState();
+  });
+
+  loadState();
+  buildMeta();
+  trackUXEvent("brief", "page_open", { phase: phaseFilter.value, focus: focusMode.value });
+  renderAll();
+})();
+</script>
+</body>
+</html>
