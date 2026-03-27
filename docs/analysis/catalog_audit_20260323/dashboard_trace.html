@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Session Trace</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Session Trace</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
+          <li><a href="./dashboard_constraints.html">Constraints</a></li>
+          <li><a href="./dashboard_trace.html" class="active">Session Trace</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="trace-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Trace filters">
+      <div class="field">
+        <label>SESSION</label>
+        <select id="sessionSelect"></select>
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="trace-main">
+    <h2 class="section-title">Phase1 → Phase4s 設計チェーン</h2>
+    <div class="small">勝者提案を横並び表示。カード間の矢印で時系列伝搬を把握します。</div>
+    <div id="traceCards" class="trace-grid"></div>
+    <div id="traceMetrics" class="small" style="margin-top:10px;"></div>
+  </div>
+
+  <div class="panel section-id" id="trace-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_constraints.html#constraints-matrix"><strong>Constraints</strong><div class="small">構成要素の相性へ戻る</div></a></li>
+      <li><a href="./dashboard_voting.html#vote-proposals"><strong>Voting</strong><div class="small">同セッションの投票理由を確認</div></a></li>
+      <li><a href="./dashboard_personas.html#persona-explorer"><strong>Personas</strong><div class="small">関与ペルソナの履歴を見る</div></a></li>
+    </ul>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, esc, pct, phaseLabel, buildPortraitImgTag, wirePortraitFallback, trackUXEvent } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const trace = data.session_trace || {};
+  const sessions = trace.sessions || [];
+  const phaseOrder = trace.phase_order || ['phase1','phase2a','phase3','phase4a','phase4s'];
+  const select = document.getElementById('sessionSelect');
+
+  document.getElementById('metaLine').textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+  document.getElementById('qualityBadges').innerHTML = `
+    <span class="badge">trace sessions: ${num(sessions.length)}</span>
+    <span class="badge" style="margin-left:8px;">phase cards: ${num(phaseOrder.length)}</span>
+  `;
+
+  sessions.forEach((s) => {
+    const o = document.createElement('option');
+    o.value = String(s.session_id || '');
+    o.textContent = `${s.session_date || '-'} / ${s.session_id || '-'}`;
+    select.appendChild(o);
+  });
+
+  function render() {
+    const sid = String(select.value || '');
+    const s = sessions.find((x) => String(x.session_id || '') === sid) || sessions[0] || null;
+    if (!s) {
+      document.getElementById('traceCards').innerHTML = '<div class="small">データなし</div>';
+      return;
+    }
+    const phases = s.phases || {};
+    const cards = [];
+    phaseOrder.forEach((ph, idx) => {
+      const r = phases[ph] || null;
+      if (!r) {
+        cards.push(`<article class="trace-card"><h3>${esc(phaseLabel(ph))}</h3><div class="small">winner data なし</div></article>`);
+      } else {
+        const avatar = (r.portrait_url || r.persona_id)
+          ? buildPortraitImgTag(r.portrait_url, r.persona_id, r.persona_name)
+          : '<div class="trace-avatar"></div>';
+        cards.push(`
+          <article class="trace-card">
+            <h3>${esc(phaseLabel(ph))}</h3>
+            <div class="trace-persona">${avatar}<div><div>${esc(r.persona_name || '-')}</div><div class="small">${esc(r.persona_id || '')}</div></div></div>
+            <div class="small">key=${esc(r.candidate_key || '-')} / proposal=${esc(r.proposal_id || '-')}</div>
+            <div class="trace-summary">${esc(r.proposal_summary || '(summaryなし)')}</div>
+            <div class="trace-vote small">like ${Number(r.like || 0).toFixed(2)} / dislike ${Number(r.dislike || 0).toFixed(2)} / controversy ${Number(r.controversy || 0).toFixed(3)}</div>
+          </article>
+        `);
+      }
+      if (idx < phaseOrder.length - 1) cards.push('<div class="trace-arrow">→</div>');
+    });
+
+    const el = document.getElementById('traceCards');
+    el.innerHTML = cards.join('');
+    wirePortraitFallback(el);
+
+    document.getElementById('traceMetrics').textContent =
+      `phase7 clip count=${num(s.phase7_clip_count || 0)} / signature mentions=${num(s.signature_mentions || 0)} / session=${s.session_id}`;
+  }
+
+  select.addEventListener('change', () => {
+    trackUXEvent('trace', 'session_change', { session_id: String(select.value || '') });
+    render();
+  });
+
+  if (sessions.length) select.value = String(sessions[0].session_id || '');
+  trackUXEvent('trace', 'page_open', {});
+  render();
+})();
+</script>
+</body>
+</html>

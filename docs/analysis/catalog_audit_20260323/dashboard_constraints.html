@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOJI Dashboard - Constraints</title>
+  <link rel="stylesheet" href="./dashboard.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <h1>GOJI Dashboard / Constraints</h1>
+      <div class="muted" id="metaLine">loading...</div>
+      <nav class="nav" aria-label="Dashboard navigation">
+        <ul class="nav-list">
+          <li><a href="./dashboard.html">Hub</a></li>
+          <li><a href="./dashboard_brief.html">Brief</a></li>
+          <li><a href="./dashboard_overview.html">Analysis</a></li>
+          <li><a href="./dashboard_music.html">Music</a></li>
+          <li><a href="./dashboard_constraints.html" class="active">Constraints</a></li>
+          <li><a href="./dashboard_trace.html">Session Trace</a></li>
+          <li><a href="./dashboard_voting.html">Voting</a></li>
+          <li><a href="./dashboard_personas.html">Personas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="qualityBadges"></div>
+  </div>
+
+  <div class="panel section-id" id="constraints-filters">
+    <form class="filters" onsubmit="return false;" aria-label="Constraints filters">
+      <div class="field">
+        <label>STYLE FILTER</label>
+        <select id="styleFilter"><option value="all">all</option></select>
+      </div>
+      <div class="field">
+        <label>MIN TRIALS</label>
+        <input id="minTrials" type="number" min="1" max="999" value="1" />
+      </div>
+      <div class="field">
+        <label>SORT</label>
+        <select id="sortMode">
+          <option value="controversy">avg controversy</option>
+          <option value="adoption">adoption rate</option>
+          <option value="fusion">fusion score</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  <div class="panel section-id" id="constraints-matrix">
+    <h2 class="section-title">天啓制約マトリクス（Tone × Genre）</h2>
+    <div class="small" id="matrixMeta">-</div>
+    <div class="small">セル: wins/trials | controversy。未試行は灰色表示。</div>
+    <div class="matrix-wrap" id="matrixWrap"></div>
+  </div>
+
+  <div class="panel section-id" id="constraints-top">
+    <h2 class="section-title">高スコア組み合わせ Top40</h2>
+    <table id="constraintsTopTable"></table>
+  </div>
+
+  <div class="panel section-id" id="constraints-next">
+    <h2 class="section-title">次に見るページ</h2>
+    <ul class="next-links">
+      <li><a href="./dashboard_voting.html#vote-goji"><strong>Voting</strong><div class="small">GOJI監視と壁タイムラインを確認</div></a></li>
+      <li><a href="./dashboard_trace.html#trace-main"><strong>Session Trace</strong><div class="small">採択チェーンをセッション単位で追跡</div></a></li>
+      <li><a href="./dashboard_overview.html#sec-catalog"><strong>Analysis</strong><div class="small">全体偏りと探索余地を確認</div></a></li>
+    </ul>
+  </div>
+</div>
+
+<script src="./dashboard_data.js"></script>
+<script src="./dashboard_shared.js"></script>
+<script>
+(async function () {
+  const { loadDashboardData, num, pct, esc, trackUXEvent, enableTableSort } = DashboardShared;
+  let data;
+  try {
+    data = await loadDashboardData();
+  } catch (e) {
+    document.body.innerHTML = `<div style="padding:24px;color:#ffb8c2;font-family:sans-serif;">${String(e.message || e)}</div>`;
+    return;
+  }
+
+  const styleFilter = document.getElementById('styleFilter');
+  const minTrialsInput = document.getElementById('minTrials');
+  const sortMode = document.getElementById('sortMode');
+
+  const cm = data.constraints_matrix || {};
+  const styles = cm.styles || [];
+  const tones = cm.tones || [];
+  const genres = cm.genres || [];
+  const recordsAll = cm.records || [];
+
+  document.getElementById('metaLine').textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
+  document.getElementById('qualityBadges').innerHTML = `
+    <span class="badge">combos tested: ${num((cm.summary || {}).tested || 0)}</span>
+    <span class="badge" style="margin-left:8px;">untested: ${num((cm.summary || {}).untested || 0)}</span>
+  `;
+
+  styles.forEach((s) => {
+    const o = document.createElement('option');
+    o.value = String(s.id || '');
+    o.textContent = `${s.label || s.id}`;
+    styleFilter.appendChild(o);
+  });
+
+  function filteredRows() {
+    const st = styleFilter.value;
+    const minTrials = Math.max(1, Number(minTrialsInput.value || 1));
+    return recordsAll.filter((r) => (st === 'all' || r.style_id === st) && Number(r.trial_count || 0) >= minTrials);
+  }
+
+  function renderMatrix() {
+    const rows = filteredRows();
+    const mode = sortMode.value;
+
+    document.getElementById('matrixMeta').textContent =
+      `styles=${num(styles.length)} / tones=${num(tones.length)} / genres=${num(genres.length)} / rows=${num(rows.length)} / total possible=${num((cm.summary || {}).total_possible || 0)}`;
+
+    const agg = new Map();
+    rows.forEach((r) => {
+      const k = `${r.tone_id}|${r.genre_id}`;
+      if (!agg.has(k)) agg.set(k, { trial: 0, wins: 0, cont: 0, fusion: 0 });
+      const z = agg.get(k);
+      z.trial += Number(r.trial_count || 0);
+      z.wins += Number(r.winner_count || 0);
+      z.cont += Number(r.avg_controversy || 0) * Number(r.trial_count || 0);
+      z.fusion += Number(r.avg_fusion_score || 0) * Number(r.trial_count || 0);
+    });
+
+    const maxCont = Math.max(0.001, ...Array.from(agg.values()).map((z) => z.trial > 0 ? (z.cont / z.trial) : 0));
+
+    const tmap = new Map(tones.map((t) => [String(t.id || ''), t.label || t.id]));
+    const gmap = new Map(genres.map((g) => [String(g.id || ''), g.label || g.id]));
+
+    const grid = [];
+    grid.push('<table class="matrix"><thead><tr><th class="phase">Tone / Genre</th>' + genres.map((g) => `<th class="phase">${esc(g.label || g.id)}</th>`).join('') + '</tr></thead><tbody>');
+    tones.forEach((t) => {
+      const cells = genres.map((g) => {
+        const k = `${t.id}|${g.id}`;
+        const z = agg.get(k);
+        if (!z || z.trial <= 0) {
+          return `<td class="phase-cell"><div class="heat heat-empty">未試行</div></td>`;
+        }
+        const adoption = z.wins / z.trial;
+        const cont = z.cont / z.trial;
+        const fusion = z.fusion / z.trial;
+        const heat = Math.max(0.05, Math.min(0.95, cont / maxCont));
+        const val = mode === 'adoption' ? adoption : (mode === 'fusion' ? fusion : cont);
+        const sub = mode === 'adoption' ? `adopt ${pct(adoption)}` : (mode === 'fusion' ? `fusion ${val.toFixed(2)}` : `cont ${cont.toFixed(2)}`);
+        return `<td class="phase-cell"><div class="heat" style="background: rgba(117,233,255,${heat.toFixed(3)});"><div>${num(z.wins)}/${num(z.trial)}</div><div class="small">${sub}</div></div></td>`;
+      }).join('');
+      grid.push(`<tr><th class="phase">${esc(t.label || t.id)}</th>${cells}</tr>`);
+    });
+    grid.push('</tbody></table>');
+    document.getElementById('matrixWrap').innerHTML = grid.join('');
+  }
+
+  function renderTopTable() {
+    const rows = filteredRows().slice();
+    const mode = sortMode.value;
+    rows.sort((a, b) => {
+      if (mode === 'adoption') return Number(b.adoption_rate || 0) - Number(a.adoption_rate || 0) || Number(b.trial_count || 0) - Number(a.trial_count || 0);
+      if (mode === 'fusion') return Number(b.avg_fusion_score || 0) - Number(a.avg_fusion_score || 0) || Number(b.trial_count || 0) - Number(a.trial_count || 0);
+      return Number(b.avg_controversy || 0) - Number(a.avg_controversy || 0) || Number(b.trial_count || 0) - Number(a.trial_count || 0);
+    });
+
+    const table = document.getElementById('constraintsTopTable');
+    table.innerHTML = '<thead><tr><th>tone</th><th>genre</th><th>style</th><th class="num">wins/trials</th><th class="num">adoption</th><th class="num">avg controversy</th><th class="num">fusion score</th><th class="num">sessions</th></tr></thead>';
+    table.innerHTML += `<tbody>${rows.slice(0,40).map((r) => `<tr><td>${esc(r.tone_label || r.tone_id)}</td><td>${esc(r.genre_label || r.genre_id)}</td><td>${esc(r.style_label || r.style_id)}</td><td class="num">${num(r.winner_count || 0)}/${num(r.trial_count || 0)}</td><td class="num">${pct(r.adoption_rate || 0)}</td><td class="num">${Number(r.avg_controversy || 0).toFixed(3)}</td><td class="num">${Number(r.avg_fusion_score || 0).toFixed(3)}</td><td class="num">${num(r.session_count || 0)}</td></tr>`).join('') || '<tr><td colspan="8" class="small">データなし</td></tr>'}</tbody>`;
+    enableTableSort('constraintsTopTable');
+  }
+
+  function renderAll() {
+    renderMatrix();
+    renderTopTable();
+  }
+
+  styleFilter.addEventListener('change', () => { trackUXEvent('constraints', 'style_change', { style: styleFilter.value }); renderAll(); });
+  minTrialsInput.addEventListener('input', () => { renderAll(); });
+  sortMode.addEventListener('change', () => { renderAll(); });
+
+  trackUXEvent('constraints', 'page_open', {});
+  renderAll();
+})();
+</script>
+</body>
+</html>

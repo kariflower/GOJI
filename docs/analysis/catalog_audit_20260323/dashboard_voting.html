@@ -18,6 +18,8 @@
           <li><a href="./dashboard_brief.html">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
           <li><a href="./dashboard_music.html">Music</a></li>
+          <li><a href="./dashboard_constraints.html">Constraints</a></li>
+          <li><a href="./dashboard_trace.html">Session Trace</a></li>
           <li><a href="./dashboard_voting.html" class="active">Voting</a></li>
           <li><a href="./dashboard_personas.html">Personas</a></li>
         </ul>
@@ -98,11 +100,25 @@
     </details>
   </div>
 
+  <div class="panel section-id" id="vote-wall">
+    <h2 class="section-title">嫌いの壁タイムライン（推定）</h2>
+    <div class="small">disgust_wall は timestamp を持たないため、セッション時系列に按分した推定表示です（inferred）。</div>
+    <table id="wallTimelineTable"></table>
+  </div>
+
+  <div class="panel section-id" id="vote-goji">
+    <h2 class="section-title">GOJI パフォーマンスモニター</h2>
+    <div class="small">候補D/GOJI系提案の勝率推移・壁引用率・like/dislike推移を監視します。</div>
+    <div class="small" id="gojiMeta"></div>
+    <table id="gojiMonitorTable"></table>
+  </div>
+
   <div class="panel section-id" id="vote-next">
     <h2 class="section-title">次に見るページ</h2>
     <ul class="next-links">
       <li><a href="./dashboard_personas.html#persona-explorer"><strong>Personas</strong><div class="small">投票者・提案者の履歴比較へ進む</div></a></li>
       <li><a href="./dashboard_overview.html#sec-matrix"><strong>Analysis</strong><div class="small">採択偏りと探索余地を確認する</div></a></li>
+      <li><a href="./dashboard_constraints.html#constraints-matrix"><strong>Constraints</strong><div class="small">Tone×Genre×Style の相性を確認する</div></a></li>
       <li><a href="./dashboard_brief.html#brief-summary"><strong>Brief</strong><div class="small">意思決定サマリーへ戻る</div></a></li>
     </ul>
   </div>
@@ -180,6 +196,7 @@
       <span class="badge">sessions: ${num(data.phase_presence.session_total)}</span>
       <span class="badge alert" style="margin-left:8px;">anomalies: ${num(data.data_quality.anomaly_count)}</span>
       <span class="badge alert" style="margin-left:8px;">incomplete events: ${num(data.data_quality.incomplete_event_count)}</span>
+      <span class="badge" style="margin-left:8px;">goji rows: ${num(((data.goji_monitor || {}).summary || {}).proposal_count || 0)}</span>
     `;
   }
 
@@ -399,6 +416,53 @@
       .join("")}</tbody>`;
   }
 
+  function renderWallTimeline() {
+    const rows = ((data.disgust_wall_timeline || {}).records || []).slice(-80);
+    const table = document.getElementById("wallTimelineTable");
+    table.innerHTML = '<thead><tr><th>session</th><th class="num">wall new</th><th class="num">wall cumulative</th><th>top wall categories(new)</th><th>proposal category adoption(top3)</th></tr></thead>';
+    if (!rows.length) {
+      table.innerHTML += '<tbody><tr><td colspan="5" class="small">データなし</td></tr></tbody>';
+      return;
+    }
+    const body = rows.map((r) => {
+      const cnew = r.wall_category_new || {};
+      const topWall = Object.entries(cnew)
+        .filter((x) => Number(x[1] || 0) > 0)
+        .sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0))
+        .slice(0, 3)
+        .map((x) => `${esc(x[0])}(${num(x[1])})`)
+        .join(" / ");
+      const topAdopt = (r.proposal_category_stats || [])
+        .filter((x) => Number(x.proposal_count || 0) > 0)
+        .sort((a, b) => Number(b.proposal_count || 0) - Number(a.proposal_count || 0))
+        .slice(0, 3)
+        .map((x) => `${esc(x.category)} ${num(x.winner_count)}/${num(x.proposal_count)} (${pct(x.adoption_rate || 0)})`)
+        .join(" / ");
+      return `<tr><td>${esc(r.session_date || "-")}<div class="small">${esc(r.session_id || "")}</div></td><td class="num">${num(r.wall_new_count || 0)}</td><td class="num">${num(r.wall_cumulative_count || 0)}</td><td>${topWall || '-'}</td><td>${topAdopt || '-'}</td></tr>`;
+    }).join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
+  function renderGojiMonitor() {
+    const rows = ((data.goji_monitor || {}).records || []).slice(-80);
+    const rollingMap = new Map((((data.goji_monitor || {}).rolling || []).map((r) => [String(r.session_id || ""), Number(r.rolling5_win_rate || 0)])));
+    const summary = ((data.goji_monitor || {}).summary || {});
+    document.getElementById("gojiMeta").textContent =
+      `sessions=${num(summary.session_count || 0)} / proposals=${num(summary.proposal_count || 0)} / wins=${num(summary.winner_count || 0)} / wall-win corr=${Number(summary.wall_winrate_corr || 0).toFixed(3)}`;
+
+    const table = document.getElementById("gojiMonitorTable");
+    table.innerHTML = '<thead><tr><th>session</th><th class="num">wins/proposals</th><th class="num">win rate</th><th class="num">rolling5 win</th><th class="num">wall citation</th><th class="num">avg like</th><th class="num">avg dislike</th><th class="num">avg controversy</th><th class="num">wall cumulative</th></tr></thead>';
+    if (!rows.length) {
+      table.innerHTML += '<tbody><tr><td colspan="9" class="small">データなし</td></tr></tbody>';
+      return;
+    }
+    const body = rows.map((r) => {
+      const sid = String(r.session_id || "");
+      return `<tr><td>${esc(r.session_date || "-")}<div class="small">${esc(sid)}</div></td><td class="num">${num(r.goji_winner_count || 0)}/${num(r.goji_proposal_count || 0)}</td><td class="num">${pct(r.goji_win_rate || 0)}</td><td class="num">${pct(rollingMap.get(sid) || 0)}</td><td class="num">${pct(r.wall_citation_rate || 0)}</td><td class="num">${Number(r.avg_like || 0).toFixed(2)}</td><td class="num">${Number(r.avg_dislike || 0).toFixed(2)}</td><td class="num">${Number(r.avg_controversy || 0).toFixed(3)}</td><td class="num">${num(r.wall_cumulative_count || 0)}</td></tr>`;
+    }).join("");
+    table.innerHTML += `<tbody>${body}</tbody>`;
+  }
+
   function renderAll() {
     setPhaseQuery(phaseFilter.value);
     syncNavPhase(phaseFilter.value);
@@ -408,7 +472,9 @@
     renderProposalDetails();
     renderVoteShadow();
     renderBandit();
-    ["voterTable", "proposalTable", "voteShadowTable", "voteBanditTable"].forEach((id) => enableTableSort(id));
+    renderWallTimeline();
+    renderGojiMonitor();
+    ["voterTable", "proposalTable", "voteShadowTable", "voteBanditTable", "wallTimelineTable", "gojiMonitorTable"].forEach((id) => enableTableSort(id));
   }
 
   phaseFilter.addEventListener("change", () => {
