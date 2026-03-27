@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-26T19:43:49Z",
+  "generated_at": "2026-03-27T04:27:59Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260327-095537-6d11",
+      "path": "./session-20260327-095537-6d11/assets/instructions/index.html",
+      "generated_at": "2026-03-27T04:27:51.263115Z",
+      "clip_count": 70,
+      "duration_sec": 177.27999999999997,
+      "section_count": 9,
+      "summary": "浮遊大陸の都市——音が建材であるこの場所では、静止することは死を意味する。ワニは毎朝、厨房区画から音素材の輸送を担う移送車に乗り込む仕事をしている。ある日の出発直前、積み荷の点検を終えた荷台の隅に、一枚だけ残された「未封音の皮」を見つける。誰の仕事にも入っていない。誰も気づいていない。ワニはそれを拾わず、ただ荷台の端の棚に置いて、移送車は走り出す。 車窓の外には pink-teal に染まった高架都市が流れ——ヤシの木のシルエット、ロ…",
+      "song_file": "Funky Gyoza Breakbeat.mp3"
+    },
     {
       "session_id": "session-20260327-001500-010c",
       "path": "./session-20260327-001500-010c/assets/instructions/index.html",
