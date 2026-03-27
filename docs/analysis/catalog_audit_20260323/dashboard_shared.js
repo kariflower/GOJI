@@ -67,6 +67,8 @@
     if (/^(https?:|mailto:|javascript:|#)/i.test(h)) return h;
     const p = String(phase || "").trim() || "all";
     const [pathPart, hashPart] = h.split("#");
+    const fileName = (pathPart.split("?")[0] || "").split("/").pop() || "";
+    if (!/^dashboard(?:_[a-z]+)?\\.html$/i.test(fileName)) return h;
     const [base, query] = pathPart.split("?");
     const params = new URLSearchParams(query || "");
     if (p === "all") params.delete("phase");
@@ -85,7 +87,7 @@
       if (!a.dataset.baseText) a.dataset.baseText = a.textContent || "";
       const baseText = a.dataset.baseText;
       a.setAttribute("href", withPhaseOnHref(href, p));
-      if (p !== "all" && !/dashboard\.html(?:\?|$)/.test(href)) {
+      if (p !== "all" && /dashboard_(brief|overview|music|constraints|trace|voting|personas)\.html(?:\?|$)/.test(href)) {
         a.textContent = `${baseText} (${phaseLabel(p)})`;
       } else {
         a.textContent = baseText;

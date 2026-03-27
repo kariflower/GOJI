@@ -15,6 +15,7 @@
       <nav class="nav" aria-label="Dashboard navigation">
         <ul class="nav-list">
           <li><a href="./dashboard.html" class="active">Hub</a></li>
+          <li><a href="../../../sessions/index.html">Sessions Index</a></li>
           <li><a href="./dashboard_brief.html">Brief</a></li>
           <li><a href="./dashboard_overview.html">Analysis</a></li>
           <li><a href="./dashboard_music.html">Music</a></li>
@@ -111,13 +112,6 @@
 (async function () {
   const { loadDashboardData, num, getUXSummary, clearUXLogs, trackUXEvent, getPhaseFromQuery, syncNavPhase, syncPhaseLinks } = DashboardShared;
   const qPhase = getPhaseFromQuery("all");
-  const nowUrl = new URL(window.location.href);
-  if (nowUrl.searchParams.get("hub") !== "1") {
-    const next = new URL("./dashboard_brief.html", window.location.href);
-    if (qPhase && qPhase !== "all") next.searchParams.set("phase", qPhase);
-    window.location.replace(next.toString());
-    return;
-  }
   let data;
   try {
     data = await loadDashboardData();
