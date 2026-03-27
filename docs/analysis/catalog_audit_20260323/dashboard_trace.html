@@ -71,6 +71,7 @@
   const sessions = trace.sessions || [];
   const phaseOrder = trace.phase_order || ['phase1','phase2a','phase3','phase4a','phase4s'];
   const select = document.getElementById('sessionSelect');
+  const phaseTotal = Math.max(1, phaseOrder.length);
 
   document.getElementById('metaLine').textContent = `generated: ${data.generated_at} / source: ${data.source_dir}`;
   document.getElementById('qualityBadges').innerHTML = `
@@ -79,9 +80,10 @@
   `;
 
   sessions.forEach((s) => {
+    const pc = Object.keys(s.phases || {}).length;
     const o = document.createElement('option');
     o.value = String(s.session_id || '');
-    o.textContent = `${s.session_date || '-'} / ${s.session_id || '-'}`;
+    o.textContent = `${s.session_date || '-'} / ${s.session_id || '-'} (phase ${pc}/${phaseTotal})`;
     select.appendChild(o);
   });
 
@@ -119,8 +121,9 @@
     el.innerHTML = cards.join('');
     wirePortraitFallback(el);
 
+    const phaseCount = Object.keys(phases).length;
     document.getElementById('traceMetrics').textContent =
-      `phase7 clip count=${num(s.phase7_clip_count || 0)} / signature mentions=${num(s.signature_mentions || 0)} / session=${s.session_id}`;
+      `phase coverage=${phaseCount}/${phaseTotal} / phase7 clip count=${num(s.phase7_clip_count || 0)} / signature mentions=${num(s.signature_mentions || 0)} / session=${s.session_id}`;
   }
 
   select.addEventListener('change', () => {
@@ -128,7 +131,14 @@
     render();
   });
 
-  if (sessions.length) select.value = String(sessions[0].session_id || '');
+  if (sessions.length) {
+    const ranked = sessions.slice().sort((a, b) => {
+      const ac = Object.keys(a.phases || {}).length;
+      const bc = Object.keys(b.phases || {}).length;
+      return (bc - ac) || String(b.session_id || '').localeCompare(String(a.session_id || ''));
+    });
+    select.value = String((ranked[0] || sessions[0]).session_id || '');
+  }
   trackUXEvent('trace', 'page_open', {});
   render();
 })();
