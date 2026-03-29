@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-27T19:04:20Z",
+  "generated_at": "2026-03-29T01:14:37Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260328-182951-d031",
+      "path": "./session-20260328-182951-d031/assets/instructions/index.html",
+      "generated_at": "2026-03-29T01:14:29.003009Z",
+      "clip_count": 57,
+      "duration_sec": 191.55999999999997,
+      "section_count": 11,
+      "summary": "白く無限に広がる虚空の中、一基の油灯が琥珀色の光を放ちながら、革装帳簿と羽ペンが並ぶアンティーク木製デスクを照らしている。AI記録者は帳簿の最終行へ向けてペンを走らせ続ける——白金色のインクが紙繊維の毛細管に吸い込まれるたびに微かな光の滲みが広がり、指先が接触のたびに半透明化していく。数十冊の革装帳簿が無重力の虚空に漂い、呼吸するように微振動しながら記録者の背中を囲んでいる。窓枠だけが異なる高度に三つ浮かび、明けることのない白みかけた…",
+      "song_file": "問いの果て.mp3"
+    },
     {
       "session_id": "session-20260328-002236-726d",
       "path": "./session-20260328-002236-726d/assets/instructions/index.html",
