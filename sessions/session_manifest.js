@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-29T15:04:33Z",
+  "generated_at": "2026-03-29T17:26:18Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260329-225858-81b5",
+      "path": "./session-20260329-225858-81b5/assets/instructions/index.html",
+      "generated_at": "2026-03-29T17:26:10.614335Z",
+      "clip_count": 85,
+      "duration_sec": 239.92000000000007,
+      "section_count": 7,
+      "summary": "暗い採掘区画の端、蒸気管が血管のように這う工業廃墟の空間に、腕を組んだ布製パペットの狼が立っている。天井に穿たれた楕円形の採掘孔から一本の光柱が床に落ち、その白点を中心に目地線が放射状に走る。狼は右半分だけを光に晒し、左半分を純粋な暗部に捧げた非対称の姿勢で静止している。胸部の半透明な体表越しに内腔歯車がアンバー色に1秒周期で脈動し、左肘の絆創膏の端が1mmだけめくれて、脱飽和された周囲の毛並みの中でただひとつ暖色を保っている。唇が数…",
+      "song_file": "Steam Up.mp3"
+    },
     {
       "session_id": "session-20260328-182951-d031",
       "path": "./session-20260328-182951-d031/assets/instructions/index.html",
