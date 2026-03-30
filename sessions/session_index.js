@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-29T17:26:18Z",
+  "generated_at": "2026-03-30T20:04:03Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260331-004314-aec7",
+      "path": "./session-20260331-004314-aec7/assets/instructions/index.html",
+      "generated_at": "2026-03-30T20:03:55.380459Z",
+      "clip_count": 86,
+      "duration_sec": 203.90000000000003,
+      "section_count": 8,
+      "summary": "浮世絵調の格子壁に囲まれた1LDK。ライム色の霧の中から始まる映像は、胸元に引力メーターパネルを埋め込んだ逆三角形の背中の男と、天井を圧迫する巨大な緑のバルーンを映し出す。男はバルーンの紐を指に巻いたまま壁面の申請端末の前に立ち、人差し指を画面から2センチの位置で止める。針は沈黙し、指はそれ以上進まない。格子壁は照明だけが語り部となり、朝白から黄昼、橙のアンバー、そして藍の夜へと色を変えてゆく——その間ずっと、バルーンの影が格子の升目…",
+      "song_file": "Blimping.mp3"
+    },
     {
       "session_id": "session-20260329-225858-81b5",
       "path": "./session-20260329-225858-81b5/assets/instructions/index.html",
