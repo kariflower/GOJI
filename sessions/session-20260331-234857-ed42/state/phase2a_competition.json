@@ -1,0 +1,444 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-ad7f7288",
+      "persona_id": "persona-8073fbaf",
+      "content": {
+        "chosen_base": "ケルベロス",
+        "chosen_feature": "タキシード・手足が短い",
+        "chosen_signature": "骨の首飾り・シール帳",
+        "subject_concept": "タキシードを着た手足の短いケルベロス",
+        "subject_signature": "骨の首飾り・シール帳",
+        "why_it_came": "ハロウィンとイタズラの組み合わせを聞いたとき、威厳があるはずなのに妙にずんぐりした生き物が頭に浮かんだ。継父と街を歩くとき、大きな建物の前に小さな看板犬がいることがあって、そのアンバランスさが面白くてよく見てしまう。",
+        "who_should_watch": "かわいいものとこわいものが同時に好きで、どちらかに決めることをためらっている人。",
+        "character_profile": {
+          "appearance_profile": "三つの頭それぞれに骨の首飾りをぶら下げ、丈の合わないタキシードを着た手足の短いケルベロス。シール帳を一冊、脇に挟んでいる。",
+          "motion_profile": "三つの頭がばらばらのタイミングでシール帳に顔を近づけ、めくるたびに小さく体全体が揺れる。"
+        },
+        "phase1_base": "ケルベロス",
+        "phase2_condition": "タキシード・手足が短い",
+        "phase3_anchor": "骨の首飾り・シール帳"
+      },
+      "created_at": "2026-03-31 14:53:32.681975",
+      "persona_name": "Youssef Tanaka",
+      "persona_profile": {
+        "id": "persona-8073fbaf",
+        "name": "Youssef Tanaka",
+        "gender": "男性",
+        "birthdate": "2012-06-20",
+        "origin_city": "カサブランカ",
+        "ethnic_background": "ミックス（複合的ルーツ）",
+        "life_history": [
+          {
+            "year": 2012,
+            "event": "カサブランカで誕生。父はモロッコ系フランス人の貿易商、母は日本人の通訳者。"
+          },
+          {
+            "year": 2015,
+            "event": "父の仕事の都合で家族で東京に移住。母の実家近くのアパートに住み始める。"
+          },
+          {
+            "year": 2018,
+            "event": "幼稚園で日本語とフランス語の混在に戸惑い、最初の半年間はほとんど話さなかった。"
+          },
+          {
+            "year": 2020,
+            "event": "両親が離婚。父はフランスに帰国し、母と二人暮らしになる。月に一度ビデオ通話で父と話す生活が始まる。"
+          },
+          {
+            "year": 2022,
+            "event": "小学校のサッカークラブに入部。4年生の地区大会で決勝ゴールを決めた。"
+          },
+          {
+            "year": 2024,
+            "event": "母が再婚。継父は建築士で、週末に一緒に街を歩いて建物を見る習慣ができた。"
+          },
+          {
+            "year": 2025,
+            "event": "中学受験に失敗。地元の公立中学に進学し、最初の3ヶ月間は図書室で昼休みを過ごした。"
+          }
+        ],
+        "current_situation": "東京都内の公立中学1年生。母、継父、継父の連れ子である5歳下の妹と4人で暮らしている。サッカー部に所属しているが、小学校時代ほど熱心ではなく、最近は放課後に友人と駄菓子屋に寄る時間を優先している。フランス語は日常会話レベルで話せるが、読み書きは苦手。数学の成績が良く、担任から理系クラスを勧められている。",
+        "external_perception": {
+          "first_impression": "物静かで控えめに見える。名前と顔立ちから外国人だと思われることが多い。",
+          "close_friends_view": "意外と負けず嫌いで、ゲームやスポーツになると本気になる。冗談を言うタイミングが独特で、たまにズレているが憎めない。",
+          "misunderstandings": "複数の言語を話せることから「頭がいい」と思われがちだが、本人は国語の読解問題が苦手で成績は平均的。クールに見えるが、実際は単に人見知りなだけ。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "proposal_history": [
+          {
+            "session": "error_fix_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 20,
+            "won": true
+          },
+          {
+            "session": "goji_creator_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "認識されることでしか存在できない命が、繰り返し呼ばれることで何度も生まれ直す",
+            "rank": 1,
+            "tally": 6,
+            "won": true
+          },
+          {
+            "session": "goji_creator_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 10,
+            "won": false
+          },
+          {
+            "session": "session-smoke-20260125-040803",
+            "phase": "Phase 1",
+            "my_proposal_summary": "何百年も繰り返されてきた手の動きが、床板や道具に痕跡として残り、誰も気づかない朝の光の中でだけ、その軌跡が一瞬だけ浮かび上がる",
+            "rank": 3,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "session-smoke-20260125-040803",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 6,
+            "won": false
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-8073fbaf.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-70bf4112",
+      "persona_id": "persona-b67e7fe9",
+      "content": {
+        "chosen_base": "兎",
+        "chosen_feature": "細い手",
+        "chosen_signature": "銀の万年筆",
+        "phase1_base": "兎",
+        "phase2_condition": "細い手",
+        "phase3_anchor": "銀の万年筆",
+        "subject_concept": "兎(細い手)",
+        "subject_signature": "銀の万年筆",
+        "why_it_came": "候補選択の自然な連想として「兎」「細い手」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "兎(細い手)。外見の核は「細い手」、識別の決め手は「銀の万年筆」。",
+          "motion_profile": "「細い手」が読める動きを保ち、見せ場では「銀の万年筆」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-03-31 14:54:12.734826",
+      "persona_name": "かすが",
+      "persona_profile": {
+        "id": "persona-b67e7fe9",
+        "name": "かすが",
+        "gender": "女性",
+        "birthdate": "1968-06-08",
+        "life_history": [
+          {
+            "year": 1986,
+            "event": "離島の高校を卒業後、進学も就職もせず、家業の民宿を手伝いながら島で暮らし続けることを決めた。同級生のほとんどが島を出る中、自分だけが残った。"
+          },
+          {
+            "year": 1995,
+            "event": "両親が営んでいた民宿を引き継ぐ形で経営を任されるようになった。観光客との会話を通じて、島の外の世界を少しずつ知るようになった。"
+          },
+          {
+            "year": 2003,
+            "event": "台風で民宿が大きな被害を受け、修繕に数ヶ月を要した。島民たちが自然に集まって手伝ってくれた。"
+          },
+          {
+            "year": 2011,
+            "event": "長年飼っていた犬が老衰で亡くなり、初めて深い喪失感を経験した。それ以来、新しいペットは飼わないと決めた。"
+          },
+          {
+            "year": 2018,
+            "event": "民宿の常連客の一人に「この島に来ると落ち着く、あなたのおかげだ」と言われ、自分の存在意義を初めて言葉で確認できた。"
+          }
+        ],
+        "current_situation": "長崎県の小さな離島で生まれ育ち、高校卒業後も島を離れることなく両親の民宿を継いだ。現在も一人で小規模な民宿を営んでおり、季節ごとに訪れる少数の常連客を大切にしている。朝は早く起きて掃除をし、昼間は島の商店で買い物をしたり近所の人と立ち話をしたりして過ごす。夜はテレビを見ながら編み物をすることが多い。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ、どこか掴みどころのない雰囲気の人",
+          "close_friends_view": "誠実で頼りになる、聞き上手で決して人を否定しない温かい存在",
+          "misunderstandings": "無口で冷たい人だと思われがちだが、実際は人見知りなだけで心は優しい"
+        },
+        "like_history": [
+          {
+            "session": "disgust_wall_v4",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "夜明けも夕暮れも区別がつかなくなった部屋で、画面の光だけが時間を区切る中、他者との距離を測り続ける者",
+            "like_count": 3,
+            "like_reasons": [
+              "島での経験を語る視点に共感した。距離を保つ優しさ、確かにある",
+              "島で生きてきた人の言葉、重みがある。画面越しの温もり、わかる",
+              "自分の経験を素直に語ってる。嘘がない感じがする"
+            ]
+          },
+          {
+            "session": "disgust_wall_v4",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 3,
+            "like_reasons": [
+              "境界線上で揺れてるっていう表現が面白い",
+              "中途半端な人間っていう自己認識が、正直で好感持てる",
+              "どちらにも属せず揺れているって状態、興味深い視点"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "disgust_wall_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "夜明けも夕暮れも区別がつかなくなった部屋で、画面の光だけが時間を区切る中、他者との距離を測り続ける者の静かな記録",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "disgust_wall_v4",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 3,
+            "won": true
+          },
+          {
+            "session": "lookatme_v4",
+            "phase": "Phase 1",
+            "my_proposal_summary": "時間が変えたのは見え方だけで、本質は最初からそこにあった。成長も変化もなく、ただ時が経過した場所の記録。",
+            "rank": 2,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "phase2_ref_final_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "他者の認識によってのみ輪郭を得る存在が、呼ばれ続けることで保たれている瞬間",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "phase2_ref_final_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          }
+        ],
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-b67e7fe9.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-5c60bbc6",
+      "persona_id": "persona-89b66c63",
+      "content": {
+        "chosen_base": "蜘蛛",
+        "chosen_feature": "両腕を広げて立つ",
+        "chosen_signature": "旗印",
+        "phase1_base": "蜘蛛",
+        "phase2_condition": "両腕を広げて立つ",
+        "phase3_anchor": "旗印",
+        "subject_concept": "蜘蛛(両腕を広げて立つ)",
+        "subject_signature": "旗印",
+        "why_it_came": "候補選択の自然な連想として「蜘蛛」「両腕を広げて立つ」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "蜘蛛(両腕を広げて立つ)。外見の核は「両腕を広げて立つ」、識別の決め手は「旗印」。",
+          "motion_profile": "「両腕を広げて立つ」が読める動きを保ち、見せ場では「旗印」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-03-31 14:55:07.918714",
+      "persona_name": "Devika Ramírez",
+      "persona_profile": {
+        "id": "persona-89b66c63",
+        "name": "Devika Ramírez",
+        "gender": "ノンバイナリー",
+        "birthdate": "1929-10-15",
+        "age": 65,
+        "origin_city": "メキシコシティ",
+        "ethnic_background": "南アジア系",
+        "life_history": [
+          {
+            "year": 1929,
+            "event": "メキシコシティのコロニア・ローマ地区で、インド系移民の両親のもとに生まれる。父は香辛料商、母は仕立屋。"
+          },
+          {
+            "year": 1947,
+            "event": "国立自治大学で薬学を学び始める。同級生の多くは男性だった。"
+          },
+          {
+            "year": 1952,
+            "event": "大学卒業後、メキシコシティ中心部の公立病院で薬剤師として勤務開始。"
+          },
+          {
+            "year": 1958,
+            "event": "病院の同僚たちと労働組合の結成に関わる。待遇改善を求める集会を何度も開催した。"
+          },
+          {
+            "year": 1968,
+            "event": "トラテロルコ事件の際、負傷者の治療にあたる。病院は深夜まで混乱状態だった。"
+          },
+          {
+            "year": 1975,
+            "event": "近隣住民向けの無料健康相談会を自宅で週1回開始。参加者は毎回20人以上。"
+          },
+          {
+            "year": 1982,
+            "event": "経済危機で多くの住民が医療費を払えなくなる中、薬の分け合いネットワークを組織化。"
+          },
+          {
+            "year": 1994,
+            "event": "65歳で病院を退職。その後も地域の健康相談会は継続している。"
+          }
+        ],
+        "current_situation": "メキシコシティのコロニア・ローマ地区の古いアパートに一人暮らし。週3回、自宅で近隣住民向けの健康相談会を開いており、毎回10〜15人が訪れる。年金と相談会での寄付金で生活している。朝は市場で野菜を買い、午後は近所の広場で知人たちと過ごすことが多い。",
+        "external_perception": {
+          "first_impression": "背筋が伸びていて、落ち着いた口調で話す。年齢の割に動きが機敏で、実務的な雰囲気がある。",
+          "close_friends_view": "困っている人を放っておけない性格。相手の話をよく聞き、具体的な解決策を示す。過去の苦労話はほとんどしない。",
+          "misunderstandings": "静かで控えめに見えるが、実際には集会や会合で中心的な役割を担うことが多く、発言力も強い。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-89b66c63.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-ad7f7288",
+      "B": "sl2a-70bf4112",
+      "C": "sl2a-5c60bbc6"
+    },
+    "tally": {
+      "A": 8,
+      "B": 4,
+      "C": 8
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "dislike_tally": {
+      "A": 4,
+      "B": 2,
+      "C": 4
+    },
+    "votes": [
+      {
+        "voter": "Soraya Ngundy-Macintosh",
+        "like": "A",
+        "like_reason": "ケルベロスという多頭の存在が多様な人々を迎え入れる包容力を連想させ、骨の首飾りやシール帳など生活の記憶が宿る小道具が人と人のつながりを感じさせる。",
+        "dislike": "C",
+        "dislike_reason": "蜘蛛が両腕を広げて立つ姿と旗印の組み合わせは支配や威圧を想起させ、共生や相互扶助を大切にする自分の価値観とそぐわない。"
+      },
+      {
+        "voter": "チェ・ミンジ",
+        "like": "C",
+        "like_reason": "蜘蛛の幾何学的なフォルムと旗印のシャープさはUIデザインの視点から視覚的に強く、両腕を広げるポーズに動的なエネルギーを感じる。",
+        "dislike": "A",
+        "dislike_reason": "ケルベロスとタキシード・手足が短いという組み合わせはコンセプトが散漫に見え、シンプルさを重視するデザイン感覚には引っかかる。"
+      },
+      {
+        "voter": "趙 依蓮 (Zhao Yilian)",
+        "like": "B",
+        "like_reason": "兎の細い手と銀の万年筆という静謐な組み合わせが、データ管理の精密な日常に通じる繊細さと集中を呼び起こす。",
+        "dislike": "C",
+        "dislike_reason": "旗印は集団的な主張の象徴であり、静かな個人の領域を好む自分には過剰な主張に映る。"
+      },
+      {
+        "voter": "Parvati Chandra de la Cruz",
+        "like": "A",
+        "like_reason": "骨の首飾りは先祖との繋がりを、シール帳は日常の記録を想起させ、長く生きた者として時間の堆積を感じさせるこの候補に深い親しみを覚える。",
+        "dislike": "B",
+        "dislike_reason": "兎の細い手と万年筆は洗練されているが、商人として生きてきた自分には手触りが薄く、実体のない印象を受ける。"
+      },
+      {
+        "voter": "Nguyen Bao Linh",
+        "like": "C",
+        "like_reason": "旗印は遠い地での商売における旗揚げや誇りを思わせ、異国の市場で踏ん張る自分の境遇と重なる。蜘蛛の網は仕入れルートの広がりにも見える。",
+        "dislike": "A",
+        "dislike_reason": "タキシードを着たケルベロスは異文化混交の趣があるが、どこか滑稽で軽すぎる。生業に真剣な自分には道化的に映る。"
+      },
+      {
+        "voter": "Nadia Sovannary Phnom",
+        "like": "B",
+        "like_reason": "銀の万年筆という静謐なアンカーが在宅で孤独に働く自分の日常と共鳴し、細い手という条件が繊細さと知性を感じさせる。",
+        "dislike": "A",
+        "dislike_reason": "タキシードと骨の首飾りの組み合わせは過剰に演劇的で、自分の感性には重すぎる。"
+      },
+      {
+        "voter": "ミン・チェン",
+        "like": "C",
+        "like_reason": "旗印という商業・商圏のアンカーが輸入代行ビジネスの感覚と結びつき、蜘蛛が張り巡らすネットワークは自分の仕事のメタファーとして面白い。",
+        "dislike": "B",
+        "dislike_reason": "兎と銀の万年筆の組み合わせは洗練されすぎていて実用的な魅力に欠け、自分には刺さらない。"
+      },
+      {
+        "voter": "みずかみ ゆうき",
+        "like": "A",
+        "like_reason": "ケルベロスという三頭の番犬は審査・管理という自分の仕事と意外に重なり、骨の首飾りやシール帳という質感のちぐはぐさが面白い。",
+        "dislike": "C",
+        "dislike_reason": "両腕を広げて立つ蜘蛛と旗印の組み合わせは主張が強すぎて、静かに読書したい自分には合わない。"
+      },
+      {
+        "voter": "Liang Pieter de Vries",
+        "like": "C",
+        "like_reason": "旗印は都市空間における標識・境界の概念と重なり、建造物審査の視点から空間を占拠する蜘蛛のイメージは都市論的に興味深い。",
+        "dislike": "A",
+        "dislike_reason": "短い手足のタキシード姿のケルベロスはグロテスクさが前景化しすぎて、美的均衡を重視する自分には不快。"
+      },
+      {
+        "voter": "Wong Mei-Fong",
+        "like": "A",
+        "like_reason": "骨の首飾りとシール帳という組み合わせが記憶や蓄積のにおいを持ち、長年の暮らしで染みついた物への執着と通じる。",
+        "dislike": "C",
+        "dislike_reason": "蜘蛛が両腕を広げて立つ姿は不吉で、年老いた身には縁起が悪く感じられる。"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "A",
+        "like_reason": "ケルベロスの多頭性＋骨の首飾りという死の匂いは、嫌ログの「菌糸・工業的異形」への拒絶とは異なる神話的な重さ。タキシード×手足が短いという不均衡な可笑しみが、嫌ログで頻出する「重すぎる・解読が必要」への解毒になっている。",
+        "dislike": "C",
+        "dislike_reason": "蜘蛛という基体は嫌ログの「生理的に遠い・菌糸・不気味系」への拒絶反応と共鳴する。両腕を広げて立つという人型ポーズと蜘蛛の組み合わせが半端に不気味で、旗印というアンカーとの接続も薄く、映像的なまとまりが見えない。"
+      }
+    ],
+    "analysis": "[batch 1] AとCが拮抗し、それぞれ2票のlikeを獲得。Bは趙依蓮の支持を得るも全体では控えめな存在感。Aは生活の記憶や共同体との繋がりを重視する高年齢・コミュニティ指向のペルソナに支持され、Cはデザインやサバイバルにポジティブなペルソナにウケた。dislikeもAとCに集中し、Bは嫌われにくい中間的な候補という位置づけになった。\n[batch 2] CとAがそれぞれ2票のlikeを獲得し拮抗している。Cは商業・都市的視点を持つミン・チェンとLiang Pieter de Vriesに支持され、Aは日常の管理感覚や記憶への執着を持つみずかみゆうきとWong Mei-Fongに響いた。Bは唯一Nadiaのlikeを得たが全体的な訴求力は低く、2票のdislikeも集めている。Aはdislikeも2票受けており評価が二極化している。",
+    "is_tiebreak": true,
+    "tiebreak_reason": "controversy_winner=['A', 'C'] vs engagement_winner=['A', 'C']",
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "A",
+      "like_reason": "ケルベロスの多頭性＋骨の首飾りという死の匂いは、嫌ログの「菌糸・工業的異形」への拒絶とは異なる神話的な重さ。タキシード×手足が短いという不均衡な可笑しみが、嫌ログで頻出する「重すぎる・解読が必要」への解毒になっている。",
+      "dislike": "C",
+      "dislike_reason": "蜘蛛という基体は嫌ログの「生理的に遠い・菌糸・不気味系」への拒絶反応と共鳴する。両腕を広げて立つという人型ポーズと蜘蛛の組み合わせが半端に不気味で、旗印というアンカーとの接続も薄く、映像的なまとまりが見えない。"
+    },
+    "controversy_scores": {
+      "A": 2.1972245773362196,
+      "B": 1.6094379124341003,
+      "C": 2.1972245773362196
+    },
+    "vote_health": {
+      "valid_ballot_count": 11,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

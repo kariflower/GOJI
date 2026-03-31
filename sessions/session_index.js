@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-31T07:16:33Z",
+  "generated_at": "2026-03-31T17:09:54Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260331-234857-ed42",
+      "path": "./session-20260331-234857-ed42/assets/instructions/index.html",
+      "generated_at": "2026-03-31T17:09:45.477350Z",
+      "clip_count": 63,
+      "duration_sec": 138.07999999999998,
+      "section_count": 9,
+      "summary": "霧雨の降る廃墟の干し場。錆びた物干し竿5本に白い布が5枚、等間隔に垂れ下がっている。コンクリートの壁には石灰の白筋が走り、苔の格子目地が床を覆い、水溜まりに曇天が映り込んでいる。タキシードを着た三頭の粘土製ケルベロスが竿の端に立ち、骨の首飾りを揺らしながらシール帳のページをめくっている。三つの頭はそれぞれ別の方向を向いたまま、視線がまとまらない。建物の各階の窓には小魚の仲間たちが顔を出し、窓枠を掴んで静かに見守っている。 霧の奥から薄…",
+      "song_file": "Capes and Shadows.mp3"
+    },
     {
       "session_id": "session-20260331-122222-7572",
       "path": "./session-20260331-122222-7572/assets/instructions/index.html",
