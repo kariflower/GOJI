@@ -1,0 +1,446 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-5e2a1d6f",
+      "persona_id": "persona-85fe95b7",
+      "content": {
+        "chosen_base": "甲冑",
+        "chosen_feature": "擦り切れた袖口・顔の古傷",
+        "chosen_signature": "割れた仮面",
+        "subject_concept": "擦り切れた袖口と古傷を持つ甲冑",
+        "subject_signature": "割れた仮面",
+        "why_it_came": "長年、与えられた役割の鎧を着続けてきた人間を多く見てきた。私自身も、港の倉庫で管理職として働いていた頃、外側だけ整えて内側を押し殺していた。その鎧がすでに傷ついているという事実に、誰かが気づく瞬間に価値がある。",
+        "who_should_watch": "「正しくあれ」という圧力の中でじわじわと自分を削られてきた10代後半から20代の若者。",
+        "character_profile": {
+          "appearance_profile": "全身を覆う甲冑は各所が凹み擦り切れており、袖口の金属は布地が食い込んで変形している。顔の部位には古傷が走り、そこに割れた仮面の破片が半分だけ残っている。",
+          "motion_profile": "歩くたびに甲冑の継ぎ目がずれ、割れた仮面の破片が振動でわずかに揺れる。"
+        },
+        "phase1_base": "甲冑",
+        "phase2_condition": "擦り切れた袖口・顔の古傷",
+        "phase3_anchor": "割れた仮面"
+      },
+      "created_at": "2026-03-31 03:26:49.666440",
+      "persona_name": "Henrik Vandenberg",
+      "persona_profile": {
+        "id": "persona-85fe95b7",
+        "name": "Henrik Vandenberg",
+        "gender": "男性",
+        "birthdate": "219-08-16",
+        "age": 67,
+        "origin_city": "ドバイ",
+        "ethnic_background": "欧州系",
+        "life_history": [
+          {
+            "year": 219,
+            "event": "ドバイの欧州系商人の家庭に次男として生まれる。父は船舶修理業を営んでいた。"
+          },
+          {
+            "year": 225,
+            "event": "父の事業が傾き、母方の親戚がいるアムステルダムへ一家で移住。兄は父方の親戚に預けられた。"
+          },
+          {
+            "year": 237,
+            "event": "兄が事故で亡くなり、父が酒浸りになる。Henrikは16歳で造船所の見習い工として働き始めた。"
+          },
+          {
+            "year": 244,
+            "event": "母が病気で倒れ、妹二人の世話をしながら港湾倉庫の管理職として勤務。結婚話は全て断った。"
+          },
+          {
+            "year": 258,
+            "event": "父が他界。妹たちが独立したのを機に、ロッテルダムの物流会社に転職した。"
+          },
+          {
+            "year": 271,
+            "event": "同僚の紹介で52歳で初婚。翌年に娘が生まれたが、妻は出産後の合併症で3年後に亡くなった。"
+          },
+          {
+            "year": 278,
+            "event": "娘が大学進学でベルギーへ。Henrikは早期退職し、小さなアパートで一人暮らしを始めた。"
+          },
+          {
+            "year": 283,
+            "event": "週3日、地元の図書館で書架整理のボランティアをしている。娘は年に2回ほど訪ねてくる。"
+          }
+        ],
+        "current_situation": "ロッテルダム郊外の1LDKアパートで一人暮らし。年金と僅かな貯蓄で質素に生活している。週3日は図書館でボランティアをし、火曜日は近所のスーパーで買い物、木曜日は公園を散歩するのが習慣。娘は現在ブリュッセルで研究職に就いており、電話は月に1度程度。料理は基本的なものしか作らず、パンとチーズ、缶詰で済ませることが多い。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ。必要最低限のことしか話さず、やや無愛想に見られる。",
+          "close_friends_view": "頼まれたことは黙々とこなす真面目な人。自分のことはほとんど話さないが、聞かれれば淡々と答える。",
+          "misunderstandings": "冷たい人間だと思われがちだが、単に自分の感情を表に出さないだけで、困っている人を見過ごすことはない。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-85fe95b7.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-3c4291e8",
+      "persona_id": "persona-a912e5fd",
+      "content": {
+        "chosen_base": "孔雀",
+        "chosen_feature": "ボロボロのドレス・角",
+        "chosen_signature": "折れた王冠",
+        "subject_concept": "ボロボロのドレスと角を持つ孔雀",
+        "subject_signature": "折れた王冠",
+        "why_it_came": "港町で育ち、交易の場で「見せ方」で生き延びる人間を何人も見てきた。派手さと傷が同居する姿は、虚勢を張りながらも内側が削れていく感触に近い。",
+        "who_should_watch": "かつて「目立つことで傷ついた」経験を持つ人間で、それでも目立つことをやめられなかった者。",
+        "character_profile": {
+          "appearance_profile": "尾羽を広げた孔雀だが、羽の端はほつれ、胴にはボロボロのドレスの布地が絡みついている。頭部には一本だけ曲がった角が生え、その根元に折れた王冠が斜めにかかっている。",
+          "motion_profile": "尾羽を広げるたびに折れた王冠がずれ落ちそうになり、それを振り払うように首を跳ね上げる。"
+        },
+        "phase1_base": "孔雀",
+        "phase2_condition": "ボロボロのドレス・角",
+        "phase3_anchor": "折れた王冠"
+      },
+      "created_at": "2026-03-31 03:27:02.472098",
+      "persona_name": "Ciarán Ó Murchú-Oyelaran",
+      "persona_profile": {
+        "id": "persona-a912e5fd",
+        "name": "Ciarán Ó Murchú-Oyelaran",
+        "gender": "男性",
+        "birthdate": "BCE3335-07-25",
+        "age": 18,
+        "origin_city": "ダブリン",
+        "ethnic_background": "ミックス（複合的ルーツ）",
+        "life_history": [
+          {
+            "year": "BCE3335",
+            "event": "ダブリン北部の集落に生まれる。父方はアイルランド西岸の移住民の家系、母方は地中海沿岸から移り住んだ商人の血筋を引く。"
+          },
+          {
+            "year": "BCE3329",
+            "event": "父の交易活動に伴い、家族ごと南岸の港町へ移住する。それまで住んでいた集落の家屋は翌年の洪水で流失した。"
+          },
+          {
+            "year": "BCE3326",
+            "event": "港町で流行した疾病により母方の祖母が死亡し、家族は再びダブリン周辺の集落へ戻る。"
+          },
+          {
+            "year": "BCE3323",
+            "event": "父が遠方への交易から戻らなくなり、母の兄が一家の扶養を引き受ける。"
+          },
+          {
+            "year": "BCE3320",
+            "event": "叔父の仕事を手伝う形で、石材の運搬と加工の作業に従事し始める。"
+          },
+          {
+            "year": "BCE3318",
+            "event": "叔父が近隣集落の長老との協議で土地の区画を確保し、Ciáránも建設労働に加わる。"
+          },
+          {
+            "year": "BCE3317",
+            "event": "母方の遠縁にあたる南方出身の一族がダブリン近郊に定住し、Ciáránは彼らと定期的に接触するようになる。"
+          }
+        ],
+        "current_situation": "叔父のもとで石材加工と建設労働に従事している。ダブリン北部の集落内にある叔父の家に同居しており、母と弟妹も同じ屋根の下に暮らしている。南方の遠縁一族との間で物資の運搬を時折請け負い、集落と集落の間を行き来する生活をしている。",
+        "external_perception": {
+          "first_impression": "どこの出身かすぐに判断がつかない顔立ちと訛りを持ち、初対面では出自を何度か確認される。",
+          "close_friends_view": "どんな状況にも比較的早く馴染み、知らない場所でも短期間で顔見知りを作る。",
+          "misunderstandings": "転居を繰り返してきたため、定住する気がないのだと思われることがある。"
+        },
+        "stance_on_past": "笑い話にできるようになった",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-a912e5fd.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-7e0c83bf",
+      "persona_id": "persona-ce3b4ea8",
+      "content": {
+        "chosen_base": "美容師",
+        "chosen_feature": "煤肌・口が半開き",
+        "chosen_signature": "パッチワークだらけのジャケット",
+        "subject_concept": "煤肌の美容師、パッチワークだらけのジャケット",
+        "subject_signature": "パッチワークだらけのジャケット",
+        "why_it_came": "銀行の窓口で毎日同じ制服を着て、決まった手順で仕事をしていた頃のことを思い出しました。型にはまった場所にいながら、内側で何かがはみ出そうになっている感覚——美容師という、他人の外見を整える立場の人間が、自分自身はボロボロのつぎはぎジャケットを着ているというギャップが、そのままこの楽曲の「反抗と希望」に重なりました。",
+        "who_should_watch": "学校や職場のルールに息苦しさを感じながらも、まだそこから出られずにいる十代後半から二十代の若者。",
+        "character_profile": {
+          "appearance_profile": "煤をこすりつけたような肌に、無数の布地を縫い合わせたパッチワークのジャケットを羽織った美容師。口が常に半開きで、顎の力が抜けている。",
+          "motion_profile": "ハサミを握るたびに、ジャケットの継ぎ目がひとつほつれてくるように、動くたびに輪郭がわずかにくずれていく。"
+        },
+        "phase1_base": "美容師",
+        "phase2_condition": "煤肌・口が半開き",
+        "phase3_anchor": "パッチワークだらけのジャケット"
+      },
+      "created_at": "2026-03-31 03:27:28.206555",
+      "persona_name": "たなか ふみこ",
+      "persona_profile": {
+        "id": "persona-ce3b4ea8",
+        "name": "たなか ふみこ",
+        "gender": "女性",
+        "birthdate": "1959-10-08",
+        "life_history": [
+          {
+            "year": 1959,
+            "event": "大阪市北区の商店街で菓子店を営む家庭に次女として生まれる。"
+          },
+          {
+            "year": 1978,
+            "event": "高校卒業後、地元の銀行に事務職として就職。窓口業務を担当する。"
+          },
+          {
+            "year": 1984,
+            "event": "職場の先輩の紹介で知り合った機械メーカー勤務の男性と結婚。大阪市内のマンションに転居。"
+          },
+          {
+            "year": 1987,
+            "event": "長男を出産。産休後、銀行を退職し専業主婦となる。"
+          },
+          {
+            "year": 1995,
+            "event": "阪神・淡路大震災で自宅マンションが半壊。避難所生活を経て、兵庫県西宮市の賃貸住宅に移る。"
+          },
+          {
+            "year": 2003,
+            "event": "子育てが落ち着き、スーパーマーケットのレジ係としてパート勤務を開始。"
+          },
+          {
+            "year": 2011,
+            "event": "乳がんと診断され手術を受ける。半年間の化学療法と放射線治療を経て職場復帰。"
+          },
+          {
+            "year": 2019,
+            "event": "夫が定年退職。夫婦で週末に近畿圏内の温泉地を訪れる習慣が始まる。"
+          }
+        ],
+        "current_situation": "兵庫県西宮市の2LDKマンションに夫と二人暮らし。長男は大阪市内で家庭を持ち、孫が二人いる。現在も地元スーパーマーケットで週4日、1日5時間のパート勤務を続けている。がん治療後の定期検診を年2回受けており、健康管理に気を配っている。休日は夫と近所の公園を散歩したり、月に一度孫の世話を手伝ったりしている。",
+        "external_perception": {
+          "first_impression": "物腰が柔らかく、丁寧な言葉遣いをする。落ち着いた雰囲気で、年齢より若く見られることが多い。",
+          "close_friends_view": "困難な状況でも愚痴をこぼさず淡々と対処する。実務的で手際がよく、頼りになる存在。ただし本音を語ることは少ない。",
+          "misunderstandings": "いつも穏やかなので悩みがないと思われがちだが、実際には多くの困難を経験している。控えめな態度から消極的に見られることもあるが、必要な場面では的確に行動する。"
+        },
+        "like_history": [
+          {
+            "session": "ensemble_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "震災と病が奪えなかった、レジ打ちのリズムに宿る生の律動",
+            "like_count": 3,
+            "like_reasons": [
+              "レジのリズムって確かに変わらない。静かな感じが落ち着く",
+              "失わなかったものに注目する視点が斬新だと思った",
+              "機械的な反復の中の生、深く納得できる"
+            ]
+          },
+          {
+            "session": "ensemble_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "削除できないファイル、実際あるある。システムエラーの無機質さと人間の焦り、わかる",
+              "五十年の実務経験から見た視点、説得力がある。システムエラーの中に人間性を見出す観察眼が良い"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "coffee_zombie_test_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "深夜の台所で、飲まなかった白湯と過ごす静かな和解の時間",
+            "rank": 4,
+            "tally": 2,
+            "won": false
+          },
+          {
+            "session": "coffee_zombie_test_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "ensemble_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "震災と病が奪えなかった、レジ打ちのリズムに宿る生の律動",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "ensemble_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "語りかけられることで初めて存在を確認できる、依存と愛の境界線上にある魂の物語",
+            "rank": 2,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_rejection_v2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "朝焼けの交差点で、振り向けない別れと加速する感情の衝突を刻む",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v3",
+            "phase": "Phase 1",
+            "my_proposal_summary": "失われた温度を抱いて、止まらない時間の中を駆け抜ける者の記録",
+            "rank": 0,
+            "tally": 0,
+            "won": false
+          },
+          {
+            "session": "phase2a_slim_v3",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 0,
+            "tally": 0,
+            "won": true
+          }
+        ],
+        "stance_on_past": "克服した武勇伝として語る",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-ce3b4ea8.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-5e2a1d6f",
+      "B": "sl2a-3c4291e8",
+      "C": "sl2a-7e0c83bf"
+    },
+    "tally": {
+      "A": 6,
+      "B": 8,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 4,
+      "B": 3,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 2,
+      "B": 5,
+      "C": 3
+    },
+    "votes": [
+      {
+        "voter": "Edmund Aldric Wren",
+        "like": "A",
+        "like_reason": "甲冑と古傷は戦と労苦の証。農地で泥にまみれながら生きる自分には、体で歴史を刻んだ者の姿が一番響く。割れた仮面はひた隠しにしてきた本音が割れる瞬間のようで、目が離せない。",
+        "dislike": "B",
+        "dislike_reason": "孔雀や王冠は自分には縁遠い貴族の話だ。ボロボロにはなっているが、もともと高い場所にいた者の落ちぶれには共感よりも距離を感じる。"
+      },
+      {
+        "voter": "いとう まさき",
+        "like": "C",
+        "like_reason": "美容師という職業は現代的で親しみやすい。煤肌や半開きの口がどこか疲れ果てた社会人っぽくて、自分含め周りにいそうなリアルさがある。パッチワークのジャケットも継ぎ接ぎで生きてきた感じがして刺さる。",
+        "dislike": "B",
+        "dislike_reason": "孔雀・角・折れた王冠の組み合わせはファンタジー色が強すぎて、日常に疲れた自分には遠すぎる世界観に感じる。"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "B",
+        "like_reason": "孔雀は俺が広場で話す昔話に何度も出てくる。ボロボロのドレスに角、折れた王冠——落ちた誇りの話は酒場の連中も身を乗り出して聞く。語り甲斐がある素材だ。",
+        "dislike": "C",
+        "dislike_reason": "美容師という商売は港町ではあまり馴染みがない。煤肌や半開きの口は不気味さが先に立ち、昔話として締まらない。子供には見せにくい。"
+      },
+      {
+        "voter": "Soraya Ngundy-Macintosh",
+        "like": "C",
+        "like_reason": "パッチワークだらけのジャケットは多文化の縫い合わせそのもの。移民支援の現場で毎日見る、傷を抱えながらも前を向く人々と重なる。美容師という役割も人と人を繋ぐ職業で、私の仕事と通じる。",
+        "dislike": "A",
+        "dislike_reason": "甲冑と古傷は男性的な戦争の暗喩が強く、コミュニティの多様性を扱う私の感覚とはずれがある。割れた仮面も断絶のイメージが先行して、修復よりも破壊の印象が残る。"
+      },
+      {
+        "voter": "Rosalba Cienfuegos",
+        "like": "A",
+        "like_reason": "甲冑の擦り切れた袖口と顔の古傷は、長年の商売で手に刻まれた皺と同じ。生きてきた証だ。割れた仮面は表向きの体裁と本音のずれ——商人なら誰でも抱えている。見ていて胸が痛くなるほどわかる。",
+        "dislike": "B",
+        "dislike_reason": "孔雀の羽根と王冠は華やかすぎて、実直に働いてきた者の話には思えない。ボロボロにはなっていても、もとが贅沢だった者の嘆きは、仕入れ値を値切られながら生きてきた私には響かない。"
+      },
+      {
+        "voter": "Alarik Svendsen",
+        "like": "A",
+        "like_reason": "甲冑と古傷、割れた仮面は市場で出会う傭兵や護衛兵の姿に重なる。戦いを生き延びた者の物語として直感的に理解できる。",
+        "dislike": "C",
+        "dislike_reason": "美容師という職業的設定が自分の生活圏とかけ離れており、パッチワークのジャケットも意味が掴みにくい。"
+      },
+      {
+        "voter": "Cassandra Holm",
+        "like": "B",
+        "like_reason": "折れた王冠とボロボロのドレスは、かつての栄光から転落した存在を示す。失った地位を抱えて生きる姿に静かな共感を覚える。",
+        "dislike": "C",
+        "dislike_reason": "煤肌と半開きの口という外見描写が不快感を先行させ、何を見せたいのか像が結ばない。"
+      },
+      {
+        "voter": "Moana Siteri Björk",
+        "like": "C",
+        "like_reason": "パッチワークだらけのジャケットは繕いながら生きる日常と重なる。壊れたものを縫い合わせて続ける姿は身近に感じる。",
+        "dislike": "B",
+        "dislike_reason": "孔雀と王冠の組み合わせは遠い世界の話で、膝を痛めながら丘を歩く自分には届かない華やかさがある。"
+      },
+      {
+        "voter": "Vikram Balaji",
+        "like": "B",
+        "like_reason": "角と折れた王冠は物語の本の挿絵のようで想像が膨らむ。学校の友人たちと話したくなるような映像になりそうだ。",
+        "dislike": "A",
+        "dislike_reason": "甲冑と古傷はよく見る戦争の話のようで、特に新しさを感じない。"
+      },
+      {
+        "voter": "Nefertari bint Dawud al-Qus",
+        "like": "A",
+        "like_reason": "擦り切れた袖口と割れた仮面は、長い年月をかけて磨耗した存在の証。染布を続けながら老いた自分の手と重なる部分がある。",
+        "dislike": "B",
+        "dislike_reason": "孔雀の羽や王冠は目を引くが、ボロボロのドレスとの取り合わせが過度に演劇的で、静けさがない。"
+      },
+      {
+        "voter": "ゴジ",
+        "like": "C",
+        "like_reason": "煤肌・口が半開きという身体的な不完全さが生々しく、美容師という職業の手仕事感とパッチワークの継ぎ接ぎが重なって、地に足のついたリアリティがある。ボロボロより「作られた痕跡」の方が映像として追いやすい。",
+        "dislike": "B",
+        "dislike_reason": "ボロボロのドレス・角・折れた王冠という組み合わせが「花嫁・後光・枯れた花束」系の重苦しさと同じ匂いを持つ。嫌いログに繰り返し出てくる「花嫁系のロマンチック・廃墟的なもの」に直撃している。"
+      }
+    ],
+    "analysis": "[batch 1] AとCが各2票のlikeを獲得し拮抗している。Bはlikeが1票（語り部のKwesi）のみで、dislikeは3票と最も不人気。Aは労働と痛みの体験を持つ農民・商人層に刺さり、Cは現代的感覚や多文化コミュニティ視点の投票者に支持された。Bのファンタジー・貴族的イメージは身近さに欠けるとして敬遠されやすい傾向がある。\n[batch 2] AとBが各2票のlikeを集め拮抗している。Aは「生き延びた傷」への共感票、Bは「転落の物語」への期待票として分かれた。Cはlikeが1票にとどまる一方でdislikeが2票集中しており、視覚的な不快感と意味の不明瞭さが嫌われる要因となっている。",
+    "is_tiebreak": true,
+    "tiebreak_reason": "controversy_winner=['C'] vs engagement_winner=['B']",
+    "goji_vote": {
+      "voter": "ゴジ",
+      "like": "C",
+      "like_reason": "煤肌・口が半開きという身体的な不完全さが生々しく、美容師という職業の手仕事感とパッチワークの継ぎ接ぎが重なって、地に足のついたリアリティがある。ボロボロより「作られた痕跡」の方が映像として追いやすい。",
+      "dislike": "B",
+      "dislike_reason": "ボロボロのドレス・角・折れた王冠という組み合わせが「花嫁・後光・枯れた花束」系の重苦しさと同じ匂いを持つ。嫌いログに繰り返し出てくる「花嫁系のロマンチック・廃墟的なもの」に直撃している。"
+    },
+    "controversy_scores": {
+      "A": 1.2972734327035422,
+      "B": 1.6479184330021646,
+      "C": 1.9459101490553132
+    },
+    "vote_health": {
+      "valid_ballot_count": 11,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

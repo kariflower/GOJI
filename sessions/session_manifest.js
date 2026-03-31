@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-30T20:04:03Z",
+  "generated_at": "2026-03-31T07:16:33Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260331-122222-7572",
+      "path": "./session-20260331-122222-7572/assets/instructions/index.html",
+      "generated_at": "2026-03-31T07:16:24.857801Z",
+      "clip_count": 82,
+      "duration_sec": 213.69000000000003,
+      "section_count": 8,
+      "summary": "廊下の床から天井まで60〜80台の端末モニターが壁を埋め尽くし、橙色の発光電線が血管のように這い回る施設の一角に、パッチワークジャケットを逆向きに着た煤肌の美容師が立っている。告示板には日本語・英字・数字が混在した文字列が絶えず流れ落ち、その端に仮面の断片が貼り付く。美容師は鉄製のハサミを静かに構え、刃面に端末光の細い反射を宿したまま、一振りするたびにジャケットの縫い目から糸がほつれて床へ落ちる。廊下の曲がり角には天然結晶柱が天井から…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260331-004314-aec7",
       "path": "./session-20260331-004314-aec7/assets/instructions/index.html",
