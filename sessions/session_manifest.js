@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-04-01T05:45:59Z",
+  "generated_at": "2026-04-01T17:54:33Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260401-234051-a840",
+      "path": "./session-20260401-234051-a840/assets/instructions/index.html",
+      "generated_at": "2026-04-01T17:54:24.752125Z",
+      "clip_count": 60,
+      "duration_sec": 213.57,
+      "section_count": 8,
+      "summary": "「静止検査局・教室棟A」——格子状に並ぶ木製椅子と刻み線が走るコンクリート床。オーバーサイズパーカーを着たおばあちゃんが、白い外光の中をゆっくりと歩く。カメラは床面15センチの低さから椅子脚の隙間を覗き、白スニーカーの靴底が刻み線に沿って静かに流れる様子を追う。おばあちゃんの足元には影がない——床には彼女が存在した痕跡が何も残らない。天井からの俯瞰ショットが教室全体を見渡すと、整列した10脚以上の椅子のうち1脚だけが数センチずれている…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260401-110825-ab19",
       "path": "./session-20260401-110825-ab19/assets/instructions/index.html",
