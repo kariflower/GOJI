@@ -1,0 +1,442 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-5918250a",
+      "persona_id": "persona-5fde98fa",
+      "content": {
+        "chosen_base": "クワガタ",
+        "chosen_feature": "普通体型",
+        "chosen_signature": "片方だけのイヤリング",
+        "phase1_base": "クワガタ",
+        "phase2_condition": "普通体型",
+        "phase3_anchor": "片方だけのイヤリング",
+        "subject_concept": "クワガタ(普通体型)",
+        "subject_signature": "片方だけのイヤリング",
+        "why_it_came": "候補選択の自然な連想として「クワガタ」「普通体型」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "クワガタ(普通体型)。外見の核は「普通体型」、識別の決め手は「片方だけのイヤリング」。",
+          "motion_profile": "「普通体型」が読める動きを保ち、見せ場では「片方だけのイヤリング」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-04-01 02:15:03.798660",
+      "persona_name": "Kofi Szabó",
+      "persona_profile": {
+        "id": "persona-5fde98fa",
+        "name": "Kofi Szabó",
+        "gender": "男性",
+        "birthdate": "2555-05-23",
+        "age": 11,
+        "origin_city": "ブダペスト",
+        "ethnic_background": "アフリカ系",
+        "life_history": [
+          {
+            "year": 2555,
+            "event": "ブダペストの第VIII区にある公営住宅で生まれた。両親は地域の自治会で活動していた。"
+          },
+          {
+            "year": 2558,
+            "event": "近所の子供たちと一緒に共同庭園で遊ぶようになった。週に3回、祖母の家で夕食を食べた。"
+          },
+          {
+            "year": 2561,
+            "event": "地元の小学校に入学。クラスメイトの誕生日会に毎月のように招待された。"
+          },
+          {
+            "year": 2563,
+            "event": "学校のサッカーチームに加入。週末は友人たちとドナウ川沿いでサイクリングをした。"
+          },
+          {
+            "year": 2565,
+            "event": "夏休みに家族でバラトン湖へ3週間滞在。隣のテントに泊まっていた家族と友達になった。"
+          },
+          {
+            "year": 2566,
+            "event": "父親の職場の同僚家族と月に一度集まるようになった。彼らの息子と同じクラスになった。"
+          }
+        ],
+        "current_situation": "ブダペスト第VIII区の集合住宅で両親、妹と暮らしている。地元の公立小学校5年生に在籍中。放課後はサッカークラブに週3回通っている。週末は近所の友人たちと公園や川沿いで過ごすことが多い。祖父母の家は徒歩10分の距離にあり、毎週訪問している。",
+        "external_perception": {
+          "first_impression": "いつも笑顔で挨拶する明るい子供。初対面でもすぐに話しかけてくる。",
+          "close_friends_view": "困ったときに真っ先に駆けつけてくれる頼りになる存在。グループの予定を調整するのが上手い。",
+          "misunderstandings": "いつも楽観的に見えるため、真剣に悩んでいても気づかれないことがある。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-5fde98fa.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-61677c52",
+      "persona_id": "persona-3b09d692",
+      "content": {
+        "chosen_base": "鷺",
+        "chosen_feature": "裾の長いガウン・三本尾",
+        "chosen_signature": "針のない時計",
+        "subject_concept": "裾の長いガウンをまとった三本尾の鷺、針のない時計を持つ",
+        "subject_signature": "針のない時計",
+        "why_it_came": "港で魚を毎朝見ていると、鷺は時間を持たない生き物だと思う。早朝も夕方も同じ顔で水面を見つめている。スチームパンクの世界に時間を計れない者を置いたら、その静けさが際立つと感じた。",
+        "who_should_watch": "「なぜこの鳥はそこにいるのか」と画面に近づきたくなる、余白に意味を見出そうとする視聴者。",
+        "character_profile": {
+          "appearance_profile": "裾が地面を引くほど長い重厚なガウンをまとい、三本の尾羽が左右非対称に広がる大型の鷺。首から胸元にかけて針のない時計がひとつ、鎖で吊るされている。",
+          "motion_profile": "首をゆっくりと一方向に傾けたまま長く静止し、ふいに数歩だけ移動してまた止まる。"
+        },
+        "phase1_base": "鷺",
+        "phase2_condition": "裾の長いガウン・三本尾",
+        "phase3_anchor": "針のない時計"
+      },
+      "created_at": "2026-04-01 02:15:16.254607",
+      "persona_name": "Moana Tetuanui",
+      "persona_profile": {
+        "id": "persona-3b09d692",
+        "name": "Moana Tetuanui",
+        "gender": "女性",
+        "birthdate": "1967-04-25",
+        "origin_city": "リマ",
+        "ethnic_background": "太平洋諸島系",
+        "life_history": [
+          {
+            "year": 1967,
+            "event": "リマのカジャオ港近くで生まれる。父は造船所の溶接工、母は市場で魚を売っていた。"
+          },
+          {
+            "year": 1975,
+            "event": "小学校3年生の時、父が労働災害で右腕に重傷を負い退職。家計が急変する。"
+          },
+          {
+            "year": 1982,
+            "event": "15歳で学校を中退し、港のレストランで皿洗いとして働き始める。"
+          },
+          {
+            "year": 1989,
+            "event": "22歳で同じレストランの調理場担当になる。魚料理の下処理を任される。"
+          },
+          {
+            "year": 1994,
+            "event": "母が病死。父と二人暮らしになる。週末は父のために太平洋諸島の伝統料理を作る習慣ができる。"
+          },
+          {
+            "year": 2003,
+            "event": "36歳で港近くの小さな食堂の調理主任になる。メニューに太平洋諸島の魚料理を加える。"
+          },
+          {
+            "year": 2011,
+            "event": "父が他界。遺品から祖父母が1930年代にタヒチからペルーに移住した記録を見つける。"
+          },
+          {
+            "year": 2018,
+            "event": "51歳で食堂を退職。港の漁協で魚の品質検査員として再就職する。"
+          }
+        ],
+        "current_situation": "カジャオ港近くの1DKアパートで一人暮らし。朝5時に起きて漁協に出勤し、水揚げされた魚の鮮度チェックをしている。週に一度、近所の教会でボランティアとして炊き出しの手伝いをする。自宅では小さなバルコニーでハーブを育てている。",
+        "external_perception": {
+          "first_impression": "無口で表情が硬く、近寄りがたい雰囲気がある。仕事中は真剣な顔で魚を見つめている。",
+          "close_friends_view": "実は面倒見がよく、困っている人を放っておけない。料理の腕は確かで、頼めば喜んで作ってくれる。",
+          "misunderstandings": "不愛想に見えるが、単に人前で笑うのが苦手なだけ。他人に興味がないと思われがちだが、よく観察している。"
+        },
+        "proposal_history": [
+          {
+            "session": "parallel_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "ガラスの壁を挟んだ依存関係。見られることで存在し、呼ばれることで生まれ、選ばれなければ消える存在の切実さ。",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "parallel_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: 水槽の中で泳ぐ一匹の魚 / 場所: 薄暗い部屋の中、窓際に置かれた小さな水槽",
+            "rank": 1,
+            "tally": 14,
+            "won": true
+          }
+        ],
+        "stance_on_past": "笑い話にできるようになった",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-3b09d692.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-9c2431e1",
+      "persona_id": "persona-fd704004",
+      "content": {
+        "chosen_base": "写真家",
+        "chosen_feature": "パーカー",
+        "chosen_signature": "指先装甲",
+        "phase1_base": "写真家",
+        "phase2_condition": "パーカー",
+        "phase3_anchor": "指先装甲",
+        "subject_concept": "写真家(パーカー)",
+        "subject_signature": "指先装甲",
+        "why_it_came": "候補選択の自然な連想として「写真家」「パーカー」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "写真家(パーカー)。外見の核は「パーカー」、識別の決め手は「指先装甲」。",
+          "motion_profile": "「パーカー」が読める動きを保ち、見せ場では「指先装甲」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-04-01 02:15:57.866148",
+      "persona_name": "さやか",
+      "persona_profile": {
+        "id": "persona-fd704004",
+        "name": "さやか",
+        "gender": "女性",
+        "birthdate": "1999-05-10",
+        "life_history": [
+          {
+            "year": 2005,
+            "event": "祖父が営んでいた米農家が台風被害で大きな損失を受け、家族全員で復旧作業に追われた。小学1年生ながら田んぼの泥かきを手伝った。"
+          },
+          {
+            "year": 2014,
+            "event": "中学3年の時、親友が都会の高校に進学することになり、自分は地元の農業高校へ進学。初めて人生の選択肢の違いを実感した。"
+          },
+          {
+            "year": 2018,
+            "event": "農業高校卒業後、地元のJAに就職したが、1年で退職。東京の人材派遣会社に転職し上京。環境の激変に戸惑いながらも新生活をスタートさせた。"
+          },
+          {
+            "year": 2020,
+            "event": "コロナ禍で派遣切りに遭い、3ヶ月間失業。貯金を切り崩しながらハローワークに通い、最終的に物流会社の事務職に再就職した。"
+          },
+          {
+            "year": 2023,
+            "event": "職場の先輩の紹介で婚活パーティーに参加し、そこで出会った同い年の男性と交際開始。現在も関係が続いている。"
+          }
+        ],
+        "current_situation": "島根県の農村部出身で、代々米農家を営む家庭に生まれた。地元の農業高校を卒業後、JAに1年勤務したが、より広い世界を見たいと上京。現在は東京都内の物流会社で事務職として勤務している。休日はスーパー銭湯巡りや、地元から送られてくる米や野菜を使った料理を作って過ごすことが多い。月に一度は実家に電話をかけ、両親や祖父母の様子を確認している。",
+        "external_perception": {
+          "first_impression": "控えめで物腰が柔らかく、少し田舎っぽい雰囲気がある人",
+          "close_friends_view": "芯が強くて頼りになる。困っている人を放っておけない性格で、いざという時に行動力がある",
+          "misunderstandings": "おとなしそうに見えて実は気が弱いと思われがちだが、実際は決断力があり行動的"
+        },
+        "like_history": [
+          {
+            "session": "lens_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 1",
+            "proposal_summary": "スーパー銭湯の湯気の中で、過去の自分と未来の自分が同じ湯船に浸かっている",
+            "like_count": 2,
+            "like_reasons": [
+              "湯気の中で時間が混ざる感じ、なんか分かる気がする",
+              "スーパー銭湯の湿気と熱気、あの感じいいよね",
+              "スーパー銭湯のあの感じ、分かる人には分かる"
+            ]
+          },
+          {
+            "session": "lens_test_v1",
+            "music": "audio_analysis_results",
+            "phase": "Phase 2a",
+            "proposal_summary": "",
+            "like_count": 2,
+            "like_reasons": [
+              "昔の場所に戻った時の感覚、なんとなく懐かしくていいわね",
+              "なんか、わかりやすい"
+            ]
+          }
+        ],
+        "proposal_history": [
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 1",
+            "my_proposal_summary": "スーパー銭湯の湯気の中で、過去の自分と未来の自分が同じ湯船に浸かっている",
+            "rank": 3,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "lens_test_v1",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "nobody_test2",
+            "phase": "Phase 1",
+            "my_proposal_summary": "声に応える植物のように、呼びかけられることで初めて存在を許される関係への渇望と、それでも選び取る献身",
+            "rank": 4,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "nobody_test2",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 3,
+            "won": false
+          },
+          {
+            "session": "full_test_v5",
+            "phase": "Phase 1",
+            "my_proposal_summary": "物理的な距離を超えて届く「呼びかけ」によって、存在が立ち上がり続ける関係。送られてくるものが、離れた場所にいる自分を肯定してくれる。",
+            "rank": 1,
+            "tally": 6,
+            "won": true
+          },
+          {
+            "session": "full_test_v5",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: 実家のダイニングテーブルで野菜を段ボールに詰める祖母の手元だけ / 場所: 島根の実家の台所（夕方の西日が差し込んで、壁の木目が温かく光っている）",
+            "rank": 1,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "debug_test",
+            "phase": "Phase 1",
+            "my_proposal_summary": "物理的な距離を超えて届く「呼びかけ」によって、存在が立ち上がり続ける関係",
+            "rank": 2,
+            "tally": 6,
+            "won": false
+          },
+          {
+            "session": "debug_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "goji_fix_verification",
+            "phase": "Phase 1",
+            "my_proposal_summary": "呼びかけの振動によって、存在が物理的に立ち上がる瞬間",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "goji_fix_verification",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 8,
+            "won": true
+          }
+        ],
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-fd704004.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-5918250a",
+      "B": "sl2a-61677c52",
+      "C": "sl2a-9c2431e1"
+    },
+    "tally": {
+      "A": 6,
+      "B": 8,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 4,
+      "C": 3
+    },
+    "votes": [
+      {
+        "voter": "Idriss Abiodun Mansour",
+        "like": "B",
+        "like_reason": "鷺の静謐さと針のない時計という「機能しない計測器」のイメージが、膜分離処理という見えないプロセスを日々扱う自分の感覚に重なる。時間の不在が労働の循環性を想起させる。",
+        "dislike": "C",
+        "dislike_reason": "指先装甲という概念が、精密機器を素手で触れて異常を感知する自分の仕事感覚と根本的に相容れない。パーカーも無個性すぎて記憶に残らない。"
+      },
+      {
+        "voter": "さやか",
+        "like": "A",
+        "like_reason": "クワガタは地元の里山でよく見かけた虫で親しみがある。片方だけのイヤリングという「対でないもの」に、上京してから感じる非対称な自分の生活が重なって見えた。",
+        "dislike": "B",
+        "dislike_reason": "裾の長いガウンに三本尾という組み合わせが非日常すぎて自分の生活感覚からかけ離れている。鷺は綺麗だけど冷たく感じる。"
+      },
+      {
+        "voter": "Nurbayah binti Rodrigues",
+        "like": "B",
+        "like_reason": "鷺は港湾集落の浅瀬でよく見る鳥で、孤独でありながら威厳がある。針のない時計は、時刻より潮の満ち引きで動く自分の商いの時間感覚に近い。",
+        "dislike": "C",
+        "dislike_reason": "指先装甲は武器か工具か判別しがたく、取引の場に持ち込まれると不安を感じる。写真家という基底も自分の日常とあまりに遠い。"
+      },
+      {
+        "voter": "陳素華 (Chen Su-hua)",
+        "like": "C",
+        "like_reason": "写真家という職業は記録と証拠を扱う点で貿易書類の仕事と共鳴する。指先装甲は文書を扱う手先への注目であり、仕事道具への敬意を感じる。パーカーの実用性も好ましい。",
+        "dislike": "A",
+        "dislike_reason": "クワガタは港町の事務所環境では縁遠い生き物で、片方だけのイヤリングは書類整理をする立場では紛失リスクを想像してしまい、落ち着かない印象を受ける。"
+      },
+      {
+        "voter": "Kwame al-Fahd",
+        "like": "A",
+        "like_reason": "クワガタの硬い外殻と片方だけのイヤリングという欠けた対称性に、私物をほとんど持たない自分の生活と、それでも何かを失い続けている感覚が静かに重なる。",
+        "dislike": "B",
+        "dislike_reason": "裾の長いガウン・三本尾という装いは配給所の夜間シフトや狭い自室では完全に場違いで、自分の現実と接点を見出せない。"
+      },
+      {
+        "voter": "Emeka Suárez Obi",
+        "like": "B",
+        "like_reason": "鷺の優雅さと針のない時計という詩的なモチーフが、時間の流れや移民として感じる「時差」の感覚と重なる。行政の現場で感じる制度の時間と個人の時間のずれを体現しているようで惹かれる。",
+        "dislike": "C",
+        "dislike_reason": "指先装甲という記号は攻撃性や個人主義を連想させ、協働や調停を大切にする自分の価値観とはなじみにくい。"
+      },
+      {
+        "voter": "かわぐち けんた",
+        "like": "A",
+        "like_reason": "クワガタって男心をくすぐるし、片方だけのイヤリングって「落としたのかな、拾ってあげたいな」って感じでキャラクターに親しみわく。普通体型も自分に近くて想像しやすい。",
+        "dislike": "B",
+        "dislike_reason": "鷺に三本尾って現実から離れすぎてて、ちょっとついていけない感じがする。ファンタジーすぎて自分には刺さらない。"
+      },
+      {
+        "voter": "陳 子晴 (Chén Zǐqíng)",
+        "like": "B",
+        "like_reason": "鷺は水辺の霊鳥として吉兆の象徴でもあり、長い裾のガウンは客人の中に見てきた東方・西方の貴人を思わせる。針のない時計は時の不確かさを示し、旅人の語る世界の広さに通じる。",
+        "dislike": "A",
+        "dislike_reason": "クワガタは害虫に近い印象が強く、宿屋の帳場で扱う「品の良さ」とは遠い。普通体型という言葉も記録に値する特徴が薄く、旅人の描写としては物足りない。"
+      },
+      {
+        "voter": "Zara bint Musa al-Habashi",
+        "like": "C",
+        "like_reason": "指先装甲は市場で見かけた職人の道具や護身の装いを連想させ、働く女性の強さと誇りを感じる。写真家という設定は異国の光景を切り取る目を持つ人物として、自分が日々接する旅人の姿と重なる。",
+        "dislike": "A",
+        "dislike_reason": "クワガタという生き物は北京の市場では縁起の解釈が複雑で、MV映像として美しさより不気味さが勝りそうな気がして選びたくない。"
+      },
+      {
+        "voter": "みずた りこ",
+        "like": "C",
+        "like_reason": "写真家というベースがクリアで映像としてイメージしやすく、指先装甲もアクセサリーとして今のトレンドに合っている感じがする。パーカーも等身大で好き。",
+        "dislike": "B",
+        "dislike_reason": "三本尾とか針のない時計とか、意味ありげすぎてちょっと重たい。シンプルに楽しめるかなって不安になる。"
+      }
+    ],
+    "analysis": "[batch 1] BとAが2票ずつlikeを集め、Cは1票獲得。dislikeはB・C・Aに分散しているが、Bへのdislikeは「非日常性の過剰」、Cへのdislikeは「身体接触感覚との不一致」、Aへのdislikeは「日常との乖離・非対称への不安」という異なる理由から生じており、各ペルソナの生活環境と職業的感覚が投票に強く反映されている。時代・地域・職種が極めて多様な投票者層ながら、「自分の生活感覚に根ざしたもの」を選ぶ傾向は一致している。\n[batch 2] BとCが拮抗する展開となった。Bは詩的・象徴的なモチーフが刺さる層（行政・歴史・異文化背景）に強く支持されたが、若年・実務志向の投票者には「難解すぎる」として敬遠された。Cは視覚的具体性とトレンド感で現代的な感性の投票者に刺さり、Aはクワガタの親しみやすさでライト層に支持されたものの嫌悪票も集め、評価が割れる候補となった。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.9459101490553132,
+      "B": 2.1972245773362196,
+      "C": 1.9459101490553132
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

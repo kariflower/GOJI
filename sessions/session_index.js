@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-03-31T17:09:54Z",
+  "generated_at": "2026-04-01T05:45:59Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260401-110825-ab19",
+      "path": "./session-20260401-110825-ab19/assets/instructions/index.html",
+      "generated_at": "2026-04-01T05:45:50.378240Z",
+      "clip_count": 62,
+      "duration_sec": 130.89999999999998,
+      "section_count": 9,
+      "summary": "直径12mの円形石室——壁面を真鍮の波形パネルと歯車が覆い、CCTVの複数チャンネルが固定角度で記録し続ける計器室。映像は冒頭、タイムスタンプ00:00:00とともに鉛色のガウン裾が石床を静かに引きずる場面から始まる。三本足の鷺が床を横断する白色光の筋の上を踏むたびに、光は0.3mほど収縮する。圧力計の針が9から8.5へとゆっくり降下し、針のない真鍮時計が鎖で左右3cmの弧を描く——これらの微細な動作だけが、この空間に「まだ何かが動い…",
+      "song_file": "Eyes and the Mist.mp3"
+    },
     {
       "session_id": "session-20260331-234857-ed42",
       "path": "./session-20260331-234857-ed42/assets/instructions/index.html",
