@@ -1,0 +1,388 @@
+{
+  "proposals": [
+    {
+      "proposal_id": "sl2a-2529cc60",
+      "persona_id": "persona-2d4847ca",
+      "content": {
+        "chosen_base": "狐",
+        "chosen_feature": "和装",
+        "chosen_signature": "刺繍入りハンカチ",
+        "phase1_base": "狐",
+        "phase2_condition": "和装",
+        "phase3_anchor": "刺繍入りハンカチ",
+        "subject_concept": "狐(和装)",
+        "subject_signature": "刺繍入りハンカチ",
+        "why_it_came": "候補選択の自然な連想として「狐」「和装」が結びついたため。",
+        "who_should_watch": "不穏な象徴や身体の歪みを目で追いたい人",
+        "character_profile": {
+          "appearance_profile": "狐(和装)。外見の核は「和装」、識別の決め手は「刺繍入りハンカチ」。",
+          "motion_profile": "「和装」が読める動きを保ち、見せ場では「刺繍入りハンカチ」を明確に見せる。"
+        }
+      },
+      "created_at": "2026-04-02 02:43:05.955507",
+      "persona_name": "Rami Khoury",
+      "persona_profile": {
+        "id": "persona-2d4847ca",
+        "name": "Rami Khoury",
+        "gender": "Xジェンダー",
+        "birthdate": "1999-03-31",
+        "origin_city": "ヘルシンキ",
+        "ethnic_background": "中東系",
+        "life_history": [
+          {
+            "year": 1999,
+            "event": "ヘルシンキでレバノン系フィンランド人の両親のもとに生まれる。父は電気技師、母は薬剤師。"
+          },
+          {
+            "year": 2006,
+            "event": "小学校入学後、フィンランド語とアラビア語の両方で読み書きを学ぶ。放課後は祖母の家で過ごすことが多かった。"
+          },
+          {
+            "year": 2014,
+            "event": "高校で生物学に興味を持ち、学校の温室管理プロジェクトに参加。週末はスーパーマーケットでアルバイトを始める。"
+          },
+          {
+            "year": 2018,
+            "event": "大学進学を見送り、造園会社で見習いとして働き始める。同じ年に一人暮らしを開始。"
+          },
+          {
+            "year": 2021,
+            "event": "職業訓練校で園芸療法士の資格を取得。高齢者施設での実習を経験する。"
+          },
+          {
+            "year": 2023,
+            "event": "ヘルシンキ市内のリハビリテーションセンターに園芸療法士として正式採用される。"
+          },
+          {
+            "year": 2024,
+            "event": "センターで認知症患者向けの屋上庭園プログラムを立ち上げる。地域の園芸コミュニティにも参加し始める。"
+          }
+        ],
+        "current_situation": "ヘルシンキのカッリオ地区で一人暮らし。リハビリテーションセンターで週4日勤務し、患者と一緒に植物を育てている。休日は自転車で移動し、市内の公園や植物園を訪れることが多い。最近は料理にも興味を持ち、中東料理とフィンランド料理を組み合わせた献立を試している。",
+        "external_perception": {
+          "first_impression": "物静かで控えめ、少し距離を置いているように見える。服装はシンプルで実用的。",
+          "close_friends_view": "思いやりがあり、話をよく聞いてくれる。植物の話になると饒舌になる。自分のペースを大切にしている。",
+          "misunderstandings": "無口で冷たいと思われがちだが、実際は人と関わることを嫌っているわけではない。"
+        },
+        "stance_on_past": "あまり振り返らず前を向いている",
+        "proposal_history": [
+          {
+            "session": "phase2_ref_final_test",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": false
+          },
+          {
+            "session": "full_with_ref_final",
+            "phase": "Phase 1",
+            "my_proposal_summary": "呼びかけによって初めて形を持つ存在の、一瞬の顕現",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "full_with_ref_final",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 2,
+            "tally": 5,
+            "won": true
+          },
+          {
+            "session": "20260118_043935",
+            "phase": "Phase 1",
+            "my_proposal_summary": "再生されることでしか存在できない声と、それを聴き続けることでしか維持できない関係の話",
+            "rank": 4,
+            "tally": 4,
+            "won": false
+          },
+          {
+            "session": "20260118_043935",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 3,
+            "tally": 12,
+            "won": false
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-2d4847ca.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-ecc0de9f",
+      "persona_id": "persona-d5fe00d2",
+      "content": {
+        "chosen_base": "隠者",
+        "chosen_feature": "坊主頭・仁王立ち",
+        "chosen_signature": "過剰な勲章",
+        "subject_concept": "勲章だらけの坊主頭の隠者",
+        "subject_signature": "過剰な勲章",
+        "why_it_came": "制度に繰り返し名前を書き直させられた経験から、「認められること」の空虚さが骨に染みている。勲章を山ほど身につけながら誰とも目を合わせない人間の姿が、この楽曲の反抗と孤独の両面を一瞬で体現すると感じた。",
+        "who_should_watch": "周囲の期待に応え続けながら、それが本当に自分のものかどうか疑い始めた十代後半から二十代の人間。",
+        "character_profile": {
+          "appearance_profile": "剃り上げた頭に、胸から腹にかけて隙間なく勲章が縫い付けられた上着を着て仁王立ちしている。勲章の重さで上半身がわずかに前傾しているが、足は地面に根を張るように動かない。",
+          "motion_profile": "首だけをゆっくり横に向け、勲章が一拍遅れてかすかに揺れる。",
+          "drive": "与えられた称号をすべて身につけることで、逆にそのすべてを無効化しようとしている。",
+          "if_i_were": "一番古い勲章を一枚だけ外し、地面に置いてそこを起点に立つ。"
+        },
+        "phase1_base": "隠者",
+        "phase2_condition": "坊主頭・仁王立ち",
+        "phase3_anchor": "過剰な勲章"
+      },
+      "created_at": "2026-04-02 02:43:21.575514",
+      "persona_name": "Daniyor Yusupov",
+      "persona_profile": {
+        "id": "persona-d5fe00d2",
+        "name": "Daniyor Yusupov",
+        "gender": "男性",
+        "birthdate": "9299-12-23",
+        "age": 47,
+        "origin_city": "バンガロール",
+        "ethnic_background": "中央アジア系",
+        "life_history": [
+          {
+            "year": 9300,
+            "event": "バンガロール南部の集合住宅区画で、中央アジア系移民コミュニティの家庭に生まれる。父はウズベク系の補修技師、母はタジク系の布地商人だった。"
+          },
+          {
+            "year": 9308,
+            "event": "居住区一帯を管轄する行政府が突如再編され、コミュニティの外国籍登録制度が変更される。父の就労許可証が更新手続きの狭間で失効し、家族は区画外への転居を余儀なくされた。"
+          },
+          {
+            "year": 9315,
+            "event": "市北部の公立学校に編入するが、言語カリキュラムの標準化政策により、家庭で使っていたウズベク語・タジク語の授業が廃止されていた。"
+          },
+          {
+            "year": 9321,
+            "event": "父が勤務先の設備会社の倒産に伴い失業する。Daniyorは学業と並行して近隣の配送センターで短期雇用の仕分け作業に就いた。"
+          },
+          {
+            "year": 9329,
+            "event": "バンガロール工科連合の応用熱工学課程を修了し、郊外の水処理インフラ管理会社に正規雇用される。"
+          },
+          {
+            "year": 9334,
+            "event": "同社が広域インフラ統合法の施行に伴い国営化され、人員整理が実施される。Daniyorは技術職から行政補助職に配置転換された。"
+          },
+          {
+            "year": 9340,
+            "event": "外国籍系住民の市内居住証明に関する新規制が施行され、Daniyorは更新書類の不備を理由に居住区の変更を二度命じられた。"
+          },
+          {
+            "year": 9346,
+            "event": "現在の職場である市水道局の補修調整部門に異動し、現在に至る。"
+          }
+        ],
+        "current_situation": "バンガロール市水道局補修調整部門に勤務し、主に老朽管路の点検スケジュール管理を担当している。市東部の集合住宅に単身で居住しており、同じ棟に同郷出身の高齢者が数名暮らしている。週末には近隣の中央アジア系コミュニティセンターで開かれる相互扶助の集まりに顔を出すことがある。通勤は公共交通機関を利用し、徒歩移動の多い生活をしている。",
+        "external_perception": {
+          "first_impression": "物静かで言葉数が少なく、何かを測るように相手を観察している印象を与える。",
+          "close_friends_view": "一度信頼した相手には実務的な形で手を貸し、約束を違えることがない人物と見られている。",
+          "misunderstandings": "無口なために感情がないか、あるいは冷淡だと思われることが多いが、知人の間では違う評価をされている。"
+        },
+        "stance_on_past": "まだ傷として残っている",
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-d5fe00d2.png"
+      }
+    },
+    {
+      "proposal_id": "sl2a-9b23b7e4",
+      "persona_id": "persona-ba9b68ff",
+      "content": {
+        "chosen_base": "引きこもり",
+        "chosen_feature": "バンドエイド付き・無精髭",
+        "chosen_signature": "古い地図",
+        "subject_concept": "バンドエイド付き・無精髭の引きこもり",
+        "subject_signature": "古い地図",
+        "why_it_came": "市場で長年働いてきて、壁の向こうに閉じこもったまま出てこられない若者を何人も見てきた。父が行方不明になった後、母が外に出て商売を始めたように、閉じた場所にいる人間には必ず「地図」が要る。",
+        "who_should_watch": "学校や家にいられなくなって、自分の居場所を地図の上に探している十代の人間。",
+        "character_profile": {
+          "appearance_profile": "顔のあちこちにバンドエイドが貼られ、数日分の無精髭が生えた引きこもりの男。くたびれた服の裾はほつれかけている。",
+          "motion_profile": "古い地図を両手で広げては折りたたみ、また広げるという動作を、立ち止まったまま繰り返す。",
+          "drive": "自分がいるべき場所が地図のどこかに必ずあるという確信と、そこへ向かう一歩を踏み出せない恐れが、同時に体の中に居座っている。",
+          "if_i_were": "薄暗い部屋の隅で古い地図を床に広げ、バンドエイドの貼られた指先で出口を探す。"
+        },
+        "phase1_base": "引きこもり",
+        "phase2_condition": "バンドエイド付き・無精髭",
+        "phase3_anchor": "古い地図"
+      },
+      "created_at": "2026-04-02 02:43:49.336828",
+      "persona_name": "Lakshmi Fernandes",
+      "persona_profile": {
+        "id": "persona-ba9b68ff",
+        "name": "Lakshmi Fernandes",
+        "gender": "女性",
+        "birthdate": "1857-08-01",
+        "age": 51,
+        "origin_city": "リオデジャネイロ",
+        "ethnic_background": "南アジア系",
+        "life_history": [
+          {
+            "year": 1857,
+            "event": "リオデジャネイロの港湾地区で、インド・ゴア出身の船員の父とブラジル系母の間に生まれた。"
+          },
+          {
+            "year": 1863,
+            "event": "父が航海中に行方不明となり、母が洗濯業を始めて生計を立てるようになった。"
+          },
+          {
+            "year": 1871,
+            "event": "修道院付属の慈善学校で読み書きを習い、ポルトガル語と簡単な算術を学んだ。"
+          },
+          {
+            "year": 1874,
+            "event": "母の紹介で裕福な商人の家で家政婦として働き始めた。住み込みで週に6日勤務した。"
+          },
+          {
+            "year": 1882,
+            "event": "雇い主の家族がサンパウロへ移転する際、同行せず港近くの共同住宅に部屋を借りた。"
+          },
+          {
+            "year": 1887,
+            "event": "知人の紹介で小さな市場の野菜売り場で働くようになり、朝5時から午後2時までの勤務を続けた。"
+          },
+          {
+            "year": 1903,
+            "event": "同じ市場で働く年配の魚売りの女性と共同で小さな店舗スペースを借り、乾物と香辛料を扱い始めた。"
+          }
+        ],
+        "current_situation": "リオデジャネイロ中心部の市場で乾物と香辛料を扱う小さな店を共同経営している。早朝4時に起きて仕入れに行き、午後3時頃まで店に立つ。共同住宅の一室に住んでおり、隣人たちと夕食を共にすることが多い。日曜日は近所の教会に通い、午後は市場の仲間と雑談をして過ごす。",
+        "external_perception": {
+          "first_impression": "無口で近寄りがたく、商売の話以外はほとんどしない人物に見える。",
+          "close_friends_view": "長年の付き合いがある市場の仲間からは、困った時に黙って助けてくれる信頼できる人だと思われている。",
+          "misunderstandings": "冷たく孤独な性格だと思われがちだが、実際には他人との距離の取り方を長年かけて学んだだけである。"
+        },
+        "stance_on_past": "笑い話にできるようになった",
+        "proposal_history": [
+          {
+            "session": "session-smoke-20260125-033105",
+            "phase": "Phase 2a",
+            "my_proposal_summary": "誰: ? / 場所: ?",
+            "rank": 1,
+            "tally": 8,
+            "won": true
+          }
+        ],
+        "portrait_url": "sessions/persona_pool_v2/portraits/persona-ba9b68ff.png"
+      }
+    }
+  ],
+  "voting": {
+    "selection_mode": "vote10_like_dislike",
+    "candidate_keys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "candidate_map": {
+      "A": "sl2a-2529cc60",
+      "B": "sl2a-ecc0de9f",
+      "C": "sl2a-9b23b7e4"
+    },
+    "tally": {
+      "A": 8,
+      "B": 6,
+      "C": 6
+    },
+    "like_tally": {
+      "A": 5,
+      "B": 0,
+      "C": 5
+    },
+    "dislike_tally": {
+      "A": 3,
+      "B": 6,
+      "C": 1
+    },
+    "votes": [
+      {
+        "voter": "Phraya Suwan Chantharaksa",
+        "like": "A",
+        "like_reason": "狐と和装、刺繍入りハンカチという組み合わせは、自分が慣れ親しんだ精霊信仰や布への敬意と重なる。華やかさの中に霊的な奥行きを感じる。",
+        "dislike": "B",
+        "dislike_reason": "勲章が「過剰」という設定が、長老の目には虚飾に映る。権威を誇示することへの嫌悪感がある。"
+      },
+      {
+        "voter": "Kwame al-Fahd",
+        "like": "C",
+        "like_reason": "引きこもり・古い地図という組み合わせに、狭い空間で内側を生きる自分の日常と通じるものを感じる。バンドエイドと無精髭も生活感があってリアルだ。",
+        "dislike": "A",
+        "dislike_reason": "狐・和装・刺繍ハンカチは自分の文化的文脈から遠く、どこか飾り物めいて実感が湧かない。"
+      },
+      {
+        "voter": "Aryan Sukhdev",
+        "like": "A",
+        "like_reason": "狐は水運集落の話にも出てくる霊的な存在で親しみがある。和装と刺繍ハンカチは香辛料店で見かける遠方の商人の持ち物を思い起こさせ、異国への好奇心をくすぐる。",
+        "dislike": "B",
+        "dislike_reason": "坊主頭の仁王立ちと過剰な勲章の組み合わせは威圧的で、商売の場で苦手にしている権力者の姿と重なる。"
+      },
+      {
+        "voter": "ゆうと",
+        "like": "C",
+        "like_reason": "引きこもり・バンドエイド・古い地図という設定は、自分を含む平凡な人間の孤独感に近い。感情移入しやすくて素直に見たいと思う。",
+        "dislike": "B",
+        "dislike_reason": "仁王立ちに過剰な勲章というビジュアルは、自分には縁遠い「強さ」の記号で正直テンションが上がらない。"
+      },
+      {
+        "voter": "ラクシュミ・ナラヤナン",
+        "like": "A",
+        "like_reason": "狐は南インドの民話にも変身する賢い存在として登場する。和装の優美さと刺繍入りハンカチの丁寧な細工に、ものを大切にする精神を感じて好ましい。",
+        "dislike": "C",
+        "dislike_reason": "引きこもりという状態は、家族や集落のつながりを重んじる自分の価値観と相容れない。見ていて心が沈む。"
+      },
+      {
+        "voter": "Catalina Isabel de Fuentes",
+        "like": "A",
+        "like_reason": "狐と和装の組み合わせは繊細で美しく、刺繍入りハンカチは日常の職人仕事を彷彿とさせる。染料や布地を扱う身として、衣装と小物への親しみがある。",
+        "dislike": "B",
+        "dislike_reason": "隠者に勲章の組み合わせは矛盾が過剰で、商人としての実用的な感覚に合わない。見栄えが滑稽すぎて物語に入り込めない。"
+      },
+      {
+        "voter": "Kwesi Liang",
+        "like": "C",
+        "like_reason": "引きこもりで古い地図を持つ人物は、昔話のネタとして豊かだ。港で荷物を管理しながら世界を夢想してきた自分と重なる。",
+        "dislike": "A",
+        "dislike_reason": "狐と和装は洗練されすぎていて、広場で話す庶民向けの話には向かない。距離感を感じる。"
+      },
+      {
+        "voter": "Concepción Yue Xiulan",
+        "like": "A",
+        "like_reason": "狐は中国・日本の民間信仰に深く根ざしており、和装と刺繍ハンカチの組み合わせは薬草商として親しんできた東洋的な美意識と共鳴する。",
+        "dislike": "B",
+        "dislike_reason": "過剰な勲章は俗物的な虚栄心を感じさせ、隠者という内省的な人物像と矛盾している。見ていて落ち着かない。"
+      },
+      {
+        "voter": "たなか りさ",
+        "like": "C",
+        "like_reason": "バンドエイドと無精髭でちょっとボロボロな感じがリアルでキャラとして好き。古い地図も冒険っぽくてワクワクする。",
+        "dislike": "B",
+        "dislike_reason": "坊主頭に勲章いっぱいって、なんか怖いというかダサい感じがして、正直あまり見たくない。"
+      },
+      {
+        "voter": "Siti Rahayu al-Masri",
+        "like": "C",
+        "like_reason": "引きこもりという内面的な葛藤と古い地図という希望の残滓の組み合わせが、現代的な孤独感と共鳴する。コンサルタントとして各地を飛び回りながら感じる「帰れない感覚」と重なる。",
+        "dislike": "A",
+        "dislike_reason": "狐×和装は映像的には美しいが、物語の深みとしてはステレオタイプに収まりやすく、グローバルな文脈での独自性が薄い。"
+      }
+    ],
+    "analysis": "[batch 1] Aが3票のlikeを集め、共通の霊的・文化的親しみやすさと物への敬意が支持理由となった。Cは現代的孤独感に共鳴する2票を得た一方、家族共同体を重視するペルソナからはdislikeを受けた。Bは権威・威圧のイメージが複数のペルソナに嫌われ、likeは得られなかった。\n[batch 2] Cが3票のlikeを集め最も支持が高い。引きこもり×古い地図の組み合わせが現代的な孤独や冒険心と普遍的に響いた。Aは東洋的審美眼を持つペルソナ（Catalina、Concepción）に支持されたが、庶民的・グローバル視点からは距離感も指摘された。Bは隠者×過剰な勲章の内部矛盾が複数から不快感を呼び、dislikeが集中した。",
+    "is_tiebreak": false,
+    "tiebreak_reason": null,
+    "goji_vote": null,
+    "controversy_scores": {
+      "A": 1.6479184330021646,
+      "B": 0.0,
+      "C": 0.6486367163517711
+    },
+    "vote_health": {
+      "valid_ballot_count": 10,
+      "total_like_count": 10,
+      "quorum_met": true,
+      "quorum_threshold": 2,
+      "reason": null,
+      "error": null,
+      "fallback": null
+    }
+  }
+}

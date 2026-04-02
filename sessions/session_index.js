@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-04-01T17:54:33Z",
+  "generated_at": "2026-04-02T05:39:22Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260402-113731-6b19",
+      "path": "./session-20260402-113731-6b19/assets/instructions/index.html",
+      "generated_at": "2026-04-02T05:39:12.771448Z",
+      "clip_count": 83,
+      "duration_sec": 213.5,
+      "section_count": 8,
+      "summary": "薄暗い石造りの地下通路。壁面に埋め込まれた魔法刻印板の青白い数字が点滅しながらカウントを刻み、天井の溶岩亀裂が橙色に微かに脈動する。蛍光灯が明滅するたびに廊下の影が揺れ、和装の狐が後ろ姿のまま刻印板の前に静止している——白足袋の爪先が石畳の継ぎ目に触れ、袖に忍ばせた鶴刺繍のハンカチが布の内側でわずかに揺れている。扉の隙間から一本の白熱した光の筋が石畳を横断し、その境界線が彼女を影側と光側に分断する。彼女はゆっくりと白足袋を光側へ踏み込…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260401-234051-a840",
       "path": "./session-20260401-234051-a840/assets/instructions/index.html",
