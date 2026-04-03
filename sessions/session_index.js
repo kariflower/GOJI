@@ -1,9 +1,19 @@
 window.SESSION_MANIFEST = Object.freeze((function(){
   const payload = 
 {
-  "generated_at": "2026-04-02T05:39:22Z",
+  "generated_at": "2026-04-03T08:56:01Z",
   "source": "publish_sessions_to_public_repo",
   "sessions": [
+    {
+      "session_id": "session-20260403-115759-6693",
+      "path": "./session-20260403-115759-6693/assets/instructions/index.html",
+      "generated_at": "2026-04-03T08:55:52.027289Z",
+      "clip_count": 94,
+      "duration_sec": 213.60000000000005,
+      "section_count": 8,
+      "summary": "白壁・蛍光管三列・鉄扉だけが存在する送信管理補助室。画面はその閉じた空間を一度も離れない。白い制服シャツの少年が背中を向けて立ち、呼吸による微かな体幹の上下だけが時間の経過を示す。シャツ越しに肩甲骨の間から青緑（#00E5CC）の記録腺微光がうっすら透け、吸気で膨張し呼気で収縮する。壁には逸脱スコアの数字が浮かびかけるが少年は振り返らない。蛍光管の色温度が白から黄へとじわりと変化し始め、やがて少年は前腕に装着した複眼型撮影器官をゆっく…",
+      "song_file": "わからないから.mp3"
+    },
     {
       "session_id": "session-20260402-113731-6b19",
       "path": "./session-20260402-113731-6b19/assets/instructions/index.html",
